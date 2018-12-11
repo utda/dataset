@@ -76,7 +76,67 @@
 
   </main>
 
-  <footer class="text-muted text-center bg-light">
+  <div class="album py-5 bg-light" style="display : none;" id="album">
+    <div class="container">
+      <h1 class="jumbotron-heading text-center mb-5">利用例</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../html/assets/images/excel.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">メタデータの一覧をMS Excel形式でダウンロードする</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a id="excel" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../html/assets/images/graph-draw.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"><a href="https://www.kanzaki.com/works/2014/pub/ld-browser">Linked Data Browser</a>でメタデータの一覧を閲覧する</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a id="ld" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../html/assets/images/iiif.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">IIIFコレクションをUniversal Viewerで閲覧する</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a id="iiif" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../html/assets/images/vis.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">メタデータの集計結果を可視化する</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a id="vis" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-muted text-center">
     <div class="container">
       <p>東京大学学術資産等アーカイブズ委員会事務局</p>
       <p>（東京大学附属図書館総務課／学術資産アーカイブ化推進室）</p>
@@ -100,6 +160,14 @@
   }
 
   var site_name = arg["site_name"] ? arg["site_name"] : ""
+
+  if(site_name != ""){
+    $("#album").show()
+    $("#excel").attr("href", "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.xlsx")
+    $("#ld").attr("href", "https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.json")
+    $("#iiif").attr("href", "https://universalviewer.io/uv.html?manifest=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/image/collection.json")
+    $("#vis").attr("href", "../html/vis.html?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.json")
+  }
 
   //var site_name = "chokumei"
   $("#github").attr("href", "https://github.com/utda/dataset/tree/master/docs/collections/"+site_name)
