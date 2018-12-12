@@ -12,7 +12,7 @@
 </dd>
 <dt>メタデータ</dt>
 <dd>
-コレクション中のアイテムのメタデータの一覧をCSV, MS-Excel, JSON-LD形式で提供します。
+コレクション中のアイテムのメタデータの一覧を表形式（MS-Excel, CSV, TSC）とRDF形式（JSON-LD, RDF/XML, Turtle, N-Triples）で提供します。
 </dd>
 <dt>テキスト</dt>
 <dd>
@@ -36,9 +36,13 @@ docs/collections
 |   │   │   collection.json
 |   │
 |   └───metadata
-|   │   │   data.json
 |   │   │   data.xlsx
 |   │   │   data.csv   
+|   │   │   data.tsv  
+|   │   │   data.json
+|   │   │   data.rdf
+|   │   │   data.nt
+|   │   │   data.ttl
 |   │
 |   └───text
 |       └───rtf   
