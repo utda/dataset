@@ -30,17 +30,17 @@ def parse_args(args=sys.argv[1:]):
 def excel_generator(site_name, arg_item_set_id):
     label_map = dict()
     label_map["bibo:identifier"] = "ID"
-    label_map["dcterms:isPartOf"] = "サイトURL"
+    label_map["dcterms:isPartOf"] = "ウェブサイトURL"
     label_map["dcterms:relation"] = "アイテムURL"
     label_map["dcterms:rights"] = "利用条件"
     label_map["dcterms:title"] = "タイトル"
     label_map["foaf:thumbnail"] = "サムネイル"
-    label_map["rdfs:seeAlso"] = "機械可読データ"
-    label_map["sc:attributionLabel"] = "所蔵"
+    label_map["rdfs:seeAlso"] = "機械可読ドキュメント"
+    label_map["sc:attributionLabel"] = "帰属"
     label_map["sc:viewingDirection"] = "viewingDirection"
-    label_map["uterms:databaseLabel"] = "コレクション名"
-    label_map["uterms:manifestUri"] = "マニフェストURI"
-    label_map["uterms:sort"] = "ソート用"
+    label_map["uterms:databaseLabel"] = "コレクション"
+    label_map["uterms:manifestUri"] = "IIIFマニフェストURI"
+    label_map["uterms:sort"] = "ソート用項目"
     label_map["uterms:year"] = "年"
 
     table = []
@@ -155,6 +155,7 @@ def excel_generator(site_name, arg_item_set_id):
 
     df.to_excel(output_path, index=False, header=False)
     df.to_csv(output_path.replace("xlsx", "csv"), index=False, header=False)
+    df.to_csv(output_path.replace("xlsx", "tsv"), index=False, header=False, sep='\t')
 
 
 if __name__ == "__main__":

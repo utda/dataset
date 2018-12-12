@@ -3,6 +3,7 @@ import urllib
 import json
 import argparse
 import urllib.request
+from rdflib import URIRef, BNode, Literal, Graph
 
 
 def parse_args(args=sys.argv[1:]):
@@ -61,6 +62,15 @@ def ld_generator(site_name, arg_item_set_id):
 
     fw = open(output_path, 'w')
     json.dump(collection, fw, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+
+    ld_str = json.dumps(collection)
+
+    g = Graph().parse(data=ld_str, format='json-ld')
+
+    # g.serialize(format='n3', destination=output_path.replace(".json", ".n3"))
+    g.serialize(format='nt', destination=output_path.replace(".json", ".nt"))
+    g.serialize(format='turtle', destination=output_path.replace(".json", ".ttl"))
+    g.serialize(format='pretty-xml', destination=output_path.replace(".json", ".rdf"))
 
 
 if __name__ == "__main__":
