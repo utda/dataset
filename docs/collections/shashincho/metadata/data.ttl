@@ -1,0 +1,690 @@
+@prefix ns1: <http://omeka.org/s/vocabs/o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14> a ns1:Item,
+        <http://purl.org/dc/dcmitype/Image> ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:alternative "異なりアクセスタイトル:東京帝国大学" ;
+    ns3:callNumber "K40:1771" ;
+    ns3:sourceIdentifier "0011714474" ;
+    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns1:id 14 ;
+    ns1:is_public true ;
+    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4> ;
+    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/116>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/117>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/118>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/119>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/120>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/121>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/122>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/123>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/124>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/126>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/127>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/128>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/129>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/130>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/131>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/132>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/133>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/134>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/135>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/136>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/137>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/138>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/139>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/140>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/141>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/142>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/143>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/144>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/145>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/146>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/147>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/148>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/149>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/150>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/151>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/152>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/153>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/154>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/155>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/156>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/157>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/158>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/159>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/160>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/161>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/162>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/163>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/164>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/165>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/166>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/167>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/168>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/169>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/171>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/173>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/174>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/175>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/176>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/177>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/179>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/180>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/181>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/182>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/183>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/184>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/185>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/186>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/187>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/188>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/189> ;
+    ns1:modified "2018-08-12T15:41:17+00:00"^^xsd:dateTime ;
+    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns2:creator "東京帝国大学 <トウキョウ テイコク ダイガク>" ;
+    ns2:date "1900.4" ;
+    ns2:description """東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8\r
+2冊 28×37-38cm\r
+ [明治33年版] K40:1771 東京大学総合図書館書庫(コレクション室)\r
+ [明治37年版] K400:257 東京大学総合図書館書庫(コレクション室)\r
+\r
+ 明治30年代の東京帝国大学を撮影した大判横長の写真帖。明治33(1900)年のものは、フランス・パリの万国博覧会、明治37(1904)年のものは、米国・セントルイスの万国博覧会に出品するために製作された。当時の総長、前総長や部局長、教授たちの肖像と校舎設備の状況を撮影した写真を収録し、序文や見出しなどには英文が併記されている。明治37年版(南葵文庫本)では、明治33年版に比べて、新築校舎や新任教員の肖像写真を加えるなどの増補がなされている。\r
+\r
+ 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。""" ;
+    ns2:extent "1冊(おもに図) ; 28×38cm" ;
+    ns2:identifier "2000844633",
+        "BN11816230" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/> ;
+    ns2:language "日本語" ;
+    ns2:publisher "東京 : 小川冩眞製版所" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/952f7be5-2dec-40a7-b28a-0d5ccc91124e> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:title "写真帖『東京帝國大學』明治33年(1900)年版" ;
+    ns6:identifier "952f7be5-2dec-40a7-b28a-0d5ccc91124e" ;
+    ns4:databaseLabel "写真帖『東京帝國大學』" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14/manifest> ;
+    rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14> ;
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/116/full/200,151/0/default.jpg> .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/15> a ns1:Item,
+        <http://purl.org/dc/dcmitype/Image> ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "K400:257" ;
+    ns3:sourceIdentifier "0004021663" ;
+    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns1:id 15 ;
+    ns1:is_public true ;
+    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4> ;
+    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/190>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/191>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/192>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/193>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/194>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/195>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/196>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/197>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/198>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/199>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/200>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/201>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/202>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/203>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/204>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/205>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/206>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/207>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/208>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/209>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/210>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/211>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/212>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/213>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/214>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/215>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/216>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/217>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/218>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/219>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/220>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/223>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/224>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/225>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/226>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/227>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/228>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/229>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/230>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/231>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/232>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/233>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/234>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/235>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/236>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/237>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/238>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/239>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/240>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/241>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/242>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/243>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/244>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/245>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/246>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/247>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/248>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/249>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/250>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/251>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/252>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/253>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/254>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/255>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/256>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/257>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/258>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/259>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/260>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/261>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/262>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/263>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/264>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/265>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/266>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/267>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/268>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/269>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/270>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/272>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/273>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/274>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/276>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/277>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/278>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/279>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/281>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/282>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/283>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/284>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/285>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/286>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/287>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/288>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/289>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/290>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/291>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/292>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/293>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/294>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/295>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/296>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/297>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/298>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/299>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/300>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/301>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/302>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/303>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/304>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/305>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/306>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/307>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/308>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/309>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/310>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/311>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/312>,
+        <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/313> ;
+    ns1:modified "2018-08-12T15:41:17+00:00"^^xsd:dateTime ;
+    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns2:date "1904" ;
+    ns2:description """東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8\r
+2冊 28×37-38cm\r
+ [明治33年版] K40:1771 東京大学総合図書館書庫(コレクション室)\r
+ [明治37年版] K400:257 東京大学総合図書館書庫(コレクション室)\r
+\r
+ 明治30年代の東京帝国大学を撮影した大判横長の写真帖。明治33(1900)年のものは、フランス・パリの万国博覧会、明治37(1904)年のものは、米国・セントルイスの万国博覧会に出品するために製作された。当時の総長、前総長や部局長、教授たちの肖像と校舎設備の状況を撮影した写真を収録し、序文や見出しなどには英文が併記されている。明治37年版(南葵文庫本)では、明治33年版に比べて、新築校舎や新任教員の肖像写真を加えるなどの増補がなされている。\r
+\r
+ 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。""" ;
+    ns2:extent "1 v. : chiefly ill. ; 28 × 37 cm" ;
+    ns2:identifier "2001912678",
+        "BA1640866X" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/> ;
+    ns2:language "英語" ;
+    ns2:publisher "Tokyo : K. Ogawa" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/8b0089a9-66fc-4833-ab13-21d92f7f7aa4> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:title "写真帖『東京帝國大學』明治37年(1904)年版" ;
+    ns6:identifier "8b0089a9-66fc-4833-ab13-21d92f7f7aa4" ;
+    ns4:databaseLabel "写真帖『東京帝國大學』" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/15/manifest> ;
+    rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/15> ;
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/190/full/200,151/0/default.jpg> .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/116> ns1:id 116 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/117> ns1:id 117 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/118> ns1:id 118 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/119> ns1:id 119 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/120> ns1:id 120 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/121> ns1:id 121 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/122> ns1:id 122 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/123> ns1:id 123 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/124> ns1:id 124 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125> ns1:id 125 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/126> ns1:id 126 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/127> ns1:id 127 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/128> ns1:id 128 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/129> ns1:id 129 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/130> ns1:id 130 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/131> ns1:id 131 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/132> ns1:id 132 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/133> ns1:id 133 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/134> ns1:id 134 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/135> ns1:id 135 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/136> ns1:id 136 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/137> ns1:id 137 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/138> ns1:id 138 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/139> ns1:id 139 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/140> ns1:id 140 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/141> ns1:id 141 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/142> ns1:id 142 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/143> ns1:id 143 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/144> ns1:id 144 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/145> ns1:id 145 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/146> ns1:id 146 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/147> ns1:id 147 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/148> ns1:id 148 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/149> ns1:id 149 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/150> ns1:id 150 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/151> ns1:id 151 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/152> ns1:id 152 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/153> ns1:id 153 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/154> ns1:id 154 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/155> ns1:id 155 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/156> ns1:id 156 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/157> ns1:id 157 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/158> ns1:id 158 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/159> ns1:id 159 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/160> ns1:id 160 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/161> ns1:id 161 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/162> ns1:id 162 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/163> ns1:id 163 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/164> ns1:id 164 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/165> ns1:id 165 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/166> ns1:id 166 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/167> ns1:id 167 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/168> ns1:id 168 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/169> ns1:id 169 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170> ns1:id 170 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/171> ns1:id 171 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172> ns1:id 172 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/173> ns1:id 173 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/174> ns1:id 174 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/175> ns1:id 175 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/176> ns1:id 176 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/177> ns1:id 177 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178> ns1:id 178 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/179> ns1:id 179 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/180> ns1:id 180 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/181> ns1:id 181 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/182> ns1:id 182 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/183> ns1:id 183 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/184> ns1:id 184 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/185> ns1:id 185 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/186> ns1:id 186 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/187> ns1:id 187 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/188> ns1:id 188 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/189> ns1:id 189 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/190> ns1:id 190 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/191> ns1:id 191 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/192> ns1:id 192 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/193> ns1:id 193 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/194> ns1:id 194 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/195> ns1:id 195 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/196> ns1:id 196 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/197> ns1:id 197 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/198> ns1:id 198 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/199> ns1:id 199 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/200> ns1:id 200 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/201> ns1:id 201 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/202> ns1:id 202 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/203> ns1:id 203 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/204> ns1:id 204 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/205> ns1:id 205 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/206> ns1:id 206 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/207> ns1:id 207 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/208> ns1:id 208 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/209> ns1:id 209 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/210> ns1:id 210 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/211> ns1:id 211 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/212> ns1:id 212 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/213> ns1:id 213 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/214> ns1:id 214 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/215> ns1:id 215 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/216> ns1:id 216 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/217> ns1:id 217 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/218> ns1:id 218 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/219> ns1:id 219 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/220> ns1:id 220 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221> ns1:id 221 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222> ns1:id 222 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/223> ns1:id 223 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/224> ns1:id 224 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/225> ns1:id 225 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/226> ns1:id 226 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/227> ns1:id 227 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/228> ns1:id 228 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/229> ns1:id 229 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/230> ns1:id 230 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/231> ns1:id 231 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/232> ns1:id 232 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/233> ns1:id 233 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/234> ns1:id 234 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/235> ns1:id 235 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/236> ns1:id 236 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/237> ns1:id 237 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/238> ns1:id 238 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/239> ns1:id 239 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/240> ns1:id 240 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/241> ns1:id 241 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/242> ns1:id 242 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/243> ns1:id 243 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/244> ns1:id 244 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/245> ns1:id 245 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/246> ns1:id 246 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/247> ns1:id 247 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/248> ns1:id 248 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/249> ns1:id 249 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/250> ns1:id 250 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/251> ns1:id 251 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/252> ns1:id 252 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/253> ns1:id 253 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/254> ns1:id 254 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/255> ns1:id 255 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/256> ns1:id 256 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/257> ns1:id 257 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/258> ns1:id 258 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/259> ns1:id 259 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/260> ns1:id 260 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/261> ns1:id 261 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/262> ns1:id 262 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/263> ns1:id 263 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/264> ns1:id 264 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/265> ns1:id 265 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/266> ns1:id 266 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/267> ns1:id 267 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/268> ns1:id 268 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/269> ns1:id 269 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/270> ns1:id 270 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271> ns1:id 271 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/272> ns1:id 272 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/273> ns1:id 273 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/274> ns1:id 274 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275> ns1:id 275 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/276> ns1:id 276 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/277> ns1:id 277 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/278> ns1:id 278 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/279> ns1:id 279 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280> ns1:id 280 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/281> ns1:id 281 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/282> ns1:id 282 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/283> ns1:id 283 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/284> ns1:id 284 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/285> ns1:id 285 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/286> ns1:id 286 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/287> ns1:id 287 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/288> ns1:id 288 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/289> ns1:id 289 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/290> ns1:id 290 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/291> ns1:id 291 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/292> ns1:id 292 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/293> ns1:id 293 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/294> ns1:id 294 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/295> ns1:id 295 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/296> ns1:id 296 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/297> ns1:id 297 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/298> ns1:id 298 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/299> ns1:id 299 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/300> ns1:id 300 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/301> ns1:id 301 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/302> ns1:id 302 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/303> ns1:id 303 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/304> ns1:id 304 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/305> ns1:id 305 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/306> ns1:id 306 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/307> ns1:id 307 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/308> ns1:id 308 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/309> ns1:id 309 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/310> ns1:id 310 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/311> ns1:id 311 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/312> ns1:id 312 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/313> ns1:id 313 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4> ns1:id 4 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns1:id 6 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+
