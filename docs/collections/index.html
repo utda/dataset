@@ -11,6 +11,10 @@
   <title>東京大学学術資産等アーカイブズ共用サーバ - データセット</title>
 
   <style>
+  body {
+    word-wrap: break-word
+  }
+
   :root {
     --jumbotron-padding-y: 3rem;
   }
@@ -67,14 +71,61 @@
     <section class="jumbotron text-center">
       <div class="container">
         <p class="lead text-muted">データセットはGitHub上で公開しています。<br/>以下のURLから当該ページにアクセスしてください。</p>
-        <p>
-          <a id="github" class="my-2">GitHub</a>
+        <p class="lead text-muted">
+          <a id="github" class="my-2"></a>
         </p>
         <p class="lead text-muted mt-5">データセットの説明については<a href="https://github.com/utda/dataset">こちら</a>をご確認ください。</p>
       </div>
     </section>
 
   </main>
+
+  <div class="album py-5 bg-light" style="display : none;" id="example">
+    <div class="container">
+      <h1 class="jumbotron-heading text-center mb-5">コレクション例</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="https://www.lib.u-tokyo.ac.jp/sites/default/files/styles/max_350_215/public/eyecatching/2018-08/coll-tanakahakubutsugaku.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">【総合図書館】田中芳男・博物学コレクション</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="?collection=tanaka" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="https://www.lib.u-tokyo.ac.jp/sites/default/files/styles/max_350_215/public/2017/05/dc-koshuhatto.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">【法学部】法学部法制史資料室所蔵コレクション</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="?collection=law" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="https://www.lib.u-tokyo.ac.jp/sites/default/files/styles/max_350_215/public/eyecatching/2018-09/fujikawa1.png?" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">【教育学部】富士川文庫</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="?collection=fujikawa" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="album py-5 bg-light" style="display : none;" id="album">
     <div class="container">
@@ -84,7 +135,7 @@
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="../html/assets/images/excel.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">メタデータの一覧をMS Excel形式でダウンロードする</p>
+              <p class="card-text">メタデータをMS Excel形式でダウンロードする</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a id="excel" class="btn btn-sm btn-outline-secondary">Download</a>
@@ -97,7 +148,7 @@
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="../html/assets/images/graph-draw.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text"><a href="https://www.kanzaki.com/works/2014/pub/ld-browser">Linked Data Browser</a>でメタデータの一覧を閲覧する</p>
+              <p class="card-text"><a href="https://www.kanzaki.com/works/2014/pub/ld-browser">Linked Data Browser</a>でRDFを閲覧する</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a id="ld" class="btn btn-sm btn-outline-secondary">View</a>
@@ -123,7 +174,7 @@
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="../html/assets/images/vis.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">メタデータの集計結果を可視化する</p>
+              <p class="card-text">メタデータの集計結果を閲覧する</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a id="vis" class="btn btn-sm btn-outline-secondary">View</a>
@@ -159,19 +210,21 @@
     arg[k[0]] = decodeURIComponent(k[1]);
   }
 
-  var site_name = arg["site_name"] ? arg["site_name"] : ""
+  var collection = arg["collection"] ? arg["collection"] : ""
 
-  if(site_name != ""){
+  if(collection != ""){
     $("#album").show()
-    $("#excel").attr("href", "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.xlsx")
-    $("#ld").attr("href", "https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.json")
-    $("#iiif").attr("href", "https://universalviewer.io/uv.html?manifest=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/image/collection.json")
-    $("#vis").attr("href", "../html/vis.html?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+site_name+"/metadata/data.json")
+    $("#excel").attr("href", "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/metadata/data.xlsx")
+    $("#ld").attr("href", "https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/metadata/data.json")
+    $("#iiif").attr("href", "https://universalviewer.io/uv.html?manifest=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/image/collection.json")
+    $("#vis").attr("href", "../html/vis.html?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/metadata/data.json")
+  } else {
+    $("#example").show()
   }
 
-  //var site_name = "chokumei"
-  $("#github").attr("href", "https://github.com/utda/dataset/tree/master/docs/collections/"+site_name)
-  $("#github").text("https://github.com/utda/dataset/tree/master/docs/collections/"+site_name)
+  //var collection = "chokumei"
+  $("#github").attr("href", "https://github.com/utda/dataset/tree/master/docs/collections/"+collection)
+  $("#github").text("https://github.com/utda/dataset/tree/master/docs/collections/"+collection)
   </script>
 </body>
 </html>
