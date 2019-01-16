@@ -5,6 +5,7 @@ import argparse
 import urllib.request
 import unicodedata
 import pandas as pd
+import collections
 
 
 def parse_args(args=sys.argv[1:]):
@@ -28,26 +29,30 @@ def parse_args(args=sys.argv[1:]):
 
 
 def excel_generator(site_name, arg_item_set_id):
-    label_map = dict()
-    label_map["bibo:identifier"] = "ID"
-    label_map["dcterms:isPartOf"] = "ウェブサイトURL"
-    label_map["dcterms:relation"] = "アイテムURL"
-    label_map["dcterms:rights"] = "利用条件"
+    label_map = collections.OrderedDict()
     label_map["dcterms:title"] = "タイトル"
-    label_map["foaf:thumbnail"] = "サムネイル"
-    label_map["rdfs:seeAlso"] = "機械可読ドキュメント"
-    label_map["sc:attributionLabel"] = "帰属"
-    label_map["sc:viewingDirection"] = "viewingDirection"
-    label_map["uterms:databaseLabel"] = "コレクション"
-    label_map["uterms:manifestUri"] = "IIIFマニフェストURI"
-    label_map["uterms:sort"] = "ソート用項目"
-    label_map["uterms:year"] = "年"
+
+    # 共用サーバで利用する独自語彙集
+    default_map = collections.OrderedDict()
+    default_map["bibo:identifier"] = "ID"
+    default_map["dcterms:isPartOf"] = "ウェブサイトURL"
+    default_map["dcterms:relation"] = "アイテムURL"
+    default_map["dcterms:rights"] = "利用条件"
+    default_map["foaf:thumbnail"] = "サムネイル"
+    default_map["rdfs:seeAlso"] = "機械可読ドキュメント"
+    default_map["sc:attributionLabel"] = "帰属"
+    default_map["sc:viewingDirection"] = "viewingDirection"
+    default_map["uterms:databaseLabel"] = "コレクション"
+    default_map["uterms:manifestUri"] = "IIIFマニフェストURI"
+    default_map["uterms:sort"] = "ソート用項目"
+    default_map["uterms:year"] = "西暦"
+
+    # templateで規定されていない語彙集
+    etc_map = collections.OrderedDict()
 
     table = []
     rows = []
-    keySet = {}
     template_arr = []
-    sorted_keys = []
 
     api_url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api"
 
@@ -55,6 +60,7 @@ def excel_generator(site_name, arg_item_set_id):
 
     item_set_arr = arg_item_set_id.split(",")
 
+    # item_set_id毎に実行
     for item_set_id in item_set_arr:
 
         loop_flg = True
@@ -71,13 +77,14 @@ def excel_generator(site_name, arg_item_set_id):
             response = urllib.request.urlopen(request)
 
             response_body = response.read().decode("utf-8")
-            data = json.loads(response_body.split('\n')[0])
+            data = json.loads(response_body)
 
             if len(data) > 0:
                 for i in range(len(data)):
 
                     obj = data[i]
 
+                    # テンプレート情報の保存
                     if obj["o:resource_template"] != None:
 
                         template_id = obj["o:resource_template"]["@id"]
@@ -86,15 +93,16 @@ def excel_generator(site_name, arg_item_set_id):
 
                     for key in obj:
                         if not key.startswith("o:") and key != "@type":
-                            if key not in keySet and isinstance(obj[key], list):
+                            if key not in default_map and key not in etc_map and isinstance(obj[key], list):
                                 if "property_label" in obj[key][0]:
-                                    keySet[key] = obj[key][0]["property_label"]
+                                    etc_map[key] = obj[key][0]["property_label"]
 
                     rows.append(obj)
 
             else:
                 loop_flg = False
 
+    # テンプレート項目の追加
     for template_id in template_arr:
         response = urllib.request.urlopen(template_id)
         response_body = response.read().decode("utf-8")
@@ -112,32 +120,37 @@ def excel_generator(site_name, arg_item_set_id):
 
             term = data["o:term"]
 
-            sorted_keys.append(term)
-
             if property_label:
                 label_map[term] = property_label
 
-    for term in label_map:
-        if term not in sorted_keys:
-            sorted_keys.append(term)
+    # 例外語彙の追加
+    for key in etc_map:
+        label_map[key] = etc_map[key]
 
-    for term in sorted(keySet):
-        if term not in sorted_keys:
-            sorted_keys.append(term)
+    # 独自語彙の追加
+    for key in default_map:
+        label_map[key] = default_map[key]
 
+    # ラベル行
     row = []
     table.append(row)
-    for term in sorted_keys:
+    # term行
+    row2 = []
+    table.append(row2)
+
+    for term in label_map:
         if term in label_map:
             row.append(label_map[term])
+            row2.append(term)
         else:
             row.append(term)
+            row2.append(term)
 
-    # 二行目以降
+    # 3行目以降
     for obj in rows:
         row = []
         table.append(row)
-        for term in sorted_keys:  # sorted(keySet):
+        for term in label_map:
             text = ""
             if term in obj:
                 values = obj[term]
@@ -148,10 +161,11 @@ def excel_generator(site_name, arg_item_set_id):
                     else:
                         text += value["@id"]
                     if i != len(values) - 1:
+                        # 複数ある場合にはパイプでつなぐ
                         text += "|"
             row.append(unicodedata.normalize("NFKC", text))
 
-    df = pd.DataFrame(table);
+    df = pd.DataFrame(table)
 
     df.to_excel(output_path, index=False, header=False)
     df.to_csv(output_path.replace("xlsx", "csv"), index=False, header=False)
