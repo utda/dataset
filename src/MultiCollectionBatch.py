@@ -1,20 +1,28 @@
-import csv
-import os
+import json
 from SingleCollectionBatch import single_collection_batch
 
-csv_path = "data/list.csv"
+json_path = "../docs/collections/list.json"
 
 site_arr = []
 
-with open(csv_path, 'r') as f:
-    reader = csv.reader(f)
-    header = next(reader)  # ヘッダーを読み飛ばしたい時
+with open(json_path) as f:
+    df = json.load(f)
 
-    for row in reader:
-        site_obj = dict()
-        site_arr.append(site_obj)
-        site_obj["item_set_id"] = row[0]
-        site_obj["site_name"] = row[1]
+for key in df:
+    site_obj = dict()
+    site_arr.append(site_obj)
+
+    item_set_id_arr = df[key]["item_set_id"]
+
+    item_set_id = ""
+    for i in range(len(item_set_id_arr)):
+        item_set_id += str(item_set_id_arr[i])
+        if i != len(item_set_id_arr) - 1:
+            item_set_id += ","
+
+    site_obj["item_set_id"] = item_set_id
+    site_obj["site_name"] = key
 
 for site in site_arr:
+    print(site)
     single_collection_batch(site["site_name"], site["item_set_id"])

@@ -72,6 +72,9 @@ def collection_generator(site_name, arg_item_set_id):
                         manifest["@type"] = "sc:Manifest"
                         manifest["label"] = obj["dcterms:title"][0]["@value"]
 
+                        if "dcterms:rights" in obj:
+                            manifest["license"] = obj["dcterms:rights"][0]["@id"]
+
             else:
                 loop_flg = False
 

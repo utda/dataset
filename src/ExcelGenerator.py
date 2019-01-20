@@ -42,10 +42,15 @@ def excel_generator(site_name, arg_item_set_id):
     default_map["rdfs:seeAlso"] = "機械可読ドキュメント"
     default_map["sc:attributionLabel"] = "帰属"
     default_map["sc:viewingDirection"] = "viewingDirection"
+    default_map["sc:viewingHint"] = "viewingHint"
     default_map["uterms:databaseLabel"] = "コレクション"
-    default_map["uterms:manifestUri"] = "IIIFマニフェストURI"
     default_map["uterms:sort"] = "ソート用項目"
     default_map["uterms:year"] = "西暦"
+    default_map["uterms:manifestUri"] = "IIIFマニフェストURI"
+    default_map["uterms:searchApiUri"] = "IIIF Search API URI"
+    default_map["uterms:annotedManifest"] = "アノテーション付きIIIFマニフェストURI"
+    default_map["uterms:linkToTapas"] = "Link to TAPAS Project"
+    default_map["uterms:rtf"] = "Text with Rich Text Format"
 
     # templateで規定されていない語彙集
     etc_map = collections.OrderedDict()
@@ -106,7 +111,7 @@ def excel_generator(site_name, arg_item_set_id):
     for template_id in template_arr:
         response = urllib.request.urlopen(template_id)
         response_body = response.read().decode("utf-8")
-        data = json.loads(response_body.split('\n')[0])
+        data = json.loads(response_body)
         property_arr = data["o:resource_template_property"]
         for property in property_arr:
 
@@ -116,7 +121,7 @@ def excel_generator(site_name, arg_item_set_id):
 
             response = urllib.request.urlopen(property_id)
             response_body = response.read().decode("utf-8")
-            data = json.loads(response_body.split('\n')[0])
+            data = json.loads(response_body)
 
             term = data["o:term"]
 
@@ -125,26 +130,30 @@ def excel_generator(site_name, arg_item_set_id):
 
     # 例外語彙の追加
     for key in etc_map:
-        label_map[key] = etc_map[key]
+        if key not in label_map:
+            label_map[key] = etc_map[key]
 
     # 独自語彙の追加
     for key in default_map:
-        label_map[key] = default_map[key]
+        if key not in label_map:
+            label_map[key] = default_map[key]
 
     # ラベル行
-    row = []
-    table.append(row)
+    row1 = []
+    table.append(row1)
     # term行
     row2 = []
     table.append(row2)
 
     for term in label_map:
         if term in label_map:
-            row.append(label_map[term])
+            row1.append(label_map[term])
             row2.append(term)
         else:
-            row.append(term)
+            row1.append(term)
             row2.append(term)
+
+    media_sum = 0
 
     # 3行目以降
     for obj in rows:
@@ -164,6 +173,13 @@ def excel_generator(site_name, arg_item_set_id):
                         # 複数ある場合にはパイプでつなぐ
                         text += "|"
             row.append(unicodedata.normalize("NFKC", text))
+
+        media_num = len(obj["o:media"])
+        row.append(media_num)
+        media_sum += media_num
+
+    row1.append("# of media")
+    row2.append(media_sum)
 
     df = pd.DataFrame(table)
 
