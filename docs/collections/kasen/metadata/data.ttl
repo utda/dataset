@@ -1,56 +1,56 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://iiif.io/api/presentation/2#> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns4: <http://omeka.org/s/vocabs/o#> .
-@prefix ns5: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns6: <http://purl.org/utrepo/terms#> .
+@prefix ns1: <http://purl.org/utrepo/terms#> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns7: <http://purl.org/ontology/bibo/> .
-@prefix ns8: <http://xmlns.com/foaf/0.1/> .
+@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ns4:id 5 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ns2:id 5 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns4:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:note "写本" ;
-    ns2:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns3:callNumber "A00:6251" ;
-    ns4:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns4:id 9 ;
-    ns4:is_public true ;
-    ns4:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ;
-    ns4:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ;
-    ns4:modified "2018-12-19T12:27:54+00:00"^^xsd:dateTime ;
-    ns4:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns4:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns4:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns1:creator "高田圓乗畫 , 大田南畝書" ;
-    ns1:description """『三十六歌撰』絵巻\r
+    ns8:note "写本" ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:callNumber "A00:6251" ;
+    ns2:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns2:id 9 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ;
+    ns2:modified "2018-12-19T12:27:54+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns3:creator "高田圓乗畫 , 大田南畝書" ;
+    ns3:description """『三十六歌撰』絵巻\r
   本『三十六歌撰』絵巻(一巻)は、藤原公任の『三十六人撰』に選ばれている歌人(三十六歌仙)の和歌から、一人一首ずつを選び、歌人名と和歌を大田南畝が染筆したものである。また、それぞれの和歌の内容を、狩野派の絵師である高田円乗が、淡彩で簡略な風景画で描いている。ただし、三十六歌仙のうち、斎宮女御と源重之が欠落しているので、合計三十四人分の和歌と絵からなる。\r
 \r
   本絵巻は、三十六歌仙の肖像画ではなく、和歌の風景が描かれているのが特徴である。絵巻の制作年、および制作の動機・目的は未詳。絵師の円乗は、詳しい経歴は不明だが、孔子伝や兼好伝の挿絵も描いている。『大田南畝全集』によれば、円乗は南畝や朋誠堂喜三二と交友があった。本絵巻の末尾に、桐廼舎主人(岡野半牧)の考証で、円乗が「徒士組」だったと記されているのは、円乗の伝記に関する新資料か。だとすれば、南畝・喜三二・円乗の三人には、武家の出身という共通項があることになる。南畝と円乗による、珍しい合作絵巻の佳品である。南葵文庫旧蔵(請求記号A00:6251)。\r
 \r
  放送大学教授 島内裕子""" ;
-    ns1:extent "1軸" ;
-    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/> ;
-    ns1:language "日本語" ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
-    ns1:title "『三十六歌撰』絵巻" ;
+    ns3:extent "1軸" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/> ;
+    ns3:language "日本語" ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns3:title "『三十六歌撰』絵巻" ;
     ns7:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
-    ns6:databaseLabel "『三十六歌撰』絵巻" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
+    ns1:databaseLabel "『三十六歌撰』絵巻" ;
+    ns1:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> ;
-    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/27/full/200,151/0/default.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/27/full/200,151/0/default.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ns4:id 27 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ns2:id 27 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns4:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns2:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns4:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns2:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns4:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns2:id 1 .
 
