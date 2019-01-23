@@ -1,52 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://purl.org/dc/terms/"
-  xmlns:ns3="http://omeka.org/s/vocabs/o#"
-  xmlns:ns6="http://purl.org/utrepo/terms#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns5="http://purl.org/ontology/bibo/"
-  xmlns:ns2="http://xmlns.com/foaf/0.1/"
-  xmlns:ns4="http://iiif.io/api/presentation/2#"
+  xmlns:ns2="http://purl.org/dc/terms/"
+  xmlns:ns3="http://iiif.io/api/presentation/2#"
+  xmlns:ns1="http://omeka.org/s/vocabs/o#"
+  xmlns:ns5="http://purl.org/utrepo/terms#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
   xmlns:ns7="http://purl.org/dc/dcmitype/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns6="http://purl.org/ontology/bibo/"
 >
-  <ns7:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8">
-    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/"/>
-    <ns2:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/26/full/200,151/0/default.jpg"/>
-    <ns3:media>
+  <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <ns1:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/26">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns3:id>
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
       </rdf:Description>
-    </ns3:media>
+    </ns1:media>
+    <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b"/>
+    <ns2:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
+    <ns2:title>百鬼夜行図</ns2:title>
+    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns1:created>
     <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8"/>
-    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
-    <ns4:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns4:attributionLabel>
-    <ns3:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns3:id>
-      </rdf:Description>
-    </ns3:resource_class>
-    <ns5:identifier>fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b</ns5:identifier>
-    <ns3:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:27:54+00:00</ns3:modified>
-    <ns1:title>百鬼夜行図</ns1:title>
-    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b"/>
-    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest"/>
-    <ns4:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
-    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
-    <ns3:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns3:is_public>
-    <ns3:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns3:id>
-      </rdf:Description>
-    </ns3:resource_template>
-    <ns3:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:id>
-      </rdf:Description>
-    </ns3:owner>
-    <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns3:id>
-    <ns3:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns3:created>
-    <ns1:description>百鬼夜行図(ひやつきやぎうず) 蔭山源広迢写&#13;
+    <ns3:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:id>
+    <ns2:description>百鬼夜行図(ひやつきやぎうず) 蔭山源広迢写&#13;
  百鬼夜行は今昔物語などの説話にでてくる言葉で、京の大路を夜な夜な化け物たちが練り歩く様子を表している。&#13;
 &#13;
  室町時代(16世紀)になって、青鬼、赤鬼のほか琴や琵琶、鍋や釜などの器物、調度などが変化(へんげ)した付喪神(つくもがみ)と呼ばれる化け物を集めて連続的に描く「百鬼夜行絵巻」が登場し、数多くの絵巻が描かれた。&#13;
@@ -57,12 +35,34 @@
 &#13;
  奥書によれば、室町時代の画家土佐行秀の画を蔭山源広迢が写したもので、真珠庵本に登場する妖怪に加え「ぬっぺっぽう」、「どうもこうも」など江戸時代の妖怪たちも紛れ込んでいる。&#13;
 &#13;
- 絵巻の巻末は「火の玉」と「朝日」で終わる2パターンあるが、本巻は「朝日」で終わっている。(請求記号A00:6275)</ns1:description>
-    <ns6:databaseLabel>百鬼夜行図</ns6:databaseLabel>
-    <ns3:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns3:id>
+ 絵巻の巻末は「火の玉」と「朝日」で終わる2パターンあるが、本巻は「朝日」で終わっている。(請求記号A00:6275)</ns2:description>
+    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/26/full/200,151/0/default.jpg"/>
+    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:27:54+00:00</ns1:modified>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest"/>
+    <ns3:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns3:attributionLabel>
+    <ns1:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:id>
       </rdf:Description>
-    </ns3:item_set>
-  </ns7:Image>
+    </ns1:resource_template>
+    <ns2:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/"/>
+    <ns1:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
+      </rdf:Description>
+    </ns1:resource_class>
+    <ns6:identifier>fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b</ns6:identifier>
+    <ns1:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:id>
+      </rdf:Description>
+    </ns1:item_set>
+    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
+    <ns5:databaseLabel>百鬼夜行図</ns5:databaseLabel>
+    <ns1:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
+      </rdf:Description>
+    </ns1:owner>
+  </ns1:Item>
 </rdf:RDF>
