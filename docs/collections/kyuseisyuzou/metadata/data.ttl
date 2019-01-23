@@ -1,28 +1,28 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://omeka.org/s/vocabs/o#> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://iiif.io/api/presentation/2#> .
+@prefix ns4: <http://omeka.org/s/vocabs/o#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ns2:id 21829 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ns4:id 21829 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns2:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns4:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns2:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
-    ns2:id 21830 ;
-    ns2:is_public true ;
-    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ;
-    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ;
-    ns2:modified "2018-12-19T13:51:42+00:00"^^xsd:dateTime ;
-    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
+    ns3:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
+    ns4:id 21830 ;
+    ns4:is_public true ;
+    ns4:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ;
+    ns4:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ;
+    ns4:modified "2018-12-19T13:51:42+00:00"^^xsd:dateTime ;
+    ns4:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns4:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns4:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
     ns1:description """左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。\r
 \r
 当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。""" ;
@@ -30,17 +30,17 @@
     ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
     ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns1:title "救世主像" ;
-    ns4:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
-    ns3:databaseLabel "救世主像" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
+    ns5:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
+    ns2:databaseLabel "救世主像" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> ;
     ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21831/full/200,151/0/default.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns2:id 21831 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns4:id 21831 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns2:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns4:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns2:id 3 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns4:id 3 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns2:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns4:id 1 .
 
