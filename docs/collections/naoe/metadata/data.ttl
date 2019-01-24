@@ -2,8 +2,8 @@
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,8 +13,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 13 ;
     ns1:is_public true ;
@@ -71,7 +71,7 @@
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest> ;
     ns3:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtAV%EF%BC%8BWUgecS%EF%BC%8BSsVMvlKTXaNVmk9OVUlQkEsXFV%EF%BC%8B86MGLyr5YB2lgAB9MM6QnC63BVFQ%3D> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/85/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/85/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100> ns1:id 100 .
 
