@@ -1,11 +1,11 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
-@prefix ns8: <http://iiif.io/api/presentation/2#> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
+@prefix ns8: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -21,11 +21,11 @@
 巻子本\r
 桐箱入\r
 四部分類: 史部 詔令奏議類 詔令之屬""" ;
-    ns8:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns8:viewingDirection ns8:rightToLeftDirection ;
-    ns8:viewingHint ns8:nonPagedHint ;
-    ns3:callNumber "鴎A00:6270" ;
-    ns3:sourceIdentifier "0004804951" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns7:viewingHint ns7:nonPagedHint ;
+    ns5:callNumber "鴎A00:6270" ;
+    ns5:sourceIdentifier "0004804951" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 7 ;
     ns1:is_public true ;
@@ -73,13 +73,13 @@
     ns2:title "明・弘治十八年八月二十日勅命" ;
     ns2:type "貴重本" ;
     ns6:identifier "43f80fa0-cc5d-45fe-9dee-152196995b92" ;
-    ns5:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json> ;
-    ns5:bunko "鴎外文庫" ;
-    ns5:databaseLabel "明・弘治十八年八月二十日勅命" ;
-    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest> ;
-    ns5:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtAboi6IrB%EF%BC%8FuxrlG%EF%BC%8FWAUZQNUKk%EF%BC%8BfS5OHRkhqjeP9kEbj%EF%BC%8FdLhnZBYlvz3IMieAyKPg20%3D> ;
+    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json> ;
+    ns3:bunko "鴎外文庫" ;
+    ns3:databaseLabel "明・弘治十八年八月二十日勅命" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest> ;
+    ns3:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtAboi6IrB%EF%BC%8FuxrlG%EF%BC%8FWAUZQNUKk%EF%BC%8BfS5OHRkhqjeP9kEbj%EF%BC%8FdLhnZBYlvz3IMieAyKPg20%3D> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/16/full/200,151/0/default.jpg> .
+    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/16/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ns1:id 1 .
 

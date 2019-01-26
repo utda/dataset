@@ -1,30 +1,30 @@
-@prefix ns1: <http://omeka.org/s/vocabs/o#> .
+@prefix ns1: <http://purl.org/utrepo/terms#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://omeka.org/s/vocabs/o#> .
+@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819> ns1:id 21819 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819> ns3:id 21819 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> a ns1:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns6:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns7:callNumber "甲:2:3693" ;
-    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns1:id 10 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/28> ;
-    ns1:modified "2018-12-19T13:51:39+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4> ;
+    ns5:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
+    ns4:callNumber "甲:2:3693" ;
+    ns3:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns3:id 10 ;
+    ns3:is_public true ;
+    ns3:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819> ;
+    ns3:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/28> ;
+    ns3:modified "2018-12-19T13:51:39+00:00"^^xsd:dateTime ;
+    ns3:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns3:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns3:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4> ;
     ns2:date "天正8年/1580" ;
     ns2:description """【解題】甲州法度之次第(東京大学法学部法制史資料室所蔵本)\r
 甲斐国(現在の山梨県)に本拠を持った戦国大名武田晴信(信玄)が、 その支配する領国を統治するために制定した分国法。家臣に対する種々の規律を主内容とし、 全体的に隣国駿河の今川氏の「今川かな目録」の強い影響が認められる。\r
@@ -38,21 +38,21 @@
     ns2:rights <https://www.lib.j.u-tokyo.ac.jp/digitalarchive/terms/legalhistorysectionterms.html> ;
     ns2:title "甲州法度之次第" ;
     ns2:type "古文書;Historical Documents" ;
-    ns5:identifier "102a847a-ea96-464a-84ba-cb714696bfbd" ;
-    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/10/manifest.json> ;
-    ns3:databaseLabel "甲州法度之次第" ;
-    ns3:linkToTapas <http://tapasproject.org/tapas-commons/files/甲州法度之次第> ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/102a847a-ea96-464a-84ba-cb714696bfbd/manifest> ;
-    ns3:rtf <https://utda.github.io/text/rtf/102a847a-ea96-464a-84ba-cb714696bfbd.rtf> ;
-    ns3:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtBywlyhooghaIDF9TDMS%EF%BC%8BvUVN4VOwDy1Vp1%EF%BC%8BtH%EF%BC%8B3oU5hRhxL%EF%BC%8BEHPis3o5UucFHDPKE%3D> ;
+    ns7:identifier "102a847a-ea96-464a-84ba-cb714696bfbd" ;
+    ns1:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/10/manifest.json> ;
+    ns1:databaseLabel "甲州法度之次第" ;
+    ns1:linkToTapas <http://tapasproject.org/tapas-commons/files/甲州法度之次第> ;
+    ns1:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/102a847a-ea96-464a-84ba-cb714696bfbd/manifest> ;
+    ns1:rtf <https://utda.github.io/text/rtf/102a847a-ea96-464a-84ba-cb714696bfbd.rtf> ;
+    ns1:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtBywlyhooghaIDF9TDMS%EF%BC%8BvUVN4VOwDy1Vp1%EF%BC%8BtH%EF%BC%8B3oU5hRhxL%EF%BC%8BEHPis3o5UucFHDPKE%3D> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/28> ns1:id 28 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/28> ns3:id 28 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns3:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4> ns1:id 4 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4> ns3:id 4 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns3:id 1 .
 
