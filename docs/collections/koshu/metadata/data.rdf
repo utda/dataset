@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://purl.org/utrepo/terms#"
-  xmlns:ns6="http://xmlns.com/foaf/0.1/"
-  xmlns:ns3="http://omeka.org/s/vocabs/o#"
+  xmlns:ns2="http://omeka.org/s/vocabs/o#"
+  xmlns:ns3="http://purl.org/utrepo/terms#"
+  xmlns:ns4="http://purl.org/dc/terms/"
   xmlns:ns8="http://purl.org/dc/dcmitype/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns2="http://purl.org/dc/terms/"
+  xmlns:ns7="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns7="http://purl.org/ontology/bibo/"
-  xmlns:ns5="http://iiif.io/api/presentation/2#"
+  xmlns:ns1="http://iiif.io/api/presentation/2#"
+  xmlns:ns6="http://purl.org/ontology/bibo/"
 >
-  <ns3:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10">
-    <ns1:linkToTapas rdf:resource="http://tapasproject.org/tapas-commons/files/甲州法度之次第"/>
-    <ns2:title>甲州法度之次第</ns2:title>
-    <ns2:rights rdf:resource="https://www.lib.j.u-tokyo.ac.jp/digitalarchive/terms/legalhistorysectionterms.html"/>
-    <ns2:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koshu/"/>
-    <ns5:attributionLabel>東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo</ns5:attributionLabel>
-    <ns3:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:id>
+  <ns8:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10">
+    <ns1:attributionLabel>東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo</ns1:attributionLabel>
+    <ns2:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21819</ns2:id>
       </rdf:Description>
-    </ns3:owner>
-    <ns2:extent>巻子; 1巻</ns2:extent>
-    <ns1:rtf rdf:resource="https://utda.github.io/text/rtf/102a847a-ea96-464a-84ba-cb714696bfbd.rtf"/>
-    <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns3:id>
-    <ns1:searchApiUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtBywlyhooghaIDF9TDMS%EF%BC%8BvUVN4VOwDy1Vp1%EF%BC%8BtH%EF%BC%8B3oU5hRhxL%EF%BC%8BEHPis3o5UucFHDPKE%3D"/>
+    </ns2:item_set>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:id>
+    <ns3:rtf rdf:resource="https://utda.github.io/text/rtf/102a847a-ea96-464a-84ba-cb714696bfbd.rtf"/>
+    <ns4:rights rdf:resource="https://www.lib.j.u-tokyo.ac.jp/digitalarchive/terms/legalhistorysectionterms.html"/>
+    <ns4:type>古文書;Historical Documents</ns4:type>
+    <ns4:extent>巻子; 1巻</ns4:extent>
     <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10"/>
-    <ns3:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns3:id>
+    <ns3:linkToTapas rdf:resource="http://tapasproject.org/tapas-commons/files/甲州法度之次第"/>
+    <ns3:databaseLabel>甲州法度之次第</ns3:databaseLabel>
+    <ns3:searchApiUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/kPzFpI4mtex7HdRmrZL1ew9r7OCgdDPvNX2g0njpVtBywlyhooghaIDF9TDMS%EF%BC%8BvUVN4VOwDy1Vp1%EF%BC%8BtH%EF%BC%8B3oU5hRhxL%EF%BC%8BEHPis3o5UucFHDPKE%3D"/>
+    <ns4:date>天正8年/1580</ns4:date>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns2:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
       </rdf:Description>
-    </ns3:resource_template>
-    <ns2:description>【解題】甲州法度之次第(東京大学法学部法制史資料室所蔵本)&#13;
+    </ns2:resource_class>
+    <ns5:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg"/>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns2:created>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
+      </rdf:Description>
+    </ns2:owner>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T13:51:39+00:00</ns2:modified>
+    <ns6:identifier>102a847a-ea96-464a-84ba-cb714696bfbd</ns6:identifier>
+    <ns4:description>【解題】甲州法度之次第(東京大学法学部法制史資料室所蔵本)&#13;
 甲斐国(現在の山梨県)に本拠を持った戦国大名武田晴信(信玄)が、 その支配する領国を統治するために制定した分国法。家臣に対する種々の規律を主内容とし、 全体的に隣国駿河の今川氏の「今川かな目録」の強い影響が認められる。&#13;
 &#13;
 「甲州法度之次第」と呼ばれるものには大別して26箇条本と55箇条(プラス追加2箇条)本の二種の伝本があり、 前者が天文16(1547)年6月に成立した原型、それを基に増補改訂を経て55箇条に整理された後、 天文23(1554)年5月にさらに2箇条が追加されて成立したのが後者、と考えられている。 『甲陽軍鑑』に採録されるなどして世上に多く流布したのは後者の系統だが、 この系統に属する諸本にはなお種々の異同があり、 流布本が成立するまでにはさらに若干の経緯があったと推測されるものの、詳細は明らかではない。&#13;
 &#13;
-法制史資料室所蔵本は流布本系の代表的な一本で、冒頭の表題部分に円形重郭龍文の朱印判一顆が捺され、 末尾には「天正八庚辰年二月十七日書之」とある。冒頭の印判は信玄が天文12(1543)年以降用い、 天正元(1573)年の信玄死後は嗣子勝頼が天正10(1582)年の武田氏滅亡に至るまで襲用したものである。 従って該本は武田勝頼のもとで作成されたものと認められ、当時通用の「法度」を伝える最善本と評価される。 佐藤進一・池内義資・百瀬今朝雄編『中世法制史料集 第三巻 武家家法I』(岩波書店 1965年) 所収「甲州法度之次第」の底本として用いられるなど、学界においても「甲州法度之次第」の標準的なテクストとして認知されている。 鳥の子紙27枚を継ぎ合わせ、裏打ちを施して成巻され、第一紙裏に「東京帝国大學圖書印」一顆が捺されている。</ns2:description>
-    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg"/>
-    <ns4:callNumber>甲:2:3693</ns4:callNumber>
-    <ns1:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/102a847a-ea96-464a-84ba-cb714696bfbd/manifest"/>
-    <ns3:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T13:51:39+00:00</ns3:modified>
-    <ns3:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns3:is_public>
-    <ns2:date>天正8年/1580</ns2:date>
-    <ns2:type>古文書;Historical Documents</ns2:type>
-    <ns3:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns3:id>
-      </rdf:Description>
-    </ns3:resource_class>
-    <ns1:annotedManifest rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/10/manifest.json"/>
-    <ns1:databaseLabel>甲州法度之次第</ns1:databaseLabel>
-    <ns3:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns3:created>
-    <ns3:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21819">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21819</ns3:id>
-      </rdf:Description>
-    </ns3:item_set>
-    <ns3:media>
+法制史資料室所蔵本は流布本系の代表的な一本で、冒頭の表題部分に円形重郭龍文の朱印判一顆が捺され、 末尾には「天正八庚辰年二月十七日書之」とある。冒頭の印判は信玄が天文12(1543)年以降用い、 天正元(1573)年の信玄死後は嗣子勝頼が天正10(1582)年の武田氏滅亡に至るまで襲用したものである。 従って該本は武田勝頼のもとで作成されたものと認められ、当時通用の「法度」を伝える最善本と評価される。 佐藤進一・池内義資・百瀬今朝雄編『中世法制史料集 第三巻 武家家法I』(岩波書店 1965年) 所収「甲州法度之次第」の底本として用いられるなど、学界においても「甲州法度之次第」の標準的なテクストとして認知されている。 鳥の子紙27枚を継ぎ合わせ、裏打ちを施して成巻され、第一紙裏に「東京帝国大學圖書印」一顆が捺されている。</ns4:description>
+    <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/28">
-        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns3:id>
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns2:id>
       </rdf:Description>
-    </ns3:media>
-    <ns7:identifier>102a847a-ea96-464a-84ba-cb714696bfbd</ns7:identifier>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/102a847a-ea96-464a-84ba-cb714696bfbd"/>
-  </ns3:Item>
+    </ns2:media>
+    <ns4:title>甲州法度之次第</ns4:title>
+    <ns3:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/102a847a-ea96-464a-84ba-cb714696bfbd/manifest"/>
+    <ns3:annotedManifest rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/10/manifest.json"/>
+    <ns7:callNumber>甲:2:3693</ns7:callNumber>
+    <ns4:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/102a847a-ea96-464a-84ba-cb714696bfbd"/>
+    <ns2:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/4">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:id>
+      </rdf:Description>
+    </ns2:resource_template>
+    <ns4:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koshu/"/>
+  </ns8:Image>
 </rdf:RDF>
