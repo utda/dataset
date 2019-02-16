@@ -2,9 +2,9 @@
 @prefix ns2: <http://purl.org/ontology/bibo/> .
 @prefix ns3: <http://purl.org/dc/terms/> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,7 +15,7 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns6:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns5:callNumber "甲:2:3693" ;
+    ns7:callNumber "甲:2:3693" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 10 ;
     ns1:is_public true ;
@@ -46,7 +46,7 @@
     ns4:rtf <https://archdataset.dl.itc.u-tokyo.ac.jp/collections/law/text/rtf/102a847a-ea96-464a-84ba-cb714696bfbd.rtf> ;
     ns4:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca610e82300c06d013b505d30cf036dfba11d0ea88ab116fafeff7db228e7e15c1cbb68240afc1c5790fe33745bb7f1bc3f8768835f76ab1b76717c747a29e21e7c3651c2e987502552c89342968d60cb23c8d9a9694d75cf81f7fe36723c2> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/10/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222794> ns1:id 222794 .
 
