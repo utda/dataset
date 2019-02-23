@@ -1,9 +1,9 @@
-@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix ns1: <http://purl.org/utrepo/terms#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://omeka.org/s/vocabs/o#> .
-@prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,7 +13,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns3:created "2018-04-01T07:05:33+00:00"^^xsd:dateTime ;
     ns3:id 21824 ;
     ns3:is_public true ;
@@ -31,11 +31,11 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "松乃栄" ;
-    ns1:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
-    ns4:databaseLabel "松乃栄" ;
-    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
+    ns6:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
+    ns1:databaseLabel "松乃栄" ;
+    ns1:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827/full/200,151/0/default.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21827> ns3:id 21827 .
 
