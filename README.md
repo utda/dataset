@@ -15,7 +15,7 @@
 </dd>
 <dt>メタデータ</dt>
 <dd>
-コレクション中のアイテムのメタデータの一覧を表形式（MS-Excel, CSV, TSC）とRDF形式（JSON-LD, RDF/XML, Turtle, N-Triples）で提供します。
+コレクション中のアイテムのメタデータの一覧を表形式（MS-Excel, CSV, TSV）とRDF形式（JSON-LD, RDF/XML, Turtle, N-Triples）で提供します。
 </dd>
 <dt>テキスト</dt>
 <dd>
