@@ -1,486 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns5="http://purl.org/ontology/bibo/"
-  xmlns:ns2="http://omeka.org/s/vocabs/o#"
-  xmlns:ns3="http://purl.org/dc/terms/"
-  xmlns:ns4="http://purl.org/utrepo/terms#"
-  xmlns:ns6="http://iiif.io/api/presentation/2#"
-  xmlns:ns7="http://xmlns.com/foaf/0.1/"
-  xmlns:ns1="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns8="http://purl.org/dc/dcmitype/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://purl.org/dc/terms/"
+  xmlns:ns7="http://iiif.io/api/presentation/2#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://omeka.org/s/vocabs/o#"
+  xmlns:ns3="http://purl.org/ontology/bibo/"
+  xmlns:ns5="http://purl.org/utrepo/terms#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns8="http://purl.org/dc/dcmitype/"
 >
-  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14">
-    <ns1:alternative>異なりアクセスタイトル:東京帝国大学</ns1:alternative>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/148">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/164">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:description>東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8&#13;
-2冊 28×37-38cm&#13;
- [明治33年版] K40:1771 東京大学総合図書館書庫(コレクション室)&#13;
- [明治37年版] K400:257 東京大学総合図書館書庫(コレクション室)&#13;
-&#13;
- 明治30年代の東京帝国大学を撮影した大判横長の写真帖。明治33(1900)年のものは、フランス・パリの万国博覧会、明治37(1904)年のものは、米国・セントルイスの万国博覧会に出品するために製作された。当時の総長、前総長や部局長、教授たちの肖像と校舎設備の状況を撮影した写真を収録し、序文や見出しなどには英文が併記されている。明治37年版(南葵文庫本)では、明治33年版に比べて、新築校舎や新任教員の肖像写真を加えるなどの増補がなされている。&#13;
-&#13;
- 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。</ns3:description>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/143">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:creator><![CDATA[東京帝国大学 <トウキョウ テイコク ダイガク>]]></ns3:creator>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/127">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/188">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns6:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns6:attributionLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/162">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:title>写真帖『東京帝國大學』明治33年(1900)年版</ns3:title>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/131">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/167">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/135">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/160">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/182">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/176">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/180">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/121">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:extent>1冊(おもに図) ; 28×38cm</ns3:extent>
-    <ns1:sourceIdentifier>0011714474</ns1:sourceIdentifier>
-    <ns4:databaseLabel>写真帖『東京帝國大學』</ns4:databaseLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/130">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:id>
-      </rdf:Description>
-    </ns2:item_set>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/168">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/123">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/120">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/156">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:publisher>東京 : 小川冩眞製版所</ns3:publisher>
-    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/146">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/128">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/187">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/186">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/159">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns7:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/116/full/200,151/0/default.jpg"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/124">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:27:58+00:00</ns2:modified>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/185">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/138">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/119">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/177">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/952f7be5-2dec-40a7-b28a-0d5ccc91124e"/>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns5:identifier>952f7be5-2dec-40a7-b28a-0d5ccc91124e</ns5:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/116">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/145">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/133">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/136">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
-      </rdf:Description>
-    </ns2:owner>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/173">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/174">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/181">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns2:created>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/129">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/132">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:callNumber>K40:1771</ns1:callNumber>
-    <ns4:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/manifest"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/118">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/140">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/154">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/117">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:identifier>BN11816230</ns3:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/141">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:language>日本語</ns3:language>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/153">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/171">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/161">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/163">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/137">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/157">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/152">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/142">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns2:id>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/139">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/166">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/122">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/169">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/189">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/179">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/144">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/147">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/134">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/126">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/149">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/165">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/151">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/155">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:identifier>2000844633</ns3:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/150">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:id>
-      </rdf:Description>
-    </ns2:resource_template>
-    <ns3:date>1900.4</ns3:date>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/158">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/183">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/175">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/184">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
-      </rdf:Description>
-    </ns2:resource_class>
-  </ns2:Item>
   <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/15">
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/277">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/258">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:publisher>Tokyo : K. Ogawa</ns1:publisher>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/225">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/290">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/211">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/293">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/226">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/212">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns6:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns6:attributionLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/289">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/241">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/238">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/266">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/208">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns4:callNumber>K400:257</ns4:callNumber>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/305">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/303">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/234">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/216">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
@@ -489,44 +65,42 @@
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/261">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/220">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:extent>1 v. : chiefly ill. ; 28 × 37 cm</ns1:extent>
+    <ns1:description>東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8&#13;
+2冊 28×37-38cm&#13;
+ [明治33年版] K40:1771 東京大学総合図書館書庫(コレクション室)&#13;
+ [明治37年版] K400:257 東京大学総合図書館書庫(コレクション室)&#13;
+&#13;
+ 明治30年代の東京帝国大学を撮影した大判横長の写真帖。明治33(1900)年のものは、フランス・パリの万国博覧会、明治37(1904)年のものは、米国・セントルイスの万国博覧会に出品するために製作された。当時の総長、前総長や部局長、教授たちの肖像と校舎設備の状況を撮影した写真を収録し、序文や見出しなどには英文が併記されている。明治37年版(南葵文庫本)では、明治33年版に比べて、新築校舎や新任教員の肖像写真を加えるなどの増補がなされている。&#13;
+&#13;
+ 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。</ns1:description>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/236">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/245">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/262">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/240">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/285">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/279">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/198">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/232">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns7:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/190/full/200,151/0/default.jpg"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/193">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/202">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/258">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/201">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
@@ -535,31 +109,286 @@
       </rdf:Description>
     </ns2:media>
     <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/292">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/281">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/294">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/298">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/224">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">271</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/190/full/200,151/0/default.jpg"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/244">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/243">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/293">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/284">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:language>英語</ns1:language>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/214">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/313">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">313</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/245">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/289">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/295">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/286">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/264">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/237">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/239">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/242">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/231">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/267">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/223">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/263">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/254">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/282">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">282</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/"/>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/207">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/290">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:identifier>2001912678</ns1:identifier>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/261">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:id>
+      </rdf:Description>
+    </ns2:item_set>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/273">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:identifier>BA1640866X</ns1:identifier>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/190">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/200">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/310">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns3:extent>1 v. : chiefly ill. ; 28 × 37 cm</ns3:extent>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/305">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/253">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/240">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/307">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:databaseLabel>写真帖『東京帝國大學』</ns5:databaseLabel>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/299">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/204">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/252">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/296">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/202">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/193">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/219">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/232">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/247">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</ns2:id>
       </rdf:Description>
     </ns2:media>
     <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/15"/>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/224">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/251">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/255">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/235">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns2:created>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/268">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/8b0089a9-66fc-4833-ab13-21d92f7f7aa4"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/234">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/304">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/248">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/306">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
@@ -567,12 +396,218 @@
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/249">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/191">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/256">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/300">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/230">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/205">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8b0089a9-66fc-4833-ab13-21d92f7f7aa4/manifest"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/194">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/311">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/312">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/233">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/246">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/206">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ns2:id>
+      </rdf:Description>
+    </ns2:media>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/301">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns3:date>1904</ns3:date>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/215">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/278">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/212">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/303">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/283">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/308">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/203">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/276">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/270">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/274">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
+      </rdf:Description>
+    </ns2:resource_class>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/259">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/199">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/228">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/195">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/250">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
+    <ns1:date>1904</ns1:date>
+    <ns2:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:id>
+      </rdf:Description>
+    </ns2:resource_template>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/210">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/291">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/302">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/309">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/277">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/260">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/229">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/257">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">257</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/287">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/213">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/209">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</ns2:id>
+      </rdf:Description>
+    </ns2:media>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/227">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227</ns2:id>
@@ -583,106 +618,15 @@
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns1:callNumber>K400:257</ns1:callNumber>
-    <ns1:sourceIdentifier>0004021663</ns1:sourceIdentifier>
+    <ns4:sourceIdentifier>0004021663</ns4:sourceIdentifier>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/264">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/217">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/204">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/233">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:28:02+00:00</ns2:modified>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/257">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">257</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/197">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/228">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/283">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/236">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/309">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/194">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/299">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/310">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/206">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/291">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns4:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8b0089a9-66fc-4833-ab13-21d92f7f7aa4/manifest"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/313">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">313</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/292">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:publisher>Tokyo : K. Ogawa</ns3:publisher>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/201">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/254">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">271</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/279">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
@@ -691,406 +635,462 @@
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/296">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/200">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns3:identifier>8b0089a9-66fc-4833-ab13-21d92f7f7aa4</ns3:identifier>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/288">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/218">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/246">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</ns2:id>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns2:id>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
       </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/244">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/263">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/312">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/239">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:title>写真帖『東京帝國大學』明治37年(1904)年版</ns3:title>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/287">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</ns2:id>
-      </rdf:Description>
-    </ns2:media>
+    </ns2:owner>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/297">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/205">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/207">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/250">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/197">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/252">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/266">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:28:02+00:00</ns2:modified>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/298">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/288">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/195">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/191">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/251">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/307">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/208">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/274">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:language>英語</ns3:language>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/300">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/253">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/214">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/304">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/220">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/285">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/218">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/311">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/249">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/278">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/248">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/216">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/255">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/267">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4"/>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/8b0089a9-66fc-4833-ab13-21d92f7f7aa4"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/219">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/209">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/262">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns5:identifier>8b0089a9-66fc-4833-ab13-21d92f7f7aa4</ns5:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/231">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/198">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/199">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns4:databaseLabel>写真帖『東京帝國大學』</ns4:databaseLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/286">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns2:created>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/308">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/225">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/226">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/273">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/295">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/230">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:identifier>BA1640866X</ns3:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/284">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284</ns2:id>
-      </rdf:Description>
-    </ns2:media>
+    <ns1:title>写真帖『東京帝國大學』明治37年(1904)年版</ns1:title>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/192">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</ns2:id>
       </rdf:Description>
     </ns2:media>
+  </ns2:Item>
+  <ns8:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14">
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/215">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/188">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/210">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/117">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/213">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/162">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
+    <ns3:identifier>952f7be5-2dec-40a7-b28a-0d5ccc91124e</ns3:identifier>
+    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
+    <ns5:databaseLabel>写真帖『東京帝國大學』</ns5:databaseLabel>
+    <ns1:identifier>BN11816230</ns1:identifier>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/242">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/235">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/152">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/268">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/132">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:title>写真帖『東京帝國大學』明治33年(1900)年版</ns1:title>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/171">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/223">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/126">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/237">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/157">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/256">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/158">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/270">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/116">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/243">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/184">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/259">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/176">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/281">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/189">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/203">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/135">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/238">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/185">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/229">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns4:sourceIdentifier>0011714474</ns4:sourceIdentifier>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/124">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/190">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns2:id>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/294">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:identifier>2001912678</ns3:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/260">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/144">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/211">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/150">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/306">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/134">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/169">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/247">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/177">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/217">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/133">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns3:description>東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8&#13;
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/161">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:description>東京帝國大學 = Imperial University of Tokyo東京 小川冩眞製版所 1900.4-1904.8&#13;
 2冊 28×37-38cm&#13;
  [明治33年版] K40:1771 東京大学総合図書館書庫(コレクション室)&#13;
  [明治37年版] K400:257 東京大学総合図書館書庫(コレクション室)&#13;
 &#13;
  明治30年代の東京帝国大学を撮影した大判横長の写真帖。明治33(1900)年のものは、フランス・パリの万国博覧会、明治37(1904)年のものは、米国・セントルイスの万国博覧会に出品するために製作された。当時の総長、前総長や部局長、教授たちの肖像と校舎設備の状況を撮影した写真を収録し、序文や見出しなどには英文が併記されている。明治37年版(南葵文庫本)では、明治33年版に比べて、新築校舎や新任教員の肖像写真を加えるなどの増補がなされている。&#13;
 &#13;
- 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。</ns3:description>
+ 発行者は、両者ともに明治から昭和初期にかけての著名な写真家であった小川一真(おがわ・かずまさ 1860~1929)の小川写真製版所。小川一真は、明治15(1882)年に渡米して最新の写真技術やコロタイプ印刷術などを習得し、帰国後東京で開業。全国の社寺宝物調査に随行して撮影を行い、明治22(1889)年の東洋・日本美術専門雑誌『国華』の創刊にも携わった。他にも、皇族や皆既日食、濃尾大地震、日清・日露戦争、清朝末期の北京紫禁城の様子などの写真撮影を行っている。</ns1:description>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T12:27:58+00:00</ns2:modified>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/179">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/241">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/154">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/302">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/118">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/276">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/120">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ns2:id>
       </rdf:Description>
     </ns2:media>
-  </ns2:Item>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/165">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:publisher>東京 : 小川冩眞製版所</ns1:publisher>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/136">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns2:id>
+    <ns1:extent>1冊(おもに図) ; 28×38cm</ns1:extent>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/142">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/138">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/128">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/167">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/160">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/156">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/180">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/182">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:identifier>2000844633</ns1:identifier>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/146">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/168">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/159">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/131">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/173">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/183">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/140">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/149">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/174">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/119">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/122">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/151">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/14"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/130">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/166">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/186">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/123">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/175">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/143">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/document/952f7be5-2dec-40a7-b28a-0d5ccc91124e"/>
+    <ns1:date>1900.4</ns1:date>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/155">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/145">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:creator><![CDATA[東京帝国大学 <トウキョウ テイコク ダイガク>]]></ns1:creator>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/164">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/147">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
+    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
+    <ns4:callNumber>K40:1771</ns4:callNumber>
+    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/4"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/141">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/116/full/200,151/0/default.jpg"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/121">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns2:created>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/137">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/127">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/139">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/manifest"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/153">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/129">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:language>日本語</ns1:language>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/187">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/181">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns4:alternative>異なりアクセスタイトル:東京帝国大学</ns4:alternative>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/163">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shashincho/"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/148">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+  </ns8:Image>
 </rdf:RDF>

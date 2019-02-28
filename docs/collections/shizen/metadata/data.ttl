@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -11,8 +11,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71951 ;
     ns1:is_public true ;
@@ -72,16 +72,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/4bdb27bb-a217-4ed4-8710-3c01c007b26c> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "大序" ;
-    ns6:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
+    ns5:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4bdb27bb-a217-4ed4-8710-3c01c007b26c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72048/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72048/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71952 ;
     ns1:is_public true ;
@@ -158,16 +158,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/97e28457-a2b7-40ec-87d0-f976de8fe10a> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第一 私制字書巻一" ;
-    ns6:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
+    ns5:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72110/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72110/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71953 ;
     ns1:is_public true ;
@@ -244,16 +244,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/9cbddbf1-73e1-4d14-a5be-236efa6784e0> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第二 私制字書巻二" ;
-    ns6:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
+    ns5:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72331/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72331/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71954 ;
     ns1:is_public true ;
@@ -331,16 +331,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/25825360-d6e9-4b5a-8d29-8229e6fb7848> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第三 私制字書巻三" ;
-    ns6:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
+    ns5:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72225/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72225/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71955 ;
     ns1:is_public true ;
@@ -415,16 +415,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/8cde7a41-3043-4bb8-a9ab-d89a63d74302> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第四 私制儒書巻一" ;
-    ns6:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
+    ns5:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72556/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72556/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71956 ;
     ns1:is_public true ;
@@ -498,16 +498,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/2c0edd09-f4f7-400a-9aa9-506f6a020281> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第五 私制儒書巻二" ;
-    ns6:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
+    ns5:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72392/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72392/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71957 ;
     ns1:is_public true ;
@@ -582,16 +582,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/1a8618bf-1552-41a1-ac31-14b55adaa85d> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第六 私制儒書巻三" ;
-    ns6:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
+    ns5:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a8618bf-1552-41a1-ac31-14b55adaa85d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72497/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72497/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71958 ;
     ns1:is_public true ;
@@ -661,16 +661,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第七 私制仏書巻" ;
-    ns6:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
+    ns5:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72171/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72171/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71959 ;
     ns1:is_public true ;
@@ -733,16 +733,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/cd7d22a0-dde1-4372-bf51-2aede101d8ea> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第八 私制韻鑑巻" ;
-    ns6:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
+    ns5:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72450/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72450/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71960 ;
     ns1:is_public true ;
@@ -802,16 +802,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/da743702-fefc-41a8-a5e7-f6e737303f49> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第九 私法神書巻上" ;
-    ns6:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
+    ns5:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72287/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72287/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71961 ;
     ns1:is_public true ;
@@ -870,16 +870,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/23f8bc9f-7395-4561-bb43-b660eec7391c> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第二十四 私法世物語巻" ;
-    ns6:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
+    ns5:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23f8bc9f-7395-4561-bb43-b660eec7391c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72005/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72005/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71962 ;
     ns1:is_public true ;
@@ -936,16 +936,16 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/e2b05760-42c2-4677-ba94-df95d960c42a> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "第二十五 真道哲論巻" ;
-    ns6:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
+    ns5:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/71964/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/71964/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71963 ;
     ns1:is_public true ;
@@ -979,11 +979,11 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/7024d39c-59dd-40e4-b47a-b8956348d240> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
     ns2:title "残巻 断簡" ;
-    ns6:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
+    ns5:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7024d39c-59dd-40e4-b47a-b8956348d240/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72092/full/200,151/0/default.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72092/full/200,151/0/default.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/71964> ns1:id 71964 .
 

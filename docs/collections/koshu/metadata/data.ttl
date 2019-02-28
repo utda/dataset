@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
 @prefix ns7: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14,8 +14,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/10> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns6:callNumber "甲:2:3693" ;
+    ns4:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
+    ns5:callNumber "甲:2:3693" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 10 ;
     ns1:is_public true ;
@@ -38,7 +38,7 @@
     ns2:rights <https://www.lib.j.u-tokyo.ac.jp/digitalarchive/terms/legalhistorysectionterms.html> ;
     ns2:title "甲州法度之次第" ;
     ns2:type "古文書;Historical Documents" ;
-    ns4:identifier "102a847a-ea96-464a-84ba-cb714696bfbd" ;
+    ns6:identifier "102a847a-ea96-464a-84ba-cb714696bfbd" ;
     ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/10/manifest.json> ;
     ns3:databaseLabel "甲州法度之次第" ;
     ns3:linkToTapas <http://tapasproject.org/tapas-commons/files/甲州法度之次第> ;
