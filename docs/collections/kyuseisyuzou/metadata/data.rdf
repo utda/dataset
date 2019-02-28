@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns4="http://purl.org/dc/terms/"
-  xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns3="http://iiif.io/api/presentation/2#"
-  xmlns:ns7="http://purl.org/dc/dcmitype/"
-  xmlns:ns2="http://purl.org/utrepo/terms#"
-  xmlns:ns6="http://xmlns.com/foaf/0.1/"
   xmlns:ns5="http://purl.org/ontology/bibo/"
+  xmlns:ns2="http://omeka.org/s/vocabs/o#"
+  xmlns:ns3="http://purl.org/dc/terms/"
+  xmlns:ns1="http://purl.org/utrepo/terms#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns6="http://iiif.io/api/presentation/2#"
+  xmlns:ns7="http://purl.org/dc/dcmitype/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830">
-    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21830</ns1:id>
-    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21831/full/200,151/0/default.jpg"/>
+  <ns7:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830">
+    <ns1:databaseLabel>救世主像</ns1:databaseLabel>
     <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830"/>
-    <ns3:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns3:attributionLabel>
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns1:id>
-      </rdf:Description>
-    </ns1:item_set>
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns2:databaseLabel>救世主像</ns2:databaseLabel>
-    <ns4:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
-    <ns1:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
-      </rdf:Description>
-    </ns1:owner>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns4:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns1:created>
-    <ns4:description>左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。&#13;
-&#13;
-当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。</ns4:description>
-    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T13:51:42+00:00</ns1:modified>
-    <ns5:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns5:identifier>
-    <ns1:resource_template>
+    <ns2:resource_template>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:id>
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:id>
       </rdf:Description>
-    </ns1:resource_template>
-    <ns4:title>救世主像</ns4:title>
-    <ns4:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
-    <ns2:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
-  </ns1:Item>
+    </ns2:resource_template>
+    <ns3:description>左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。&#13;
+&#13;
+当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。</ns3:description>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21831/full/200,151/0/default.jpg"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns2:created>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
+    <ns1:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
+      </rdf:Description>
+    </ns2:owner>
+    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse"/>
+    <ns5:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns5:identifier>
+    <ns6:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns6:attributionLabel>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T13:51:42+00:00</ns2:modified>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21830</ns2:id>
+    <ns3:title>救世主像</ns3:title>
+    <ns2:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
+      </rdf:Description>
+    </ns2:resource_class>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns2:id>
+      </rdf:Description>
+    </ns2:item_set>
+  </ns7:Image>
 </rdf:RDF>

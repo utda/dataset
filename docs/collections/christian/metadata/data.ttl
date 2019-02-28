@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://iiif.io/api/presentation/2#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
 @prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://purl.org/utrepo/terms#> .
 @prefix ns7: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,8 +12,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/39287> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 / General Library in the University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns3:attributionLabel "東京大学総合図書館 / General Library in the University of Tokyo" ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:titleTranscription "ギヤドペカドル" ;
     ns1:created "2018-06-08T23:57:01+00:00"^^xsd:dateTime ;
     ns1:id 39287 ;
@@ -214,23 +214,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/8> ;
-    ns2:extent "[189丁] ; 大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian/document/ecd1285a-42b6-4541-b640-1067b2f9fde0> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
-    ns2:subject "キリスト教" ;
-    ns2:title "ぎやどぺかどる" ;
+    ns4:extent "[189丁] ; 大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian/document/ecd1285a-42b6-4541-b640-1067b2f9fde0> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns4:subject "キリスト教" ;
+    ns4:title "ぎやどぺかどる" ;
     ns7:identifier "ecd1285a-42b6-4541-b640-1067b2f9fde0" ;
-    ns3:databaseLabel "キリシタン写本" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd1285a-42b6-4541-b640-1067b2f9fde0/manifest> ;
+    ns6:databaseLabel "キリシタン写本" ;
+    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd1285a-42b6-4541-b640-1067b2f9fde0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/39287> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/ebb775777d3b47a521407bbed523d5f088ba43f0.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/ebb775777d3b47a521407bbed523d5f088ba43f0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/39288> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 / General Library in the University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns3:attributionLabel "東京大学総合図書館 / General Library in the University of Tokyo" ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:X25" ;
     ns5:titleTranscription "ドチリナキリシタン" ;
     ns1:created "2018-06-08T23:57:01+00:00"^^xsd:dateTime ;
@@ -330,18 +330,18 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/8> ;
-    ns2:extent "1冊 ; 大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian/document/394c6988-9bd0-4adc-8c3c-4e05cb02b6a2> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
-    ns2:subject "キリスト教" ;
-    ns2:title "ドチリナ・キリシタン" ;
+    ns4:extent "1冊 ; 大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/christian/document/394c6988-9bd0-4adc-8c3c-4e05cb02b6a2> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns4:subject "キリスト教" ;
+    ns4:title "ドチリナ・キリシタン" ;
     ns7:identifier "394c6988-9bd0-4adc-8c3c-4e05cb02b6a2" ;
-    ns3:databaseLabel "キリシタン写本" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/394c6988-9bd0-4adc-8c3c-4e05cb02b6a2/manifest> ;
+    ns6:databaseLabel "キリシタン写本" ;
+    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/394c6988-9bd0-4adc-8c3c-4e05cb02b6a2/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/39288> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/a14eada5362f9ec224a246534dd899aebf594a26.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/a14eada5362f9ec224a246534dd899aebf594a26.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/39289> ns1:id 39289 .
 

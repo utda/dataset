@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix ns7: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,9 +12,9 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21833> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns6:callNumber "甲:2:1291" ;
+    ns6:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns3:callNumber "甲:2:1291" ;
     ns1:created "2018-04-07T05:46:01+00:00"^^xsd:dateTime ;
     ns1:id 21833 ;
     ns1:is_public true ;
@@ -162,17 +162,17 @@
     ns2:title "大坂町中江出寺請状諸宗寺々五人組判形帳" ;
     ns2:type "古文書;Historical Documents" ;
     ns5:identifier "d1297638-951b-4f15-9fb1-55d98b8e36ac" ;
-    ns3:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d1297638-951b-4f15-9fb1-55d98b8e36ac/manifest> ;
+    ns4:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d1297638-951b-4f15-9fb1-55d98b8e36ac/manifest> ;
     rdfs:comment "南農人町壱丁目に伝存したもの" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21833> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/21833/KO2-1291_001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21834> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns6:callNumber "甲:2:523" ;
+    ns6:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns3:callNumber "甲:2:523" ;
     ns1:created "2018-04-07T05:46:02+00:00"^^xsd:dateTime ;
     ns1:id 21834 ;
     ns1:is_public true ;
@@ -284,20 +284,20 @@
     ns2:title "御前落居記録" ;
     ns2:type "古文書;Historical Documents" ;
     ns5:identifier "d507a810-cff7-4168-bc10-70a32a55920f" ;
-    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/17/manifest.json> ;
-    ns3:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d507a810-cff7-4168-bc10-70a32a55920f/manifest> ;
-    ns3:rtf <https://archdataset.dl.itc.u-tokyo.ac.jp/collections/law/text/rtf/d507a810-cff7-4168-bc10-70a32a55920f.rtf> ;
-    ns3:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca610e82300c06d013ad1de01c709bda6d01ad8eb08f88b7979f2f790bb0b59959765d92405a0625a3154a87437dfd2a89d27363ad6659b1d64f63932f239fe0f36d9c828f3276de6929d1ddbafbe81e7a317a197a0961ea7da12bfe01e1032325> ;
+    ns4:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/17/manifest.json> ;
+    ns4:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d507a810-cff7-4168-bc10-70a32a55920f/manifest> ;
+    ns4:rtf <https://archdataset.dl.itc.u-tokyo.ac.jp/collections/law/text/rtf/d507a810-cff7-4168-bc10-70a32a55920f.rtf> ;
+    ns4:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca610e82300c06d013ad1de01c709bda6d01ad8eb08f88b7979f2f790bb0b59959765d92405a0625a3154a87437dfd2a89d27363ad6659b1d64f63932f239fe0f36d9c828f3276de6929d1ddbafbe81e7a317a197a0961ea7da12bfe01e1032325> ;
     rdfs:comment "印記: 「宮崎蔵書」「運甓斎蔵書記」; 備考: 甲:2:524同帙入" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21834> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/21834/KO2-523-2_001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21835> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns6:callNumber "甲:2:524" ;
+    ns6:attributionLabel "東京大学法学部研究室図書室法制史資料室 / Legal History Section, Faculty of Law Library, the University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns3:callNumber "甲:2:524" ;
     ns1:created "2018-04-07T05:46:02+00:00"^^xsd:dateTime ;
     ns1:id 21835 ;
     ns1:is_public true ;
@@ -395,20 +395,20 @@
     ns2:title "御前落居奉書" ;
     ns2:type "古文書;Historical Documents" ;
     ns5:identifier "4791f609-8567-48cd-96a2-9eb8157aac11" ;
-    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/18/manifest.json> ;
-    ns3:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4791f609-8567-48cd-96a2-9eb8157aac11/manifest> ;
-    ns3:rtf <https://archdataset.dl.itc.u-tokyo.ac.jp/collections/law/text/rtf/4791f609-8567-48cd-96a2-9eb8157aac11.rtf> ;
-    ns3:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca590ec2300c05c013d926a8cdc26d8c13d48221157915e5f630dfb300dbb888e8db96aad0d1c0d57985f14ee88f6f6735be6f62ddbd19d6fe1ae2fa11b403723c5da654c22d9e0ae539269ab2552a51cf54da358739a95a08fc8f3fd5d72318> ;
+    ns4:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/18/manifest.json> ;
+    ns4:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4791f609-8567-48cd-96a2-9eb8157aac11/manifest> ;
+    ns4:rtf <https://archdataset.dl.itc.u-tokyo.ac.jp/collections/law/text/rtf/4791f609-8567-48cd-96a2-9eb8157aac11.rtf> ;
+    ns4:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca590ec2300c05c013d926a8cdc26d8c13d48221157915e5f630dfb300dbb888e8db96aad0d1c0d57985f14ee88f6f6735be6f62ddbd19d6fe1ae2fa11b403723c5da654c22d9e0ae539269ab2552a51cf54da358739a95a08fc8f3fd5d72318> ;
     rdfs:comment "印記: 「宮崎蔵書」「運甓斎蔵書記」; 備考: 天文6年（1537）写。甲:2:523同帙入" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21835> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/21835/KO2-524-2_001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22146> a ns1:Item ;
-    ns4:attributionLabel "東京大学法学部研究室図書室 ; Faculty of Law Library, the University of Tokyo" ;
-    ns6:callNumber "NB::247" ;
-    ns6:holdingIssues "1921-1922" ;
-    ns6:volume "Nr. 1-6, 3. Jahrg." ;
+    ns6:attributionLabel "東京大学法学部研究室図書室 ; Faculty of Law Library, the University of Tokyo" ;
+    ns3:callNumber "NB::247" ;
+    ns3:holdingIssues "1921-1922" ;
+    ns3:volume "Nr. 1-6, 3. Jahrg." ;
     ns1:created "2018-04-09T07:48:42+00:00"^^xsd:dateTime ;
     ns1:id 22146 ;
     ns1:is_public true ;
@@ -486,8 +486,8 @@
     ns2:title "Auslandsrecht : Blätter für Industrie und Handel : Organ des Instituts für ausländisches Recht beim Reichsverband der deutschen Industrie" ;
     ns2:type "雑誌;Serials" ;
     ns5:identifier "a1a320db-682a-4846-b99f-9414f6a17a2c" ;
-    ns3:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a1a320db-682a-4846-b99f-9414f6a17a2c/manifest> ;
+    ns4:databaseLabel "東京大学法学部法制史資料室所蔵コレクション" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a1a320db-682a-4846-b99f-9414f6a17a2c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22146> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/22146/NB-247_001.jpg> .
 
