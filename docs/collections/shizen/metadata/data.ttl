@@ -2,8 +2,8 @@
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -11,8 +11,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71951 ;
     ns1:is_public true ;
@@ -61,7 +61,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72089>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72090>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72091> ;
-    ns1:modified "2018-12-20T06:16:14+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -70,9 +70,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/4bdb27bb-a217-4ed4-8710-3c01c007b26c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "大序" ;
-    ns6:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
+    ns5:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4bdb27bb-a217-4ed4-8710-3c01c007b26c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> ;
@@ -80,8 +80,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71952 ;
     ns1:is_public true ;
@@ -147,7 +147,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72168>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72169>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72170> ;
-    ns1:modified "2018-12-20T06:20:26+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -156,9 +156,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/97e28457-a2b7-40ec-87d0-f976de8fe10a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第一 私制字書巻一" ;
-    ns6:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
+    ns5:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> ;
@@ -166,8 +166,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71953 ;
     ns1:is_public true ;
@@ -233,7 +233,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72389>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72390>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72391> ;
-    ns1:modified "2018-12-20T06:26:10+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -242,9 +242,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/9cbddbf1-73e1-4d14-a5be-236efa6784e0> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第二 私制字書巻二" ;
-    ns6:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
+    ns5:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> ;
@@ -252,8 +252,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71954 ;
     ns1:is_public true ;
@@ -320,7 +320,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72284>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72285>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72286> ;
-    ns1:modified "2018-12-20T06:31:58+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -329,9 +329,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/25825360-d6e9-4b5a-8d29-8229e6fb7848> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第三 私制字書巻三" ;
-    ns6:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
+    ns5:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> ;
@@ -339,8 +339,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71955 ;
     ns1:is_public true ;
@@ -404,7 +404,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72612>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72613>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72614> ;
-    ns1:modified "2018-12-20T06:37:51+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -413,9 +413,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/8cde7a41-3043-4bb8-a9ab-d89a63d74302> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第四 私制儒書巻一" ;
-    ns6:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
+    ns5:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> ;
@@ -423,8 +423,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71956 ;
     ns1:is_public true ;
@@ -487,7 +487,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72447>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72448>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72449> ;
-    ns1:modified "2018-12-20T06:43:28+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -496,9 +496,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/2c0edd09-f4f7-400a-9aa9-506f6a020281> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第五 私制儒書巻二" ;
-    ns6:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
+    ns5:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> ;
@@ -506,8 +506,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71957 ;
     ns1:is_public true ;
@@ -571,7 +571,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72553>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72554>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72555> ;
-    ns1:modified "2018-12-20T06:49:08+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -580,9 +580,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/1a8618bf-1552-41a1-ac31-14b55adaa85d> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第六 私制儒書巻三" ;
-    ns6:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
+    ns5:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a8618bf-1552-41a1-ac31-14b55adaa85d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> ;
@@ -590,8 +590,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71958 ;
     ns1:is_public true ;
@@ -650,7 +650,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72222>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72223>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72224> ;
-    ns1:modified "2018-12-20T06:54:47+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -659,9 +659,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第七 私制仏書巻" ;
-    ns6:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
+    ns5:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> ;
@@ -669,8 +669,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71959 ;
     ns1:is_public true ;
@@ -722,7 +722,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72494>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72495>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72496> ;
-    ns1:modified "2018-12-20T06:59:50+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -731,9 +731,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/cd7d22a0-dde1-4372-bf51-2aede101d8ea> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第八 私制韻鑑巻" ;
-    ns6:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
+    ns5:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> ;
@@ -741,8 +741,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71960 ;
     ns1:is_public true ;
@@ -791,7 +791,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72328>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72329>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72330> ;
-    ns1:modified "2018-12-20T07:04:14+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -800,9 +800,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/da743702-fefc-41a8-a5e7-f6e737303f49> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第九 私法神書巻上" ;
-    ns6:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
+    ns5:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> ;
@@ -810,8 +810,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71961 ;
     ns1:is_public true ;
@@ -859,7 +859,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72045>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72046>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72047> ;
-    ns1:modified "2018-12-20T07:08:27+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -868,9 +868,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/23f8bc9f-7395-4561-bb43-b660eec7391c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第二十四 私法世物語巻" ;
-    ns6:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
+    ns5:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23f8bc9f-7395-4561-bb43-b660eec7391c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> ;
@@ -878,8 +878,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71962 ;
     ns1:is_public true ;
@@ -925,7 +925,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72002>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72003>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72004> ;
-    ns1:modified "2018-12-20T07:12:42+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -934,9 +934,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/e2b05760-42c2-4677-ba94-df95d960c42a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "第二十五 真道哲論巻" ;
-    ns6:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
+    ns5:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> ;
@@ -944,8 +944,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71963 ;
     ns1:is_public true ;
@@ -968,7 +968,7 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72107>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72108>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72109> ;
-    ns1:modified "2018-12-20T07:16:38+00:00"^^xsd:dateTime ;
+    ns1:modified "2019-03-04T15:29:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
@@ -977,9 +977,9 @@
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
     ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/7024d39c-59dd-40e4-b47a-b8956348d240> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/general/reuse> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "残巻 断簡" ;
-    ns6:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
+    ns5:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
     ns3:databaseLabel "稿本「自然真営道」" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7024d39c-59dd-40e4-b47a-b8956348d240/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> ;
@@ -2294,4 +2294,6 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ns1:id 11 .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns1:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 
