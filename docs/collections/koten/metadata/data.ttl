@@ -1,20 +1,20 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171989> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6231" ;
-    ns3:sourceIdentifier "6-9-1" ;
-    ns3:titleTranscription "シンコキン  ワカシュウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6231" ;
+    ns5:sourceIdentifier "6-9-1" ;
+    ns5:titleTranscription "シンコキン  ワカシュウ" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171989 ;
     ns1:is_public true ;
@@ -344,18 +344,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "歌集" ;
     ns2:title "新古今和歌集" ;
-    ns6:identifier "7dbdd04c-5fd9-902e-631a-7d3d199d1ed8" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
-    ns7:sort "6" ;
+    ns3:identifier "7dbdd04c-5fd9-902e-631a-7d3d199d1ed8" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
+    ns4:sort "6" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172012/shin1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172012/shin1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172005> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6396" ;
-    ns3:sourceIdentifier "9-28-3" ;
-    ns3:titleTranscription "ロンゴ シッカイ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6396" ;
+    ns5:sourceIdentifier "9-28-3" ;
+    ns5:titleTranscription "ロンゴ シッカイ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172005 ;
     ns1:is_public true ;
@@ -394,18 +394,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢学" ;
     ns2:title "論語集解" ;
-    ns6:identifier "61efab97-3bcc-05f9-17a0-508a6296978f" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
-    ns7:sort "33" ;
+    ns3:identifier "61efab97-3bcc-05f9-17a0-508a6296978f" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
+    ns4:sort "33" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172006/rong1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172006/rong1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171963> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4163" ;
-    ns3:sourceIdentifier "9-31-16" ;
-    ns3:titleTranscription "アリノママ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4163" ;
+    ns5:sourceIdentifier "9-31-16" ;
+    ns5:titleTranscription "アリノママ" ;
     ns1:created "2018-07-25T06:52:23+00:00"^^xsd:dateTime ;
     ns1:id 171963 ;
     ns1:is_public true ;
@@ -530,18 +530,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "随筆" ;
     ns2:title "有の儘" ;
-    ns6:identifier "b2669333-a52b-5b93-3075-be6faf961e9e" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171963/manifest> ;
-    ns7:sort "35" ;
+    ns3:identifier "b2669333-a52b-5b93-3075-be6faf961e9e" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171963/manifest> ;
+    ns4:sort "35" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171963> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171963/arino101.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171963/arino101.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171964> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6062" ;
-    ns3:sourceIdentifier "9-31-14" ;
-    ns3:titleTranscription "ブンリン ミョウキン バンポウ ゼンショ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6062" ;
+    ns5:sourceIdentifier "9-31-14" ;
+    ns5:titleTranscription "ブンリン ミョウキン バンポウ ゼンショ" ;
     ns1:created "2018-07-25T06:52:23+00:00"^^xsd:dateTime ;
     ns1:id 171964 ;
     ns1:is_public true ;
@@ -1315,18 +1315,18 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koten/document/2ed9a6cb-8162-5a55-06d0-5156269260cc> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "文林妙錦萬寶全書" ;
-    ns6:identifier "2ed9a6cb-8162-5a55-06d0-5156269260cc" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171964/manifest> ;
-    ns7:sort "36" ;
+    ns3:identifier "2ed9a6cb-8162-5a55-06d0-5156269260cc" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171964/manifest> ;
+    ns4:sort "36" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171964> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171964/bunr0101.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171964/bunr0101.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171965> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6056" ;
-    ns3:sourceIdentifier "7-15-15" ;
-    ns3:titleTranscription "ブンショウ  ソウシ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6056" ;
+    ns5:sourceIdentifier "7-15-15" ;
+    ns5:titleTranscription "ブンショウ  ソウシ" ;
     ns1:created "2018-07-25T06:52:23+00:00"^^xsd:dateTime ;
     ns1:id 171965 ;
     ns1:is_public true ;
@@ -1410,18 +1410,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "室町物語" ;
     ns2:title "文正草子" ;
-    ns6:identifier "7feffc5a-659e-02e0-40df-df42e9059307" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171965/manifest> ;
-    ns7:sort "23" ;
+    ns3:identifier "7feffc5a-659e-02e0-40df-df42e9059307" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171965/manifest> ;
+    ns4:sort "23" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171965> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171965/bunsh001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171965/bunsh001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171966> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4192" ;
-    ns3:sourceIdentifier "7-8-1" ;
-    ns3:titleTranscription "チョウゴンカ  ズショウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4192" ;
+    ns5:sourceIdentifier "7-8-1" ;
+    ns5:titleTranscription "チョウゴンカ  ズショウ" ;
     ns1:created "2018-07-25T06:52:23+00:00"^^xsd:dateTime ;
     ns1:id 171966 ;
     ns1:is_public true ;
@@ -1588,18 +1588,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢詩・注釈" ;
     ns2:title "長恨歌圖抄" ;
-    ns6:identifier "cd187574-954d-6fb0-0874-a3e39ad16ac2" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171966/manifest> ;
-    ns7:sort "17" ;
+    ns3:identifier "cd187574-954d-6fb0-0874-a3e39ad16ac2" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171966/manifest> ;
+    ns4:sort "17" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171966> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171966/chog1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171966/chog1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171967> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4210" ;
-    ns3:sourceIdentifier "6-5-23" ;
-    ns3:titleTranscription "ダイジャ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4210" ;
+    ns5:sourceIdentifier "6-5-23" ;
+    ns5:titleTranscription "ダイジャ" ;
     ns1:created "2018-07-25T06:52:23+00:00"^^xsd:dateTime ;
     ns1:id 171967 ;
     ns1:is_public true ;
@@ -1628,18 +1628,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "大じゃ" ;
-    ns6:identifier "1354de31-0d49-75ba-a01d-5310be0a0a8d" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171967/manifest> ;
-    ns7:sort "66" ;
+    ns3:identifier "1354de31-0d49-75ba-a01d-5310be0a0a8d" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171967/manifest> ;
+    ns4:sort "66" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171967> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171967/daij0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171967/daij0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171968> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6122" ;
-    ns3:sourceIdentifier "6-15-13" ;
-    ns3:titleTranscription "エンギシキ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6122" ;
+    ns5:sourceIdentifier "6-15-13" ;
+    ns5:titleTranscription "エンギシキ" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171968 ;
     ns1:is_public true ;
@@ -1690,18 +1690,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "法制" ;
     ns2:title "延喜式" ;
-    ns6:identifier "262f6110-5c5b-09d4-7a28-0c0019fa5a79" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171968/manifest> ;
-    ns7:sort "8" ;
+    ns3:identifier "262f6110-5c5b-09d4-7a28-0c0019fa5a79" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171968/manifest> ;
+    ns4:sort "8" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171968> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171968/engi0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171968/engi0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171969> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5930" ;
-    ns3:sourceIdentifier "3-4-19" ;
-    ns3:titleTranscription "ガクセイヘン" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5930" ;
+    ns5:sourceIdentifier "3-4-19" ;
+    ns5:titleTranscription "ガクセイヘン" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171969 ;
     ns1:is_public true ;
@@ -1770,18 +1770,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "音楽" ;
     ns2:title "楽制篇" ;
-    ns6:identifier "51763842-91db-9f72-a2d2-87cf990007e1" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171969/manifest> ;
-    ns7:sort "47" ;
+    ns3:identifier "51763842-91db-9f72-a2d2-87cf990007e1" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171969/manifest> ;
+    ns4:sort "47" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171969> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171969/gakus001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171969/gakus001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171970> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5849" ;
-    ns3:sourceIdentifier "3-5-4" ;
-    ns3:titleTranscription "リュウナン ゲイキ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5849" ;
+    ns5:sourceIdentifier "3-5-4" ;
+    ns5:titleTranscription "リュウナン ゲイキ" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171970 ;
     ns1:is_public true ;
@@ -1847,18 +1847,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "動物" ;
     ns2:title "柳南鯨記" ;
-    ns6:identifier "1f2ed9da-a2cf-4033-2086-2d3e3fb09386" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171970/manifest> ;
-    ns7:sort "48" ;
+    ns3:identifier "1f2ed9da-a2cf-4033-2086-2d3e3fb09386" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171970/manifest> ;
+    ns4:sort "48" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171970> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171970/geik1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171970/geik1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171971> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6029" ;
-    ns3:sourceIdentifier "3-2-2" ;
-    ns3:titleTranscription "ゲンジ モノガタリ ハハキギ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6029" ;
+    ns5:sourceIdentifier "3-2-2" ;
+    ns5:titleTranscription "ゲンジ モノガタリ ハハキギ" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171971 ;
     ns1:is_public true ;
@@ -1958,18 +1958,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "物語" ;
     ns2:title "源氏物語.  箒木" ;
-    ns6:identifier "6dadf5fc-63b2-43b2-8459-fd004ff15ab3" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171971/manifest> ;
-    ns7:sort "42" ;
+    ns3:identifier "6dadf5fc-63b2-43b2-8459-fd004ff15ab3" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171971/manifest> ;
+    ns4:sort "42" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171971> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171971/ghaha001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171971/ghaha001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171972> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4214" ;
-    ns3:sourceIdentifier "5-10-2" ;
-    ns3:titleTranscription "ゲンジ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4214" ;
+    ns5:sourceIdentifier "5-10-2" ;
+    ns5:titleTranscription "ゲンジ" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171972 ;
     ns1:is_public true ;
@@ -2000,18 +2000,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "源氏(古浄瑠璃)" ;
-    ns6:identifier "b570aa8c-6e56-92b9-7bc2-67a459cd66df" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171972/manifest> ;
-    ns7:sort "60" ;
+    ns3:identifier "b570aa8c-6e56-92b9-7bc2-67a459cd66df" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171972/manifest> ;
+    ns4:sort "60" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171972> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171972/gkojo001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171972/gkojo001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171973> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6406" ;
-    ns3:sourceIdentifier "6-32-20" ;
-    ns3:titleTranscription "ヒシセツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6406" ;
+    ns5:sourceIdentifier "6-32-20" ;
+    ns5:titleTranscription "ヒシセツ" ;
     ns1:created "2018-07-25T06:52:24+00:00"^^xsd:dateTime ;
     ns1:id 171973 ;
     ns1:is_public true ;
@@ -2036,18 +2036,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢学" ;
     ns2:title "避子説" ;
-    ns6:identifier "dd296df6-38fa-a025-7371-5e7d2ceb2046" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171973/manifest> ;
-    ns7:sort "16" ;
+    ns3:identifier "dd296df6-38fa-a025-7371-5e7d2ceb2046" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171973/manifest> ;
+    ns4:sort "16" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171973> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171973/hish0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171973/hish0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171974> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6275" ;
-    ns3:sourceIdentifier "8-8-2" ;
-    ns3:titleTranscription "ヒャッキ ヤコウズ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6275" ;
+    ns5:sourceIdentifier "8-8-2" ;
+    ns5:titleTranscription "ヒャッキ ヤコウズ" ;
     ns1:created "2018-07-25T06:52:25+00:00"^^xsd:dateTime ;
     ns1:id 171974 ;
     ns1:is_public true ;
@@ -2083,18 +2083,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "絵巻" ;
     ns2:title "百鬼夜行図" ;
-    ns6:identifier "c572fe8a-6eb0-5b58-5b97-5f68e8786681" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171974/manifest> ;
-    ns7:sort "29" ;
+    ns3:identifier "c572fe8a-6eb0-5b58-5b97-5f68e8786681" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171974/manifest> ;
+    ns4:sort "29" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171974> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171974/hyakk001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171974/hyakk001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171975> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4202" ;
-    ns3:sourceIdentifier "7-9-5" ;
-    ns3:titleTranscription "イチヨウショウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4202" ;
+    ns5:sourceIdentifier "7-9-5" ;
+    ns5:titleTranscription "イチヨウショウ" ;
     ns1:created "2018-07-25T06:52:25+00:00"^^xsd:dateTime ;
     ns1:id 171975 ;
     ns1:is_public true ;
@@ -2214,18 +2214,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "歌学" ;
     ns2:title "一葉抄" ;
-    ns6:identifier "2c2614d0-8c8e-8088-284a-92c977dc6774" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171975/manifest> ;
-    ns7:sort "18" ;
+    ns3:identifier "2c2614d0-8c8e-8088-284a-92c977dc6774" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171975/manifest> ;
+    ns4:sort "18" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171975> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171975/ichi0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171975/ichi0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171976> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4089" ;
-    ns3:sourceIdentifier "3-14-21" ;
-    ns3:titleTranscription "イマ　ワ　ムカシ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4089" ;
+    ns5:sourceIdentifier "3-14-21" ;
+    ns5:titleTranscription "イマ　ワ　ムカシ" ;
     ns1:created "2018-07-25T06:52:25+00:00"^^xsd:dateTime ;
     ns1:id 171976 ;
     ns1:is_public true ;
@@ -2272,18 +2272,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "物語" ;
     ns2:title "今は昔" ;
-    ns6:identifier "ca9dfffb-8019-569c-7af5-b0e1e79422c1" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171976/manifest> ;
-    ns7:sort "51" ;
+    ns3:identifier "ca9dfffb-8019-569c-7af5-b0e1e79422c1" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171976/manifest> ;
+    ns4:sort "51" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171976> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171976/imawa001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171976/imawa001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171977> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4294" ;
-    ns3:sourceIdentifier "4-9-24" ;
-    ns3:titleTranscription "イヌツクバシュウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4294" ;
+    ns5:sourceIdentifier "4-9-24" ;
+    ns5:titleTranscription "イヌツクバシュウ" ;
     ns1:created "2018-07-25T06:52:25+00:00"^^xsd:dateTime ;
     ns1:id 171977 ;
     ns1:is_public true ;
@@ -2345,18 +2345,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "俳諧" ;
     ns2:title "犬筑波集" ;
-    ns6:identifier "276ad5b5-9b59-9035-1912-c22ddbf56cd5" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171977/manifest> ;
-    ns7:sort "54" ;
+    ns3:identifier "276ad5b5-9b59-9035-1912-c22ddbf56cd5" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171977/manifest> ;
+    ns4:sort "54" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171977> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171977/inut0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171977/inut0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171978> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4245" ;
-    ns3:sourceIdentifier "5-10-11" ;
-    ns3:titleTranscription "ジョウド サンタンキ ナラビ ニ オハラ モンドウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4245" ;
+    ns5:sourceIdentifier "5-10-11" ;
+    ns5:titleTranscription "ジョウド サンタンキ ナラビ ニ オハラ モンドウ" ;
     ns1:created "2018-07-25T06:52:25+00:00"^^xsd:dateTime ;
     ns1:id 171978 ;
     ns1:is_public true ;
@@ -2393,18 +2393,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "浄土さんたん記并おはら問答" ;
-    ns6:identifier "16ea5dcc-3bea-13be-5929-c58d75822997" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171978/manifest> ;
-    ns7:sort "61" ;
+    ns3:identifier "16ea5dcc-3bea-13be-5929-c58d75822997" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171978/manifest> ;
+    ns4:sort "61" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171978> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171978/jodo0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171978/jodo0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171979> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6470" ;
-    ns3:sourceIdentifier "6-31-3" ;
-    ns3:titleTranscription "カデン  ツウガイホウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6470" ;
+    ns5:sourceIdentifier "6-31-3" ;
+    ns5:titleTranscription "カデン  ツウガイホウ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171979 ;
     ns1:is_public true ;
@@ -2520,18 +2520,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "家傳通外方" ;
-    ns6:identifier "70b9201c-60a5-1234-1ffd-83e62cc2416e" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171979/manifest> ;
-    ns7:sort "10" ;
+    ns3:identifier "70b9201c-60a5-1234-1ffd-83e62cc2416e" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171979/manifest> ;
+    ns4:sort "10" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171979> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171979/kade1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171979/kade1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171980> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6553" ;
-    ns3:sourceIdentifier "9-27-7" ;
-    ns3:titleTranscription "カイタイ ヤクズ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6553" ;
+    ns5:sourceIdentifier "9-27-7" ;
+    ns5:titleTranscription "カイタイ ヤクズ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171980 ;
     ns1:is_public true ;
@@ -2553,18 +2553,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "解体約図" ;
-    ns6:identifier "a28d0e4c-8db1-8bb0-32f8-f8967759382a" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171980/manifest> ;
-    ns7:sort "30" ;
+    ns3:identifier "a28d0e4c-8db1-8bb0-32f8-f8967759382a" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171980/manifest> ;
+    ns4:sort "30" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171980> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171980/kaita001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171980/kaita001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171981> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4252" ;
-    ns3:sourceIdentifier "6-4-8" ;
-    ns3:titleTranscription "カバ ノ オンゾウシ アズマ ノ ドウカ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4252" ;
+    ns5:sourceIdentifier "6-4-8" ;
+    ns5:titleTranscription "カバ ノ オンゾウシ アズマ ノ ドウカ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171981 ;
     ns1:is_public true ;
@@ -2597,18 +2597,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "蒲御曹子東童歌" ;
-    ns6:identifier "2cb8bbad-724a-20ce-1f72-fd8cc7c436a4" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171981/manifest> ;
-    ns7:sort "65" ;
+    ns3:identifier "2cb8bbad-724a-20ce-1f72-fd8cc7c436a4" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171981/manifest> ;
+    ns4:sort "65" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171981> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171981/kama0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171981/kama0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171982> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6477" ;
-    ns3:sourceIdentifier "6-31-4" ;
-    ns3:titleTranscription "カンレイ  ソウキュウ  シンショウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6477" ;
+    ns5:sourceIdentifier "6-31-4" ;
+    ns5:titleTranscription "カンレイ  ソウキュウ  シンショウ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171982 ;
     ns1:is_public true ;
@@ -2702,18 +2702,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "管蠡草灸診抄" ;
-    ns6:identifier "255d0375-6a99-273b-0f01-2534091452a4" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171982/manifest> ;
-    ns7:sort "11" ;
+    ns3:identifier "255d0375-6a99-273b-0f01-2534091452a4" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171982/manifest> ;
+    ns4:sort "11" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171982> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171982/kanre001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171982/kanre001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171983> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4253" ;
-    ns3:sourceIdentifier "3-33-7" ;
-    ns3:titleTranscription "シマバラ ミエク ノ モンビ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4253" ;
+    ns5:sourceIdentifier "3-33-7" ;
+    ns5:titleTranscription "シマバラ ミエク ノ モンビ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171983 ;
     ns1:is_public true ;
@@ -2742,18 +2742,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "島原御影供紋日" ;
-    ns6:identifier "cc0ebcb2-3979-67e7-712b-9e1f2a688361" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171983/manifest> ;
-    ns7:sort "53" ;
+    ns3:identifier "cc0ebcb2-3979-67e7-712b-9e1f2a688361" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171983/manifest> ;
+    ns4:sort "53" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171983> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171983/kawari01.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171983/kawari01.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171984> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6468" ;
-    ns3:sourceIdentifier "5-10-7" ;
-    ns3:titleTranscription "ケイクセツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6468" ;
+    ns5:sourceIdentifier "5-10-7" ;
+    ns5:titleTranscription "ケイクセツ" ;
     ns1:created "2018-07-25T06:52:26+00:00"^^xsd:dateTime ;
     ns1:id 171984 ;
     ns1:is_public true ;
@@ -2896,18 +2896,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "瘈狗説" ;
-    ns6:identifier "b13ff573-4c25-98fc-43ab-9c85ab1f3a5c" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171984/manifest> ;
-    ns7:sort "62" ;
+    ns3:identifier "b13ff573-4c25-98fc-43ab-9c85ab1f3a5c" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171984/manifest> ;
+    ns4:sort "62" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171984> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171984/keiku001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171984/keiku001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171985> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6552" ;
-    ns3:sourceIdentifier "6-7-12" ;
-    ns3:titleTranscription "ケンゴウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6552" ;
+    ns5:sourceIdentifier "6-7-12" ;
+    ns5:titleTranscription "ケンゴウ" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171985 ;
     ns1:is_public true ;
@@ -2971,18 +2971,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "験号" ;
-    ns6:identifier "20e39fc5-a301-2156-20ea-8082dd32289f" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171985/manifest> ;
-    ns7:sort "2" ;
+    ns3:identifier "20e39fc5-a301-2156-20ea-8082dd32289f" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171985/manifest> ;
+    ns4:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171985> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171985/keng0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171985/keng0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171986> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5957" ;
-    ns3:sourceIdentifier "6-8-17" ;
-    ns3:titleTranscription "キンセイ  キセキコウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5957" ;
+    ns5:sourceIdentifier "6-8-17" ;
+    ns5:titleTranscription "キンセイ  キセキコウ" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171986 ;
     ns1:is_public true ;
@@ -3107,18 +3107,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "随筆" ;
     ns2:title "近世奇跡考" ;
-    ns6:identifier "feb9c85d-3819-213f-21ae-a97abd5e6472" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171986/manifest> ;
-    ns7:sort "4" ;
+    ns3:identifier "feb9c85d-3819-213f-21ae-a97abd5e6472" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171986/manifest> ;
+    ns4:sort "4" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171986> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171986/kins1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171986/kins1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171987> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6284" ;
-    ns3:sourceIdentifier "6-5-22" ;
-    ns3:titleTranscription "コアツモリ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6284" ;
+    ns5:sourceIdentifier "6-5-22" ;
+    ns5:titleTranscription "コアツモリ" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171987 ;
     ns1:is_public true ;
@@ -3147,18 +3147,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "こあつもり" ;
-    ns6:identifier "01466091-970c-4f8a-2e36-bfb0e88733c8" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171987/manifest> ;
-    ns7:sort "67" ;
+    ns3:identifier "01466091-970c-4f8a-2e36-bfb0e88733c8" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171987/manifest> ;
+    ns4:sort "67" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171987> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171987/koat0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171987/koat0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171988> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6051" ;
-    ns3:sourceIdentifier "8-9-6" ;
-    ns3:titleTranscription "コアツモリ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6051" ;
+    ns5:sourceIdentifier "8-9-6" ;
+    ns5:titleTranscription "コアツモリ" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171988 ;
     ns1:is_public true ;
@@ -3199,18 +3199,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "こあつもり" ;
-    ns6:identifier "7234f107-20b2-3791-0f00-2ae032039cd0" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171988/manifest> ;
-    ns7:sort "39" ;
+    ns3:identifier "7234f107-20b2-3791-0f00-2ae032039cd0" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171988/manifest> ;
+    ns4:sort "39" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171988> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171988/koatb001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171988/koatb001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171990> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5871" ;
-    ns3:sourceIdentifier "3-5-13" ;
-    ns3:titleTranscription "コウコウロク" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5871" ;
+    ns5:sourceIdentifier "3-5-13" ;
+    ns5:titleTranscription "コウコウロク" ;
     ns1:created "2018-07-25T06:52:27+00:00"^^xsd:dateTime ;
     ns1:id 171990 ;
     ns1:is_public true ;
@@ -3267,18 +3267,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "教訓" ;
     ns2:title "孝行録" ;
-    ns6:identifier "5778a1c4-1b8f-1dfc-24b5-38be7fcc1dab" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171990/manifest> ;
-    ns7:sort "49" ;
+    ns3:identifier "5778a1c4-1b8f-1dfc-24b5-38be7fcc1dab" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171990/manifest> ;
+    ns4:sort "49" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171990> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171990/koko0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171990/koko0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171991> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4013" ;
-    ns3:sourceIdentifier "3-4-11" ;
-    ns3:titleTranscription "ホンチョウ コクシ モクロク ; ホンチョウ ホウカ モンジョ モクロク" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4013" ;
+    ns5:sourceIdentifier "3-4-11" ;
+    ns5:titleTranscription "ホンチョウ コクシ モクロク ; ホンチョウ ホウカ モンジョ モクロク" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171991 ;
     ns1:is_public true ;
@@ -3323,18 +3323,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "書目" ;
     ns2:title "本朝国史目録 ; 本朝法家文書目録" ;
-    ns6:identifier "e080e17f-84a0-18b9-686e-d4e496200318" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171991/manifest> ;
-    ns7:sort "43" ;
+    ns3:identifier "e080e17f-84a0-18b9-686e-d4e496200318" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171991/manifest> ;
+    ns4:sort "43" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171991> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171991/koku0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171991/koku0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171992> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6483" ;
-    ns3:sourceIdentifier "6-31-7" ;
-    ns3:titleTranscription "コウミンスイ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6483" ;
+    ns5:sourceIdentifier "6-31-7" ;
+    ns5:titleTranscription "コウミンスイ" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171992 ;
     ns1:is_public true ;
@@ -3559,18 +3559,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "恒民粋" ;
-    ns6:identifier "d7186cac-857f-23f6-3e96-b84378a410c7" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171992/manifest> ;
-    ns7:sort "12" ;
+    ns3:identifier "d7186cac-857f-23f6-3e96-b84378a410c7" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171992/manifest> ;
+    ns4:sort "12" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171992> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171992/komi1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171992/komi1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171993> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6300" ;
-    ns3:sourceIdentifier "6-8-8" ;
-    ns3:titleTranscription "コウモンドウ チョゾウ ショモク" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6300" ;
+    ns5:sourceIdentifier "6-8-8" ;
+    ns5:titleTranscription "コウモンドウ チョゾウ ショモク" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171993 ;
     ns1:is_public true ;
@@ -3884,18 +3884,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "書目" ;
     ns2:title "好問堂儲蔵書目" ;
-    ns6:identifier "95db0d93-3107-4491-2084-9b7783f35e28" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171993/manifest> ;
-    ns7:sort "68" ;
+    ns3:identifier "95db0d93-3107-4491-2084-9b7783f35e28" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171993/manifest> ;
+    ns4:sort "68" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171993> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171993/komo1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171993/komo1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171994> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6509" ;
-    ns3:sourceIdentifier "5-13-1" ;
-    ns3:titleTranscription "クリサキ モンジョ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6509" ;
+    ns5:sourceIdentifier "5-13-1" ;
+    ns5:titleTranscription "クリサキ モンジョ" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171994 ;
     ns1:is_public true ;
@@ -3919,18 +3919,18 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koten/document/88930f9c-4b42-93fb-73fe-dfd44f8f2460> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "栗崎文書" ;
-    ns6:identifier "88930f9c-4b42-93fb-73fe-dfd44f8f2460" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171994/manifest> ;
-    ns7:sort "64" ;
+    ns3:identifier "88930f9c-4b42-93fb-73fe-dfd44f8f2460" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171994/manifest> ;
+    ns4:sort "64" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171994> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171994/kuri1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171994/kuri1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171995> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4247" ;
-    ns3:sourceIdentifier "4-13-10" ;
-    ns3:titleTranscription "クズハ ドウシン" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4247" ;
+    ns5:sourceIdentifier "4-13-10" ;
+    ns5:titleTranscription "クズハ ドウシン" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171995 ;
     ns1:is_public true ;
@@ -3964,18 +3964,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "浄瑠璃" ;
     ns2:title "くずは道心" ;
-    ns6:identifier "720ab3e9-54b3-12b4-50d2-59de91f43e87" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171995/manifest> ;
-    ns7:sort "57" ;
+    ns3:identifier "720ab3e9-54b3-12b4-50d2-59de91f43e87" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171995/manifest> ;
+    ns4:sort "57" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171995> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171995/kuzuh001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171995/kuzuh001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171996> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5915" ;
-    ns3:sourceIdentifier "3-4-24" ;
-    ns3:titleTranscription "キュウコウ ホンゾウ キブン" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5915" ;
+    ns5:sourceIdentifier "3-4-24" ;
+    ns5:titleTranscription "キュウコウ ホンゾウ キブン" ;
     ns1:created "2018-07-25T06:52:28+00:00"^^xsd:dateTime ;
     ns1:id 171996 ;
     ns1:is_public true ;
@@ -4056,18 +4056,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "本草" ;
     ns2:title "救荒本草紀聞" ;
-    ns6:identifier "dfd2b41e-674b-3add-832f-44cf689100f0" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171996/manifest> ;
-    ns7:sort "44" ;
+    ns3:identifier "dfd2b41e-674b-3add-832f-44cf689100f0" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171996/manifest> ;
+    ns4:sort "44" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171996> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171996/kyuhk001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171996/kyuhk001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171997> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5921" ;
-    ns3:sourceIdentifier "3-4-26" ;
-    ns3:titleTranscription "シュウテイオウ キュウコウ ホンゾウ ワメイセン" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5921" ;
+    ns5:sourceIdentifier "3-4-26" ;
+    ns5:titleTranscription "シュウテイオウ キュウコウ ホンゾウ ワメイセン" ;
     ns1:created "2018-07-25T06:52:29+00:00"^^xsd:dateTime ;
     ns1:id 171997 ;
     ns1:is_public true ;
@@ -4118,18 +4118,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "本草" ;
     ns2:title "周定王救荒本草和名選" ;
-    ns6:identifier "4bfbdac2-9c96-3d5b-4582-e0b237826c0d" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171997/manifest> ;
-    ns7:sort "46" ;
+    ns3:identifier "4bfbdac2-9c96-3d5b-4582-e0b237826c0d" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171997/manifest> ;
+    ns4:sort "46" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171997> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171997/kyuhw001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171997/kyuhw001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171998> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5916" ;
-    ns3:sourceIdentifier "3-4-25" ;
-    ns3:titleTranscription "キュウコウ ヤフ キブン" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5916" ;
+    ns5:sourceIdentifier "3-4-25" ;
+    ns5:titleTranscription "キュウコウ ヤフ キブン" ;
     ns1:created "2018-07-25T06:52:29+00:00"^^xsd:dateTime ;
     ns1:id 171998 ;
     ns1:is_public true ;
@@ -4227,18 +4227,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "本草" ;
     ns2:title "救荒野譜紀聞" ;
-    ns6:identifier "87131215-927e-72ea-2c14-5a7995585566" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171998/manifest> ;
-    ns7:sort "45" ;
+    ns3:identifier "87131215-927e-72ea-2c14-5a7995585566" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171998/manifest> ;
+    ns4:sort "45" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171998> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171998/kyuki001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171998/kyuki001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171999> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6390" ;
-    ns3:sourceIdentifier "3-13-10" ;
-    ns3:titleTranscription "モクズ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6390" ;
+    ns5:sourceIdentifier "3-13-10" ;
+    ns5:titleTranscription "モクズ" ;
     ns1:created "2018-07-25T06:52:29+00:00"^^xsd:dateTime ;
     ns1:id 171999 ;
     ns1:is_public true ;
@@ -4426,18 +4426,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "歌集" ;
     ns2:title "藻芥" ;
-    ns6:identifier "ecdb69c8-a18d-42d5-3df7-f2f4bccf096a" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171999/manifest> ;
-    ns7:sort "50" ;
+    ns3:identifier "ecdb69c8-a18d-42d5-3df7-f2f4bccf096a" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171999/manifest> ;
+    ns4:sort "50" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171999> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171999/moku1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/171999/moku1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172000> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6516" ;
-    ns3:sourceIdentifier "6-31-6" ;
-    ns3:titleTranscription "ミャクケツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6516" ;
+    ns5:sourceIdentifier "6-31-6" ;
+    ns5:titleTranscription "ミャクケツ" ;
     ns1:created "2018-07-25T06:52:29+00:00"^^xsd:dateTime ;
     ns1:id 172000 ;
     ns1:is_public true ;
@@ -4478,18 +4478,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "脉訣" ;
-    ns6:identifier "4d9020c1-0096-86d9-130f-c67d20ee2a85" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172000/manifest> ;
-    ns7:sort "15" ;
+    ns3:identifier "4d9020c1-0096-86d9-130f-c67d20ee2a85" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172000/manifest> ;
+    ns4:sort "15" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172000> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172000/myak0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172000/myak0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172001> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "E24:1310" ;
-    ns3:sourceIdentifier "6-15-22" ;
-    ns3:titleTranscription "ネコ  ノ  コ  ノ  コネコ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "E24:1310" ;
+    ns5:sourceIdentifier "6-15-22" ;
+    ns5:titleTranscription "ネコ  ノ  コ  ノ  コネコ" ;
     ns1:created "2018-07-25T06:52:29+00:00"^^xsd:dateTime ;
     ns1:id 172001 ;
     ns1:is_public true ;
@@ -4519,18 +4519,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "黒本" ;
     ns2:title "子子子子子子" ;
-    ns6:identifier "00e1f95d-5bd4-0b85-403e-b0eb6cd422d4" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172001/manifest> ;
-    ns7:sort "9" ;
+    ns3:identifier "00e1f95d-5bd4-0b85-403e-b0eb6cd422d4" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172001/manifest> ;
+    ns4:sort "9" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172001> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172001/neko0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172001/neko0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172002> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6567" ;
-    ns3:sourceIdentifier "9-27-5" ;
-    ns3:titleTranscription "ネンジュウ ギョウジ ノ ズ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6567" ;
+    ns5:sourceIdentifier "9-27-5" ;
+    ns5:titleTranscription "ネンジュウ ギョウジ ノ ズ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172002 ;
     ns1:is_public true ;
@@ -4574,18 +4574,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "絵画" ;
     ns2:title "年中行事之図" ;
-    ns6:identifier "931470e4-2b79-31e5-8f8f-88fda806638d" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172002/manifest> ;
-    ns7:sort "31" ;
+    ns3:identifier "931470e4-2b79-31e5-8f8f-88fda806638d" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172002/manifest> ;
+    ns4:sort "31" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172002> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172002/nenju001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172002/nenju001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172003> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4083" ;
-    ns3:sourceIdentifier "5-12-8" ;
-    ns3:titleTranscription "オチクボ モノガタリ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4083" ;
+    ns5:sourceIdentifier "5-12-8" ;
+    ns5:titleTranscription "オチクボ モノガタリ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172003 ;
     ns1:is_public true ;
@@ -4632,18 +4632,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "室町物語" ;
     ns2:title "落窪物語" ;
-    ns6:identifier "9301d388-95ee-8b41-1c3c-c2951dae8693" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172003/manifest> ;
-    ns7:sort "63" ;
+    ns3:identifier "9301d388-95ee-8b41-1c3c-c2951dae8693" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172003/manifest> ;
+    ns4:sort "63" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172003> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172003/ochi0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172003/ochi0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172004> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6555" ;
-    ns3:sourceIdentifier "2-35-1" ;
-    ns3:titleTranscription "リクシ コウジツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6555" ;
+    ns5:sourceIdentifier "2-35-1" ;
+    ns5:titleTranscription "リクシ コウジツ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172004 ;
     ns1:is_public true ;
@@ -4733,18 +4733,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢詩" ;
     ns2:title "陸詩考實" ;
-    ns6:identifier "d8480473-998e-5d50-41a5-f1464dd215df" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172004/manifest> ;
-    ns7:sort "69" ;
+    ns3:identifier "d8480473-998e-5d50-41a5-f1464dd215df" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172004/manifest> ;
+    ns4:sort "69" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172004> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172004/riku1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172004/riku1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172007> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6295" ;
-    ns3:sourceIdentifier "7-15-20" ;
-    ns3:titleTranscription "ロウシ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6295" ;
+    ns5:sourceIdentifier "7-15-20" ;
+    ns5:titleTranscription "ロウシ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172007 ;
     ns1:is_public true ;
@@ -4829,18 +4829,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢学" ;
     ns2:title "老子" ;
-    ns6:identifier "586ea69e-70f6-36b0-9e8c-64ff5f4c3f09" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172007/manifest> ;
-    ns7:sort "24" ;
+    ns3:identifier "586ea69e-70f6-36b0-9e8c-64ff5f4c3f09" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172007/manifest> ;
+    ns4:sort "24" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172007> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172007/rosh0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172007/rosh0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172008> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4291" ;
-    ns3:sourceIdentifier "10-4-4" ;
-    ns3:titleTranscription "リュウキュウ ゾウトウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4291" ;
+    ns5:sourceIdentifier "10-4-4" ;
+    ns5:titleTranscription "リュウキュウ ゾウトウ" ;
     ns1:created "2018-07-25T06:52:31+00:00"^^xsd:dateTime ;
     ns1:id 172008 ;
     ns1:is_public true ;
@@ -4905,18 +4905,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢詩文" ;
     ns2:title "琉球贈答" ;
-    ns6:identifier "a6c6e6f3-84a9-339a-1eb9-52287aca5326" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172008/manifest> ;
-    ns7:sort "37" ;
+    ns3:identifier "a6c6e6f3-84a9-339a-1eb9-52287aca5326" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172008/manifest> ;
+    ns4:sort "37" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172008> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172008/ryuk0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172008/ryuk0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172009> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4100" ;
-    ns3:sourceIdentifier "5-3-21" ;
-    ns3:titleTranscription "サツマ ダユウ シバイズコウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4100" ;
+    ns5:sourceIdentifier "5-3-21" ;
+    ns5:titleTranscription "サツマ ダユウ シバイズコウ" ;
     ns1:created "2018-07-25T06:52:31+00:00"^^xsd:dateTime ;
     ns1:id 172009 ;
     ns1:is_public true ;
@@ -4939,18 +4939,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "演劇" ;
     ns2:title "薩摩太夫芝居図考" ;
-    ns6:identifier "7a2f0687-8592-8cb4-948c-644fae3d0b60" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172009/manifest> ;
-    ns7:sort "58" ;
+    ns3:identifier "7a2f0687-8592-8cb4-948c-644fae3d0b60" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172009/manifest> ;
+    ns4:sort "58" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172009> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172009/satsu001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172009/satsu001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172010> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5846" ;
-    ns3:sourceIdentifier "7-22-17" ;
-    ns3:titleTranscription "サズイシ ショウショウ ズセツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5846" ;
+    ns5:sourceIdentifier "7-22-17" ;
+    ns5:titleTranscription "サズイシ ショウショウ ズセツ" ;
     ns1:created "2018-07-25T06:52:31+00:00"^^xsd:dateTime ;
     ns1:id 172010 ;
     ns1:is_public true ;
@@ -4986,18 +4986,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "動物" ;
     ns2:title "砂按子蠨蛸図説" ;
-    ns6:identifier "0178c1cb-097d-7ac2-2563-307ae3b80eef" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172010/manifest> ;
-    ns7:sort "28" ;
+    ns3:identifier "0178c1cb-097d-7ac2-2563-307ae3b80eef" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172010/manifest> ;
+    ns4:sort "28" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172010> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172010/sazui001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172010/sazui001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172011> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4011" ;
-    ns3:sourceIdentifier "9-11-1" ;
-    ns3:titleTranscription "シンゴン ダラニ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4011" ;
+    ns5:sourceIdentifier "9-11-1" ;
+    ns5:titleTranscription "シンゴン ダラニ" ;
     ns1:created "2018-07-25T06:52:31+00:00"^^xsd:dateTime ;
     ns1:id 172011 ;
     ns1:is_public true ;
@@ -5062,18 +5062,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "仏教" ;
     ns2:title "真言陀羅尼" ;
-    ns6:identifier "1f35990b-a490-1a63-2ab0-32cd98112cf7" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172011/manifest> ;
-    ns7:sort "1" ;
+    ns3:identifier "1f35990b-a490-1a63-2ab0-32cd98112cf7" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172011/manifest> ;
+    ns4:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172011> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172011/shing001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172011/shing001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172013> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6110" ;
-    ns3:sourceIdentifier "2-7-3" ;
-    ns3:titleTranscription "シシュ コウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6110" ;
+    ns5:sourceIdentifier "2-7-3" ;
+    ns5:titleTranscription "シシュ コウ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172013 ;
     ns1:is_public true ;
@@ -5096,18 +5096,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "刺腫攷" ;
-    ns6:identifier "d5007242-2ecb-8bfd-0604-2083fc477fff" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172013/manifest> ;
-    ns7:sort "41" ;
+    ns3:identifier "d5007242-2ecb-8bfd-0604-2083fc477fff" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172013/manifest> ;
+    ns4:sort "41" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172013> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172013/sishu001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172013/sishu001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172014> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6135" ;
-    ns3:sourceIdentifier "6-11-5" ;
-    ns3:titleTranscription "ショウキュウキ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6135" ;
+    ns5:sourceIdentifier "6-11-5" ;
+    ns5:titleTranscription "ショウキュウキ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172014 ;
     ns1:is_public true ;
@@ -5196,18 +5196,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "軍記物語" ;
     ns2:title "承久記" ;
-    ns6:identifier "06582fd8-23f9-121f-7314-1fbb0dc1438b" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172014/manifest> ;
-    ns7:sort "7" ;
+    ns3:identifier "06582fd8-23f9-121f-7314-1fbb0dc1438b" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172014/manifest> ;
+    ns4:sort "7" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172014> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172014/shoky001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172014/shoky001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172015> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5841" ;
-    ns3:sourceIdentifier "4-11-12" ;
-    ns3:titleTranscription "ショウセツ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5841" ;
+    ns5:sourceIdentifier "4-11-12" ;
+    ns5:titleTranscription "ショウセツ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172015 ;
     ns1:is_public true ;
@@ -5230,18 +5230,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "動物" ;
     ns2:title "麞説" ;
-    ns6:identifier "101a903c-9a91-226d-2b7a-f1b5853d1d6d" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172015/manifest> ;
-    ns7:sort "55" ;
+    ns3:identifier "101a903c-9a91-226d-2b7a-f1b5853d1d6d" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172015/manifest> ;
+    ns4:sort "55" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172015> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172015/shose001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172015/shose001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172016> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5877" ;
-    ns3:sourceIdentifier "7-13-2" ;
-    ns3:titleTranscription "ショシ カイヨウ オヨビ ホイ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5877" ;
+    ns5:sourceIdentifier "7-13-2" ;
+    ns5:titleTranscription "ショシ カイヨウ オヨビ ホイ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172016 ;
     ns1:is_public true ;
@@ -5514,18 +5514,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "目録" ;
     ns2:title "書史会要及補遺" ;
-    ns6:identifier "04d80d2f-7432-00cd-a1d1-2f1333d84743" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172016/manifest> ;
-    ns7:sort "21" ;
+    ns3:identifier "04d80d2f-7432-00cd-a1d1-2f1333d84743" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172016/manifest> ;
+    ns4:sort "21" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172016> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172016/shos1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172016/shos1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172017> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5907" ;
-    ns3:sourceIdentifier "9-29-14" ;
-    ns3:titleTranscription "シュウヨウショウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5907" ;
+    ns5:sourceIdentifier "9-29-14" ;
+    ns5:titleTranscription "シュウヨウショウ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172017 ;
     ns1:is_public true ;
@@ -5741,18 +5741,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "修験道" ;
     ns2:title "修要抄" ;
-    ns6:identifier "5dfe4131-2a2a-4b42-92b9-561053727994" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172017/manifest> ;
-    ns7:sort "34" ;
+    ns3:identifier "5dfe4131-2a2a-4b42-92b9-561053727994" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172017/manifest> ;
+    ns4:sort "34" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172017> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172017/shuy1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172017/shuy1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172018> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6488" ;
-    ns3:sourceIdentifier "6-31-8" ;
-    ns3:titleTranscription "シンセツ  スウヨウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6488" ;
+    ns5:sourceIdentifier "6-31-8" ;
+    ns5:titleTranscription "シンセツ  スウヨウ" ;
     ns1:created "2018-07-25T06:52:32+00:00"^^xsd:dateTime ;
     ns1:id 172018 ;
     ns1:is_public true ;
@@ -5802,18 +5802,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "診切枢要" ;
-    ns6:identifier "0ace76fd-80f5-5406-5607-0879c0737535" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172018/manifest> ;
-    ns7:sort "13" ;
+    ns3:identifier "0ace76fd-80f5-5406-5607-0879c0737535" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172018/manifest> ;
+    ns4:sort "13" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172018> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172018/sins0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172018/sins0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172019> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5796" ;
-    ns3:sourceIdentifier "6-9-2" ;
-    ns3:titleTranscription "ソガ  モノガタリ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5796" ;
+    ns5:sourceIdentifier "6-9-2" ;
+    ns5:titleTranscription "ソガ  モノガタリ" ;
     ns1:created "2018-07-25T06:52:33+00:00"^^xsd:dateTime ;
     ns1:id 172019 ;
     ns1:is_public true ;
@@ -6459,18 +6459,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "軍記物語" ;
     ns2:title "曽我物語" ;
-    ns6:identifier "78ae6f7f-5f09-8d58-9f56-366dfa599642" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172019/manifest> ;
-    ns7:sort "5" ;
+    ns3:identifier "78ae6f7f-5f09-8d58-9f56-366dfa599642" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172019/manifest> ;
+    ns4:sort "5" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172019> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172019/soga0101.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172019/soga0101.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172020> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6433" ;
-    ns3:sourceIdentifier "4-11-8" ;
-    ns3:titleTranscription "ソノ キヌタ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6433" ;
+    ns5:sourceIdentifier "4-11-8" ;
+    ns5:titleTranscription "ソノ キヌタ" ;
     ns1:created "2018-07-25T06:52:33+00:00"^^xsd:dateTime ;
     ns1:id 172020 ;
     ns1:is_public true ;
@@ -6558,18 +6558,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "俳諧" ;
     ns2:title "其砧" ;
-    ns6:identifier "e260ea9c-6ee4-18ef-6895-c2540d0b84d6" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172020/manifest> ;
-    ns7:sort "56" ;
+    ns3:identifier "e260ea9c-6ee4-18ef-6895-c2540d0b84d6" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172020/manifest> ;
+    ns4:sort "56" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172020> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172020/sono1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172020/sono1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172021> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4015" ;
-    ns3:sourceIdentifier "5-9-4" ;
-    ns3:titleTranscription "テイキン オウライ コチュウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4015" ;
+    ns5:sourceIdentifier "5-9-4" ;
+    ns5:titleTranscription "テイキン オウライ コチュウ" ;
     ns1:created "2018-07-25T06:52:33+00:00"^^xsd:dateTime ;
     ns1:id 172021 ;
     ns1:is_public true ;
@@ -6641,18 +6641,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "往来物" ;
     ns2:title "庭訓往来古註" ;
-    ns6:identifier "70e9efdf-16bf-4960-3e2d-9ef9a13a4405" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172021/manifest> ;
-    ns7:sort "59" ;
+    ns3:identifier "70e9efdf-16bf-4960-3e2d-9ef9a13a4405" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172021/manifest> ;
+    ns4:sort "59" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172021> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172021/teiki001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172021/teiki001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172022> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:5770" ;
-    ns3:sourceIdentifier "7-15-16" ;
-    ns3:titleTranscription "テンジンキ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:5770" ;
+    ns5:sourceIdentifier "7-15-16" ;
+    ns5:titleTranscription "テンジンキ" ;
     ns1:created "2018-07-25T06:52:33+00:00"^^xsd:dateTime ;
     ns1:id 172022 ;
     ns1:is_public true ;
@@ -6680,18 +6680,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "室町物語" ;
     ns2:title "天神記" ;
-    ns6:identifier "43ca8e1d-087d-5bdc-3bc3-372800f60cb6" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172022/manifest> ;
-    ns7:sort "22" ;
+    ns3:identifier "43ca8e1d-087d-5bdc-3bc3-372800f60cb6" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172022/manifest> ;
+    ns4:sort "22" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172022> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172022/tenj0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172022/tenj0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172023> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6112" ;
-    ns3:sourceIdentifier "7-20-1" ;
-    ns3:titleTranscription "テンモク チュウホウ オショウ コウロ??" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6112" ;
+    ns5:sourceIdentifier "7-20-1" ;
+    ns5:titleTranscription "テンモク チュウホウ オショウ コウロ??" ;
     ns1:created "2018-07-25T06:52:33+00:00"^^xsd:dateTime ;
     ns1:id 172023 ;
     ns1:is_public true ;
@@ -7516,18 +7516,18 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koten/document/652f540f-9d21-0493-7728-52e359fe4292> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "天目中峯和尚廣録" ;
-    ns6:identifier "652f540f-9d21-0493-7728-52e359fe4292" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172023/manifest> ;
-    ns7:sort "27" ;
+    ns3:identifier "652f540f-9d21-0493-7728-52e359fe4292" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172023/manifest> ;
+    ns4:sort "27" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172023> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172023/tenm0101.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172023/tenm0101.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172024> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4064" ;
-    ns3:sourceIdentifier "7-18-7" ;
-    ns3:titleTranscription "トウエイザン カイサン ジゲン ダイシ エンギ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4064" ;
+    ns5:sourceIdentifier "7-18-7" ;
+    ns5:titleTranscription "トウエイザン カイサン ジゲン ダイシ エンギ" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172024 ;
     ns1:is_public true ;
@@ -7587,18 +7587,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "伝記" ;
     ns2:title "東叡山開山慈眼大師縁起" ;
-    ns6:identifier "de2a9abc-62d1-1943-32b4-156471ef8c5c" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172024/manifest> ;
-    ns7:sort "26" ;
+    ns3:identifier "de2a9abc-62d1-1943-32b4-156471ef8c5c" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172024/manifest> ;
+    ns4:sort "26" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172024> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172024/toei0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172024/toei0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172025> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4160" ;
-    ns3:sourceIdentifier "6-8-7" ;
-    ns3:titleTranscription "トナゴキ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4160" ;
+    ns5:sourceIdentifier "6-8-7" ;
+    ns5:titleTranscription "トナゴキ" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172025 ;
     ns1:is_public true ;
@@ -7627,18 +7627,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "祭祀" ;
     ns2:title "鳥名子記" ;
-    ns6:identifier "3c220085-7d42-833a-084a-64a5f9072686" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172025/manifest> ;
-    ns7:sort "3" ;
+    ns3:identifier "3c220085-7d42-833a-084a-64a5f9072686" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172025/manifest> ;
+    ns4:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172025> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172025/tona0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172025/tona0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172026> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6334" ;
-    ns3:sourceIdentifier "7-16-5" ;
-    ns3:titleTranscription "ツキヒ ノ ホンジ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6334" ;
+    ns5:sourceIdentifier "7-16-5" ;
+    ns5:titleTranscription "ツキヒ ノ ホンジ" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172026 ;
     ns1:is_public true ;
@@ -7692,18 +7692,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "室町物語" ;
     ns2:title "月日の本地" ;
-    ns6:identifier "b64a927b-3706-22ba-0aeb-550af6195588" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172026/manifest> ;
-    ns7:sort "25" ;
+    ns3:identifier "b64a927b-3706-22ba-0aeb-550af6195588" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172026/manifest> ;
+    ns4:sort "25" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172026> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172026/tsuki001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172026/tsuki001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172027> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6469" ;
-    ns3:sourceIdentifier "7-11-11" ;
-    ns3:titleTranscription "シンケイ ウンリン シンコウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6469" ;
+    ns5:sourceIdentifier "7-11-11" ;
+    ns5:titleTranscription "シンケイ ウンリン シンコウ" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172027 ;
     ns1:is_public true ;
@@ -7865,18 +7865,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "(新鍥)雲林神彀" ;
-    ns6:identifier "f67b71a9-8295-7ee7-6b3c-43798c0182d6" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172027/manifest> ;
-    ns7:sort "20" ;
+    ns3:identifier "f67b71a9-8295-7ee7-6b3c-43798c0182d6" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172027/manifest> ;
+    ns4:sort "20" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172027> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172027/unri1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172027/unri1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172028> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6412" ;
-    ns3:sourceIdentifier "3-31-13" ;
-    ns3:titleTranscription "シンジン ギユイド ハッキョ ノ イン ニ ワス" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6412" ;
+    ns5:sourceIdentifier "3-31-13" ;
+    ns5:titleTranscription "シンジン ギユイド ハッキョ ノ イン ニ ワス" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172028 ;
     ns1:is_public true ;
@@ -7909,18 +7909,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢詩" ;
     ns2:title "和清人魏惟度八居韻" ;
-    ns6:identifier "ed146214-5a40-5419-7770-bdb8f8ef4ae2" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172028/manifest> ;
-    ns7:sort "52" ;
+    ns3:identifier "ed146214-5a40-5419-7770-bdb8f8ef4ae2" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172028/manifest> ;
+    ns4:sort "52" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172028> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172028/wase0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172028/wase0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172029> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4131" ;
-    ns3:sourceIdentifier "7-11-21" ;
-    ns3:titleTranscription "ヨシツネ イチダイキ ダイニテツ クラマヤマ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4131" ;
+    ns5:sourceIdentifier "7-11-21" ;
+    ns5:titleTranscription "ヨシツネ イチダイキ ダイニテツ クラマヤマ" ;
     ns1:created "2018-07-25T06:52:34+00:00"^^xsd:dateTime ;
     ns1:id 172029 ;
     ns1:is_public true ;
@@ -7947,18 +7947,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "合巻" ;
     ns2:title "義経一代記第二綴くらま山" ;
-    ns6:identifier "b6aef1c0-7a83-1379-0094-7009198b4291" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172029/manifest> ;
-    ns7:sort "19" ;
+    ns3:identifier "b6aef1c0-7a83-1379-0094-7009198b4291" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172029/manifest> ;
+    ns4:sort "19" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172029> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172029/yoshit01.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172029/yoshit01.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172030> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6138" ;
-    ns3:sourceIdentifier "10-16-23" ;
-    ns3:titleTranscription "イマカガミ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6138" ;
+    ns5:sourceIdentifier "10-16-23" ;
+    ns5:titleTranscription "イマカガミ" ;
     ns1:created "2018-07-25T06:52:35+00:00"^^xsd:dateTime ;
     ns1:id 172030 ;
     ns1:is_public true ;
@@ -8033,18 +8033,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "歴史物語" ;
     ns2:title "今鏡" ;
-    ns6:identifier "d30e06d5-8001-357f-3b60-469a2d9b1da8" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172030/manifest> ;
-    ns7:sort "38" ;
+    ns3:identifier "d30e06d5-8001-357f-3b60-469a2d9b1da8" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172030/manifest> ;
+    ns4:sort "38" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172030> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172030/yotsu001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172030/yotsu001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172031> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6513" ;
-    ns3:sourceIdentifier "6-31-5" ;
-    ns3:titleTranscription "しんかんぶっちょうしぞっかいはちじゅういちなんけい" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6513" ;
+    ns5:sourceIdentifier "6-31-5" ;
+    ns5:titleTranscription "しんかんぶっちょうしぞっかいはちじゅういちなんけい" ;
     ns1:created "2018-07-25T06:52:35+00:00"^^xsd:dateTime ;
     ns1:id 172031 ;
     ns1:is_public true ;
@@ -8263,12 +8263,12 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "医学" ;
     ns2:title "新刊勿聴子俗解八十一難経" ;
-    ns6:identifier "c391c0b7-642b-7f20-902d-6bfc6b3c8d0a" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172031/manifest> ;
-    ns7:sort "14" ;
+    ns3:identifier "c391c0b7-642b-7f20-902d-6bfc6b3c8d0a" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172031/manifest> ;
+    ns4:sort "14" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172031> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172031/zokk0001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172031/zokk0001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172032> ns1:id 172032 .
 
@@ -21807,10 +21807,10 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178799> ns1:id 178799 .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:4595" ;
-    ns3:sourceIdentifier "9-28-4" ;
-    ns3:titleTranscription "ロンゴ シッカイ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:4595" ;
+    ns5:sourceIdentifier "9-28-4" ;
+    ns5:titleTranscription "ロンゴ シッカイ" ;
     ns1:created "2018-07-25T06:52:30+00:00"^^xsd:dateTime ;
     ns1:id 172006 ;
     ns1:is_public true ;
@@ -21952,18 +21952,18 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "漢学" ;
     ns2:title "論語集解" ;
-    ns6:identifier "61efab97-3bcc-05f9-17a0-508a6296978f" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍" ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
-    ns7:sort "32" ;
+    ns3:identifier "61efab97-3bcc-05f9-17a0-508a6296978f" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
+    ns4:sort "32" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172006/rong1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172006/rong1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> a ns1:Item ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns3:callNumber "A00:6326" ;
-    ns3:sourceIdentifier "6-13-6" ;
-    ns3:titleTranscription "シンコキン  ワカシュウ" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns5:callNumber "A00:6326" ;
+    ns5:sourceIdentifier "6-13-6" ;
+    ns5:titleTranscription "シンコキン  ワカシュウ" ;
     ns1:created "2018-07-25T06:52:31+00:00"^^xsd:dateTime ;
     ns1:id 172012 ;
     ns1:is_public true ;
@@ -22205,12 +22205,12 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:subject "歌集" ;
     ns2:title "新古今和歌集" ;
-    ns6:identifier "7dbdd04c-5fd9-902e-631a-7d3d199d1ed8" ;
-    ns7:databaseLabel "総合図書館所蔵古典籍 " ;
-    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
-    ns7:sort "40" ;
+    ns3:identifier "7dbdd04c-5fd9-902e-631a-7d3d199d1ed8" ;
+    ns4:databaseLabel "総合図書館所蔵古典籍 " ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
+    ns4:sort "40" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172012/shin1001.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/square/172012/shin1001.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/171962> ns1:id 171962 .
 
