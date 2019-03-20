@@ -1,8 +1,8 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
 @prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -31,11 +31,11 @@
     ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
     ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns3:title "松乃栄" ;
-    ns4:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
-    ns2:databaseLabel "松乃栄" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
+    ns5:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
+    ns4:databaseLabel "松乃栄" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21827> ns1:id 21827 .
 
