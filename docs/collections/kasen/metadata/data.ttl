@@ -1,32 +1,32 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://omeka.org/s/vocabs/o#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
-@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://omeka.org/s/vocabs/o#> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns8: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ns4:id 5 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ns3:id 5 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns4:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns8:note "写本" ;
-    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns2:callNumber "A00:6251" ;
-    ns4:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns4:id 9 ;
-    ns4:is_public true ;
-    ns4:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ;
-    ns4:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ;
-    ns4:modified "2019-03-04T14:14:34+00:00"^^xsd:dateTime ;
-    ns4:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns4:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns4:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns7:note "写本" ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:callNumber "A00:6251" ;
+    ns3:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns3:id 9 ;
+    ns3:is_public true ;
+    ns3:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5> ;
+    ns3:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ;
+    ns3:modified "2019-03-04T14:14:34+00:00"^^xsd:dateTime ;
+    ns3:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns3:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns3:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
     ns1:creator "高田圓乗畫 , 大田南畝書" ;
     ns1:description """『三十六歌撰』絵巻\r
   本『三十六歌撰』絵巻(一巻)は、藤原公任の『三十六人撰』に選ばれている歌人(三十六歌仙)の和歌から、一人一首ずつを選び、歌人名と和歌を大田南畝が染筆したものである。また、それぞれの和歌の内容を、狩野派の絵師である高田円乗が、淡彩で簡略な風景画で描いている。ただし、三十六歌仙のうち、斎宮女御と源重之が欠落しているので、合計三十四人分の和歌と絵からなる。\r
@@ -40,19 +40,19 @@
     ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
     ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns1:title "『三十六歌撰』絵巻" ;
-    ns6:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
-    ns3:databaseLabel "『三十六歌撰』絵巻" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
+    ns4:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
+    ns2:databaseLabel "『三十六歌撰』絵巻" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
+    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ns4:id 27 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/27> ns3:id 27 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns4:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns3:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns4:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns3:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns4:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns3:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns4:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns3:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 

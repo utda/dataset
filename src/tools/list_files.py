@@ -16,7 +16,7 @@ def parse_args(args=sys.argv[1:]):
         help='Full path to dir.')
 
     parser.add_argument(
-        'path_to_output_file',
+        'path_to_oFile',
         action='store',
         type=str,
         help='Full path to output file.')
