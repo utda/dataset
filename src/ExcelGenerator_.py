@@ -6,7 +6,6 @@ import urllib.request
 import unicodedata
 import pandas as pd
 import collections
-import os
 
 
 def parse_args(args=sys.argv[1:]):
@@ -35,7 +34,6 @@ def excel_generator(site_name, arg_item_set_id):
 
     # 共用サーバで利用する独自語彙集
     default_map = collections.OrderedDict()
-    default_map["iiif viewer"] = "iiif viewer"
     default_map["bibo:identifier"] = "ID"
     default_map["dcterms:isPartOf"] = "ウェブサイトURL"
     default_map["dcterms:relation"] = "アイテムURL"
@@ -53,13 +51,6 @@ def excel_generator(site_name, arg_item_set_id):
     default_map["uterms:annotedManifest"] = "アノテーション付きIIIFマニフェストURI"
     default_map["uterms:linkToTapas"] = "Link to TAPAS Project"
     default_map["uterms:rtf"] = "Text with Rich Text Format"
-    
-
-    '''
-    igs = ["dcterms:isPartOf", "uterms:manifestUri",
-           "rdfs:seeAlso", "dcterms:isPartOf", #"foaf:thumbnail", 
-           "sc:attributionLabel", "dcterms:relation"]
-    '''
 
     # templateで規定されていない語彙集
     etc_map = collections.OrderedDict()
@@ -71,13 +62,6 @@ def excel_generator(site_name, arg_item_set_id):
     api_url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api"
 
     output_path = "../docs/collections/" + site_name + "/metadata/data.xlsx"
-
-    '''
-    etc_dir = "../docs/collections/" + site_name + "/etc"
-    os.makedirs(etc_dir, exist_ok=True)
-    etc_path = etc_dir + "/data.xlsx"
-    '''
-    
 
     item_set_arr = arg_item_set_id.split(",")
 
@@ -113,7 +97,6 @@ def excel_generator(site_name, arg_item_set_id):
                             template_arr.append(template_id)
 
                     for key in obj:
-
                         if not key.startswith("o:") and key != "@type":
                             if key not in default_map and key not in etc_map and isinstance(obj[key], list):
                                 if "property_label" in obj[key][0]:
@@ -155,14 +138,6 @@ def excel_generator(site_name, arg_item_set_id):
         if key not in label_map:
             label_map[key] = default_map[key]
 
-    '''
-    for key in igs:
-        if key in label_map:
-            label_map.pop(key)
-    '''
-
-    label_map["dcterms:relation"] = "アイテムURL"
-
     # ラベル行
     row1 = []
     table.append(row1)
@@ -186,11 +161,7 @@ def excel_generator(site_name, arg_item_set_id):
         table.append(row)
         for term in label_map:
             text = ""
-
-            if term == "iiif viewer":
-                text = "http://tify.sub.uni-goettingen.de/demo.html?manifest=https://archdataset.dl.itc.u-tokyo.ac.jp/manifest/" + \
-                    obj["bibo:identifier"][0]["@value"]+".json"
-            elif term in obj:
+            if term in obj:
                 values = obj[term]
                 for i in range(len(values)):
                     value = values[i]
@@ -214,8 +185,7 @@ def excel_generator(site_name, arg_item_set_id):
 
     df.to_excel(output_path, index=False, header=False)
     df.to_csv(output_path.replace("xlsx", "csv"), index=False, header=False)
-    df.to_csv(output_path.replace("xlsx", "tsv"),
-              index=False, header=False, sep='\t')
+    df.to_csv(output_path.replace("xlsx", "tsv"), index=False, header=False, sep='\t')
 
 
 if __name__ == "__main__":
