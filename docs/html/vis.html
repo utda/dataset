@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,44 +14,45 @@
   <title>データセットの可視化例</title>
 
   <style>
-  :root {
-    --jumbotron-padding-y: 3rem;
-  }
-
-  .jumbotron {
-    padding-top: var(--jumbotron-padding-y);
-    padding-bottom: var(--jumbotron-padding-y);
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: calc(var(--jumbotron-padding-y) * 2);
-      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    :root {
+      --jumbotron-padding-y: 3rem;
     }
-  }
 
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
+    .jumbotron {
+      padding-top: var(--jumbotron-padding-y);
+      padding-bottom: var(--jumbotron-padding-y);
+      margin-bottom: 0;
+      background-color: #fff;
+    }
 
-  .jumbotron-heading {
-    font-weight: 300;
-  }
+    @media (min-width: 768px) {
+      .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+      }
+    }
 
-  .jumbotron .container {
-    max-width: 40rem;
-  }
+    .jumbotron p:last-child {
+      margin-bottom: 0;
+    }
 
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+    .jumbotron-heading {
+      font-weight: 300;
+    }
 
-  footer p {
-    margin-bottom: .25rem;
-  }
-</style>
+    .jumbotron .container {
+      max-width: 40rem;
+    }
+
+    footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    footer p {
+      margin-bottom: .25rem;
+    }
+  </style>
 
 </head>
 
@@ -67,9 +69,11 @@
   </header>
 
   <div class="text-center" id="loading">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" />
   </div>
 
+
+  <!--
   <main role="main">
 
     <section class="jumbotron text-center">
@@ -79,6 +83,7 @@
     </section>
 
   </main>
+  -->
 
   <div class="album py-5 bg-light">
     <div class="container">
@@ -86,187 +91,206 @@
     </div>
   </div>
 
-  <script
-  src="//code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-  <script src="//code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/stock/highstock.js"></script>
 
   <script>
 
-  var arg  = new Object;
-  url = location.search.substring(1).split('&');
+    var arg = new Object;
+    url = location.search.substring(1).split('&');
 
-  for(i=0; url[i]; i++) {
-    var k = url[i].split('=');
-    arg[k[0]] = decodeURIComponent(k[1]);
-  }
-
-  var resourceUri = arg["u"] != null ? arg["u"] : "";
-
-  var n = 20
-  $("#n").text(n)
-
-
-  jQuery(document).ready(function() {
-
-    jQuery.ajaxSetup({
-      cache : false
-    });
-
-    if(resourceUri != ""){
-      search()
-    } else {
-      $("#loading").empty()
+    for (i = 0; url[i]; i++) {
+      var k = url[i].split('=');
+      arg[k[0]] = decodeURIComponent(k[1]);
     }
 
+    var resourceUri = arg["u"] != null ? arg["u"] : "";
 
-  });
+    jQuery(document).ready(function () {
 
-  function search() {
+      jQuery.ajaxSetup({
+        cache: false
+      });
+
+      if (resourceUri != "") {
+        search()
+      } else {
+        $("#loading").empty()
+      }
+
+
+    });
+
+    function search() {
 
 
 
-    $.ajax({
-      url:resourceUri
-    })
-    // Ajaxリクエストが成功した時発動
-    .done( (data) => {
+      $.ajax({
+        url: resourceUri
+      })
+        // Ajaxリクエストが成功した時発動
+        .done((data) => {
 
-      var result = data
+          var result = data
 
-      map = {}
+          map = {}
 
-      for (var i = 0; i < result.length; i++) {
-        var obj = result[i];
+          for (var i = 0; i < result.length; i++) {
+            var obj = result[i];
 
-        for(var key in obj){
+            for (var key in obj) {
 
-          if(key.indexOf("o:") == -1 && key.indexOf("@") == -1){
+              if (key.indexOf("o:") == -1 && key.indexOf("@") == -1) {
 
-            if(!map[key]){
-              map[key] = {}
-            }
+                if (!map[key]) {
+                  map[key] = {}
+                }
 
-            var arr = obj[key]
+                var arr = obj[key]
 
-            for(var k = 0; k < arr.length; k++){
+                for (var k = 0; k < arr.length; k++) {
 
-              var o = arr[k]["@value"]
+                  var o = arr[k]["@value"]
 
-              if(o == null){
-                o = arr[k]["@id"]
+                  if (o == null) {
+                    o = arr[k]["@id"]
+                  }
+
+                  //if(o.length > 20){
+                  //  o = o.substring(0, 20)+"..."
+                  //}
+
+                  tmp = map[key]
+                  if (!tmp[o]) {
+                    tmp[o] = 0
+                  }
+
+                  tmp[o] = tmp[o] + 1
+                }
               }
 
-              if(o.length > 20){
-                o = o.substring(0, 20)+"..."
-              }
-
-              tmp = map[key]
-              if(!tmp[o]){
-                tmp[o] = 0
-              }
-
-              tmp[o] = tmp[o] + 1
             }
           }
 
-        }
-      }
 
+          count = 0
+          for (var v in map) {
 
-      count = 0
-      for(var v in map){
+            histgram = map[v]
 
-        histgram = map[v]
+            keysSorted = Object.keys(histgram).sort(function (a, b) { return histgram[b] - histgram[a] })
 
-        count += 1
-
-        var card = $('<div class="card mb-5 shadow-sm">')
-        $("#main").append(card)
-
-        var body = $('<div class="card-body">');
-        card.append(body)
-
-        body.append($("<div id='container_"+count+"'>"))
-
-        keysSorted = Object.keys(histgram).sort(function(a,b){return histgram[b]-histgram[a]})
-        values = []
-        var max = n
-        if(keysSorted.length < max){
-          max = keysSorted.length
-        }
-        for(j = 0; j < max; j++){
-          values.push(histgram[keysSorted[j]])
-        }
-
-        Highcharts.chart('container_'+count, {
-          chart: {
-            type: 'bar'
-          },
-          title: {
-            text: v
-          },
-          xAxis: {
-            categories: keysSorted,
-            title: {
-              text: null
+            if (keysSorted.length > 100) {
+              continue
             }
-          },
-          yAxis: {
-            min: 0,
-            title: {
-              text: 'Number of items',
-              align: 'high'
-            },
-            labels: {
-              overflow: 'justify'
+
+            count += 1
+
+            var card = $('<div class="card mb-5 shadow-sm">')
+            $("#main").append(card)
+
+            var body = $('<div class="card-body">');
+            card.append(body)
+
+            body.append($("<div id='container_" + count + "'>"))
+
+            values = []
+
+            for (j = 0; j < keysSorted.length; j++) {
+              values.push(histgram[keysSorted[j]])
             }
-          },
-          tooltip: {
-            valueSuffix: ' items'
-          },
-          plotOptions: {
-            bar: {
-              dataLabels: {
-                enabled: true
-              }
+
+            /*
+            var max = n
+            if(keysSorted.length < max){
+              max = keysSorted.length
             }
-          },
-          legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'top',
-            x: -40,
-            y: 80,
-            floating: true,
-            borderWidth: 1,
-            backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-            shadow: true
-          },
-          credits: {
-            enabled: false
-          },
-          series: [{
-            name: 'Item',
-            data: values
-          }]
+            for(j = 0; j < max; j++){
+              values.push(histgram[keysSorted[j]])
+            }
+            */
+
+            max = 10
+            if (keysSorted.length < max) {
+              max = keysSorted.length - 1
+            }
+
+            Highcharts.chart('container_' + count, {
+              chart: {
+                type: 'column'
+              },
+              title: {
+                text: v
+              },
+              xAxis: {
+                categories: keysSorted,
+                title: {
+                  text: null
+                },
+                min: 0,
+                max: max,
+                scrollbar: {
+                  enabled: true
+                }
+              },
+              yAxis: {
+                min: 0,
+                title: {
+                  text: 'Number of items',
+                  align: 'high'
+                },
+                labels: {
+                  overflow: 'justify'
+                }
+              },
+              tooltip: {
+                valueSuffix: ' items'
+              },
+              plotOptions: {
+                bar: {
+                  dataLabels: {
+                    enabled: true
+                  }
+                }
+              },
+              legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -40,
+                y: 80,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+                shadow: true
+              },
+              credits: {
+                enabled: false
+              },
+              series: [{
+                name: 'Item',
+                data: values
+              }]
+            });
+          }
+
+
+        })
+        // Ajaxリクエストが失敗した時発動
+        .fail((data) => {
+          alert(data.statusText);
+        })
+        // Ajaxリクエストが成功・失敗どちらでも発動
+        .always((data) => {
+          $("#loading").empty()
         });
-      }
-
-
-    })
-    // Ajaxリクエストが失敗した時発動
-    .fail( (data) => {
-      alert(data.statusText);
-    })
-    // Ajaxリクエストが成功・失敗どちらでも発動
-    .always( (data) => {
-      $("#loading").empty()
-    });
-  }
-</script>
+    }
+  </script>
 </body>
+
 </html>
