@@ -3,7 +3,7 @@ import urllib
 import json
 import argparse
 import urllib.request
-
+import os
 
 def parse_args(args=sys.argv[1:]):
     """ Get the parsed arguments specified on this script.
@@ -31,6 +31,9 @@ def collection_generator(site_name, arg_item_set_id):
     collection_uri = "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/" + site_name + "/image/collection.json"
 
     output_path = "../docs/collections/" + site_name + "/image/collection.json"
+
+    manifest_path = "../docs/collections/" + site_name + "/image/manifest"
+    os.makedirs(manifest_path, exist_ok=True)
 
     collection = dict()
     collection["@context"] = "http://iiif.io/api/presentation/2/context.json"
@@ -74,6 +77,13 @@ def collection_generator(site_name, arg_item_set_id):
 
                         if "dcterms:rights" in obj:
                             manifest["license"] = obj["dcterms:rights"][0]["@id"]
+
+                        res = urllib.request.urlopen(manifest_uri)
+                        # json_loads() でPythonオブジェクトに変換
+                        manifest = json.loads(res.read().decode('utf-8'))
+
+                        with open(manifest_path+"/"+obj["bibo:identifier"][0]["@value"]+".json", 'w') as outfile:
+                            json.dump(manifest, outfile, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
 
             else:
                 loop_flg = False
