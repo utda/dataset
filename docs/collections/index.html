@@ -163,7 +163,7 @@
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="../html/assets/images/iiif.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">IIIFコレクションをUniversal Viewerで閲覧する</p>
+              <p class="card-text">IIIFコレクションを<a href="https://www.kanzaki.com/works/2016/pub/image-annotator">Image Annotator</a>で閲覧する</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a id="iiif" class="btn btn-sm btn-outline-secondary">View</a>
@@ -220,7 +220,7 @@
     $("#album").show()
     $("#excel").attr("href", "https://github.com/utda/dataset/blob/master/docs/collections/"+collection+"/metadata/data.xlsx?raw=true")
     $("#ld").attr("href", "https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/metadata/data.json")
-    $("#iiif").attr("href", "https://universalviewer.io/uv.html?manifest=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/image/collection.json")
+    $("#iiif").attr("href", "https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/image/collection.json&vhint=use-thumb")
     $("#vis").attr("href", "../html/vis.html?u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/"+collection+"/metadata/data.json")
 
     $.ajax({

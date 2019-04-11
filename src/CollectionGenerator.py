@@ -32,8 +32,7 @@ def collection_generator(site_name, arg_item_set_id):
 
     output_path = "../docs/collections/" + site_name + "/image/collection.json"
 
-    manifest_path = "../docs/collections/" + site_name + "/image/manifest"
-    os.makedirs(manifest_path, exist_ok=True)
+    manifest_path = "../docs/manifest"
 
     collection = dict()
     collection["@context"] = "http://iiif.io/api/presentation/2/context.json"
@@ -80,10 +79,12 @@ def collection_generator(site_name, arg_item_set_id):
 
                         res = urllib.request.urlopen(manifest_uri)
                         # json_loads() でPythonオブジェクトに変換
-                        manifest = json.loads(res.read().decode('utf-8'))
+                        manifest_json = json.loads(res.read().decode('utf-8'))
+
+                        manifest["thumbnail"] = manifest_json["sequences"][0]["canvases"][0]["thumbnail"]["@id"]
 
                         with open(manifest_path+"/"+obj["bibo:identifier"][0]["@value"]+".json", 'w') as outfile:
-                            json.dump(manifest, outfile, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+                            json.dump(manifest_json, outfile, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
 
             else:
                 loop_flg = False
