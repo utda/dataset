@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "description": "「松乃栄(まつのさかえ)」は「旧幕府の姫君加州へ御輿入の図」という副題を持つ資料で、総合図書館に貴重書として所蔵されています。\r\nこの資料は、文政10(1827)年に徳川第11代将軍家斉の第21女・溶姫が加賀藩第13代藩主前田斉泰に輿入れしたときの様子を、三代歌川国貞が想像を交えて描いた錦絵です。東京大学のシンボルの一つである「赤門」は、このとき溶姫を迎えるため建立されたもので、白無垢の花嫁衣裳に身を包んだ溶姫が、豪奢な行列を従えて赤門をくぐる図は当時の華やかさを今に伝えています。もっとも、この資料は明治22年に描かれたもので、明治22(1889)年は家康が江戸へ入府した天正18(1590)年から数えて三百年に当たり、東京開市三百年祭が営まれた年であったため、溶姫の輿入れが描かれたと考えられます。東京大学にとっては、赤門の由来を伝える貴重な絵画史料と言えます。\r\n\r\n【請求記号 A00:6569】",
+    "label": "松乃栄",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "松乃栄"
+        },
+        {
+            "label": "identifier",
+            "value": "c416f868-754f-4fed-9974-6ba911e2c0ba"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "松乃栄"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4670,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4670,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 5835
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5835
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/"
+}
