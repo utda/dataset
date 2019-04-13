@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://purl.org/ontology/bibo/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,8 +13,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 12 ;
     ns1:is_public true ;
@@ -78,7 +78,7 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns2:description """水野家古文書(水野忠幹氏旧蔵書文書)\r
+    ns3:description """水野家古文書(水野忠幹氏旧蔵書文書)\r
 概要\r
 \r
 本文書は、紀州徳川家の附家老であった水野家が所蔵していた古文書類で、太政官牒二紙、複数の古文書を表装した巻子三軸からなる。\r
@@ -91,15 +91,15 @@
 \r
  富田正弘(富山大学名誉教授)\r
  小島浩之(東京大学大学院経済学研究科講師)""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/document/d28ad412-0d21-4a16-ab81-840fe3ffde71> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "水野家古文書(水野忠幹氏旧蔵書文書)" ;
-    ns3:identifier "d28ad412-0d21-4a16-ab81-840fe3ffde71" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/document/d28ad412-0d21-4a16-ab81-840fe3ffde71> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "水野家古文書(水野忠幹氏旧蔵書文書)" ;
+    ns2:identifier "d28ad412-0d21-4a16-ab81-840fe3ffde71" ;
     ns4:databaseLabel "水野家古文書(水野忠幹氏旧蔵書文書)" ;
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d28ad412-0d21-4a16-ab81-840fe3ffde71/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30> ns1:id 30 .
 
