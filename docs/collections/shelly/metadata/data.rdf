@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+  xmlns:ns5="http://purl.org/ontology/bibo/"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
   xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:ns7="http://xmlns.com/foaf/0.1/"
   xmlns:ns2="http://purl.org/dc/terms/"
-  xmlns:ns4="http://data.archiveshub.ac.uk/def/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns7="http://data.archiveshub.ac.uk/def/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns3="http://purl.org/ontology/bibo/"
-  xmlns:ns6="http://purl.org/utrepo/terms#"
+  xmlns:ns3="http://purl.org/utrepo/terms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:ns8="http://purl.org/dc/dcmitype/"
-  xmlns:ns5="http://ndl.go.jp/dcndl/terms/"
 >
   <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131">
-    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-19T05:53:58+00:00</ns1:modified>
-    <ns2:creator>Shelley, Percy Bysshe</ns2:creator>
-    <ns2:rights>
-      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+    <ns1:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:id>
       </rdf:Description>
-    </ns2:rights>
+    </ns1:resource_template>
     <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866"/>
-    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest"/>
-    <ns5:callNumber>A100:1590</ns5:callNumber>
-    <ns5:alternative>A manuscript, written in his own hand</ns5:alternative>
-    <ns3:identifier>e3e3be43-358d-47bf-a245-d52ffe4ed866</ns3:identifier>
-    <ns1:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22131</ns1:id>
+    <ns4:callNumber>A100:1590</ns4:callNumber>
+    <ns4:alternative>Restoration of the Jews</ns4:alternative>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22135</ns1:id>
       </rdf:Description>
-    </ns1:owner>
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22130</ns1:id>
-      </rdf:Description>
-    </ns1:item_set>
-    <ns2:title>Fragment of an Address to the Jews	</ns2:title>
-    <ns4:note>also known as "On Zionism" and "Restoration of the Jews"</ns4:note>
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <ns5:alternative>Restoration of the Jews</ns5:alternative>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131"/>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns1:created>
+    </ns1:media>
+    <ns3:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest"/>
+    <ns7:note>A title of General Library's card catalog: [A manuscript, written in his own hand]</ns7:note>
     <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
     <ns1:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134">
         <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22134</ns1:id>
       </rdf:Description>
     </ns1:media>
-    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22131</ns1:id>
-    <ns4:note>A title of General Library's card catalog: [A manuscript, written in his own hand]</ns4:note>
-    <ns7:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg"/>
-    <ns5:alternative>On Zionism</ns5:alternative>
-    <ns6:databaseLabel>Fragment of an Address to the Jews</ns6:databaseLabel>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22135</ns1:id>
+    <ns2:creator>Shelley, Percy Bysshe</ns2:creator>
+    <ns4:alternative>On Zionism</ns4:alternative>
+    <ns5:identifier>e3e3be43-358d-47bf-a245-d52ffe4ed866</ns5:identifier>
+    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg"/>
+    <ns1:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
       </rdf:Description>
-    </ns1:media>
-    <ns1:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:id>
+    </ns1:resource_class>
+    <ns1:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22130</ns1:id>
       </rdf:Description>
-    </ns1:resource_template>
+    </ns1:item_set>
+    <ns2:rights>
+      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
+        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+      </rdf:Description>
+    </ns2:rights>
+    <ns7:note>also known as "On Zionism" and "Restoration of the Jews"</ns7:note>
+    <ns1:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
+      </rdf:Description>
+    </ns1:owner>
+    <ns4:alternative>A manuscript, written in his own hand</ns4:alternative>
+    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-19T05:56:33+00:00</ns1:modified>
+    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
+    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns1:created>
+    <ns3:databaseLabel>Fragment of an Address to the Jews</ns3:databaseLabel>
+    <ns2:title>Fragment of an Address to the Jews</ns2:title>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131"/>
   </ns1:Item>
 </rdf:RDF>
