@@ -1,7 +1,7 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns1: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://xmlns.com/foaf/0.1/> .
-@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://omeka.org/s/vocabs/o#> .
 @prefix ns5: <http://data.archiveshub.ac.uk/def/> .
 @prefix ns6: <http://purl.org/ontology/bibo/> .
 @prefix ns7: <http://purl.org/utrepo/terms#> .
@@ -10,44 +10,44 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130> ns2:id 22130 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130> ns4:id 22130 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131> a ns2:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131> a ns4:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns5:note "A title of General Library's card catalog: [A manuscript, written in his own hand]",
         "also known as \"On Zionism\" and \"Restoration of the Jews\"" ;
-    ns4:alternative "A manuscript, written in his own hand",
+    ns1:alternative "A manuscript, written in his own hand",
         "On Zionism",
         "Restoration of the Jews" ;
-    ns4:callNumber "A100:1590" ;
-    ns2:created "2018-04-09T05:17:50+00:00"^^xsd:dateTime ;
-    ns2:id 22131 ;
-    ns2:is_public true ;
-    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130> ;
-    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134>,
+    ns1:callNumber "A100:1590" ;
+    ns4:created "2018-04-09T05:17:50+00:00"^^xsd:dateTime ;
+    ns4:id 22131 ;
+    ns4:is_public true ;
+    ns4:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130> ;
+    ns4:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135> ;
-    ns2:modified "2019-03-20T04:05:36+00:00"^^xsd:dateTime ;
-    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns1:creator "Shelley, Percy Bysshe" ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns1:title "Fragment of an Address to the Jews	" ;
+    ns4:modified "2019-03-20T04:05:36+00:00"^^xsd:dateTime ;
+    ns4:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns4:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns4:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns2:creator "Shelley, Percy Bysshe" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "Fragment of an Address to the Jews	" ;
     ns6:identifier "e3e3be43-358d-47bf-a245-d52ffe4ed866" ;
     ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131> ;
     ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134> ns2:id 22134 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134> ns4:id 22134 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135> ns2:id 22135 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135> ns4:id 22135 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns2:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns4:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns2:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns4:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns2:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns4:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns2:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns4:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 
