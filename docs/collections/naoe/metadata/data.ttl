@@ -1,8 +1,8 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
 @prefix ns3: <http://purl.org/dc/terms/> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -64,14 +64,14 @@
     ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/document/daaf81b0-f1a7-435c-9216-a8fb56390887> ;
     ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns3:title "直江状" ;
-    ns2:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
+    ns5:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
     ns4:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json> ;
     ns4:databaseLabel "直江状" ;
     ns4:linkToTapas <http://tapasproject.org/tapas-commons/files/直江状> ;
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest> ;
     ns4:searchApiUri <https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca511282300c05c01325a12250bccd236d07b412c68619bcbdeef7aeee477b88e0a36b82a365e7547973e593dc5e5f63283f0f51ab35ab6fb637d961593c5f2ed7bb4a024a0c4b472560a27b3f28cdb73012625986b19fbb1827fec71f179323c8> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100> ns1:id 100 .
 

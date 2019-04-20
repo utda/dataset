@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://iiif.io/api/presentation/2#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,7 +13,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns3:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
     ns1:id 21830 ;
     ns1:is_public true ;
@@ -30,11 +30,11 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "救世主像" ;
-    ns5:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
-    ns6:databaseLabel "救世主像" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
+    ns4:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
+    ns5:databaseLabel "救世主像" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns1:id 21831 .
 
