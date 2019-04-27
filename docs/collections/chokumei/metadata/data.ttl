@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
 @prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
 @prefix ns8: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -13,7 +13,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
+    ns7:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
 鈔本\r
 書名は箱書きによる\r
 巻末に「弘治十八年八月二十日」とあり\r
@@ -24,8 +24,8 @@
     ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns5:viewingDirection ns5:rightToLeftDirection ;
     ns5:viewingHint ns5:nonPagedHint ;
-    ns7:callNumber "鴎A00:6270" ;
-    ns7:sourceIdentifier "0004804951" ;
+    ns6:callNumber "鴎A00:6270" ;
+    ns6:sourceIdentifier "0004804951" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 7 ;
     ns1:is_public true ;
@@ -72,7 +72,7 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "明・弘治十八年八月二十日勅命" ;
     ns2:type "貴重本" ;
-    ns6:identifier "43f80fa0-cc5d-45fe-9dee-152196995b92" ;
+    ns4:identifier "43f80fa0-cc5d-45fe-9dee-152196995b92" ;
     ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json> ;
     ns3:bunko "鴎外文庫" ;
     ns3:databaseLabel "明・弘治十八年八月二十日勅命" ;
