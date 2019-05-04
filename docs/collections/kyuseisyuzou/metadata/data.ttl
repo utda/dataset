@@ -1,8 +1,8 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -23,18 +23,18 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns2:description """左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。\r
+    ns4:description """左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。\r
 \r
 当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "救世主像" ;
-    ns3:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
-    ns5:databaseLabel "救世主像" ;
-    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/> ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:title "救世主像" ;
+    ns5:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
+    ns3:databaseLabel "救世主像" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns1:id 21831 .
 
