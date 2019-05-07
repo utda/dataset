@@ -1,0 +1,141 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "點差御史",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "點差御史"
+        },
+        {
+            "label": "年月日",
+            "value": "成化9.12.16"
+        },
+        {
+            "label": "本文タイトル（原本）",
+            "value": "點差御史"
+        },
+        {
+            "label": "巻頭目録タイトル（原本）",
+            "value": "點差御史"
+        },
+        {
+            "label": "本文タイトル（標点本）",
+            "value": "點差御史"
+        },
+        {
+            "label": "巻頭目録タイトル（標点本）",
+            "value": "點差御史"
+        },
+        {
+            "label": "冊",
+            "value": "第2冊"
+        },
+        {
+            "label": "巻",
+            "value": "卷9"
+        },
+        {
+            "label": "類",
+            "value": "吏部類"
+        },
+        {
+            "label": "目",
+            "value": "無故不朝參公座(無事不朝參)"
+        },
+        {
+            "label": "条",
+            "value": "第6條"
+        },
+        {
+            "label": "画像（開始コマ）",
+            "value": "0009-00019"
+        },
+        {
+            "label": "影印本",
+            "value": "上-232下表"
+        },
+        {
+            "label": "標点本",
+            "value": "乙4-402(9-10)"
+        },
+        {
+            "label": "請求記号",
+            "value": "A00:6290:2"
+        },
+        {
+            "label": "identifier",
+            "value": "14372571-068b-47ad-aa19-61b1c58c97cb"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "皇明條法事類纂デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Date Created",
+            "value": "1473-120-16"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/14372571-068b-47ad-aa19-61b1c58c97cb",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99535",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14372571-068b-47ad-aa19-61b1c58c97cb/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/fe042beedbc43e884114c41ec11b1057df045dcc.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/101325",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/101325/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/101325",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fe042beedbc43e884114c41ec11b1057df045dcc.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin"
+}
