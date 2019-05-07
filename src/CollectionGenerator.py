@@ -81,7 +81,8 @@ def collection_generator(site_name, arg_item_set_id):
                         # json_loads() でPythonオブジェクトに変換
                         manifest_json = json.loads(res.read().decode('utf-8'))
 
-                        manifest["thumbnail"] = manifest_json["sequences"][0]["canvases"][0]["thumbnail"]["@id"]
+                        if "@id" in manifest_json["sequences"][0]["canvases"][0]["thumbnail"]:
+                            manifest["thumbnail"] = manifest_json["sequences"][0]["canvases"][0]["thumbnail"]["@id"]
 
                         with open(manifest_path+"/"+obj["bibo:identifier"][0]["@value"]+".json", 'w') as outfile:
                             json.dump(manifest_json, outfile, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
