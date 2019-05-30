@@ -1,0 +1,41 @@
+{
+  "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/items/6213/annolist.json",
+  "@context": "http://www.shared-canvas.org/ns/context.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p><span style=\"color: #333333; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック  Medium', meiryo, sans-serif; font-size: 16px; background-color: #f9f9f9;\">「もみちの賀」（元は扉題であったと思われ、今は見返しの裏側に隠れている箇所）</span></p>"
+        }
+      ],
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952541dd-7d2c-2771-11e5-8a85d2105938/canvas/p2",
+          "selector": {
+            "@type": "oa:Choice",
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=2128,1140,991,1782"
+            },
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2127.90442,1140.20707h495.5045v0h495.5045v891.10811v891.10811h-495.5045h-495.5045v-891.10811z\" data-paper-data=\"{&quot;strokeWidth&quot;:5,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ce377421-1f36-4880-b491-e4086a9c7d26\" fill-opacity=\"0.00001\" fill=\"#ff0000\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"53.94595\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+            }
+          },
+          "within": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/29/manifest.json",
+            "@type": "sc:Manifest"
+          }
+        }
+      ],
+      "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/items/6366/anno.json"
+    }
+  ]
+}
