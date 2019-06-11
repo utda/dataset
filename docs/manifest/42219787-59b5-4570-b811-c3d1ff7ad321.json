@@ -59,7 +59,7 @@
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/canvas/p1",
                     "@type": "sc:Canvas",
-                    "height": 202,
+                    "height": 2696,
                     "images": [
                         {
                             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/annotation/p0001-image",
@@ -67,29 +67,31 @@
                             "motivation": "sc:painting",
                             "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/canvas/p1",
                             "resource": {
-                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg",
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 202,
+                                "height": 2696,
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/27",
-                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif",
+                                    "height": 2696,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 106631
                                 },
-                                "width": 8000
+                                "width": 106631
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/27/full/200,/0/default.jpg",
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif/full/200,200/0/default.jpg",
                         "service": {
                             "@context": "http://iiif.io/api/image/2/context.json",
-                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/27",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif",
                             "profile": "http://iiif.io/api/image/2/level2.json"
                         }
                     },
-                    "width": 8000
+                    "width": 106631
                 }
             ],
             "label": "Current Page Order",
