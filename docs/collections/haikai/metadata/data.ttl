@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
-@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
 @prefix ns5: <http://purl.org/utrepo/terms#> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -12,9 +12,9 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169732> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:335" ;
-    ns4:sourceIdentifier "9-12-2" ;
-    ns4:titleTranscription "キコウ ダイ３ アマ ノ ハシダテ" ;
+    ns3:callNumber "E32:335" ;
+    ns3:sourceIdentifier "9-12-2" ;
+    ns3:titleTranscription "キコウ ダイ３ アマ ノ ハシダテ" ;
     ns1:created "2018-07-25T00:39:04+00:00"^^xsd:dateTime ;
     ns1:id 169732 ;
     ns1:is_public true ;
@@ -41,26 +41,26 @@
     ns1:modified "2019-03-04T16:04:09+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "栗庵宇橋著" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "寛政8 [1796] (奥) 写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/cde06131-a4a3-60e7-9a75-d711a2dd312e> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "紀行第三天のはし立" ;
-    ns3:identifier "cde06131-a4a3-60e7-9a75-d711a2dd312e" ;
+    ns4:creator "栗庵宇橋著" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "寛政8 [1796] (奥) 写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/cde06131-a4a3-60e7-9a75-d711a2dd312e> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "紀行第三天のはし立" ;
+    ns7:identifier "cde06131-a4a3-60e7-9a75-d711a2dd312e" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169732/manifest> ;
     ns5:sort "30" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169732> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2f3447db7464953cb7d86ea4ab8a279f43411ce5.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2f3447db7464953cb7d86ea4ab8a279f43411ce5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169733> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:81" ;
-    ns4:sourceIdentifier "9-33-7" ;
-    ns4:titleTranscription "アンヤ キンモウ ズイ" ;
+    ns3:callNumber "E32:81" ;
+    ns3:sourceIdentifier "9-33-7" ;
+    ns3:titleTranscription "アンヤ キンモウ ズイ" ;
     ns1:created "2018-07-25T00:39:04+00:00"^^xsd:dateTime ;
     ns1:id 169733 ;
     ns1:is_public true ;
@@ -97,26 +97,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "百草舎芝立編， 序" ;
-    ns2:description "宝暦9年江戸万屋弥市等板の複製" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/da89fb79-8e73-6252-0a92-f7883c5324bd> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "暗夜訓蒙図彙" ;
-    ns3:identifier "da89fb79-8e73-6252-0a92-f7883c5324bd" ;
+    ns4:creator "百草舎芝立編， 序" ;
+    ns4:description "宝暦9年江戸万屋弥市等板の複製" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/da89fb79-8e73-6252-0a92-f7883c5324bd> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "暗夜訓蒙図彙" ;
+    ns7:identifier "da89fb79-8e73-6252-0a92-f7883c5324bd" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169733/manifest> ;
     ns5:sort "31" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169733> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/866bf47b1e9cf4ae5c08c40e7afda310a90d4ea7.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/866bf47b1e9cf4ae5c08c40e7afda310a90d4ea7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169734> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2305" ;
-    ns4:sourceIdentifier "4-7-8" ;
-    ns4:titleTranscription "ハイカイ チュウドウシュウ" ;
+    ns3:callNumber "A00:洒竹:2305" ;
+    ns3:sourceIdentifier "4-7-8" ;
+    ns3:titleTranscription "ハイカイ チュウドウシュウ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169734 ;
     ns1:is_public true ;
@@ -167,26 +167,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "東雲軒風鳴編， 序 ; 備山人高吉序 ;" ;
-    ns2:extent "1冊；大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "正徳4 ［1714］ (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/0f5d6c1e-78a1-5fec-8935-8dc8cf2d7146> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "誹諧中道集" ;
-    ns3:identifier "0f5d6c1e-78a1-5fec-8935-8dc8cf2d7146" ;
+    ns4:creator "東雲軒風鳴編， 序 ; 備山人高吉序 ;" ;
+    ns4:extent "1冊；大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "正徳4 ［1714］ (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/0f5d6c1e-78a1-5fec-8935-8dc8cf2d7146> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "誹諧中道集" ;
+    ns7:identifier "0f5d6c1e-78a1-5fec-8935-8dc8cf2d7146" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169734/manifest> ;
     ns5:sort "8" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169734> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1962704601505f0b69b1200c5bdf48e9191d9955.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1962704601505f0b69b1200c5bdf48e9191d9955.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169735> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:419" ;
-    ns4:sourceIdentifier "7-23-11" ;
-    ns4:titleTranscription "エダウツリ" ;
+    ns3:callNumber "A00:洒竹:419" ;
+    ns3:sourceIdentifier "7-23-11" ;
+    ns3:titleTranscription "エダウツリ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169735 ;
     ns1:is_public true ;
@@ -234,26 +234,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "東潮編， 序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "元禄10 ［1697］ (本文) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/559eaffd-1492-1b94-6175-fb2f6da3a5a2> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "枝うつり" ;
-    ns3:identifier "559eaffd-1492-1b94-6175-fb2f6da3a5a2" ;
+    ns4:creator "東潮編， 序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "元禄10 ［1697］ (本文) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/559eaffd-1492-1b94-6175-fb2f6da3a5a2> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "枝うつり" ;
+    ns7:identifier "559eaffd-1492-1b94-6175-fb2f6da3a5a2" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169735/manifest> ;
     ns5:sort "21" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169735> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bc4c251c3a30e9a276a5baa06dfef3351ed69046.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bc4c251c3a30e9a276a5baa06dfef3351ed69046.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169736> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:3216" ;
-    ns4:sourceIdentifier "10-16-4" ;
-    ns4:titleTranscription "フジモウデ" ;
+    ns3:callNumber "A00:洒竹:3216" ;
+    ns3:sourceIdentifier "10-16-4" ;
+    ns3:titleTranscription "フジモウデ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169736 ;
     ns1:is_public true ;
@@ -280,26 +280,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "東潮編， 序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "江戸 : 志村孫七 ， 元禄5 [1692] (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5aa5004e-495f-367a-8154-181062d29803> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "富士詣" ;
-    ns3:identifier "5aa5004e-495f-367a-8154-181062d29803" ;
+    ns4:creator "東潮編， 序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "江戸 : 志村孫七 ， 元禄5 [1692] (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5aa5004e-495f-367a-8154-181062d29803> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "富士詣" ;
+    ns7:identifier "5aa5004e-495f-367a-8154-181062d29803" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169736/manifest> ;
     ns5:sort "26" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169736> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/37642a1895004110097464e4627770882c0c1c21.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/37642a1895004110097464e4627770882c0c1c21.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169737> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:322" ;
-    ns4:sourceIdentifier "5-16-1" ;
-    ns4:titleTranscription "ハイカイ ゴゲンシュウ" ;
+    ns3:callNumber "E32:322" ;
+    ns3:sourceIdentifier "5-16-1" ;
+    ns3:titleTranscription "ハイカイ ゴゲンシュウ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169737 ;
     ns1:is_public true ;
@@ -336,27 +336,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:alternative "其角附合集" ;
-    ns2:creator "宝晋斎其角著 ; 百萬坊旨原校， 序" ;
-    ns2:extent "4冊；大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "江戸 ; 大坂 : 河内屋喜兵衛 ， 延享4 ［1747］ (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c633cae1-2aab-2528-630b-8ae1deb27ce5> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "誹諧五元集" ;
-    ns3:identifier "c633cae1-2aab-2528-630b-8ae1deb27ce5" ;
+    ns4:alternative "其角附合集" ;
+    ns4:creator "宝晋斎其角著 ; 百萬坊旨原校， 序" ;
+    ns4:extent "4冊；大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "江戸 ; 大坂 : 河内屋喜兵衛 ， 延享4 ［1747］ (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c633cae1-2aab-2528-630b-8ae1deb27ce5> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "誹諧五元集" ;
+    ns7:identifier "c633cae1-2aab-2528-630b-8ae1deb27ce5" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169737/manifest> ;
     ns5:sort "27" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169737> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52adf7f9ab240676d9a78fc383b4ffdd7358fbed.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52adf7f9ab240676d9a78fc383b4ffdd7358fbed.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169738> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:686" ;
-    ns4:sourceIdentifier "9-20-13" ;
-    ns4:titleTranscription "ハイカイ カナヅカイ" ;
+    ns3:callNumber "A00:洒竹:686" ;
+    ns3:sourceIdentifier "9-20-13" ;
+    ns3:titleTranscription "ハイカイ カナヅカイ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169738 ;
     ns1:is_public true ;
@@ -405,27 +405,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "高井蘭山編， 序 ; 山崎久作校" ;
-    ns2:description "横本" ;
-    ns2:extent "1冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "江戸 : 須原屋伊八 ， 弘化4  [1847] (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/34b8cd0d-1edc-a011-6721-dd687954576b> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧・語学" ;
-    ns2:title "俳諧仮名遣" ;
-    ns3:identifier "34b8cd0d-1edc-a011-6721-dd687954576b" ;
+    ns4:creator "高井蘭山編， 序 ; 山崎久作校" ;
+    ns4:description "横本" ;
+    ns4:extent "1冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "江戸 : 須原屋伊八 ， 弘化4  [1847] (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/34b8cd0d-1edc-a011-6721-dd687954576b> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧・語学" ;
+    ns4:title "俳諧仮名遣" ;
+    ns7:identifier "34b8cd0d-1edc-a011-6721-dd687954576b" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169738/manifest> ;
     ns5:sort "24" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169738> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16ae667012034942a955d8c614cff8e7b7b20241.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16ae667012034942a955d8c614cff8e7b7b20241.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169739> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2767" ;
-    ns4:sourceIdentifier "4-5-12" ;
-    ns4:titleTranscription "ハイカイ ハル ノ ミズ" ;
+    ns3:callNumber "A00:洒竹:2767" ;
+    ns3:sourceIdentifier "4-5-12" ;
+    ns3:titleTranscription "ハイカイ ハル ノ ミズ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169739 ;
     ns1:is_public true ;
@@ -447,27 +447,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "千魚編 ; 白雲序 ; 百里跋" ;
-    ns2:description "琴風追善集" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "享保11 [1726] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/2b227d36-9e56-4e85-6321-889676e15fdd> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "俳諧春の水" ;
-    ns3:identifier "2b227d36-9e56-4e85-6321-889676e15fdd" ;
+    ns4:creator "千魚編 ; 白雲序 ; 百里跋" ;
+    ns4:description "琴風追善集" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "享保11 [1726] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/2b227d36-9e56-4e85-6321-889676e15fdd> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "俳諧春の水" ;
+    ns7:identifier "2b227d36-9e56-4e85-6321-889676e15fdd" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169739/manifest> ;
     ns5:sort "7" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169739> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c63f7690300a49f4bfa1c31483ccbef755e818ca.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c63f7690300a49f4bfa1c31483ccbef755e818ca.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169740> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1310" ;
-    ns4:sourceIdentifier "5-16-2" ;
-    ns4:titleTranscription "ハイカイ ヒヨウショ" ;
+    ns3:callNumber "A00:洒竹:1310" ;
+    ns3:sourceIdentifier "5-16-2" ;
+    ns3:titleTranscription "ハイカイ ヒヨウショ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169740 ;
     ns1:is_public true ;
@@ -494,26 +494,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:description "奥書：延享四年三月十五日誹林机墨翁授与小林鶴子丈" ;
-    ns2:extent "2冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/2d043411-3742-4133-62f0-3307a8c22ca2> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "俳諧秘要書" ;
-    ns3:identifier "2d043411-3742-4133-62f0-3307a8c22ca2" ;
+    ns4:description "奥書：延享四年三月十五日誹林机墨翁授与小林鶴子丈" ;
+    ns4:extent "2冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/2d043411-3742-4133-62f0-3307a8c22ca2> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "俳諧秘要書" ;
+    ns7:identifier "2d043411-3742-4133-62f0-3307a8c22ca2" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169740/manifest> ;
     ns5:sort "20" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169740> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8de4a09afd94c9af09b5d9fbf303e38f1a741fab.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8de4a09afd94c9af09b5d9fbf303e38f1a741fab.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169741> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2689" ;
-    ns4:sourceIdentifier "4-9-8" ;
-    ns4:titleTranscription "ネンダイ フメイ ハイショ モクロク" ;
+    ns3:callNumber "A00:洒竹:2689" ;
+    ns3:sourceIdentifier "4-9-8" ;
+    ns3:titleTranscription "ネンダイ フメイ ハイショ モクロク" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169741 ;
     ns1:is_public true ;
@@ -574,26 +574,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "岩本震五編" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/230143a6-7fdf-37a3-91d7-e1fff9d35c0b> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "年代不明俳書目録" ;
-    ns3:identifier "230143a6-7fdf-37a3-91d7-e1fff9d35c0b" ;
+    ns4:creator "岩本震五編" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/230143a6-7fdf-37a3-91d7-e1fff9d35c0b> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "年代不明俳書目録" ;
+    ns7:identifier "230143a6-7fdf-37a3-91d7-e1fff9d35c0b" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169741/manifest> ;
     ns5:sort "9" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169741> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f93e81124296e8dd71f8fe3900ff0af18e2f1ef1.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f93e81124296e8dd71f8fe3900ff0af18e2f1ef1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169742> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:168" ;
-    ns4:sourceIdentifier "9-2-12" ;
-    ns4:titleTranscription "イモガシラ" ;
+    ns3:callNumber "A00:洒竹:168" ;
+    ns3:sourceIdentifier "9-2-12" ;
+    ns3:titleTranscription "イモガシラ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169742 ;
     ns1:is_public true ;
@@ -652,26 +652,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "露柱庵一宇編 ; 隣●下此林序 ; 百阿" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : 橘屋治兵衛 ， 享保12 ［1727］ (跋) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/6bc3fe2b-2cd7-7a63-5f5d-c8921e481716> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "芋かしら" ;
-    ns3:identifier "6bc3fe2b-2cd7-7a63-5f5d-c8921e481716" ;
+    ns4:creator "露柱庵一宇編 ; 隣●下此林序 ; 百阿" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : 橘屋治兵衛 ， 享保12 ［1727］ (跋) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/6bc3fe2b-2cd7-7a63-5f5d-c8921e481716> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "芋かしら" ;
+    ns7:identifier "6bc3fe2b-2cd7-7a63-5f5d-c8921e481716" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169742/manifest> ;
     ns5:sort "22" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169742> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/565e9186145463d3b66ff129116e0066cc7f6955.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/565e9186145463d3b66ff129116e0066cc7f6955.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169743> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:竹冷:664" ;
-    ns4:sourceIdentifier "5-6-2" ;
-    ns4:titleTranscription "シンセン イヌ ツクバシュウ" ;
+    ns3:callNumber "A00:竹冷:664" ;
+    ns3:sourceIdentifier "5-6-2" ;
+    ns3:titleTranscription "シンセン イヌ ツクバシュウ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169743 ;
     ns1:is_public true ;
@@ -719,27 +719,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:alternative "筑波集" ;
-    ns2:creator "山崎宗鑑編" ;
-    ns2:description "古活字本" ;
-    ns2:extent "1冊；大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5fd91e88-48cd-7a10-449e-72ffdfa37b68> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "新撰犬筑波集" ;
-    ns3:identifier "5fd91e88-48cd-7a10-449e-72ffdfa37b68" ;
+    ns4:alternative "筑波集" ;
+    ns4:creator "山崎宗鑑編" ;
+    ns4:description "古活字本" ;
+    ns4:extent "1冊；大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5fd91e88-48cd-7a10-449e-72ffdfa37b68> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "新撰犬筑波集" ;
+    ns7:identifier "5fd91e88-48cd-7a10-449e-72ffdfa37b68" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169743/manifest> ;
     ns5:sort "17" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169743> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/308aa8b081d7496a7677a99e94713cc67d75ead0.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/308aa8b081d7496a7677a99e94713cc67d75ead0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169744> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:202" ;
-    ns4:sourceIdentifier "3-13-17" ;
-    ns4:titleTranscription "イタコシュウ" ;
+    ns3:callNumber "A00:洒竹:202" ;
+    ns3:sourceIdentifier "3-13-17" ;
+    ns3:titleTranscription "イタコシュウ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169744 ;
     ns1:is_public true ;
@@ -796,26 +796,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "一草編 ; 随斎夏成美序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "江戸 ; 広井平八(彫) ， 寛政5 [1793] 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/9e6d3fd2-7951-9c70-a546-dbcdce883757> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "潮来集" ;
-    ns3:identifier "9e6d3fd2-7951-9c70-a546-dbcdce883757" ;
+    ns4:creator "一草編 ; 随斎夏成美序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "江戸 ; 広井平八(彫) ， 寛政5 [1793] 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/9e6d3fd2-7951-9c70-a546-dbcdce883757> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "潮来集" ;
+    ns7:identifier "9e6d3fd2-7951-9c70-a546-dbcdce883757" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169744/manifest> ;
     ns5:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169744> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3cfe0e057da96a40c70e20b9ba6ef57c3ba74f1c.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3cfe0e057da96a40c70e20b9ba6ef57c3ba74f1c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169745> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:268" ;
-    ns4:sourceIdentifier "5-10-18" ;
-    ns4:titleTranscription "イタコズシ" ;
+    ns3:callNumber "A00:洒竹:268" ;
+    ns3:sourceIdentifier "5-10-18" ;
+    ns3:titleTranscription "イタコズシ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169745 ;
     ns1:is_public true ;
@@ -846,26 +846,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "二峰編 ; 郷人蘆中狂渓序 ; 青山人，" ;
-    ns2:extent "1冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "二峰蔵梓 ， 天保10 [1839] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/d8273b57-732e-160d-17b2-149b20967c70> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "地誌" ;
-    ns2:title "潮来図誌" ;
-    ns3:identifier "d8273b57-732e-160d-17b2-149b20967c70" ;
+    ns4:creator "二峰編 ; 郷人蘆中狂渓序 ; 青山人，" ;
+    ns4:extent "1冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "二峰蔵梓 ， 天保10 [1839] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/d8273b57-732e-160d-17b2-149b20967c70> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "地誌" ;
+    ns4:title "潮来図誌" ;
+    ns7:identifier "d8273b57-732e-160d-17b2-149b20967c70" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169745/manifest> ;
     ns5:sort "19" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169745> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/827977075f0246b7d71c5731ce6c61f4f47c81cf.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/827977075f0246b7d71c5731ce6c61f4f47c81cf.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169746> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1825" ;
-    ns4:sourceIdentifier "10-9-21" ;
-    ns4:titleTranscription "ジョゲンチョウ" ;
+    ns3:callNumber "A00:洒竹:1825" ;
+    ns3:sourceIdentifier "10-9-21" ;
+    ns3:titleTranscription "ジョゲンチョウ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169746 ;
     ns1:is_public true ;
@@ -902,26 +902,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "花実坊長隠編" ;
-    ns2:extent "1冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "芹沢彦七(彫) ， 寛保2 ［1742］ (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5b7803ad-8f74-0ea3-6152-6b789fbf2c4f> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "除元帖" ;
-    ns3:identifier "5b7803ad-8f74-0ea3-6152-6b789fbf2c4f" ;
+    ns4:creator "花実坊長隠編" ;
+    ns4:extent "1冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "芹沢彦七(彫) ， 寛保2 ［1742］ (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/5b7803ad-8f74-0ea3-6152-6b789fbf2c4f> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "除元帖" ;
+    ns7:identifier "5b7803ad-8f74-0ea3-6152-6b789fbf2c4f" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169746/manifest> ;
     ns5:sort "25" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169746> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a52a3b2a02f13c8aa666eddd093559d00290c991.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a52a3b2a02f13c8aa666eddd093559d00290c991.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169747> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:658" ;
-    ns4:sourceIdentifier "5-1-9" ;
-    ns4:titleTranscription "カマクラゾメ" ;
+    ns3:callNumber "A00:洒竹:658" ;
+    ns3:sourceIdentifier "5-1-9" ;
+    ns3:titleTranscription "カマクラゾメ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169747 ;
     ns1:is_public true ;
@@ -961,26 +961,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "竹心斎高本竹妓編， 跋" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "文化13 [1816] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/be3b5264-4d5f-166e-94b2-20138b496cf6> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "鎌倉染" ;
-    ns3:identifier "be3b5264-4d5f-166e-94b2-20138b496cf6" ;
+    ns4:creator "竹心斎高本竹妓編， 跋" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "文化13 [1816] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/be3b5264-4d5f-166e-94b2-20138b496cf6> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "鎌倉染" ;
+    ns7:identifier "be3b5264-4d5f-166e-94b2-20138b496cf6" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169747/manifest> ;
     ns5:sort "15" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169747> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52c38e793a7f46e356254262d9e8e71389f9e981.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52c38e793a7f46e356254262d9e8e71389f9e981.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169748> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:540" ;
-    ns4:sourceIdentifier "5-16-4" ;
-    ns4:titleTranscription "クマノガラス" ;
+    ns3:callNumber "E32:540" ;
+    ns3:sourceIdentifier "5-16-4" ;
+    ns3:titleTranscription "クマノガラス" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169748 ;
     ns1:is_public true ;
@@ -1023,26 +1023,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "寿柳軒南水編 ; 穉山痩夫序" ;
-    ns2:extent "1冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "万延1 [1860] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/d3466cbc-6ea8-65ae-a156-d0da0e0f4172> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "くまのからす" ;
-    ns3:identifier "d3466cbc-6ea8-65ae-a156-d0da0e0f4172" ;
+    ns4:creator "寿柳軒南水編 ; 穉山痩夫序" ;
+    ns4:extent "1冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "万延1 [1860] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/d3466cbc-6ea8-65ae-a156-d0da0e0f4172> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "くまのからす" ;
+    ns7:identifier "d3466cbc-6ea8-65ae-a156-d0da0e0f4172" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169748/manifest> ;
     ns5:sort "28" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169748> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/363e4d41ee3fda50b0fb85ffb8c49fca5f38061a.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/363e4d41ee3fda50b0fb85ffb8c49fca5f38061a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169749> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:竹冷:293" ;
-    ns4:sourceIdentifier "4-9-12" ;
-    ns4:titleTranscription "クセンベツ" ;
+    ns3:callNumber "A00:竹冷:293" ;
+    ns3:sourceIdentifier "4-9-12" ;
+    ns3:titleTranscription "クセンベツ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169749 ;
     ns1:is_public true ;
@@ -1070,26 +1070,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "芭蕉著 ; 自在庵祇徳編" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "文叢堂川村源左衛門 ， 寛保4 ［1744］ (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/ef43bbdf-1c29-0e32-7f8b-76c46bb08ac9> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "句餞別" ;
-    ns3:identifier "ef43bbdf-1c29-0e32-7f8b-76c46bb08ac9" ;
+    ns4:creator "芭蕉著 ; 自在庵祇徳編" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "文叢堂川村源左衛門 ， 寛保4 ［1744］ (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/ef43bbdf-1c29-0e32-7f8b-76c46bb08ac9> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "句餞別" ;
+    ns7:identifier "ef43bbdf-1c29-0e32-7f8b-76c46bb08ac9" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169749/manifest> ;
     ns5:sort "12" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169749> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d293d99d1ad5b09ba59f8cbd6e570fb92ed0e61e.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d293d99d1ad5b09ba59f8cbd6e570fb92ed0e61e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169750> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:3480" ;
-    ns4:sourceIdentifier "4-9-18" ;
-    ns4:titleTranscription "マクヅクシ" ;
+    ns3:callNumber "A00:洒竹:3480" ;
+    ns3:sourceIdentifier "4-9-18" ;
+    ns3:titleTranscription "マクヅクシ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169750 ;
     ns1:is_public true ;
@@ -1126,26 +1126,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "松意等著" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "新大坂町 : 上村理右衛門 ， 延宝6 ［1678］ (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c7223e6a-6626-4b50-617d-6381cc364bac> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "幕つくし" ;
-    ns3:identifier "c7223e6a-6626-4b50-617d-6381cc364bac" ;
+    ns4:creator "松意等著" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "新大坂町 : 上村理右衛門 ， 延宝6 ［1678］ (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c7223e6a-6626-4b50-617d-6381cc364bac> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "幕つくし" ;
+    ns7:identifier "c7223e6a-6626-4b50-617d-6381cc364bac" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169750/manifest> ;
     ns5:sort "13" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169750> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b7536418f10f329032766bff5cdc184b17b5a06b.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b7536418f10f329032766bff5cdc184b17b5a06b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169751> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:591" ;
-    ns4:sourceIdentifier "9-18-6" ;
-    ns4:titleTranscription "シンエイ ハナモミジ" ;
+    ns3:callNumber "A00:洒竹:591" ;
+    ns3:sourceIdentifier "9-18-6" ;
+    ns3:titleTranscription "シンエイ ハナモミジ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169751 ;
     ns1:is_public true ;
@@ -1190,26 +1190,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "桑名屋甚兵衛編" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "江戸 : 誉田屋久兵衛等 ， 享保14 [1729] (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/74921972-a6fb-1735-26a3-300698aa6097> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "新詠華紅葉" ;
-    ns3:identifier "74921972-a6fb-1735-26a3-300698aa6097" ;
+    ns4:creator "桑名屋甚兵衛編" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "江戸 : 誉田屋久兵衛等 ， 享保14 [1729] (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/74921972-a6fb-1735-26a3-300698aa6097> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "新詠華紅葉" ;
+    ns7:identifier "74921972-a6fb-1735-26a3-300698aa6097" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169751/manifest> ;
     ns5:sort "23" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169751> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5aa509a86643e2420c928eefde3d15e32786882b.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5aa509a86643e2420c928eefde3d15e32786882b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169752> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2616" ;
-    ns4:sourceIdentifier "4-9-9" ;
-    ns4:titleTranscription "ハイカイ ナニワ ジュンレイ" ;
+    ns3:callNumber "A00:洒竹:2616" ;
+    ns3:sourceIdentifier "4-9-9" ;
+    ns3:titleTranscription "ハイカイ ナニワ ジュンレイ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169752 ;
     ns1:is_public true ;
@@ -1255,26 +1255,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "瓠界編， 跋" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : 井筒屋庄兵衛 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/7dc5e926-6df0-6da9-18a0-459cc762a19a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "誹諧難波順礼" ;
-    ns3:identifier "7dc5e926-6df0-6da9-18a0-459cc762a19a" ;
+    ns4:creator "瓠界編， 跋" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : 井筒屋庄兵衛 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/7dc5e926-6df0-6da9-18a0-459cc762a19a> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "誹諧難波順礼" ;
+    ns7:identifier "7dc5e926-6df0-6da9-18a0-459cc762a19a" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169752/manifest> ;
     ns5:sort "10" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169752> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14d84b7ec1ee96c25398ebed941252aa12aa982c.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14d84b7ec1ee96c25398ebed941252aa12aa982c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169753> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2601" ;
-    ns4:sourceIdentifier "5-1-10" ;
-    ns4:titleTranscription "ナワユイ" ;
+    ns3:callNumber "A00:洒竹:2601" ;
+    ns3:sourceIdentifier "5-1-10" ;
+    ns3:titleTranscription "ナワユイ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169753 ;
     ns1:is_public true ;
@@ -1309,27 +1309,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:alternative "繩結び集" ;
-    ns2:creator "二世閑月庵竹妓編， 序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "文政2 [1819] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/89f8eb95-211d-0f04-a79b-bd2f8bd4465f> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "縄結ひ" ;
-    ns3:identifier "89f8eb95-211d-0f04-a79b-bd2f8bd4465f" ;
+    ns4:alternative "繩結び集" ;
+    ns4:creator "二世閑月庵竹妓編， 序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "文政2 [1819] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/89f8eb95-211d-0f04-a79b-bd2f8bd4465f> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "縄結ひ" ;
+    ns7:identifier "89f8eb95-211d-0f04-a79b-bd2f8bd4465f" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169753/manifest> ;
     ns5:sort "16" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169753> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db64397e724f14a854a654e86f2d454605083430.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db64397e724f14a854a654e86f2d454605083430.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169754> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1881" ;
-    ns4:sourceIdentifier "4-14-12" ;
-    ns4:titleTranscription "ハイカイ センダイ キコウ" ;
+    ns3:callNumber "A00:洒竹:1881" ;
+    ns3:sourceIdentifier "4-14-12" ;
+    ns3:titleTranscription "ハイカイ センダイ キコウ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169754 ;
     ns1:is_public true ;
@@ -1365,28 +1365,28 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:alternative "仙台紀行" ;
-    ns2:creator "有次著" ;
-    ns2:description "識語 :  「・・・原本は小形の巻物にして奥に年号と自著花押あり、●に写すが如し、原本は巻頭に書名著者名を記しあらず、予が書籍の体裁上加へたるなり・・・己酉初冬岩本震五子」" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "万治2 [1659] (奥) 写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/f79f61a1-67a9-7e2b-1795-1e07fb6f373c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "俳諧仙台紀行" ;
-    ns3:identifier "f79f61a1-67a9-7e2b-1795-1e07fb6f373c" ;
+    ns4:alternative "仙台紀行" ;
+    ns4:creator "有次著" ;
+    ns4:description "識語 :  「・・・原本は小形の巻物にして奥に年号と自著花押あり、●に写すが如し、原本は巻頭に書名著者名を記しあらず、予が書籍の体裁上加へたるなり・・・己酉初冬岩本震五子」" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "万治2 [1659] (奥) 写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/f79f61a1-67a9-7e2b-1795-1e07fb6f373c> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "俳諧仙台紀行" ;
+    ns7:identifier "f79f61a1-67a9-7e2b-1795-1e07fb6f373c" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169754/manifest> ;
     ns5:sort "14" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169754> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/53a2954d263510969b404e4e5878485fd5b79d3a.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/53a2954d263510969b404e4e5878485fd5b79d3a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169755> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1573" ;
-    ns4:sourceIdentifier "4-5-9" ;
-    ns4:titleTranscription "シモノハナ" ;
+    ns3:callNumber "A00:洒竹:1573" ;
+    ns3:sourceIdentifier "4-5-9" ;
+    ns3:titleTranscription "シモノハナ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169755 ;
     ns1:is_public true ;
@@ -1424,27 +1424,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "湖嵐著 ; 湖暁編 ; 晋阿， 五升庵序" ;
-    ns2:description "湖嵐二十五回忌追善集" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : 橘屋治兵衛 ， 文化７ [1810] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/dc2fda64-8660-40e8-3f82-543ff5306baf> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "志茂能者那" ;
-    ns3:identifier "dc2fda64-8660-40e8-3f82-543ff5306baf" ;
+    ns4:creator "湖嵐著 ; 湖暁編 ; 晋阿， 五升庵序" ;
+    ns4:description "湖嵐二十五回忌追善集" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : 橘屋治兵衛 ， 文化７ [1810] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/dc2fda64-8660-40e8-3f82-543ff5306baf> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "志茂能者那" ;
+    ns7:identifier "dc2fda64-8660-40e8-3f82-543ff5306baf" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169755/manifest> ;
     ns5:sort "5" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169755> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e6f7cf3ff5c7c8ba97326323db506a04f9c5fc9f.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e6f7cf3ff5c7c8ba97326323db506a04f9c5fc9f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169756> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1876" ;
-    ns4:sourceIdentifier "2-1-3" ;
-    ns4:titleTranscription "ズイモンキ" ;
+    ns3:callNumber "A00:洒竹:1876" ;
+    ns3:sourceIdentifier "2-1-3" ;
+    ns3:titleTranscription "ズイモンキ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169756 ;
     ns1:is_public true ;
@@ -1495,25 +1495,25 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:extent "1冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/4fa1c816-065a-6f48-4e56-85ff2bf87a22> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "随門記" ;
-    ns3:identifier "4fa1c816-065a-6f48-4e56-85ff2bf87a22" ;
+    ns4:extent "1冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/4fa1c816-065a-6f48-4e56-85ff2bf87a22> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "随門記" ;
+    ns7:identifier "4fa1c816-065a-6f48-4e56-85ff2bf87a22" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169756/manifest> ;
     ns5:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169756> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75ccf8c21708754ce4b4dcb5b3ea38d220f10649.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75ccf8c21708754ce4b4dcb5b3ea38d220f10649.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169757> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:3347" ;
-    ns4:sourceIdentifier "5-6-6" ;
-    ns4:titleTranscription "ハイカイ ソウジ ボウズ" ;
+    ns3:callNumber "A00:洒竹:3347" ;
+    ns3:sourceIdentifier "5-6-6" ;
+    ns3:titleTranscription "ハイカイ ソウジ ボウズ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169757 ;
     ns1:is_public true ;
@@ -1558,26 +1558,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "大江皦平編 ; 十万堂翁序 ; 東桃庵破" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : ゐつゝや庄兵衛 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c381cd73-1131-575f-95be-bd92159c5334> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "俳諧掃除坊主" ;
-    ns3:identifier "c381cd73-1131-575f-95be-bd92159c5334" ;
+    ns4:creator "大江皦平編 ; 十万堂翁序 ; 東桃庵破" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : ゐつゝや庄兵衛 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c381cd73-1131-575f-95be-bd92159c5334> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "俳諧掃除坊主" ;
+    ns7:identifier "c381cd73-1131-575f-95be-bd92159c5334" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169757/manifest> ;
     ns5:sort "18" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169757> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72387524b44711abb3af30b8923d9550d3b609dc.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72387524b44711abb3af30b8923d9550d3b609dc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169758> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:3765" ;
-    ns4:sourceIdentifier "4-9-10" ;
-    ns4:titleTranscription "トウカイドウ キコウ" ;
+    ns3:callNumber "A00:洒竹:3765" ;
+    ns3:sourceIdentifier "4-9-10" ;
+    ns3:titleTranscription "トウカイドウ キコウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169758 ;
     ns1:is_public true ;
@@ -1651,27 +1651,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:alternative "東海道紀行" ;
-    ns2:creator "文川堂野逸著， 序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/78433183-7857-1c61-65a9-fca501059705> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "紀行" ;
-    ns2:title "東海道紀行" ;
-    ns3:identifier "78433183-7857-1c61-65a9-fca501059705" ;
+    ns4:alternative "東海道紀行" ;
+    ns4:creator "文川堂野逸著， 序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/78433183-7857-1c61-65a9-fca501059705> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "紀行" ;
+    ns4:title "東海道紀行" ;
+    ns7:identifier "78433183-7857-1c61-65a9-fca501059705" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169758/manifest> ;
     ns5:sort "32" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169758> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bbaf14d695051d6736961deb7d366efd1a203dc.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bbaf14d695051d6736961deb7d366efd1a203dc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169759> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:竹冷:3" ;
-    ns4:sourceIdentifier "4-9-11" ;
-    ns4:titleTranscription "トヨトミ ヒデヨシ アケチ ミツヒデ レンガ" ;
+    ns3:callNumber "A00:竹冷:3" ;
+    ns3:sourceIdentifier "4-9-11" ;
+    ns3:titleTranscription "トヨトミ ヒデヨシ アケチ ミツヒデ レンガ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169759 ;
     ns1:is_public true ;
@@ -1695,26 +1695,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "豊臣秀吉， 明智光秀［ほか］著" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/aac712be-7f0b-682a-481e-420fc9538e89> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "連歌" ;
-    ns2:title "豊臣秀吉明智光秀連歌" ;
-    ns3:identifier "aac712be-7f0b-682a-481e-420fc9538e89" ;
+    ns4:creator "豊臣秀吉， 明智光秀［ほか］著" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/aac712be-7f0b-682a-481e-420fc9538e89> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "連歌" ;
+    ns4:title "豊臣秀吉明智光秀連歌" ;
+    ns7:identifier "aac712be-7f0b-682a-481e-420fc9538e89" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169759/manifest> ;
     ns5:sort "11" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169759> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cc66bf9405c1e42bd920f95f8f1e27aa0e71d9e5.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cc66bf9405c1e42bd920f95f8f1e27aa0e71d9e5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169760> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1127" ;
-    ns4:sourceIdentifier "4-3-10" ;
-    ns4:titleTranscription "ツイフク ムカイブネ" ;
+    ns3:callNumber "A00:洒竹:1127" ;
+    ns3:sourceIdentifier "4-3-10" ;
+    ns3:titleTranscription "ツイフク ムカイブネ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169760 ;
     ns1:is_public true ;
@@ -1735,26 +1735,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "春風楼然斎編， 序" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : 橘屋治兵衛 ， 文政10 [1827] (奥) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/9902e869-01e1-2df4-964f-a2e66d0a31f6> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "追福迎ひ船" ;
-    ns3:identifier "9902e869-01e1-2df4-964f-a2e66d0a31f6" ;
+    ns4:creator "春風楼然斎編， 序" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : 橘屋治兵衛 ， 文政10 [1827] (奥) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/9902e869-01e1-2df4-964f-a2e66d0a31f6> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "追福迎ひ船" ;
+    ns7:identifier "9902e869-01e1-2df4-964f-a2e66d0a31f6" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169760/manifest> ;
     ns5:sort "4" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169760> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5a7cee28b20b455bdc534532534f618cd963a37a.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5a7cee28b20b455bdc534532534f618cd963a37a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169761> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:547" ;
-    ns4:sourceIdentifier "10-17-23" ;
-    ns4:titleTranscription "エイリ  ヤナギダル" ;
+    ns3:callNumber "E32:547" ;
+    ns3:sourceIdentifier "10-17-23" ;
+    ns3:titleTranscription "エイリ  ヤナギダル" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169761 ;
     ns1:is_public true ;
@@ -1822,24 +1822,24 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:extent "3冊；小" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/16aaa071-3d67-855e-175e-ef30149434bb> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "川柳" ;
-    ns2:title "画入柳樽" ;
-    ns3:identifier "16aaa071-3d67-855e-175e-ef30149434bb" ;
+    ns4:extent "3冊；小" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/16aaa071-3d67-855e-175e-ef30149434bb> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "川柳" ;
+    ns4:title "画入柳樽" ;
+    ns7:identifier "16aaa071-3d67-855e-175e-ef30149434bb" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169761/manifest> ;
     ns5:sort "33" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169761> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/024aecece7231a0675fa91ddc29eb885aec2e37d.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/024aecece7231a0675fa91ddc29eb885aec2e37d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169762> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:1344" ;
-    ns4:sourceIdentifier "4-5-11" ;
-    ns4:titleTranscription "ツイゼン ザンギクシュウ" ;
+    ns3:callNumber "A00:洒竹:1344" ;
+    ns3:sourceIdentifier "4-5-11" ;
+    ns3:titleTranscription "ツイゼン ザンギクシュウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169762 ;
     ns1:is_public true ;
@@ -1862,27 +1862,27 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "再庵遊孚坊 ; 隣山居李径編 ; 李径序" ;
-    ns2:description "十方庵十三回忌追善集" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "嘉永5 [1852] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/a9145383-0c17-641e-9593-8a774f1a978c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "追善残菊集" ;
-    ns3:identifier "a9145383-0c17-641e-9593-8a774f1a978c" ;
+    ns4:creator "再庵遊孚坊 ; 隣山居李径編 ; 李径序" ;
+    ns4:description "十方庵十三回忌追善集" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "嘉永5 [1852] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/a9145383-0c17-641e-9593-8a774f1a978c> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "追善残菊集" ;
+    ns7:identifier "a9145383-0c17-641e-9593-8a774f1a978c" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169762/manifest> ;
     ns5:sort "6" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169762> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c8d716d3cafe48e122acd522381e32a0c72c3b8e.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c8d716d3cafe48e122acd522381e32a0c72c3b8e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169763> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "E32:546" ;
-    ns4:sourceIdentifier "9-10-6" ;
-    ns4:titleTranscription "ゼンコウジ キコウ" ;
+    ns3:callNumber "E32:546" ;
+    ns3:sourceIdentifier "9-10-6" ;
+    ns3:titleTranscription "ゼンコウジ キコウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169763 ;
     ns1:is_public true ;
@@ -1933,26 +1933,26 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "尭恵" ;
-    ns2:extent "1冊；大" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "写" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c7db9875-0774-398d-5be0-a166d2c6a609> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "善光寺紀行" ;
-    ns3:identifier "c7db9875-0774-398d-5be0-a166d2c6a609" ;
+    ns4:creator "尭恵" ;
+    ns4:extent "1冊；大" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "写" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/c7db9875-0774-398d-5be0-a166d2c6a609> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "善光寺紀行" ;
+    ns7:identifier "c7db9875-0774-398d-5be0-a166d2c6a609" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169763/manifest> ;
     ns5:sort "29" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169763> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fa67219fa5686e24f5ed52602b21826676a37e94.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fa67219fa5686e24f5ed52602b21826676a37e94.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169764> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "A00:洒竹:2408" ;
-    ns4:sourceIdentifier "2-28-3" ;
-    ns4:titleTranscription "ズダニシキ" ;
+    ns3:callNumber "A00:洒竹:2408" ;
+    ns3:sourceIdentifier "2-28-3" ;
+    ns3:titleTranscription "ズダニシキ" ;
     ns1:created "2018-07-25T00:39:10+00:00"^^xsd:dateTime ;
     ns1:id 169764 ;
     ns1:is_public true ;
@@ -1991,20 +1991,20 @@
     ns1:modified "2019-03-04T16:15:45+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/18> ;
-    ns2:creator "六花庵乙児等著 ; 巴雪編 ; 芙蓉十里" ;
-    ns2:extent "1冊；中" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
-    ns2:publisher "京都 : 橘屋治兵衛 ， 明和1 [1764] (序) 刊" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/b4093e0d-6e3d-2c59-43f9-07fb7ac3365a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:subject "俳諧" ;
-    ns2:title "頭陀にしき" ;
-    ns3:identifier "b4093e0d-6e3d-2c59-43f9-07fb7ac3365a" ;
+    ns4:creator "六花庵乙児等著 ; 巴雪編 ; 芙蓉十里" ;
+    ns4:extent "1冊；中" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/> ;
+    ns4:publisher "京都 : 橘屋治兵衛 ， 明和1 [1764] (序) 刊" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/haikai/document/b4093e0d-6e3d-2c59-43f9-07fb7ac3365a> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:subject "俳諧" ;
+    ns4:title "頭陀にしき" ;
+    ns7:identifier "b4093e0d-6e3d-2c59-43f9-07fb7ac3365a" ;
     ns5:databaseLabel "江戸期俳諧書" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169764/manifest> ;
     ns5:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169764> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ccb6b7306efb1390894f3c88c6c7b876fc375d8.jpg> .
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ccb6b7306efb1390894f3c88c6c7b876fc375d8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170864> ns1:id 170864 .
 
