@@ -1,7 +1,7 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
 @prefix ns2: <http://omeka.org/s/vocabs/o#> .
 @prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://purl.org/utrepo/terms#> .
 @prefix ns7: <http://data.archiveshub.ac.uk/def/> .
@@ -29,15 +29,15 @@
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns1:creator "Shelley, Percy Bysshe" ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns1:title "Fragment of an Address to the Jews" ;
+    ns4:creator "Shelley, Percy Bysshe" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:title "Fragment of an Address to the Jews" ;
     ns5:identifier "e3e3be43-358d-47bf-a245-d52ffe4ed866" ;
     ns6:databaseLabel "Fragment of an Address to the Jews" ;
     ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg> .
+    ns1:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
@@ -57,15 +57,15 @@
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns1:creator "Garnett, Richard" ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9> ;
-    ns1:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse> ;
-    ns1:title "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1" ;
+    ns4:creator "Garnett, Richard" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9> ;
+    ns4:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse> ;
+    ns4:title "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1" ;
     ns5:identifier "6f0c1352-3e7e-4bf0-90e9-eb360be55cf9" ;
     ns6:databaseLabel "Fragment of an Address to the Jews" ;
     ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg> .
+    ns1:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
@@ -83,15 +83,15 @@
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns1:creator "Garnett, Richard" ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f> ;
-    ns1:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse> ;
-    ns1:title "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2" ;
+    ns4:creator "Garnett, Richard" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f> ;
+    ns4:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse> ;
+    ns4:title "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2" ;
     ns5:identifier "b1499d0d-920a-413f-8616-66daa1c21e8f" ;
     ns6:databaseLabel "Fragment of an Address to the Jews" ;
     ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b1499d0d-920a-413f-8616-66daa1c21e8f/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg> .
+    ns1:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134> ns2:id 22134 .
 

@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://iiif.io/api/presentation/2#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://purl.org/utrepo/terms#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -96,10 +96,10 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "水野家古文書(水野忠幹氏旧蔵書文書)" ;
     ns5:identifier "d28ad412-0d21-4a16-ab81-840fe3ffde71" ;
-    ns6:databaseLabel "水野家古文書(水野忠幹氏旧蔵書文書)" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d28ad412-0d21-4a16-ab81-840fe3ffde71/manifest> ;
+    ns4:databaseLabel "水野家古文書(水野忠幹氏旧蔵書文書)" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d28ad412-0d21-4a16-ab81-840fe3ffde71/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30> ns1:id 30 .
 
