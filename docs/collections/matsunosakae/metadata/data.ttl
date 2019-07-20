@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/utrepo/terms#> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://iiif.io/api/presentation/2#> .
 @prefix ns4: <http://purl.org/dc/terms/> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,7 +13,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-04-01T07:05:33+00:00"^^xsd:dateTime ;
     ns1:id 21824 ;
     ns1:is_public true ;
@@ -31,11 +31,11 @@
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "松乃栄" ;
-    ns5:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
+    ns6:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
     ns2:databaseLabel "松乃栄" ;
     ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21827> ns1:id 21827 .
 
