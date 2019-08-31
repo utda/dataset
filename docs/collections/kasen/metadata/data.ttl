@@ -1,11 +1,11 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://iiif.io/api/presentation/2#> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://purl.org/utrepo/terms#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix ns7: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns8: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns8: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -16,8 +16,8 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns7:note "写本" ;
-    ns3:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns8:callNumber "A00:6251" ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns2:callNumber "A00:6251" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 9 ;
     ns1:is_public true ;
@@ -27,24 +27,24 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns2:creator "高田圓乗畫 , 大田南畝書" ;
-    ns2:description """『三十六歌撰』絵巻\r
+    ns4:creator "高田圓乗畫 , 大田南畝書" ;
+    ns4:description """『三十六歌撰』絵巻\r
   本『三十六歌撰』絵巻(一巻)は、藤原公任の『三十六人撰』に選ばれている歌人(三十六歌仙)の和歌から、一人一首ずつを選び、歌人名と和歌を大田南畝が染筆したものである。また、それぞれの和歌の内容を、狩野派の絵師である高田円乗が、淡彩で簡略な風景画で描いている。ただし、三十六歌仙のうち、斎宮女御と源重之が欠落しているので、合計三十四人分の和歌と絵からなる。\r
 \r
   本絵巻は、三十六歌仙の肖像画ではなく、和歌の風景が描かれているのが特徴である。絵巻の制作年、および制作の動機・目的は未詳。絵師の円乗は、詳しい経歴は不明だが、孔子伝や兼好伝の挿絵も描いている。『大田南畝全集』によれば、円乗は南畝や朋誠堂喜三二と交友があった。本絵巻の末尾に、桐廼舎主人(岡野半牧)の考証で、円乗が「徒士組」だったと記されているのは、円乗の伝記に関する新資料か。だとすれば、南畝・喜三二・円乗の三人には、武家の出身という共通項があることになる。南畝と円乗による、珍しい合作絵巻の佳品である。南葵文庫旧蔵(請求記号A00:6251)。\r
 \r
  放送大学教授 島内裕子""" ;
-    ns2:extent "1軸" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/> ;
-    ns2:language "日本語" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "『三十六歌撰』絵巻" ;
-    ns4:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
-    ns5:databaseLabel "『三十六歌撰』絵巻" ;
-    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
+    ns4:extent "1軸" ;
+    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/> ;
+    ns4:language "日本語" ;
+    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
+    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns4:title "『三十六歌撰』絵巻" ;
+    ns8:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
+    ns3:databaseLabel "『三十六歌撰』絵巻" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280854> ns1:id 280854 .
 
