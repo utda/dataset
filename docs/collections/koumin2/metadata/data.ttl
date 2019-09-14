@@ -1,8 +1,8 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
 @prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,7 +11,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104376> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:13+00:00"^^xsd:dateTime ;
     ns1:id 104376 ;
     ns1:is_public true ;
@@ -104,7 +104,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/51e00cad-5338-4568-884d-0c67410c07fd> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻1" ;
-    ns5:identifier "51e00cad-5338-4568-884d-0c67410c07fd" ;
+    ns4:identifier "51e00cad-5338-4568-884d-0c67410c07fd" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/51e00cad-5338-4568-884d-0c67410c07fd/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104376> ;
@@ -112,7 +112,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104377> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104377 ;
     ns1:is_public true ;
@@ -161,7 +161,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/0f3b3437-9b49-46e2-aa55-1f7c32b78371> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻2" ;
-    ns5:identifier "0f3b3437-9b49-46e2-aa55-1f7c32b78371" ;
+    ns4:identifier "0f3b3437-9b49-46e2-aa55-1f7c32b78371" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0f3b3437-9b49-46e2-aa55-1f7c32b78371/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104377> ;
@@ -169,7 +169,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104378> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104378 ;
     ns1:is_public true ;
@@ -239,7 +239,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/1cf0b8e8-4801-48e9-953c-7660928c3b7a> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻3" ;
-    ns5:identifier "1cf0b8e8-4801-48e9-953c-7660928c3b7a" ;
+    ns4:identifier "1cf0b8e8-4801-48e9-953c-7660928c3b7a" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1cf0b8e8-4801-48e9-953c-7660928c3b7a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104378> ;
@@ -247,7 +247,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104379> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104379 ;
     ns1:is_public true ;
@@ -320,7 +320,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/f0d6821b-8005-4a74-9752-29804bb57ab2> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻4" ;
-    ns5:identifier "f0d6821b-8005-4a74-9752-29804bb57ab2" ;
+    ns4:identifier "f0d6821b-8005-4a74-9752-29804bb57ab2" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f0d6821b-8005-4a74-9752-29804bb57ab2/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104379> ;
@@ -328,7 +328,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104380> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104380 ;
     ns1:is_public true ;
@@ -404,7 +404,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/ef6b3ec4-8252-4aa9-a458-99f89c58f1d8> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻5" ;
-    ns5:identifier "ef6b3ec4-8252-4aa9-a458-99f89c58f1d8" ;
+    ns4:identifier "ef6b3ec4-8252-4aa9-a458-99f89c58f1d8" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ef6b3ec4-8252-4aa9-a458-99f89c58f1d8/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104380> ;
@@ -412,7 +412,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104381> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104381 ;
     ns1:is_public true ;
@@ -492,7 +492,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/515f871a-7e54-4889-804d-ee1d91b0d45c> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻6" ;
-    ns5:identifier "515f871a-7e54-4889-804d-ee1d91b0d45c" ;
+    ns4:identifier "515f871a-7e54-4889-804d-ee1d91b0d45c" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/515f871a-7e54-4889-804d-ee1d91b0d45c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104381> ;
@@ -500,7 +500,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104382> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:14+00:00"^^xsd:dateTime ;
     ns1:id 104382 ;
     ns1:is_public true ;
@@ -565,7 +565,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/02d160c1-a695-4cf5-89bd-954958567f90> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻7" ;
-    ns5:identifier "02d160c1-a695-4cf5-89bd-954958567f90" ;
+    ns4:identifier "02d160c1-a695-4cf5-89bd-954958567f90" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/02d160c1-a695-4cf5-89bd-954958567f90/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104382> ;
@@ -573,7 +573,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104383> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104383 ;
     ns1:is_public true ;
@@ -652,7 +652,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/293c2285-2e3c-4988-9afd-200fc8c04ef4> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻8" ;
-    ns5:identifier "293c2285-2e3c-4988-9afd-200fc8c04ef4" ;
+    ns4:identifier "293c2285-2e3c-4988-9afd-200fc8c04ef4" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/293c2285-2e3c-4988-9afd-200fc8c04ef4/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104383> ;
@@ -660,7 +660,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104384> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104384 ;
     ns1:is_public true ;
@@ -718,7 +718,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/50f1b8dd-a4af-4e0d-8e88-795a5d2e2cf8> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻9" ;
-    ns5:identifier "50f1b8dd-a4af-4e0d-8e88-795a5d2e2cf8" ;
+    ns4:identifier "50f1b8dd-a4af-4e0d-8e88-795a5d2e2cf8" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/50f1b8dd-a4af-4e0d-8e88-795a5d2e2cf8/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104384> ;
@@ -726,7 +726,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104385> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104385 ;
     ns1:is_public true ;
@@ -777,7 +777,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/6d0688e3-d0e4-46dc-a7a7-6eb0b6e2ca5f> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻10" ;
-    ns5:identifier "6d0688e3-d0e4-46dc-a7a7-6eb0b6e2ca5f" ;
+    ns4:identifier "6d0688e3-d0e4-46dc-a7a7-6eb0b6e2ca5f" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d0688e3-d0e4-46dc-a7a7-6eb0b6e2ca5f/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104385> ;
@@ -785,7 +785,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104386> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104386 ;
     ns1:is_public true ;
@@ -846,7 +846,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/617b8198-1f9c-4f74-aaaf-b7a83e9bc1c9> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻11" ;
-    ns5:identifier "617b8198-1f9c-4f74-aaaf-b7a83e9bc1c9" ;
+    ns4:identifier "617b8198-1f9c-4f74-aaaf-b7a83e9bc1c9" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/617b8198-1f9c-4f74-aaaf-b7a83e9bc1c9/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104386> ;
@@ -854,7 +854,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104387> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104387 ;
     ns1:is_public true ;
@@ -923,7 +923,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/fc0e2d36-6acc-48ab-9743-736737099b27> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻12" ;
-    ns5:identifier "fc0e2d36-6acc-48ab-9743-736737099b27" ;
+    ns4:identifier "fc0e2d36-6acc-48ab-9743-736737099b27" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fc0e2d36-6acc-48ab-9743-736737099b27/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104387> ;
@@ -931,7 +931,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104388> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:15+00:00"^^xsd:dateTime ;
     ns1:id 104388 ;
     ns1:is_public true ;
@@ -1019,7 +1019,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/1ed2601b-d9d5-4495-8e7e-f3568dad05c4> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻13" ;
-    ns5:identifier "1ed2601b-d9d5-4495-8e7e-f3568dad05c4" ;
+    ns4:identifier "1ed2601b-d9d5-4495-8e7e-f3568dad05c4" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1ed2601b-d9d5-4495-8e7e-f3568dad05c4/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104388> ;
@@ -1027,7 +1027,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104389> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104389 ;
     ns1:is_public true ;
@@ -1084,7 +1084,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/eab2630d-2d11-4a43-85e0-18c9d56ba554> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻14" ;
-    ns5:identifier "eab2630d-2d11-4a43-85e0-18c9d56ba554" ;
+    ns4:identifier "eab2630d-2d11-4a43-85e0-18c9d56ba554" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/eab2630d-2d11-4a43-85e0-18c9d56ba554/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104389> ;
@@ -1092,7 +1092,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104390> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104390 ;
     ns1:is_public true ;
@@ -1173,7 +1173,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/dd4da091-6aad-4a69-9102-d95fcfb08b85> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻15" ;
-    ns5:identifier "dd4da091-6aad-4a69-9102-d95fcfb08b85" ;
+    ns4:identifier "dd4da091-6aad-4a69-9102-d95fcfb08b85" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dd4da091-6aad-4a69-9102-d95fcfb08b85/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104390> ;
@@ -1181,7 +1181,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104391> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104391 ;
     ns1:is_public true ;
@@ -1273,7 +1273,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/2dfdc22c-d823-45ae-8f6b-e6f5cf0ee02b> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻16" ;
-    ns5:identifier "2dfdc22c-d823-45ae-8f6b-e6f5cf0ee02b" ;
+    ns4:identifier "2dfdc22c-d823-45ae-8f6b-e6f5cf0ee02b" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2dfdc22c-d823-45ae-8f6b-e6f5cf0ee02b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104391> ;
@@ -1281,7 +1281,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104392> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104392 ;
     ns1:is_public true ;
@@ -1344,7 +1344,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/92f2546c-4eb6-4af3-942a-bccbbc2e5a11> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻17" ;
-    ns5:identifier "92f2546c-4eb6-4af3-942a-bccbbc2e5a11" ;
+    ns4:identifier "92f2546c-4eb6-4af3-942a-bccbbc2e5a11" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/92f2546c-4eb6-4af3-942a-bccbbc2e5a11/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104392> ;
@@ -1352,7 +1352,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104393> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104393 ;
     ns1:is_public true ;
@@ -1402,7 +1402,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/1037301e-3e6c-4a64-969d-12402d94fd01> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻18" ;
-    ns5:identifier "1037301e-3e6c-4a64-969d-12402d94fd01" ;
+    ns4:identifier "1037301e-3e6c-4a64-969d-12402d94fd01" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1037301e-3e6c-4a64-969d-12402d94fd01/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104393> ;
@@ -1410,7 +1410,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104394> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104394 ;
     ns1:is_public true ;
@@ -1461,7 +1461,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/64e25707-5df1-4573-b921-47e82f8b3ff5> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻19" ;
-    ns5:identifier "64e25707-5df1-4573-b921-47e82f8b3ff5" ;
+    ns4:identifier "64e25707-5df1-4573-b921-47e82f8b3ff5" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/64e25707-5df1-4573-b921-47e82f8b3ff5/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104394> ;
@@ -1469,7 +1469,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104395> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:16+00:00"^^xsd:dateTime ;
     ns1:id 104395 ;
     ns1:is_public true ;
@@ -1544,7 +1544,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/570bf244-aea3-4fe3-9781-9bfe47c9434b> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻20" ;
-    ns5:identifier "570bf244-aea3-4fe3-9781-9bfe47c9434b" ;
+    ns4:identifier "570bf244-aea3-4fe3-9781-9bfe47c9434b" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/570bf244-aea3-4fe3-9781-9bfe47c9434b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104395> ;
@@ -1552,7 +1552,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104396> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104396 ;
     ns1:is_public true ;
@@ -1612,7 +1612,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/d02edd84-064a-4abf-a02c-9367567191e3> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻21" ;
-    ns5:identifier "d02edd84-064a-4abf-a02c-9367567191e3" ;
+    ns4:identifier "d02edd84-064a-4abf-a02c-9367567191e3" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d02edd84-064a-4abf-a02c-9367567191e3/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104396> ;
@@ -1620,7 +1620,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104397> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104397 ;
     ns1:is_public true ;
@@ -1703,7 +1703,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/98bb382a-0b0a-4c20-9432-ebc0901a4022> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻22" ;
-    ns5:identifier "98bb382a-0b0a-4c20-9432-ebc0901a4022" ;
+    ns4:identifier "98bb382a-0b0a-4c20-9432-ebc0901a4022" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/98bb382a-0b0a-4c20-9432-ebc0901a4022/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104397> ;
@@ -1711,7 +1711,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104398> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104398 ;
     ns1:is_public true ;
@@ -1760,7 +1760,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/fd7208cb-f9ca-4b71-b8d8-42378194c66a> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻23" ;
-    ns5:identifier "fd7208cb-f9ca-4b71-b8d8-42378194c66a" ;
+    ns4:identifier "fd7208cb-f9ca-4b71-b8d8-42378194c66a" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fd7208cb-f9ca-4b71-b8d8-42378194c66a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104398> ;
@@ -1768,7 +1768,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104399> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104399 ;
     ns1:is_public true ;
@@ -1835,7 +1835,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/a5805e1f-9356-4e20-add4-0bc06597ac1e> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻24" ;
-    ns5:identifier "a5805e1f-9356-4e20-add4-0bc06597ac1e" ;
+    ns4:identifier "a5805e1f-9356-4e20-add4-0bc06597ac1e" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a5805e1f-9356-4e20-add4-0bc06597ac1e/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104399> ;
@@ -1843,7 +1843,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104400> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104400 ;
     ns1:is_public true ;
@@ -1897,7 +1897,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/9aa21685-4f6a-423f-95d7-9575daa0fbf7> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻25" ;
-    ns5:identifier "9aa21685-4f6a-423f-95d7-9575daa0fbf7" ;
+    ns4:identifier "9aa21685-4f6a-423f-95d7-9575daa0fbf7" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9aa21685-4f6a-423f-95d7-9575daa0fbf7/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104400> ;
@@ -1905,7 +1905,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104401> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:17+00:00"^^xsd:dateTime ;
     ns1:id 104401 ;
     ns1:is_public true ;
@@ -1974,7 +1974,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/53117e96-ac23-4cb6-8a71-ced2313f54f8> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻26" ;
-    ns5:identifier "53117e96-ac23-4cb6-8a71-ced2313f54f8" ;
+    ns4:identifier "53117e96-ac23-4cb6-8a71-ced2313f54f8" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/53117e96-ac23-4cb6-8a71-ced2313f54f8/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104401> ;
@@ -1982,7 +1982,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104402> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104402 ;
     ns1:is_public true ;
@@ -2050,7 +2050,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/bf762dfe-4ba3-47ce-900b-2a32df76d92b> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻27" ;
-    ns5:identifier "bf762dfe-4ba3-47ce-900b-2a32df76d92b" ;
+    ns4:identifier "bf762dfe-4ba3-47ce-900b-2a32df76d92b" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bf762dfe-4ba3-47ce-900b-2a32df76d92b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104402> ;
@@ -2058,7 +2058,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104403> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104403 ;
     ns1:is_public true ;
@@ -2120,7 +2120,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/8855249a-8280-46dd-a552-f61878a3fcd0> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻28" ;
-    ns5:identifier "8855249a-8280-46dd-a552-f61878a3fcd0" ;
+    ns4:identifier "8855249a-8280-46dd-a552-f61878a3fcd0" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8855249a-8280-46dd-a552-f61878a3fcd0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104403> ;
@@ -2128,7 +2128,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104404> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104404 ;
     ns1:is_public true ;
@@ -2182,7 +2182,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/9e3f3ba5-7d16-40af-8e42-c91fbdf9addd> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻29" ;
-    ns5:identifier "9e3f3ba5-7d16-40af-8e42-c91fbdf9addd" ;
+    ns4:identifier "9e3f3ba5-7d16-40af-8e42-c91fbdf9addd" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9e3f3ba5-7d16-40af-8e42-c91fbdf9addd/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104404> ;
@@ -2190,7 +2190,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104405> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104405 ;
     ns1:is_public true ;
@@ -2253,7 +2253,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/7a3e1bfb-869e-43af-b9c5-4123570c175d> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻30" ;
-    ns5:identifier "7a3e1bfb-869e-43af-b9c5-4123570c175d" ;
+    ns4:identifier "7a3e1bfb-869e-43af-b9c5-4123570c175d" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7a3e1bfb-869e-43af-b9c5-4123570c175d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104405> ;
@@ -2261,7 +2261,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104406> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104406 ;
     ns1:is_public true ;
@@ -2318,7 +2318,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/0d1ef244-a987-4cc9-a427-ffad44fab029> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻31" ;
-    ns5:identifier "0d1ef244-a987-4cc9-a427-ffad44fab029" ;
+    ns4:identifier "0d1ef244-a987-4cc9-a427-ffad44fab029" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d1ef244-a987-4cc9-a427-ffad44fab029/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104406> ;
@@ -2326,7 +2326,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104407> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:18+00:00"^^xsd:dateTime ;
     ns1:id 104407 ;
     ns1:is_public true ;
@@ -2408,7 +2408,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/7851fb55-9a83-40c4-8a16-50fa4da8cb05> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻32" ;
-    ns5:identifier "7851fb55-9a83-40c4-8a16-50fa4da8cb05" ;
+    ns4:identifier "7851fb55-9a83-40c4-8a16-50fa4da8cb05" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7851fb55-9a83-40c4-8a16-50fa4da8cb05/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104407> ;
@@ -2416,7 +2416,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104408> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104408 ;
     ns1:is_public true ;
@@ -2497,7 +2497,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/cdeb6393-fa4a-4df9-93f9-be88020ecbfb> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻33" ;
-    ns5:identifier "cdeb6393-fa4a-4df9-93f9-be88020ecbfb" ;
+    ns4:identifier "cdeb6393-fa4a-4df9-93f9-be88020ecbfb" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cdeb6393-fa4a-4df9-93f9-be88020ecbfb/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104408> ;
@@ -2505,7 +2505,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104409> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104409 ;
     ns1:is_public true ;
@@ -2587,7 +2587,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/57e31ad8-7563-4560-9192-19038e75e13c> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻34" ;
-    ns5:identifier "57e31ad8-7563-4560-9192-19038e75e13c" ;
+    ns4:identifier "57e31ad8-7563-4560-9192-19038e75e13c" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/57e31ad8-7563-4560-9192-19038e75e13c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104409> ;
@@ -2595,7 +2595,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104410> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104410 ;
     ns1:is_public true ;
@@ -2651,7 +2651,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/ddd82b47-aa34-4825-bf84-fa544b6c892a> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻35" ;
-    ns5:identifier "ddd82b47-aa34-4825-bf84-fa544b6c892a" ;
+    ns4:identifier "ddd82b47-aa34-4825-bf84-fa544b6c892a" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ddd82b47-aa34-4825-bf84-fa544b6c892a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104410> ;
@@ -2659,7 +2659,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104411> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104411 ;
     ns1:is_public true ;
@@ -2715,7 +2715,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/bd0dd2db-826d-4c43-874e-901dc0bb10b3> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻36" ;
-    ns5:identifier "bd0dd2db-826d-4c43-874e-901dc0bb10b3" ;
+    ns4:identifier "bd0dd2db-826d-4c43-874e-901dc0bb10b3" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bd0dd2db-826d-4c43-874e-901dc0bb10b3/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104411> ;
@@ -2723,7 +2723,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104412> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104412 ;
     ns1:is_public true ;
@@ -2789,7 +2789,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/c5ef28fe-0c14-4819-9b13-45793b41f6ca> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻37" ;
-    ns5:identifier "c5ef28fe-0c14-4819-9b13-45793b41f6ca" ;
+    ns4:identifier "c5ef28fe-0c14-4819-9b13-45793b41f6ca" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c5ef28fe-0c14-4819-9b13-45793b41f6ca/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104412> ;
@@ -2797,7 +2797,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104413> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:19+00:00"^^xsd:dateTime ;
     ns1:id 104413 ;
     ns1:is_public true ;
@@ -2882,7 +2882,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/8e0cc5cc-78e0-40ad-8ce3-247f71ff2946> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻38" ;
-    ns5:identifier "8e0cc5cc-78e0-40ad-8ce3-247f71ff2946" ;
+    ns4:identifier "8e0cc5cc-78e0-40ad-8ce3-247f71ff2946" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8e0cc5cc-78e0-40ad-8ce3-247f71ff2946/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104413> ;
@@ -2890,7 +2890,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104414> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104414 ;
     ns1:is_public true ;
@@ -2957,7 +2957,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/862c7cd0-4047-4e50-adab-eba8e7c16cc8> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻39" ;
-    ns5:identifier "862c7cd0-4047-4e50-adab-eba8e7c16cc8" ;
+    ns4:identifier "862c7cd0-4047-4e50-adab-eba8e7c16cc8" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/862c7cd0-4047-4e50-adab-eba8e7c16cc8/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104414> ;
@@ -2965,7 +2965,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104415> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104415 ;
     ns1:is_public true ;
@@ -3034,7 +3034,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/b32dccdb-f3df-4399-9660-798763e71f26> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻40" ;
-    ns5:identifier "b32dccdb-f3df-4399-9660-798763e71f26" ;
+    ns4:identifier "b32dccdb-f3df-4399-9660-798763e71f26" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b32dccdb-f3df-4399-9660-798763e71f26/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104415> ;
@@ -3042,7 +3042,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104416> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104416 ;
     ns1:is_public true ;
@@ -3104,7 +3104,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/6cfb64d5-5449-4eed-b754-f6e7cf76c93d> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻41" ;
-    ns5:identifier "6cfb64d5-5449-4eed-b754-f6e7cf76c93d" ;
+    ns4:identifier "6cfb64d5-5449-4eed-b754-f6e7cf76c93d" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6cfb64d5-5449-4eed-b754-f6e7cf76c93d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104416> ;
@@ -3112,7 +3112,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104417> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104417 ;
     ns1:is_public true ;
@@ -3182,7 +3182,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/3470288d-f7da-430f-a43b-453a8bf6f0dc> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻42" ;
-    ns5:identifier "3470288d-f7da-430f-a43b-453a8bf6f0dc" ;
+    ns4:identifier "3470288d-f7da-430f-a43b-453a8bf6f0dc" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3470288d-f7da-430f-a43b-453a8bf6f0dc/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104417> ;
@@ -3190,7 +3190,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104418> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104418 ;
     ns1:is_public true ;
@@ -3242,7 +3242,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/04504bbf-fd5a-4b15-b485-5320c2835afe> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻43" ;
-    ns5:identifier "04504bbf-fd5a-4b15-b485-5320c2835afe" ;
+    ns4:identifier "04504bbf-fd5a-4b15-b485-5320c2835afe" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/04504bbf-fd5a-4b15-b485-5320c2835afe/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104418> ;
@@ -3250,7 +3250,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104419> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:20+00:00"^^xsd:dateTime ;
     ns1:id 104419 ;
     ns1:is_public true ;
@@ -3291,7 +3291,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/0d20f60e-1aa9-4b46-8d9a-702d24632cd5> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻44" ;
-    ns5:identifier "0d20f60e-1aa9-4b46-8d9a-702d24632cd5" ;
+    ns4:identifier "0d20f60e-1aa9-4b46-8d9a-702d24632cd5" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d20f60e-1aa9-4b46-8d9a-702d24632cd5/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104419> ;
@@ -3299,7 +3299,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104420> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104420 ;
     ns1:is_public true ;
@@ -3362,7 +3362,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/b5d3fba2-a319-42f9-b46e-846177296672> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻45" ;
-    ns5:identifier "b5d3fba2-a319-42f9-b46e-846177296672" ;
+    ns4:identifier "b5d3fba2-a319-42f9-b46e-846177296672" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b5d3fba2-a319-42f9-b46e-846177296672/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104420> ;
@@ -3370,7 +3370,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104421> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104421 ;
     ns1:is_public true ;
@@ -3434,7 +3434,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/8de6f4e0-3c2d-4a60-ad08-00f6f2607c51> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻46" ;
-    ns5:identifier "8de6f4e0-3c2d-4a60-ad08-00f6f2607c51" ;
+    ns4:identifier "8de6f4e0-3c2d-4a60-ad08-00f6f2607c51" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8de6f4e0-3c2d-4a60-ad08-00f6f2607c51/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104421> ;
@@ -3442,7 +3442,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104422> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104422 ;
     ns1:is_public true ;
@@ -3504,7 +3504,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/8a7cb286-9bf0-4b6e-b24a-ad76fb561dac> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻47" ;
-    ns5:identifier "8a7cb286-9bf0-4b6e-b24a-ad76fb561dac" ;
+    ns4:identifier "8a7cb286-9bf0-4b6e-b24a-ad76fb561dac" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8a7cb286-9bf0-4b6e-b24a-ad76fb561dac/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104422> ;
@@ -3512,7 +3512,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104423> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104423 ;
     ns1:is_public true ;
@@ -3566,7 +3566,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/e90df5b8-e995-40a5-970d-73b27e973d56> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻48" ;
-    ns5:identifier "e90df5b8-e995-40a5-970d-73b27e973d56" ;
+    ns4:identifier "e90df5b8-e995-40a5-970d-73b27e973d56" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e90df5b8-e995-40a5-970d-73b27e973d56/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104423> ;
@@ -3574,7 +3574,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104424> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104424 ;
     ns1:is_public true ;
@@ -3647,7 +3647,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/b914b6c8-cfd8-4f9c-b8d4-ed1cfb8729d3> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻49" ;
-    ns5:identifier "b914b6c8-cfd8-4f9c-b8d4-ed1cfb8729d3" ;
+    ns4:identifier "b914b6c8-cfd8-4f9c-b8d4-ed1cfb8729d3" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b914b6c8-cfd8-4f9c-b8d4-ed1cfb8729d3/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104424> ;
@@ -3655,7 +3655,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104425> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104425 ;
     ns1:is_public true ;
@@ -3706,7 +3706,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/42f79cbd-d417-4272-813e-1cb92e01be64> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "巻50" ;
-    ns5:identifier "42f79cbd-d417-4272-813e-1cb92e01be64" ;
+    ns4:identifier "42f79cbd-d417-4272-813e-1cb92e01be64" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42f79cbd-d417-4272-813e-1cb92e01be64/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104425> ;
@@ -3714,7 +3714,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104426> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:21+00:00"^^xsd:dateTime ;
     ns1:id 104426 ;
     ns1:is_public true ;
@@ -3770,7 +3770,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/09691e0c-4732-4ec8-8d29-65a19b59c742> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-1" ;
-    ns5:identifier "09691e0c-4732-4ec8-8d29-65a19b59c742" ;
+    ns4:identifier "09691e0c-4732-4ec8-8d29-65a19b59c742" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/09691e0c-4732-4ec8-8d29-65a19b59c742/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104426> ;
@@ -3778,7 +3778,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104427> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104427 ;
     ns1:is_public true ;
@@ -3840,7 +3840,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/91c20f07-f4a1-48dd-bd71-ba34220ae40f> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-2" ;
-    ns5:identifier "91c20f07-f4a1-48dd-bd71-ba34220ae40f" ;
+    ns4:identifier "91c20f07-f4a1-48dd-bd71-ba34220ae40f" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/91c20f07-f4a1-48dd-bd71-ba34220ae40f/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104427> ;
@@ -3848,7 +3848,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104428> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104428 ;
     ns1:is_public true ;
@@ -3922,7 +3922,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/97bbc616-5961-4f89-9774-ef0fb166ad3a> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-3" ;
-    ns5:identifier "97bbc616-5961-4f89-9774-ef0fb166ad3a" ;
+    ns4:identifier "97bbc616-5961-4f89-9774-ef0fb166ad3a" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97bbc616-5961-4f89-9774-ef0fb166ad3a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104428> ;
@@ -3930,7 +3930,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104429> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104429 ;
     ns1:is_public true ;
@@ -3982,7 +3982,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/061eecbd-507c-4211-a726-4b6d7abaf356> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-4" ;
-    ns5:identifier "061eecbd-507c-4211-a726-4b6d7abaf356" ;
+    ns4:identifier "061eecbd-507c-4211-a726-4b6d7abaf356" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/061eecbd-507c-4211-a726-4b6d7abaf356/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104429> ;
@@ -3990,7 +3990,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104430> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104430 ;
     ns1:is_public true ;
@@ -4056,7 +4056,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/620e6ad5-9655-4e66-8d47-09f93bde50aa> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-5" ;
-    ns5:identifier "620e6ad5-9655-4e66-8d47-09f93bde50aa" ;
+    ns4:identifier "620e6ad5-9655-4e66-8d47-09f93bde50aa" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/620e6ad5-9655-4e66-8d47-09f93bde50aa/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104430> ;
@@ -4064,7 +4064,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104431> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104431 ;
     ns1:is_public true ;
@@ -4139,7 +4139,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/767b8c16-8a8b-45df-acd3-02635d226bed> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-6" ;
-    ns5:identifier "767b8c16-8a8b-45df-acd3-02635d226bed" ;
+    ns4:identifier "767b8c16-8a8b-45df-acd3-02635d226bed" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/767b8c16-8a8b-45df-acd3-02635d226bed/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104431> ;
@@ -4147,7 +4147,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104432> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:22+00:00"^^xsd:dateTime ;
     ns1:id 104432 ;
     ns1:is_public true ;
@@ -4226,7 +4226,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/665903cd-fc75-4d2a-a173-5dd0bc8cb246> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-7" ;
-    ns5:identifier "665903cd-fc75-4d2a-a173-5dd0bc8cb246" ;
+    ns4:identifier "665903cd-fc75-4d2a-a173-5dd0bc8cb246" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/665903cd-fc75-4d2a-a173-5dd0bc8cb246/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104432> ;
@@ -4234,7 +4234,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104433> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104433 ;
     ns1:is_public true ;
@@ -4302,7 +4302,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/e478ca47-bbb2-469b-aa20-2907bbd63e08> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-8" ;
-    ns5:identifier "e478ca47-bbb2-469b-aa20-2907bbd63e08" ;
+    ns4:identifier "e478ca47-bbb2-469b-aa20-2907bbd63e08" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e478ca47-bbb2-469b-aa20-2907bbd63e08/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104433> ;
@@ -4310,7 +4310,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104434> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104434 ;
     ns1:is_public true ;
@@ -4364,7 +4364,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/fe18bcd5-3346-478e-b384-0fa1bbc60962> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-9" ;
-    ns5:identifier "fe18bcd5-3346-478e-b384-0fa1bbc60962" ;
+    ns4:identifier "fe18bcd5-3346-478e-b384-0fa1bbc60962" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe18bcd5-3346-478e-b384-0fa1bbc60962/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104434> ;
@@ -4372,7 +4372,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104435> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104435 ;
     ns1:is_public true ;
@@ -4427,7 +4427,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/94ed1e89-c5f2-4e3b-9777-da7931ffd812> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-10" ;
-    ns5:identifier "94ed1e89-c5f2-4e3b-9777-da7931ffd812" ;
+    ns4:identifier "94ed1e89-c5f2-4e3b-9777-da7931ffd812" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/94ed1e89-c5f2-4e3b-9777-da7931ffd812/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104435> ;
@@ -4435,7 +4435,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104436> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104436 ;
     ns1:is_public true ;
@@ -4495,7 +4495,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/385ed1f0-6b9f-4d74-a200-1f64381fade3> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-11" ;
-    ns5:identifier "385ed1f0-6b9f-4d74-a200-1f64381fade3" ;
+    ns4:identifier "385ed1f0-6b9f-4d74-a200-1f64381fade3" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/385ed1f0-6b9f-4d74-a200-1f64381fade3/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104436> ;
@@ -4503,7 +4503,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104437> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104437 ;
     ns1:is_public true ;
@@ -4570,7 +4570,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/7364d439-b8ea-416c-9490-116f0c1937bb> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-12" ;
-    ns5:identifier "7364d439-b8ea-416c-9490-116f0c1937bb" ;
+    ns4:identifier "7364d439-b8ea-416c-9490-116f0c1937bb" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7364d439-b8ea-416c-9490-116f0c1937bb/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104437> ;
@@ -4578,7 +4578,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104438> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:23+00:00"^^xsd:dateTime ;
     ns1:id 104438 ;
     ns1:is_public true ;
@@ -4634,7 +4634,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/e5b491bb-5e75-4054-9fef-b9e4eaa7ebfa> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-13" ;
-    ns5:identifier "e5b491bb-5e75-4054-9fef-b9e4eaa7ebfa" ;
+    ns4:identifier "e5b491bb-5e75-4054-9fef-b9e4eaa7ebfa" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e5b491bb-5e75-4054-9fef-b9e4eaa7ebfa/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104438> ;
@@ -4642,7 +4642,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104439> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns1:created "2018-07-11T15:28:24+00:00"^^xsd:dateTime ;
     ns1:id 104439 ;
     ns1:is_public true ;
@@ -4701,7 +4701,7 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/ff68d19b-cd93-473e-a8b8-6505759f9b7c> ;
     ns2:rights <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/page/reuse> ;
     ns2:title "不分巻-14" ;
-    ns5:identifier "ff68d19b-cd93-473e-a8b8-6505759f9b7c" ;
+    ns4:identifier "ff68d19b-cd93-473e-a8b8-6505759f9b7c" ;
     ns3:databaseLabel "皇明條法事類纂条名目録" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff68d19b-cd93-473e-a8b8-6505759f9b7c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/104439> ;
