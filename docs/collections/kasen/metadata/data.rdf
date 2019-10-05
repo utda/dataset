@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:ns3="http://purl.org/utrepo/terms#"
-  xmlns:ns2="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns5="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns6="http://data.archiveshub.ac.uk/def/"
-  xmlns:ns8="http://purl.org/ontology/bibo/"
-  xmlns:ns4="http://xmlns.com/foaf/0.1/"
-  xmlns:ns7="http://iiif.io/api/presentation/2#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns3="http://omeka.org/s/vocabs/o#"
   xmlns:ns9="http://purl.org/dc/dcmitype/"
+  xmlns:ns2="http://purl.org/dc/terms/"
+  xmlns:ns1="http://data.archiveshub.ac.uk/def/"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://purl.org/utrepo/terms#"
+  xmlns:ns8="http://ndl.go.jp/dcndl/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns5="http://iiif.io/api/presentation/2#"
+  xmlns:ns7="http://purl.org/ontology/bibo/"
 >
-  <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9">
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:id>
+  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9">
+    <ns1:note>写本</ns1:note>
+    <ns3:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns3:id>
       </rdf:Description>
-    </ns1:item_set>
-    <ns2:extent>1軸</ns2:extent>
-    <ns3:databaseLabel>『三十六歌撰』絵巻</ns3:databaseLabel>
-    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-13T12:16:21+00:00</ns1:modified>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    </ns3:resource_class>
+    <ns2:title>『三十六歌撰』絵巻</ns2:title>
     <ns2:description>『三十六歌撰』絵巻&#13;
   本『三十六歌撰』絵巻(一巻)は、藤原公任の『三十六人撰』に選ばれている歌人(三十六歌仙)の和歌から、一人一首ずつを選び、歌人名と和歌を大田南畝が染筆したものである。また、それぞれの和歌の内容を、狩野派の絵師である高田円乗が、淡彩で簡略な風景画で描いている。ただし、三十六歌仙のうち、斎宮女御と源重之が欠落しているので、合計三十四人分の和歌と絵からなる。&#13;
 &#13;
   本絵巻は、三十六歌仙の肖像画ではなく、和歌の風景が描かれているのが特徴である。絵巻の制作年、および制作の動機・目的は未詳。絵師の円乗は、詳しい経歴は不明だが、孔子伝や兼好伝の挿絵も描いている。『大田南畝全集』によれば、円乗は南畝や朋誠堂喜三二と交友があった。本絵巻の末尾に、桐廼舎主人(岡野半牧)の考証で、円乗が「徒士組」だったと記されているのは、円乗の伝記に関する新資料か。だとすれば、南畝・喜三二・円乗の三人には、武家の出身という共通項があることになる。南畝と円乗による、珍しい合作絵巻の佳品である。南葵文庫旧蔵(請求記号A00:6251)。&#13;
 &#13;
  放送大学教授 島内裕子</ns2:description>
-    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:id>
-    <ns2:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/"/>
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <ns2:language>日本語</ns2:language>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280854">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280854</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg"/>
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9"/>
-    <ns1:owner>
+    <ns2:creator>高田圓乗畫 , 大田南畝書</ns2:creator>
+    <ns3:owner>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:id>
       </rdf:Description>
-    </ns1:owner>
+    </ns3:owner>
+    <ns3:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns3:created>
+    <ns4:databaseLabel>『三十六歌撰』絵巻</ns4:databaseLabel>
+    <ns4:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest"/>
+    <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns3:id>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:language>日本語</ns2:language>
+    <ns7:identifier>42219787-59b5-4570-b811-c3d1ff7ad321</ns7:identifier>
+    <ns3:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns3:id>
+      </rdf:Description>
+    </ns3:resource_template>
+    <ns8:callNumber>A00:6251</ns8:callNumber>
     <ns2:rights>
       <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+        <ns3:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns3:label>
       </rdf:Description>
     </ns2:rights>
-    <ns5:callNumber>A00:6251</ns5:callNumber>
-    <ns2:creator>高田圓乗畫 , 大田南畝書</ns2:creator>
-    <ns1:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:id>
-      </rdf:Description>
-    </ns1:resource_template>
-    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
-    <ns8:identifier>42219787-59b5-4570-b811-c3d1ff7ad321</ns8:identifier>
-    <ns2:title>『三十六歌撰』絵巻</ns2:title>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9"/>
     <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321"/>
-    <ns6:note>写本</ns6:note>
-    <ns3:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest"/>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns1:created>
-  </ns1:Item>
+    <ns2:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/"/>
+    <ns5:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns5:attributionLabel>
+    <ns3:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns3:is_public>
+    <ns2:extent>1軸</ns2:extent>
+    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg"/>
+    <ns3:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns3:id>
+      </rdf:Description>
+    </ns3:item_set>
+    <ns3:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-13T12:16:21+00:00</ns3:modified>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280854">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280854</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+  </ns9:Image>
 </rdf:RDF>

@@ -1,185 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns2="http://omeka.org/s/vocabs/o#"
-  xmlns:ns5="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns1="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns8="http://data.archiveshub.ac.uk/def/"
-  xmlns:ns7="http://purl.org/ontology/bibo/"
-  xmlns:ns4="http://iiif.io/api/presentation/2#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns6="http://purl.org/utrepo/terms#"
-  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns2="http://omeka.org/s/vocabs/o#"
+  xmlns:ns1="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns3="http://purl.org/dc/terms/"
+  xmlns:ns5="http://purl.org/utrepo/terms#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns8="http://data.archiveshub.ac.uk/def/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns6="http://iiif.io/api/presentation/2#"
+  xmlns:ns7="http://purl.org/ontology/bibo/"
 >
-  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042">
-    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
-    <ns5:seriesTitle>農学生命科学図書館コレクション</ns5:seriesTitle>
-    <ns6:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
-University of Tokyo Collection</ns6:databaseLabel>
+  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040">
+    <ns1:callNumber>和:7</ns1:callNumber>
+    <ns7:identifier>d9115c2c-6c49-1f2b-515e-c67ea4332ab9</ns7:identifier>
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275089">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275089</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275054">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275054</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns5:callNumber>和:27</ns5:callNumber>
-    <ns1:extent>地図1枚</ns1:extent>
-    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042"/>
-    <ns5:alternative>東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在</ns5:alternative>
-    <ns6:databaseLabel>農学生命科学図書館コレクション</ns6:databaseLabel>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T06:50:57+00:00</ns2:created>
-    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest"/>
-    <ns2:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275039</ns2:id>
-      </rdf:Description>
-    </ns2:item_set>
-    <ns2:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:id>
-      </rdf:Description>
-    </ns2:owner>
-    <ns7:identifier>187cc82d-11e6-9912-9dd4-b4cca9b10970</ns7:identifier>
+    <ns5:databaseLabel>農学生命科学図書館コレクション</ns5:databaseLabel>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040"/>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-11T00:00:30+00:00</ns2:modified>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275086">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275086</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275052">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275052</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns3:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg"/>
-    <ns1:description>枠外に"東京印刷株式會社印売"とあり</ns1:description>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275042</ns2:id>
-    <ns5:transcription>トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ</ns5:transcription>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275051">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275051</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275048">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275048</ns2:id>
+      </rdf:Description>
+    </ns2:media>
     <ns2:resource_template>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns2:id>
       </rdf:Description>
     </ns2:resource_template>
-    <ns6:sort>3</ns6:sort>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275085</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275055">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275055</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns4:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
-    <ns1:alternative>東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在</ns1:alternative>
-    <ns1:creator>[東京帝國大學]</ns1:creator>
+    <ns2:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275039</ns2:id>
+      </rdf:Description>
+    </ns2:item_set>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275040</ns2:id>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275090">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275090</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275053">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275053</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970"/>
-    <ns5:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns5:seriesAlternative>
-    <ns5:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns5:seriesTitleTranscription>
-    <ns4:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns4:attributionLabel>
+    <ns6:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:id>
+      </rdf:Description>
+    </ns2:owner>
+    <ns6:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns6:attributionLabel>
+    <ns1:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns1:seriesTitleTranscription>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275088">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275088</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275046">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275046</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-11T00:00:04+00:00</ns2:modified>
+    <ns8:note rdf:resource="http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html"/>
+    <ns5:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
+University of Tokyo Collection</ns5:databaseLabel>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275087">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275087</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275043</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns1:date>[昭和12(1937)]</ns1:date>
-    <ns1:title>東京帝國大學本部構内及農學部建物鳥瞰圖</ns1:title>
+    <ns3:title>國牛十圖</ns3:title>
+    <ns3:creator>河東牧童甯直麿 [画]</ns3:creator>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275045">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275045</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg"/>
+    <ns1:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns1:seriesAlternative>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest"/>
+    <ns5:sort>1</ns5:sort>
+    <ns1:seriesTitle>農学生命科学図書館コレクション</ns1:seriesTitle>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275047">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275047</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T06:50:56+00:00</ns2:created>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275044">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275044</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275049">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275049</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:date>安永7 [1778]</ns3:date>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275050">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275050</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:extent>1軸</ns3:extent>
+    <ns3:alternative>國牛十圖</ns3:alternative>
+    <ns3:description>写本、巻子本、彩色図版&#13;
+書名は題簽による&#13;
+巻末に「安永七年歳次戊戌五月二日摹 左亰 藤貞幹」とあり&#13;
+巻首に「國牛十圖叙文ノ首闕惜ヘシ又牛圖十アルヘシ今所存九ツ若一圖逸スルカ他日全本ヲ得ルヲ俟 安永七年歳次戊戌五月 藤貞幹」とあり&#13;
+印記: 「游戯三昧院」,「文珠庵印」</ns3:description>
+    <ns1:transcription>コクギュウ ジュウズ</ns1:transcription>
   </ns2:Item>
   <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041">
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275041</ns2:id>
-    <ns6:sort>2</ns6:sort>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275064">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275064</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275078">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275078</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275075">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275075</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275068">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275068</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039"/>
-    <ns3:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275081">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275081</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns5:alternative>東京帝国大学農学部建物位置図 : 大正11年4月1日現在</ns5:alternative>
-    <ns4:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns4:attributionLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275058">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275058</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:creator>[東京帝國大學農學部]</ns1:creator>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275067">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275067</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275070">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275070</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275069">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275069</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275063">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275063</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:title>東京帝國大學農學部建物位置圖</ns1:title>
-    <ns7:identifier>6d032fb5-0a2f-6e04-9e3c-6bb5f604714f</ns7:identifier>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275076">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275076</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns5:seriesTitle>農学生命科学図書館コレクション</ns5:seriesTitle>
-    <ns1:date>[大正11(1922)]</ns1:date>
-    <ns5:callNumber>和:26</ns5:callNumber>
-    <ns5:transcription>トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ</ns5:transcription>
-    <ns5:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns5:seriesAlternative>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275066">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275066</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275082">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275082</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns4:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275059">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275059</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041"/>
-    <ns1:alternative>東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在</ns1:alternative>
-    <ns6:databaseLabel>農学生命科学図書館コレクション</ns6:databaseLabel>
+    <ns1:alternative>東京帝国大学農学部建物位置図 : 大正11年4月1日現在</ns1:alternative>
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275077">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275077</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275074">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275074</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
@@ -187,11 +144,37 @@ University of Tokyo Collection</ns6:databaseLabel>
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275062</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275041</ns2:id>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275056</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275063">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275063</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns3:creator>[東京帝國大學農學部]</ns3:creator>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275058">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275058</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275060">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275060</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:date>[大正11(1922)]</ns3:date>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275059">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275059</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275081">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275081</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21"/>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest"/>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275079">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275079</ns2:id>
@@ -202,172 +185,189 @@ University of Tokyo Collection</ns6:databaseLabel>
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275080</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275083">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275083</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275074">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275074</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275057">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275057</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275065">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275065</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275072">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275072</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275084">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275084</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns6:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
-University of Tokyo Collection</ns6:databaseLabel>
-    <ns5:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns5:seriesTitleTranscription>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275060">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275060</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275073">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275073</ns2:id>
-      </rdf:Description>
-    </ns2:media>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275071">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275071</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3"/>
-    <ns1:extent>地図1枚 +付図1枚</ns1:extent>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns1:seriesTitle>農学生命科学図書館コレクション</ns1:seriesTitle>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275076">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275076</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275072">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275072</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:title>東京帝國大學農學部建物位置圖</ns3:title>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275073">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275073</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:description>縮尺: 1:600&#13;
+書名上部に"東京府荏原郡目黒村、世田谷村豊多摩郡代々幡町、澁谷町"とあり</ns3:description>
+    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275065">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275065</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275069">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275069</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275084">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275084</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275082">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275082</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275056</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275066">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275066</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:sort>2</ns5:sort>
+    <ns3:alternative>東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在</ns3:alternative>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275067">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275067</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275078">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275078</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275083">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275083</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns6:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns6:attributionLabel>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275061">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275061</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns1:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns1:seriesTitleTranscription>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275070">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275070</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275064">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275064</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
+University of Tokyo Collection</ns5:databaseLabel>
     <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T23:59:44+00:00</ns2:modified>
-    <ns1:description>縮尺: 1:600&#13;
-書名上部に"東京府荏原郡目黒村、世田谷村豊多摩郡代々幡町、澁谷町"とあり</ns1:description>
-    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f"/>
-    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest"/>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041"/>
+    <ns3:extent>地図1枚 +付図1枚</ns3:extent>
+    <ns7:identifier>6d032fb5-0a2f-6e04-9e3c-6bb5f604714f</ns7:identifier>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275057">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275057</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns5:databaseLabel>農学生命科学図書館コレクション</ns5:databaseLabel>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275068">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275068</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns6:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
+    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
     <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T06:50:57+00:00</ns2:created>
+    <ns1:callNumber>和:26</ns1:callNumber>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f"/>
+    <ns1:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns1:seriesAlternative>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275075">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275075</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns1:transcription>トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ</ns1:transcription>
   </ns2:Item>
-  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040">
-    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21"/>
+  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042">
+    <ns3:alternative>東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在</ns3:alternative>
+    <ns1:transcription>トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ</ns1:transcription>
+    <ns1:callNumber>和:27</ns1:callNumber>
+    <ns3:title>東京帝國大學本部構内及農學部建物鳥瞰圖</ns3:title>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275052">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275052</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275086">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275086</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns3:extent>地図1枚</ns3:extent>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275046">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275046</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275085</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275047">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275047</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275054">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275054</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
-    <ns1:creator>河東牧童甯直麿 [画]</ns1:creator>
-    <ns6:databaseLabel>農学生命科学図書館コレクション</ns6:databaseLabel>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275050">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275050</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
-    <ns1:description>写本、巻子本、彩色図版&#13;
-書名は題簽による&#13;
-巻末に「安永七年歳次戊戌五月二日摹 左亰 藤貞幹」とあり&#13;
-巻首に「國牛十圖叙文ノ首闕惜ヘシ又牛圖十アルヘシ今所存九ツ若一圖逸スルカ他日全本ヲ得ルヲ俟 安永七年歳次戊戌五月 藤貞幹」とあり&#13;
-印記: 「游戯三昧院」,「文珠庵印」</ns1:description>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns8:note rdf:resource="http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html"/>
-    <ns1:extent>1軸</ns1:extent>
-    <ns6:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
-University of Tokyo Collection</ns6:databaseLabel>
-    <ns5:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns5:seriesTitleTranscription>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-11T00:00:30+00:00</ns2:modified>
-    <ns1:title>國牛十圖</ns1:title>
-    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039"/>
+    <ns5:sort>3</ns5:sort>
     <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3"/>
-    <ns4:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns4:attributionLabel>
-    <ns7:identifier>d9115c2c-6c49-1f2b-515e-c67ea4332ab9</ns7:identifier>
-    <ns6:sort>1</ns6:sort>
-    <ns1:alternative>國牛十圖</ns1:alternative>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest"/>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042"/>
+    <ns6:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T06:50:57+00:00</ns2:created>
+    <ns3:description>枠外に"東京印刷株式會社印売"とあり</ns3:description>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-11T00:00:04+00:00</ns2:modified>
+    <ns3:rights rdf:resource="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse"/>
+    <ns5:databaseLabel>University Library for Agricultural and Life Sciences, the&#13;
+University of Tokyo Collection</ns5:databaseLabel>
+    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21"/>
+    <ns4:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg"/>
+    <ns3:date>[昭和12(1937)]</ns3:date>
+    <ns1:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns1:seriesAlternative>
+    <ns1:seriesTitle>農学生命科学図書館コレクション</ns1:seriesTitle>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970"/>
+    <ns3:creator>[東京帝國大學]</ns3:creator>
+    <ns6:attributionLabel>東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo</ns6:attributionLabel>
+    <ns1:seriesTitleTranscription>Agri. Library, UTokyo Collection</ns1:seriesTitleTranscription>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275051">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275051</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275045">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275045</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T06:50:56+00:00</ns2:created>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275049">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275049</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275043</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275088">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275088</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275055">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275055</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275090">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275090</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275048">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275048</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275089">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275089</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns5:seriesTitle>農学生命科学図書館コレクション</ns5:seriesTitle>
-    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9"/>
+    <ns1:alternative>東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在</ns1:alternative>
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/"/>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275042</ns2:id>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275053">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275053</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275087">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275087</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns1:date>安永7 [1778]</ns1:date>
-    <ns5:callNumber>和:7</ns5:callNumber>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275044">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275044</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040"/>
-    <ns3:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg"/>
-    <ns5:seriesAlternative>University Library for Agricultural and Life Sciences, the University of Tokyo Collection</ns5:seriesAlternative>
-    <ns4:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275040</ns2:id>
-    <ns5:transcription>コクギュウ ジュウズ</ns5:transcription>
+    <ns5:databaseLabel>農学生命科学図書館コレクション</ns5:databaseLabel>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns7:identifier>187cc82d-11e6-9912-9dd4-b4cca9b10970</ns7:identifier>
+    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039"/>
   </ns2:Item>
 </rdf:RDF>

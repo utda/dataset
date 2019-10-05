@@ -1,9 +1,9 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns2: <http://omeka.org/s/vocabs/o#> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns6: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix ns7: <http://purl.org/ontology/bibo/> .
 @prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -13,13 +13,13 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> a ns2:Item ;
     ns8:note <http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html> ;
-    ns4:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns5:callNumber "和:7" ;
-    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns5:seriesTitle "農学生命科学図書館コレクション" ;
-    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns5:transcription "コクギュウ ジュウズ" ;
+    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns1:callNumber "和:7" ;
+    ns1:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns1:seriesTitle "農学生命科学図書館コレクション" ;
+    ns1:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns1:transcription "コクギュウ ジュウズ" ;
     ns2:created "2019-03-27T06:50:56+00:00"^^xsd:dateTime ;
     ns2:id 275040 ;
     ns2:is_public true ;
@@ -40,37 +40,37 @@
     ns2:modified "2019-04-11T00:00:30+00:00"^^xsd:dateTime ;
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns1:alternative "國牛十圖" ;
-    ns1:creator "河東牧童甯直麿 [画]" ;
-    ns1:date "安永7 [1778]" ;
-    ns1:description """写本、巻子本、彩色図版\r
+    ns3:alternative "國牛十圖" ;
+    ns3:creator "河東牧童甯直麿 [画]" ;
+    ns3:date "安永7 [1778]" ;
+    ns3:description """写本、巻子本、彩色図版\r
 書名は題簽による\r
 巻末に「安永七年歳次戊戌五月二日摹 左亰 藤貞幹」とあり\r
 巻首に「國牛十圖叙文ノ首闕惜ヘシ又牛圖十アルヘシ今所存九ツ若一圖逸スルカ他日全本ヲ得ルヲ俟 安永七年歳次戊戌五月 藤貞幹」とあり\r
 印記: 「游戯三昧院」,「文珠庵印」""" ;
-    ns1:extent "1軸" ;
-    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns1:title "國牛十圖" ;
+    ns3:extent "1軸" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "國牛十圖" ;
     ns7:identifier "d9115c2c-6c49-1f2b-515e-c67ea4332ab9" ;
-    ns6:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns5:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
-    ns6:sort "1" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
+    ns5:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> a ns2:Item ;
-    ns4:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns5:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
-    ns5:callNumber "和:26" ;
-    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns5:seriesTitle "農学生命科学図書館コレクション" ;
-    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns5:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
+    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns1:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
+    ns1:callNumber "和:26" ;
+    ns1:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns1:seriesTitle "農学生命科学図書館コレクション" ;
+    ns1:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns1:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
     ns2:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
     ns2:id 275041 ;
     ns2:is_public true ;
@@ -107,34 +107,34 @@ University of Tokyo Collection""",
     ns2:modified "2019-04-10T23:59:44+00:00"^^xsd:dateTime ;
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns1:alternative "東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在" ;
-    ns1:creator "[東京帝國大學農學部]" ;
-    ns1:date "[大正11(1922)]" ;
-    ns1:description """縮尺: 1:600\r
+    ns3:alternative "東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在" ;
+    ns3:creator "[東京帝國大學農學部]" ;
+    ns3:date "[大正11(1922)]" ;
+    ns3:description """縮尺: 1:600\r
 書名上部に"東京府荏原郡目黒村、世田谷村豊多摩郡代々幡町、澁谷町"とあり""" ;
-    ns1:extent "地図1枚 +付図1枚" ;
-    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns1:title "東京帝國大學農學部建物位置圖" ;
+    ns3:extent "地図1枚 +付図1枚" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "東京帝國大學農學部建物位置圖" ;
     ns7:identifier "6d032fb5-0a2f-6e04-9e3c-6bb5f604714f" ;
-    ns6:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns5:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
-    ns6:sort "2" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
+    ns5:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> a ns2:Item ;
-    ns4:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns5:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
-    ns5:callNumber "和:27" ;
-    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns5:seriesTitle "農学生命科学図書館コレクション" ;
-    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns5:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
+    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns1:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
+    ns1:callNumber "和:27" ;
+    ns1:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns1:seriesTitle "農学生命科学図書館コレクション" ;
+    ns1:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns1:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
     ns2:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
     ns2:id 275042 ;
     ns2:is_public true ;
@@ -148,23 +148,23 @@ University of Tokyo Collection""",
     ns2:modified "2019-04-11T00:00:04+00:00"^^xsd:dateTime ;
     ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns1:alternative "東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在" ;
-    ns1:creator "[東京帝國大學]" ;
-    ns1:date "[昭和12(1937)]" ;
-    ns1:description "枠外に\"東京印刷株式會社印売\"とあり" ;
-    ns1:extent "地図1枚" ;
-    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970> ;
-    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns1:title "東京帝國大學本部構内及農學部建物鳥瞰圖" ;
+    ns3:alternative "東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在" ;
+    ns3:creator "[東京帝國大學]" ;
+    ns3:date "[昭和12(1937)]" ;
+    ns3:description "枠外に\"東京印刷株式會社印売\"とあり" ;
+    ns3:extent "地図1枚" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "東京帝國大學本部構内及農學部建物鳥瞰圖" ;
     ns7:identifier "187cc82d-11e6-9912-9dd4-b4cca9b10970" ;
-    ns6:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns5:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
-    ns6:sort "3" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
+    ns5:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043> ns2:id 275043 .
 
