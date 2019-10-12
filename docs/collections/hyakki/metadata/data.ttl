@@ -1,30 +1,30 @@
-@prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/ontology/bibo/> .
-@prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://omeka.org/s/vocabs/o#> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2> ns1:id 2 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2> ns3:id 2 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8> a ns1:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
-    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns1:id 8 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271694> ;
-    ns1:modified "2019-03-18T14:24:09+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns3:description """百鬼夜行図(ひやつきやぎうず) 蔭山源広迢写\r
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns3:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns3:id 8 ;
+    ns3:is_public true ;
+    ns3:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/2> ;
+    ns3:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271694> ;
+    ns3:modified "2019-03-18T14:24:09+00:00"^^xsd:dateTime ;
+    ns3:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns3:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns3:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns1:description """百鬼夜行図(ひやつきやぎうず) 蔭山源広迢写\r
  百鬼夜行は今昔物語などの説話にでてくる言葉で、京の大路を夜な夜な化け物たちが練り歩く様子を表している。\r
 \r
  室町時代(16世紀)になって、青鬼、赤鬼のほか琴や琵琶、鍋や釜などの器物、調度などが変化(へんげ)した付喪神(つくもがみ)と呼ばれる化け物を集めて連続的に描く「百鬼夜行絵巻」が登場し、数多くの絵巻が描かれた。\r
@@ -36,23 +36,23 @@
  奥書によれば、室町時代の画家土佐行秀の画を蔭山源広迢が写したもので、真珠庵本に登場する妖怪に加え「ぬっぺっぽう」、「どうもこうも」など江戸時代の妖怪たちも紛れ込んでいる。\r
 \r
  絵巻の巻末は「火の玉」と「朝日」で終わる2パターンあるが、本巻は「朝日」で終わっている。(請求記号A00:6275)""" ;
-    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/> ;
-    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b> ;
-    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns3:title "百鬼夜行図" ;
-    ns2:identifier "fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b" ;
-    ns4:databaseLabel "百鬼夜行図" ;
-    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest> ;
+    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/> ;
+    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b> ;
+    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns1:title "百鬼夜行図" ;
+    ns4:identifier "fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b" ;
+    ns2:databaseLabel "百鬼夜行図" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271694> ns1:id 271694 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271694> ns3:id 271694 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns3:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns1:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns3:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns3:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns1:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns3:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 

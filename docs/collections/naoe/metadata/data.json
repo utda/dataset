@@ -9,6 +9,7 @@
         "bibo:identifier": [
             {
                 "@value": "daaf81b0-f1a7-435c-9216-a8fb56390887",
+                "is_public": true,
                 "property_id": 98,
                 "property_label": "identifier",
                 "type": "literal"
@@ -17,6 +18,7 @@
         "dcterms:description": [
             {
                 "@value": "【解題】直江状(東京大学総合図書館所蔵承応三年刊本)\r\n 安土桃山時代から江戸時代前期の大名上杉景勝に仕えた重臣直江兼続(1560~1619)が記したとされる書状を、承応3年(1654)に京都の中村五郎右衛門が刊行したもの。全28丁からなる和装本で、大きさは26.5×17.6cm、総合図書館の貴重書に指定されている(請求番号A00:4631)。藻類学者・水産学者であった岡村金太郎(1867~1935)が収集した往来物とよばれる書簡文体の初等教科書・手本類のなかの1点であり、そのコレクションは関東大震災後の大正14年(1925)に購入・登録され、岡村文庫と称されている。\r\n\r\n 内容は、徳川家康への謀反の疑いをかけられた上杉景勝が上洛・弁明を求められたのに対し、上洛の困難な理由、家康への逆心のないこと、讒言を用いるべきではないこと等、直江兼続が反論を加えたもの。家康のブレーンであった京都の臨済宗豊光寺の僧・西笑承兌に宛てた、慶長5年(1600)4月14日付けの返書の形を取っている。\r\n\r\n 「直江状」は、同年の関が原の戦へとつながる家康の会津上杉攻めの口実を作ったとして従来から注目されてきた。一方で、原本が未確認であり、古文書集に収録された写本や総合図書館所蔵本のように版本として流布してきたこともあり、その表記法や内容等から歴史的資料としての信憑性を疑う説も提出されている。少なくとも総合図書館所蔵本の性格を考える上では、かつて往来物として収集されたことに留意しておいてよいだろう。",
+                "is_public": true,
                 "property_id": 4,
                 "property_label": "Description",
                 "type": "literal"
@@ -25,6 +27,7 @@
         "dcterms:isPartOf": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/",
+                "is_public": true,
                 "property_id": 33,
                 "property_label": "Is Part Of",
                 "type": "uri"
@@ -33,6 +36,7 @@
         "dcterms:relation": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/document/daaf81b0-f1a7-435c-9216-a8fb56390887",
+                "is_public": true,
                 "property_id": 13,
                 "property_label": "Relation",
                 "type": "uri"
@@ -41,6 +45,7 @@
         "dcterms:rights": [
             {
                 "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "is_public": true,
                 "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
                 "property_id": 15,
                 "property_label": "Rights",
@@ -50,6 +55,7 @@
         "dcterms:title": [
             {
                 "@value": "直江状",
+                "is_public": true,
                 "property_id": 1,
                 "property_label": "Title",
                 "type": "literal"
@@ -58,6 +64,7 @@
         "foaf:thumbnail": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg",
+                "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
                 "type": "uri"
@@ -217,9 +224,11 @@
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3",
             "o:id": 3
         },
+        "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13",
+                "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
                 "type": "uri"
@@ -228,6 +237,7 @@
         "sc:attributionLabel": [
             {
                 "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
                 "property_id": 190,
                 "property_label": "attributionLabel",
                 "type": "literal"
@@ -236,6 +246,7 @@
         "sc:viewingDirection": [
             {
                 "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
+                "is_public": true,
                 "property_id": 198,
                 "property_label": "viewingDirection",
                 "type": "uri"
@@ -244,6 +255,7 @@
         "uterms:annotedManifest": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json",
+                "is_public": true,
                 "property_id": 289,
                 "property_label": "Annotated Manifest",
                 "type": "uri"
@@ -252,6 +264,7 @@
         "uterms:databaseLabel": [
             {
                 "@value": "直江状",
+                "is_public": true,
                 "property_id": 354,
                 "property_label": "Database Label",
                 "type": "literal"
@@ -260,6 +273,7 @@
         "uterms:linkToTapas": [
             {
                 "@id": "http://tapasproject.org/tapas-commons/files/直江状",
+                "is_public": true,
                 "property_id": 355,
                 "property_label": "Link to TAPAS Project",
                 "type": "uri"
@@ -268,6 +282,7 @@
         "uterms:manifestUri": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest",
+                "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
                 "type": "uri"
@@ -276,6 +291,7 @@
         "uterms:searchApiUri": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca511282300c05c01325a12250bccd236d07b412c68619bcbdeef7aeee477b88e0a36b82a365e7547973e593dc5e5f63283f0f51ab35ab6fb637d961593c5f2ed7bb4a024a0c4b472560a27b3f28cdb73012625986b19fbb1827fec71f179323c8",
+                "is_public": true,
                 "property_id": 397,
                 "property_label": "Search Api Uri",
                 "type": "uri"

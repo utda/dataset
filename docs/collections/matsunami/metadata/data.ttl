@@ -1,18 +1,18 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
 @prefix ns5: <http://purl.org/utrepo/terms#> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22372> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:00+00:00"^^xsd:dateTime ;
     ns1:id 22372 ;
     ns1:is_public true ;
@@ -97,15 +97,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/b386852a-001d-1a10-2d8d-6e41134837d6> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 1" ;
-    ns6:identifier "b386852a-001d-1a10-2d8d-6e41134837d6" ;
+    ns4:identifier "b386852a-001d-1a10-2d8d-6e41134837d6" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b386852a-001d-1a10-2d8d-6e41134837d6/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22372> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/494e59182b669ad941c19c079c3f02107d800b0e.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/494e59182b669ad941c19c079c3f02107d800b0e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22373> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:00+00:00"^^xsd:dateTime ;
     ns1:id 22373 ;
     ns1:is_public true ;
@@ -193,15 +193,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/9edcc925-2fc6-4c72-8be3-6e2fc1b91b59> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 2" ;
-    ns6:identifier "9edcc925-2fc6-4c72-8be3-6e2fc1b91b59" ;
+    ns4:identifier "9edcc925-2fc6-4c72-8be3-6e2fc1b91b59" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9edcc925-2fc6-4c72-8be3-6e2fc1b91b59/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22373> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/15234e8804485f097183c3f745467e6d0e471c49.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/15234e8804485f097183c3f745467e6d0e471c49.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22374> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22374 ;
     ns1:is_public true ;
@@ -290,15 +290,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/16be420b-82b3-90c7-50f8-799342e29cdc> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 3" ;
-    ns6:identifier "16be420b-82b3-90c7-50f8-799342e29cdc" ;
+    ns4:identifier "16be420b-82b3-90c7-50f8-799342e29cdc" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/16be420b-82b3-90c7-50f8-799342e29cdc/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22374> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fe2d93c2c97bc0f0077ce7a7a0c307c94a5f81bf.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fe2d93c2c97bc0f0077ce7a7a0c307c94a5f81bf.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22375> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22375 ;
     ns1:is_public true ;
@@ -386,15 +386,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/08d8d249-a40a-6830-9929-541e6b3d5bae> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 4" ;
-    ns6:identifier "08d8d249-a40a-6830-9929-541e6b3d5bae" ;
+    ns4:identifier "08d8d249-a40a-6830-9929-541e6b3d5bae" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08d8d249-a40a-6830-9929-541e6b3d5bae/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22375> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1af3267d6d3cbd2d369df5646aedb706b6548957.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1af3267d6d3cbd2d369df5646aedb706b6548957.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22376> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22376 ;
     ns1:is_public true ;
@@ -483,15 +483,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/9c523a30-8a11-8282-8660-5414684f3994> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 5" ;
-    ns6:identifier "9c523a30-8a11-8282-8660-5414684f3994" ;
+    ns4:identifier "9c523a30-8a11-8282-8660-5414684f3994" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9c523a30-8a11-8282-8660-5414684f3994/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22376> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c18a71926fa4972da76a335b32b10985f97e6173.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c18a71926fa4972da76a335b32b10985f97e6173.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22377> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22377 ;
     ns1:is_public true ;
@@ -579,15 +579,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/460019c8-03da-63c8-a787-4132e04e7ac5> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 6" ;
-    ns6:identifier "460019c8-03da-63c8-a787-4132e04e7ac5" ;
+    ns4:identifier "460019c8-03da-63c8-a787-4132e04e7ac5" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/460019c8-03da-63c8-a787-4132e04e7ac5/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22377> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9a069fd35c7cb8ed1376e27be28878cddd61f443.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9a069fd35c7cb8ed1376e27be28878cddd61f443.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22378> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22378 ;
     ns1:is_public true ;
@@ -676,15 +676,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/4f41ecb4-3533-022d-a426-6120a11d3c04> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 7" ;
-    ns6:identifier "4f41ecb4-3533-022d-a426-6120a11d3c04" ;
+    ns4:identifier "4f41ecb4-3533-022d-a426-6120a11d3c04" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4f41ecb4-3533-022d-a426-6120a11d3c04/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22378> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29056749d4692eda883fccae5d25802dd5bfc2ee.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29056749d4692eda883fccae5d25802dd5bfc2ee.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22379> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22379 ;
     ns1:is_public true ;
@@ -772,15 +772,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/5b1fae2a-0a39-1a00-0b88-9344abe54dc4> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 8" ;
-    ns6:identifier "5b1fae2a-0a39-1a00-0b88-9344abe54dc4" ;
+    ns4:identifier "5b1fae2a-0a39-1a00-0b88-9344abe54dc4" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5b1fae2a-0a39-1a00-0b88-9344abe54dc4/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22379> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8d1430ac2119ff62b1dc4cca06bc3956076f1d6c.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8d1430ac2119ff62b1dc4cca06bc3956076f1d6c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22380> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22380 ;
     ns1:is_public true ;
@@ -871,15 +871,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/7617ec5c-0126-9d91-3745-111d66c00c97> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 9" ;
-    ns6:identifier "7617ec5c-0126-9d91-3745-111d66c00c97" ;
+    ns4:identifier "7617ec5c-0126-9d91-3745-111d66c00c97" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7617ec5c-0126-9d91-3745-111d66c00c97/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22380> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/117797ecf8307ad2c0e93c4a391e111e692e4c25.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/117797ecf8307ad2c0e93c4a391e111e692e4c25.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22381> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:01+00:00"^^xsd:dateTime ;
     ns1:id 22381 ;
     ns1:is_public true ;
@@ -968,15 +968,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/93c27fe3-5323-35dd-a352-557e157b2fe4> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 10" ;
-    ns6:identifier "93c27fe3-5323-35dd-a352-557e157b2fe4" ;
+    ns4:identifier "93c27fe3-5323-35dd-a352-557e157b2fe4" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/93c27fe3-5323-35dd-a352-557e157b2fe4/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22381> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/076c094e446ef86bf17581d7f86fdcd5e971587c.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/076c094e446ef86bf17581d7f86fdcd5e971587c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22382> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22382 ;
     ns1:is_public true ;
@@ -1064,15 +1064,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/cde28e92-19fd-1773-0532-cf58709e49f3> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 11" ;
-    ns6:identifier "cde28e92-19fd-1773-0532-cf58709e49f3" ;
+    ns4:identifier "cde28e92-19fd-1773-0532-cf58709e49f3" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cde28e92-19fd-1773-0532-cf58709e49f3/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22382> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2fcb14df3742dcb9b8678142cd31d99ce6dcb6e3.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2fcb14df3742dcb9b8678142cd31d99ce6dcb6e3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22383> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22383 ;
     ns1:is_public true ;
@@ -1159,15 +1159,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/09c5b887-6418-673f-1252-392a47e61313> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 12" ;
-    ns6:identifier "09c5b887-6418-673f-1252-392a47e61313" ;
+    ns4:identifier "09c5b887-6418-673f-1252-392a47e61313" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/09c5b887-6418-673f-1252-392a47e61313/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22383> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8114523c8ac71b949162a553176ed0122e91b693.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8114523c8ac71b949162a553176ed0122e91b693.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22384> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22384 ;
     ns1:is_public true ;
@@ -1256,15 +1256,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/ff0a9ad1-7c01-3010-3030-8f5b41e06021> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 13" ;
-    ns6:identifier "ff0a9ad1-7c01-3010-3030-8f5b41e06021" ;
+    ns4:identifier "ff0a9ad1-7c01-3010-3030-8f5b41e06021" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff0a9ad1-7c01-3010-3030-8f5b41e06021/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22384> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29b79505258c493119d5baa4cb45ac5901edfcb1.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29b79505258c493119d5baa4cb45ac5901edfcb1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22385> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22385 ;
     ns1:is_public true ;
@@ -1353,15 +1353,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/58031ba7-9fd4-9671-7631-081e8b3ca23f> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 14" ;
-    ns6:identifier "58031ba7-9fd4-9671-7631-081e8b3ca23f" ;
+    ns4:identifier "58031ba7-9fd4-9671-7631-081e8b3ca23f" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58031ba7-9fd4-9671-7631-081e8b3ca23f/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22385> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fe2fc105fd3d1fd823865a3ea490c9c024593bba.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fe2fc105fd3d1fd823865a3ea490c9c024593bba.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22386> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22386 ;
     ns1:is_public true ;
@@ -1449,15 +1449,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/ae7ece32-793f-4769-3b24-a58812766775> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 15" ;
-    ns6:identifier "ae7ece32-793f-4769-3b24-a58812766775" ;
+    ns4:identifier "ae7ece32-793f-4769-3b24-a58812766775" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ae7ece32-793f-4769-3b24-a58812766775/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22386> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a7c0bfc49ff5ed85ea407c5067d909e2282d2ec9.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a7c0bfc49ff5ed85ea407c5067d909e2282d2ec9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22387> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22387 ;
     ns1:is_public true ;
@@ -1545,15 +1545,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/bd1a48a6-1085-6c78-6887-e68a87da97e0> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 16" ;
-    ns6:identifier "bd1a48a6-1085-6c78-6887-e68a87da97e0" ;
+    ns4:identifier "bd1a48a6-1085-6c78-6887-e68a87da97e0" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bd1a48a6-1085-6c78-6887-e68a87da97e0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22387> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5e2a1c2eb898ca236220cf4156c0a24ca67c62c8.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5e2a1c2eb898ca236220cf4156c0a24ca67c62c8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22388> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:02+00:00"^^xsd:dateTime ;
     ns1:id 22388 ;
     ns1:is_public true ;
@@ -1640,15 +1640,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/6f9fc8c8-8c9d-947d-2870-ba8c10d58208> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 17" ;
-    ns6:identifier "6f9fc8c8-8c9d-947d-2870-ba8c10d58208" ;
+    ns4:identifier "6f9fc8c8-8c9d-947d-2870-ba8c10d58208" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f9fc8c8-8c9d-947d-2870-ba8c10d58208/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22388> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/47e6436da5cd75b00ba56265e78478aefd871562.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/47e6436da5cd75b00ba56265e78478aefd871562.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22389> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22389 ;
     ns1:is_public true ;
@@ -1735,15 +1735,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/417a648b-2f60-3ead-8008-b3da070b94e6> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 18" ;
-    ns6:identifier "417a648b-2f60-3ead-8008-b3da070b94e6" ;
+    ns4:identifier "417a648b-2f60-3ead-8008-b3da070b94e6" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/417a648b-2f60-3ead-8008-b3da070b94e6/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22389> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4b6981673a0f2eebd03a6d3689ad66aac5cda140.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4b6981673a0f2eebd03a6d3689ad66aac5cda140.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22390> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22390 ;
     ns1:is_public true ;
@@ -1831,15 +1831,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/611110aa-6201-896f-4de4-efe045bd742d> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 19" ;
-    ns6:identifier "611110aa-6201-896f-4de4-efe045bd742d" ;
+    ns4:identifier "611110aa-6201-896f-4de4-efe045bd742d" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/611110aa-6201-896f-4de4-efe045bd742d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22390> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72770c5ac97a8cc689716954378bc898d5628475.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72770c5ac97a8cc689716954378bc898d5628475.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22391> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22391 ;
     ns1:is_public true ;
@@ -1926,15 +1926,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/856eac73-3f9a-a523-097e-b8e2d94c1748> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 20" ;
-    ns6:identifier "856eac73-3f9a-a523-097e-b8e2d94c1748" ;
+    ns4:identifier "856eac73-3f9a-a523-097e-b8e2d94c1748" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/856eac73-3f9a-a523-097e-b8e2d94c1748/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22391> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4bb7694853f16a0621f20f9486bac3b80a6c12d9.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4bb7694853f16a0621f20f9486bac3b80a6c12d9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22392> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22392 ;
     ns1:is_public true ;
@@ -2045,15 +2045,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/3d9eab09-8d3d-7a2d-a2a9-73e0c4209043> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 21" ;
-    ns6:identifier "3d9eab09-8d3d-7a2d-a2a9-73e0c4209043" ;
+    ns4:identifier "3d9eab09-8d3d-7a2d-a2a9-73e0c4209043" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3d9eab09-8d3d-7a2d-a2a9-73e0c4209043/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22392> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5f8e3b73a877c1b436c3b641917835b2319f56b9.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5f8e3b73a877c1b436c3b641917835b2319f56b9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22393> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22393 ;
     ns1:is_public true ;
@@ -2144,15 +2144,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/cb2ec445-a687-31d5-2490-595b266f2e9f> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 22" ;
-    ns6:identifier "cb2ec445-a687-31d5-2490-595b266f2e9f" ;
+    ns4:identifier "cb2ec445-a687-31d5-2490-595b266f2e9f" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cb2ec445-a687-31d5-2490-595b266f2e9f/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22393> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/852a78418a9a04bf1b92c067d986e82d3ec79f3f.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/852a78418a9a04bf1b92c067d986e82d3ec79f3f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22394> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22394 ;
     ns1:is_public true ;
@@ -2240,15 +2240,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/1450ac02-62c8-09df-7094-659562592168> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 23" ;
-    ns6:identifier "1450ac02-62c8-09df-7094-659562592168" ;
+    ns4:identifier "1450ac02-62c8-09df-7094-659562592168" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1450ac02-62c8-09df-7094-659562592168/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22394> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2462895ef5c7d9bdc45e18bb5bb9d7fbcab8e78e.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2462895ef5c7d9bdc45e18bb5bb9d7fbcab8e78e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22395> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22395 ;
     ns1:is_public true ;
@@ -2334,15 +2334,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/65d62099-8834-2188-459e-b743d35d441c> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 24" ;
-    ns6:identifier "65d62099-8834-2188-459e-b743d35d441c" ;
+    ns4:identifier "65d62099-8834-2188-459e-b743d35d441c" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65d62099-8834-2188-459e-b743d35d441c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22395> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8fd368e63109056901adf5384c5e2bdcaa1607f4.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8fd368e63109056901adf5384c5e2bdcaa1607f4.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22396> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:03+00:00"^^xsd:dateTime ;
     ns1:id 22396 ;
     ns1:is_public true ;
@@ -2397,15 +2397,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/f9ade4bd-7e77-22da-0fb2-6e9a70396039> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 25" ;
-    ns6:identifier "f9ade4bd-7e77-22da-0fb2-6e9a70396039" ;
+    ns4:identifier "f9ade4bd-7e77-22da-0fb2-6e9a70396039" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f9ade4bd-7e77-22da-0fb2-6e9a70396039/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22396> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ce8485bdeab77a1158b245dea8c55315ab51c482.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ce8485bdeab77a1158b245dea8c55315ab51c482.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22397> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22397 ;
     ns1:is_public true ;
@@ -2460,15 +2460,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/cce29331-33c5-a4c7-29af-415732362311> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 26" ;
-    ns6:identifier "cce29331-33c5-a4c7-29af-415732362311" ;
+    ns4:identifier "cce29331-33c5-a4c7-29af-415732362311" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cce29331-33c5-a4c7-29af-415732362311/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22397> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/aaa91b73b9001ed106bd2a5c2f70904d6865205c.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/aaa91b73b9001ed106bd2a5c2f70904d6865205c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22398> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22398 ;
     ns1:is_public true ;
@@ -2524,15 +2524,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/cf6c9b5d-317d-2015-19b5-7f4b39ae7489> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 27" ;
-    ns6:identifier "cf6c9b5d-317d-2015-19b5-7f4b39ae7489" ;
+    ns4:identifier "cf6c9b5d-317d-2015-19b5-7f4b39ae7489" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cf6c9b5d-317d-2015-19b5-7f4b39ae7489/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22398> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/990b8ddb156670a9daf4e8f7e6f97104ba44b791.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/990b8ddb156670a9daf4e8f7e6f97104ba44b791.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22399> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22399 ;
     ns1:is_public true ;
@@ -2587,15 +2587,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/8cad3716-19aa-1ffb-6f88-b525a0a86c0d> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 28" ;
-    ns6:identifier "8cad3716-19aa-1ffb-6f88-b525a0a86c0d" ;
+    ns4:identifier "8cad3716-19aa-1ffb-6f88-b525a0a86c0d" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cad3716-19aa-1ffb-6f88-b525a0a86c0d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22399> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/919843b81a3503133efc5f095c1bec7f7d2d092d.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/919843b81a3503133efc5f095c1bec7f7d2d092d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22400> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22400 ;
     ns1:is_public true ;
@@ -2651,15 +2651,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/fdc773de-55e2-2aba-2d07-21439d12781e> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 29" ;
-    ns6:identifier "fdc773de-55e2-2aba-2d07-21439d12781e" ;
+    ns4:identifier "fdc773de-55e2-2aba-2d07-21439d12781e" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fdc773de-55e2-2aba-2d07-21439d12781e/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22400> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5d32709520d42272a57362e0bc32613e92a8e2fe.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5d32709520d42272a57362e0bc32613e92a8e2fe.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22401> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22401 ;
     ns1:is_public true ;
@@ -2716,15 +2716,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/26bbe9de-1d48-8907-6a86-a98cb7379a79> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 30" ;
-    ns6:identifier "26bbe9de-1d48-8907-6a86-a98cb7379a79" ;
+    ns4:identifier "26bbe9de-1d48-8907-6a86-a98cb7379a79" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/26bbe9de-1d48-8907-6a86-a98cb7379a79/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22401> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e22783edbe53bbcb3041e529263548a27f27ec62.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e22783edbe53bbcb3041e529263548a27f27ec62.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22402> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22402 ;
     ns1:is_public true ;
@@ -2780,15 +2780,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/bc44a3f5-1eef-a511-3449-df32a2464223> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 31" ;
-    ns6:identifier "bc44a3f5-1eef-a511-3449-df32a2464223" ;
+    ns4:identifier "bc44a3f5-1eef-a511-3449-df32a2464223" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bc44a3f5-1eef-a511-3449-df32a2464223/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22402> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0034c09167a6e0ac2133a8c9287c74d3f5eba0ee.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0034c09167a6e0ac2133a8c9287c74d3f5eba0ee.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22403> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22403 ;
     ns1:is_public true ;
@@ -2843,15 +2843,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/0585a340-5f5d-7697-099d-80c46b9a82ea> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 32" ;
-    ns6:identifier "0585a340-5f5d-7697-099d-80c46b9a82ea" ;
+    ns4:identifier "0585a340-5f5d-7697-099d-80c46b9a82ea" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0585a340-5f5d-7697-099d-80c46b9a82ea/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22403> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e4954234102e3e5c0b4792381e46c7a3584b511.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e4954234102e3e5c0b4792381e46c7a3584b511.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22404> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:04+00:00"^^xsd:dateTime ;
     ns1:id 22404 ;
     ns1:is_public true ;
@@ -2907,15 +2907,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/2dc15943-4526-6d80-39c4-f9cd7e2f93fd> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 33" ;
-    ns6:identifier "2dc15943-4526-6d80-39c4-f9cd7e2f93fd" ;
+    ns4:identifier "2dc15943-4526-6d80-39c4-f9cd7e2f93fd" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2dc15943-4526-6d80-39c4-f9cd7e2f93fd/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22404> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9934df592cacdf12f1e9c54818c3045a2a706e8b.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9934df592cacdf12f1e9c54818c3045a2a706e8b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22405> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:05+00:00"^^xsd:dateTime ;
     ns1:id 22405 ;
     ns1:is_public true ;
@@ -2971,15 +2971,15 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/a84c4e8e-0b23-5a85-1388-2601789f36ef> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 34" ;
-    ns6:identifier "a84c4e8e-0b23-5a85-1388-2601789f36ef" ;
+    ns4:identifier "a84c4e8e-0b23-5a85-1388-2601789f36ef" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a84c4e8e-0b23-5a85-1388-2601789f36ef/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22405> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef9882f0fb65407123b59738a00fb72b5e55ed9d.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef9882f0fb65407123b59738a00fb72b5e55ed9d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22406> a ns1:Item ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A100:1685" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A100:1685" ;
     ns1:created "2018-05-25T01:35:05+00:00"^^xsd:dateTime ;
     ns1:id 22406 ;
     ns1:is_public true ;
@@ -3021,11 +3021,11 @@
     ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunami/document/ab2b0ed4-03c0-1273-39ac-da2b659062e5> ;
     ns2:rights <http://creativecommons.org/licenses/by/4.0/> ;
     ns2:title "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book 35" ;
-    ns6:identifier "ab2b0ed4-03c0-1273-39ac-da2b659062e5" ;
+    ns4:identifier "ab2b0ed4-03c0-1273-39ac-da2b659062e5" ;
     ns5:databaseLabel "Catalogue of the Kawaguchi-Takakusu Collection of Sanskrit manuscripts. Note-book（松濤ノート）" ;
     ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ab2b0ed4-03c0-1273-39ac-da2b659062e5/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22406> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a26dd714c8f1a590294958f729380ba7139162d2.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a26dd714c8f1a590294958f729380ba7139162d2.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22967> ns1:id 22967 .
 
