@@ -1,111 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns2="http://purl.org/dc/terms/"
   xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns5="http://purl.org/utrepo/terms#"
-  xmlns:ns3="http://iiif.io/api/presentation/2#"
-  xmlns:ns6="http://purl.org/ontology/bibo/"
-  xmlns:ns9="http://purl.org/dc/dcmitype/"
+  xmlns:ns3="http://omeka.org/s/vocabs/o#"
+  xmlns:ns2="http://purl.org/dc/terms/"
+  xmlns:ns1="http://purl.org/utrepo/terms#"
+  xmlns:ns6="http://data.archiveshub.ac.uk/def/"
+  xmlns:ns5="http://iiif.io/api/presentation/2#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns8="http://xmlns.com/foaf/0.1/"
-  xmlns:ns7="http://data.archiveshub.ac.uk/def/"
+  xmlns:ns8="http://purl.org/ontology/bibo/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns7="http://xmlns.com/foaf/0.1/"
+  xmlns:ns9="http://purl.org/dc/dcmitype/"
 >
-  <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7">
-    <ns2:creator><![CDATA[孝宗 <コウソウ> <xiao zong>]]></ns2:creator>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns1:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:id>
-      </rdf:Description>
-    </ns1:resource_template>
-    <ns3:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
-    <ns2:title>明・弘治十八年八月二十日勅命</ns2:title>
-    <ns2:date>弘治18 [1505]</ns2:date>
-    <ns2:language>中国語</ns2:language>
-    <ns1:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
-      </rdf:Description>
-    </ns1:owner>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/18">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns2:type>貴重本</ns2:type>
-    <ns3:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns3:attributionLabel>
-    <ns4:sourceIdentifier>0004804951</ns4:sourceIdentifier>
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <ns3:viewingHint rdf:resource="http://iiif.io/api/presentation/2#nonPagedHint"/>
-    <ns5:searchApiUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca510e83200c00d013b5552766dd6d582901c5d58c9ae8edb7f7fd8afbd15f44f12b25458f5d1d53c3ea8227b86db761145c0f126b4dc5ab7d3a49b1eddcb592ebe574ed8de6477e0e390e201212cc212b705285314c232fcce1cd13fee30fc63d25b6"/>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/23">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:id>
-      </rdf:Description>
-    </ns1:media>
+  <ns3:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7">
+    <ns1:bunko>鴎外文庫</ns1:bunko>
     <ns2:identifier>BA87193508</ns2:identifier>
-    <ns1:media>
+    <ns3:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/25">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:id>
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns3:id>
       </rdf:Description>
-    </ns1:media>
-    <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/document/43f80fa0-cc5d-45fe-9dee-152196995b92"/>
-    <ns2:rights>
-      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+    </ns3:media>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <ns3:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns3:is_public>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/20">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns3:id>
       </rdf:Description>
-    </ns2:rights>
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
-      </rdf:Description>
-    </ns1:item_set>
-    <ns2:extent>1軸 ; 33cm</ns2:extent>
-    <ns5:bunko>鴎外文庫</ns5:bunko>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459"/>
-    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-04T14:14:34+00:00</ns1:modified>
-    <ns4:callNumber>鴎A00:6270</ns4:callNumber>
-    <ns5:databaseLabel>明・弘治十八年八月二十日勅命</ns5:databaseLabel>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/24">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns6:identifier>43f80fa0-cc5d-45fe-9dee-152196995b92</ns6:identifier>
-    <ns2:identifier>2002618266</ns2:identifier>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/19">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns5:annotedManifest rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json"/>
+    </ns3:media>
+    <ns2:publisher>[製作地不明] : [製作者不明]</ns2:publisher>
     <ns2:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/"/>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/17">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:id>
-      </rdf:Description>
-    </ns1:media>
     <ns2:description>解題 明・弘治十八年八月二十日勅命(東京大学東京大学総合図書館所蔵鴎外文庫本)&#13;
 【歴史資料として】&#13;
  この史料は中国明時代における辞令書の一種である。高級官僚に対するものは誥命、下級官僚に対するものは勅命と称され、両者を総称して誥勅とも呼び慣わされる。なお本勅命の蔵書目録上の標題は箱書から採録され、「明孝宗皇帝弘治勅命」となっている。しかし発給の三ヶ月前に弘治帝(孝宗皇帝)は死去しており、実際は子の正徳帝(武宗皇帝)の命により発給されたものである。明代の中国では踰年改元といって、年の途中で皇帝が死去した場合、年が改まるのを待って改元する。このため、新帝の践祚と改元との間にはタイムラグが生ずる場合があり、本勅命の発給日はまさにこの間隙に位置している。&#13;
@@ -122,24 +45,101 @@
 【参考文献】小島浩之「東京大学東京大学総合図書館所蔵鴎外文庫「明代勅命」管見」(『漢字文献情報処理研究』10, 2009.10)p.4-16&#13;
 &#13;
 (大学院経済学研究科助手  小 島 浩 之)</ns2:description>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/20">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:id>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/18">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns3:id>
       </rdf:Description>
-    </ns1:media>
-    <ns7:note>和漢古書につき記述対象資料毎に書誌レコード作成&#13;
+    </ns3:media>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/19">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/17">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/23">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns2:creator><![CDATA[孝宗 <コウソウ> <xiao zong>]]></ns2:creator>
+    <ns2:extent>1軸 ; 33cm</ns2:extent>
+    <ns1:searchApiUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78da0dca510e83200c00d013b5552766dd6d582901c5d58c9ae8edb7f7fd8afbd15f44f12b25458f5d1d53c3ea8227b86db761145c0f126b4dc5ab7d3a49b1eddcb592ebe574ed8de6477e0e390e201212cc212b705285314c232fcce1cd13fee30fc63d25b6"/>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/24">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns2:identifier>2002618266</ns2:identifier>
+    <ns1:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest"/>
+    <ns3:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:id>
+      </rdf:Description>
+    </ns3:owner>
+    <ns2:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/document/43f80fa0-cc5d-45fe-9dee-152196995b92"/>
+    <ns4:sourceIdentifier>0004804951</ns4:sourceIdentifier>
+    <ns1:databaseLabel>明・弘治十八年八月二十日勅命</ns1:databaseLabel>
+    <ns3:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns3:created>
+    <ns5:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns5:attributionLabel>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns6:note>和漢古書につき記述対象資料毎に書誌レコード作成&#13;
 鈔本&#13;
 書名は箱書きによる&#13;
 巻末に「弘治十八年八月二十日」とあり&#13;
 印記:「勅命之寶」&#13;
 巻子本&#13;
 桐箱入&#13;
-四部分類: 史部 詔令奏議類 詔令之屬</ns7:note>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-06T01:12:45+00:00</ns1:created>
-    <ns2:publisher>[製作地不明] : [製作者不明]</ns2:publisher>
-    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:id>
-    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest"/>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg"/>
-  </ns1:Item>
+四部分類: 史部 詔令奏議類 詔令之屬</ns6:note>
+    <ns3:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns3:id>
+      </rdf:Description>
+    </ns3:resource_template>
+    <ns3:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns3:id>
+      </rdf:Description>
+    </ns3:resource_class>
+    <ns2:date>弘治18 [1505]</ns2:date>
+    <ns5:viewingDirection rdf:resource="http://iiif.io/api/presentation/2#rightToLeftDirection"/>
+    <ns1:annotedManifest rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json"/>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459"/>
+    <ns7:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg"/>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns3:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns3:id>
+      </rdf:Description>
+    </ns3:media>
+    <ns2:language>中国語</ns2:language>
+    <ns3:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-04T14:14:34+00:00</ns3:modified>
+    <ns2:title>明・弘治十八年八月二十日勅命</ns2:title>
+    <ns5:viewingHint rdf:resource="http://iiif.io/api/presentation/2#nonPagedHint"/>
+    <ns4:callNumber>鴎A00:6270</ns4:callNumber>
+    <ns3:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1">
+        <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:id>
+      </rdf:Description>
+    </ns3:item_set>
+    <ns2:type>貴重本</ns2:type>
+    <ns2:rights>
+      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
+        <ns3:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns3:label>
+      </rdf:Description>
+    </ns2:rights>
+    <ns3:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns3:id>
+    <ns8:identifier>43f80fa0-cc5d-45fe-9dee-152196995b92</ns8:identifier>
+  </ns3:Item>
 </rdf:RDF>

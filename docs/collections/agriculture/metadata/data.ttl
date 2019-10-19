@@ -1,30 +1,30 @@
-@prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/utrepo/terms#> .
-@prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns8: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <http://iiif.io/api/presentation/2#> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> a ns1:Item ;
-    ns7:note <http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html> ;
-    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:callNumber "和:7" ;
-    ns4:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns4:seriesTitle "農学生命科学図書館コレクション" ;
-    ns4:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns4:transcription "コクギュウ ジュウズ" ;
-    ns1:created "2019-03-27T06:50:56+00:00"^^xsd:dateTime ;
-    ns1:id 275040 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043>,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> a ns2:Item ;
+    ns8:note <http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html> ;
+    ns3:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
+    ns5:callNumber "和:7" ;
+    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns5:seriesTitle "農学生命科学図書館コレクション" ;
+    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns5:transcription "コクギュウ ジュウズ" ;
+    ns2:created "2019-03-27T06:50:56+00:00"^^xsd:dateTime ;
+    ns2:id 275040 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275044>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275045>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275046>,
@@ -37,45 +37,45 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275053>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275054>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275055> ;
-    ns1:modified "2019-04-11T00:00:30+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns3:alternative "國牛十圖" ;
-    ns3:creator "河東牧童甯直麿 [画]" ;
-    ns3:date "安永7 [1778]" ;
-    ns3:description """写本、巻子本、彩色図版\r
+    ns2:modified "2019-04-11T00:00:30+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
+    ns1:alternative "國牛十圖" ;
+    ns1:creator "河東牧童甯直麿 [画]" ;
+    ns1:date "安永7 [1778]" ;
+    ns1:description """写本、巻子本、彩色図版\r
 書名は題簽による\r
 巻末に「安永七年歳次戊戌五月二日摹 左亰 藤貞幹」とあり\r
 巻首に「國牛十圖叙文ノ首闕惜ヘシ又牛圖十アルヘシ今所存九ツ若一圖逸スルカ他日全本ヲ得ルヲ俟 安永七年歳次戊戌五月 藤貞幹」とあり\r
 印記: 「游戯三昧院」,「文珠庵印」""" ;
-    ns3:extent "1軸" ;
-    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9> ;
-    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns3:title "國牛十圖" ;
-    ns5:identifier "d9115c2c-6c49-1f2b-515e-c67ea4332ab9" ;
-    ns2:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns1:extent "1軸" ;
+    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9> ;
+    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns1:title "國牛十圖" ;
+    ns6:identifier "d9115c2c-6c49-1f2b-515e-c67ea4332ab9" ;
+    ns4:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
-    ns2:sort "1" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
+    ns4:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> ;
-    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> a ns1:Item ;
-    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
-    ns4:callNumber "和:26" ;
-    ns4:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns4:seriesTitle "農学生命科学図書館コレクション" ;
-    ns4:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns4:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
-    ns1:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
-    ns1:id 275041 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056>,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> a ns2:Item ;
+    ns3:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
+    ns5:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
+    ns5:callNumber "和:26" ;
+    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns5:seriesTitle "農学生命科学図書館コレクション" ;
+    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns5:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
+    ns2:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
+    ns2:id 275041 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275057>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275058>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275059>,
@@ -104,167 +104,167 @@ University of Tokyo Collection""",
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275082>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275083>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275084> ;
-    ns1:modified "2019-04-10T23:59:44+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns3:alternative "東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在" ;
-    ns3:creator "[東京帝國大學農學部]" ;
-    ns3:date "[大正11(1922)]" ;
-    ns3:description """縮尺: 1:600\r
+    ns2:modified "2019-04-10T23:59:44+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
+    ns1:alternative "東京帝國大學農學部建物位置圖 : 大正十一年四月一日現在" ;
+    ns1:creator "[東京帝國大學農學部]" ;
+    ns1:date "[大正11(1922)]" ;
+    ns1:description """縮尺: 1:600\r
 書名上部に"東京府荏原郡目黒村、世田谷村豊多摩郡代々幡町、澁谷町"とあり""" ;
-    ns3:extent "地図1枚 +付図1枚" ;
-    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f> ;
-    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns3:title "東京帝國大學農學部建物位置圖" ;
-    ns5:identifier "6d032fb5-0a2f-6e04-9e3c-6bb5f604714f" ;
-    ns2:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns1:extent "地図1枚 +付図1枚" ;
+    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f> ;
+    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns1:title "東京帝國大學農學部建物位置圖" ;
+    ns6:identifier "6d032fb5-0a2f-6e04-9e3c-6bb5f604714f" ;
+    ns4:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
-    ns2:sort "2" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
+    ns4:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> ;
-    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> a ns1:Item ;
-    ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns4:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
-    ns4:callNumber "和:27" ;
-    ns4:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns4:seriesTitle "農学生命科学図書館コレクション" ;
-    ns4:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns4:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
-    ns1:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
-    ns1:id 275042 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085>,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> a ns2:Item ;
+    ns3:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
+    ns5:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
+    ns5:callNumber "和:27" ;
+    ns5:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns5:seriesTitle "農学生命科学図書館コレクション" ;
+    ns5:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns5:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
+    ns2:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
+    ns2:id 275042 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275086>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275087>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275088>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275089>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275090> ;
-    ns1:modified "2019-04-11T00:00:04+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
-    ns3:alternative "東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在" ;
-    ns3:creator "[東京帝國大學]" ;
-    ns3:date "[昭和12(1937)]" ;
-    ns3:description "枠外に\"東京印刷株式會社印売\"とあり" ;
-    ns3:extent "地図1枚" ;
-    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
-    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970> ;
-    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns3:title "東京帝國大學本部構内及農學部建物鳥瞰圖" ;
-    ns5:identifier "187cc82d-11e6-9912-9dd4-b4cca9b10970" ;
-    ns2:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns2:modified "2019-04-11T00:00:04+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ;
+    ns1:alternative "東京帝國大學本部構内及農學部建物鳥瞰圖 : 昭和十二年六月卅日現在" ;
+    ns1:creator "[東京帝國大學]" ;
+    ns1:date "[昭和12(1937)]" ;
+    ns1:description "枠外に\"東京印刷株式會社印売\"とあり" ;
+    ns1:extent "地図1枚" ;
+    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/> ;
+    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970> ;
+    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns1:title "東京帝國大學本部構内及農學部建物鳥瞰圖" ;
+    ns6:identifier "187cc82d-11e6-9912-9dd4-b4cca9b10970" ;
+    ns4:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
-    ns2:sort "3" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
+    ns4:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> ;
-    ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043> ns1:id 275043 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275043> ns2:id 275043 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275044> ns1:id 275044 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275044> ns2:id 275044 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275045> ns1:id 275045 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275045> ns2:id 275045 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275046> ns1:id 275046 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275046> ns2:id 275046 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275047> ns1:id 275047 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275047> ns2:id 275047 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275048> ns1:id 275048 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275048> ns2:id 275048 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275049> ns1:id 275049 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275049> ns2:id 275049 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275050> ns1:id 275050 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275050> ns2:id 275050 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275051> ns1:id 275051 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275051> ns2:id 275051 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275052> ns1:id 275052 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275052> ns2:id 275052 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275053> ns1:id 275053 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275053> ns2:id 275053 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275054> ns1:id 275054 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275054> ns2:id 275054 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275055> ns1:id 275055 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275055> ns2:id 275055 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056> ns1:id 275056 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275056> ns2:id 275056 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275057> ns1:id 275057 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275057> ns2:id 275057 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275058> ns1:id 275058 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275058> ns2:id 275058 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275059> ns1:id 275059 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275059> ns2:id 275059 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275060> ns1:id 275060 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275060> ns2:id 275060 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275061> ns1:id 275061 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275061> ns2:id 275061 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275062> ns1:id 275062 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275062> ns2:id 275062 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275063> ns1:id 275063 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275063> ns2:id 275063 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275064> ns1:id 275064 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275064> ns2:id 275064 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275065> ns1:id 275065 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275065> ns2:id 275065 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275066> ns1:id 275066 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275066> ns2:id 275066 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275067> ns1:id 275067 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275067> ns2:id 275067 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275068> ns1:id 275068 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275068> ns2:id 275068 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275069> ns1:id 275069 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275069> ns2:id 275069 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275070> ns1:id 275070 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275070> ns2:id 275070 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275071> ns1:id 275071 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275071> ns2:id 275071 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275072> ns1:id 275072 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275072> ns2:id 275072 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275073> ns1:id 275073 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275073> ns2:id 275073 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275074> ns1:id 275074 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275074> ns2:id 275074 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275075> ns1:id 275075 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275075> ns2:id 275075 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275076> ns1:id 275076 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275076> ns2:id 275076 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275077> ns1:id 275077 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275077> ns2:id 275077 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275078> ns1:id 275078 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275078> ns2:id 275078 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275079> ns1:id 275079 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275079> ns2:id 275079 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275080> ns1:id 275080 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275080> ns2:id 275080 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275081> ns1:id 275081 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275081> ns2:id 275081 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275082> ns1:id 275082 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275082> ns2:id 275082 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275083> ns1:id 275083 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275083> ns2:id 275083 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275084> ns1:id 275084 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275084> ns2:id 275084 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085> ns1:id 275085 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275085> ns2:id 275085 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275086> ns1:id 275086 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275086> ns2:id 275086 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275087> ns1:id 275087 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275087> ns2:id 275087 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275088> ns1:id 275088 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275088> ns2:id 275088 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275089> ns1:id 275089 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275089> ns2:id 275089 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275090> ns1:id 275090 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275090> ns2:id 275090 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ns1:id 275039 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275039> ns2:id 275039 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ns1:id 21 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/21> ns2:id 21 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ns1:id 3 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ns2:id 3 .
 

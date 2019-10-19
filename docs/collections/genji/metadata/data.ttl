@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://purl.org/dc/terms/> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -12,9 +12,9 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275151> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:18+00:00"^^xsd:dateTime ;
     ns1:id 275151 ;
     ns1:is_public true ;
@@ -54,30 +54,30 @@
     ns1:modified "2019-06-04T05:25:58+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c1ea8e6b-9403-4394-8619-96aad0ec6329> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "桐壺" ;
-    ns7:identifier "c1ea8e6b-9403-4394-8619-96aad0ec6329" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c1ea8e6b-9403-4394-8619-96aad0ec6329> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "桐壺" ;
+    ns5:identifier "c1ea8e6b-9403-4394-8619-96aad0ec6329" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest> ;
     ns3:sort "01" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275151> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/082f3475f5b03e1820688882d003ce39772ebb4c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/082f3475f5b03e1820688882d003ce39772ebb4c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275152> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:18+00:00"^^xsd:dateTime ;
     ns1:id 275152 ;
     ns1:is_public true ;
@@ -147,30 +147,30 @@
     ns1:modified "2019-06-04T05:25:58+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "帚木" ;
-    ns7:identifier "4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "帚木" ;
+    ns5:identifier "4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest> ;
     ns3:sort "02" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275152> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/707d9c58014ca5f13e94210694e944026cae887d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/707d9c58014ca5f13e94210694e944026cae887d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275153> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:19+00:00"^^xsd:dateTime ;
     ns1:id 275153 ;
     ns1:is_public true ;
@@ -196,30 +196,30 @@
     ns1:modified "2019-06-04T05:25:59+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/48bf5555-1449-3b07-4a4e-400faea49f2f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "空蝉" ;
-    ns7:identifier "48bf5555-1449-3b07-4a4e-400faea49f2f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/48bf5555-1449-3b07-4a4e-400faea49f2f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "空蝉" ;
+    ns5:identifier "48bf5555-1449-3b07-4a4e-400faea49f2f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/48bf5555-1449-3b07-4a4e-400faea49f2f/manifest> ;
     ns3:sort "03" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275153> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ff5ad52ad67276e6309bf522852dffeb5ae4a65.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ff5ad52ad67276e6309bf522852dffeb5ae4a65.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275154> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:19+00:00"^^xsd:dateTime ;
     ns1:id 275154 ;
     ns1:is_public true ;
@@ -288,30 +288,30 @@
     ns1:modified "2019-06-04T05:25:59+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/cbb5d028-05a6-326a-4976-d61354b5731f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "夕顔" ;
-    ns7:identifier "cbb5d028-05a6-326a-4976-d61354b5731f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/cbb5d028-05a6-326a-4976-d61354b5731f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "夕顔" ;
+    ns5:identifier "cbb5d028-05a6-326a-4976-d61354b5731f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cbb5d028-05a6-326a-4976-d61354b5731f/manifest> ;
     ns3:sort "04" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275154> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05b2af61a788209c52093049ebcacc26928f1b16.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05b2af61a788209c52093049ebcacc26928f1b16.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275155> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:19+00:00"^^xsd:dateTime ;
     ns1:id 275155 ;
     ns1:is_public true ;
@@ -374,30 +374,30 @@
     ns1:modified "2019-06-04T05:25:59+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/3e3b8127-47f1-846e-2661-66f5c6665353> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "若紫" ;
-    ns7:identifier "3e3b8127-47f1-846e-2661-66f5c6665353" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/3e3b8127-47f1-846e-2661-66f5c6665353> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "若紫" ;
+    ns5:identifier "3e3b8127-47f1-846e-2661-66f5c6665353" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3e3b8127-47f1-846e-2661-66f5c6665353/manifest> ;
     ns3:sort "05" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275155> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ad936d2a2b341652cb1ab7e25f65cafb67ef021d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ad936d2a2b341652cb1ab7e25f65cafb67ef021d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275156> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:20+00:00"^^xsd:dateTime ;
     ns1:id 275156 ;
     ns1:is_public true ;
@@ -443,30 +443,30 @@
     ns1:modified "2019-06-04T05:26:00+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/9b019cdd-a43c-3671-3139-96c3918a356f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "末摘花" ;
-    ns7:identifier "9b019cdd-a43c-3671-3139-96c3918a356f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/9b019cdd-a43c-3671-3139-96c3918a356f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "末摘花" ;
+    ns5:identifier "9b019cdd-a43c-3671-3139-96c3918a356f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9b019cdd-a43c-3671-3139-96c3918a356f/manifest> ;
     ns3:sort "06" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275156> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75f8470d741d1c825d32c8bd958dbebd3e0f6dfa.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75f8470d741d1c825d32c8bd958dbebd3e0f6dfa.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275157> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:20+00:00"^^xsd:dateTime ;
     ns1:id 275157 ;
     ns1:is_public true ;
@@ -510,30 +510,30 @@
     ns1:modified "2019-06-04T05:26:00+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/952541dd-7d2c-2771-11e5-8a85d2105938> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "紅葉加（紅葉賀）" ;
-    ns7:identifier "952541dd-7d2c-2771-11e5-8a85d2105938" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/952541dd-7d2c-2771-11e5-8a85d2105938> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "紅葉加（紅葉賀）" ;
+    ns5:identifier "952541dd-7d2c-2771-11e5-8a85d2105938" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952541dd-7d2c-2771-11e5-8a85d2105938/manifest> ;
     ns3:sort "07" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275157> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a6007d38d10c305c456419ba4ca2ccb4356a768e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a6007d38d10c305c456419ba4ca2ccb4356a768e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275158> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:20+00:00"^^xsd:dateTime ;
     ns1:id 275158 ;
     ns1:is_public true ;
@@ -557,30 +557,30 @@
     ns1:modified "2019-06-04T05:26:00+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e3d12c86-409c-2980-0574-a1d292eb60ab> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "花宴" ;
-    ns7:identifier "e3d12c86-409c-2980-0574-a1d292eb60ab" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e3d12c86-409c-2980-0574-a1d292eb60ab> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "花宴" ;
+    ns5:identifier "e3d12c86-409c-2980-0574-a1d292eb60ab" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3d12c86-409c-2980-0574-a1d292eb60ab/manifest> ;
     ns3:sort "08" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275158> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b5bc65b81a208f3c3c7712d942d1054a71c0271.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b5bc65b81a208f3c3c7712d942d1054a71c0271.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275159> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:20+00:00"^^xsd:dateTime ;
     ns1:id 275159 ;
     ns1:is_public true ;
@@ -642,30 +642,30 @@
     ns1:modified "2019-06-04T05:26:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/d9c1360e-61b5-7757-3e31-d991fa9d53a4> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "葵" ;
-    ns7:identifier "d9c1360e-61b5-7757-3e31-d991fa9d53a4" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/d9c1360e-61b5-7757-3e31-d991fa9d53a4> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "葵" ;
+    ns5:identifier "d9c1360e-61b5-7757-3e31-d991fa9d53a4" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9c1360e-61b5-7757-3e31-d991fa9d53a4/manifest> ;
     ns3:sort "09" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275159> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0a891a07b68bfdf6c407c423356d7595dcd357e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0a891a07b68bfdf6c407c423356d7595dcd357e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275160> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:21+00:00"^^xsd:dateTime ;
     ns1:id 275160 ;
     ns1:is_public true ;
@@ -732,30 +732,30 @@
     ns1:modified "2019-06-04T05:26:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0590814b-938f-0f7d-4984-a6d74cce6f5f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "龍眼木（賢木 , 榊）" ;
-    ns7:identifier "0590814b-938f-0f7d-4984-a6d74cce6f5f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0590814b-938f-0f7d-4984-a6d74cce6f5f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "龍眼木（賢木 , 榊）" ;
+    ns5:identifier "0590814b-938f-0f7d-4984-a6d74cce6f5f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0590814b-938f-0f7d-4984-a6d74cce6f5f/manifest> ;
     ns3:sort "10" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275160> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6b313c6102529e09385fe63f95663c673fa78a1c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6b313c6102529e09385fe63f95663c673fa78a1c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275161> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:21+00:00"^^xsd:dateTime ;
     ns1:id 275161 ;
     ns1:is_public true ;
@@ -772,30 +772,30 @@
     ns1:modified "2019-06-04T05:26:01+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1077d20f-07b7-2732-8a54-5b24f2cc787f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "花散里" ;
-    ns7:identifier "1077d20f-07b7-2732-8a54-5b24f2cc787f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1077d20f-07b7-2732-8a54-5b24f2cc787f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "花散里" ;
+    ns5:identifier "1077d20f-07b7-2732-8a54-5b24f2cc787f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1077d20f-07b7-2732-8a54-5b24f2cc787f/manifest> ;
     ns3:sort "11" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275161> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1f48e3a8967f8184b33d7c20deba15dde4b0508.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1f48e3a8967f8184b33d7c20deba15dde4b0508.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275162> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:21+00:00"^^xsd:dateTime ;
     ns1:id 275162 ;
     ns1:is_public true ;
@@ -853,30 +853,30 @@
     ns1:modified "2019-06-04T05:26:02+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1e3ad9e7-30ca-3869-4561-e4a9ec8e74f3> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "須磨" ;
-    ns7:identifier "1e3ad9e7-30ca-3869-4561-e4a9ec8e74f3" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1e3ad9e7-30ca-3869-4561-e4a9ec8e74f3> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "須磨" ;
+    ns5:identifier "1e3ad9e7-30ca-3869-4561-e4a9ec8e74f3" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1e3ad9e7-30ca-3869-4561-e4a9ec8e74f3/manifest> ;
     ns3:sort "12" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275162> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0d53228d1a99f21f7d6fe7c3f0b597884cf146b.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0d53228d1a99f21f7d6fe7c3f0b597884cf146b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275163> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:22+00:00"^^xsd:dateTime ;
     ns1:id 275163 ;
     ns1:is_public true ;
@@ -929,30 +929,30 @@
     ns1:modified "2019-06-04T05:26:02+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5aaa7feb-222a-2864-37fa-2c4c81f85f44> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "赤石（明石）" ;
-    ns7:identifier "5aaa7feb-222a-2864-37fa-2c4c81f85f44" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5aaa7feb-222a-2864-37fa-2c4c81f85f44> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "赤石（明石）" ;
+    ns5:identifier "5aaa7feb-222a-2864-37fa-2c4c81f85f44" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5aaa7feb-222a-2864-37fa-2c4c81f85f44/manifest> ;
     ns3:sort "13" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275163> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d3c55f7743874d1c6d7501b732587fa0a565f8ca.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d3c55f7743874d1c6d7501b732587fa0a565f8ca.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275164> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:22+00:00"^^xsd:dateTime ;
     ns1:id 275164 ;
     ns1:is_public true ;
@@ -997,30 +997,30 @@
     ns1:modified "2019-06-04T05:26:02+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e47d012e-19e0-0e31-5f80-edc931ef609f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "水衝石（澪標）" ;
-    ns7:identifier "e47d012e-19e0-0e31-5f80-edc931ef609f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e47d012e-19e0-0e31-5f80-edc931ef609f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "水衝石（澪標）" ;
+    ns5:identifier "e47d012e-19e0-0e31-5f80-edc931ef609f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e47d012e-19e0-0e31-5f80-edc931ef609f/manifest> ;
     ns3:sort "14" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275164> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ecb674898ebb6d9eae28aad9a59a9816612ba770.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ecb674898ebb6d9eae28aad9a59a9816612ba770.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275165> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:22+00:00"^^xsd:dateTime ;
     ns1:id 275165 ;
     ns1:is_public true ;
@@ -1057,30 +1057,30 @@
     ns1:modified "2019-06-04T05:26:03+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/2575aa8b-5670-89ac-1aea-831213bd8f30> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "蓬生" ;
-    ns7:identifier "2575aa8b-5670-89ac-1aea-831213bd8f30" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/2575aa8b-5670-89ac-1aea-831213bd8f30> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "蓬生" ;
+    ns5:identifier "2575aa8b-5670-89ac-1aea-831213bd8f30" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2575aa8b-5670-89ac-1aea-831213bd8f30/manifest> ;
     ns3:sort "15" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275165> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6135de6961e457949587d4ec15b7a7f450d0ce8c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6135de6961e457949587d4ec15b7a7f450d0ce8c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275166> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:23+00:00"^^xsd:dateTime ;
     ns1:id 275166 ;
     ns1:is_public true ;
@@ -1098,30 +1098,30 @@
     ns1:modified "2019-06-04T05:26:03+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0ae23744-1bf3-27f3-4efa-d0045cce48e6> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "関屋" ;
-    ns7:identifier "0ae23744-1bf3-27f3-4efa-d0045cce48e6" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0ae23744-1bf3-27f3-4efa-d0045cce48e6> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "関屋" ;
+    ns5:identifier "0ae23744-1bf3-27f3-4efa-d0045cce48e6" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/manifest> ;
     ns3:sort "16" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275166> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/08c0b5ddb47a13b8b38ed6d132425f04b8f1bd90.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/08c0b5ddb47a13b8b38ed6d132425f04b8f1bd90.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275167> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:23+00:00"^^xsd:dateTime ;
     ns1:id 275167 ;
     ns1:is_public true ;
@@ -1154,30 +1154,30 @@
     ns1:modified "2019-06-04T05:26:03+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/dde16b8e-72c3-8a66-7577-c62854cd4337> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "絵合" ;
-    ns7:identifier "dde16b8e-72c3-8a66-7577-c62854cd4337" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/dde16b8e-72c3-8a66-7577-c62854cd4337> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "絵合" ;
+    ns5:identifier "dde16b8e-72c3-8a66-7577-c62854cd4337" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dde16b8e-72c3-8a66-7577-c62854cd4337/manifest> ;
     ns3:sort "17" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275167> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/30c83a6cc316f8a5141300402eabae777391eb08.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/30c83a6cc316f8a5141300402eabae777391eb08.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275168> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:23+00:00"^^xsd:dateTime ;
     ns1:id 275168 ;
     ns1:is_public true ;
@@ -1212,30 +1212,30 @@
     ns1:modified "2019-06-04T05:26:04+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e0158397-9aa3-2fa3-2976-1f999cf96bf2> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "松風" ;
-    ns7:identifier "e0158397-9aa3-2fa3-2976-1f999cf96bf2" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/e0158397-9aa3-2fa3-2976-1f999cf96bf2> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "松風" ;
+    ns5:identifier "e0158397-9aa3-2fa3-2976-1f999cf96bf2" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e0158397-9aa3-2fa3-2976-1f999cf96bf2/manifest> ;
     ns3:sort "18" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275168> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/955586a06ad6c479f9774391052043531466e4a2.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/955586a06ad6c479f9774391052043531466e4a2.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275169> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:24+00:00"^^xsd:dateTime ;
     ns1:id 275169 ;
     ns1:is_public true ;
@@ -1281,30 +1281,30 @@
     ns1:modified "2019-06-04T05:26:04+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/bb712378-71c3-873b-8fcf-4940d81d26c9> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "薄雲" ;
-    ns7:identifier "bb712378-71c3-873b-8fcf-4940d81d26c9" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/bb712378-71c3-873b-8fcf-4940d81d26c9> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "薄雲" ;
+    ns5:identifier "bb712378-71c3-873b-8fcf-4940d81d26c9" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bb712378-71c3-873b-8fcf-4940d81d26c9/manifest> ;
     ns3:sort "19" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275169> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c2ceaa81023a6a8d3c2cadc5259daa4f8e2605b3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c2ceaa81023a6a8d3c2cadc5259daa4f8e2605b3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275170> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:24+00:00"^^xsd:dateTime ;
     ns1:id 275170 ;
     ns1:is_public true ;
@@ -1339,30 +1339,30 @@
     ns1:modified "2019-06-04T05:26:04+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8799a92b-04c2-8ffd-4e1d-00f0d0734c71> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "槿" ;
-    ns7:identifier "8799a92b-04c2-8ffd-4e1d-00f0d0734c71" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8799a92b-04c2-8ffd-4e1d-00f0d0734c71> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "槿" ;
+    ns5:identifier "8799a92b-04c2-8ffd-4e1d-00f0d0734c71" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8799a92b-04c2-8ffd-4e1d-00f0d0734c71/manifest> ;
     ns3:sort "20" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275170> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/21acc54c731964590959b762929dc422d730b287.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/21acc54c731964590959b762929dc422d730b287.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275171> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:24+00:00"^^xsd:dateTime ;
     ns1:id 275171 ;
     ns1:is_public true ;
@@ -1428,30 +1428,30 @@
     ns1:modified "2019-06-04T05:26:05+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/6ad4f954-a6d6-7759-65f4-6afc36a0649f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "乙女" ;
-    ns7:identifier "6ad4f954-a6d6-7759-65f4-6afc36a0649f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/6ad4f954-a6d6-7759-65f4-6afc36a0649f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "乙女" ;
+    ns5:identifier "6ad4f954-a6d6-7759-65f4-6afc36a0649f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6ad4f954-a6d6-7759-65f4-6afc36a0649f/manifest> ;
     ns3:sort "21" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275171> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/79b1d4def22dfa63b5a67010cb86907e0357a275.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/79b1d4def22dfa63b5a67010cb86907e0357a275.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275172> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:25+00:00"^^xsd:dateTime ;
     ns1:id 275172 ;
     ns1:is_public true ;
@@ -1506,30 +1506,30 @@
     ns1:modified "2019-06-04T05:26:05+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/26f158f0-357f-8e76-6091-53ed289a2026> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "玉鬘" ;
-    ns7:identifier "26f158f0-357f-8e76-6091-53ed289a2026" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/26f158f0-357f-8e76-6091-53ed289a2026> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "玉鬘" ;
+    ns5:identifier "26f158f0-357f-8e76-6091-53ed289a2026" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/26f158f0-357f-8e76-6091-53ed289a2026/manifest> ;
     ns3:sort "22" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275172> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97183b640dd05a166e2909ecb4f3f4cf94c99dd3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97183b640dd05a166e2909ecb4f3f4cf94c99dd3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275173> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:25+00:00"^^xsd:dateTime ;
     ns1:id 275173 ;
     ns1:is_public true ;
@@ -1557,30 +1557,30 @@
     ns1:modified "2019-06-04T05:26:05+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/d3bff430-3065-6f15-a2d7-24e72cc9113b> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "初音" ;
-    ns7:identifier "d3bff430-3065-6f15-a2d7-24e72cc9113b" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/d3bff430-3065-6f15-a2d7-24e72cc9113b> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "初音" ;
+    ns5:identifier "d3bff430-3065-6f15-a2d7-24e72cc9113b" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d3bff430-3065-6f15-a2d7-24e72cc9113b/manifest> ;
     ns3:sort "23" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275173> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7b859f6f1c3a903073355d2b485ea65941c1ecd5.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7b859f6f1c3a903073355d2b485ea65941c1ecd5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275174> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:25+00:00"^^xsd:dateTime ;
     ns1:id 275174 ;
     ns1:is_public true ;
@@ -1615,30 +1615,30 @@
     ns1:modified "2019-06-04T05:26:06+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4271a091-4284-0150-1c1a-8c0a81fb2dc7> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "胡蝶" ;
-    ns7:identifier "4271a091-4284-0150-1c1a-8c0a81fb2dc7" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4271a091-4284-0150-1c1a-8c0a81fb2dc7> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "胡蝶" ;
+    ns5:identifier "4271a091-4284-0150-1c1a-8c0a81fb2dc7" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4271a091-4284-0150-1c1a-8c0a81fb2dc7/manifest> ;
     ns3:sort "24" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275174> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2104441c95bce9ded4251bfa3077f3f3ebf22a3f.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2104441c95bce9ded4251bfa3077f3f3ebf22a3f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275175> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:25+00:00"^^xsd:dateTime ;
     ns1:id 275175 ;
     ns1:is_public true ;
@@ -1673,30 +1673,30 @@
     ns1:modified "2019-06-04T05:26:06+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c7cd728a-6f1d-a2da-6091-92342b148f1f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "蛍" ;
-    ns7:identifier "c7cd728a-6f1d-a2da-6091-92342b148f1f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c7cd728a-6f1d-a2da-6091-92342b148f1f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "蛍" ;
+    ns5:identifier "c7cd728a-6f1d-a2da-6091-92342b148f1f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c7cd728a-6f1d-a2da-6091-92342b148f1f/manifest> ;
     ns3:sort "25" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275175> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1ba7504e89aab1e6b6823e1a7cb30194938a7cc.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1ba7504e89aab1e6b6823e1a7cb30194938a7cc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275176> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:26+00:00"^^xsd:dateTime ;
     ns1:id 275176 ;
     ns1:is_public true ;
@@ -1732,30 +1732,30 @@
     ns1:modified "2019-06-04T05:26:06+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0095c448-98cb-87a8-9da8-20a60c911998> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "床夏（常夏）" ;
-    ns7:identifier "0095c448-98cb-87a8-9da8-20a60c911998" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0095c448-98cb-87a8-9da8-20a60c911998> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "床夏（常夏）" ;
+    ns5:identifier "0095c448-98cb-87a8-9da8-20a60c911998" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0095c448-98cb-87a8-9da8-20a60c911998/manifest> ;
     ns3:sort "26" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275176> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2b0bf9802bc4bb2f5916620120a8cadc2cece164.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2b0bf9802bc4bb2f5916620120a8cadc2cece164.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275177> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:26+00:00"^^xsd:dateTime ;
     ns1:id 275177 ;
     ns1:is_public true ;
@@ -1771,30 +1771,30 @@
     ns1:modified "2019-06-04T05:26:07+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/87c2b03d-2b97-0292-7efa-edfb9b566829> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "篝火" ;
-    ns7:identifier "87c2b03d-2b97-0292-7efa-edfb9b566829" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/87c2b03d-2b97-0292-7efa-edfb9b566829> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "篝火" ;
+    ns5:identifier "87c2b03d-2b97-0292-7efa-edfb9b566829" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/manifest> ;
     ns3:sort "27" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275177> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/521b34c724f1a4fc8822dc4058bfca2e9586ece6.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/521b34c724f1a4fc8822dc4058bfca2e9586ece6.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275178> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:26+00:00"^^xsd:dateTime ;
     ns1:id 275178 ;
     ns1:is_public true ;
@@ -1827,30 +1827,30 @@
     ns1:modified "2019-06-04T05:26:07+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/29845173-2aa9-7e3e-77b1-03fa71bf4bcf> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "野分" ;
-    ns7:identifier "29845173-2aa9-7e3e-77b1-03fa71bf4bcf" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/29845173-2aa9-7e3e-77b1-03fa71bf4bcf> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "野分" ;
+    ns5:identifier "29845173-2aa9-7e3e-77b1-03fa71bf4bcf" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29845173-2aa9-7e3e-77b1-03fa71bf4bcf/manifest> ;
     ns3:sort "28" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275178> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7429cbd6163155431457498f475489af107a7c33.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7429cbd6163155431457498f475489af107a7c33.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275179> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:27+00:00"^^xsd:dateTime ;
     ns1:id 275179 ;
     ns1:is_public true ;
@@ -1893,30 +1893,30 @@
     ns1:modified "2019-06-04T05:26:07+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1df4c6c1-a558-2881-4db3-86b3b9584130> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "行幸" ;
-    ns7:identifier "1df4c6c1-a558-2881-4db3-86b3b9584130" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1df4c6c1-a558-2881-4db3-86b3b9584130> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "行幸" ;
+    ns5:identifier "1df4c6c1-a558-2881-4db3-86b3b9584130" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1df4c6c1-a558-2881-4db3-86b3b9584130/manifest> ;
     ns3:sort "29" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275179> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef874413df4e9476d1c63164e9b245c8b4aa2b34.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef874413df4e9476d1c63164e9b245c8b4aa2b34.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275180> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:27+00:00"^^xsd:dateTime ;
     ns1:id 275180 ;
     ns1:is_public true ;
@@ -1944,30 +1944,30 @@
     ns1:modified "2019-06-04T05:26:08+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/02e45c9c-8003-017b-4e63-0c8919ca36a2> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "蘭（藤袴）" ;
-    ns7:identifier "02e45c9c-8003-017b-4e63-0c8919ca36a2" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/02e45c9c-8003-017b-4e63-0c8919ca36a2> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "蘭（藤袴）" ;
+    ns5:identifier "02e45c9c-8003-017b-4e63-0c8919ca36a2" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/02e45c9c-8003-017b-4e63-0c8919ca36a2/manifest> ;
     ns3:sort "30" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275180> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/674bbb48c8d91b305159e77504b47f2c19763691.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/674bbb48c8d91b305159e77504b47f2c19763691.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275181> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:27+00:00"^^xsd:dateTime ;
     ns1:id 275181 ;
     ns1:is_public true ;
@@ -2021,30 +2021,30 @@
     ns1:modified "2019-06-04T05:26:08+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/61bacd20-50ae-6ff0-0740-3c1c50da76dd> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "真木柱" ;
-    ns7:identifier "61bacd20-50ae-6ff0-0740-3c1c50da76dd" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/61bacd20-50ae-6ff0-0740-3c1c50da76dd> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "真木柱" ;
+    ns5:identifier "61bacd20-50ae-6ff0-0740-3c1c50da76dd" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/61bacd20-50ae-6ff0-0740-3c1c50da76dd/manifest> ;
     ns3:sort "31" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275181> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/164d37dbda1adca42e0f99eecda183a742face89.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/164d37dbda1adca42e0f99eecda183a742face89.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275182> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:28+00:00"^^xsd:dateTime ;
     ns1:id 275182 ;
     ns1:is_public true ;
@@ -2078,30 +2078,30 @@
     ns1:modified "2019-06-04T05:26:08+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/a943afe6-6b21-481a-5f40-bc7a21d183b0> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "梅枝" ;
-    ns7:identifier "a943afe6-6b21-481a-5f40-bc7a21d183b0" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/a943afe6-6b21-481a-5f40-bc7a21d183b0> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "梅枝" ;
+    ns5:identifier "a943afe6-6b21-481a-5f40-bc7a21d183b0" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a943afe6-6b21-481a-5f40-bc7a21d183b0/manifest> ;
     ns3:sort "32" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275182> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b6ab72b7ef891c99cad007ac6d6e54f4ef6abbe6.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b6ab72b7ef891c99cad007ac6d6e54f4ef6abbe6.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275183> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:28+00:00"^^xsd:dateTime ;
     ns1:id 275183 ;
     ns1:is_public true ;
@@ -2136,30 +2136,30 @@
     ns1:modified "2019-06-04T05:26:09+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5af16d8a-9e37-3866-38fa-e20fe1060f4a> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "藤裏葉" ;
-    ns7:identifier "5af16d8a-9e37-3866-38fa-e20fe1060f4a" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5af16d8a-9e37-3866-38fa-e20fe1060f4a> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "藤裏葉" ;
+    ns5:identifier "5af16d8a-9e37-3866-38fa-e20fe1060f4a" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5af16d8a-9e37-3866-38fa-e20fe1060f4a/manifest> ;
     ns3:sort "33" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275183> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a7a68aa156f41d5e63b59f4e8a28001b763b19df.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a7a68aa156f41d5e63b59f4e8a28001b763b19df.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275184> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:28+00:00"^^xsd:dateTime ;
     ns1:id 275184 ;
     ns1:is_public true ;
@@ -2279,30 +2279,30 @@
     ns1:modified "2019-06-04T05:26:09+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/da6f3be9-1a2c-7704-a780-b3742840a71f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "若菜　上" ;
-    ns7:identifier "da6f3be9-1a2c-7704-a780-b3742840a71f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/da6f3be9-1a2c-7704-a780-b3742840a71f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "若菜　上" ;
+    ns5:identifier "da6f3be9-1a2c-7704-a780-b3742840a71f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da6f3be9-1a2c-7704-a780-b3742840a71f/manifest> ;
     ns3:sort "34" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275184> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fbc0fe0b72884b0f465ca41addaf8a6ed7a5d8d3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fbc0fe0b72884b0f465ca41addaf8a6ed7a5d8d3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275185> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:29+00:00"^^xsd:dateTime ;
     ns1:id 275185 ;
     ns1:is_public true ;
@@ -2428,30 +2428,30 @@
     ns1:modified "2019-06-04T05:26:09+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/685c84c5-2eb7-2852-7073-d73670157aeb> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "若菜　下" ;
-    ns7:identifier "685c84c5-2eb7-2852-7073-d73670157aeb" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/685c84c5-2eb7-2852-7073-d73670157aeb> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "若菜　下" ;
+    ns5:identifier "685c84c5-2eb7-2852-7073-d73670157aeb" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/685c84c5-2eb7-2852-7073-d73670157aeb/manifest> ;
     ns3:sort "35" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275185> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef5db134d259dfcb50215d2c1ed82a757685cf8a.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef5db134d259dfcb50215d2c1ed82a757685cf8a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275186> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:29+00:00"^^xsd:dateTime ;
     ns1:id 275186 ;
     ns1:is_public true ;
@@ -2508,30 +2508,30 @@
     ns1:modified "2019-06-04T05:26:10+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/b8c32f39-7b65-639c-2103-2fbfbe7096d5> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "柏木" ;
-    ns7:identifier "b8c32f39-7b65-639c-2103-2fbfbe7096d5" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/b8c32f39-7b65-639c-2103-2fbfbe7096d5> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "柏木" ;
+    ns5:identifier "b8c32f39-7b65-639c-2103-2fbfbe7096d5" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b8c32f39-7b65-639c-2103-2fbfbe7096d5/manifest> ;
     ns3:sort "36" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275186> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/251bfc634c9fdac884ef8f8d0bfb16cb809c307e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/251bfc634c9fdac884ef8f8d0bfb16cb809c307e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275187> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:29+00:00"^^xsd:dateTime ;
     ns1:id 275187 ;
     ns1:is_public true ;
@@ -2565,30 +2565,30 @@
     ns1:modified "2019-06-04T05:26:10+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/eade83e8-731f-a6c3-586a-f7bc45f724cd> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "横笛" ;
-    ns7:identifier "eade83e8-731f-a6c3-586a-f7bc45f724cd" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/eade83e8-731f-a6c3-586a-f7bc45f724cd> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "横笛" ;
+    ns5:identifier "eade83e8-731f-a6c3-586a-f7bc45f724cd" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/eade83e8-731f-a6c3-586a-f7bc45f724cd/manifest> ;
     ns3:sort "37" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275187> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f9be3801b26f7a041878f547c89c755147d93c36.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f9be3801b26f7a041878f547c89c755147d93c36.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275188> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:29+00:00"^^xsd:dateTime ;
     ns1:id 275188 ;
     ns1:is_public true ;
@@ -2617,30 +2617,30 @@
     ns1:modified "2019-06-04T05:26:10+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8688af78-4db5-09b1-78fa-273681038614> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "鈴虫" ;
-    ns7:identifier "8688af78-4db5-09b1-78fa-273681038614" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8688af78-4db5-09b1-78fa-273681038614> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "鈴虫" ;
+    ns5:identifier "8688af78-4db5-09b1-78fa-273681038614" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8688af78-4db5-09b1-78fa-273681038614/manifest> ;
     ns3:sort "38" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275188> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f31a2a922c28c5e34261eb51b193316b2b0cd46e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f31a2a922c28c5e34261eb51b193316b2b0cd46e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275189> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:30+00:00"^^xsd:dateTime ;
     ns1:id 275189 ;
     ns1:is_public true ;
@@ -2727,30 +2727,30 @@
     ns1:modified "2019-06-04T05:26:11+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1c507ec6-65f9-7a80-4d6a-303187ef60f4> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "夕霧" ;
-    ns7:identifier "1c507ec6-65f9-7a80-4d6a-303187ef60f4" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/1c507ec6-65f9-7a80-4d6a-303187ef60f4> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "夕霧" ;
+    ns5:identifier "1c507ec6-65f9-7a80-4d6a-303187ef60f4" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1c507ec6-65f9-7a80-4d6a-303187ef60f4/manifest> ;
     ns3:sort "39" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275189> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a13de06fa2b31c3d633fe5c8be8d52e42c5bf6df.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a13de06fa2b31c3d633fe5c8be8d52e42c5bf6df.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275190> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:30+00:00"^^xsd:dateTime ;
     ns1:id 275190 ;
     ns1:is_public true ;
@@ -2782,30 +2782,30 @@
     ns1:modified "2019-06-04T05:26:11+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8bfc069b-9a26-787a-42ae-7e6dc24478fd> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "御法" ;
-    ns7:identifier "8bfc069b-9a26-787a-42ae-7e6dc24478fd" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/8bfc069b-9a26-787a-42ae-7e6dc24478fd> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "御法" ;
+    ns5:identifier "8bfc069b-9a26-787a-42ae-7e6dc24478fd" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8bfc069b-9a26-787a-42ae-7e6dc24478fd/manifest> ;
     ns3:sort "40" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275190> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fb85b9f7c773cb9c9974d1ac448aff2adef0d21b.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fb85b9f7c773cb9c9974d1ac448aff2adef0d21b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275191> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:30+00:00"^^xsd:dateTime ;
     ns1:id 275191 ;
     ns1:is_public true ;
@@ -2839,30 +2839,30 @@
     ns1:modified "2019-06-04T05:26:12+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/dec28210-05cb-16c5-9a5a-826f853c74a2> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "幻" ;
-    ns7:identifier "dec28210-05cb-16c5-9a5a-826f853c74a2" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/dec28210-05cb-16c5-9a5a-826f853c74a2> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "幻" ;
+    ns5:identifier "dec28210-05cb-16c5-9a5a-826f853c74a2" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dec28210-05cb-16c5-9a5a-826f853c74a2/manifest> ;
     ns3:sort "41" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275191> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0ffc31d972b1e527913d62f91363e4f6322d2819.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0ffc31d972b1e527913d62f91363e4f6322d2819.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275192> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:31+00:00"^^xsd:dateTime ;
     ns1:id 275192 ;
     ns1:is_public true ;
@@ -2890,30 +2890,30 @@
     ns1:modified "2019-06-04T05:26:12+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4635b7fd-33a5-8caa-122e-9cf327ac92ab> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "匂宮" ;
-    ns7:identifier "4635b7fd-33a5-8caa-122e-9cf327ac92ab" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/4635b7fd-33a5-8caa-122e-9cf327ac92ab> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "匂宮" ;
+    ns5:identifier "4635b7fd-33a5-8caa-122e-9cf327ac92ab" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4635b7fd-33a5-8caa-122e-9cf327ac92ab/manifest> ;
     ns3:sort "42" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275192> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9b6cecc92eadf73736457951c7ac55f5f05a52f0.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9b6cecc92eadf73736457951c7ac55f5f05a52f0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275193> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:31+00:00"^^xsd:dateTime ;
     ns1:id 275193 ;
     ns1:is_public true ;
@@ -2940,30 +2940,30 @@
     ns1:modified "2019-06-04T05:26:12+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/9a6cc2a6-4359-11bc-554a-dbad46b74fbb> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "紅梅" ;
-    ns7:identifier "9a6cc2a6-4359-11bc-554a-dbad46b74fbb" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/9a6cc2a6-4359-11bc-554a-dbad46b74fbb> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "紅梅" ;
+    ns5:identifier "9a6cc2a6-4359-11bc-554a-dbad46b74fbb" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9a6cc2a6-4359-11bc-554a-dbad46b74fbb/manifest> ;
     ns3:sort "43" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275193> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/76ac4cf77c30e7a70af3501377f5b8d5b151d975.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/76ac4cf77c30e7a70af3501377f5b8d5b151d975.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275194> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:31+00:00"^^xsd:dateTime ;
     ns1:id 275194 ;
     ns1:is_public true ;
@@ -3019,30 +3019,30 @@
     ns1:modified "2019-06-04T05:26:13+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/964d5e78-1f41-92f6-54a6-444c3b2c6d95> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "竹川" ;
-    ns7:identifier "964d5e78-1f41-92f6-54a6-444c3b2c6d95" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/964d5e78-1f41-92f6-54a6-444c3b2c6d95> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "竹川" ;
+    ns5:identifier "964d5e78-1f41-92f6-54a6-444c3b2c6d95" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/964d5e78-1f41-92f6-54a6-444c3b2c6d95/manifest> ;
     ns3:sort "44" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275194> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5cd3e1a332a4c699b8500f9b563463358522fe71.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5cd3e1a332a4c699b8500f9b563463358522fe71.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275195> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:31+00:00"^^xsd:dateTime ;
     ns1:id 275195 ;
     ns1:is_public true ;
@@ -3092,30 +3092,30 @@
     ns1:modified "2019-06-04T05:26:13+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0fde603d-149a-6507-9834-ea736bd1326f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "橋姫" ;
-    ns7:identifier "0fde603d-149a-6507-9834-ea736bd1326f" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/0fde603d-149a-6507-9834-ea736bd1326f> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "橋姫" ;
+    ns5:identifier "0fde603d-149a-6507-9834-ea736bd1326f" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0fde603d-149a-6507-9834-ea736bd1326f/manifest> ;
     ns3:sort "45" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275195> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6b3b755c5f053769540e7a41047c93ee240fc11e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6b3b755c5f053769540e7a41047c93ee240fc11e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275196> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:32+00:00"^^xsd:dateTime ;
     ns1:id 275196 ;
     ns1:is_public true ;
@@ -3166,30 +3166,30 @@
     ns1:modified "2019-06-04T05:26:13+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/de6bc095-7487-3523-0293-8dc17de66bb0> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "椎本" ;
-    ns7:identifier "de6bc095-7487-3523-0293-8dc17de66bb0" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/de6bc095-7487-3523-0293-8dc17de66bb0> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "椎本" ;
+    ns5:identifier "de6bc095-7487-3523-0293-8dc17de66bb0" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/de6bc095-7487-3523-0293-8dc17de66bb0/manifest> ;
     ns3:sort "46" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275196> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ababba44877078d708f23c0b91ac951d4770a0ea.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ababba44877078d708f23c0b91ac951d4770a0ea.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275197> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:32+00:00"^^xsd:dateTime ;
     ns1:id 275197 ;
     ns1:is_public true ;
@@ -3289,30 +3289,30 @@
     ns1:modified "2019-06-04T05:26:14+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/b8a38f32-0428-48bd-545d-f85e95959358> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "総角" ;
-    ns7:identifier "b8a38f32-0428-48bd-545d-f85e95959358" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/b8a38f32-0428-48bd-545d-f85e95959358> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "総角" ;
+    ns5:identifier "b8a38f32-0428-48bd-545d-f85e95959358" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b8a38f32-0428-48bd-545d-f85e95959358/manifest> ;
     ns3:sort "47" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275197> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8a87a3cc23fc2c5e3568975e6d68809741086428.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8a87a3cc23fc2c5e3568975e6d68809741086428.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275198> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:32+00:00"^^xsd:dateTime ;
     ns1:id 275198 ;
     ns1:is_public true ;
@@ -3342,30 +3342,30 @@
     ns1:modified "2019-06-04T05:26:14+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/83eac5f5-5cb6-1e49-856d-892a19e037c3> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "早蕨" ;
-    ns7:identifier "83eac5f5-5cb6-1e49-856d-892a19e037c3" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/83eac5f5-5cb6-1e49-856d-892a19e037c3> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "早蕨" ;
+    ns5:identifier "83eac5f5-5cb6-1e49-856d-892a19e037c3" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/83eac5f5-5cb6-1e49-856d-892a19e037c3/manifest> ;
     ns3:sort "48" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275198> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2dab7f062f1dcbdb33833b090315caabeafd01d1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2dab7f062f1dcbdb33833b090315caabeafd01d1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275199> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:33+00:00"^^xsd:dateTime ;
     ns1:id 275199 ;
     ns1:is_public true ;
@@ -3461,30 +3461,30 @@
     ns1:modified "2019-06-04T05:26:15+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5c412f9d-0220-8f63-64ae-ca93a2328b20> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "寄生" ;
-    ns7:identifier "5c412f9d-0220-8f63-64ae-ca93a2328b20" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/5c412f9d-0220-8f63-64ae-ca93a2328b20> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "寄生" ;
+    ns5:identifier "5c412f9d-0220-8f63-64ae-ca93a2328b20" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5c412f9d-0220-8f63-64ae-ca93a2328b20/manifest> ;
     ns3:sort "49" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275199> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/11690e1ac57987c9a83bc1e99d716695e15631d6.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/11690e1ac57987c9a83bc1e99d716695e15631d6.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275200> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:33+00:00"^^xsd:dateTime ;
     ns1:id 275200 ;
     ns1:is_public true ;
@@ -3558,30 +3558,30 @@
     ns1:modified "2019-06-04T05:26:15+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c3d552b8-8be9-a487-25c2-9500ef6d06a1> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "東屋" ;
-    ns7:identifier "c3d552b8-8be9-a487-25c2-9500ef6d06a1" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/c3d552b8-8be9-a487-25c2-9500ef6d06a1> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "東屋" ;
+    ns5:identifier "c3d552b8-8be9-a487-25c2-9500ef6d06a1" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c3d552b8-8be9-a487-25c2-9500ef6d06a1/manifest> ;
     ns3:sort "50" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275200> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4e81f425f9f1b695b0d9e2c89180612adc88f9f4.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4e81f425f9f1b695b0d9e2c89180612adc88f9f4.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275201> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:33+00:00"^^xsd:dateTime ;
     ns1:id 275201 ;
     ns1:is_public true ;
@@ -3664,30 +3664,30 @@
     ns1:modified "2019-06-04T05:26:15+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/cbe1d687-0e67-6a9d-4394-b8e7947b00ac> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "浮舟" ;
-    ns7:identifier "cbe1d687-0e67-6a9d-4394-b8e7947b00ac" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/cbe1d687-0e67-6a9d-4394-b8e7947b00ac> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "浮舟" ;
+    ns5:identifier "cbe1d687-0e67-6a9d-4394-b8e7947b00ac" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cbe1d687-0e67-6a9d-4394-b8e7947b00ac/manifest> ;
     ns3:sort "51" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275201> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/04f3ced686904e50547f9d4f3f646aca8020b9d1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/04f3ced686904e50547f9d4f3f646aca8020b9d1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275202> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:34+00:00"^^xsd:dateTime ;
     ns1:id 275202 ;
     ns1:is_public true ;
@@ -3758,30 +3758,30 @@
     ns1:modified "2019-06-04T05:26:16+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/449c37ed-4ba0-5358-8d18-80a0864844e5> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "蜻蛉" ;
-    ns7:identifier "449c37ed-4ba0-5358-8d18-80a0864844e5" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/449c37ed-4ba0-5358-8d18-80a0864844e5> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "蜻蛉" ;
+    ns5:identifier "449c37ed-4ba0-5358-8d18-80a0864844e5" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/449c37ed-4ba0-5358-8d18-80a0864844e5/manifest> ;
     ns3:sort "52" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275202> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ef4aebdfa630028a45d15f1cf66f424ad9e6fe8.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ef4aebdfa630028a45d15f1cf66f424ad9e6fe8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275203> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:34+00:00"^^xsd:dateTime ;
     ns1:id 275203 ;
     ns1:is_public true ;
@@ -3859,30 +3859,30 @@
     ns1:modified "2019-06-04T05:26:16+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/7e106aaa-9967-660f-2df0-80afe14e35b3> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "手習" ;
-    ns7:identifier "7e106aaa-9967-660f-2df0-80afe14e35b3" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/7e106aaa-9967-660f-2df0-80afe14e35b3> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "手習" ;
+    ns5:identifier "7e106aaa-9967-660f-2df0-80afe14e35b3" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7e106aaa-9967-660f-2df0-80afe14e35b3/manifest> ;
     ns3:sort "53" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275203> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9d06a29cf15f506f12ba6f8e98e57be05f041f02.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9d06a29cf15f506f12ba6f8e98e57be05f041f02.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275204> a ns1:Item ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns2:callNumber "A00:6587" ;
-    ns2:seriesTitle "源氏物語" ;
-    ns2:seriesTitleTranscription "ゲンジ　モノガタリ" ;
+    ns4:callNumber "A00:6587" ;
+    ns4:seriesTitle "源氏物語" ;
+    ns4:seriesTitleTranscription "ゲンジ　モノガタリ" ;
     ns1:created "2019-04-10T06:13:34+00:00"^^xsd:dateTime ;
     ns1:id 275204 ;
     ns1:is_public true ;
@@ -3912,24 +3912,24 @@
     ns1:modified "2019-06-04T05:26:17+00:00"^^xsd:dateTime ;
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22> ;
-    ns4:creator "[紫式部著]" ;
-    ns4:description """青洲文庫書名は帙題簽による
+    ns2:creator "[紫式部著]" ;
+    ns2:description """青洲文庫書名は帙題簽による
 巻次は題簽による
 責任表示は『日本古典籍総合目録データベース』による
 朱筆書き入れあり
 虫損あり
 旧請求記号 E23:48""" ;
-    ns4:extent "54冊 ; 21cm" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
-    ns4:publisher "[書写地不明] : [書写者不明]" ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/090075d0-3e81-8414-5d57-62c516f49e47> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "夢浮橋" ;
-    ns7:identifier "090075d0-3e81-8414-5d57-62c516f49e47" ;
+    ns2:extent "54冊 ; 21cm" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/> ;
+    ns2:publisher "[書写地不明] : [書写者不明]" ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/document/090075d0-3e81-8414-5d57-62c516f49e47> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "夢浮橋" ;
+    ns5:identifier "090075d0-3e81-8414-5d57-62c516f49e47" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/090075d0-3e81-8414-5d57-62c516f49e47/manifest> ;
     ns3:sort "54" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275204> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c86b0a0d077836b4449fa05ef1dbb22e5305269a.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c86b0a0d077836b4449fa05ef1dbb22e5305269a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/275205> ns1:id 275205 .
 
