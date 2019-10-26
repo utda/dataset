@@ -2,10 +2,10 @@
 @prefix ns2: <http://purl.org/ontology/bibo/> .
 @prefix ns3: <http://purl.org/dc/terms/> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
-@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns8: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,14 +15,14 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns8:note """写本\r
+    ns7:note """写本\r
 本帖は三部から成る\r
 一部末尾に「享保八卯年御尋ニ付紀州熊野浦二分口役所ニおいて吟味之上書付指上候魚之圖　干時享保十五歳戌初夏寫之」とあり\r
 二部冒頭に「以下は製装の際、加ふるものなり。明治十五年十二月」とあり\r
 二部末尾に「文政元年初秋三日伊嶋漁夫網海獲之」とあり\r
 三部冒頭に「以下捕鯨無記名の一巻なり」とあり""" ;
-    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:callNumber "A00:5852" ;
+    ns8:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:callNumber "A00:5852" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 11 ;
     ns1:is_public true ;
@@ -53,7 +53,7 @@
     ns4:databaseLabel "紀州熊野浦諸鯨之圖" ;
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg> .
+    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ns1:id 222795 .
 
