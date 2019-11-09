@@ -1,25 +1,25 @@
-@prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21818> ns1:id 21818 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21818> ns2:id 21818 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> a ns1:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns4:viewingDirection ns4:rightToLeftDirection ;
-    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns1:id 12 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21818> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30>,
+    ns2:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns2:id 12 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21818> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/31>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/32>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/33>,
@@ -74,11 +74,11 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/82>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/83>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/84> ;
-    ns1:modified "2019-03-04T14:14:34+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns2:description """水野家古文書(水野忠幹氏旧蔵書文書)\r
+    ns2:modified "2019-03-04T14:14:34+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
+    ns1:description """水野家古文書(水野忠幹氏旧蔵書文書)\r
 概要\r
 \r
 本文書は、紀州徳川家の附家老であった水野家が所蔵していた古文書類で、太政官牒二紙、複数の古文書を表装した巻子三軸からなる。\r
@@ -91,131 +91,131 @@
 \r
  富田正弘(富山大学名誉教授)\r
  小島浩之(東京大学大学院経済学研究科講師)""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/document/d28ad412-0d21-4a16-ab81-840fe3ffde71> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "水野家古文書(水野忠幹氏旧蔵書文書)" ;
-    ns6:identifier "d28ad412-0d21-4a16-ab81-840fe3ffde71" ;
+    ns1:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/> ;
+    ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/mizuno/document/d28ad412-0d21-4a16-ab81-840fe3ffde71> ;
+    ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns1:title "水野家古文書(水野忠幹氏旧蔵書文書)" ;
+    ns5:identifier "d28ad412-0d21-4a16-ab81-840fe3ffde71" ;
     ns3:databaseLabel "水野家古文書(水野忠幹氏旧蔵書文書)" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d28ad412-0d21-4a16-ab81-840fe3ffde71/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/12> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f2ddec98528bbfb7b513755619bed5681a143511.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30> ns1:id 30 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/30> ns2:id 30 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/31> ns1:id 31 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/31> ns2:id 31 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/32> ns1:id 32 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/32> ns2:id 32 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/33> ns1:id 33 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/33> ns2:id 33 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/34> ns1:id 34 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/34> ns2:id 34 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/35> ns1:id 35 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/35> ns2:id 35 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/36> ns1:id 36 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/36> ns2:id 36 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/37> ns1:id 37 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/37> ns2:id 37 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/38> ns1:id 38 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/38> ns2:id 38 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/39> ns1:id 39 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/39> ns2:id 39 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/40> ns1:id 40 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/40> ns2:id 40 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/41> ns1:id 41 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/41> ns2:id 41 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/42> ns1:id 42 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/42> ns2:id 42 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/43> ns1:id 43 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/43> ns2:id 43 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/44> ns1:id 44 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/44> ns2:id 44 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/45> ns1:id 45 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/45> ns2:id 45 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/46> ns1:id 46 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/46> ns2:id 46 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/47> ns1:id 47 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/47> ns2:id 47 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/48> ns1:id 48 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/48> ns2:id 48 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/49> ns1:id 49 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/49> ns2:id 49 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/50> ns1:id 50 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/50> ns2:id 50 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/51> ns1:id 51 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/51> ns2:id 51 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/52> ns1:id 52 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/52> ns2:id 52 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/53> ns1:id 53 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/53> ns2:id 53 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/54> ns1:id 54 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/54> ns2:id 54 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/55> ns1:id 55 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/55> ns2:id 55 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/56> ns1:id 56 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/56> ns2:id 56 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/57> ns1:id 57 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/57> ns2:id 57 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/58> ns1:id 58 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/58> ns2:id 58 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/59> ns1:id 59 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/59> ns2:id 59 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/60> ns1:id 60 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/60> ns2:id 60 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/61> ns1:id 61 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/61> ns2:id 61 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/62> ns1:id 62 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/62> ns2:id 62 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/63> ns1:id 63 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/63> ns2:id 63 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/64> ns1:id 64 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/64> ns2:id 64 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/65> ns1:id 65 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/65> ns2:id 65 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/66> ns1:id 66 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/66> ns2:id 66 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/67> ns1:id 67 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/67> ns2:id 67 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/68> ns1:id 68 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/68> ns2:id 68 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/69> ns1:id 69 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/69> ns2:id 69 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/70> ns1:id 70 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/70> ns2:id 70 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/71> ns1:id 71 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/71> ns2:id 71 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72> ns1:id 72 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/72> ns2:id 72 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/73> ns1:id 73 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/73> ns2:id 73 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/74> ns1:id 74 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/74> ns2:id 74 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/75> ns1:id 75 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/75> ns2:id 75 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/76> ns1:id 76 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/76> ns2:id 76 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/77> ns1:id 77 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/77> ns2:id 77 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/78> ns1:id 78 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/78> ns2:id 78 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/79> ns1:id 79 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/79> ns2:id 79 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/80> ns1:id 80 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/80> ns2:id 80 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/81> ns1:id 81 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/81> ns2:id 81 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/82> ns1:id 82 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/82> ns2:id 82 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/83> ns1:id 83 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/83> ns2:id 83 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/84> ns1:id 84 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/84> ns2:id 84 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns2:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns1:id 3 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns2:id 3 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns2:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns1:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns2:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 
