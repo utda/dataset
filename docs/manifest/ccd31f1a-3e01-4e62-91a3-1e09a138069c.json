@@ -1,0 +1,194 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "description": "総表紙。「安藤喜八郎　桃井若狭之助　赤星十三朗　扇蝶」とあり",
+    "label": "崇禅寺恨刃",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "すうぜんじうらみのやいば"
+        },
+        {
+            "label": "請求番号",
+            "value": "4143-D005-101"
+        },
+        {
+            "label": "和暦",
+            "value": "明治４４"
+        },
+        {
+            "label": "月日",
+            "value": "10・01"
+        },
+        {
+            "label": "地域",
+            "value": "京都"
+        },
+        {
+            "label": "劇場",
+            "value": "南座"
+        },
+        {
+            "label": "題種・題名",
+            "value": [
+                "増補忠臣蔵",
+                "白浪五人男"
+            ]
+        },
+        {
+            "label": "題種・題名よみ",
+            "value": [
+                "ぞうほちゅうしんぐら",
+                "しらなみごにんおとこ"
+            ]
+        },
+        {
+            "label": "刊写",
+            "value": "写"
+        },
+        {
+            "label": "体裁",
+            "value": "半紙2丁"
+        },
+        {
+            "label": "大分類",
+            "value": "歌舞伎"
+        },
+        {
+            "label": "中分類",
+            "value": "林又一郎舞台資料"
+        },
+        {
+            "label": "小分類",
+            "value": "書抜"
+        },
+        {
+            "label": "identifier",
+            "value": "ccd31f1a-3e01-4e62-91a3-1e09a138069c"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Title",
+            "value": "崇禅寺恨刃"
+        },
+        {
+            "label": "Sort",
+            "value": "3006"
+        },
+        {
+            "label": "元号",
+            "value": "明治"
+        },
+        {
+            "label": "月",
+            "value": "10"
+        },
+        {
+            "label": "日",
+            "value": "01"
+        },
+        {
+            "label": "統一劇場",
+            "value": "南座"
+        }
+    ],
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/280435",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68654.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2048,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68654.tif",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 3072
+                                },
+                                "width": 3072
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68654.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68654.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3072
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/annotation/p0002-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ccd31f1a-3e01-4e62-91a3-1e09a138069c/canvas/p2",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68655.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2048,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68655.tif",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 3072
+                                },
+                                "width": 3072
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68655.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/68655.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3072
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8bef872d280ed0fb3ac7f17d58135c470a6cd634.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kuroki"
+}

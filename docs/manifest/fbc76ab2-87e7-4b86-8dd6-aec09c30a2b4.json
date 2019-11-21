@@ -1,0 +1,162 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "label": "一谷嫩軍記",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "いちのたにふたばぐんき"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒0963-0015-023"
+        },
+        {
+            "label": "西暦",
+            "value": "1829"
+        },
+        {
+            "label": "和暦",
+            "value": "文政１２"
+        },
+        {
+            "label": "月日",
+            "value": "09・01"
+        },
+        {
+            "label": "地域",
+            "value": "江戸"
+        },
+        {
+            "label": "劇場",
+            "value": "河原崎座"
+        },
+        {
+            "label": "題種・題名",
+            "value": "菊月千種の夕暎"
+        },
+        {
+            "label": "題種・題名よみ",
+            "value": "きくづきちぐさのあかねぞめ"
+        },
+        {
+            "label": "刊写",
+            "value": "刊"
+        },
+        {
+            "label": "体裁",
+            "value": "一枚物。粘葉装仕立"
+        },
+        {
+            "label": "板元",
+            "value": "板元　田所丁　小川半助正"
+        },
+        {
+            "label": "親書誌",
+            "value": "[東京番付]"
+        },
+        {
+            "label": "大分類",
+            "value": "歌舞伎"
+        },
+        {
+            "label": "中分類",
+            "value": "番付"
+        },
+        {
+            "label": "小分類",
+            "value": "辻番付"
+        },
+        {
+            "label": "identifier",
+            "value": "fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "1794"
+        },
+        {
+            "label": "Title",
+            "value": "一谷嫩軍記"
+        },
+        {
+            "label": "元号",
+            "value": "文政"
+        },
+        {
+            "label": "月",
+            "value": "09"
+        },
+        {
+            "label": "日",
+            "value": "01"
+        },
+        {
+            "label": "統一劇場",
+            "value": "河原崎座"
+        }
+    ],
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/279225",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbc76ab2-87e7-4b86-8dd6-aec09c30a2b4/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/10715.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2048,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/10715.tif",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 3072
+                                },
+                                "width": 3072
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/10715.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/10715.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3072
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/af8e833f2c72d83b12622d8a91cfcda88863863c.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kuroki"
+}
