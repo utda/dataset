@@ -1,17 +1,17 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://iiif.io/api/presentation/2#> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
 @prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171989> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6231" ;
     ns5:sourceIdentifier "6-9-1" ;
     ns5:titleTranscription "シンコキン  ワカシュウ" ;
@@ -349,10 +349,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
     ns4:sort "6" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/57b196d2c652ebd63570a2a7499b411405fa2068.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/57b196d2c652ebd63570a2a7499b411405fa2068.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172005> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6396" ;
     ns5:sourceIdentifier "9-28-3" ;
     ns5:titleTranscription "ロンゴ シッカイ" ;
@@ -399,10 +399,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
     ns4:sort "33" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e7a5956b7392ee31a7235ee1f9b42534ad5766c0.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e7a5956b7392ee31a7235ee1f9b42534ad5766c0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171963> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4163" ;
     ns5:sourceIdentifier "9-31-16" ;
     ns5:titleTranscription "アリノママ" ;
@@ -535,10 +535,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171963/manifest> ;
     ns4:sort "35" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171963> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6c258b9872fa28d7331f320028232cf50068403d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6c258b9872fa28d7331f320028232cf50068403d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171964> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6062" ;
     ns5:sourceIdentifier "9-31-14" ;
     ns5:titleTranscription "ブンリン ミョウキン バンポウ ゼンショ" ;
@@ -1320,10 +1320,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171964/manifest> ;
     ns4:sort "36" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171964> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/42e43eaedcea0c58d99356bbe7e5e774ffa36316.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/42e43eaedcea0c58d99356bbe7e5e774ffa36316.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171965> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6056" ;
     ns5:sourceIdentifier "7-15-15" ;
     ns5:titleTranscription "ブンショウ  ソウシ" ;
@@ -1415,10 +1415,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171965/manifest> ;
     ns4:sort "23" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171965> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ae4261ac9b3cdea8d59391d6876676d6d29dbdfe.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ae4261ac9b3cdea8d59391d6876676d6d29dbdfe.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171966> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4192" ;
     ns5:sourceIdentifier "7-8-1" ;
     ns5:titleTranscription "チョウゴンカ  ズショウ" ;
@@ -1593,10 +1593,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171966/manifest> ;
     ns4:sort "17" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171966> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8e6a3d98535d5896a992aa9a119c8bece89ea9ba.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8e6a3d98535d5896a992aa9a119c8bece89ea9ba.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171967> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4210" ;
     ns5:sourceIdentifier "6-5-23" ;
     ns5:titleTranscription "ダイジャ" ;
@@ -1633,10 +1633,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171967/manifest> ;
     ns4:sort "66" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171967> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a74b31e61f959783d0cc9e2cd68046074549f7f9.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a74b31e61f959783d0cc9e2cd68046074549f7f9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171968> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6122" ;
     ns5:sourceIdentifier "6-15-13" ;
     ns5:titleTranscription "エンギシキ" ;
@@ -1695,10 +1695,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171968/manifest> ;
     ns4:sort "8" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171968> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16570fe6eb042804db95da674a63f4ef7bd38c93.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16570fe6eb042804db95da674a63f4ef7bd38c93.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171969> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5930" ;
     ns5:sourceIdentifier "3-4-19" ;
     ns5:titleTranscription "ガクセイヘン" ;
@@ -1775,10 +1775,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171969/manifest> ;
     ns4:sort "47" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171969> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0c62bac5bc6479d439d9f96a8e28fcc253ce7974.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0c62bac5bc6479d439d9f96a8e28fcc253ce7974.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171970> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5849" ;
     ns5:sourceIdentifier "3-5-4" ;
     ns5:titleTranscription "リュウナン ゲイキ" ;
@@ -1852,10 +1852,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171970/manifest> ;
     ns4:sort "48" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171970> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fc6ea3a39309083a5a5dc560ec23b335773f77bc.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fc6ea3a39309083a5a5dc560ec23b335773f77bc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171971> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6029" ;
     ns5:sourceIdentifier "3-2-2" ;
     ns5:titleTranscription "ゲンジ モノガタリ ハハキギ" ;
@@ -1963,10 +1963,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171971/manifest> ;
     ns4:sort "42" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171971> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/de0142ff0b3bb49bff2a40d1c6279314d6c55d4a.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/de0142ff0b3bb49bff2a40d1c6279314d6c55d4a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171972> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4214" ;
     ns5:sourceIdentifier "5-10-2" ;
     ns5:titleTranscription "ゲンジ" ;
@@ -2005,10 +2005,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171972/manifest> ;
     ns4:sort "60" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171972> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c3a6cae1609455955071036ac178ad1b7ada964f.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c3a6cae1609455955071036ac178ad1b7ada964f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171973> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6406" ;
     ns5:sourceIdentifier "6-32-20" ;
     ns5:titleTranscription "ヒシセツ" ;
@@ -2041,10 +2041,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171973/manifest> ;
     ns4:sort "16" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171973> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cf68a50838e4e72cf58899d01b53c33c097d0c04.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cf68a50838e4e72cf58899d01b53c33c097d0c04.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171974> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6275" ;
     ns5:sourceIdentifier "8-8-2" ;
     ns5:titleTranscription "ヒャッキ ヤコウズ" ;
@@ -2088,10 +2088,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171974/manifest> ;
     ns4:sort "29" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171974> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/70ee406f0a722e96295858d115af56f2b70b6713.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/70ee406f0a722e96295858d115af56f2b70b6713.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171975> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4202" ;
     ns5:sourceIdentifier "7-9-5" ;
     ns5:titleTranscription "イチヨウショウ" ;
@@ -2219,10 +2219,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171975/manifest> ;
     ns4:sort "18" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171975> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/74d065ff9bad2c3fec2dace6198d6e1196cb1266.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/74d065ff9bad2c3fec2dace6198d6e1196cb1266.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171976> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4089" ;
     ns5:sourceIdentifier "3-14-21" ;
     ns5:titleTranscription "イマ　ワ　ムカシ" ;
@@ -2277,10 +2277,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171976/manifest> ;
     ns4:sort "51" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171976> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ef82bc6e7c96d3eb0d4c497276d794d54cabf51.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ef82bc6e7c96d3eb0d4c497276d794d54cabf51.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171977> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4294" ;
     ns5:sourceIdentifier "4-9-24" ;
     ns5:titleTranscription "イヌツクバシュウ" ;
@@ -2350,10 +2350,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171977/manifest> ;
     ns4:sort "54" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171977> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5b0f5c443e81eb74a59493c0673b0f5c33e586c3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5b0f5c443e81eb74a59493c0673b0f5c33e586c3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171978> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4245" ;
     ns5:sourceIdentifier "5-10-11" ;
     ns5:titleTranscription "ジョウド サンタンキ ナラビ ニ オハラ モンドウ" ;
@@ -2398,10 +2398,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171978/manifest> ;
     ns4:sort "61" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171978> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c064b5b44c6d43b46671c1f11787fbb2651384df.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c064b5b44c6d43b46671c1f11787fbb2651384df.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171979> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6470" ;
     ns5:sourceIdentifier "6-31-3" ;
     ns5:titleTranscription "カデン  ツウガイホウ" ;
@@ -2525,10 +2525,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171979/manifest> ;
     ns4:sort "10" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171979> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3d90955e10b222feeaabcd72726b44ca46fb5a7c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3d90955e10b222feeaabcd72726b44ca46fb5a7c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171980> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6553" ;
     ns5:sourceIdentifier "9-27-7" ;
     ns5:titleTranscription "カイタイ ヤクズ" ;
@@ -2558,10 +2558,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171980/manifest> ;
     ns4:sort "30" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171980> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/729afcfd968827f9e7f7b2727f6ad297e8540077.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/729afcfd968827f9e7f7b2727f6ad297e8540077.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171981> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4252" ;
     ns5:sourceIdentifier "6-4-8" ;
     ns5:titleTranscription "カバ ノ オンゾウシ アズマ ノ ドウカ" ;
@@ -2602,10 +2602,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171981/manifest> ;
     ns4:sort "65" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171981> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8668f5cbe12b8fd161e0f5d4473b16b10efe23c0.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8668f5cbe12b8fd161e0f5d4473b16b10efe23c0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171982> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6477" ;
     ns5:sourceIdentifier "6-31-4" ;
     ns5:titleTranscription "カンレイ  ソウキュウ  シンショウ" ;
@@ -2707,10 +2707,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171982/manifest> ;
     ns4:sort "11" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171982> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/374dfb21ffd60bc238d3e625f0e60601fd05d77d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/374dfb21ffd60bc238d3e625f0e60601fd05d77d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171983> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4253" ;
     ns5:sourceIdentifier "3-33-7" ;
     ns5:titleTranscription "シマバラ ミエク ノ モンビ" ;
@@ -2747,10 +2747,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171983/manifest> ;
     ns4:sort "53" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171983> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/deba1d4284cccb95802cfa268ae5476bf09cc2b3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/deba1d4284cccb95802cfa268ae5476bf09cc2b3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171984> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6468" ;
     ns5:sourceIdentifier "5-10-7" ;
     ns5:titleTranscription "ケイクセツ" ;
@@ -2901,10 +2901,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171984/manifest> ;
     ns4:sort "62" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171984> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c87b05ec9374ab59c470665141bca140d959fe56.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c87b05ec9374ab59c470665141bca140d959fe56.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171985> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6552" ;
     ns5:sourceIdentifier "6-7-12" ;
     ns5:titleTranscription "ケンゴウ" ;
@@ -2976,10 +2976,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171985/manifest> ;
     ns4:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171985> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/80940f167adbea1eee646cfe843fb5766f2c1275.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/80940f167adbea1eee646cfe843fb5766f2c1275.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171986> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5957" ;
     ns5:sourceIdentifier "6-8-17" ;
     ns5:titleTranscription "キンセイ  キセキコウ" ;
@@ -3112,10 +3112,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171986/manifest> ;
     ns4:sort "4" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171986> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db6f075fb973f6c314b3c38aaa2f736d6aeb26d9.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db6f075fb973f6c314b3c38aaa2f736d6aeb26d9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171987> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6284" ;
     ns5:sourceIdentifier "6-5-22" ;
     ns5:titleTranscription "コアツモリ" ;
@@ -3152,10 +3152,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171987/manifest> ;
     ns4:sort "67" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171987> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6f7176ba99cbc69ba7a2e7f261a906e0ddefa3b1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6f7176ba99cbc69ba7a2e7f261a906e0ddefa3b1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171988> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6051" ;
     ns5:sourceIdentifier "8-9-6" ;
     ns5:titleTranscription "コアツモリ" ;
@@ -3204,10 +3204,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171988/manifest> ;
     ns4:sort "39" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171988> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f1e234fe33953835d87be2a8f0e58913c1c352ba.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f1e234fe33953835d87be2a8f0e58913c1c352ba.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171990> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5871" ;
     ns5:sourceIdentifier "3-5-13" ;
     ns5:titleTranscription "コウコウロク" ;
@@ -3272,10 +3272,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171990/manifest> ;
     ns4:sort "49" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171990> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a6dd15f17241b3ef620f27aeb5b3b5f1b20263dd.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a6dd15f17241b3ef620f27aeb5b3b5f1b20263dd.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171991> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4013" ;
     ns5:sourceIdentifier "3-4-11" ;
     ns5:titleTranscription "ホンチョウ コクシ モクロク ; ホンチョウ ホウカ モンジョ モクロク" ;
@@ -3328,10 +3328,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171991/manifest> ;
     ns4:sort "43" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171991> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/83378e737107fcdd10be25c1a235458d001e4a14.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/83378e737107fcdd10be25c1a235458d001e4a14.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171992> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6483" ;
     ns5:sourceIdentifier "6-31-7" ;
     ns5:titleTranscription "コウミンスイ" ;
@@ -3564,10 +3564,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171992/manifest> ;
     ns4:sort "12" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171992> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3051d4ce9b67e9d94cdd122495305ba6280ab439.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3051d4ce9b67e9d94cdd122495305ba6280ab439.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171993> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6300" ;
     ns5:sourceIdentifier "6-8-8" ;
     ns5:titleTranscription "コウモンドウ チョゾウ ショモク" ;
@@ -3889,10 +3889,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171993/manifest> ;
     ns4:sort "68" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171993> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/154b3e0636e6e70da1a77a2eb8a61aaf6458468f.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/154b3e0636e6e70da1a77a2eb8a61aaf6458468f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171994> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6509" ;
     ns5:sourceIdentifier "5-13-1" ;
     ns5:titleTranscription "クリサキ モンジョ" ;
@@ -3924,10 +3924,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171994/manifest> ;
     ns4:sort "64" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171994> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/61147ff400d760c58a6e43df8940f277a3b1ce6c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/61147ff400d760c58a6e43df8940f277a3b1ce6c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171995> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4247" ;
     ns5:sourceIdentifier "4-13-10" ;
     ns5:titleTranscription "クズハ ドウシン" ;
@@ -3969,10 +3969,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171995/manifest> ;
     ns4:sort "57" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171995> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2babbf17f822cdaa2752873e2456ed87a9d0b229.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2babbf17f822cdaa2752873e2456ed87a9d0b229.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171996> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5915" ;
     ns5:sourceIdentifier "3-4-24" ;
     ns5:titleTranscription "キュウコウ ホンゾウ キブン" ;
@@ -4061,10 +4061,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171996/manifest> ;
     ns4:sort "44" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171996> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bcd01f3ce128c85c76d3f3bfaa96e14ba7ca043.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bcd01f3ce128c85c76d3f3bfaa96e14ba7ca043.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171997> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5921" ;
     ns5:sourceIdentifier "3-4-26" ;
     ns5:titleTranscription "シュウテイオウ キュウコウ ホンゾウ ワメイセン" ;
@@ -4123,10 +4123,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171997/manifest> ;
     ns4:sort "46" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171997> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0d207a6239561800fdfa7944ead9e63c207349f3.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0d207a6239561800fdfa7944ead9e63c207349f3.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171998> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5916" ;
     ns5:sourceIdentifier "3-4-25" ;
     ns5:titleTranscription "キュウコウ ヤフ キブン" ;
@@ -4232,10 +4232,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171998/manifest> ;
     ns4:sort "45" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171998> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d605c54975529ffbc09d2e88c73aaeac2375c75c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d605c54975529ffbc09d2e88c73aaeac2375c75c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171999> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6390" ;
     ns5:sourceIdentifier "3-13-10" ;
     ns5:titleTranscription "モクズ" ;
@@ -4431,10 +4431,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/171999/manifest> ;
     ns4:sort "50" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/171999> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/930f1a8036aea151b20a78e6b1c644f61277f02b.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/930f1a8036aea151b20a78e6b1c644f61277f02b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172000> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6516" ;
     ns5:sourceIdentifier "6-31-6" ;
     ns5:titleTranscription "ミャクケツ" ;
@@ -4483,10 +4483,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172000/manifest> ;
     ns4:sort "15" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172000> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5f64aaf2f0be538bc422782b226488664bbb3c0.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5f64aaf2f0be538bc422782b226488664bbb3c0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172001> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "E24:1310" ;
     ns5:sourceIdentifier "6-15-22" ;
     ns5:titleTranscription "ネコ  ノ  コ  ノ  コネコ" ;
@@ -4524,10 +4524,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172001/manifest> ;
     ns4:sort "9" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172001> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/34ade0bb37ba6da7423325744e67b3255f8ba497.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/34ade0bb37ba6da7423325744e67b3255f8ba497.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172002> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6567" ;
     ns5:sourceIdentifier "9-27-5" ;
     ns5:titleTranscription "ネンジュウ ギョウジ ノ ズ" ;
@@ -4579,10 +4579,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172002/manifest> ;
     ns4:sort "31" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172002> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1b1e4567f2b805fa34978819e1d7a8e5c87cc542.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1b1e4567f2b805fa34978819e1d7a8e5c87cc542.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172003> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4083" ;
     ns5:sourceIdentifier "5-12-8" ;
     ns5:titleTranscription "オチクボ モノガタリ" ;
@@ -4637,10 +4637,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172003/manifest> ;
     ns4:sort "63" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172003> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/babe9299e6f217b3c1a43b73650b447fa537ea1c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/babe9299e6f217b3c1a43b73650b447fa537ea1c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172004> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6555" ;
     ns5:sourceIdentifier "2-35-1" ;
     ns5:titleTranscription "リクシ コウジツ" ;
@@ -4738,10 +4738,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172004/manifest> ;
     ns4:sort "69" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172004> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c1efe63deb31f772c2d3ec10979294212b5ee777.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c1efe63deb31f772c2d3ec10979294212b5ee777.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172007> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6295" ;
     ns5:sourceIdentifier "7-15-20" ;
     ns5:titleTranscription "ロウシ" ;
@@ -4834,10 +4834,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172007/manifest> ;
     ns4:sort "24" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172007> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/137f695d2b42d95d1b2704fa294c20c79ee24eb5.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/137f695d2b42d95d1b2704fa294c20c79ee24eb5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172008> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4291" ;
     ns5:sourceIdentifier "10-4-4" ;
     ns5:titleTranscription "リュウキュウ ゾウトウ" ;
@@ -4910,10 +4910,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172008/manifest> ;
     ns4:sort "37" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172008> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2eac86e4d92be9060957c38446d2a27954692da2.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2eac86e4d92be9060957c38446d2a27954692da2.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172009> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4100" ;
     ns5:sourceIdentifier "5-3-21" ;
     ns5:titleTranscription "サツマ ダユウ シバイズコウ" ;
@@ -4944,10 +4944,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172009/manifest> ;
     ns4:sort "58" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172009> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd21077928acc6a41da573d0c5319395cb9b2e4d.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd21077928acc6a41da573d0c5319395cb9b2e4d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172010> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5846" ;
     ns5:sourceIdentifier "7-22-17" ;
     ns5:titleTranscription "サズイシ ショウショウ ズセツ" ;
@@ -4991,10 +4991,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172010/manifest> ;
     ns4:sort "28" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172010> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/230e3056b8de62819732472addd1456a1b1ceb83.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/230e3056b8de62819732472addd1456a1b1ceb83.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172011> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4011" ;
     ns5:sourceIdentifier "9-11-1" ;
     ns5:titleTranscription "シンゴン ダラニ" ;
@@ -5067,10 +5067,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172011/manifest> ;
     ns4:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172011> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/93b6ba1757df60b8d1d7165c0d8bf731126f3d31.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/93b6ba1757df60b8d1d7165c0d8bf731126f3d31.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172013> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6110" ;
     ns5:sourceIdentifier "2-7-3" ;
     ns5:titleTranscription "シシュ コウ" ;
@@ -5101,10 +5101,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172013/manifest> ;
     ns4:sort "41" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172013> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6912452c5c0b8e147259f89dce2c6032ea6063c8.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6912452c5c0b8e147259f89dce2c6032ea6063c8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172014> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6135" ;
     ns5:sourceIdentifier "6-11-5" ;
     ns5:titleTranscription "ショウキュウキ" ;
@@ -5201,10 +5201,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172014/manifest> ;
     ns4:sort "7" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172014> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a87f6add2ef235bf25f9d5a0b9478ed20057aba1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a87f6add2ef235bf25f9d5a0b9478ed20057aba1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172015> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5841" ;
     ns5:sourceIdentifier "4-11-12" ;
     ns5:titleTranscription "ショウセツ" ;
@@ -5235,10 +5235,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172015/manifest> ;
     ns4:sort "55" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172015> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/de530a20ea2c07f1b518c88537f40ff729aa95e6.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/de530a20ea2c07f1b518c88537f40ff729aa95e6.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172016> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5877" ;
     ns5:sourceIdentifier "7-13-2" ;
     ns5:titleTranscription "ショシ カイヨウ オヨビ ホイ" ;
@@ -5519,10 +5519,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172016/manifest> ;
     ns4:sort "21" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172016> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/33b9985855ef89996c0ac962294dcee7d1cdbb84.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/33b9985855ef89996c0ac962294dcee7d1cdbb84.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172017> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5907" ;
     ns5:sourceIdentifier "9-29-14" ;
     ns5:titleTranscription "シュウヨウショウ" ;
@@ -5746,10 +5746,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172017/manifest> ;
     ns4:sort "34" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172017> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7671d4492a4077dab2b6c5dbb697814275cfa0d5.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7671d4492a4077dab2b6c5dbb697814275cfa0d5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172018> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6488" ;
     ns5:sourceIdentifier "6-31-8" ;
     ns5:titleTranscription "シンセツ  スウヨウ" ;
@@ -5807,10 +5807,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172018/manifest> ;
     ns4:sort "13" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172018> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f0beb571fef1e177a2abb7798fcae7b7a8f2bdd4.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f0beb571fef1e177a2abb7798fcae7b7a8f2bdd4.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172019> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5796" ;
     ns5:sourceIdentifier "6-9-2" ;
     ns5:titleTranscription "ソガ  モノガタリ" ;
@@ -6464,10 +6464,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172019/manifest> ;
     ns4:sort "5" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172019> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b7027d541111447fd97b1074b1db765aff1c1e7.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b7027d541111447fd97b1074b1db765aff1c1e7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172020> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6433" ;
     ns5:sourceIdentifier "4-11-8" ;
     ns5:titleTranscription "ソノ キヌタ" ;
@@ -6563,10 +6563,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172020/manifest> ;
     ns4:sort "56" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172020> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14fce2cb5b22d61c895129f84aefe5d8a48e9e2c.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14fce2cb5b22d61c895129f84aefe5d8a48e9e2c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172021> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4015" ;
     ns5:sourceIdentifier "5-9-4" ;
     ns5:titleTranscription "テイキン オウライ コチュウ" ;
@@ -6646,10 +6646,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172021/manifest> ;
     ns4:sort "59" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172021> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/96aff69b579563b80c26a2799023296cdc27fa69.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/96aff69b579563b80c26a2799023296cdc27fa69.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172022> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:5770" ;
     ns5:sourceIdentifier "7-15-16" ;
     ns5:titleTranscription "テンジンキ" ;
@@ -6685,10 +6685,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172022/manifest> ;
     ns4:sort "22" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172022> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/15158cd4065954556ac6f12f59e7cf7df45729e6.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/15158cd4065954556ac6f12f59e7cf7df45729e6.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172023> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6112" ;
     ns5:sourceIdentifier "7-20-1" ;
     ns5:titleTranscription "テンモク チュウホウ オショウ コウロク" ;
@@ -7521,10 +7521,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172023/manifest> ;
     ns4:sort "27" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172023> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a3326d7ec620471349ba29dd9dfca64a1756c2df.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a3326d7ec620471349ba29dd9dfca64a1756c2df.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172024> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4064" ;
     ns5:sourceIdentifier "7-18-7" ;
     ns5:titleTranscription "トウエイザン カイサン ジゲン ダイシ エンギ" ;
@@ -7592,10 +7592,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172024/manifest> ;
     ns4:sort "26" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172024> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0dd51a519ed3a06df7c34ce6cd31e11c71330d22.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0dd51a519ed3a06df7c34ce6cd31e11c71330d22.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172025> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4160" ;
     ns5:sourceIdentifier "6-8-7" ;
     ns5:titleTranscription "トナゴキ" ;
@@ -7632,10 +7632,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172025/manifest> ;
     ns4:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172025> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/63c695296cd0eac97ba7fd0d187ff16c2a08536e.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/63c695296cd0eac97ba7fd0d187ff16c2a08536e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172026> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6334" ;
     ns5:sourceIdentifier "7-16-5" ;
     ns5:titleTranscription "ツキヒ ノ ホンジ" ;
@@ -7697,10 +7697,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172026/manifest> ;
     ns4:sort "25" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172026> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/51004ac9dc71f52db7cc505c3b6f263aa4976374.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/51004ac9dc71f52db7cc505c3b6f263aa4976374.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172027> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6469" ;
     ns5:sourceIdentifier "7-11-11" ;
     ns5:titleTranscription "シンケイ ウンリン シンコウ" ;
@@ -7870,10 +7870,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172027/manifest> ;
     ns4:sort "20" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172027> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8bbc3edc8fad2ef22277878824f2eaff16fa9cbc.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8bbc3edc8fad2ef22277878824f2eaff16fa9cbc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172028> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6412" ;
     ns5:sourceIdentifier "3-31-13" ;
     ns5:titleTranscription "シンジン ギユイド ハッキョ ノ イン ニ ワス" ;
@@ -7914,10 +7914,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172028/manifest> ;
     ns4:sort "52" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172028> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b985b95f5fbe4de37b93709d7af99ff43d1f07ee.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b985b95f5fbe4de37b93709d7af99ff43d1f07ee.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172029> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4131" ;
     ns5:sourceIdentifier "7-11-21" ;
     ns5:titleTranscription "ヨシツネ イチダイキ ダイニテツ クラマヤマ" ;
@@ -7952,10 +7952,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172029/manifest> ;
     ns4:sort "19" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172029> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5b3f01f959f47bd23ab3dbeceeff7778bd219109.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5b3f01f959f47bd23ab3dbeceeff7778bd219109.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172030> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6138" ;
     ns5:sourceIdentifier "10-16-23" ;
     ns5:titleTranscription "イマカガミ" ;
@@ -8038,10 +8038,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172030/manifest> ;
     ns4:sort "38" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172030> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5de73de2c05e454f1e155c6fc3c06b918aabf80b.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5de73de2c05e454f1e155c6fc3c06b918aabf80b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172031> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6513" ;
     ns5:sourceIdentifier "6-31-5" ;
     ns5:titleTranscription "しんかんぶっちょうしぞっかいはちじゅういちなんけい" ;
@@ -8268,7 +8268,7 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172031/manifest> ;
     ns4:sort "14" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172031> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/885eca8d8fbe6d587d01eecbb324b8d5bb1ca3c5.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/885eca8d8fbe6d587d01eecbb324b8d5bb1ca3c5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/172032> ns1:id 172032 .
 
@@ -21807,7 +21807,7 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/178799> ns1:id 178799 .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:4595" ;
     ns5:sourceIdentifier "9-28-4" ;
     ns5:titleTranscription "ロンゴ シッカイ" ;
@@ -21957,10 +21957,10 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172006/manifest> ;
     ns4:sort "32" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172006> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/41eb76861f1fa798a1d5171dc92692b9b43d1544.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/41eb76861f1fa798a1d5171dc92692b9b43d1544.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> a ns1:Item ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns3:viewingDirection ns3:rightToLeftDirection ;
     ns5:callNumber "A00:6326" ;
     ns5:sourceIdentifier "6-13-6" ;
     ns5:titleTranscription "シンコキン  ワカシュウ" ;
@@ -22210,7 +22210,7 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/172012/manifest> ;
     ns4:sort "40" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/172012> ;
-    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fd1707b8afc740a3f2d51e380cfa4985b7221efd.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fd1707b8afc740a3f2d51e380cfa4985b7221efd.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/171962> ns1:id 171962 .
 
