@@ -1,0 +1,47 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/275150",
+    "@type": "o:ItemSet",
+    "bibo:identifier": [
+        {
+            "@value": "genji",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "源氏物語",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-04-10T06:13:18+00:00"
+    },
+    "o:id": 275150,
+    "o:is_open": false,
+    "o:is_public": true,
+    "o:items": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items?item_set_id=275150"
+    },
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-04-11T04:15:31+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
+        "o:id": 3
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/22",
+        "o:id": 22
+    },
+    "o:thumbnail": null
+}

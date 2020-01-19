@@ -1,0 +1,69 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/5",
+    "@type": "o:ResourceTemplate",
+    "o:id": 5,
+    "o:label": "matsunami",
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
+        "o:id": 3
+    },
+    "o:resource_class": null,
+    "o:resource_template_property": [
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "タイトル",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/1",
+                "o:id": 1
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "請求記号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/239",
+                "o:id": 239
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "所蔵",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/190",
+                "o:id": 190
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "編者",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/6",
+                "o:id": 6
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "サイズ",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/25",
+                "o:id": 25
+            }
+        }
+    ]
+}

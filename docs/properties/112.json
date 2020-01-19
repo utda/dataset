@@ -1,0 +1,14 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/112",
+    "@type": "o:Property",
+    "o:comment": "A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties.",
+    "o:id": 112,
+    "o:label": "pages",
+    "o:local_name": "pages",
+    "o:term": "bibo:pages",
+    "o:vocabulary": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/vocabularies/3",
+        "o:id": 3
+    }
+}

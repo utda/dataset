@@ -1,0 +1,65 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/5",
+    "@type": "o:ItemSet",
+    "dcterms:description": [
+        {
+            "@value": "藤原公任の「三十六人選」に選ばれている歌人の和歌から一人一首ずつを選び、その歌人名と和歌について、大田南畝が染筆した絵巻です。",
+            "is_public": true,
+            "property_id": 4,
+            "property_label": "Description",
+            "type": "literal"
+        }
+    ],
+    "dcterms:extent": [
+        {
+            "@value": "1点",
+            "is_public": true,
+            "property_id": 25,
+            "property_label": "Extent",
+            "type": "literal"
+        }
+    ],
+    "dcterms:identifier": [
+        {
+            "@value": "kasen",
+            "is_public": true,
+            "property_id": 10,
+            "property_label": "Identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "三十六歌撰絵巻",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-06T01:12:45+00:00"
+    },
+    "o:id": 5,
+    "o:is_open": false,
+    "o:is_public": true,
+    "o:items": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items?item_set_id=5"
+    },
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-04-07T15:28:30+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/2",
+        "o:id": 2
+    },
+    "o:thumbnail": null
+}

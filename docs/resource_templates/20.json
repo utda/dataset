@@ -1,0 +1,875 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+    "@type": "o:ResourceTemplate",
+    "o:id": 20,
+    "o:label": "piranesi",
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+        "o:id": 26
+    },
+    "o:resource_template_property": [
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Title",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/1",
+                "o:id": 1
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Title",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/456",
+                "o:id": 456
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "作品タイトル [Title ]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/458",
+                "o:id": 458
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Author ",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/404",
+                "o:id": 404
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "作者名 [Author]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/405",
+                "o:id": 405
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Opera",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/440",
+                "o:id": 440
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "複数シリーズ構成の作品集名 [Opera]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/441",
+                "o:id": 441
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Series Title",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/448",
+                "o:id": 448
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "シリーズタイトル [Series Title]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/449",
+                "o:id": 449
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Part Number／シリーズ内番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/453",
+                "o:id": 453
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Part",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/442",
+                "o:id": 442
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "シリーズ内の部 [Part]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/443",
+                "o:id": 443
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Inscription 1",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/427",
+                "o:id": 427
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "版画銘文・版刻文1 [Inscription 1]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/428",
+                "o:id": 428
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "版画銘文・版刻文1の訳注",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/460",
+                "o:id": 460
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Inscription 2",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/429",
+                "o:id": 429
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "版画銘文・版刻文2 [Inscription  2]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/430",
+                "o:id": 430
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "版画銘文・版刻文2の訳注",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/461",
+                "o:id": 461
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Signature",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/450",
+                "o:id": 450
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "銘記・署名 [Signature]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/451",
+                "o:id": 451
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Volume／巻番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/462",
+                "o:id": 462
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Plate／葉番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/445",
+                "o:id": 445
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Kamei Collection Number／亀井文庫番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/431",
+                "o:id": 431
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Firmin-Didot Number／Firmin-Didotレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/414",
+                "o:id": 414
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Negative Film Number／ネガ記載番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/439",
+                "o:id": 439
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Image Number／画像シリアル番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/424",
+                "o:id": 424
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Image Size／画像実寸",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/425",
+                "o:id": 425
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Plate Size／プレート実寸",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/446",
+                "o:id": 446
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "図版に関する補足",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/438",
+                "o:id": 438
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Calcografia volume number／Calcografia巻番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/459",
+                "o:id": 459
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Calcografia Number／Calcografiaレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/406",
+                "o:id": 406
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "H.Focillon Number／H.Focillonレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/418",
+                "o:id": 418
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "H.Focillon's description",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/416",
+                "o:id": 416
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "H.Focillon記述 [H.Focillon's description]",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/417",
+                "o:id": 417
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "H.Focillonによる記述_備考",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/419",
+                "o:id": 419
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "J.W.Ely Number／J.W.Elyレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/464",
+                "o:id": 464
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "J.W.Ely's Title",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/465",
+                "o:id": 465
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "J.W.Ely's description",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/463",
+                "o:id": 463
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Taschen Number／Taschenレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/452",
+                "o:id": 452
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Hind Number／Hindレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/420",
+                "o:id": 420
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Robison Number／Robisonレゾネ番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/447",
+                "o:id": 447
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "The Museum of Modern Art, Kamakura & Hayama Catalog Number",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/432",
+                "o:id": 432
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Machida City Museum of Graphic Arts Catalog Number",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/436",
+                "o:id": 436
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "CIL Number／CIL番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/408",
+                "o:id": 408
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "ILS Number／ILS番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/423",
+                "o:id": 423
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Imagines Number／Imagines番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/426",
+                "o:id": 426
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "Latin cf Number／その他のラテン碑文参考文献番号",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/435",
+                "o:id": 435
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "keyword／欧文索引語",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/433",
+                "o:id": 433
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "keyword／和文索引語",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/434",
+                "o:id": 434
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": "collection",
+            "o:data_type": null,
+            "o:is_private": false,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/474",
+                "o:id": 474
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/466",
+                "o:id": 466
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/482",
+                "o:id": 482
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/480",
+                "o:id": 480
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/469",
+                "o:id": 469
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/479",
+                "o:id": 479
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/477",
+                "o:id": 477
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/475",
+                "o:id": 475
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/409",
+                "o:id": 409
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/470",
+                "o:id": 470
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/410",
+                "o:id": 410
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/411",
+                "o:id": 411
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/472",
+                "o:id": 472
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/484",
+                "o:id": 484
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/485",
+                "o:id": 485
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/412",
+                "o:id": 412
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/413",
+                "o:id": 413
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/415",
+                "o:id": 415
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/421",
+                "o:id": 421
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/422",
+                "o:id": 422
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/476",
+                "o:id": 476
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/437",
+                "o:id": 437
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/444",
+                "o:id": 444
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/481",
+                "o:id": 481
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/454",
+                "o:id": 454
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/455",
+                "o:id": 455
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/483",
+                "o:id": 483
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/468",
+                "o:id": 468
+            }
+        },
+        {
+            "o:alternate_comment": null,
+            "o:alternate_label": null,
+            "o:data_type": null,
+            "o:is_private": true,
+            "o:is_required": false,
+            "o:property": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/properties/467",
+                "o:id": 467
+            }
+        }
+    ]
+}
