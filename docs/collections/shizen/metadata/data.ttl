@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -11,8 +11,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71951 ;
     ns1:is_public true ;
@@ -65,23 +65,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/4bdb27bb-a217-4ed4-8710-3c01c007b26c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "大序" ;
-    ns5:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4bdb27bb-a217-4ed4-8710-3c01c007b26c/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/4bdb27bb-a217-4ed4-8710-3c01c007b26c> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "大序" ;
+    ns4:identifier "4bdb27bb-a217-4ed4-8710-3c01c007b26c" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4bdb27bb-a217-4ed4-8710-3c01c007b26c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71951> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fab3348348202bfac9482d81f54f3c8438bef9b7.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fab3348348202bfac9482d81f54f3c8438bef9b7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71952 ;
     ns1:is_public true ;
@@ -151,23 +151,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/97e28457-a2b7-40ec-87d0-f976de8fe10a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第一 私制字書巻一" ;
-    ns5:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/97e28457-a2b7-40ec-87d0-f976de8fe10a> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第一 私制字書巻一" ;
+    ns4:identifier "97e28457-a2b7-40ec-87d0-f976de8fe10a" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71952> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4dfa173d682153131fc1c396cfe9f96f3dc850b2.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4dfa173d682153131fc1c396cfe9f96f3dc850b2.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71953 ;
     ns1:is_public true ;
@@ -237,23 +237,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/9cbddbf1-73e1-4d14-a5be-236efa6784e0> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第二 私制字書巻二" ;
-    ns5:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/9cbddbf1-73e1-4d14-a5be-236efa6784e0> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第二 私制字書巻二" ;
+    ns4:identifier "9cbddbf1-73e1-4d14-a5be-236efa6784e0" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71953> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9af91336c958a76cfa29063044d482382bfe6822.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9af91336c958a76cfa29063044d482382bfe6822.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71954 ;
     ns1:is_public true ;
@@ -324,23 +324,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/25825360-d6e9-4b5a-8d29-8229e6fb7848> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第三 私制字書巻三" ;
-    ns5:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/25825360-d6e9-4b5a-8d29-8229e6fb7848> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第三 私制字書巻三" ;
+    ns4:identifier "25825360-d6e9-4b5a-8d29-8229e6fb7848" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71954> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5baf5d3e778299ed94463314ecd4e5b72ba30d9.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5baf5d3e778299ed94463314ecd4e5b72ba30d9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71955 ;
     ns1:is_public true ;
@@ -408,23 +408,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/8cde7a41-3043-4bb8-a9ab-d89a63d74302> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第四 私制儒書巻一" ;
-    ns5:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/8cde7a41-3043-4bb8-a9ab-d89a63d74302> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第四 私制儒書巻一" ;
+    ns4:identifier "8cde7a41-3043-4bb8-a9ab-d89a63d74302" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71955> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1f9bf6a619b63ce1bcfba7be4f62d98e73c3c74.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1f9bf6a619b63ce1bcfba7be4f62d98e73c3c74.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:22+00:00"^^xsd:dateTime ;
     ns1:id 71956 ;
     ns1:is_public true ;
@@ -491,23 +491,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/2c0edd09-f4f7-400a-9aa9-506f6a020281> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第五 私制儒書巻二" ;
-    ns5:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/2c0edd09-f4f7-400a-9aa9-506f6a020281> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第五 私制儒書巻二" ;
+    ns4:identifier "2c0edd09-f4f7-400a-9aa9-506f6a020281" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71956> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eb3146c41ca3e97ed00dc507eec519bf34e5aae7.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eb3146c41ca3e97ed00dc507eec519bf34e5aae7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71957 ;
     ns1:is_public true ;
@@ -575,23 +575,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/1a8618bf-1552-41a1-ac31-14b55adaa85d> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第六 私制儒書巻三" ;
-    ns5:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a8618bf-1552-41a1-ac31-14b55adaa85d/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/1a8618bf-1552-41a1-ac31-14b55adaa85d> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第六 私制儒書巻三" ;
+    ns4:identifier "1a8618bf-1552-41a1-ac31-14b55adaa85d" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a8618bf-1552-41a1-ac31-14b55adaa85d/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71957> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/548bf46717a366f721480a2b5b5ad41dfea1ec95.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/548bf46717a366f721480a2b5b5ad41dfea1ec95.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71958 ;
     ns1:is_public true ;
@@ -654,23 +654,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第七 私制仏書巻" ;
-    ns5:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第七 私制仏書巻" ;
+    ns4:identifier "29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71958> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05ef88dddc8653bfe5868076f720fa2e5802d2d9.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05ef88dddc8653bfe5868076f720fa2e5802d2d9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71959 ;
     ns1:is_public true ;
@@ -726,23 +726,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/cd7d22a0-dde1-4372-bf51-2aede101d8ea> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第八 私制韻鑑巻" ;
-    ns5:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/cd7d22a0-dde1-4372-bf51-2aede101d8ea> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第八 私制韻鑑巻" ;
+    ns4:identifier "cd7d22a0-dde1-4372-bf51-2aede101d8ea" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71959> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a032711b94b5be22a664c72ea1322189e7cb6ce5.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a032711b94b5be22a664c72ea1322189e7cb6ce5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71960 ;
     ns1:is_public true ;
@@ -795,23 +795,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/da743702-fefc-41a8-a5e7-f6e737303f49> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第九 私法神書巻上" ;
-    ns5:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/da743702-fefc-41a8-a5e7-f6e737303f49> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第九 私法神書巻上" ;
+    ns4:identifier "da743702-fefc-41a8-a5e7-f6e737303f49" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71960> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/80835f6f48a62f69edc43133c9d42928a55cc60f.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/80835f6f48a62f69edc43133c9d42928a55cc60f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71961 ;
     ns1:is_public true ;
@@ -863,23 +863,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/23f8bc9f-7395-4561-bb43-b660eec7391c> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第二十四 私法世物語巻" ;
-    ns5:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23f8bc9f-7395-4561-bb43-b660eec7391c/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/23f8bc9f-7395-4561-bb43-b660eec7391c> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第二十四 私法世物語巻" ;
+    ns4:identifier "23f8bc9f-7395-4561-bb43-b660eec7391c" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23f8bc9f-7395-4561-bb43-b660eec7391c/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71961> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97c7970aae3144af3315620d9e743601bebe24b7.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97c7970aae3144af3315620d9e743601bebe24b7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71962 ;
     ns1:is_public true ;
@@ -929,23 +929,23 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/e2b05760-42c2-4677-ba94-df95d960c42a> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "第二十五 真道哲論巻" ;
-    ns5:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/e2b05760-42c2-4677-ba94-df95d960c42a> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "第二十五 真道哲論巻" ;
+    ns4:identifier "e2b05760-42c2-4677-ba94-df95d960c42a" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71962> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1e65be02825bc66f99c738a7394e19861c50cc40.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1e65be02825bc66f99c738a7394e19861c50cc40.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
     ns1:created "2018-06-20T10:25:23+00:00"^^xsd:dateTime ;
     ns1:id 71963 ;
     ns1:is_public true ;
@@ -972,18 +972,18 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/11> ;
-    ns2:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
+    ns6:description """　稿本「自然真営道」は、江戸中期の思想家である安藤昌益（1703～1762）の主著で、昌益独自の思想世界が展開されており、その斬新さは日本思想史において特筆すべきものであるといわれています。（他に、刊本「自然真営道」（三巻三冊）が伝来していますので、このような言い方がされます。）\r
 　もと百一巻九十三冊からなっていたものを、大正１２年（1923）に東京帝国大学附属図書館が購入しましたが、関東大震災によりその大部分が焼失してしまいました。たまたま、貸出されていて焼失を免れた十二巻十二冊が、現在貴重図書として東京大学附属図書館に収蔵されています。\r
 　さらに、近年になって稿本の表紙の中から発見された草稿類が、残巻として稿本の一部に収められています。なお、現存する稿本「自然真営道」は、東京大学のほかに慶応義塾大学図書館に三巻三冊（三十五巻～三十七巻）があります。""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/7024d39c-59dd-40e4-b47a-b8956348d240> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "残巻 断簡" ;
-    ns5:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
-    ns3:databaseLabel "稿本「自然真営道」" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7024d39c-59dd-40e4-b47a-b8956348d240/manifest> ;
+    ns6:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/> ;
+    ns6:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shizen/document/7024d39c-59dd-40e4-b47a-b8956348d240> ;
+    ns6:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns6:title "残巻 断簡" ;
+    ns4:identifier "7024d39c-59dd-40e4-b47a-b8956348d240" ;
+    ns2:databaseLabel "稿本「自然真営道」" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7024d39c-59dd-40e4-b47a-b8956348d240/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/71963> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7a54520241ab5e0c59533dd7c3fd620f24546141.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7a54520241ab5e0c59533dd7c3fd620f24546141.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/71964> ns1:id 71964 .
 
