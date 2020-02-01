@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/utrepo/terms#> .
 @prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,8 +13,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 13 ;
     ns1:is_public true ;
@@ -64,14 +64,14 @@
     ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/document/daaf81b0-f1a7-435c-9216-a8fb56390887> ;
     ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns3:title "直江状" ;
-    ns6:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
+    ns5:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
     ns2:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json> ;
     ns2:databaseLabel "直江状" ;
     ns2:linkToTapas <http://tapasproject.org/tapas-commons/files/直江状> ;
     ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest> ;
     ns2:searchApiUri <https://w3id.org/dhj/i3sa/https:/archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/text/xml/daaf81b0-f1a7-435c-9216-a8fb56390887.xml> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100> ns1:id 100 .
 
