@@ -1,11 +1,11 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns6: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
-@prefix ns8: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,7 +13,7 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns6:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
+    ns8:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
 鈔本\r
 書名は箱書きによる\r
 巻末に「弘治十八年八月二十日」とあり\r
@@ -21,11 +21,11 @@
 巻子本\r
 桐箱入\r
 四部分類: 史部 詔令奏議類 詔令之屬""" ;
-    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
-    ns7:viewingHint ns7:nonPagedHint ;
-    ns5:callNumber "鴎A00:6270" ;
-    ns5:sourceIdentifier "0004804951" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns5:viewingHint ns5:nonPagedHint ;
+    ns4:callNumber "鴎A00:6270" ;
+    ns4:sourceIdentifier "0004804951" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 7 ;
     ns1:is_public true ;
@@ -44,9 +44,9 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns2:creator "孝宗 <コウソウ> <xiao zong>" ;
-    ns2:date "弘治18 [1505]" ;
-    ns2:description """解題 明・弘治十八年八月二十日勅命(東京大学東京大学総合図書館所蔵鴎外文庫本)\r
+    ns3:creator "孝宗 <コウソウ> <xiao zong>" ;
+    ns3:date "弘治18 [1505]" ;
+    ns3:description """解題 明・弘治十八年八月二十日勅命(東京大学東京大学総合図書館所蔵鴎外文庫本)\r
 【歴史資料として】\r
  この史料は中国明時代における辞令書の一種である。高級官僚に対するものは誥命、下級官僚に対するものは勅命と称され、両者を総称して誥勅とも呼び慣わされる。なお本勅命の蔵書目録上の標題は箱書から採録され、「明孝宗皇帝弘治勅命」となっている。しかし発給の三ヶ月前に弘治帝(孝宗皇帝)は死去しており、実際は子の正徳帝(武宗皇帝)の命により発給されたものである。明代の中国では踰年改元といって、年の途中で皇帝が死去した場合、年が改まるのを待って改元する。このため、新帝の践祚と改元との間にはタイムラグが生ずる場合があり、本勅命の発給日はまさにこの間隙に位置している。\r
  本勅命は、弘治18年(1505)8月20日に南京広西道監察御史王欽の父母に官職・称号を授ける辞令書である。このように官僚の配偶者や親族に官職や称号を恩典として与えることを封贈という。封とは存命の者に与える場合を、贈とは死後に与えるものを言う。この勅命では明代の規則通りに、父には子と同じ官職を、母には子の官品に対応する婦人の称号が贈られている。\r
@@ -62,24 +62,24 @@
 【参考文献】小島浩之「東京大学東京大学総合図書館所蔵鴎外文庫「明代勅命」管見」(『漢字文献情報処理研究』10, 2009.10)p.4-16\r
 \r
 (大学院経済学研究科助手  小 島 浩 之)""" ;
-    ns2:extent "1軸 ; 33cm" ;
-    ns2:identifier "2002618266",
+    ns3:extent "1軸 ; 33cm" ;
+    ns3:identifier "2002618266",
         "BA87193508" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/> ;
-    ns2:language "中国語" ;
-    ns2:publisher "[製作地不明] : [製作者不明]" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/document/43f80fa0-cc5d-45fe-9dee-152196995b92> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "明・弘治十八年八月二十日勅命" ;
-    ns2:type "貴重本" ;
-    ns8:identifier "43f80fa0-cc5d-45fe-9dee-152196995b92" ;
-    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json> ;
-    ns3:bunko "鴎外文庫" ;
-    ns3:databaseLabel "明・弘治十八年八月二十日勅命" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest> ;
-    ns3:searchApiUri <https://w3id.org/dhj/i3sa/https:/archdataset.dl.itc.u-tokyo.ac.jp/collections/chokumei/text/xml/43f80fa0-cc5d-45fe-9dee-152196995b92.xml> ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/> ;
+    ns3:language "中国語" ;
+    ns3:publisher "[製作地不明] : [製作者不明]" ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/chokumei/document/43f80fa0-cc5d-45fe-9dee-152196995b92> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "明・弘治十八年八月二十日勅命" ;
+    ns3:type "貴重本" ;
+    ns6:identifier "43f80fa0-cc5d-45fe-9dee-152196995b92" ;
+    ns2:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json> ;
+    ns2:bunko "鴎外文庫" ;
+    ns2:databaseLabel "明・弘治十八年八月二十日勅命" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest> ;
+    ns2:searchApiUri <https://w3id.org/dhj/i3sa/https:/archdataset.dl.itc.u-tokyo.ac.jp/collections/chokumei/text/xml/43f80fa0-cc5d-45fe-9dee-152196995b92.xml> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ns1:id 1 .
 
