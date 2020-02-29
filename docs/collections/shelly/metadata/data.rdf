@@ -1,55 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns3="http://purl.org/dc/terms/"
   xmlns:ns2="http://omeka.org/s/vocabs/o#"
-  xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns8="http://data.archiveshub.ac.uk/def/"
-  xmlns:ns7="http://iiif.io/api/presentation/2#"
-  xmlns:ns1="http://xmlns.com/foaf/0.1/"
-  xmlns:ns6="http://purl.org/ontology/bibo/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns5="http://purl.org/utrepo/terms#"
+  xmlns:ns1="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns5="http://purl.org/dc/terms/"
+  xmlns:ns6="http://purl.org/utrepo/terms#"
+  xmlns:ns4="http://iiif.io/api/presentation/2#"
+  xmlns:ns3="http://purl.org/ontology/bibo/"
+  xmlns:ns7="http://data.archiveshub.ac.uk/def/"
   xmlns:ns9="http://purl.org/dc/dcmitype/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132">
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22139">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22139</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-03T23:39:54+00:00</ns2:modified>
-    <ns1:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22138">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22138</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9"/>
-    <ns2:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
-      </rdf:Description>
-    </ns2:owner>
-    <ns2:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
-      </rdf:Description>
-    </ns2:resource_class>
+  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133">
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-03T23:40:19+00:00</ns2:modified>
+    <ns1:callNumber>A100:1590</ns1:callNumber>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
     <ns2:resource_template>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:id>
       </rdf:Description>
     </ns2:resource_template>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22133</ns2:id>
+    <ns3:identifier>b1499d0d-920a-413f-8616-66daa1c21e8f</ns3:identifier>
+    <ns4:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns4:attributionLabel>
+    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg"/>
+    <ns5:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f"/>
+    <ns5:title>Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2</ns5:title>
+    <ns6:databaseLabel>Fragment of an Address to the Jews</ns6:databaseLabel>
+    <ns2:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
+      </rdf:Description>
+    </ns2:resource_class>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133"/>
+    <ns5:creator>Garnett, Richard</ns5:creator>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22136">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22136</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22144">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22144</ns2:id>
       </rdf:Description>
     </ns2:media>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22141">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22141</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22143">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22143</ns2:id>
       </rdf:Description>
     </ns2:media>
     <ns2:item_set>
@@ -57,113 +51,119 @@
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22130</ns2:id>
       </rdf:Description>
     </ns2:item_set>
-    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9/manifest"/>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132"/>
-    <ns3:title>Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1</ns3:title>
-    <ns5:databaseLabel>Fragment of an Address to the Jews</ns5:databaseLabel>
-    <ns6:identifier>6f0c1352-3e7e-4bf0-90e9-eb360be55cf9</ns6:identifier>
     <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22140">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22140</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns4:callNumber>A100:1590</ns4:callNumber>
-    <ns3:creator>Garnett, Richard</ns3:creator>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22137">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22137</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22132</ns2:id>
-    <ns3:rights>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse">
-        <ns2:label>https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse</ns2:label>
-      </rdf:Description>
-    </ns3:rights>
-  </ns9:Image>
-  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131">
-    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest"/>
-    <ns4:alternative>A manuscript, written in his own hand</ns4:alternative>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22135</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866"/>
-    <ns3:rights>
-      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns2:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns2:label>
-      </rdf:Description>
-    </ns3:rights>
-    <ns5:databaseLabel>Fragment of an Address to the Jews</ns5:databaseLabel>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-19T05:56:33+00:00</ns2:modified>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns1:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg"/>
-    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130"/>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
-    <ns3:creator>Shelley, Percy Bysshe</ns3:creator>
-    <ns4:alternative>Restoration of the Jews</ns4:alternative>
-    <ns3:title>Fragment of an Address to the Jews</ns3:title>
-    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
-    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22134</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns8:note>A title of General Library's card catalog: [A manuscript, written in his own hand]</ns8:note>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22131</ns2:id>
-    <ns4:alternative>On Zionism</ns4:alternative>
-    <ns4:callNumber>A100:1590</ns4:callNumber>
-    <ns6:identifier>e3e3be43-358d-47bf-a245-d52ffe4ed866</ns6:identifier>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131"/>
-    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
-    <ns8:note>also known as "On Zionism" and "Restoration of the Jews"</ns8:note>
-  </ns2:Item>
-  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133">
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22142">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22142</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133"/>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-03T23:40:19+00:00</ns2:modified>
-    <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22144">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22144</ns2:id>
-      </rdf:Description>
-    </ns2:media>
-    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
-    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
     <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22145">
         <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22145</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns6:identifier>b1499d0d-920a-413f-8616-66daa1c21e8f</ns6:identifier>
-    <ns1:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg"/>
-    <ns4:callNumber>A100:1590</ns4:callNumber>
-    <ns5:databaseLabel>Fragment of an Address to the Jews</ns5:databaseLabel>
     <ns2:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22143">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22143</ns2:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22142">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22142</ns2:id>
       </rdf:Description>
     </ns2:media>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22133</ns2:id>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
-    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b1499d0d-920a-413f-8616-66daa1c21e8f/manifest"/>
-    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130"/>
-    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f"/>
-    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns3:rights rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse"/>
-    <ns3:title>Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2</ns3:title>
-    <ns3:creator>Garnett, Richard</ns3:creator>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
+      </rdf:Description>
+    </ns2:owner>
+    <ns5:rights>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse">
+        <ns2:label>https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse</ns2:label>
+      </rdf:Description>
+    </ns5:rights>
+    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b1499d0d-920a-413f-8616-66daa1c21e8f/manifest"/>
   </ns9:Image>
+  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131">
+    <ns7:note>also known as "On Zionism" and "Restoration of the Jews"</ns7:note>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22131</ns2:id>
+    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest"/>
+    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22135">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22135</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130"/>
+    <ns5:creator>Shelley, Percy Bysshe</ns5:creator>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-19T05:56:33+00:00</ns2:modified>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131"/>
+    <ns1:alternative>On Zionism</ns1:alternative>
+    <ns5:rights>
+      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
+        <ns2:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns2:label>
+      </rdf:Description>
+    </ns5:rights>
+    <ns5:title>Fragment of an Address to the Jews</ns5:title>
+    <ns5:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866"/>
+    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22134">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22134</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns3:identifier>e3e3be43-358d-47bf-a245-d52ffe4ed866</ns3:identifier>
+    <ns6:databaseLabel>Fragment of an Address to the Jews</ns6:databaseLabel>
+    <ns1:alternative>A manuscript, written in his own hand</ns1:alternative>
+    <ns7:note>A title of General Library's card catalog: [A manuscript, written in his own hand]</ns7:note>
+    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
+    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
+    <ns1:alternative>Restoration of the Jews</ns1:alternative>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
+    <ns1:callNumber>A100:1590</ns1:callNumber>
+  </ns9:Image>
+  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132">
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22137">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22137</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg"/>
+    <ns5:rights rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse"/>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22139">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22139</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_class rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26"/>
+    <ns5:creator>Garnett, Richard</ns5:creator>
+    <ns3:identifier>6f0c1352-3e7e-4bf0-90e9-eb360be55cf9</ns3:identifier>
+    <ns2:owner rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1"/>
+    <ns5:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-09T05:17:50+00:00</ns2:created>
+    <ns5:title>Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1</ns5:title>
+    <ns4:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns4:attributionLabel>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22136">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22136</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:resource_template rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <ns6:databaseLabel>Fragment of an Address to the Jews</ns6:databaseLabel>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132"/>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22132</ns2:id>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22141">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22141</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22140">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22140</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-03T23:39:54+00:00</ns2:modified>
+    <ns2:item_set rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130"/>
+    <ns1:callNumber>A100:1590</ns1:callNumber>
+    <ns2:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22138">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22138</ns2:id>
+      </rdf:Description>
+    </ns2:media>
+    <ns6:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9/manifest"/>
+  </ns2:Item>
 </rdf:RDF>
