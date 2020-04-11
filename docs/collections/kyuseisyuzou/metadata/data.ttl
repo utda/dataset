@@ -1,9 +1,9 @@
-@prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://xmlns.com/foaf/0.1/> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://purl.org/dc/terms/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns1: <http://iiif.io/api/presentation/2#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://omeka.org/s/vocabs/o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
 @prefix ns7: <http://purl.org/utrepo/terms#> .
 @prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,45 +11,45 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ns1:id 21829 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ns3:id 21829 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns1:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns8:note """制作年：不明\r
 材質・技法・形状：油彩、銅板（厚さ0.6mm）\r
 寸法（cm）：縦23×横17""" ;
-    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns3:callNumber "A100:1649" ;
-    ns3:titleTranscription "きゅうせいしゅぞう" ;
-    ns1:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
-    ns1:id 21830 ;
-    ns1:is_public true ;
-    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ;
-    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ;
-    ns1:modified "2020-03-26T05:51:13+00:00"^^xsd:dateTime ;
-    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns5:description """左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。\r
+    ns1:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:callNumber "A100:1649" ;
+    ns5:titleTranscription "きゅうせいしゅぞう" ;
+    ns3:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
+    ns3:id 21830 ;
+    ns3:is_public true ;
+    ns3:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829> ;
+    ns3:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ;
+    ns3:modified "2020-03-26T05:51:13+00:00"^^xsd:dateTime ;
+    ns3:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns3:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns3:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
+    ns2:description """左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。\r
 \r
 当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。""" ;
-    ns5:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/> ;
-    ns5:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
-    ns5:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns5:title "救世主像" ;
-    ns4:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/> ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "救世主像" ;
+    ns6:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
     ns7:databaseLabel "救世主像" ;
     ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> ;
-    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns1:id 21831 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns3:id 21831 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns3:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns1:id 3 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ns3:id 3 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns3:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns1:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns3:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 
