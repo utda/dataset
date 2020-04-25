@@ -1,11 +1,11 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
 @prefix ns3: <http://omeka.org/s/vocabs/o#> .
-@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
 @prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
-@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns8: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,10 +15,10 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> a ns3:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns8:note """制作年：不明\r
+    ns7:note """制作年：不明\r
 材質・技法・形状：油彩、銅板（厚さ0.6mm）\r
 寸法（cm）：縦23×横17""" ;
-    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns8:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
     ns5:callNumber "A100:1649" ;
     ns5:titleTranscription "きゅうせいしゅぞう" ;
     ns3:created "2018-04-02T13:28:48+00:00"^^xsd:dateTime ;
@@ -37,11 +37,11 @@
     ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b> ;
     ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns1:title "救世主像" ;
-    ns2:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
-    ns4:databaseLabel "救世主像" ;
-    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
+    ns6:identifier "5061e0fa-b328-431f-a95e-7b417137335b" ;
+    ns2:databaseLabel "救世主像" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831> ns3:id 21831 .
 
