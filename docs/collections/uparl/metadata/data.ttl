@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/utrepo/uparl#> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://purl.org/dc/terms/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -12,8 +12,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/167836> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-07-23T07:50:53+00:00"^^xsd:dateTime ;
     ns1:id 167836 ;
     ns1:is_public true ;
@@ -88,15 +88,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d2cd2f1a-3b23-4691-8f2c-c7c60b73ae26> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "北路紀略 元 [ASIA0001-01]" ;
-    ns7:identifier "d2cd2f1a-3b23-4691-8f2c-c7c60b73ae26" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167836/manifest> ;
-    ns3:sort "ASIA0001-01" ;
+    ns3:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d2cd2f1a-3b23-4691-8f2c-c7c60b73ae26> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "北路紀略 元 [ASIA0001-01]" ;
+    ns5:identifier "d2cd2f1a-3b23-4691-8f2c-c7c60b73ae26" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167836/manifest> ;
+    ns4:sort "ASIA0001-01" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:condition "虫損あり" ;
     ns2:constitutionOfTheWork "4巻" ;
@@ -117,8 +117,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/167837> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-07-23T07:50:53+00:00"^^xsd:dateTime ;
     ns1:id 167837 ;
     ns1:is_public true ;
@@ -197,15 +197,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/58382bb4-e7cc-436a-9b89-a220762464d8> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "北路紀略 亨 [ASIA0001-02]" ;
-    ns7:identifier "58382bb4-e7cc-436a-9b89-a220762464d8" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167837/manifest> ;
-    ns3:sort "ASIA0001-02" ;
+    ns3:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/58382bb4-e7cc-436a-9b89-a220762464d8> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "北路紀略 亨 [ASIA0001-02]" ;
+    ns5:identifier "58382bb4-e7cc-436a-9b89-a220762464d8" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167837/manifest> ;
+    ns4:sort "ASIA0001-02" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:condition "虫損あり" ;
     ns2:constitutionOfTheWork "4巻" ;
@@ -226,8 +226,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/167838> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-07-23T07:50:53+00:00"^^xsd:dateTime ;
     ns1:id 167838 ;
     ns1:is_public true ;
@@ -290,15 +290,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/ba19b8a6-2c09-4f99-a9e4-397edcc53086> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "北路紀略 利 [ASIA0001-03]" ;
-    ns7:identifier "ba19b8a6-2c09-4f99-a9e4-397edcc53086" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167838/manifest> ;
-    ns3:sort "ASIA0001-03" ;
+    ns3:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/ba19b8a6-2c09-4f99-a9e4-397edcc53086> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "北路紀略 利 [ASIA0001-03]" ;
+    ns5:identifier "ba19b8a6-2c09-4f99-a9e4-397edcc53086" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167838/manifest> ;
+    ns4:sort "ASIA0001-03" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:condition "虫損あり" ;
     ns2:constitutionOfTheWork "4巻" ;
@@ -319,8 +319,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/167839> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-07-23T07:50:53+00:00"^^xsd:dateTime ;
     ns1:id 167839 ;
     ns1:is_public true ;
@@ -376,15 +376,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7bd495d9-ee66-480e-b67f-25ca153746b3> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "北路紀略 貞 [ASIA0001-04]" ;
-    ns7:identifier "7bd495d9-ee66-480e-b67f-25ca153746b3" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167839/manifest> ;
-    ns3:sort "ASIA0001-04" ;
+    ns3:description "朝鮮・鄭允容著。写本。2014年U-PARLにて購入。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7bd495d9-ee66-480e-b67f-25ca153746b3> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "北路紀略 貞 [ASIA0001-04]" ;
+    ns5:identifier "7bd495d9-ee66-480e-b67f-25ca153746b3" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167839/manifest> ;
+    ns4:sort "ASIA0001-04" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:condition "虫損あり" ;
     ns2:constitutionOfTheWork "4巻" ;
@@ -405,8 +405,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186421> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186421 ;
     ns1:is_public true ;
@@ -515,15 +515,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国元時代に刊行された漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/1519c399-d096-4f06-b8a0-f6fc0c14deaa> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "古今歴代十八史略 一 [A004313-01]" ;
-    ns7:identifier "1519c399-d096-4f06-b8a0-f6fc0c14deaa" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186421/manifest> ;
-    ns3:sort "A004313-01" ;
+    ns3:description "中国元時代に刊行された漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/1519c399-d096-4f06-b8a0-f6fc0c14deaa> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "古今歴代十八史略 一 [A004313-01]" ;
+    ns5:identifier "1519c399-d096-4f06-b8a0-f6fc0c14deaa" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186421/manifest> ;
+    ns4:sort "A004313-01" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-4313" ;
     ns2:condition "書き入れあり, 裏打ち修復済み, 虫損あり" ;
@@ -552,8 +552,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186422> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186422 ;
     ns1:is_public true ;
@@ -644,15 +644,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国元時代に刊行された漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0670647a-064d-430b-8bce-4b17b859a0dc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "古今歴代十八史略 二 [A004313-02]" ;
-    ns7:identifier "0670647a-064d-430b-8bce-4b17b859a0dc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186422/manifest> ;
-    ns3:sort "A004313-02" ;
+    ns3:description "中国元時代に刊行された漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0670647a-064d-430b-8bce-4b17b859a0dc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "古今歴代十八史略 二 [A004313-02]" ;
+    ns5:identifier "0670647a-064d-430b-8bce-4b17b859a0dc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186422/manifest> ;
+    ns4:sort "A004313-02" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-4313" ;
     ns2:condition "書き入れあり, 裏打ち修復済み, 虫損あり" ;
@@ -681,8 +681,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186423> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186423 ;
     ns1:is_public true ;
@@ -722,15 +722,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された漢籍(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/4e83feb8-f9a8-4275-9263-a7446fb4bf35> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "元氏長慶集 四十三至四十六 四十八 [A005824]" ;
-    ns7:identifier "4e83feb8-f9a8-4275-9263-a7446fb4bf35" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186423/manifest> ;
-    ns3:sort "A005824-00" ;
+    ns3:description "中国南宋時代に刊行された漢籍(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/4e83feb8-f9a8-4275-9263-a7446fb4bf35> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "元氏長慶集 四十三至四十六 四十八 [A005824]" ;
+    ns5:identifier "4e83feb8-f9a8-4275-9263-a7446fb4bf35" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186423/manifest> ;
+    ns4:sort "A005824-00" ;
     ns2:additionalDescription "伊東祐相跋" ;
     ns2:bibliopegy "蝴蝶装" ;
     ns2:callNumber "A00-5824" ;
@@ -758,8 +758,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186424> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186424 ;
     ns1:is_public true ;
@@ -849,15 +849,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/01651af9-fad6-4902-afb0-de0b2e89f669> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 一 [A005902-01]" ;
-    ns7:identifier "01651af9-fad6-4902-afb0-de0b2e89f669" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186424/manifest> ;
-    ns3:sort "A005902-01" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/01651af9-fad6-4902-afb0-de0b2e89f669> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 一 [A005902-01]" ;
+    ns5:identifier "01651af9-fad6-4902-afb0-de0b2e89f669" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186424/manifest> ;
+    ns4:sort "A005902-01" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -886,8 +886,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186425> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186425 ;
     ns1:is_public true ;
@@ -974,15 +974,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d794becc-5366-4baa-b1fa-925f238c9757> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 二 [A005902-02]" ;
-    ns7:identifier "d794becc-5366-4baa-b1fa-925f238c9757" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186425/manifest> ;
-    ns3:sort "A005902-02" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d794becc-5366-4baa-b1fa-925f238c9757> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 二 [A005902-02]" ;
+    ns5:identifier "d794becc-5366-4baa-b1fa-925f238c9757" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186425/manifest> ;
+    ns4:sort "A005902-02" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1011,8 +1011,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186426> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186426 ;
     ns1:is_public true ;
@@ -1116,15 +1116,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2c45cdd0-2f49-4774-aad9-4c51d889c0be> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 三 [A005902-03]" ;
-    ns7:identifier "2c45cdd0-2f49-4774-aad9-4c51d889c0be" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186426/manifest> ;
-    ns3:sort "A005902-03" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2c45cdd0-2f49-4774-aad9-4c51d889c0be> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 三 [A005902-03]" ;
+    ns5:identifier "2c45cdd0-2f49-4774-aad9-4c51d889c0be" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186426/manifest> ;
+    ns4:sort "A005902-03" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1153,8 +1153,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186427> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186427 ;
     ns1:is_public true ;
@@ -1257,15 +1257,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e02e9f81-fa2a-4d76-b916-371e6d50b9ed> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 四 [A005902-04]" ;
-    ns7:identifier "e02e9f81-fa2a-4d76-b916-371e6d50b9ed" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186427/manifest> ;
-    ns3:sort "A005902-04" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e02e9f81-fa2a-4d76-b916-371e6d50b9ed> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 四 [A005902-04]" ;
+    ns5:identifier "e02e9f81-fa2a-4d76-b916-371e6d50b9ed" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186427/manifest> ;
+    ns4:sort "A005902-04" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1294,8 +1294,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186428> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186428 ;
     ns1:is_public true ;
@@ -1410,15 +1410,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/ce28884f-5a96-4d46-8a8a-9fe623789e1c> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 五 [A005902-05]" ;
-    ns7:identifier "ce28884f-5a96-4d46-8a8a-9fe623789e1c" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186428/manifest> ;
-    ns3:sort "A005902-05" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/ce28884f-5a96-4d46-8a8a-9fe623789e1c> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 五 [A005902-05]" ;
+    ns5:identifier "ce28884f-5a96-4d46-8a8a-9fe623789e1c" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186428/manifest> ;
+    ns4:sort "A005902-05" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1447,8 +1447,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186429> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186429 ;
     ns1:is_public true ;
@@ -1559,15 +1559,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/f49833d4-dd9c-4dac-ae9d-2fde833954cc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 六 七 [A005902-06]" ;
-    ns7:identifier "f49833d4-dd9c-4dac-ae9d-2fde833954cc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186429/manifest> ;
-    ns3:sort "A005902-06" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/f49833d4-dd9c-4dac-ae9d-2fde833954cc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 六 七 [A005902-06]" ;
+    ns5:identifier "f49833d4-dd9c-4dac-ae9d-2fde833954cc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186429/manifest> ;
+    ns4:sort "A005902-06" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1596,8 +1596,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186430> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186430 ;
     ns1:is_public true ;
@@ -1707,15 +1707,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/5cab7665-69a3-4729-9f49-5172d4941629> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "増広竜龕手鑑 八 [A005902-07]" ;
-    ns7:identifier "5cab7665-69a3-4729-9f49-5172d4941629" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186430/manifest> ;
-    ns3:sort "A005902-07" ;
+    ns3:description "日本古活字本の漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/5cab7665-69a3-4729-9f49-5172d4941629> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "増広竜龕手鑑 八 [A005902-07]" ;
+    ns5:identifier "5cab7665-69a3-4729-9f49-5172d4941629" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186430/manifest> ;
+    ns4:sort "A005902-07" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-5902" ;
     ns2:condition "虫損あり, シミあり" ;
@@ -1744,8 +1744,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186431> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186431 ;
     ns1:is_public true ;
@@ -1802,15 +1802,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/630f2331-35b2-41fb-8361-1f851900decc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "阿毘達磨大毘婆沙論 一百一十三 [A006036-01]" ;
-    ns7:identifier "630f2331-35b2-41fb-8361-1f851900decc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186431/manifest> ;
-    ns3:sort "A006036-01" ;
+    ns3:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/630f2331-35b2-41fb-8361-1f851900decc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "阿毘達磨大毘婆沙論 一百一十三 [A006036-01]" ;
+    ns5:identifier "630f2331-35b2-41fb-8361-1f851900decc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186431/manifest> ;
+    ns4:sort "A006036-01" ;
     ns2:additionalDescription "藤原時朝識語" ;
     ns2:bibliopegy "折帖装" ;
     ns2:callNumber "A00-6036" ;
@@ -1837,8 +1837,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186432> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186432 ;
     ns1:is_public true ;
@@ -1853,15 +1853,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/74acc129-a97a-4ce4-8790-b0cdc745bafc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "中阿含経 二十五残 [A006036-02]" ;
-    ns7:identifier "74acc129-a97a-4ce4-8790-b0cdc745bafc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186432/manifest> ;
-    ns3:sort "A006036-02" ;
+    ns3:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/74acc129-a97a-4ce4-8790-b0cdc745bafc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "中阿含経 二十五残 [A006036-02]" ;
+    ns5:identifier "74acc129-a97a-4ce4-8790-b0cdc745bafc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186432/manifest> ;
+    ns4:sort "A006036-02" ;
     ns2:additionalDescription "藤原時朝識語" ;
     ns2:bibliopegy "折帖装" ;
     ns2:callNumber "A00-6036" ;
@@ -1888,8 +1888,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186433> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186433 ;
     ns1:is_public true ;
@@ -1910,15 +1910,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/437f2dbf-0233-4cf0-9d9b-e8ceb0fe451b> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "法華文句科 三残 [A006036-03]" ;
-    ns7:identifier "437f2dbf-0233-4cf0-9d9b-e8ceb0fe451b" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186433/manifest> ;
-    ns3:sort "A006036-03" ;
+    ns3:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/437f2dbf-0233-4cf0-9d9b-e8ceb0fe451b> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "法華文句科 三残 [A006036-03]" ;
+    ns5:identifier "437f2dbf-0233-4cf0-9d9b-e8ceb0fe451b" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186433/manifest> ;
+    ns4:sort "A006036-03" ;
     ns2:additionalDescription "藤原時朝識語" ;
     ns2:bibliopegy "折帖装" ;
     ns2:callNumber "A00-6036" ;
@@ -1945,8 +1945,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186434> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186434 ;
     ns1:is_public true ;
@@ -1960,15 +1960,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/94188fa6-e976-4168-bcb7-26e441e1cc7f> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "曇無徳部四分律刪補随機羯磨 中残 [A006036-04]" ;
-    ns7:identifier "94188fa6-e976-4168-bcb7-26e441e1cc7f" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186434/manifest> ;
-    ns3:sort "A006036-04" ;
+    ns3:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/94188fa6-e976-4168-bcb7-26e441e1cc7f> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "曇無徳部四分律刪補随機羯磨 中残 [A006036-04]" ;
+    ns5:identifier "94188fa6-e976-4168-bcb7-26e441e1cc7f" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186434/manifest> ;
+    ns4:sort "A006036-04" ;
     ns2:additionalDescription "藤原時朝識語" ;
     ns2:bibliopegy "折帖装" ;
     ns2:callNumber "A00-6036" ;
@@ -1995,8 +1995,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186435> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186435 ;
     ns1:is_public true ;
@@ -2012,15 +2012,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/8e4d3d09-9304-4001-91fe-883e2359620b> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "涅槃経疏三徳指帰 十五残 [A006036-05]" ;
-    ns7:identifier "8e4d3d09-9304-4001-91fe-883e2359620b" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186435/manifest> ;
-    ns3:sort "A006036-05" ;
+    ns3:description "中国南宋時代に刊行された仏教経典(部分)。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/8e4d3d09-9304-4001-91fe-883e2359620b> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "涅槃経疏三徳指帰 十五残 [A006036-05]" ;
+    ns5:identifier "8e4d3d09-9304-4001-91fe-883e2359620b" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186435/manifest> ;
+    ns4:sort "A006036-05" ;
     ns2:additionalDescription "藤原時朝識語" ;
     ns2:bibliopegy "折帖装" ;
     ns2:callNumber "A00-6036" ;
@@ -2047,8 +2047,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186436> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186436 ;
     ns1:is_public true ;
@@ -2114,15 +2114,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本で筆写された漢籍。青洲文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2a6d66d5-2dbd-4c60-9217-7033c73392ad> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "論語集解 三残 四 七 八 [A006296]" ;
-    ns7:identifier "2a6d66d5-2dbd-4c60-9217-7033c73392ad" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186436/manifest> ;
-    ns3:sort "A006296-00" ;
+    ns3:description "日本で筆写された漢籍。青洲文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2a6d66d5-2dbd-4c60-9217-7033c73392ad> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "論語集解 三残 四 七 八 [A006296]" ;
+    ns5:identifier "2a6d66d5-2dbd-4c60-9217-7033c73392ad" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186436/manifest> ;
+    ns4:sort "A006296-00" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-6296" ;
     ns2:condition "巻3-4, 7-8のみ存する, 巻3の前半を欠く, 2冊を1冊に改装済み, 虫損あり" ;
@@ -2145,8 +2145,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186437> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186437 ;
     ns1:is_public true ;
@@ -2202,15 +2202,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本で筆写された漢籍。南葵文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/846694f5-727f-4925-b7ef-d931f1f9a01b> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "纂図附音増広古注千字文 [A006297]" ;
-    ns7:identifier "846694f5-727f-4925-b7ef-d931f1f9a01b" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186437/manifest> ;
-    ns3:sort "A006297-00" ;
+    ns3:description "日本で筆写された漢籍。南葵文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/846694f5-727f-4925-b7ef-d931f1f9a01b> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "纂図附音増広古注千字文 [A006297]" ;
+    ns5:identifier "846694f5-727f-4925-b7ef-d931f1f9a01b" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186437/manifest> ;
+    ns4:sort "A006297-00" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:callNumber "A00-6297" ;
     ns2:condition "虫損あり" ;
@@ -2233,8 +2233,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186438> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186438 ;
     ns1:is_public true ;
@@ -2304,15 +2304,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "日本古活字本の漢籍。鶚軒文庫。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d86e1a29-e35b-4850-9f94-a54dc4744249> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "医方大成論 [A006464]" ;
-    ns7:identifier "d86e1a29-e35b-4850-9f94-a54dc4744249" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186438/manifest> ;
-    ns3:sort "A006464-00" ;
+    ns3:description "日本古活字本の漢籍。鶚軒文庫。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d86e1a29-e35b-4850-9f94-a54dc4744249> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "医方大成論 [A006464]" ;
+    ns5:identifier "d86e1a29-e35b-4850-9f94-a54dc4744249" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186438/manifest> ;
+    ns4:sort "A006464-00" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "A00-6464" ;
     ns2:condition "虫損あり, シミあり, 書き入れあり" ;
@@ -2341,8 +2341,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186439> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186439 ;
     ns1:is_public true ;
@@ -2411,15 +2411,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮で刊行された漢籍(諺解本)。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/37ae09b6-f1ff-4e89-8005-78440e9249d1> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "論語諺解 一 [B60567-01]" ;
-    ns7:identifier "37ae09b6-f1ff-4e89-8005-78440e9249d1" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186439/manifest> ;
-    ns3:sort "B60567-01" ;
+    ns3:description "朝鮮で刊行された漢籍(諺解本)。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/37ae09b6-f1ff-4e89-8005-78440e9249d1> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "論語諺解 一 [B60567-01]" ;
+    ns5:identifier "37ae09b6-f1ff-4e89-8005-78440e9249d1" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186439/manifest> ;
+    ns4:sort "B60567-01" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:callNumber "B60-567" ;
     ns2:condition "虫損あり" ;
@@ -2448,8 +2448,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186440> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:41+00:00"^^xsd:dateTime ;
     ns1:id 186440 ;
     ns1:is_public true ;
@@ -2529,15 +2529,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮で刊行された漢籍(諺解本)。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e2fb1617-0e29-4ae4-bc40-ae1a8e784158> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "論語諺解 二 [B60567-02]" ;
-    ns7:identifier "e2fb1617-0e29-4ae4-bc40-ae1a8e784158" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186440/manifest> ;
-    ns3:sort "B60567-02" ;
+    ns3:description "朝鮮で刊行された漢籍(諺解本)。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e2fb1617-0e29-4ae4-bc40-ae1a8e784158> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "論語諺解 二 [B60567-02]" ;
+    ns5:identifier "e2fb1617-0e29-4ae4-bc40-ae1a8e784158" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186440/manifest> ;
+    ns4:sort "B60567-02" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:callNumber "B60-567" ;
     ns2:condition "虫損あり" ;
@@ -2566,8 +2566,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186441> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186441 ;
     ns1:is_public true ;
@@ -2659,15 +2659,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮で刊行された漢籍(諺解本)。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/14eac1bf-e58c-47e9-a5af-810983f9c884> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "論語諺解 三 [B60567-03]" ;
-    ns7:identifier "14eac1bf-e58c-47e9-a5af-810983f9c884" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186441/manifest> ;
-    ns3:sort "B60567-03" ;
+    ns3:description "朝鮮で刊行された漢籍(諺解本)。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/14eac1bf-e58c-47e9-a5af-810983f9c884> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "論語諺解 三 [B60567-03]" ;
+    ns5:identifier "14eac1bf-e58c-47e9-a5af-810983f9c884" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186441/manifest> ;
+    ns4:sort "B60567-03" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:callNumber "B60-567" ;
     ns2:condition "虫損あり" ;
@@ -2696,8 +2696,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186442> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186442 ;
     ns1:is_public true ;
@@ -2790,15 +2790,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "朝鮮で刊行された漢籍(諺解本)。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/cc3addb0-b4e1-45ea-9138-47382f72991d> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "論語諺解 四 [B60567-04]" ;
-    ns7:identifier "cc3addb0-b4e1-45ea-9138-47382f72991d" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186442/manifest> ;
-    ns3:sort "B60567-04" ;
+    ns3:description "朝鮮で刊行された漢籍(諺解本)。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/cc3addb0-b4e1-45ea-9138-47382f72991d> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "論語諺解 四 [B60567-04]" ;
+    ns5:identifier "cc3addb0-b4e1-45ea-9138-47382f72991d" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186442/manifest> ;
+    ns4:sort "B60567-04" ;
     ns2:bibliopegy "線装, 五針眼釘法" ;
     ns2:callNumber "B60-567" ;
     ns2:condition "虫損あり" ;
@@ -2827,8 +2827,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186443> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186443 ;
     ns1:is_public true ;
@@ -2903,15 +2903,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/af497748-7d77-412c-afe3-cd2a12aa6ece> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 首 [G30495-01]" ;
-    ns7:identifier "af497748-7d77-412c-afe3-cd2a12aa6ece" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186443/manifest> ;
-    ns3:sort "G30495-01" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/af497748-7d77-412c-afe3-cd2a12aa6ece> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 首 [G30495-01]" ;
+    ns5:identifier "af497748-7d77-412c-afe3-cd2a12aa6ece" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186443/manifest> ;
+    ns4:sort "G30495-01" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -2937,8 +2937,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186444> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186444 ;
     ns1:is_public true ;
@@ -3015,15 +3015,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/35f86a28-6c28-434b-a9fb-9182b8dbf0fa> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 一 [G30495-02]" ;
-    ns7:identifier "35f86a28-6c28-434b-a9fb-9182b8dbf0fa" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186444/manifest> ;
-    ns3:sort "G30495-02" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/35f86a28-6c28-434b-a9fb-9182b8dbf0fa> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 一 [G30495-02]" ;
+    ns5:identifier "35f86a28-6c28-434b-a9fb-9182b8dbf0fa" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186444/manifest> ;
+    ns4:sort "G30495-02" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3049,8 +3049,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186445> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186445 ;
     ns1:is_public true ;
@@ -3150,15 +3150,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d2e81cef-30c9-4a34-9e07-50627c53a289> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 二 三 [G30495-03]" ;
-    ns7:identifier "d2e81cef-30c9-4a34-9e07-50627c53a289" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186445/manifest> ;
-    ns3:sort "G30495-03" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d2e81cef-30c9-4a34-9e07-50627c53a289> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 二 三 [G30495-03]" ;
+    ns5:identifier "d2e81cef-30c9-4a34-9e07-50627c53a289" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186445/manifest> ;
+    ns4:sort "G30495-03" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3184,8 +3184,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186446> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186446 ;
     ns1:is_public true ;
@@ -3279,15 +3279,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0fcbef38-b68f-4d9f-8425-bbe45fb03bcc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 四 五 [G30495-04]" ;
-    ns7:identifier "0fcbef38-b68f-4d9f-8425-bbe45fb03bcc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186446/manifest> ;
-    ns3:sort "G30495-04" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0fcbef38-b68f-4d9f-8425-bbe45fb03bcc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 四 五 [G30495-04]" ;
+    ns5:identifier "0fcbef38-b68f-4d9f-8425-bbe45fb03bcc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186446/manifest> ;
+    ns4:sort "G30495-04" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3313,8 +3313,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186447> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186447 ;
     ns1:is_public true ;
@@ -3397,15 +3397,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/23251e4b-ec8c-4df3-ab50-955312c53648> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 六 七 [G30495-05]" ;
-    ns7:identifier "23251e4b-ec8c-4df3-ab50-955312c53648" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186447/manifest> ;
-    ns3:sort "G30495-05" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/23251e4b-ec8c-4df3-ab50-955312c53648> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 六 七 [G30495-05]" ;
+    ns5:identifier "23251e4b-ec8c-4df3-ab50-955312c53648" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186447/manifest> ;
+    ns4:sort "G30495-05" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3431,8 +3431,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186448> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186448 ;
     ns1:is_public true ;
@@ -3521,15 +3521,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/22d560f8-9d98-49e2-9596-43491b28623e> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 八至十 [G30495-06]" ;
-    ns7:identifier "22d560f8-9d98-49e2-9596-43491b28623e" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186448/manifest> ;
-    ns3:sort "G30495-06" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/22d560f8-9d98-49e2-9596-43491b28623e> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 八至十 [G30495-06]" ;
+    ns5:identifier "22d560f8-9d98-49e2-9596-43491b28623e" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186448/manifest> ;
+    ns4:sort "G30495-06" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3555,8 +3555,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186449> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186449 ;
     ns1:is_public true ;
@@ -3638,15 +3638,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2e790fa3-5f4b-4eec-a4be-cb6b5b49f7d5> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 十一 十二 [G30495-07]" ;
-    ns7:identifier "2e790fa3-5f4b-4eec-a4be-cb6b5b49f7d5" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186449/manifest> ;
-    ns3:sort "G30495-07" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2e790fa3-5f4b-4eec-a4be-cb6b5b49f7d5> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 十一 十二 [G30495-07]" ;
+    ns5:identifier "2e790fa3-5f4b-4eec-a4be-cb6b5b49f7d5" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186449/manifest> ;
+    ns4:sort "G30495-07" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3672,8 +3672,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186450> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186450 ;
     ns1:is_public true ;
@@ -3774,15 +3774,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/360dc78a-b5ac-43c6-9956-2c89287a83dc> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 十三至十五 [G30495-08]" ;
-    ns7:identifier "360dc78a-b5ac-43c6-9956-2c89287a83dc" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186450/manifest> ;
-    ns3:sort "G30495-08" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/360dc78a-b5ac-43c6-9956-2c89287a83dc> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 十三至十五 [G30495-08]" ;
+    ns5:identifier "360dc78a-b5ac-43c6-9956-2c89287a83dc" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186450/manifest> ;
+    ns4:sort "G30495-08" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3808,8 +3808,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186451> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186451 ;
     ns1:is_public true ;
@@ -3887,15 +3887,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/956f3778-1392-4180-9ea0-f27f92b6a643> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 十六至十八 [G30495-09]" ;
-    ns7:identifier "956f3778-1392-4180-9ea0-f27f92b6a643" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186451/manifest> ;
-    ns3:sort "G30495-09" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/956f3778-1392-4180-9ea0-f27f92b6a643> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 十六至十八 [G30495-09]" ;
+    ns5:identifier "956f3778-1392-4180-9ea0-f27f92b6a643" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186451/manifest> ;
+    ns4:sort "G30495-09" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -3921,8 +3921,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186452> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186452 ;
     ns1:is_public true ;
@@ -4005,15 +4005,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/324cd287-ee08-46cb-925c-1802c1fa9344> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 十九 二十 [G30495-10]" ;
-    ns7:identifier "324cd287-ee08-46cb-925c-1802c1fa9344" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186452/manifest> ;
-    ns3:sort "G30495-10" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/324cd287-ee08-46cb-925c-1802c1fa9344> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 十九 二十 [G30495-10]" ;
+    ns5:identifier "324cd287-ee08-46cb-925c-1802c1fa9344" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186452/manifest> ;
+    ns4:sort "G30495-10" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4039,8 +4039,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186453> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186453 ;
     ns1:is_public true ;
@@ -4120,15 +4120,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/f3d27fcb-92ef-4076-9542-772fa9d714a0> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 二十一 二十二 [G30495-11]" ;
-    ns7:identifier "f3d27fcb-92ef-4076-9542-772fa9d714a0" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186453/manifest> ;
-    ns3:sort "G30495-11" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/f3d27fcb-92ef-4076-9542-772fa9d714a0> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 二十一 二十二 [G30495-11]" ;
+    ns5:identifier "f3d27fcb-92ef-4076-9542-772fa9d714a0" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186453/manifest> ;
+    ns4:sort "G30495-11" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4154,8 +4154,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186454> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186454 ;
     ns1:is_public true ;
@@ -4256,15 +4256,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/face5d60-18c8-4d2e-bec8-35e18fab2407> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 二十三 二十四 [G30495-12]" ;
-    ns7:identifier "face5d60-18c8-4d2e-bec8-35e18fab2407" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186454/manifest> ;
-    ns3:sort "G30495-12" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/face5d60-18c8-4d2e-bec8-35e18fab2407> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 二十三 二十四 [G30495-12]" ;
+    ns5:identifier "face5d60-18c8-4d2e-bec8-35e18fab2407" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186454/manifest> ;
+    ns4:sort "G30495-12" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4290,8 +4290,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186455> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186455 ;
     ns1:is_public true ;
@@ -4383,15 +4383,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/56c5a740-afcd-4e01-a5e0-e4a05f477257> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 二十五 二十六 [G30495-13]" ;
-    ns7:identifier "56c5a740-afcd-4e01-a5e0-e4a05f477257" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186455/manifest> ;
-    ns3:sort "G30495-13" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/56c5a740-afcd-4e01-a5e0-e4a05f477257> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 二十五 二十六 [G30495-13]" ;
+    ns5:identifier "56c5a740-afcd-4e01-a5e0-e4a05f477257" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186455/manifest> ;
+    ns4:sort "G30495-13" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4417,8 +4417,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186456> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186456 ;
     ns1:is_public true ;
@@ -4517,15 +4517,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/9e089630-6632-4431-949e-82f6531d29e1> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 二十七至二十九 [G30495-14]" ;
-    ns7:identifier "9e089630-6632-4431-949e-82f6531d29e1" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186456/manifest> ;
-    ns3:sort "G30495-14" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/9e089630-6632-4431-949e-82f6531d29e1> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 二十七至二十九 [G30495-14]" ;
+    ns5:identifier "9e089630-6632-4431-949e-82f6531d29e1" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186456/manifest> ;
+    ns4:sort "G30495-14" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4551,8 +4551,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186457> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186457 ;
     ns1:is_public true ;
@@ -4647,15 +4647,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0796d191-7711-4d47-b31e-aef4acc0d2e1> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 三十至三十二 [G30495-15]" ;
-    ns7:identifier "0796d191-7711-4d47-b31e-aef4acc0d2e1" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186457/manifest> ;
-    ns3:sort "G30495-15" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/0796d191-7711-4d47-b31e-aef4acc0d2e1> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 三十至三十二 [G30495-15]" ;
+    ns5:identifier "0796d191-7711-4d47-b31e-aef4acc0d2e1" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186457/manifest> ;
+    ns4:sort "G30495-15" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4681,8 +4681,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186458> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186458 ;
     ns1:is_public true ;
@@ -4769,15 +4769,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/9004b190-903b-4f08-aa86-6ea4aae4e62c> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 三十三至三十六 [G30495-16]" ;
-    ns7:identifier "9004b190-903b-4f08-aa86-6ea4aae4e62c" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186458/manifest> ;
-    ns3:sort "G30495-16" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/9004b190-903b-4f08-aa86-6ea4aae4e62c> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 三十三至三十六 [G30495-16]" ;
+    ns5:identifier "9004b190-903b-4f08-aa86-6ea4aae4e62c" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186458/manifest> ;
+    ns4:sort "G30495-16" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4803,8 +4803,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186459> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186459 ;
     ns1:is_public true ;
@@ -4898,15 +4898,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/12d7efde-a52d-44b1-9486-9c260c9a9ef9> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 三十六至三十九 [G30495-17]" ;
-    ns7:identifier "12d7efde-a52d-44b1-9486-9c260c9a9ef9" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186459/manifest> ;
-    ns3:sort "G30495-17" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/12d7efde-a52d-44b1-9486-9c260c9a9ef9> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 三十六至三十九 [G30495-17]" ;
+    ns5:identifier "12d7efde-a52d-44b1-9486-9c260c9a9ef9" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186459/manifest> ;
+    ns4:sort "G30495-17" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -4932,8 +4932,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186460> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:45+00:00"^^xsd:dateTime ;
     ns1:id 186460 ;
     ns1:is_public true ;
@@ -5027,15 +5027,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/39cdaf46-21bc-459a-83d9-6a00593a3f2e> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 四十至四十三 [G30495-18]" ;
-    ns7:identifier "39cdaf46-21bc-459a-83d9-6a00593a3f2e" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186460/manifest> ;
-    ns3:sort "G30495-18" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/39cdaf46-21bc-459a-83d9-6a00593a3f2e> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 四十至四十三 [G30495-18]" ;
+    ns5:identifier "39cdaf46-21bc-459a-83d9-6a00593a3f2e" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186460/manifest> ;
+    ns4:sort "G30495-18" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5061,8 +5061,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186461> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186461 ;
     ns1:is_public true ;
@@ -5144,15 +5144,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7c3b0e60-9b03-4491-8916-b32605390d08> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 四十四至四十六 [G30495-19]" ;
-    ns7:identifier "7c3b0e60-9b03-4491-8916-b32605390d08" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186461/manifest> ;
-    ns3:sort "G30495-19" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7c3b0e60-9b03-4491-8916-b32605390d08> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 四十四至四十六 [G30495-19]" ;
+    ns5:identifier "7c3b0e60-9b03-4491-8916-b32605390d08" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186461/manifest> ;
+    ns4:sort "G30495-19" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5178,8 +5178,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186462> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186462 ;
     ns1:is_public true ;
@@ -5258,15 +5258,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d441e875-20b7-4707-9dbe-da6fae2643c6> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 四十七至四十九 [G30495-20]" ;
-    ns7:identifier "d441e875-20b7-4707-9dbe-da6fae2643c6" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186462/manifest> ;
-    ns3:sort "G30495-20" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d441e875-20b7-4707-9dbe-da6fae2643c6> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 四十七至四十九 [G30495-20]" ;
+    ns5:identifier "d441e875-20b7-4707-9dbe-da6fae2643c6" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186462/manifest> ;
+    ns4:sort "G30495-20" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5292,8 +5292,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186463> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186463 ;
     ns1:is_public true ;
@@ -5359,15 +5359,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/b060b878-e4af-4cf4-a410-6dba4f92a1b9> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 五十 五十一 [G30495-21]" ;
-    ns7:identifier "b060b878-e4af-4cf4-a410-6dba4f92a1b9" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186463/manifest> ;
-    ns3:sort "G30495-21" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/b060b878-e4af-4cf4-a410-6dba4f92a1b9> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 五十 五十一 [G30495-21]" ;
+    ns5:identifier "b060b878-e4af-4cf4-a410-6dba4f92a1b9" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186463/manifest> ;
+    ns4:sort "G30495-21" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5393,8 +5393,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186464> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186464 ;
     ns1:is_public true ;
@@ -5481,15 +5481,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/fa51a51e-3393-406c-96c3-c62faa7ce642> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 五十二至五十四 [G30495-22]" ;
-    ns7:identifier "fa51a51e-3393-406c-96c3-c62faa7ce642" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186464/manifest> ;
-    ns3:sort "G30495-22" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/fa51a51e-3393-406c-96c3-c62faa7ce642> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 五十二至五十四 [G30495-22]" ;
+    ns5:identifier "fa51a51e-3393-406c-96c3-c62faa7ce642" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186464/manifest> ;
+    ns4:sort "G30495-22" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5515,8 +5515,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186465> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186465 ;
     ns1:is_public true ;
@@ -5586,15 +5586,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7878d837-d500-4a8d-bcbe-599faf1481b5> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 五十五 五十六 [G30495-23]" ;
-    ns7:identifier "7878d837-d500-4a8d-bcbe-599faf1481b5" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186465/manifest> ;
-    ns3:sort "G30495-23" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7878d837-d500-4a8d-bcbe-599faf1481b5> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 五十五 五十六 [G30495-23]" ;
+    ns5:identifier "7878d837-d500-4a8d-bcbe-599faf1481b5" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186465/manifest> ;
+    ns4:sort "G30495-23" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5620,8 +5620,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186466> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186466 ;
     ns1:is_public true ;
@@ -5702,15 +5702,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e26a46f4-2868-4677-8f15-a32fd50ddbf1> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 五十七 五十八 [G30495-24]" ;
-    ns7:identifier "e26a46f4-2868-4677-8f15-a32fd50ddbf1" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186466/manifest> ;
-    ns3:sort "G30495-24" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/e26a46f4-2868-4677-8f15-a32fd50ddbf1> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 五十七 五十八 [G30495-24]" ;
+    ns5:identifier "e26a46f4-2868-4677-8f15-a32fd50ddbf1" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186466/manifest> ;
+    ns4:sort "G30495-24" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5736,8 +5736,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186467> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186467 ;
     ns1:is_public true ;
@@ -5833,15 +5833,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7d4f0259-f190-4d61-ba53-3ba1fead3790> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 五十九至六十三 [G30495-25]" ;
-    ns7:identifier "7d4f0259-f190-4d61-ba53-3ba1fead3790" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186467/manifest> ;
-    ns3:sort "G30495-25" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/7d4f0259-f190-4d61-ba53-3ba1fead3790> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 五十九至六十三 [G30495-25]" ;
+    ns5:identifier "7d4f0259-f190-4d61-ba53-3ba1fead3790" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186467/manifest> ;
+    ns4:sort "G30495-25" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5867,8 +5867,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186468> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186468 ;
     ns1:is_public true ;
@@ -5949,15 +5949,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d273af0a-6c99-41e5-8918-1ab5b08f75c8> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 六十四至六十六 [G30495-26]" ;
-    ns7:identifier "d273af0a-6c99-41e5-8918-1ab5b08f75c8" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186468/manifest> ;
-    ns3:sort "G30495-26" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/d273af0a-6c99-41e5-8918-1ab5b08f75c8> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 六十四至六十六 [G30495-26]" ;
+    ns5:identifier "d273af0a-6c99-41e5-8918-1ab5b08f75c8" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186468/manifest> ;
+    ns4:sort "G30495-26" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -5983,8 +5983,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186469> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186469 ;
     ns1:is_public true ;
@@ -6063,15 +6063,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/69a7ccbf-84f6-4b30-ac15-edc924c93a0c> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 六十七 六十八 [G30495-27]" ;
-    ns7:identifier "69a7ccbf-84f6-4b30-ac15-edc924c93a0c" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186469/manifest> ;
-    ns3:sort "G30495-27" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/69a7ccbf-84f6-4b30-ac15-edc924c93a0c> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 六十七 六十八 [G30495-27]" ;
+    ns5:identifier "69a7ccbf-84f6-4b30-ac15-edc924c93a0c" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186469/manifest> ;
+    ns4:sort "G30495-27" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -6097,8 +6097,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186470> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186470 ;
     ns1:is_public true ;
@@ -6168,15 +6168,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/592783c9-1f5c-49aa-91c6-2cc5a07bd35c> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 六十九至七十一 [G30495-28]" ;
-    ns7:identifier "592783c9-1f5c-49aa-91c6-2cc5a07bd35c" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186470/manifest> ;
-    ns3:sort "G30495-28" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/592783c9-1f5c-49aa-91c6-2cc5a07bd35c> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 六十九至七十一 [G30495-28]" ;
+    ns5:identifier "592783c9-1f5c-49aa-91c6-2cc5a07bd35c" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186470/manifest> ;
+    ns4:sort "G30495-28" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -6202,8 +6202,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186471> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186471 ;
     ns1:is_public true ;
@@ -6271,15 +6271,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/4a619557-9578-46cf-a52a-24bc5e7c0d79> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 七十一至七十三 [G30495-29]" ;
-    ns7:identifier "4a619557-9578-46cf-a52a-24bc5e7c0d79" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186471/manifest> ;
-    ns3:sort "G30495-29" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/4a619557-9578-46cf-a52a-24bc5e7c0d79> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 七十一至七十三 [G30495-29]" ;
+    ns5:identifier "4a619557-9578-46cf-a52a-24bc5e7c0d79" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186471/manifest> ;
+    ns4:sort "G30495-29" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -6305,8 +6305,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186472> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186472 ;
     ns1:is_public true ;
@@ -6368,15 +6368,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/3d887282-c1fb-4a64-91eb-e10078fc508b> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 七十四 七十五 [G30495-30]" ;
-    ns7:identifier "3d887282-c1fb-4a64-91eb-e10078fc508b" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186472/manifest> ;
-    ns3:sort "G30495-30" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/3d887282-c1fb-4a64-91eb-e10078fc508b> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 七十四 七十五 [G30495-30]" ;
+    ns5:identifier "3d887282-c1fb-4a64-91eb-e10078fc508b" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186472/manifest> ;
+    ns4:sort "G30495-30" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -6402,8 +6402,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186473> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186473 ;
     ns1:is_public true ;
@@ -6491,15 +6491,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2dd46b79-cd14-40db-8797-0be8d706541d> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 七十六 七十七 [G30495-31]" ;
-    ns7:identifier "2dd46b79-cd14-40db-8797-0be8d706541d" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186473/manifest> ;
-    ns3:sort "G30495-31" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/2dd46b79-cd14-40db-8797-0be8d706541d> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 七十六 七十七 [G30495-31]" ;
+    ns5:identifier "2dd46b79-cd14-40db-8797-0be8d706541d" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186473/manifest> ;
+    ns4:sort "G30495-31" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;
@@ -6525,8 +6525,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/186474> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns5:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
-    ns5:viewingDirection ns5:rightToLeftDirection ;
+    ns7:attributionLabel "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 / Uehiro Project for the Asian Research Library in the University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
     ns1:created "2018-08-07T12:36:48+00:00"^^xsd:dateTime ;
     ns1:id 186474 ;
     ns1:is_public true ;
@@ -6602,15 +6602,15 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/17> ;
-    ns4:description "中国清時代に刊行された満文書籍。" ;
-    ns4:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
-    ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/b01e58d8-019c-4f4a-9a70-a1296dca7798> ;
-    ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns4:title "八旗氏族通譜 七十八至八十 [G30495-32]" ;
-    ns7:identifier "b01e58d8-019c-4f4a-9a70-a1296dca7798" ;
-    ns3:databaseLabel "漢籍・碑帖拓本資料" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186474/manifest> ;
-    ns3:sort "G30495-32" ;
+    ns3:description "中国清時代に刊行された満文書籍。" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/uparl/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/asia/document/b01e58d8-019c-4f4a-9a70-a1296dca7798> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "八旗氏族通譜 七十八至八十 [G30495-32]" ;
+    ns5:identifier "b01e58d8-019c-4f4a-9a70-a1296dca7798" ;
+    ns4:databaseLabel "漢籍・碑帖拓本資料" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/186474/manifest> ;
+    ns4:sort "G30495-32" ;
     ns2:bibliopegy "線装, 四針眼釘法" ;
     ns2:callNumber "G30-495" ;
     ns2:constitutionOfTheWork "首巻, 80巻" ;

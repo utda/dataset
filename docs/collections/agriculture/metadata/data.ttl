@@ -1,25 +1,25 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/utrepo/terms#> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://purl.org/dc/terms/> .
-@prefix ns5: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
 @prefix ns7: <http://xmlns.com/foaf/0.1/> .
-@prefix ns8: <http://purl.org/ontology/bibo/> .
+@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> a ns1:Item ;
-    ns5:note <http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html> ;
+    ns8:note <http://www.lib.a.u-tokyo.ac.jp/tenji/125/04.html> ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "和:7" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "コクギュウ ジュウズ" ;
+    ns2:callNumber "和:7" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "コクギュウ ジュウズ" ;
     ns1:created "2019-03-27T06:50:56+00:00"^^xsd:dateTime ;
     ns1:id 275040 ;
     ns1:is_public true ;
@@ -53,24 +53,24 @@
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/d9115c2c-6c49-1f2b-515e-c67ea4332ab9> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "國牛十圖" ;
-    ns8:identifier "d9115c2c-6c49-1f2b-515e-c67ea4332ab9" ;
-    ns2:databaseLabel """University Library for Agricultural and Life Sciences, the\r
+    ns5:identifier "d9115c2c-6c49-1f2b-515e-c67ea4332ab9" ;
+    ns3:databaseLabel """University Library for Agricultural and Life Sciences, the\r
 University of Tokyo Collection""",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
-    ns2:sort "1" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest> ;
+    ns3:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275040> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
-    ns3:callNumber "和:26" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
+    ns2:alternative "東京帝国大学農学部建物位置図 : 大正11年4月1日現在" ;
+    ns2:callNumber "和:26" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "トウキョウ テイコク ダイガク ノウガクブ タテモノ イチ ズ" ;
     ns1:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
     ns1:id 275041 ;
     ns1:is_public true ;
@@ -117,23 +117,23 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "東京帝國大學農學部建物位置圖" ;
-    ns8:identifier "6d032fb5-0a2f-6e04-9e3c-6bb5f604714f" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "6d032fb5-0a2f-6e04-9e3c-6bb5f604714f" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
-    ns2:sort "2" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest> ;
+    ns3:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275041> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
     ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
-    ns3:callNumber "和:27" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
+    ns2:alternative "東京帝国大学本部構内及農学部建物鳥瞰図 : 昭和12年6月30日現在" ;
+    ns2:callNumber "和:27" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "トウキョウ テイコク ダイガク ホンブ コウナイ オヨビ ノウガクブ タテモノ チョウカン ズ" ;
     ns1:created "2019-03-27T06:50:57+00:00"^^xsd:dateTime ;
     ns1:id 275042 ;
     ns1:is_public true ;
@@ -156,21 +156,21 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/187cc82d-11e6-9912-9dd4-b4cca9b10970> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "東京帝國大學本部構内及農學部建物鳥瞰圖" ;
-    ns8:identifier "187cc82d-11e6-9912-9dd4-b4cca9b10970" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "187cc82d-11e6-9912-9dd4-b4cca9b10970" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
-    ns2:sort "3" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest> ;
+    ns3:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/275042> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439369> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns3:callNumber "630:90:1" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
+    ns2:callNumber "630:90:1" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
     ns1:created "2020-02-06T04:48:50+00:00"^^xsd:dateTime ;
     ns1:id 439369 ;
     ns1:is_public true ;
@@ -355,21 +355,21 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/3e6f484d-a4e0-7073-4365-b287924d423a> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "農科大學桑樹見本園各種摺葉譜　一" ;
-    ns8:identifier "3e6f484d-a4e0-7073-4365-b287924d423a" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "3e6f484d-a4e0-7073-4365-b287924d423a" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3e6f484d-a4e0-7073-4365-b287924d423a/manifest> ;
-    ns2:sort "4" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3e6f484d-a4e0-7073-4365-b287924d423a/manifest> ;
+    ns3:sort "4" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439369> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/dfb6622529735856cf83a97769bb6837c181d6ff.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439370> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns3:callNumber "630:90:2" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
+    ns2:callNumber "630:90:2" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
     ns1:created "2020-02-06T04:48:50+00:00"^^xsd:dateTime ;
     ns1:id 439370 ;
     ns1:is_public true ;
@@ -556,21 +556,21 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/f3bfde97-6dfb-3f09-33af-0c615a250268> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "農科大學桑樹見本園各種摺葉譜　二" ;
-    ns8:identifier "f3bfde97-6dfb-3f09-33af-0c615a250268" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "f3bfde97-6dfb-3f09-33af-0c615a250268" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f3bfde97-6dfb-3f09-33af-0c615a250268/manifest> ;
-    ns2:sort "5" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f3bfde97-6dfb-3f09-33af-0c615a250268/manifest> ;
+    ns3:sort "5" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439370> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/32e2196c46703505110c06bdbf92fa9ad8ca481c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439371> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns3:callNumber "630:90:3" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
+    ns2:callNumber "630:90:3" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
     ns1:created "2020-02-06T04:48:50+00:00"^^xsd:dateTime ;
     ns1:id 439371 ;
     ns1:is_public true ;
@@ -762,21 +762,21 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/a09fc5f4-8edc-0d46-7340-e2768dbf7a05> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "農科大學桑樹見本園各種摺葉譜　三" ;
-    ns8:identifier "a09fc5f4-8edc-0d46-7340-e2768dbf7a05" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "a09fc5f4-8edc-0d46-7340-e2768dbf7a05" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a09fc5f4-8edc-0d46-7340-e2768dbf7a05/manifest> ;
-    ns2:sort "6" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a09fc5f4-8edc-0d46-7340-e2768dbf7a05/manifest> ;
+    ns3:sort "6" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439371> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/67749c791401a4d15b01ec7720cf21569b4c7c67.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439372> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns3:callNumber "630:90:4" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
+    ns2:callNumber "630:90:4" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
     ns1:created "2020-02-06T04:48:50+00:00"^^xsd:dateTime ;
     ns1:id 439372 ;
     ns1:is_public true ;
@@ -932,21 +932,21 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/9c79a3bb-34da-25bf-4243-4ba1709556a9> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "農科大學桑樹見本園各種摺葉譜　四" ;
-    ns8:identifier "9c79a3bb-34da-25bf-4243-4ba1709556a9" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "9c79a3bb-34da-25bf-4243-4ba1709556a9" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9c79a3bb-34da-25bf-4243-4ba1709556a9/manifest> ;
-    ns2:sort "7" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9c79a3bb-34da-25bf-4243-4ba1709556a9/manifest> ;
+    ns3:sort "7" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439372> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a9c54d326cbc953cde434434eb26b6b81614129c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439373> a ns1:Item ;
     ns6:attributionLabel "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo" ;
-    ns3:callNumber "630:90:5" ;
-    ns3:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
-    ns3:seriesTitle "農学生命科学図書館コレクション" ;
-    ns3:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
-    ns3:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
+    ns2:callNumber "630:90:5" ;
+    ns2:seriesAlternative "University Library for Agricultural and Life Sciences, the University of Tokyo Collection" ;
+    ns2:seriesTitle "農学生命科学図書館コレクション" ;
+    ns2:seriesTitleTranscription "Agri. Library, UTokyo Collection" ;
+    ns2:transcription "ノウカ ダイガク ソウジュ ミホンエン カクシュ ショウヨウフ" ;
     ns1:created "2020-02-06T04:48:50+00:00"^^xsd:dateTime ;
     ns1:id 439373 ;
     ns1:is_public true ;
@@ -1105,11 +1105,11 @@ University of Tokyo Collection""",
     ns4:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agriculture/document/58f3ea6c-3626-9cbb-6cf8-33078f6e41bc> ;
     ns4:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns4:title "農科大學桑樹見本園各種摺葉譜　五" ;
-    ns8:identifier "58f3ea6c-3626-9cbb-6cf8-33078f6e41bc" ;
-    ns2:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
+    ns5:identifier "58f3ea6c-3626-9cbb-6cf8-33078f6e41bc" ;
+    ns3:databaseLabel "University Library for Agricultural and Life Sciences, the University of Tokyo Collection",
         "農学生命科学図書館コレクション" ;
-    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58f3ea6c-3626-9cbb-6cf8-33078f6e41bc/manifest> ;
-    ns2:sort "8" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58f3ea6c-3626-9cbb-6cf8-33078f6e41bc/manifest> ;
+    ns3:sort "8" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/439373> ;
     ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/876c4079f5ebc054fab75c39ed25b18448581072.jpg> .
 
