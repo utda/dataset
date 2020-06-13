@@ -1,19 +1,19 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://omeka.org/s/vocabs/o#> .
+@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://iiif.io/api/presentation/2#> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
 @prefix ns8: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7> a ns4:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns2:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
+    ns7:note """和漢古書につき記述対象資料毎に書誌レコード作成\r
 鈔本\r
 書名は箱書きによる\r
 巻末に「弘治十八年八月二十日」とあり\r
@@ -21,16 +21,16 @@
 巻子本\r
 桐箱入\r
 四部分類: 史部 詔令奏議類 詔令之屬""" ;
-    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:viewingDirection ns7:rightToLeftDirection ;
-    ns7:viewingHint ns7:nonPagedHint ;
-    ns6:callNumber "鴎A00:6270" ;
-    ns6:sourceIdentifier "0004804951" ;
-    ns4:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns4:id 7 ;
-    ns4:is_public true ;
-    ns4:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ;
-    ns4:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16>,
+    ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:viewingDirection ns6:rightToLeftDirection ;
+    ns6:viewingHint ns6:nonPagedHint ;
+    ns4:callNumber "鴎A00:6270" ;
+    ns4:sourceIdentifier "0004804951" ;
+    ns2:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns2:id 7 ;
+    ns2:is_public true ;
+    ns2:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ;
+    ns2:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/17>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/18>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/19>,
@@ -40,10 +40,10 @@
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/23>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/24>,
         <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/25> ;
-    ns4:modified "2020-03-26T05:47:22+00:00"^^xsd:dateTime ;
-    ns4:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns4:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns4:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns2:modified "2020-03-26T05:47:22+00:00"^^xsd:dateTime ;
+    ns2:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns2:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns2:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
     ns1:creator "孝宗 <コウソウ> <xiao zong>" ;
     ns1:date "弘治18 [1505]" ;
     ns1:description """解題 明・弘治十八年八月二十日勅命(東京大学東京大学総合図書館所蔵鴎外文庫本)\r
@@ -81,33 +81,33 @@
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459> ;
     ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ns4:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1> ns2:id 1 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16> ns4:id 16 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/16> ns2:id 16 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/17> ns4:id 17 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/17> ns2:id 17 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/18> ns4:id 18 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/18> ns2:id 18 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/19> ns4:id 19 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/19> ns2:id 19 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/20> ns4:id 20 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/20> ns2:id 20 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21> ns4:id 21 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21> ns2:id 21 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22> ns4:id 22 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22> ns2:id 22 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/23> ns4:id 23 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/23> ns2:id 23 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/24> ns4:id 24 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/24> ns2:id 24 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/25> ns4:id 25 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/25> ns2:id 25 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns4:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns2:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns4:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns2:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns4:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns2:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns4:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns2:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 

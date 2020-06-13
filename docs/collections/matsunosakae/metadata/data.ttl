@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://iiif.io/api/presentation/2#> .
-@prefix ns4: <http://xmlns.com/foaf/0.1/> .
-@prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://purl.org/utrepo/terms#> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -14,8 +14,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns3:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:titleTranscription "まつのさかえ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns2:titleTranscription "まつのさかえ" ;
     ns1:created "2018-04-01T07:05:33+00:00"^^xsd:dateTime ;
     ns1:id 21824 ;
     ns1:is_public true ;
@@ -25,19 +25,19 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns2:description """「松乃栄(まつのさかえ)」は「旧幕府の姫君加州家へ御輿入の図」という副題を持つ資料で、総合図書館に貴重書として所蔵されています。\r
+    ns3:description """「松乃栄(まつのさかえ)」は「旧幕府の姫君加州家へ御輿入の図」という副題を持つ資料で、総合図書館に貴重書として所蔵されています。\r
 この資料は、文政10(1827)年に徳川第11代将軍家斉の第21女・溶姫が加賀藩第13代藩主前田斉泰に輿入れしたときの様子を、三代歌川国貞が想像を交えて描いた錦絵です。東京大学のシンボルの一つである「赤門」は、このとき溶姫を迎えるため建立されたもので、白無垢の花嫁衣裳に身を包んだ溶姫が、豪奢な行列を従えて赤門をくぐる図は当時の華やかさを今に伝えています。もっとも、この資料は明治22年に描かれたもので、明治22(1889)年は家康が江戸へ入府した天正18(1590)年から数えて三百年に当たり、東京開市三百年祭が営まれた年であったため、溶姫の輿入れが描かれたと考えられます。東京大学にとっては、赤門の由来を伝える貴重な絵画史料と言えます。\r
 \r
 【請求記号 A00:6569】""" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/> ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "松乃栄" ;
-    ns5:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
-    ns6:databaseLabel "松乃栄" ;
-    ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "松乃栄" ;
+    ns4:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
+    ns5:databaseLabel "松乃栄" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
-    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21827> ns1:id 21827 .
 
