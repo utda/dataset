@@ -1,9 +1,9 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://iiif.io/api/presentation/2#> .
-@prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13,8 +13,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns2:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns2:viewingDirection ns2:rightToLeftDirection ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 13 ;
     ns1:is_public true ;
@@ -54,24 +54,24 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3> ;
-    ns3:description """【解題】直江状(東京大学総合図書館所蔵承応三年刊本)\r
+    ns2:description """【解題】直江状(東京大学総合図書館所蔵承応三年刊本)\r
  安土桃山時代から江戸時代前期の大名上杉景勝に仕えた重臣直江兼続(1560~1619)が記したとされる書状を、承応3年(1654)に京都の中村五郎右衛門が刊行したもの。全28丁からなる和装本で、大きさは26.5×17.6cm、総合図書館の貴重書に指定されている(請求番号A00:4631)。藻類学者・水産学者であった岡村金太郎(1867~1935)が収集した往来物とよばれる書簡文体の初等教科書・手本類のなかの1点であり、そのコレクションは関東大震災後の大正14年(1925)に購入・登録され、岡村文庫と称されている。\r
 \r
  内容は、徳川家康への謀反の疑いをかけられた上杉景勝が上洛・弁明を求められたのに対し、上洛の困難な理由、家康への逆心のないこと、讒言を用いるべきではないこと等、直江兼続が反論を加えたもの。家康のブレーンであった京都の臨済宗豊光寺の僧・西笑承兌に宛てた、慶長5年(1600)4月14日付けの返書の形を取っている。\r
 \r
  「直江状」は、同年の関が原の戦へとつながる家康の会津上杉攻めの口実を作ったとして従来から注目されてきた。一方で、原本が未確認であり、古文書集に収録された写本や総合図書館所蔵本のように版本として流布してきたこともあり、その表記法や内容等から歴史的資料としての信憑性を疑う説も提出されている。少なくとも総合図書館所蔵本の性格を考える上では、かつて往来物として収集されたことに留意しておいてよいだろう。""" ;
-    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/> ;
-    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/document/daaf81b0-f1a7-435c-9216-a8fb56390887> ;
-    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns3:title "直江状" ;
-    ns6:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
-    ns4:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json> ;
-    ns4:databaseLabel "直江状" ;
-    ns4:linkToTapas <http://tapasproject.org/tapas-commons/files/直江状> ;
-    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest> ;
-    ns4:searchApiUri <https://w3id.org/dhj/i3sa/https:/archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/text/xml/daaf81b0-f1a7-435c-9216-a8fb56390887.xml> ;
+    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/> ;
+    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/naoe/document/daaf81b0-f1a7-435c-9216-a8fb56390887> ;
+    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns2:title "直江状" ;
+    ns5:identifier "daaf81b0-f1a7-435c-9216-a8fb56390887" ;
+    ns3:annotedManifest <https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json> ;
+    ns3:databaseLabel "直江状" ;
+    ns3:linkToTapas <http://tapasproject.org/tapas-commons/files/直江状> ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest> ;
+    ns3:searchApiUri <https://w3id.org/dhj/i3sa/https:/archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/text/xml/daaf81b0-f1a7-435c-9216-a8fb56390887.xml> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/13> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100> ns1:id 100 .
 
