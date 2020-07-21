@@ -49,6 +49,6 @@ if __name__ == "__main__":
 
             f.write("sudo mkdir -p " + new_output_dir + "\n")
             f.write(
-                "sudo convert " + org_file_path + " -define tiff:tile-geometry=256x256 -compress jpeg 'ptif:" + new_file_path + "'\n")
+                "sudo convert '" + org_file_path + "' -define tiff:tile-geometry=256x256 -compress jpeg 'ptif:" + new_file_path + "'\n")
 
     f.close()
