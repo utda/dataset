@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns8="http://iiif.io/api/presentation/2#"
-  xmlns:ns7="http://data.archiveshub.ac.uk/def/"
+  xmlns:ns2="http://omeka.org/s/vocabs/o#"
+  xmlns:ns4="http://purl.org/utrepo/terms#"
   xmlns:ns3="http://purl.org/dc/terms/"
-  xmlns:ns2="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns5="http://purl.org/utrepo/terms#"
-  xmlns:ns4="http://purl.org/ontology/bibo/"
-  xmlns:ns6="http://xmlns.com/foaf/0.1/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns7="http://iiif.io/api/presentation/2#"
+  xmlns:ns5="http://data.archiveshub.ac.uk/def/"
   xmlns:ns9="http://purl.org/dc/dcmitype/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns6="http://purl.org/ontology/bibo/"
+  xmlns:ns8="http://xmlns.com/foaf/0.1/"
 >
-  <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830">
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <ns1:media>
+  <ns9:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830">
+    <ns1:callNumber>A100:1649</ns1:callNumber>
+    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
+    <ns2:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns1:id>
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns2:id>
       </rdf:Description>
-    </ns1:media>
-    <ns2:titleTranscription>きゅうせいしゅぞう</ns2:titleTranscription>
-    <ns1:owner>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
-      </rdf:Description>
-    </ns1:owner>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns1:created>
-    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
-    <ns4:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns4:identifier>
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
+    </ns2:media>
     <ns3:rights>
       <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+        <ns2:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns2:label>
       </rdf:Description>
     </ns3:rights>
+    <ns4:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
+    <ns2:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns2:id>
+      </rdf:Description>
+    </ns2:item_set>
+    <ns1:titleTranscription>きゅうせいしゅぞう</ns1:titleTranscription>
+    <ns4:databaseLabel>救世主像</ns4:databaseLabel>
     <ns3:description>左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。&#13;
 &#13;
 当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。</ns3:description>
-    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg"/>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
-    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-26T05:51:13+00:00</ns1:modified>
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns1:id>
+    <ns2:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
       </rdf:Description>
-    </ns1:item_set>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns7:note>制作年：不明&#13;
-材質・技法・形状：油彩、銅板（厚さ0.6mm）&#13;
-寸法（cm）：縦23×横17</ns7:note>
-    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21830</ns1:id>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830"/>
-    <ns8:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns8:attributionLabel>
-    <ns2:callNumber>A100:1649</ns2:callNumber>
-    <ns5:databaseLabel>救世主像</ns5:databaseLabel>
-    <ns1:resource_template>
+    </ns2:resource_class>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns2:resource_template>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:id>
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:id>
       </rdf:Description>
-    </ns1:resource_template>
+    </ns2:resource_template>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-22T04:41:29+00:00</ns2:modified>
     <ns3:title>救世主像</ns3:title>
-  </ns1:Item>
+    <ns5:note>制作年：不明&#13;
+材質・技法・形状：油彩、銅板（厚さ0.6mm）&#13;
+寸法（cm）：縦23×横17</ns5:note>
+    <ns6:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns6:identifier>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21830</ns2:id>
+    <ns2:owner>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
+        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
+      </rdf:Description>
+    </ns2:owner>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830"/>
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
+    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns2:created>
+    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
+    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56cdc4b1574b0fecb21156c01ba1b3fc1bdebfbb.jpg"/>
+  </ns9:Image>
 </rdf:RDF>

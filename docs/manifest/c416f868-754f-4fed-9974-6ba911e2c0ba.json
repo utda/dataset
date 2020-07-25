@@ -43,7 +43,7 @@
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/canvas/p1",
                     "@type": "sc:Canvas",
-                    "height": 4670,
+                    "height": 7760,
                     "images": [
                         {
                             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/annotation/p0001-image",
@@ -51,36 +51,38 @@
                             "motivation": "sc:painting",
                             "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/canvas/p1",
                             "resource": {
-                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg",
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/matsunosakae/A00_6569_0001.tif/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 4670,
+                                "height": 7760,
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827",
-                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/matsunosakae/A00_6569_0001.tif",
+                                    "height": 7760,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 13240
                                 },
-                                "width": 5835
+                                "width": 13240
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827/full/200,/0/default.jpg",
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/matsunosakae/A00_6569_0001.tif/full/200,200/0/default.jpg",
                         "service": {
                             "@context": "http://iiif.io/api/image/2/context.json",
-                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/21827",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/matsunosakae/A00_6569_0001.tif",
                             "profile": "http://iiif.io/api/image/2/level2.json"
                         }
                     },
-                    "width": 5835
+                    "width": 13240
                 }
             ],
             "label": "Current Page Order",
             "viewingHint": "non-paged"
         }
     ],
-    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/73c0f14aeb5e2f978eca86cab601eda07213ce21.jpg",
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg",
     "viewingDirection": "left-to-right",
     "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/"
 }
