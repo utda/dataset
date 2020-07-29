@@ -1,0 +1,46 @@
+@prefix ns1: <http://omeka.org/s/vocabs/o#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns7: <http://purl.org/utrepo/terms#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/533711> ns1:id 533711 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/533745> a ns1:Item ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns4:viewingDirection ns4:rightToLeftDirection ;
+    ns5:titleTranscription "なんせんぶしゅうだいにほんこくしょうとうず" ;
+    ns1:created "2020-07-14T01:32:49+00:00"^^xsd:dateTime ;
+    ns1:id 533745 ;
+    ns1:is_public true ;
+    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/533711> ;
+    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/533746> ;
+    ns1:modified "2020-07-15T02:23:48+00:00"^^xsd:dateTime ;
+    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10> ;
+    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/33> ;
+    ns3:description "青洲文庫" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/nansembushu/> ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/nansembushu/document/d61e0a67-77af-42eb-9c14-5146372b14f1> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "南贍部洲大日本国正統図" ;
+    ns3:type "刊" ;
+    ns6:identifier "d61e0a67-77af-42eb-9c14-5146372b14f1" ;
+    ns6:numVolumes "1舗" ;
+    ns7:databaseLabel "南贍部洲大日本国正統図" ;
+    ns7:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d61e0a67-77af-42eb-9c14-5146372b14f1/manifest> ;
+    ns7:sort "10000001" ;
+    rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/533745> ;
+    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d4c051e231871690362eadb27778bcd7c9cb8d8c.jpg> .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/533746> ns1:id 533746 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/33> ns1:id 33 .
+
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10> ns1:id 10 .
+
