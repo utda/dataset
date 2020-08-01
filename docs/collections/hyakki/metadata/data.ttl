@@ -1,9 +1,9 @@
 @prefix ns1: <http://iiif.io/api/presentation/2#> .
 @prefix ns2: <http://omeka.org/s/vocabs/o#> .
 @prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://purl.org/utrepo/terms#> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns5: <http://purl.org/utrepo/terms#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -40,11 +40,11 @@
     ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b> ;
     ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns3:title "百鬼夜行図" ;
-    ns6:identifier "fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b" ;
-    ns4:databaseLabel "百鬼夜行図" ;
-    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest> ;
+    ns4:identifier "fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b" ;
+    ns5:databaseLabel "百鬼夜行図" ;
+    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg> .
+    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/271694> ns2:id 271694 .
 
