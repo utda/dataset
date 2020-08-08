@@ -1,10 +1,10 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
 @prefix ns2: <http://omeka.org/s/vocabs/o#> .
 @prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns5: <http://xmlns.com/foaf/0.1/> .
 @prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,7 +15,7 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns6:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:titleTranscription "まつのさかえ" ;
+    ns4:titleTranscription "まつのさかえ" ;
     ns2:created "2018-04-01T07:05:33+00:00"^^xsd:dateTime ;
     ns2:id 21824 ;
     ns2:is_public true ;
@@ -33,7 +33,7 @@
     ns1:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba> ;
     ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns1:title "松乃栄" ;
-    ns4:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
+    ns7:identifier "c416f868-754f-4fed-9974-6ba911e2c0ba" ;
     ns3:databaseLabel "松乃栄" ;
     ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
