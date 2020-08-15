@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns7="http://purl.org/ontology/bibo/"
-  xmlns:ns2="http://omeka.org/s/vocabs/o#"
-  xmlns:ns5="http://xmlns.com/foaf/0.1/"
-  xmlns:ns1="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns3="http://purl.org/utrepo/terms#"
-  xmlns:ns8="http://purl.org/dc/dcmitype/"
+  xmlns:ns3="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns4="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns6="http://iiif.io/api/presentation/2#"
+  xmlns:ns1="http://omeka.org/s/vocabs/o#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns2="http://ndl.go.jp/dcndl/terms/"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
+  xmlns:ns8="http://purl.org/dc/dcmitype/"
+  xmlns:ns4="http://purl.org/utrepo/terms#"
+  xmlns:ns7="http://purl.org/ontology/bibo/"
+  xmlns:ns5="http://iiif.io/api/presentation/2#"
 >
-  <ns2:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824">
-    <ns1:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba"/>
-    <ns3:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest"/>
-    <ns2:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:id>
-      </rdf:Description>
-    </ns2:resource_class>
-    <ns4:titleTranscription>まつのさかえ</ns4:titleTranscription>
-    <ns2:resource_template>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:id>
-      </rdf:Description>
-    </ns2:resource_template>
-    <ns3:databaseLabel>松乃栄</ns3:databaseLabel>
-    <ns2:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21826">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21826</ns2:id>
-      </rdf:Description>
-    </ns2:item_set>
-    <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-01T07:05:33+00:00</ns2:created>
+  <ns8:Image rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824">
+    <ns2:titleTranscription>まつのさかえ</ns2:titleTranscription>
     <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824"/>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-21T04:46:25+00:00</ns2:modified>
-    <ns1:description>「松乃栄(まつのさかえ)」は「旧幕府の姫君加州家へ御輿入の図」という副題を持つ資料で、総合図書館に貴重書として所蔵されています。&#13;
+    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/"/>
+    <ns1:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21826">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21826</ns1:id>
+      </rdf:Description>
+    </ns1:item_set>
+    <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-21T04:46:25+00:00</ns1:modified>
+    <ns3:rights>
+      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
+        <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
+      </rdf:Description>
+    </ns3:rights>
+    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-01T07:05:33+00:00</ns1:created>
+    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/document/c416f868-754f-4fed-9974-6ba911e2c0ba"/>
+    <ns3:description>「松乃栄(まつのさかえ)」は「旧幕府の姫君加州家へ御輿入の図」という副題を持つ資料で、総合図書館に貴重書として所蔵されています。&#13;
 この資料は、文政10(1827)年に徳川第11代将軍家斉の第21女・溶姫が加賀藩第13代藩主前田斉泰に輿入れしたときの様子を、三代歌川国貞が想像を交えて描いた錦絵です。東京大学のシンボルの一つである「赤門」は、このとき溶姫を迎えるため建立されたもので、白無垢の花嫁衣裳に身を包んだ溶姫が、豪奢な行列を従えて赤門をくぐる図は当時の華やかさを今に伝えています。もっとも、この資料は明治22年に描かれたもので、明治22(1889)年は家康が江戸へ入府した天正18(1590)年から数えて三百年に当たり、東京開市三百年祭が営まれた年であったため、溶姫の輿入れが描かれたと考えられます。東京大学にとっては、赤門の由来を伝える貴重な絵画史料と言えます。&#13;
 &#13;
-【請求記号 A00:6569】</ns1:description>
-    <ns5:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg"/>
-    <ns1:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/matsunosakae/"/>
-    <ns1:rights>
-      <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
-        <ns2:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns2:label>
-      </rdf:Description>
-    </ns1:rights>
-    <ns6:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns6:attributionLabel>
-    <ns2:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:is_public>
-    <ns2:owner>
+【請求記号 A00:6569】</ns3:description>
+    <ns3:title>松乃栄</ns3:title>
+    <ns4:databaseLabel>松乃栄</ns4:databaseLabel>
+    <ns4:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest"/>
+    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
+    <ns1:owner>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:id>
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
       </rdf:Description>
-    </ns2:owner>
-    <ns7:identifier>c416f868-754f-4fed-9974-6ba911e2c0ba</ns7:identifier>
-    <ns2:media>
+    </ns1:owner>
+    <ns5:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns5:attributionLabel>
+    <ns1:resource_template>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:id>
+      </rdf:Description>
+    </ns1:resource_template>
+    <ns6:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg"/>
+    <rdf:type rdf:resource="http://omeka.org/s/vocabs/o#Item"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21824</ns1:id>
+    <ns1:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
+      </rdf:Description>
+    </ns1:resource_class>
+    <ns1:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/534240">
-        <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">534240</ns2:id>
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">534240</ns1:id>
       </rdf:Description>
-    </ns2:media>
-    <ns1:title>松乃栄</ns1:title>
-    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21824</ns2:id>
-  </ns2:Item>
+    </ns1:media>
+    <ns7:identifier>c416f868-754f-4fed-9974-6ba911e2c0ba</ns7:identifier>
+  </ns8:Image>
 </rdf:RDF>
