@@ -1,10 +1,10 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
 @prefix ns2: <http://omeka.org/s/vocabs/o#> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
-@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns4: <http://purl.org/utrepo/terms#> .
+@prefix ns5: <http://data.archiveshub.ac.uk/def/> .
 @prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix ns8: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,9 +15,9 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns2:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns7:note "写本" ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns5:callNumber "A00:6251" ;
+    ns5:note "写本" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns3:callNumber "A00:6251" ;
     ns2:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns2:id 9 ;
     ns2:is_public true ;
@@ -41,8 +41,8 @@
     ns1:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns1:title "『三十六歌撰』絵巻" ;
     ns6:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
-    ns3:databaseLabel "『三十六歌撰』絵巻" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
+    ns4:databaseLabel "『三十六歌撰』絵巻" ;
+    ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> ;
     ns8:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
 
