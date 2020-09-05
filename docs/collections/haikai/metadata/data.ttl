@@ -1,21 +1,21 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
 @prefix ns4: <http://purl.org/utrepo/terms#> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
-@prefix ns6: <http://iiif.io/api/presentation/2#> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169732> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:335" ;
-    ns3:sourceIdentifier "9-12-2" ;
-    ns3:titleTranscription "キコウ ダイ３ アマ ノ ハシダテ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:335" ;
+    ns6:sourceIdentifier "9-12-2" ;
+    ns6:titleTranscription "キコウ ダイ３ アマ ノ ハシダテ" ;
     ns1:created "2018-07-25T00:39:04+00:00"^^xsd:dateTime ;
     ns1:id 169732 ;
     ns1:is_public true ;
@@ -55,14 +55,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169732/manifest> ;
     ns4:sort "30" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169732> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2f3447db7464953cb7d86ea4ab8a279f43411ce5.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2f3447db7464953cb7d86ea4ab8a279f43411ce5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169733> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:81" ;
-    ns3:sourceIdentifier "9-33-7" ;
-    ns3:titleTranscription "アンヤ キンモウ ズイ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:81" ;
+    ns6:sourceIdentifier "9-33-7" ;
+    ns6:titleTranscription "アンヤ キンモウ ズイ" ;
     ns1:created "2018-07-25T00:39:04+00:00"^^xsd:dateTime ;
     ns1:id 169733 ;
     ns1:is_public true ;
@@ -112,14 +112,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169733/manifest> ;
     ns4:sort "31" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169733> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/866bf47b1e9cf4ae5c08c40e7afda310a90d4ea7.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/866bf47b1e9cf4ae5c08c40e7afda310a90d4ea7.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169734> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2305" ;
-    ns3:sourceIdentifier "4-7-8" ;
-    ns3:titleTranscription "ハイカイ チュウドウシュウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2305" ;
+    ns6:sourceIdentifier "4-7-8" ;
+    ns6:titleTranscription "ハイカイ チュウドウシュウ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169734 ;
     ns1:is_public true ;
@@ -183,14 +183,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169734/manifest> ;
     ns4:sort "8" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169734> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1962704601505f0b69b1200c5bdf48e9191d9955.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1962704601505f0b69b1200c5bdf48e9191d9955.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169735> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:419" ;
-    ns3:sourceIdentifier "7-23-11" ;
-    ns3:titleTranscription "エダウツリ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:419" ;
+    ns6:sourceIdentifier "7-23-11" ;
+    ns6:titleTranscription "エダウツリ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169735 ;
     ns1:is_public true ;
@@ -251,14 +251,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169735/manifest> ;
     ns4:sort "21" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169735> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bc4c251c3a30e9a276a5baa06dfef3351ed69046.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bc4c251c3a30e9a276a5baa06dfef3351ed69046.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169736> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:3216" ;
-    ns3:sourceIdentifier "10-16-4" ;
-    ns3:titleTranscription "フジモウデ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:3216" ;
+    ns6:sourceIdentifier "10-16-4" ;
+    ns6:titleTranscription "フジモウデ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169736 ;
     ns1:is_public true ;
@@ -298,14 +298,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169736/manifest> ;
     ns4:sort "26" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169736> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/37642a1895004110097464e4627770882c0c1c21.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/37642a1895004110097464e4627770882c0c1c21.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169737> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:322" ;
-    ns3:sourceIdentifier "5-16-1" ;
-    ns3:titleTranscription "ハイカイ ゴゲンシュウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:322" ;
+    ns6:sourceIdentifier "5-16-1" ;
+    ns6:titleTranscription "ハイカイ ゴゲンシュウ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169737 ;
     ns1:is_public true ;
@@ -356,14 +356,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169737/manifest> ;
     ns4:sort "27" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169737> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52adf7f9ab240676d9a78fc383b4ffdd7358fbed.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52adf7f9ab240676d9a78fc383b4ffdd7358fbed.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169738> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:686" ;
-    ns3:sourceIdentifier "9-20-13" ;
-    ns3:titleTranscription "ハイカイ カナヅカイ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:686" ;
+    ns6:sourceIdentifier "9-20-13" ;
+    ns6:titleTranscription "ハイカイ カナヅカイ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169738 ;
     ns1:is_public true ;
@@ -426,14 +426,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169738/manifest> ;
     ns4:sort "24" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169738> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16ae667012034942a955d8c614cff8e7b7b20241.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16ae667012034942a955d8c614cff8e7b7b20241.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169739> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2767" ;
-    ns3:sourceIdentifier "4-5-12" ;
-    ns3:titleTranscription "ハイカイ ハル ノ ミズ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2767" ;
+    ns6:sourceIdentifier "4-5-12" ;
+    ns6:titleTranscription "ハイカイ ハル ノ ミズ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169739 ;
     ns1:is_public true ;
@@ -469,14 +469,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169739/manifest> ;
     ns4:sort "7" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169739> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c63f7690300a49f4bfa1c31483ccbef755e818ca.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c63f7690300a49f4bfa1c31483ccbef755e818ca.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169740> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1310" ;
-    ns3:sourceIdentifier "5-16-2" ;
-    ns3:titleTranscription "ハイカイ ヒヨウショ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1310" ;
+    ns6:sourceIdentifier "5-16-2" ;
+    ns6:titleTranscription "ハイカイ ヒヨウショ" ;
     ns1:created "2018-07-25T00:39:05+00:00"^^xsd:dateTime ;
     ns1:id 169740 ;
     ns1:is_public true ;
@@ -516,14 +516,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169740/manifest> ;
     ns4:sort "20" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169740> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8de4a09afd94c9af09b5d9fbf303e38f1a741fab.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8de4a09afd94c9af09b5d9fbf303e38f1a741fab.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169741> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2689" ;
-    ns3:sourceIdentifier "4-9-8" ;
-    ns3:titleTranscription "ネンダイ フメイ ハイショ モクロク" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2689" ;
+    ns6:sourceIdentifier "4-9-8" ;
+    ns6:titleTranscription "ネンダイ フメイ ハイショ モクロク" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169741 ;
     ns1:is_public true ;
@@ -597,14 +597,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169741/manifest> ;
     ns4:sort "9" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169741> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f93e81124296e8dd71f8fe3900ff0af18e2f1ef1.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f93e81124296e8dd71f8fe3900ff0af18e2f1ef1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169742> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:168" ;
-    ns3:sourceIdentifier "9-2-12" ;
-    ns3:titleTranscription "イモガシラ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:168" ;
+    ns6:sourceIdentifier "9-2-12" ;
+    ns6:titleTranscription "イモガシラ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169742 ;
     ns1:is_public true ;
@@ -676,14 +676,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169742/manifest> ;
     ns4:sort "22" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169742> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/565e9186145463d3b66ff129116e0066cc7f6955.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/565e9186145463d3b66ff129116e0066cc7f6955.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169743> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:竹冷:664" ;
-    ns3:sourceIdentifier "5-6-2" ;
-    ns3:titleTranscription "シンセン イヌ ツクバシュウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:竹冷:664" ;
+    ns6:sourceIdentifier "5-6-2" ;
+    ns6:titleTranscription "シンセン イヌ ツクバシュウ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169743 ;
     ns1:is_public true ;
@@ -745,14 +745,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169743/manifest> ;
     ns4:sort "17" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169743> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/308aa8b081d7496a7677a99e94713cc67d75ead0.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/308aa8b081d7496a7677a99e94713cc67d75ead0.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169744> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:202" ;
-    ns3:sourceIdentifier "3-13-17" ;
-    ns3:titleTranscription "イタコシュウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:202" ;
+    ns6:sourceIdentifier "3-13-17" ;
+    ns6:titleTranscription "イタコシュウ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169744 ;
     ns1:is_public true ;
@@ -822,14 +822,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169744/manifest> ;
     ns4:sort "3" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169744> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3cfe0e057da96a40c70e20b9ba6ef57c3ba74f1c.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3cfe0e057da96a40c70e20b9ba6ef57c3ba74f1c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169745> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:268" ;
-    ns3:sourceIdentifier "5-10-18" ;
-    ns3:titleTranscription "イタコズシ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:268" ;
+    ns6:sourceIdentifier "5-10-18" ;
+    ns6:titleTranscription "イタコズシ" ;
     ns1:created "2018-07-25T00:39:06+00:00"^^xsd:dateTime ;
     ns1:id 169745 ;
     ns1:is_public true ;
@@ -873,14 +873,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169745/manifest> ;
     ns4:sort "19" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169745> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/827977075f0246b7d71c5731ce6c61f4f47c81cf.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/827977075f0246b7d71c5731ce6c61f4f47c81cf.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169746> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1825" ;
-    ns3:sourceIdentifier "10-9-21" ;
-    ns3:titleTranscription "ジョゲンチョウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1825" ;
+    ns6:sourceIdentifier "10-9-21" ;
+    ns6:titleTranscription "ジョゲンチョウ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169746 ;
     ns1:is_public true ;
@@ -930,14 +930,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169746/manifest> ;
     ns4:sort "25" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169746> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a52a3b2a02f13c8aa666eddd093559d00290c991.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a52a3b2a02f13c8aa666eddd093559d00290c991.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169747> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:658" ;
-    ns3:sourceIdentifier "5-1-9" ;
-    ns3:titleTranscription "カマクラゾメ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:658" ;
+    ns6:sourceIdentifier "5-1-9" ;
+    ns6:titleTranscription "カマクラゾメ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169747 ;
     ns1:is_public true ;
@@ -990,14 +990,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169747/manifest> ;
     ns4:sort "15" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169747> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52c38e793a7f46e356254262d9e8e71389f9e981.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52c38e793a7f46e356254262d9e8e71389f9e981.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169748> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:540" ;
-    ns3:sourceIdentifier "5-16-4" ;
-    ns3:titleTranscription "クマノガラス" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:540" ;
+    ns6:sourceIdentifier "5-16-4" ;
+    ns6:titleTranscription "クマノガラス" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169748 ;
     ns1:is_public true ;
@@ -1053,14 +1053,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169748/manifest> ;
     ns4:sort "28" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169748> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/363e4d41ee3fda50b0fb85ffb8c49fca5f38061a.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/363e4d41ee3fda50b0fb85ffb8c49fca5f38061a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169749> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:竹冷:293" ;
-    ns3:sourceIdentifier "4-9-12" ;
-    ns3:titleTranscription "クセンベツ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:竹冷:293" ;
+    ns6:sourceIdentifier "4-9-12" ;
+    ns6:titleTranscription "クセンベツ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169749 ;
     ns1:is_public true ;
@@ -1101,14 +1101,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169749/manifest> ;
     ns4:sort "12" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169749> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d293d99d1ad5b09ba59f8cbd6e570fb92ed0e61e.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d293d99d1ad5b09ba59f8cbd6e570fb92ed0e61e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169750> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:3480" ;
-    ns3:sourceIdentifier "4-9-18" ;
-    ns3:titleTranscription "マクヅクシ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:3480" ;
+    ns6:sourceIdentifier "4-9-18" ;
+    ns6:titleTranscription "マクヅクシ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169750 ;
     ns1:is_public true ;
@@ -1158,14 +1158,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169750/manifest> ;
     ns4:sort "13" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169750> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b7536418f10f329032766bff5cdc184b17b5a06b.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b7536418f10f329032766bff5cdc184b17b5a06b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169751> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:591" ;
-    ns3:sourceIdentifier "9-18-6" ;
-    ns3:titleTranscription "シンエイ ハナモミジ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:591" ;
+    ns6:sourceIdentifier "9-18-6" ;
+    ns6:titleTranscription "シンエイ ハナモミジ" ;
     ns1:created "2018-07-25T00:39:07+00:00"^^xsd:dateTime ;
     ns1:id 169751 ;
     ns1:is_public true ;
@@ -1223,14 +1223,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169751/manifest> ;
     ns4:sort "23" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169751> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5aa509a86643e2420c928eefde3d15e32786882b.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5aa509a86643e2420c928eefde3d15e32786882b.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169752> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2616" ;
-    ns3:sourceIdentifier "4-9-9" ;
-    ns3:titleTranscription "ハイカイ ナニワ ジュンレイ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2616" ;
+    ns6:sourceIdentifier "4-9-9" ;
+    ns6:titleTranscription "ハイカイ ナニワ ジュンレイ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169752 ;
     ns1:is_public true ;
@@ -1289,14 +1289,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169752/manifest> ;
     ns4:sort "10" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169752> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14d84b7ec1ee96c25398ebed941252aa12aa982c.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/14d84b7ec1ee96c25398ebed941252aa12aa982c.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169753> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2601" ;
-    ns3:sourceIdentifier "5-1-10" ;
-    ns3:titleTranscription "ナワユイ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2601" ;
+    ns6:sourceIdentifier "5-1-10" ;
+    ns6:titleTranscription "ナワユイ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169753 ;
     ns1:is_public true ;
@@ -1345,14 +1345,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169753/manifest> ;
     ns4:sort "16" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169753> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db64397e724f14a854a654e86f2d454605083430.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db64397e724f14a854a654e86f2d454605083430.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169754> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1881" ;
-    ns3:sourceIdentifier "4-14-12" ;
-    ns3:titleTranscription "ハイカイ センダイ キコウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1881" ;
+    ns6:sourceIdentifier "4-14-12" ;
+    ns6:titleTranscription "ハイカイ センダイ キコウ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169754 ;
     ns1:is_public true ;
@@ -1403,14 +1403,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169754/manifest> ;
     ns4:sort "14" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169754> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/53a2954d263510969b404e4e5878485fd5b79d3a.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/53a2954d263510969b404e4e5878485fd5b79d3a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169755> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1573" ;
-    ns3:sourceIdentifier "4-5-9" ;
-    ns3:titleTranscription "シモノハナ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1573" ;
+    ns6:sourceIdentifier "4-5-9" ;
+    ns6:titleTranscription "シモノハナ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169755 ;
     ns1:is_public true ;
@@ -1462,14 +1462,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169755/manifest> ;
     ns4:sort "5" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169755> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e6f7cf3ff5c7c8ba97326323db506a04f9c5fc9f.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e6f7cf3ff5c7c8ba97326323db506a04f9c5fc9f.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169756> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1876" ;
-    ns3:sourceIdentifier "2-1-3" ;
-    ns3:titleTranscription "ズイモンキ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1876" ;
+    ns6:sourceIdentifier "2-1-3" ;
+    ns6:titleTranscription "ズイモンキ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169756 ;
     ns1:is_public true ;
@@ -1532,14 +1532,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169756/manifest> ;
     ns4:sort "1" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169756> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75ccf8c21708754ce4b4dcb5b3ea38d220f10649.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75ccf8c21708754ce4b4dcb5b3ea38d220f10649.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169757> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:3347" ;
-    ns3:sourceIdentifier "5-6-6" ;
-    ns3:titleTranscription "ハイカイ ソウジ ボウズ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:3347" ;
+    ns6:sourceIdentifier "5-6-6" ;
+    ns6:titleTranscription "ハイカイ ソウジ ボウズ" ;
     ns1:created "2018-07-25T00:39:08+00:00"^^xsd:dateTime ;
     ns1:id 169757 ;
     ns1:is_public true ;
@@ -1597,14 +1597,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169757/manifest> ;
     ns4:sort "18" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169757> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72387524b44711abb3af30b8923d9550d3b609dc.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72387524b44711abb3af30b8923d9550d3b609dc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169758> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:3765" ;
-    ns3:sourceIdentifier "4-9-10" ;
-    ns3:titleTranscription "トウカイドウ キコウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:3765" ;
+    ns6:sourceIdentifier "4-9-10" ;
+    ns6:titleTranscription "トウカイドウ キコウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169758 ;
     ns1:is_public true ;
@@ -1692,14 +1692,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169758/manifest> ;
     ns4:sort "32" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169758> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bbaf14d695051d6736961deb7d366efd1a203dc.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3bbaf14d695051d6736961deb7d366efd1a203dc.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169759> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:竹冷:3" ;
-    ns3:sourceIdentifier "4-9-11" ;
-    ns3:titleTranscription "トヨトミ ヒデヨシ アケチ ミツヒデ レンガ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:竹冷:3" ;
+    ns6:sourceIdentifier "4-9-11" ;
+    ns6:titleTranscription "トヨトミ ヒデヨシ アケチ ミツヒデ レンガ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169759 ;
     ns1:is_public true ;
@@ -1736,14 +1736,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169759/manifest> ;
     ns4:sort "11" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169759> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cc66bf9405c1e42bd920f95f8f1e27aa0e71d9e5.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cc66bf9405c1e42bd920f95f8f1e27aa0e71d9e5.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169760> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1127" ;
-    ns3:sourceIdentifier "4-3-10" ;
-    ns3:titleTranscription "ツイフク ムカイブネ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1127" ;
+    ns6:sourceIdentifier "4-3-10" ;
+    ns6:titleTranscription "ツイフク ムカイブネ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169760 ;
     ns1:is_public true ;
@@ -1777,14 +1777,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169760/manifest> ;
     ns4:sort "4" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169760> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5a7cee28b20b455bdc534532534f618cd963a37a.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5a7cee28b20b455bdc534532534f618cd963a37a.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169761> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:547" ;
-    ns3:sourceIdentifier "10-17-23" ;
-    ns3:titleTranscription "エイリ  ヤナギダル" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:547" ;
+    ns6:sourceIdentifier "10-17-23" ;
+    ns6:titleTranscription "エイリ  ヤナギダル" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169761 ;
     ns1:is_public true ;
@@ -1863,14 +1863,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169761/manifest> ;
     ns4:sort "33" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169761> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/024aecece7231a0675fa91ddc29eb885aec2e37d.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/024aecece7231a0675fa91ddc29eb885aec2e37d.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169762> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:1344" ;
-    ns3:sourceIdentifier "4-5-11" ;
-    ns3:titleTranscription "ツイゼン ザンギクシュウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:1344" ;
+    ns6:sourceIdentifier "4-5-11" ;
+    ns6:titleTranscription "ツイゼン ザンギクシュウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169762 ;
     ns1:is_public true ;
@@ -1907,14 +1907,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169762/manifest> ;
     ns4:sort "6" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169762> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c8d716d3cafe48e122acd522381e32a0c72c3b8e.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c8d716d3cafe48e122acd522381e32a0c72c3b8e.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169763> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "E32:546" ;
-    ns3:sourceIdentifier "9-10-6" ;
-    ns3:titleTranscription "ゼンコウジ キコウ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "E32:546" ;
+    ns6:sourceIdentifier "9-10-6" ;
+    ns6:titleTranscription "ゼンコウジ キコウ" ;
     ns1:created "2018-07-25T00:39:09+00:00"^^xsd:dateTime ;
     ns1:id 169763 ;
     ns1:is_public true ;
@@ -1978,14 +1978,14 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169763/manifest> ;
     ns4:sort "29" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169763> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fa67219fa5686e24f5ed52602b21826676a37e94.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fa67219fa5686e24f5ed52602b21826676a37e94.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169764> a ns1:Item ;
-    ns6:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
-    ns6:viewingDirection ns6:rightToLeftDirection ;
-    ns3:callNumber "A00:洒竹:2408" ;
-    ns3:sourceIdentifier "2-28-3" ;
-    ns3:titleTranscription "ズダニシキ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library, The University of Tokyo, JAPAN" ;
+    ns7:viewingDirection ns7:rightToLeftDirection ;
+    ns6:callNumber "A00:洒竹:2408" ;
+    ns6:sourceIdentifier "2-28-3" ;
+    ns6:titleTranscription "ズダニシキ" ;
     ns1:created "2018-07-25T00:39:10+00:00"^^xsd:dateTime ;
     ns1:id 169764 ;
     ns1:is_public true ;
@@ -2037,7 +2037,7 @@
     ns4:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/169764/manifest> ;
     ns4:sort "2" ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/169764> ;
-    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ccb6b7306efb1390894f3c88c6c7b876fc375d8.jpg> .
+    ns3:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6ccb6b7306efb1390894f3c88c6c7b876fc375d8.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/170864> ns1:id 170864 .
 

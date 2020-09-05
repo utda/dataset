@@ -1,11 +1,11 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
 @prefix ns3: <http://purl.org/dc/terms/> .
 @prefix ns4: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns5: <http://purl.org/utrepo/terms#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://purl.org/ontology/bibo/> .
-@prefix ns8: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns8: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -16,8 +16,8 @@
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
     ns4:note "写本" ;
-    ns8:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns2:callNumber "A00:6251" ;
+    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:callNumber "A00:6251" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 9 ;
     ns1:is_public true ;
@@ -40,11 +40,11 @@
     ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321> ;
     ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns3:title "『三十六歌撰』絵巻" ;
-    ns7:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
-    ns5:databaseLabel "『三十六歌撰』絵巻" ;
-    ns5:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
+    ns8:identifier "42219787-59b5-4570-b811-c3d1ff7ad321" ;
+    ns2:databaseLabel "『三十六歌撰』絵巻" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9> ;
-    ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/280854> ns1:id 280854 .
 
