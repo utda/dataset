@@ -1,10 +1,10 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns3: <http://purl.org/dc/terms/> .
-@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix ns6: <http://purl.org/utrepo/terms#> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -14,8 +14,8 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:titleTranscription "まつのさかえ" ;
+    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns2:titleTranscription "まつのさかえ" ;
     ns1:created "2018-04-01T07:05:33+00:00"^^xsd:dateTime ;
     ns1:id 21824 ;
     ns1:is_public true ;
@@ -37,7 +37,7 @@
     ns6:databaseLabel "松乃栄" ;
     ns6:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21824> ;
-    ns2:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg> .
+    ns4:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/534240> ns1:id 534240 .
 
