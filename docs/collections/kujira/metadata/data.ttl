@@ -1,11 +1,11 @@
 @prefix ns1: <http://omeka.org/s/vocabs/o#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/utrepo/terms#> .
-@prefix ns4: <http://data.archiveshub.ac.uk/def/> .
-@prefix ns5: <http://xmlns.com/foaf/0.1/> .
-@prefix ns6: <http://purl.org/ontology/bibo/> .
-@prefix ns7: <http://iiif.io/api/presentation/2#> .
-@prefix ns8: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns2: <http://purl.org/utrepo/terms#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns6: <http://ndl.go.jp/dcndl/terms/> .
+@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns8: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,14 +15,14 @@
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns4:note """写本\r
+    ns5:note """写本\r
 本帖は三部から成る\r
 一部末尾に「享保八卯年御尋ニ付紀州熊野浦二分口役所ニおいて吟味之上書付指上候魚之圖　干時享保十五歳戌初夏寫之」とあり\r
 二部冒頭に「以下は製装の際、加ふるものなり。明治十五年十二月」とあり\r
 二部末尾に「文政元年初秋三日伊嶋漁夫網海獲之」とあり\r
 三部冒頭に「以下捕鯨無記名の一巻なり」とあり""" ;
-    ns7:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns8:callNumber "A00:5852" ;
+    ns4:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns6:callNumber "A00:5852" ;
     ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
     ns1:id 11 ;
     ns1:is_public true ;
@@ -32,7 +32,7 @@
     ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
     ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
     ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
-    ns2:description """(享保八年)紀州熊野浦諸鯨之圖 (きしゅうくまのうらしょげいのず)\r
+    ns3:description """(享保八年)紀州熊野浦諸鯨之圖 (きしゅうくまのうらしょげいのず)\r
   本書は、一帖の中に内容・紙質が異なる三種の資料が見られる。また資料の継ぎ目には、それぞれ旧蔵者田中芳男氏の筆とみられる付箋があることから、恐らく巻子などの体裁で別々に存在した以下1~3の資料を氏が合冊し折本として製本したものと思われるが、資料相互の関係性は不明である。\r
 \r
   1.末尾に「享保八年卯年御尋に付紀州熊野浦二分口役所において吟味之上書指上げ候魚之図 干時享保十五歳戌初夏写之」との識語があるため、これが折本の題箋が指す『紀州熊野浦諸鯨之圖』に相当すると思われる。資料には鯨のほか、サメ、イルカ、マンボウまで紹介されている。このように魚の種類が多岐にわたるのは、江戸期の紀州の捕鯨図にみられる特徴でもあるようだ。\r
@@ -42,18 +42,18 @@
   3.「以下捕鯨 無記名の一巻なりし」との付箋に続き、捕鯨の様子が描かれている。巨大な鯨と対峙する漁夫達の姿は勇壮である。\r
 \r
  【貴重書 A00:5852】 [田中文庫]""" ;
-    ns2:extent "1帖" ;
-    ns2:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kujira/> ;
-    ns2:language "日本語" ;
-    ns2:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kujira/document/1de1d067-53a5-4981-a122-daa047367056> ;
-    ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
-    ns2:title "紀州熊野浦諸鯨之圖" ;
-    ns6:identifier "1de1d067-53a5-4981-a122-daa047367056" ;
-    ns3:bunko "田中文庫" ;
-    ns3:databaseLabel "紀州熊野浦諸鯨之圖" ;
-    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest> ;
+    ns3:extent "1帖" ;
+    ns3:isPartOf <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kujira/> ;
+    ns3:language "日本語" ;
+    ns3:relation <https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kujira/document/1de1d067-53a5-4981-a122-daa047367056> ;
+    ns3:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
+    ns3:title "紀州熊野浦諸鯨之圖" ;
+    ns8:identifier "1de1d067-53a5-4981-a122-daa047367056" ;
+    ns2:bunko "田中文庫" ;
+    ns2:databaseLabel "紀州熊野浦諸鯨之圖" ;
+    ns2:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> ;
-    ns5:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg> .
+    ns7:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg> .
 
 <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ns1:id 222795 .
 
