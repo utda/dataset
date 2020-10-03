@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns4="http://data.archiveshub.ac.uk/def/"
-  xmlns:ns9="http://purl.org/dc/dcmitype/"
   xmlns:ns1="http://omeka.org/s/vocabs/o#"
-  xmlns:ns3="http://purl.org/dc/terms/"
-  xmlns:ns7="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://purl.org/dc/terms/"
+  xmlns:ns5="http://purl.org/utrepo/terms#"
+  xmlns:ns9="http://purl.org/dc/dcmitype/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns5="http://ndl.go.jp/dcndl/terms/"
-  xmlns:ns8="http://iiif.io/api/presentation/2#"
-  xmlns:ns2="http://purl.org/utrepo/terms#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://xmlns.com/foaf/0.1/"
+  xmlns:ns2="http://data.archiveshub.ac.uk/def/"
+  xmlns:ns3="http://ndl.go.jp/dcndl/terms/"
   xmlns:ns6="http://purl.org/ontology/bibo/"
+  xmlns:ns7="http://iiif.io/api/presentation/2#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <ns1:Item rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830">
-    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
-    <ns1:item_set>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns1:id>
+    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns1:created>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537005">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537005</ns1:id>
       </rdf:Description>
-    </ns1:item_set>
-    <ns2:databaseLabel>救世主像</ns2:databaseLabel>
+    </ns1:media>
+    <ns1:is_public rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:is_public>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537007">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537007</ns1:id>
+      </rdf:Description>
+    </ns1:media>
     <ns1:owner>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1">
         <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:id>
       </rdf:Description>
     </ns1:owner>
-    <ns3:rights>
+    <ns2:note>制作年：不明&#13;
+材質・技法・形状：油彩、銅板（厚さ0.6mm）&#13;
+寸法（cm）：縦23×横17</ns2:note>
+    <ns3:callNumber>A100:1649</ns3:callNumber>
+    <ns4:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
+    <ns4:description>左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。&#13;
+&#13;
+当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。&#13;
+&#13;
+（2020.07）2019年度東京大学デジタルアーカイブズ構築事業により再撮影を行い、従来の公開画像とあわせて、より高精細な画像も公開しました。（第1～7コマが2019年度撮影画像、第8コマ目が旧画像です。）</ns4:description>
+    <ns1:resource_class>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
+      </rdf:Description>
+    </ns1:resource_class>
+    <ns4:rights>
       <rdf:Description rdf:about="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">
         <ns1:label>https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse</ns1:label>
       </rdf:Description>
-    </ns3:rights>
-    <ns4:note>制作年：不明&#13;
-材質・技法・形状：油彩、銅板（厚さ0.6mm）&#13;
-寸法（cm）：縦23×横17</ns4:note>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537006">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537006</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537009">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537009</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns3:relation rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/document/5061e0fa-b328-431f-a95e-7b417137335b"/>
-    <ns3:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns1:id>
-      </rdf:Description>
-    </ns1:media>
+    </ns4:rights>
     <ns1:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-31T23:56:46+00:00</ns1:modified>
-    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830"/>
-    <ns2:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
     <ns1:media>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537011">
         <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537011</ns1:id>
       </rdf:Description>
     </ns1:media>
-    <ns5:titleTranscription>きゅうせいしゅぞう</ns5:titleTranscription>
-    <ns6:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns6:identifier>
-    <ns1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T13:28:48+00:00</ns1:created>
+    <ns5:manifestUri rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest"/>
     <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537008">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537008</ns1:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/21831">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21831</ns1:id>
+      </rdf:Description>
+    </ns1:media>
+    <ns6:identifier>5061e0fa-b328-431f-a95e-7b417137335b</ns6:identifier>
+    <rdfs:seeAlso rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/21830"/>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537010">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537010</ns1:id>
+      </rdf:Description>
+    </ns1:media>
+    <ns1:item_set>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/21829">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21829</ns1:id>
+      </rdf:Description>
+    </ns1:item_set>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <ns7:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns7:attributionLabel>
+    <ns5:databaseLabel>救世主像</ns5:databaseLabel>
+    <ns4:isPartOf rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kyuseisyuzou/"/>
+    <ns8:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/df75229ea53c0dbda6ddca96f2ca72b398edd0d7.jpg"/>
+    <ns4:title>救世主像</ns4:title>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537006">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537006</ns1:id>
       </rdf:Description>
     </ns1:media>
     <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21830</ns1:id>
-    <ns7:thumbnail rdf:resource="https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/df75229ea53c0dbda6ddca96f2ca72b398edd0d7.jpg"/>
+    <ns1:media>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537009">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537009</ns1:id>
+      </rdf:Description>
+    </ns1:media>
+    <ns3:titleTranscription>きゅうせいしゅぞう</ns3:titleTranscription>
     <ns1:resource_template>
       <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/3">
         <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:id>
       </rdf:Description>
     </ns1:resource_template>
     <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537010">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537010</ns1:id>
+      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537008">
+        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537008</ns1:id>
       </rdf:Description>
     </ns1:media>
-    <ns8:attributionLabel>東京大学総合図書館 General Library in the University of Tokyo, JAPAN</ns8:attributionLabel>
-    <ns5:callNumber>A100:1649</ns5:callNumber>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537005">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537005</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns1:media>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/537007">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537007</ns1:id>
-      </rdf:Description>
-    </ns1:media>
-    <ns1:resource_class>
-      <rdf:Description rdf:about="https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26">
-        <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:id>
-      </rdf:Description>
-    </ns1:resource_class>
-    <ns3:title>救世主像</ns3:title>
-    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
-    <ns3:description>左手に十字架のついた珠を持ち、右手で祝福を与えるキリスト像は、礼拝用聖画として代表的な図像の一つです。この像はアントワープで刊行された銅版画をもとに、銅板に油絵具で描かれました。画面右下に「IS 97」と記されていることから、「IS」を「15」と解釈し、1597年に描かれたとする説があります。&#13;
-&#13;
-当時の日本ではキリスト教の布教をすすめたイエズス会によって、西洋流の絵画教育が行われていました。この像も裏面に「Sacam. Iacobus」と書き込まれていることから、ヤコブ丹羽（丹羽ジャコベ）が宣教師ジョバンニ・ニコラオの指導を受けて描いたものと推測されています。&#13;
-&#13;
-（2020.07）2019年度東京大学デジタルアーカイブズ構築事業により再撮影を行い、従来の公開画像とあわせて、より高精細な画像も公開しました。（第1～7コマが2019年度撮影画像、第8コマ目が旧画像です。）</ns3:description>
   </ns1:Item>
 </rdf:RDF>

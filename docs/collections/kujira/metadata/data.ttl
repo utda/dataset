@@ -1,37 +1,37 @@
-@prefix ns1: <http://purl.org/utrepo/terms#> .
+@prefix ns1: <http://omeka.org/s/vocabs/o#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <http://purl.org/utrepo/terms#> .
 @prefix ns4: <http://purl.org/ontology/bibo/> .
-@prefix ns5: <http://iiif.io/api/presentation/2#> .
+@prefix ns5: <http://ndl.go.jp/dcndl/terms/> .
 @prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://ndl.go.jp/dcndl/terms/> .
-@prefix ns8: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns7: <http://data.archiveshub.ac.uk/def/> .
+@prefix ns8: <http://iiif.io/api/presentation/2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/3> ns3:id 3 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/3> ns1:id 3 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> a ns3:Item,
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> a ns1:Item,
         <http://purl.org/dc/dcmitype/Image> ;
-    ns8:note """写本\r
+    ns7:note """写本\r
 本帖は三部から成る\r
 一部末尾に「享保八卯年御尋ニ付紀州熊野浦二分口役所ニおいて吟味之上書付指上候魚之圖　干時享保十五歳戌初夏寫之」とあり\r
 二部冒頭に「以下は製装の際、加ふるものなり。明治十五年十二月」とあり\r
 二部末尾に「文政元年初秋三日伊嶋漁夫網海獲之」とあり\r
 三部冒頭に「以下捕鯨無記名の一巻なり」とあり""" ;
-    ns5:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
-    ns7:callNumber "A00:5852" ;
-    ns3:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
-    ns3:id 11 ;
-    ns3:is_public true ;
-    ns3:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/3> ;
-    ns3:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ;
-    ns3:modified "2020-03-26T05:47:22+00:00"^^xsd:dateTime ;
-    ns3:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
-    ns3:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
-    ns3:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
+    ns8:attributionLabel "東京大学総合図書館 General Library in the University of Tokyo, JAPAN" ;
+    ns5:callNumber "A00:5852" ;
+    ns1:created "2018-01-06T01:12:45+00:00"^^xsd:dateTime ;
+    ns1:id 11 ;
+    ns1:is_public true ;
+    ns1:item_set <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/3> ;
+    ns1:media <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ;
+    ns1:modified "2020-03-26T05:47:22+00:00"^^xsd:dateTime ;
+    ns1:owner <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ;
+    ns1:resource_class <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ;
+    ns1:resource_template <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ;
     ns2:description """(享保八年)紀州熊野浦諸鯨之圖 (きしゅうくまのうらしょげいのず)\r
   本書は、一帖の中に内容・紙質が異なる三種の資料が見られる。また資料の継ぎ目には、それぞれ旧蔵者田中芳男氏の筆とみられる付箋があることから、恐らく巻子などの体裁で別々に存在した以下1~3の資料を氏が合冊し折本として製本したものと思われるが、資料相互の関係性は不明である。\r
 \r
@@ -49,19 +49,19 @@
     ns2:rights <https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ;
     ns2:title "紀州熊野浦諸鯨之圖" ;
     ns4:identifier "1de1d067-53a5-4981-a122-daa047367056" ;
-    ns1:bunko "田中文庫" ;
-    ns1:databaseLabel "紀州熊野浦諸鯨之圖" ;
-    ns1:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest> ;
+    ns3:bunko "田中文庫" ;
+    ns3:databaseLabel "紀州熊野浦諸鯨之圖" ;
+    ns3:manifestUri <https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest> ;
     rdfs:seeAlso <https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/11> ;
     ns6:thumbnail <https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg> .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ns3:id 222795 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222795> ns1:id 222795 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns3:id 26 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26> ns1:id 26 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns3:id 6 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6> ns1:id 6 .
 
-<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns3:id 1 .
+<https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1> ns1:id 1 .
 
-<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns3:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
+<https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse> ns1:label "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse" .
 
