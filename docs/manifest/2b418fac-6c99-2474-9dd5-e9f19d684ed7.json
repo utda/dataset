@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN",
+    "label": "臙脂一覽",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "臙脂一覽"
+        },
+        {
+            "label": "資料名ヨミ",
+            "value": "エンシ イチラン"
+        },
+        {
+            "label": "編著者",
+            "value": "武田昌次述 ; 服部雪齋, 山嵜董洤画"
+        },
+        {
+            "label": "刊行年、書写年等",
+            "value": "1876.2"
+        },
+        {
+            "label": "冊数",
+            "value": "1枚"
+        },
+        {
+            "label": "＜日本語＞コレクション名",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "＜英語＞コレクション名",
+            "value": "Farm Museum Collection"
+        },
+        {
+            "label": "親書誌表題",
+            "value": "教草"
+        },
+        {
+            "label": "親書誌の番号等",
+            "value": "第26"
+        },
+        {
+            "label": "identifier",
+            "value": "2b418fac-6c99-2474-9dd5-e9f19d684ed7"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "0116"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm/document/2b418fac-6c99-2474-9dd5-e9f19d684ed7",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541442",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4499,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b418fac-6c99-2474-9dd5-e9f19d684ed7/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第26_べに一覧.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4499,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第26_べに一覧.tif",
+                                    "height": 4499,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6140
+                                },
+                                "width": 6140
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第26_べに一覧.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第26_べに一覧.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6140
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f1a34bda1338c94c2ce2e4232ed844db7aa2ddbb.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm"
+}

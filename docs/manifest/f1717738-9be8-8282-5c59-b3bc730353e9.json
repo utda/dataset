@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN",
+    "label": "油一覽",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "油一覽"
+        },
+        {
+            "label": "資料名ヨミ",
+            "value": "アブラ イチラン"
+        },
+        {
+            "label": "編著者",
+            "value": "武田昌次述 ; 服部雪齋画"
+        },
+        {
+            "label": "刊行年、書写年等",
+            "value": "1876.2"
+        },
+        {
+            "label": "冊数",
+            "value": "1枚"
+        },
+        {
+            "label": "＜日本語＞コレクション名",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "＜英語＞コレクション名",
+            "value": "Farm Museum Collection"
+        },
+        {
+            "label": "親書誌表題",
+            "value": "教草"
+        },
+        {
+            "label": "親書誌の番号等",
+            "value": "第25"
+        },
+        {
+            "label": "identifier",
+            "value": "f1717738-9be8-8282-5c59-b3bc730353e9"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "0115"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm/document/f1717738-9be8-8282-5c59-b3bc730353e9",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541443",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4362,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f1717738-9be8-8282-5c59-b3bc730353e9/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第25_油一覧.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4362,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第25_油一覧.tif",
+                                    "height": 4362,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6152
+                                },
+                                "width": 6152
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第25_油一覧.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第25_油一覧.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6152
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4703243389cfebc77eccba4836ac18a8dd4c0cad.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm"
+}

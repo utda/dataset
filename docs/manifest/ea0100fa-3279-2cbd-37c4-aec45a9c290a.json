@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN",
+    "label": "生糸一覽",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "生糸一覽"
+        },
+        {
+            "label": "資料名ヨミ",
+            "value": "キイト イチラン"
+        },
+        {
+            "label": "編著者",
+            "value": "信夫粲撰 ; 溝口月耕画"
+        },
+        {
+            "label": "刊行年、書写年等",
+            "value": "1876.2"
+        },
+        {
+            "label": "冊数",
+            "value": "1枚"
+        },
+        {
+            "label": "＜日本語＞コレクション名",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "＜英語＞コレクション名",
+            "value": "Farm Museum Collection"
+        },
+        {
+            "label": "親書誌表題",
+            "value": "教草"
+        },
+        {
+            "label": "親書誌の番号等",
+            "value": "第4"
+        },
+        {
+            "label": "identifier",
+            "value": "ea0100fa-3279-2cbd-37c4-aec45a9c290a"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "0105"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm/document/ea0100fa-3279-2cbd-37c4-aec45a9c290a",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541453",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4440,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ea0100fa-3279-2cbd-37c4-aec45a9c290a/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第4_生糸一覧.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4440,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第4_生糸一覧.tif",
+                                    "height": 4440,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6022
+                                },
+                                "width": 6022
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第4_生糸一覧.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第4_生糸一覧.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6022
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/15b9aefeeece2455d833a0d0fb5f940b5b3b8eed.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm"
+}

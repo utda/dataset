@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN",
+    "label": "製茶一覽",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "製茶一覽"
+        },
+        {
+            "label": "資料名ヨミ",
+            "value": "セイチャ イチラン"
+        },
+        {
+            "label": "編著者",
+            "value": "加藤景孝編述 ; 山高信離校訂 ; 中嶋仰山校圖"
+        },
+        {
+            "label": "刊行年、書写年等",
+            "value": "1876.2"
+        },
+        {
+            "label": "冊数",
+            "value": "1枚"
+        },
+        {
+            "label": "＜日本語＞コレクション名",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "＜英語＞コレクション名",
+            "value": "Farm Museum Collection"
+        },
+        {
+            "label": "親書誌表題",
+            "value": "教草"
+        },
+        {
+            "label": "親書誌の番号等",
+            "value": "第15"
+        },
+        {
+            "label": "identifier",
+            "value": "5542ed13-6e94-1b4d-18ba-95c0f2857725"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "0109"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm/document/5542ed13-6e94-1b4d-18ba-95c0f2857725",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541449",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4439,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5542ed13-6e94-1b4d-18ba-95c0f2857725/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第15_製茶一覧.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4439,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第15_製茶一覧.tif",
+                                    "height": 4439,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6094
+                                },
+                                "width": 6094
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第15_製茶一覧.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第15_製茶一覧.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6094
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/52405ea3694503c60d975548082c8eea0ad56f0f.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm"
+}

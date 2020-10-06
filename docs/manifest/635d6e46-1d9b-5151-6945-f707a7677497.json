@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN",
+    "label": "褐腐一覽",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "褐腐一覽"
+        },
+        {
+            "label": "資料名ヨミ",
+            "value": "コンニャク イチラン"
+        },
+        {
+            "label": "編著者",
+            "value": "榊原芳野原稿 ; 武田昌次抄録 ; 服部雪齋画圖"
+        },
+        {
+            "label": "刊行年、書写年等",
+            "value": "1876.2"
+        },
+        {
+            "label": "冊数",
+            "value": "1枚"
+        },
+        {
+            "label": "＜日本語＞コレクション名",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "＜英語＞コレクション名",
+            "value": "Farm Museum Collection"
+        },
+        {
+            "label": "親書誌表題",
+            "value": "教草"
+        },
+        {
+            "label": "親書誌の番号等",
+            "value": "第29"
+        },
+        {
+            "label": "identifier",
+            "value": "635d6e46-1d9b-5151-6945-f707a7677497"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学農学生命科学研究科・農学部 / Graduate School of Agricultural and Life Sciences/Faculty of Agriculture, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "農場博物館コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "0118"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm/document/635d6e46-1d9b-5151-6945-f707a7677497",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541440",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4633,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/635d6e46-1d9b-5151-6945-f707a7677497/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第29_褐腐（蒟蒻）一覧.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4633,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第29_褐腐（蒟蒻）一覧.tif",
+                                    "height": 4633,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6200
+                                },
+                                "width": 6200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第29_褐腐（蒟蒻）一覧.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/farmmuseum/oshiegusa/第29_褐腐（蒟蒻）一覧.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4067498a108cd35c38537ead0034b587087f36b8.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/agrifarm"
+}
