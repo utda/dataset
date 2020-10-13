@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN",
+    "label": "ドイツ人教師旅費支給に関する始末書",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "ドイツ人教師旅費支給に関する始末書"
+        },
+        {
+            "label": "資料名冒頭ヨミ",
+            "value": "ドイツジンキョウシ"
+        },
+        {
+            "label": "成立年次1",
+            "value": "1907.10.15"
+        },
+        {
+            "label": "数量",
+            "value": "1通"
+        },
+        {
+            "label": "トップフォルダ",
+            "value": "第一高等学校関係文書"
+        },
+        {
+            "label": "階層記号",
+            "value": "一高05"
+        },
+        {
+            "label": "階層名",
+            "value": "教職員関係書類"
+        },
+        {
+            "label": "identifier",
+            "value": "080fdd38-2b73-2822-0963-2041277a37b8"
+        },
+        {
+            "label": "Sort",
+            "value": "0041"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "狩野亨吉文書"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kanok/document/080fdd38-2b73-2822-0963-2041277a37b8",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/539077",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/080fdd38-2b73-2822-0963-2041277a37b8/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高05/一高05_002/一高05_002_0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高05/一高05_002/一高05_002_0001.tif",
+                                    "height": 3744,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 5616
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高05/一高05_002/一高05_002_0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高05/一高05_002/一高05_002_0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c2fc9058bd2ea3238905a6539b3a59cb5704fc88.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kanok"
+}

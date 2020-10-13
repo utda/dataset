@@ -1,0 +1,107 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN",
+    "label": "熊沢鏡之介から狩野亨吉宛",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "熊沢鏡之介から狩野亨吉宛"
+        },
+        {
+            "label": "資料名冒頭ヨミ",
+            "value": "クマザワキョウノスケ"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "トップフォルダ",
+            "value": "第一高等学校関係文書"
+        },
+        {
+            "label": "階層記号",
+            "value": "一高07"
+        },
+        {
+            "label": "階層名",
+            "value": "諸通知"
+        },
+        {
+            "label": "identifier",
+            "value": "892df419-a2f5-74ff-3c49-5b44812711df"
+        },
+        {
+            "label": "Sort",
+            "value": "0064"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "狩野亨吉文書"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kanok/document/892df419-a2f5-74ff-3c49-5b44812711df",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/539100",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/892df419-a2f5-74ff-3c49-5b44812711df/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高07/一高07_005/一高07_005_0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高07/一高07_005/一高07_005_0001.tif",
+                                    "height": 3744,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 5616
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高07/一高07_005/一高07_005_0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kano/第一高等學校關係文書/一高07/一高07_005/一高07_005_0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ffff6ca3abeb0a5bda6127da591006be7a339e.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kanok"
+}
