@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/kasen/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "「三十六歌撰」絵巻の公開サイトです。この資料は、藤原公任の「三十六人撰」に選ばれている歌人の和歌から一人一首ずつを選び、その歌人名と和歌について、大田南畝が染筆した絵巻です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "三十六歌撰絵巻"
+        },
+        {
+            "@language": "en",
+            "@value": "Sanjuroku Kasen Emaki [Thirty-Six Immortal Poets Scroll]"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest",
             "@type": "sc:Manifest",
             "label": "『三十六歌撰』絵巻",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

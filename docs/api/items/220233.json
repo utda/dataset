@@ -1,0 +1,416 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220233",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "7f3f16e9-cdc0-4da8-b3e9-2629a464960f",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/7f3f16e9-cdc0-4da8-b3e9-2629a464960f",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Particolari costruttivi della Cloaca Massima.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/449ec7eaddf883d207f0db7a23aa1ad979057651.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:13:48+00:00"
+    },
+    "o:id": 220233,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221673",
+            "o:id": 221673
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:08:46+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "289.b",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 3",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:comment": [
+        {
+            "@value": "lvestigia et sectiones「基部断面」直訳は「断面と断面図」になってしまうので、意訳する",
+            "is_public": true,
+            "property_id": 478,
+            "property_label": "comment",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "289.b",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "935. III. Études de la Cloaca Maxima. -- Sig. en bas à dr. -- H. 0.35. L. 0.235. -- Fil. id.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "935。図版3。クロアカ・マクシマの習作。−右下に署名。−高さ0.35,長さ0.235。−二重の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "935",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "326",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "354X233",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Cloacae Maximae alveusA Orthographia reliquiarum Pulcri Litoris, cum ostio sive emissario Cloacae Maximae. B Litus, ac fornix infra lineam ex lapidibus Albanis, supra lineam ex tophis. C Sectio ejusdem Cloacae contra ejus directionem, ultraque Pulcrus Litus. D Ichnographia ipsius Cloacae, et Pulcri Litoris.**E Vestigia et sectiones arcuum e lapide Tiburtino cloacam ambientium. F Directio Cloacae Forum Romanum versus.  G Lapides Albani. H Lapides Tiburtini arcuum Cloacam ambientium trans Pulcrum litus, qualibet distantia, quae est inter E et H interjecti, et anteridibus ex emplecto quod notatur lit. I, roborati, ut videre est lit. a in sectione C. b c d Fornix Cloacae triplex quatenus subacta est Pulcro Litori. e f Tophi Pulcri Litoris.  L Sectio Cloacae secundum ejus directiones. M Temere aggesta ab aquis Cloacae.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "クロアカ・マクシマ[大下水溝]の水路A 護岸石の遺構の立面図、開口部あるいはクロアカ・マクシマの排水口を含むもの。B 河岸とアーチ、線より下はペペリーノ[火山砕屑岩]からなり,上は凝灰岩からなる。C 同クロアカ・マクシマの、進行方向と直角の断面図。護岸石より向こう側。D 同クロアカ・マクシマおよび護岸石の平面図。E クロアカ・マクシマを覆う、トラヴァーチンからなるアーチの基部断面。F クロアカ・マクシマの、フォルム・ロマヌムへと向かう方向。G ペペリーノ。H クロアカ・マクシマを覆うアーチのトラヴァーチン。護岸石の向う側、すなわちEとHの間にわたって使われており、記号Iで示されるエンプレクトン積み[粗石積み]の控え壁によって補強されている。補強の様は断面図Cの記号aに示されている。b c d クロアカ・マクシマの3重アーチ、護岸石の幅一杯に拡がるもの。e f 護岸石の凝灰岩。L クロアカ・マクシマの、進行方向に沿った断面図。M クロアカ・マクシマの水流による雑多な堆積物。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "289.b",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "7006",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "5",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "378X237",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "DELLA MAGNIFICENZA ED ARCHITETTURA DE' ROMANI",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマの壮麗と建築",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "sito",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "440",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "Tab.III",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Particolari costruttivi della Cloaca Massima.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "クロアカ・マクシマ[大下水溝]の構造",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "SETTIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "7",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Signature, lower right",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "763",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Plan, section and elevation of the Cloaca Maxima (the Great Drain ).",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220233",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7f3f16e9-cdc0-4da8-b3e9-2629a464960f/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0326",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

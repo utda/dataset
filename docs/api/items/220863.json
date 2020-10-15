@@ -1,0 +1,407 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220863",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "023b67a4-3ca8-4bb2-9ac1-82bab098eb9c",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/023b67a4-3ca8-4bb2-9ac1-82bab098eb9c",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Veduta di un Eliocamino per abitarvi l'inverno, il quale era riscaldato dal sole, che s'introduceva per le finestre.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d161cd6f818a6a604a1cea8e347fa7f723b33901.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:16:39+00:00"
+    },
+    "o:id": 220863,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222303",
+            "o:id": 222303
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:16:26+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "815",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 63",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "815",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "847 (132). V. di un eliocamino per abitarvi l'inverno, il quale era riscaldato dal sole, che s'introduceva per le finestre.  (130.1777). -- Titre dans un cartouche, à dr. --  Sig. en bas à dr., dans le cartouche. -- H. 0.42. L. 0.60. - Fil. id.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "847。 (132) 窓越しの太陽光によって冬期に暖をとるヘリオカミヌス[採光部屋]の景観 (130.1777) 。−右のカルトゥーシュの中にタイトル。−カルトゥーシュの中,右下に署名。−高さ0.42,長さ0.60。−幅広の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "847",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hind_no": [
+        {
+            "@value": "133",
+            "is_public": true,
+            "property_id": 420,
+            "property_label": "Hind_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "956",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "415X602",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "VEDUTA di un Eliocamino per abitarvi l' Inverno, il quale era riscaldato dal Sole, che s'introduceva per le Finestre A, esposte al Mezzodi. Le Statue, che adornavano questo luogo, ricevevano il loro lume vantaggioso, per mezzo del quale si poteva agevolmente distinguere ogni loro Preggio, e Bellezza.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "冬に住まうためのヘリオカミヌス[採光部屋]〔実際は,皇帝のトリクリニウム[横臥式食堂]と通称される室に付属した通路〕。ここは南向きの窓Aから差し込む太陽光によって暖められていた。ここに飾られていた彫刻は、明かりを有効に受け、それによりそれぞれの美点や素晴らしさがより引き立っていたはずである。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "815",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "17063",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "63",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "421X609",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "VEDUTE DI ROMA",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマの景観",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Cav. Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "騎士ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "sito",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "1004",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Veduta di un Eliocamino per abitarvi l'inverno, il quale era riscaldato dal sole, che s'introduceva per le finestre.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ハドリアヌス帝の別荘にある,窓越しの太陽光により冬期に暖をとるためのヘリオカミヌス[採光部屋]〔実際は,皇帝のトリクリニウムと通称される室に付属した通路〕",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "DICIASSETTESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "17",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "So-called. At Hadrian's Villa,Tivoli.Signature,lower right,on a scroll.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "266",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "View of the Heliocaminus, used in the winter as it was heated by the sun which entered through the windows.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220863",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/023b67a4-3ca8-4bb2-9ac1-82bab098eb9c/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0956",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

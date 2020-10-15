@@ -2,20 +2,37 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/shashincho/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "明治時代の東京帝国大学を撮影した写真帖で、総合図書館で所蔵する明治33(1900)年版と明治37(1904)年版の2種類を公開しています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "写真帖『東京帝國大學』"
+        },
+        {
+            "@language": "en",
+            "@value": "Imperial University of Tokyo"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/manifest",
             "@type": "sc:Manifest",
             "label": "写真帖『東京帝國大學』明治33年(1900)年版",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/116/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7ce76dab06e610895e607c9b53650c7e1d4fc874.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8b0089a9-66fc-4833-ab13-21d92f7f7aa4/manifest",
             "@type": "sc:Manifest",
             "label": "写真帖『東京帝國大學』明治37年(1904)年版",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/190/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bbf5411b423ac6108e29be9fc63efc08330d0637.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

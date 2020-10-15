@@ -1,0 +1,721 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/110488",
+    "@type": [
+        "o:Item",
+        "dctype:Image"
+    ],
+    "archiveshub:note": [
+        {
+            "@value": "背表紙に「弩級艦 昭3(-9.29)と記載あり」:1929年",
+            "is_public": true,
+            "property_id": 332,
+            "property_label": "Note",
+            "type": "literal"
+        }
+    ],
+    "bibo:identifier": [
+        {
+            "@value": "2944203c-ae5d-4fd4-aa6e-a6df7616f755",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcndl:holdingAgent": [
+        {
+            "@value": "東京大学柏図書館",
+            "is_public": true,
+            "property_id": 238,
+            "property_label": "Holding Agent",
+            "type": "literal"
+        }
+    ],
+    "dcndl:seriesTitle": [
+        {
+            "@value": "〔弩級艦〕各国主力艦一覧図表",
+            "is_public": true,
+            "property_id": 201,
+            "property_label": "Series Title",
+            "type": "literal"
+        }
+    ],
+    "dcterms:created": [
+        {
+            "@value": "2007",
+            "is_public": true,
+            "property_id": 20,
+            "property_label": "Date Created",
+            "type": "literal"
+        }
+    ],
+    "dcterms:extent": [
+        {
+            "@value": "88枚",
+            "is_public": true,
+            "property_id": 25,
+            "property_label": "Extent",
+            "type": "literal"
+        }
+    ],
+    "dcterms:format": [
+        {
+            "@value": "手書き印刷物",
+            "is_public": true,
+            "property_id": 9,
+            "property_label": "Format",
+            "type": "literal"
+        }
+    ],
+    "dcterms:identifier": [
+        {
+            "@value": "40020101",
+            "is_public": true,
+            "property_id": 10,
+            "property_label": "Identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/2944203c-ae5d-4fd4-aa6e-a6df7616f755",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:subject": [
+        {
+            "@value": "収集文献:海外軍艦記事",
+            "is_public": true,
+            "property_id": 3,
+            "property_label": "Subject",
+            "type": "literal"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "弩級艦",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/49af64f829b103edc9768613e6bb319c6be0f09d.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "foaf:topic": [
+        {
+            "@value": "black and white",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "product",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "text",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "font",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "music",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "paper",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "line",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "document",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "angle",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "rectangle",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "drawing",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "monochrome",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "monochrome photography",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "pattern",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "brand",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "design",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "diagram",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "book",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "furniture",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "shoe",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "sketch",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "notebook",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "diary",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-07-14T16:35:18+00:00"
+    },
+    "o:id": 110488,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/107794",
+            "o:id": 107794
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125522",
+            "o:id": 125522
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125523",
+            "o:id": 125523
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125524",
+            "o:id": 125524
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125525",
+            "o:id": 125525
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125526",
+            "o:id": 125526
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125527",
+            "o:id": 125527
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125528",
+            "o:id": 125528
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125529",
+            "o:id": 125529
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125530",
+            "o:id": 125530
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125531",
+            "o:id": 125531
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125532",
+            "o:id": 125532
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125533",
+            "o:id": 125533
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125534",
+            "o:id": 125534
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125535",
+            "o:id": 125535
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125536",
+            "o:id": 125536
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125537",
+            "o:id": 125537
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125538",
+            "o:id": 125538
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125539",
+            "o:id": 125539
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125540",
+            "o:id": 125540
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125541",
+            "o:id": 125541
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125542",
+            "o:id": 125542
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125543",
+            "o:id": 125543
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125544",
+            "o:id": 125544
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125545",
+            "o:id": 125545
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125546",
+            "o:id": 125546
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125547",
+            "o:id": 125547
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125548",
+            "o:id": 125548
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125549",
+            "o:id": 125549
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125550",
+            "o:id": 125550
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125551",
+            "o:id": 125551
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125552",
+            "o:id": 125552
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125553",
+            "o:id": 125553
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125554",
+            "o:id": 125554
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125555",
+            "o:id": 125555
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125556",
+            "o:id": 125556
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125557",
+            "o:id": 125557
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125558",
+            "o:id": 125558
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125559",
+            "o:id": 125559
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125560",
+            "o:id": 125560
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125561",
+            "o:id": 125561
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125562",
+            "o:id": 125562
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125563",
+            "o:id": 125563
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125564",
+            "o:id": 125564
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125565",
+            "o:id": 125565
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125566",
+            "o:id": 125566
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125567",
+            "o:id": 125567
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125568",
+            "o:id": 125568
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125569",
+            "o:id": 125569
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125570",
+            "o:id": 125570
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125571",
+            "o:id": 125571
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125572",
+            "o:id": 125572
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125573",
+            "o:id": 125573
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125574",
+            "o:id": 125574
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125575",
+            "o:id": 125575
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125576",
+            "o:id": 125576
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125577",
+            "o:id": 125577
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125578",
+            "o:id": 125578
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125579",
+            "o:id": 125579
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125580",
+            "o:id": 125580
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125581",
+            "o:id": 125581
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125582",
+            "o:id": 125582
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125583",
+            "o:id": 125583
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125584",
+            "o:id": 125584
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125585",
+            "o:id": 125585
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125586",
+            "o:id": 125586
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125587",
+            "o:id": 125587
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125588",
+            "o:id": 125588
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125589",
+            "o:id": 125589
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125590",
+            "o:id": 125590
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125591",
+            "o:id": 125591
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125592",
+            "o:id": 125592
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125593",
+            "o:id": 125593
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125594",
+            "o:id": 125594
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125595",
+            "o:id": 125595
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125596",
+            "o:id": 125596
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125597",
+            "o:id": 125597
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125598",
+            "o:id": 125598
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125599",
+            "o:id": 125599
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125600",
+            "o:id": 125600
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125601",
+            "o:id": 125601
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125602",
+            "o:id": 125602
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125603",
+            "o:id": 125603
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125604",
+            "o:id": 125604
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125605",
+            "o:id": 125605
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125606",
+            "o:id": 125606
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125607",
+            "o:id": 125607
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125608",
+            "o:id": 125608
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125609",
+            "o:id": 125609
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/125610",
+            "o:id": 125610
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-12-06T14:41:37+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+        "o:id": 26
+    },
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/16",
+        "o:id": 16
+    },
+    "o:thumbnail": null,
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/110488",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "平賀譲デジタルアーカイブ",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/110488/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ]
+}

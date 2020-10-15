@@ -2,97 +2,114 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/shizen/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "東京大学で所蔵していた安藤昌益(1703-1762)の『自然真営道』は大部分が関東大震災で焼失しましたが、焼失を免れた十二巻12冊を公開しています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "稿本「自然真営道」"
+        },
+        {
+            "@language": "en",
+            "@value": "Shizen Shin'eido [Way of True Self-Operation] Manuscripts"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4bdb27bb-a217-4ed4-8710-3c01c007b26c/manifest",
             "@type": "sc:Manifest",
             "label": "大序",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72048/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest",
-            "@type": "sc:Manifest",
-            "label": "第一 私制字書巻一",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72110/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest",
-            "@type": "sc:Manifest",
-            "label": "第二 私制字書巻二",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72331/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest",
-            "@type": "sc:Manifest",
-            "label": "第三 私制字書巻三",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72225/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest",
-            "@type": "sc:Manifest",
-            "label": "第四 私制儒書巻一",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72556/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest",
-            "@type": "sc:Manifest",
-            "label": "第五 私制儒書巻二",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72392/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fab3348348202bfac9482d81f54f3c8438bef9b7.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a8618bf-1552-41a1-ac31-14b55adaa85d/manifest",
             "@type": "sc:Manifest",
             "label": "第六 私制儒書巻三",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72497/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest",
-            "@type": "sc:Manifest",
-            "label": "第七 私制仏書巻",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72171/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest",
-            "@type": "sc:Manifest",
-            "label": "第八 私制韻鑑巻",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72450/full/200,/0/default.jpg"
-        },
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest",
-            "@type": "sc:Manifest",
-            "label": "第九 私法神書巻上",
-            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72287/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/548bf46717a366f721480a2b5b5ad41dfea1ec95.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23f8bc9f-7395-4561-bb43-b660eec7391c/manifest",
             "@type": "sc:Manifest",
             "label": "第二十四 私法世物語巻",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72005/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97c7970aae3144af3315620d9e743601bebe24b7.jpg"
         },
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest",
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/da743702-fefc-41a8-a5e7-f6e737303f49/manifest",
             "@type": "sc:Manifest",
-            "label": "第二十五 真道哲論巻",
+            "label": "第九 私法神書巻上",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/71964/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/80835f6f48a62f69edc43133c9d42928a55cc60f.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2c0edd09-f4f7-400a-9aa9-506f6a020281/manifest",
+            "@type": "sc:Manifest",
+            "label": "第五 私制儒書巻二",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eb3146c41ca3e97ed00dc507eec519bf34e5aae7.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8cde7a41-3043-4bb8-a9ab-d89a63d74302/manifest",
+            "@type": "sc:Manifest",
+            "label": "第四 私制儒書巻一",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1f9bf6a619b63ce1bcfba7be4f62d98e73c3c74.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7024d39c-59dd-40e4-b47a-b8956348d240/manifest",
             "@type": "sc:Manifest",
             "label": "残巻 断簡",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/72092/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7a54520241ab5e0c59533dd7c3fd620f24546141.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd7d22a0-dde1-4372-bf51-2aede101d8ea/manifest",
+            "@type": "sc:Manifest",
+            "label": "第八 私制韻鑑巻",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a032711b94b5be22a664c72ea1322189e7cb6ce5.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29a3ebd1-f59b-46d8-8bfe-5e5ab04fddd9/manifest",
+            "@type": "sc:Manifest",
+            "label": "第七 私制仏書巻",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05ef88dddc8653bfe5868076f720fa2e5802d2d9.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e2b05760-42c2-4677-ba94-df95d960c42a/manifest",
+            "@type": "sc:Manifest",
+            "label": "第二十五 真道哲論巻",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1e65be02825bc66f99c738a7394e19861c50cc40.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/25825360-d6e9-4b5a-8d29-8229e6fb7848/manifest",
+            "@type": "sc:Manifest",
+            "label": "第三 私制字書巻三",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5baf5d3e778299ed94463314ecd4e5b72ba30d9.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9cbddbf1-73e1-4d14-a5be-236efa6784e0/manifest",
+            "@type": "sc:Manifest",
+            "label": "第二 私制字書巻二",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9af91336c958a76cfa29063044d482382bfe6822.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/97e28457-a2b7-40ec-87d0-f976de8fe10a/manifest",
+            "@type": "sc:Manifest",
+            "label": "第一 私制字書巻一",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4dfa173d682153131fc1c396cfe9f96f3dc850b2.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

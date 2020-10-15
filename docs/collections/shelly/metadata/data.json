@@ -1,6 +1,324 @@
 [
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133",
+        "@type": [
+            "o:Item",
+            "dctype:Image"
+        ],
+        "bibo:identifier": [
+            {
+                "@value": "b1499d0d-920a-413f-8616-66daa1c21e8f",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A100:1590",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:creator": [
+            {
+                "@value": "Garnett, Richard",
+                "is_public": true,
+                "property_id": 2,
+                "property_label": "Creator",
+                "type": "literal"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:rights": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
+                "is_public": true,
+                "o:label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2018-04-09T05:17:50+00:00"
+        },
+        "o:id": 22133,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130",
+                "o:id": 22130
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22142",
+                "o:id": 22142
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22143",
+                "o:id": 22143
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22144",
+                "o:id": 22144
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22145",
+                "o:id": 22145
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2020-03-26T05:51:13+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+            "o:id": 26
+        },
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6",
+            "o:id": 6
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "Fragment of an Address to the Jews",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b1499d0d-920a-413f-8616-66daa1c21e8f/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    },
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132",
+        "@type": [
+            "o:Item",
+            "dctype:Image"
+        ],
+        "bibo:identifier": [
+            {
+                "@value": "6f0c1352-3e7e-4bf0-90e9-eb360be55cf9",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A100:1590",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:creator": [
+            {
+                "@value": "Garnett, Richard",
+                "is_public": true,
+                "property_id": 2,
+                "property_label": "Creator",
+                "type": "literal"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:rights": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
+                "is_public": true,
+                "o:label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2018-04-09T05:17:50+00:00"
+        },
+        "o:id": 22132,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130",
+                "o:id": 22130
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22136",
+                "o:id": 22136
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22137",
+                "o:id": 22137
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22138",
+                "o:id": 22138
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22139",
+                "o:id": 22139
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22140",
+                "o:id": 22140
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22141",
+                "o:id": 22141
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2020-03-26T05:51:13+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+            "o:id": 26
+        },
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6",
+            "o:id": 6
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "Fragment of an Address to the Jews",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    },
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131",
         "@type": [
             "o:Item",
@@ -180,324 +498,6 @@
         "uterms:manifestUri": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/manifest",
-                "is_public": true,
-                "property_id": 353,
-                "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ]
-    },
-    {
-        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132",
-        "@type": [
-            "o:Item",
-            "dctype:Image"
-        ],
-        "bibo:identifier": [
-            {
-                "@value": "6f0c1352-3e7e-4bf0-90e9-eb360be55cf9",
-                "is_public": true,
-                "property_id": 98,
-                "property_label": "identifier",
-                "type": "literal"
-            }
-        ],
-        "dcndl:callNumber": [
-            {
-                "@value": "A100:1590",
-                "is_public": true,
-                "property_id": 239,
-                "property_label": "Call Number",
-                "type": "literal"
-            }
-        ],
-        "dcterms:creator": [
-            {
-                "@value": "Garnett, Richard",
-                "is_public": true,
-                "property_id": 2,
-                "property_label": "Creator",
-                "type": "literal"
-            }
-        ],
-        "dcterms:relation": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9",
-                "is_public": true,
-                "property_id": 13,
-                "property_label": "Relation",
-                "type": "uri"
-            }
-        ],
-        "dcterms:rights": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
-                "is_public": true,
-                "o:label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
-                "property_id": 15,
-                "property_label": "Rights",
-                "type": "uri"
-            }
-        ],
-        "dcterms:title": [
-            {
-                "@value": "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 1",
-                "is_public": true,
-                "property_id": 1,
-                "property_label": "Title",
-                "type": "literal"
-            }
-        ],
-        "foaf:thumbnail": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0a1f57425b52b938db97ab87f5e4791ddef4deae.jpg",
-                "is_public": true,
-                "property_id": 157,
-                "property_label": "thumbnail",
-                "type": "uri"
-            }
-        ],
-        "o:created": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-04-09T05:17:50+00:00"
-        },
-        "o:id": 22132,
-        "o:is_public": true,
-        "o:item_set": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130",
-                "o:id": 22130
-            }
-        ],
-        "o:media": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22136",
-                "o:id": 22136
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22137",
-                "o:id": 22137
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22138",
-                "o:id": 22138
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22139",
-                "o:id": 22139
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22140",
-                "o:id": 22140
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22141",
-                "o:id": 22141
-            }
-        ],
-        "o:modified": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2020-03-26T05:51:13+00:00"
-        },
-        "o:owner": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
-            "o:id": 1
-        },
-        "o:resource_class": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
-            "o:id": 26
-        },
-        "o:resource_template": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6",
-            "o:id": 6
-        },
-        "o:thumbnail": null,
-        "rdfs:seeAlso": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22132",
-                "is_public": true,
-                "property_id": 282,
-                "property_label": "seeAlso",
-                "type": "uri"
-            }
-        ],
-        "sc:attributionLabel": [
-            {
-                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
-                "is_public": true,
-                "property_id": 190,
-                "property_label": "attributionLabel",
-                "type": "literal"
-            }
-        ],
-        "uterms:databaseLabel": [
-            {
-                "@value": "Fragment of an Address to the Jews",
-                "is_public": true,
-                "property_id": 354,
-                "property_label": "Database Label",
-                "type": "literal"
-            }
-        ],
-        "uterms:manifestUri": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6f0c1352-3e7e-4bf0-90e9-eb360be55cf9/manifest",
-                "is_public": true,
-                "property_id": 353,
-                "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ]
-    },
-    {
-        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133",
-        "@type": [
-            "o:Item",
-            "dctype:Image"
-        ],
-        "bibo:identifier": [
-            {
-                "@value": "b1499d0d-920a-413f-8616-66daa1c21e8f",
-                "is_public": true,
-                "property_id": 98,
-                "property_label": "identifier",
-                "type": "literal"
-            }
-        ],
-        "dcndl:callNumber": [
-            {
-                "@value": "A100:1590",
-                "is_public": true,
-                "property_id": 239,
-                "property_label": "Call Number",
-                "type": "literal"
-            }
-        ],
-        "dcterms:creator": [
-            {
-                "@value": "Garnett, Richard",
-                "is_public": true,
-                "property_id": 2,
-                "property_label": "Creator",
-                "type": "literal"
-            }
-        ],
-        "dcterms:relation": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/b1499d0d-920a-413f-8616-66daa1c21e8f",
-                "is_public": true,
-                "property_id": 13,
-                "property_label": "Relation",
-                "type": "uri"
-            }
-        ],
-        "dcterms:rights": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
-                "is_public": true,
-                "o:label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/page/reuse",
-                "property_id": 15,
-                "property_label": "Rights",
-                "type": "uri"
-            }
-        ],
-        "dcterms:title": [
-            {
-                "@value": "Two letters by Richard Garnett to Rinkichi Tsuchii. Letter 2",
-                "is_public": true,
-                "property_id": 1,
-                "property_label": "Title",
-                "type": "literal"
-            }
-        ],
-        "foaf:thumbnail": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4490ffbc84de3b218df00e8e55f729da534a6f4c.jpg",
-                "is_public": true,
-                "property_id": 157,
-                "property_label": "thumbnail",
-                "type": "uri"
-            }
-        ],
-        "o:created": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-04-09T05:17:50+00:00"
-        },
-        "o:id": 22133,
-        "o:is_public": true,
-        "o:item_set": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/22130",
-                "o:id": 22130
-            }
-        ],
-        "o:media": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22142",
-                "o:id": 22142
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22143",
-                "o:id": 22143
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22144",
-                "o:id": 22144
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/22145",
-                "o:id": 22145
-            }
-        ],
-        "o:modified": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2020-03-26T05:51:13+00:00"
-        },
-        "o:owner": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
-            "o:id": 1
-        },
-        "o:resource_class": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
-            "o:id": 26
-        },
-        "o:resource_template": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/6",
-            "o:id": 6
-        },
-        "o:thumbnail": null,
-        "rdfs:seeAlso": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22133",
-                "is_public": true,
-                "property_id": 282,
-                "property_label": "seeAlso",
-                "type": "uri"
-            }
-        ],
-        "sc:attributionLabel": [
-            {
-                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
-                "is_public": true,
-                "property_id": 190,
-                "property_label": "attributionLabel",
-                "type": "literal"
-            }
-        ],
-        "uterms:databaseLabel": [
-            {
-                "@value": "Fragment of an Address to the Jews",
-                "is_public": true,
-                "property_id": 354,
-                "property_label": "Database Label",
-                "type": "literal"
-            }
-        ],
-        "uterms:manifestUri": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b1499d0d-920a-413f-8616-66daa1c21e8f/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",

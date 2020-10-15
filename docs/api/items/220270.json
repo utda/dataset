@@ -1,0 +1,470 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220270",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "70273042-fc39-4eed-a7a5-f779d2b77912",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/70273042-fc39-4eed-a7a5-f779d2b77912",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Pianta, elevazione e particolari di Templj dorici della Grecia (dal Le Roy).",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/340b29a9895dec35aeb6cfc4467154db7f8bea3d.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:13:58+00:00"
+    },
+    "o:id": 220270,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221710",
+            "o:id": 221710
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:09:06+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Francesco Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "フランチェスコ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "317.b",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 34",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:comment": [
+        {
+            "@value": "すみません,未訳です。以下、小池",
+            "is_public": true,
+            "property_id": 478,
+            "property_label": "comment",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "317.b",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "962. XXXIV. Id. -- Sig. en bas à gauche. -- H. 0.37. L. 0.265. - Fil. id.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "962。図版34。同一図版〔ルロワに基づくギリシャの様々なドリス式神殿の平面図,立面図および細部〕。−左下に署名。−高さ0.37,長さ0.265。−二重の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "962",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "363",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "324X263",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "LES RVINES DES PLVS BEAVX MONVMENTS DE LA GRECEFig. I. et II. A Frons æ dis Erecthei. B Posticum. C Vestigia alterius æ dis eidem adjunctæ . D Porticus Caryatidibus suffulta. E Anta columnis latior, et bifariam divisa. F Anta partim exporrectior, partim retractior. G Antæ  hinc latiores inde strictiores. Fig. III. et IV.A B Hiatus, sive spatium inter summum columnæ  hypotrachelium et capituli pulvinar intercedens, ac si pulvinaria capitulorum, vi veluti quadam ingenita, epistylia sustinere videantur. Fig. VII. AB Regio opistylii BC Regio tignorum contignationis. D Regio contabulationis. E Regio cantheriorum et mutulorum. F Regio templorum. G Regio asserum et dentiouloum. H Denticuli regionem tignorum perperam occupantes, et infra regionem mutulorum positi. Fig. VIII. Tigilla, nec tignis figuræ  VII lit. BC, nec denticulis ejusd. figuræ  lit. H respondentia.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "ギリシャ最美の建築遺跡図Iおよび図II. A エレクテウス1神殿の正面。B ポスティクム[背面]。C 同神殿に隣接した別の神殿の平面図。D 女人柱像に支えられたポルティクス[列柱廊]。E 円柱よりも幅広で,しかも2つの部分に分かれているアンタ[壁端柱形]。F 部分的に突出し,部分的に引っ込んでいるアンタ。G 一方はより幅広の,もう一方は幅のより狭い,一対のアンタ。図IIIと図IV. AB ヒアトゥス[空隙],あるいは円柱の頚部最上部と,柱頭の枕部との間に生じる隙間。あたかも柱頭の枕部が,まるでそれ自身が持っているなんらかの力によって,エピステュリウム[頂上帯]を支えているかのように見えるようになっている。図VII. AB エピステュリウム部分。BC 木組みの梁の部分。D 板張り天井の部分。E 垂木とムトゥルス〔梁の突き出し/出っ張り〕の部分。F 野地受け部分。G 野地と歯飾りの部分。H 奇妙なことに,梁部分に,そしてムトゥルスの下に,位置を占めている歯飾り。図VIII 小梁,図VII BCの梁にも対応せず,同図Hの歯飾りにも対応しない。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2": [
+        {
+            "@value": "Fig. I. Ichnographia aedis Erecthei ex Le- Royo part. 2. Tab. XVI. fig. I.Fig. II. Orthographia ejusdem aedis, ex Le- Royo part. 2. Tab. XVII.Fig. III.Forma capituli Jonici ejusdem aedis, ex Le- Royo part. 2. Tab. XX. fig. I.Fig. IV.Forma capituli Jonici æ dis Cereris Elensinæ , ex Le-Royo part. 2. Tab. XX. fig. I.Fig. V.Forma Capituli Jonici æ dis Fortunæ  Virilis UrbisFig. VI.Capitulum antarum æ dis Erecthei, seu corona parietibus ejusdem æ dis circumdata.Fig. VII.Materiatura fabrilis tecto porticus Caryatidum comparata; qua deprehenditur ornamenta tecti hujus, leviorib, lineis adumbrata, locus et ordines proprius non tueri.Fig. VIII.Contignatio, seu Lacunaria porticus Caryatid.",
+            "is_public": true,
+            "property_id": 429,
+            "property_label": "inscription2",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2_tr": [
+        {
+            "@value": "図I.エレクテウス神殿の平面図。ル・ロワ1第2部の図版,図版XVI,図Iより。図II.同神殿の立面図。ル・ロワ第2部の図版XVIIより。図III.同神殿のイオニア式柱頭の形状。ル・ロワ第2部の図版XX,図Iより。図IV.エレウシスのデメテル神殿2のイオニア式柱頭の形状。ル・ロワ第2部の図版XX,図Iより。図V.ローマのフォルトゥナ・ウィリリス神殿〔実際はポルトゥヌス神殿〕のイオニア式柱頭の形状。図VI.エレクテウスのアンタの柱頭,あるいは同神殿の壁に配置されたコロナ[頂冠帯]。図VII.木構造,女人柱像のポルティクスの屋根と比較したもの。この図から,細い輪郭線で描かれたこの屋根の装飾が,正しい位置と順序を守っていないことが見て取れる。図VIII.木組み,あるいは女人柱像のポルティクスの格間。",
+            "is_public": true,
+            "property_id": 430,
+            "property_label": "inscription2_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "317.b",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "フランチェスコ作?",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "7043",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "33",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "360X269",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "DELLA MAGNIFICENZA ED ARCHITETTURA DE' ROMANI",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマの壮麗と建築",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "plans, elevations, sections, extraction diagrams, capitals",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "details of construction",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "471",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "Tab.XXXIV.",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Pianta, elevazione e particolari di Templj dorici della Grecia (dal Le Roy).",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ギリシアのドリス式神殿の平面図,立面図およびその細部(ダヴィッド・ル・ロワに基づく)",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "SETTIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment1": [
+        {
+            "@value": "エレクテウスとは,アテネのアクロポリスにおいて,崇拝された神像で,ポセイドンと同一視されるが,しばしばアテネの初期の王とも見なされる。エレクテウスは,大地から生まれ,アテナ女神に養育され,彼女の聖域に暮らしたとされ,牡牛と小羊を犠牲として崇拝された。",
+            "is_public": true,
+            "property_id": 460,
+            "property_label": "tr_comment1",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment2": [
+        {
+            "@value": "『ギリシア最美の建築遺跡』Les Ruines des plus beaux monuments de la Gr縦eを出版したジュリアン=ダヴィッド・ル・ロワJulien-David Le Roy(1724年-1803年)のことである。彼はフランスの建築家で,著述家でもある。1750年にローマ賞を受賞し,ローマに1751年-1754年に滞在した後,1754年にアテネ行きを許可された。デロス島を訪ねた後に,アテネでスケッチや測量を数ヶ月し,コリントやスパラトも訪ねた。同時期にイギリスの2人の建築家ジェームズ・スチュワートとニコラス・レヴェットがギリシャで調査を行っていたが,彼等の同主題の学術書よりも早く, 1758年に『ギリシア最美の建築遺跡』を出版した。その著作は,多くの建築家たちに影響を与えた。アテネ西方の都市,エレウシスは古代にはデメテル信仰の中心地であった。デメテルは,ローマ神話においてはケレスと呼ばれる豊穣の女神のことである。",
+            "is_public": true,
+            "property_id": 461,
+            "property_label": "tr_comment2",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "7",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Signature, lower left.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "794",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Plan, elevations and details of the Erechtheion, Athens, after Le Roy.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220270",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/70273042-fc39-4eed-a7a5-f779d2b77912/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0363",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

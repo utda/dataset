@@ -1,0 +1,443 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220606",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "56aca01c-1a28-44bf-9e5f-3c6a53d04002",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/56aca01c-1a28-44bf-9e5f-3c6a53d04002",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Monumento sepolcrale di marmo trovato nel 1765 sulla Via Labicana insieme a due vasi e una lucerna.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/16d0c752344a84a49221b41985d9cb0c4bcaa2ff.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:15:26+00:00"
+    },
+    "o:id": 220606,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222046",
+            "o:id": 222046
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:12:51+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "577",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 71",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:cil_no": [
+        {
+            "@value": "VI.21890",
+            "is_public": true,
+            "property_id": 408,
+            "property_label": "CIL_no",
+            "type": "literal"
+        }
+    ],
+    "pi:collezione": [
+        {
+            "@value": "Matteo Nulty, Piranesi",
+            "is_public": true,
+            "property_id": 474,
+            "property_label": "collezione",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "577",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "672. Monument funéraire de Mamertinus et de Parthenope. Deux lampes. Deux vases. -- En bas, sous le fil., notes. -- En haut, dédicace Al Sig. Hugh Ross. -- Sig. sous les notes, à dr. -- H. 0.655. L. 0.41. -- Fil. en bas.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "672。マメルティヌスとパルテノペの墓碑。2つのランプ。2つの容器。−下部,線の下に注釈。−上部に「ヒュー・ロス殿へ」と献辞。−注釈の下,右手に署名。−高さ0.655,長さ0.41。−下部に枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "672",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "699",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Monumento Sepolcrale antico di marmo, nel di cui Vaso Cinerario furono riposte le ossa combuste di Mamertino, e Partenope sua Mogile, i di cui ritratti sono stati rappresentati, uno in forma di Meleagro, e l'altro di Atlanta. La Figura, che si vede situata al di dietro, sarà per avventura quel Q. Marzio, che si legge nell' Iscrizione. Il Lavoro è d'ottima maniera. Questo Monumento fu ritrovato sulla Via Labicana vicino al Sepolcro di S. Elena fuori di Porta Maggiore l'anno 1765. Presentemente questo pezzo d'antichità è stato inviato in Inghilterra dal Sig.r Matteo Nulty Antiquario Inglese. Il Vaso A si vede nel Museo dell'Autore.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "古代の大理石製の墓碑。この骨壷のなかに,マメルティヌスとその妻パルテノペの火葬された遺灰が納められており,彼等の肖像は,ひとつはメレアグロスで,もうひとつはアタランテで1表現されている。その後ろに位置する像は,もしかしたら銘文にその名が記された例のQ. マルティウスであるかもしれない。この作品は最高の出来映えである。この墓碑は,ラビキ街道[ラビカナ街道]沿いのマッジョーレ門2外の聖女ヘレナの墓の近くで1765年に見つかった。現在この古物は,英国人骨董蒐集家マシュー・ヌルティ氏によってイギリスへと運ばれた。壷Aは著者〔ピラネージ〕の陳列室に置かれている。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2": [
+        {
+            "@value": "Al Sig. Hugh Ross Cavaliere Inglese Amatore delle Belle ArtiIn Atto di Ossenquio il Cavalier Gio. Batt(ist)a Piranesi DedicaLucerna di Metallo B. insieme col Vaso di Vetro di color d'oro C. sono stati ritrovati dentro il Cinerario con Stili, i quali servivano per uso delle Acconciature de' capelli.Questa Lucerna B. si rende particolare per le due Funzioni, che ella fa, cioè l'una per appendersi l'altra D. per portarla a mano piegando il Manico al contrario nel perno Mobile E.",
+            "is_public": true,
+            "property_id": 429,
+            "property_label": "inscription2",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2_tr": [
+        {
+            "@value": "芸術の愛好家,英国騎士ヒュー・ロス殿へジョヴァンニ・バッティスタ・ピラネージより敬意を込めて捧ぐ金属製のランプ (B) と金色のガラス製の壷 (C) は,髪を結うために使われていたピンとともに,骨壷のなかから見つかった。このランプ (B) は,2つの機能を持っているのが特徴的である。つまり,釣り下げることもできるし,あるいはDのように柄を反対側に折って可動式のピンEで持ち運ぶこともできる。",
+            "is_public": true,
+            "property_id": 430,
+            "property_label": "inscription2_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "577",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "13019",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "16",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "655X408",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "VASI, CANDELABRI, CIPPI, SARCOFAGI, TRIPODI, LUCERNE ED ORNAMENTI ANTICHI",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "古代の容器,燭台,墓標,棺,鼎,ランプおよび装飾品",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Cav. Gio. Batt(ist)ã Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "騎士ジョヴァンニ・バッティスタ・ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "vases,  lamps, tomb fragments, monuments",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "archeological objects",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "804",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Monumento sepolcrale di marmo trovato nel 1765 sulla Via Labicana insieme a due vasi e una lucerna.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ラビキ街道[ラビカナ街道]において1765年に発見された大理石製墓碑および2つの容器とランプ",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "TREDICESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment1": [
+        {
+            "@value": "メレアグロスはカリュドンの王子。父王が女神ディアナの怒りに触れ,女神は猪を送り,土地を荒廃させた。メレアグロスは同志と共に狩に出かけるが,最初に傷を追わせたのは,彼が愛した狩猟家のアタランテだった。彼がアタランテに猪の頭と毛皮を与えると,その結果争いが生じ,メレアグロスは叔父を二人殺した。それを嘆いた母親が彼の寿命を決める薪を火中に投じ,メレアグロスも死ぬという物語。現在はマッジョーレ門と呼ばれるが,都市プラエネステ[パレストリナ]に至る道が通る門であったことから古代にはプラエネステ門と呼ばれた。 プラエネステ街道と東へ向かうラビキ街道の上を通り,クラウディウス水道とアニオ・ノウス水道の合流地である。38年にカリグラ帝が着工し,クラウディウス帝が52年に完成させた水道橋のアーチを利用して作られた。",
+            "is_public": true,
+            "property_id": 460,
+            "property_label": "tr_comment1",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "13",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Monument,Nulty Collection;vase,Piranesi Collection.Dedicated Al Sig.Hugh Ross Cavaliere Inglese...Signature,lower right.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "959",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Funerary monument of Mamertinus and his wife Partenope found on Via Labicana in 1765 together with a vase and lamps.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220606",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/56aca01c-1a28-44bf-9e5f-3c6a53d04002/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0699",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

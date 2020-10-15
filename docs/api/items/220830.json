@@ -1,0 +1,416 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220830",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "4f270e1d-311e-4a2e-99f8-ad3b90a3ce72",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/4f270e1d-311e-4a2e-99f8-ad3b90a3ce72",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Veduta dell'Anfiteatro Flavio, detto il Colosseo (a volo d'uccello).",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/20b6e6bb60c503660b1c68d34d47f9107edbcdf5.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:16:33+00:00"
+    },
+    "o:id": 220830,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222270",
+            "o:id": 222270
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:15:56+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "782",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 30",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "782",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "759 (42). V. dell' Anfiteatro Flavio detto il Colosseo, à vol d'oiseau (98.1776). -- Titre dans un cartouche, à gauche ; à dr., un cartouche de notes. -- Sig. dans le cartouche dr., en bas à dr. -- H. 0.491. L. 0.715. -- Large fil. d'encad.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "759。 (42) フラウィウスの円形闘技場,通称コロッセウムの景観,鳥瞰図 (98.1776) 。−左のカルトゥーシュの中にタイトル。右に注釈のカルトゥーシュがある。−右のカルトゥーシュの中,右下に署名。−高さ0.491,長さ0.715。−幅広の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "759",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hind_no": [
+        {
+            "@value": "126",
+            "is_public": true,
+            "property_id": 420,
+            "property_label": "Hind_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "923",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "489X710",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "VEDUTA DELL' ANFITEATRO FLAVIO DETTO IL COLOSSEO.A. Mancano i Gradi, e le sostruzioni.B. che reggevano i detti Gradi.C. Manca la Volta, sopra cui vi era il Podio, ove sedevano i Consoli, il Senato, i Sacerdoti, e le Vergini Vestali, le quali stavano dirimpetto al Pretorio.D. Sedeva l' Ordine Equestre.E. Manca la Loggia, o Pulvinare per l' Imp.e e sua Cor.teF. Gradi, di dove scendeva l' Imp.e Tito dalle sua Terme.G. I Soldati Pretoriani erano qui disposti, e ne' passaggi.H. Sedeva la Gioventù nobile co' loro Pedagoghi, ed altri attinenti ai Collegj, e Persone di rango.K. Sedevano le Donne.L. Scale per salir sopra a legar i Canapi per situar la Tenda.M. Cappellette, e Croce nel mezzo, e Chiesa moderna.N. Manca la Circonferenza esterna.O. Avanzi di Stuchi lavorati a grottesco.22.II 98",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "フラウィウスの円形闘技場、通称コロッセオ。A. 段状席とその基台が欠けており,B. はその段状席をを支えていた〔壁体〕。C. ヴォールトが欠けている。この上にはポディウム[貴賓席]があり、ここには執政官、元老院議員、神官たち、ウェスタの巫女たちの座席。彼女らはプラエトリウム[近衛兵席]の向かいに座した。 D. 騎士階級の座席。E. 皇帝とその延臣のためのロッジャ[開廊]または、プルウィナル[御座]がかつてあったところ。F. ティトゥス帝が自らの浴場から降りてくるための階段。G. 近衛兵たちはここと通路に配置された。H. 若い貴族達,および彼等の家庭教師やその同僚に関わるその他の人々,同階級の人々の座席。K. 女性の席。L. 天幕を張るための麻縄を結び付けるために上にあがる階段。M. 小礼拝堂と中央の十字架、そして教会は後世のもの。N. 外周の壁体が欠けている。O. グロテスク文様の漆喰装飾を持つ遺構。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "782",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "sostruzioni?",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "17030",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "30",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "495X714",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "VEDUTE DI ROMA",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマの景観",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Cav. Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "騎士ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "sito",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "997",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Veduta dell'Anfiteatro Flavio, detto il Colosseo (a volo d'uccello).",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "アンフィテアトルム・フラウィウム[フラウィウスの円形闘技場],通称コロッセオ(鳥瞰図)",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "DICIASSETTESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "17",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "From the air.Signature,lower right,on a scroll.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "259",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "View of Flavian Amphitheater, called the Colosseum.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220830",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4f270e1d-311e-4a2e-99f8-ad3b90a3ce72/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0923",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

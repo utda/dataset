@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/nansembushu/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "国内で印刷された日本国図としては最も古いものの一つと言われる、古式の日本地図です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "南贍部洲大日本国正統図"
+        },
+        {
+            "@language": "en",
+            "@value": "Nansem bushu dai nihonkoku shotozu"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d61e0a67-77af-42eb-9c14-5146372b14f1/manifest",
             "@type": "sc:Manifest",
             "label": "南贍部洲大日本国正統図",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/Shotozu/Shotozu_0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d4c051e231871690362eadb27778bcd7c9cb8d8c.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

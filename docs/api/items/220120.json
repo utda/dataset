@@ -1,0 +1,461 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220120",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "de8ccd24-529f-424a-a14a-fd1a4c993f72",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/de8ccd24-529f-424a-a14a-fd1a4c993f72",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Pianta dell'Isola Tiberina e dei due ponti che ad essa conducono.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/942f3f583978d24f3e540b4cd077913ab37a4926.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:13:16+00:00"
+    },
+    "o:id": 220120,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221560",
+            "o:id": 221560
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:07:48+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "183",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 14",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:cil_no": [
+        {
+            "@value": "VI.567, VI.12",
+            "is_public": true,
+            "property_id": 408,
+            "property_label": "CIL_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "183",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "349. XIV. Situazione degli altri due Ponti Quattro Capi e Ferrato. -- Sig. en bas à dr. -- H. 0.29. L. 0.235. -- Fil. id.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "349。図版14。他の2本の橋,クァットロ・カーピ橋とフェッラート橋の所在。−右下に署名。−高さ0.29,長さ0.235。−二重の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "349",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:ils_no": [
+        {
+            "@value": "3474, 3837",
+            "is_public": true,
+            "property_id": 423,
+            "property_label": "ILS_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "213",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "293X234",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Nelle passate Tavole ho rappresentato il Mausoleo e Ponte Elio Adriano, co gli avanzi dell'antico Ponte Trionfale a questo contiguo; e parendomi cosa non men utile, che necessaria render compita la mia raccolta, anche coi Ponti, i quali esistono dentro la Citta, ho voluto dimostrare nella presente figura la situazione degli altri due Ponti Quattro Capi, e Ferrato così dettì da Moderni, per mezzo de quali si passa all'Isola Tiberina detta di S. Bartolomeo; osservando nello stesso tempo gli avanzi di questa Isola, quali sono stati da me suppliti, del mancante di loro fabriche, distinguendolo con tinta più leggera, ed accennando l'esistente con la piu nera. 1. Ponte Fabricio. 2. Ponte Ferrato. 3. Avanzo della Poppa della Nave, come vedremo nella seguente tavola 4. Tempio di Esculapio 5 Are piantate innanzi al Tempio sudetto 6. Guglia eretta nel mezzo della piazza. 7. Atrio dedicato ad Esculapio nel mezzo dell'Isola con Statua di questa Deità.  8. Ospedale per gl'Infermi 9. Statua di Giulio Cesare 10. Tempio di Giove Licaonio con statua di questa Deità nel dinanzi. 11. Tempio, e statua di Fauno. 12. Statua di Semone Sango. 13. Carcere, nel quale portavansi per un mese intero i Nobili condannati a morte. 14. Case dei tre Fratelli Anizj. 15. Pezzo della sudetta guglia di granito innanzi alla Chiesa di S. Bartolomeo. 16. Are che sì veggono nel cortiletto de PP. di questa Chiesa",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "これまでの図版では、私はアエリウス・ハドリアヌス帝〔在117年-138年〕の墓廟と橋をこれに隣り合った古代の凱旋橋の遺構と共に描写した。私には、その都市にある橋についても自分のコレクションに描くことが必要であり、それは少なからず有益であると思われる。私はこの図版において、クァットロ・カーピ[四つ頭]1、そしてフェッラート橋[チェスティオ橋]2と現代人に呼ばれている他の2つの橋の所在を示したい。これらの中央にサン・バルトロメオと呼ばれているティベリーナ島《ティベリス島》があり、間に通っている。同時にこの島の遺構を観察し、それらの建物の欠落している部分は私により補われ、それはより薄い色彩で区別され、また、現存しているものはより暗い色彩で強調されている。1. ファブリキウス橋[ファブリツィオ橋]。2. フェッラート橋。3. 次の図版で見るような、船の船尾の遺構。4. アスクレピオス神殿。5. 前述の神殿の前に備え付けられた祭壇。6. 広場の中心に建てられた尖塔。7. 島の中央にあるアスクレピオス3に捧げられたアトリウムとこの神の彫像。8. 病人のための病院。9. ユリウス・カエサルの彫像。10. この神の彫像が前にある、リュカオン4のユッピテルの神殿。11. ファウヌスの神殿と彫像。12. セモ・サンクス[セモ・サンクス・ディウス・フィディウス]5の彫像。13. 死を宣告された貴族たちがまる1ヶ月入った牢獄。14. アニキウス三兄弟の家。15. サン・バルトロメオ教会の前にある前述の御影石の尖塔の断片。16. この教会の小さな中庭にある祭壇。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "183",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "橋の名称は神奈川カタログ参照Tom.IV",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "4016",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:opera": [
+        {
+            "@value": "LE ANTICHITÀ ROMANE",
+            "is_public": true,
+            "property_id": 440,
+            "property_label": "opera",
+            "type": "literal"
+        }
+    ],
+    "pi:opera_jp": [
+        {
+            "@value": "古代ローマの遺跡",
+            "is_public": true,
+            "property_id": 441,
+            "property_label": "opera_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "15",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "347X241",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "I PONTI ANTICHI, GLI AVANZI DEI TEATRI, DEI PORTICI E DI ALTRI MONUMENTI DI ROMA",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマにおける古代の橋,劇場,列柱廊その他の遺構",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Piranesi Archit. dis. inc.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "建築家ピラネージ,図案と版刻",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "location, inscriptions, altars",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "sito",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "340",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "XIV",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Pianta dell'Isola Tiberina e dei due ponti che ad essa conducono.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ティベリーナ島《ティベリス島》とそれに架かる2本の橋の平面図",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "QUARTO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment1": [
+        {
+            "@value": "ローマに現存する最古の橋。執政官ルキウス・ファブリキウスが,紀元前62年に建て,現在までほとんど手付かずのまま残っている。ティベリス島とトラステヴェレを結ぶ橋で,紀元前46年にルキウス・ケスティウスにより建てられた。370年にウァレンティニアヌス帝,ウァレンス帝,グラティアヌス帝らによって修復され,1892年に部分的に大改修されている。アスクレピオスは,アポロと王女コロニスの間の子供だが,アスクレピオスをまだ身ごもっている時に王女が他の男に心を移し,アポロは嫉妬で逆上して彼女を矢で射殺した。母の胎内から取り出された赤子は,ケンタウロス族のケイロンに養育を任され,彼から医術を学び,長じて医神アスクレピオスとなった。彼はティベリーナ島に蛇の姿でやってきたと考えられた。彼は髭を生やし,手に蛇の絡まった杖を持つ姿で表される。リュカオンは,アルカディアの初代の王で,ペラスグスとメリボエアの息子である。リュカエウス山の頂上に,ユッピテルの名の下でリュコスラという町を作った。またオウィディウスの「変身物語」に述べられた,同名のアルカディアの王で,その残忍さ故に有名な別人物もいる。彼は生身の人間を神の祭壇に捧げたため,ユッピテル神の怒りを買い,熊に変えられた。セモとは,ローマの下等な神々を指し,12大神の中には含まれない。死後に神となる栄誉を得た者たちで,半神半人セミ・ホミネスとも同義とされることが多い。サンクスとは,ローマの神々から導入された,サビニ人達の神で,ディウス・フィディウスの名も持つ。サンクスは,サビニ人たちの初代の王,サブス,またはサビヌスの父とも言われる。",
+            "is_public": true,
+            "property_id": 460,
+            "property_label": "tr_comment1",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "4",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "482",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "In the previous Plates I have represented the Mausoleum and Bridge of Hadrian, with the remains of the ancient Ponte Trionfale [Triumphal Bridge] nearby... in the present figure are shown the locations of the other two bridges, the Quattro Capi [the Four",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220120",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/de8ccd24-529f-424a-a14a-fd1a4c993f72/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0213",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

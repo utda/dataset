@@ -1,0 +1,461 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220562",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "44fc4567-41fa-4881-b27d-b2d00a9aa43d",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/44fc4567-41fa-4881-b27d-b2d00a9aa43d",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Due Urne cinerarie e due vedute di un genio che abbraccia un delfino.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/201588c47fdb09ff0609847e29afaf5706485213.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:15:15+00:00"
+    },
+    "o:id": 220562,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222002",
+            "o:id": 222002
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:12:17+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "536",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 30",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "536",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "628. Deux urnes cinéraires, l'une ornée d'arabesques et de trophées, l'autre de génies. -- De chaque cðtédu motif central, deux fig. d'un petit groupe de la galerie Farnese: Enfant étreignant un dauphin. -- En haut, dédicace Al Sig. Giovanni Corbet. Au-dessous, notes. -- Sig. en bas à gauche. -- H. 0.533. L. 0.385.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "628。2つの納骨用の壷,1つはアラベスク模様と戦勝記念碑で飾られ,もう1つは守護神で飾られている。−中央にあるモティーフの両側に,ギャラリー・ファルネーゼにある小群像,すなわちイルカを抱く子供の2つの像がある。−上部に「ジョン・コルベット殿へ」と献辞。その下に注釈。−左下に署名。−高さ0.533,長さ0.385。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "628",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "655",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Al Signor Giovanni Corbet Cavaliere Inglese amatore delle belle artiIn atto d'ossequio il Cavaliere Gio. Batt(ist)a Piranesi D. D. D.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "芸術の愛好家,英国騎士ジョン・コルベット殿へ敬意を込めてジョヴァンニ・バッティスタ・ピラネージ献呈する",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2": [
+        {
+            "@value": "Due Urne cinerarie. L'una A. ornata di rabeschi, e Trofei, elegantemente scolpiti. La sottoposta B. ornata di Genij, con Ali dimesse, e sedenti in atto di mestiza, si vedono nel musèo  dell'Autore. C. Due vedute di un Genio che abbraccia un Delfino dal quale sembra esser condotto a diporto per il mare. Questo gruppo e nel Palazzo Farnese.",
+            "is_public": true,
+            "property_id": 429,
+            "property_label": "inscription2",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription2_tr": [
+        {
+            "@value": "2つの骨壷。片方のAは優雅に彫刻されたアラベスク模様と,戦勝記念碑で飾られている。この下にあるB.はゲニウス〔プット〕によって飾られている。彼らは翼を休めて,悲し気に腰掛けている。これらは著者〔ピラネージ〕の陳列室で見られる。C. イルカを抱くゲニウス〔プット〕を2枚の図で表した。そのゲニウスは,イルカによって戯れに海へと誘われているように見える。これはファルネーゼ宮1にある。",
+            "is_public": true,
+            "property_id": 430,
+            "property_label": "inscription2_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "536",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:kanagawa_no": [
+        {
+            "@value": "140",
+            "is_public": true,
+            "property_id": 432,
+            "property_label": "Kanagawa_no",
+            "type": "literal"
+        }
+    ],
+    "pi:machida_no": [
+        {
+            "@value": "115",
+            "is_public": true,
+            "property_id": 436,
+            "property_label": "Machida_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "左下に鉛筆書きで\"16\"",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "12033",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "32",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "526X381",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "VASI, CANDELABRI, CIPPI, SARCOFAGI, TRIPODI, LUCERNE ED ORNAMENTI ANTICHI",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "古代の容器,燭台,墓標,棺,鼎,ランプおよび装飾品",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Covalier Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "騎士ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "statues, urns",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "archeological objects",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "760",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "30",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Due Urne cinerarie e due vedute di un genio che abbraccia un delfino.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "納骨容器,およびイルカを抱く妖精の彫像の二面",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "DODICESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment2": [
+        {
+            "@value": "2つの噴水で美しく飾られている同名の広場に正面が面している。そのファサードの一番上には,ファルネーゼ家の象徴である百合で飾られた見事なコーニスがある。現在はフランス大使館が置かれているこの建物は,1517年にアントニオ・ダ・サンガッロ・イル・ジョーヴァネが枢機卿アレッサンドロ・ファルネーゼのために着工した。彼は正面部分を作り,その後ミケランジェロ(コーニスとファサードのバルコニー部分)とジャコモ.デッラ.ポルタが引き継ぎ,テヴェレ川に向いた外観を作った。",
+            "is_public": true,
+            "property_id": 461,
+            "property_label": "tr_comment2",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "12",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Palazzo Farnese. Dedicated: Al Signor Giovannni Corbet, Cavaliere Inglase...Signature, lower left.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "915",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Two cinerary urns, one of them with trophies and arabesques resting on the other with geniuses and torches, both flanked by two views of a small group of a boy with a dolphin.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220562",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/44fc4567-41fa-4881-b27d-b2d00a9aa43d/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0655",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

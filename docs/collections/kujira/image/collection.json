@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/kujira/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "博物学者である田中芳男氏(1838年-1916年)が、3種類の捕鯨図を貼り合わせて作成したと言われる資料で、鯨のほか、サメやマンボウなども描かれています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "紀州熊野浦諸鯨之圖"
+        },
+        {
+            "@language": "en",
+            "@value": "Kishu Kumanoura Shogeinozu [Whales at Kishu Kumano Bay]"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1de1d067-53a5-4981-a122-daa047367056/manifest",
             "@type": "sc:Manifest",
             "label": "紀州熊野浦諸鯨之圖",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kujira/images/kujira.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22ee9f7d5e7aeef9cdf6795c865324c313166dc1.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

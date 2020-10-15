@@ -31,7 +31,7 @@ def resource_templates_generator():
 
                 oid = str(obj["o:id"])
 
-                with open("../docs/resource_templates/"+oid+".json", 'w') as outfile:
+                with open("../docs/api/resource_templates/"+oid+".json", 'w') as outfile:
                     json.dump(obj, outfile, ensure_ascii=False,
                               indent=4, sort_keys=True, separators=(',', ': '))
 

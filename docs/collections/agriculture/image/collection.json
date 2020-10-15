@@ -2,62 +2,79 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/agriculture/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "東京大学農学生命科学図書館所蔵の貴重書をデジタル化し公開しています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "農学生命科学図書館デジタルアーカイブ"
+        },
+        {
+            "@language": "en",
+            "@value": "Agri. Library, UTokyo Collection"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9115c2c-6c49-1f2b-515e-c67ea4332ab9/manifest",
             "@type": "sc:Manifest",
             "label": "國牛十圖",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/agriculture/TIFF/国牛十図/國牛0001：藤貞幹序文0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a4b196eb69d747affef9b21433189b35b9de8983.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6d032fb5-0a2f-6e04-9e3c-6bb5f604714f/manifest",
             "@type": "sc:Manifest",
             "label": "東京帝國大學農學部建物位置圖",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/agriculture/TIFF/東京帝国大学農学部建物位置図/0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3e2a963707c22839274e81d602669bcf2271ddf1.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/manifest",
             "@type": "sc:Manifest",
             "label": "東京帝國大學本部構内及農學部建物鳥瞰圖",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/agriculture/TIFF/東京帝国大学本部構内及農学部建物鳥瞰図/0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3ddcfb47a3e077e5a6e21f41187a4e81b714a62d.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3e6f484d-a4e0-7073-4365-b287924d423a/manifest",
             "@type": "sc:Manifest",
             "label": "農科大學桑樹見本園各種摺葉譜　一",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soju/soju_1/001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/dfb6622529735856cf83a97769bb6837c181d6ff.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f3bfde97-6dfb-3f09-33af-0c615a250268/manifest",
             "@type": "sc:Manifest",
             "label": "農科大學桑樹見本園各種摺葉譜　二",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soju/soju_2/001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/32e2196c46703505110c06bdbf92fa9ad8ca481c.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a09fc5f4-8edc-0d46-7340-e2768dbf7a05/manifest",
             "@type": "sc:Manifest",
             "label": "農科大學桑樹見本園各種摺葉譜　三",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soju/soju_3/001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/67749c791401a4d15b01ec7720cf21569b4c7c67.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9c79a3bb-34da-25bf-4243-4ba1709556a9/manifest",
             "@type": "sc:Manifest",
             "label": "農科大學桑樹見本園各種摺葉譜　四",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soju/soju_4/001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a9c54d326cbc953cde434434eb26b6b81614129c.jpg"
         },
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58f3ea6c-3626-9cbb-6cf8-33078f6e41bc/manifest",
             "@type": "sc:Manifest",
             "label": "農科大學桑樹見本園各種摺葉譜　五",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soju/soju_5/001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/876c4079f5ebc054fab75c39ed25b18448581072.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

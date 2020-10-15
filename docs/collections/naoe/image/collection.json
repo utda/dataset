@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "上杉景勝に仕えた重臣・直江兼続(1560-1619)が記したとされる書状で、承応3(1654)年に京都の中村五郎右衛門が刊行した資料群です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "直江状"
+        },
+        {
+            "@language": "en",
+            "@value": "Naoe Letter"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest",
             "@type": "sc:Manifest",
             "label": "直江状",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/85/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bd56abac4d291f381b7cf64e6fa3b9b6bc59b44b.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

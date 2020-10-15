@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/matsunosakae/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "徳川第11代将軍家斉の第21女・溶姫が加賀藩第13代藩主前田斉泰に輿入れしたときの様子を描いた錦絵です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "松乃栄"
+        },
+        {
+            "@language": "en",
+            "@value": "Matsu no Sakae [Marriage of the Shogun's daughter to the Kaga Family]"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c416f868-754f-4fed-9974-6ba911e2c0ba/manifest",
             "@type": "sc:Manifest",
             "label": "松乃栄",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/matsunosakae/A00_6569_0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1e8c123dc45f72754f89f65a948858223a2d3e9.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

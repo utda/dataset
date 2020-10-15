@@ -1,0 +1,443 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220031",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "0e802245-5998-4da2-8f4a-b6630d1eccc1",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/0e802245-5998-4da2-8f4a-b6630d1eccc1",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Frammenti della camera sepolcrale dirimpetto alla Chiesa di S. Sebastiano fuori delle mura  (figure incise dal Barbault).",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/32c110158048f3a797415b1dfba2352275e5103d.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:12:54+00:00"
+    },
+    "o:id": 220031,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221471",
+            "o:id": 221471
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:07:06+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "94",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 45",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "94",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "267. XLV. Frammenti della camera sepolcrale dirimpetto alla chiesa di S. Sebasto fuori delle mura. -- Titre dans la partie inférieure de la gravure ; au-dessous, pl. de notes. -- Sig. en bas à gauche. -- H. 0.38. L. 0.515. -- Fil. aut. de la gr. et du titre.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "267。図版45。市壁外のサン・セバスティアーノ教会の向かいにある墓室の遺物断片。−版画の下の部分にタイトル。その下に注釈の図版。−左下に署名。−高さ0.38,長さ0.515。−版画とタイトルの周囲に枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "267",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "124",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "378X512",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Frammenti della Camera sepolcrale dirimpetto alla Chiesa di S. Sebast.o fuori delle muraA Selci dritti, e rovesci  della Via Appia ritrovati tralle rovine. B Urna di marmo adorna di varj ornam.ti. Veggonsi de'Genj alati con corone di nespole pendenti al collo, portare de'Festoni intrecciati di frutti, e frondi, tenendo in mano de'rami di quercia, e de'canestrelli, ripieni di frutti. Veggonsi due Fiaccole ardenti, animali quadrupedi, e volatili di varia specie, simboli delle mondane vicende. Sopra de'Festoni vi sono scolpiti due Busti, cioè marito, e moglie, i quali hanno la faccia non terminata, forse per le medesime ragioni in altro consimile Sarcofago accennate. Ne'fianchi sopra de'Festoni stanno collocate quattro maschere sceniche, colle quali solevano gli antichi significare lo stato variabile, e caduto della vita umana. C Sarcofago striato di marmo. D Orecchino tutto d'oro ritrovato con altri simili dentro l'Urne. Notasi che questi Orecchini hanno il cerchio di un solo pezzo, che non si apre. E Stipite di travertino della parte superiore di una Porta. Osservansi due buchi rotondi rozzi, e poco profondi, i quali probabilmente doveano essere foderati di metallo, acciò dentro di essi potessero comodam.te girare i perni della Porta. F Scalino di marmo gentilmente lavorato a strie. G Freggio lavorato a grottesco, ed in molti compartim.ti distribuito tra quali sonovi espresse Patere di vario diligente lavoro intagliate, Teschj di bove, ornati di fettuccie, e di piccole ossa di giunture infilate, e poste a guisa di festone.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "市壁外のサン・セバスティアーノ教会の向かいにある墓室の遺物断片。A 瓦礫のなかから見つかった、アッピウス街道[アッピア街道]の燧石(すいせき)。表側と、裏返しになっているもの。B さまざまな装飾で飾られた棺。有翼のゲニウス〔プット〕を見ることができ、セイヨウカリンの環を首にさげ、果実、小枝などで編まれた花綱をたずさえ、手にはオークの枝、果実の盛られた小さな篭をたずさえている。2つの燃えている松明、四足獣、そして様々な種類の鳥達が描かれ、現世の出来事のシンボルである。花綱の上には、夫と妻の2人の胸像が彫られているが、顔は未完成である。すでに指摘した同種の別の石棺におけるのと、おそらく同じ理由であろう。側面においては花綱の上に、4つの舞台用の仮面が置かれている。このような仮面を用いて、古代人は人間の生の様々な状況や落ちぶれを表す習慣があった。C 溝の入った大理石の棺。D すべて金でできたイヤリングで、ひとつの壷の中から他の同種のものとともに発見された。このイヤリングは、開口部を持たないひとつながりの円でできていることが観察される。E ある扉の上部のトラヴァーチンの側柱。粗いふたつの円形の、あまり深くない穴が空いているのが観察される。この穴はおそらく、内部で扉のピンがスムーズに回転するように、金属で覆われていたことであろう。F 丁寧に溝がつけられた大理石の踏段。G グロテスク様式で作られたフリーズ。このフリーズは多くの区画に分かれており、様々なすばらしい仕事が刻まれた盃や、リボンや並んで繋がった花綱のように配置された小さな骨で飾られた牛の頭蓋骨が表現されている。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "94",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "Tom.II",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "2046",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:opera": [
+        {
+            "@value": "LE ANTICHITÀ ROMANE",
+            "is_public": true,
+            "property_id": 440,
+            "property_label": "opera",
+            "type": "literal"
+        }
+    ],
+    "pi:opera_jp": [
+        {
+            "@value": "古代ローマの遺跡",
+            "is_public": true,
+            "property_id": 441,
+            "property_label": "opera_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "46",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "381X513",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "GLI AVANZI DEI MONUMENTI SEPOLCRALI DI ROMA E DELL'AGRO ROMANO",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマおよびその近郊における墓所の遺跡",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Piranesi Archit.o dis. ed inc.Barbault scoplì le Fig.e.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "建築家ピラネージ、図案と版刻バルボー、人物像の版刻",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "sarcophagi, friezes, tomb fragments",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "archeological objects",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "259",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "XLV",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Frammenti della camera sepolcrale dirimpetto alla Chiesa di S. Sebastiano fuori delle mura  (figure incise dal Barbault).",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "サン・セバスティアーノ教会の向かいにある墓からの出土品(人物像はバルボーによる版刻)",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "SECONDO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "2",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Figures by J. Barbault.Signatures,within border,Piranesi lower left,Barbault lower right.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "402",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Fragments from the tomb chamber opposite the Church of San Sebastiano fuori delle Mura [St. Sebastian outside the Walls].",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220031",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0e802245-5998-4da2-8f4a-b6630d1eccc1/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0124",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

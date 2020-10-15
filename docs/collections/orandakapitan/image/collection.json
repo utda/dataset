@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/orandakapitan/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "1817（文化14）年に出島オランダ商館に赴任した商館長ヤン・コック・ブロムホフ一家を描いた絵画作品です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "阿蘭陀加比丹並妻子等之図"
+        },
+        {
+            "@language": "en",
+            "@value": "Oranda kapitan narabini saishira no zu"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f9e2474b-1945-48ed-3635-6fa51f2d49af/manifest",
             "@type": "sc:Manifest",
             "label": "阿蘭陀加比丹並妻子等之図",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A00_4684/A00_4684_0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7899a271fbc726c6ae3686dd9dcb1e55b86373d6.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

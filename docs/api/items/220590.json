@@ -1,0 +1,425 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220590",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "03883de8-b761-4859-a47e-eada84a15461",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/03883de8-b761-4859-a47e-eada84a15461",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Veduta di prospetto del vaso precedente.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1c20a1791fd0658e4557c07eaf7294e15691a74f.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:15:26+00:00"
+    },
+    "o:id": 220590,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222030",
+            "o:id": 222030
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:12:39+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "564",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 58",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:collezione": [
+        {
+            "@value": "Boyd Collection",
+            "is_public": true,
+            "property_id": 474,
+            "property_label": "collezione",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "564",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "656. Le même, vu d'en bas. -- Deux colonnes de notes. -- Sig. en bas à dr. -- H. 0.72. L. 0.49. -- Fil en bas et à mi-hauteur.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "656。同じ容器〔 ハドリアヌス帝の別荘から出土した台座付きの大理石製の容器〕,仰視図。−2段の注釈。−右下に署名。−高さ0.72,長さ0.49。−下部と半分の高さまで枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "656",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "683",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Veduta di Prospetto di un Vaso antico di Marmo con suo Piedestallo; che al presente si vede in Inghilterra nella Villa del Sig. Giovanni Boyd. Egli fù ritrovato negli Scavi fatti nella Villa Adriana l'Anno 1769. Questo Vaso si rende del tutto nuovo per la sua particorale, e generale Forma, composta di grottesca invenzione, a causa delle tre Zampe, che lo reggono, dalle quali nascono Sileni, che dimostrano di sostenere tutta la Machina. Tale Invenzione in simile Soggetto sin'ora non si è veduta. Trà i Sileni sorgono i busti di altrettanti Fauni in Bassorilievo, i quali sono situati dallo Scultore nel fondo del Vaso in maniera, che facciano buona simmetria in mezzo ai tre Sileni sudd.i, e formino una nobile Idea. Nel corpo del Vaso si vedono de' Fauni frà Luoghi alpestri; due de' quali sono affaccendati a sgombrare un gran Sasso. Il Vecchio Fauno, come primario Direttore del lavoro, fa forza, premendo la Leva, e pare, che così dia coraggio all'altro di fare lo stesso. Lo Scultore con bizzarra invenzione ha collocato l'altro compagno in un'azione, che fa vedere, che tutto il di lui corpo gravita sopra la Leva, acciocchè essa operi per mezzo di questo Peso, onde venga il Sasso rimosso. Altri Fauni si dispongono per cogliere altri macigni. In fine un'altro se ne vede a raccogliere le Uve dalle Viti, situate sotto il Labbro del Vaso, consegnandole agli altri, per metterle nei Canestri. Non ha mancato l'Artefice d'introdurre in questi Alpestri luoghi degli Alberi, per rendere più vaga la Composizione, ed anche perchè convengono al Sito, nel quale sono solito abitare queste Deità terrestri. Le Maschere poi, la Siringa, e li Festoni sono stati appesi dai medesimi Fauni ad un'ordine di doppie Cordicelle, che girano intorno al Vaso; e perciò l'esperto Maestro a tali cose ha dato un rilievo minore, che agli altri principali Oggetti.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "古代の大理石製の壷とその脚部の透視図。現在では英国のジョン・ボイド氏のヴィッラに見ることができるもの。これは,ハドリアヌス帝の別荘で1769年に行われた発掘で発見された。この壷は,その細部,グロテスクの意匠からなる全体的な形のどこをとっても目新しいものである。というのは,支えとなっている3本の動物の脚からシレノスが生じ,それが壷全体を支えているからである。このような意匠はこれまで見たことがない。シレノスの間には,ファウヌスの上半身が同じようにやはり浅浮彫りで表現されているが,それを彫刻家は壷の底部に,それらを前述の3体のシレノスの間に配することで均衡を図り,優れた印象を与えようとしたのである。壷の本体には,ファウヌスが岩がちな場所にいるのが見える。それらの2体は,大きな石を取り除こうと躍起になっている。年老いたファウヌスは,作業の最高監督者として,梃子を押すのに力を出し,このようにして他の者に同じようにやるよう鼓舞しているようだ。彫刻家は奇抜な発想で,別のファウヌスの仲間を,体全体を梃子の上に置くことで荷重をかけ,この重さで梃子が動き,石が動かされるところを見せようとした。別のファウヌスたちは他の岩を集めようとしている。最後に,別の1体が壷の口の縁部に位置した葡萄の木から葡萄を集めているところが見える。集められた葡萄は別のものに手渡され,カゴに納められる。作者は,構図をより優雅なものにするため,またこれらの地上の神々が住むところに似つかわしい場所となるように,この岩がちな場所に木々を配したのである。壷の周囲に配された仮面やシュリンクス1[ファウヌスたちの笛],花綱といったものは,同じファウヌスたちによって2本の紐でぶら下げられたものである。ゆえに,熟達した工匠が,他の主題となる部分と同じく,このような細部の浮彫りを手掛けたのである。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "564",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:machida_no": [
+        {
+            "@value": "118",
+            "is_public": true,
+            "property_id": 436,
+            "property_label": "Machida_no",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "13003",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "3",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "711X482",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "VASI, CANDELABRI, CIPPI, SARCOFAGI, TRIPODI, LUCERNE ED ORNAMENTI ANTICHI",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "古代の容器,燭台,墓標,棺,鼎,ランプおよび装飾品",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Cav. Piranesi F.",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "騎士ピラネージ作",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "vases, pedestals, masks",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "archeological objects",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "788",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Veduta di prospetto del vaso precedente.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ハドリアヌス帝の別荘において1769年に発見された前出の古代の大理石製の壷の仰視図",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "TREDICESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment1": [
+        {
+            "@value": "シュリンクス : アルカディアのニンフ,シュリンクスは牧神パン〔=ファウヌス〕に追い掛けられ逃げられず,葦に変身した。パンはその葦で笛を作り,その笛もシュリンクスと呼ばれる。",
+            "is_public": true,
+            "property_id": 460,
+            "property_label": "tr_comment1",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "13",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "Boyd Collection.Signature,lower left.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "943",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "The same vase as in no.942, seen from below.",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220590",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/03883de8-b761-4859-a47e-eada84a15461/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0683",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

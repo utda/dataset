@@ -4,7 +4,7 @@ import json
 import argparse
 import urllib.request
 from rdflib import URIRef, BNode, Literal, Graph
-
+import glob
 
 def parse_args(args=sys.argv[1:]):
     """ Get the parsed arguments specified on this script.
@@ -27,7 +27,6 @@ def parse_args(args=sys.argv[1:]):
 
 
 def ld_generator(site_name, arg_item_set_id):
-    api_url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api"
 
     output_path = "../docs/collections/" + site_name + "/metadata/data.json"
 
@@ -35,42 +34,51 @@ def ld_generator(site_name, arg_item_set_id):
 
     item_set_arr = arg_item_set_id.split(",")
 
-    for item_set_id in item_set_arr:
+    files = glob.glob("../docs/api/items/*.json")
 
-        loop_flg = True
-        page = 1
+    targets = {}
 
-        while loop_flg:
-            url = api_url + "/items?item_set_id=" + str(item_set_id) + "&page=" + str(
-                page) + "&sort_by=uterms%3Asort&sort_order=asc"
-            print(url)
+    for file in files:
+        with open(file) as f:
+            df = json.load(f)
 
-            page += 1
+            if "o:item_set" not in df:
+                continue
 
-            request = urllib.request.Request(url)
-            response = urllib.request.urlopen(request)
+            item_set_objs = df["o:item_set"]
+            for obj in item_set_objs:
+                item_set_id = str(obj["o:id"])
 
-            response_body = response.read().decode("utf-8")
-            data = json.loads(response_body.split('\n')[0])
+                if item_set_id in item_set_arr:
+                    sort = ""
+                    if "uterms:sort" in df:
+                        sort = df["uterms:sort"][0]["@value"]
+                    
+                    if sort not in targets:
+                        targets[sort] = []
+                    
+                    if df not in targets[sort]:
+                        targets[sort].append(df)
 
-            if len(data) > 0:
-                for i in range(len(data)):
-                    collection.append(data[i])
+    for key in sorted(targets):
 
-            else:
-                loop_flg = False
+        arr = targets[key]
+
+        for obj in arr:
+
+            collection.append(obj)
 
     fw = open(output_path, 'w')
     json.dump(collection, fw, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
 
-    ld_str = json.dumps(collection)
+    # ld_str = json.dumps(collection)
 
-    g = Graph().parse(data=ld_str, format='json-ld')
+    # g = Graph().parse(data=ld_str, format='json-ld')
 
     # g.serialize(format='n3', destination=output_path.replace(".json", ".n3"))
-    g.serialize(format='nt', destination=output_path.replace(".json", ".nt"))
-    g.serialize(format='turtle', destination=output_path.replace(".json", ".ttl"))
-    g.serialize(format='pretty-xml', destination=output_path.replace(".json", ".rdf"))
+    # g.serialize(format='nt', destination=output_path.replace(".json", ".nt"))
+    # g.serialize(format='turtle', destination=output_path.replace(".json", ".ttl"))
+    # g.serialize(format='pretty-xml', destination=output_path.replace(".json", ".rdf"))
 
 
 if __name__ == "__main__":

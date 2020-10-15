@@ -31,7 +31,7 @@ def properties_generator():
 
                 oid = str(obj["o:id"])
 
-                with open("../docs/properties/"+oid+".json", 'w') as outfile:
+                with open("../docs/api/properties/"+oid+".json", 'w') as outfile:
                     json.dump(obj, outfile, ensure_ascii=False,
                               indent=4, sort_keys=True, separators=(',', ': '))
 

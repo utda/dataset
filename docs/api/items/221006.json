@@ -1,0 +1,443 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/221006",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "94361f25-1661-4d9f-b5e2-8710eca69ee6",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/94361f25-1661-4d9f-b5e2-8710eca69ee6",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Frontespizio inciso alla prima nella maniera delle Carceri. In alto la riproduzione di un disegno del Guercino, rappresentante un vecchio seduto col capo reclinato sulle braccia. In basso, sormontata da una tavolozza coi suoi pennelli e poggiamano, la scritta:《RACCOLTA DI ALCUNI DISEGNI DEL BARBIERI DA CENTO DETTO IL GUERCINO, incisi in rame, e presentati al singolar merito del Sig. Tommaso Jenkins Pittore, ed Accademico di S. Luca, in atto di rispetto, e d' amcizia dall' Architetto, e suo Coaccademico Gio. Battista Piranesi》. Sotto, una testa umana recisa.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bfcfc5435562f7dd7bc9ec9ba7c9c7f622d34112.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:17:18+00:00"
+    },
+    "o:id": 221006,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/222445",
+            "o:id": 222445
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:18:40+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "917",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 2",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "917",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "Frontispice. -- Un vieillard largement drapé, assis, la tête appuyée sur la main gauche, d'après un dessin de Guerchin de la collection Cavaceppi. Au-dessous, une palette de peintre et une réserve pour le titre gravé : Raccolta di alcuni disegni del Barberi da Cento detto il Guercino incisi in rame e presentati al singolar merito del Sig. Tommaso Jenkins pittore ed accademico di S. Luca in atto di rispetto e d'amicizia dall'architetto e suo coaccademico Gio. Battista Piranesi. -- S. sig. -- H. 0.48. L. 0.354.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "扉絵。−大きく襞がよった布を纏った老人。〔彼は〕腰を掛け,頭を左手の上にもたせかけている。カヴァチェッピ・コレクションのグエルチーノのデッサンに基づいている。下部に画家のパレットと,版刻タイトルのための彫版の施されていない部分に以下のタイトルがある。「グエルチーノ (ジョヴァンニ・フランチェスコ・バルビエリ) のデッサン集,銅に版刻。画家にしてサン・ルカ・アカデミア会員であるトマス・ジェンキンスに捧げられた。建築家でありアカデミアの同僚であるジョヴァンニ・バッティスタ・ピラネージの尊敬と友情の表明として」。−署名なし。−高さ0.48,長さ0.354。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "983",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "1099",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "Ex collectione Bartholomoei CavaceppiStatuarii Romani.RACCOLTA DI ALCUNI DISEGNI DEL BARBERI DA CENTO DETTO IL GUERCINOIncisi in rame, e presentati al singolar merito del Sig. TommasoJenkins Pittore, ed Accademico di S.Luca, in atto di rispetto, e d'amicizia dall'Architetto, e suo CoaccademicoGio.Battista Piranesi.Si vendono presso il medesimo Piranesi nel Palazzo del Sig.r Conte Tomati, a Strada Felice vicino alla Trinità de' Monti.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "バルトロメオ・カヴァチェッピのコレクション1からローマの彫像グエルチーノ(ジョヴァンニ・フランチェスコ・バルビエリ)のデッサン集銅に版刻。画家にして聖ルカ美術アカデミー会員であるトマス・ジェンキンス2に捧げられた。建築家でありアカデミーの同僚であるジョヴァンニ・バッティスタ・ピラネージの尊敬と友情の表明として。トリニタ・ディ・モンティ近くのフェリ−チェ通りにあるトマーティ館にて同ピラネージが販売。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "917",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:kanagawa_no": [
+        {
+            "@value": "117",
+            "is_public": true,
+            "property_id": 432,
+            "property_label": "Kanagawa_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "中下に\"Tom XXI\" の鉛筆書きあり。",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "21001",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:parte": [
+        {
+            "@value": "PARTE I.",
+            "is_public": true,
+            "property_id": 442,
+            "property_label": "parte",
+            "type": "literal"
+        }
+    ],
+    "pi:parte_jp": [
+        {
+            "@value": "第1部",
+            "is_public": true,
+            "property_id": 443,
+            "property_label": "parte_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "1",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "479X353",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "RACCOLTA DI ALCUNI DISEGNI DEL GUERCINO PARTE I.",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "グエルチーノのデッサン集 第1部",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc": [
+        {
+            "@value": "Piranesi",
+            "is_public": true,
+            "property_id": 450,
+            "property_label": "sign_ecc",
+            "type": "literal"
+        }
+    ],
+    "pi:sign_ecc_tr": [
+        {
+            "@value": "ピラネージ",
+            "is_public": true,
+            "property_id": 451,
+            "property_label": "sign_ecc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "drawings by Guercino, Ghezzi and others, title pages",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "604",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:tav_no": [
+        {
+            "@value": "2",
+            "is_public": true,
+            "property_id": 453,
+            "property_label": "tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Frontespizio inciso alla prima nella maniera delle Carceri. In alto la riproduzione di un disegno del Guercino, rappresentante un vecchio seduto col capo reclinato sulle braccia. In basso, sormontata da una tavolozza coi suoi pennelli e poggiamano, la scritta:《RACCOLTA DI ALCUNI DISEGNI DEL BARBIERI DA CENTO DETTO IL GUERCINO, incisi in rame, e presentati al singolar merito del Sig. Tommaso Jenkins Pittore, ed Accademico di S. Luca, in atto di rispetto, e d' amcizia dall' Architetto, e suo Coaccademico Gio. Battista Piranesi》. Sotto, una testa umana recisa.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_eu": [
+        {
+            "@value": "Frontespizio inciso alla prima nella maniera delle Carceri. In alto la riproduzione di un disegno del Guercino, rappresentante un vecchio seduto col capo reclinato sulle braccia. In basso, sormontata da una tavolozza coi suoi pennelli e poggiamano, la scritta:《RACCOLTA DI ALCUNI DISEGNI DEL BARBIERI DA CENTO DETTO IL GUERCINO, incisi in rame, e presentati al singolar merito del Sig. Tommaso Jenkins Pittore, ed Accademico di S. Luca, in atto di rispetto, e d' amcizia dall' Architetto, e suo Coaccademico Gio. Battista Piranesi》. Sotto, una testa umana recisa.",
+            "is_public": true,
+            "property_id": 457,
+            "property_label": "title_eu",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "第21巻扉",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "VENTUNESIMO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:tr_comment1": [
+        {
+            "@value": "Cavaceppi, Bartolomeo (1716-1799)  彫刻家,修復家,美術商,蒐集家,古物蒐集家。カヴァチェッピは,収集した美術品を含む遺産の全てを聖ルカ美術アカデミーへ寄贈した。1730年代初頭,アレッサンドロ・アルバーニ枢機卿の為に古物蒐集や彫刻復元を行っていた。後にカピトリーノ美術館の修復責任者/主要修復家principal restorerとなる。(カピトリーノ美術館は,1733年に教皇クレメンス12世がアルバーニ枢機卿から買い上げた古代彫刻コレクションが収蔵されていた。)ヴァティカン所蔵の初期キリスト教美術を修復した後,名声を得て独立。ヨーロッパや英国の蒐集家らを顧客とした。ピラネージがこの「グエルチーノのデッサン集」を捧げたトマス・ジェンキンスもカヴァチェッピの顧客の一人であった。同じくアルバーニ枢機卿に庇護を受け『古代美術史』等を上梓したヴィンケルマンの親しい友人でもあった。Jenkins, Thomas (1722-1798) 英国の美術商,画家,銀行家。1752年ローマに移り,1761年に聖ルカ美術アカデミー会員に選定される(同年,ピラネージも同会員に選定されている)。アレッサンドロ・アルバーニ枢機卿の庇護を受け,ヴィンケルマンやアントン・ラファエル・メングスら,アルバーニ枢機卿を中心としたサークルの人々と親しく交流。美術商・銀行家として,18世紀後半,ローマの美術市場を支配するようになる。",
+            "is_public": true,
+            "property_id": 460,
+            "property_label": "tr_comment1",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "21",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "1015",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "Title page:",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/221006",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/94361f25-1661-4d9f-b5e2-8710eca69ee6/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "1099",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

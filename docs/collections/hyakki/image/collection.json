@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/hyakki/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "江戸時代中期に模写された絵巻で、鬼や化け物たちが練り歩く様子がコミカルに描かれています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "百鬼夜行図"
+        },
+        {
+            "@language": "en",
+            "@value": "Hyakkiyakozu [Parade of Hundreds of Demons]"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest",
             "@type": "sc:Manifest",
             "label": "百鬼夜行図",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

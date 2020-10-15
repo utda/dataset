@@ -7,6 +7,7 @@ import unicodedata
 import pandas as pd
 import collections
 import os
+import glob
 
 
 def parse_args(args=sys.argv[1:]):
@@ -68,8 +69,6 @@ def excel_generator(site_name, arg_item_set_id):
     rows = []
     template_arr = []
 
-    api_url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api"
-
     output_path = "../docs/collections/" + site_name + "/metadata/data.xlsx"
 
     '''
@@ -81,48 +80,53 @@ def excel_generator(site_name, arg_item_set_id):
 
     item_set_arr = arg_item_set_id.split(",")
 
-    # item_set_id毎に実行
-    for item_set_id in item_set_arr:
+    files = glob.glob("../docs/api/items/*.json")
 
-        loop_flg = True
-        page = 1
+    targets = {}
 
-        while loop_flg:
-            url = api_url + "/items?item_set_id=" + str(item_set_id) + "&page=" + str(
-                page) + "&sort_by=uterms%3Asort&sort_order=asc"
-            print(url)
+    for file in files:
+        with open(file) as f:
+            df = json.load(f)
 
-            page += 1
+            if "o:item_set" not in df:
+                continue
 
-            request = urllib.request.Request(url)
-            response = urllib.request.urlopen(request)
+            item_set_objs = df["o:item_set"]
+            for obj in item_set_objs:
+                item_set_id = str(obj["o:id"])
 
-            response_body = response.read().decode("utf-8")
-            data = json.loads(response_body)
+                if item_set_id in item_set_arr:
+                    sort = ""
+                    if "uterms:sort" in df:
+                        sort = df["uterms:sort"][0]["@value"]
+                    
+                    if sort not in targets:
+                        targets[sort] = []
+                    
+                    if df not in targets[sort]:
+                        targets[sort].append(df)
 
-            if len(data) > 0:
-                for i in range(len(data)):
+    for key in sorted(targets):
 
-                    obj = data[i]
+        arr = targets[key]
 
-                    # テンプレート情報の保存
-                    if obj["o:resource_template"] != None:
+        for obj in arr:
 
-                        template_id = obj["o:resource_template"]["@id"]
-                        if template_id not in template_arr:
-                            template_arr.append(template_id)
+            # テンプレート情報の保存
+            if obj["o:resource_template"] != None:
 
-                    for key in obj:
+                template_id = obj["o:resource_template"]["@id"]
+                if template_id not in template_arr:
+                    template_arr.append(template_id)
 
-                        if not key.startswith("o:") and key != "@type":
-                            if key not in default_map and key not in etc_map and isinstance(obj[key], list):
-                                if "property_label" in obj[key][0]:
-                                    etc_map[key] = obj[key][0]["property_label"]
+            for key in obj:
 
-                    rows.append(obj)
+                if not key.startswith("o:") and key != "@type":
+                    if key not in default_map and key not in etc_map and isinstance(obj[key], list):
+                        if "property_label" in obj[key][0]:
+                            etc_map[key] = obj[key][0]["property_label"]
 
-            else:
-                loop_flg = False
+            rows.append(obj)
 
     # テンプレート項目の追加
     for template_id in template_arr:
@@ -214,8 +218,7 @@ def excel_generator(site_name, arg_item_set_id):
 
     df.to_excel(output_path, index=False, header=False)
     df.to_csv(output_path.replace("xlsx", "csv"), index=False, header=False)
-    df.to_csv(output_path.replace("xlsx", "tsv"),
-              index=False, header=False, sep='\t')
+    # df.to_csv(output_path.replace("xlsx", "tsv"), index=False, header=False, sep='\t')
 
 
 if __name__ == "__main__":

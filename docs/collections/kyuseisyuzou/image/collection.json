@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/kyuseisyuzou/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "総合図書館の貴重図書であり、安土桃山時代の頃に日本で描かれたとも言われているキリスト像です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "救世主像"
+        },
+        {
+            "@language": "en",
+            "@value": "Kyuseishuzo [Statue of the Savior]"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5061e0fa-b328-431f-a95e-7b417137335b/manifest",
             "@type": "sc:Manifest",
             "label": "救世主像",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A100_1649/A100_1649_0001.tif/full/200,200/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/df75229ea53c0dbda6ddca96f2ca72b398edd0d7.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

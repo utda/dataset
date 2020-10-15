@@ -2,13 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/chokumei/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "鴎外文庫の資料の一つである「明・弘治十八年八月二十日勅命」の公開サイトです。この資料は、弘治18年(1505)8月20日に南京広西道監察御史王欽の父母に官職・称号を授けるための辞令書と言われています。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "明・弘治十八年八月二十日勅命"
+        },
+        {
+            "@language": "en",
+            "@value": "Imperial Letter of Appointment during Ming Dynasty dated August 20, 1505"
+        }
+    ],
     "manifests": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/43f80fa0-cc5d-45fe-9dee-152196995b92/manifest",
             "@type": "sc:Manifest",
             "label": "明・弘治十八年八月二十日勅命",
             "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/16/full/200,/0/default.jpg"
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9de97d951a7fe66a8338bd7818561bff95d2018b.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

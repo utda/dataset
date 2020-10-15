@@ -1,0 +1,25 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/etc/ia/iiif/top.json",
+    "label" : [
+        {
+            "@value" : "東京大学デジタルアーカイブコレクション",
+            "@language" : "ja"
+        },
+        {
+            "@value" : "Digital Collections of the University of Tokyo",
+            "@language" : "en"
+        }
+    ],
+    "@type": "sc:Collection",
+    "collections": [
+        {
+            "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/tanaka/image/collection.json",
+            "@type": "sc:Collection"
+        },
+        {
+            "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/ogai/image/collection.json",
+            "@type": "sc:Collection"
+        }
+    ]
+}

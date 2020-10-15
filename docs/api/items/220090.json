@@ -1,0 +1,443 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220090",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "b846042e-159a-417b-bb4f-7a899612f0f3",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/b846042e-159a-417b-bb4f-7a899612f0f3",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "Iscrizione del Mausoleo di Cajo Cestio.",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/095104a3fd15d8f2642565b99273c8398cde6ac5.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-01-21T16:13:10+00:00"
+    },
+    "o:id": 220090,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/219908",
+            "o:id": 219908
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/221530",
+            "o:id": 221530
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-07-17T02:07:33+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/20",
+        "o:id": 20
+    },
+    "o:thumbnail": null,
+    "pi:author": [
+        {
+            "@value": "Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 404,
+            "property_label": "author",
+            "type": "literal"
+        }
+    ],
+    "pi:author_jp": [
+        {
+            "@value": "ジョヴァンニ・バッティスタ・ピラネージ",
+            "is_public": true,
+            "property_id": 405,
+            "property_label": "author_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_no": [
+        {
+            "@value": "153",
+            "is_public": true,
+            "property_id": 406,
+            "property_label": "Calco_no",
+            "type": "literal"
+        }
+    ],
+    "pi:calco_tav_no": [
+        {
+            "@value": "tav. 41.a",
+            "is_public": true,
+            "property_id": 407,
+            "property_label": "Calco_tav_no",
+            "type": "literal"
+        }
+    ],
+    "pi:cil_no": [
+        {
+            "@value": "VI.1374",
+            "is_public": true,
+            "property_id": 408,
+            "property_label": "CIL_no",
+            "type": "literal"
+        }
+    ],
+    "pi:fd_no": [
+        {
+            "@value": "153",
+            "is_public": true,
+            "property_id": 414,
+            "property_label": "FD_no",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc": [
+        {
+            "@value": "323. XLI. Iscrizione del mausoleo di  Cajo Cestio, la qual' e situata nella facciata della piramide... -- Sig. en bas à gauche. -- H. 0.39. L. 0.86. -- Double fil. d'encad.",
+            "is_public": true,
+            "property_id": 416,
+            "property_label": "HF_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_desc_tr": [
+        {
+            "@value": "323。図版41。ピラミッドの正面にあるガイウス・ケスティウスの墓廟の碑文...。−左下に署名。−高さ0.39,長さ0.86。−二重の枠線。",
+            "is_public": true,
+            "property_id": 417,
+            "property_label": "HF_desc_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:hf_no": [
+        {
+            "@value": "323",
+            "is_public": true,
+            "property_id": 418,
+            "property_label": "HF_no",
+            "type": "literal"
+        }
+    ],
+    "pi:ils_no": [
+        {
+            "@value": "917",
+            "is_public": true,
+            "property_id": 423,
+            "property_label": "ILS_no",
+            "type": "literal"
+        }
+    ],
+    "pi:image_id": [
+        {
+            "@value": "183",
+            "is_public": true,
+            "property_id": 424,
+            "property_label": "image_ID",
+            "type": "literal"
+        }
+    ],
+    "pi:image_size": [
+        {
+            "@value": "394X599",
+            "is_public": true,
+            "property_id": 425,
+            "property_label": "image_size",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1": [
+        {
+            "@value": "A Iscrizione del Mausoleo di Cajo Cestio, la qual'è situata nella Facciata della Piramide verso Levante sopra la Via Ostiense, scolpita nei grossi pezzi di marmo, i quali vestono la Piramide, e disegnata fedelmente nel modo, che ivi si vede. Si legge la medesima Iscrizione replicata nella parte opposta verso Ponente. B Corsi di grossi pezzi di marmo, i quali cingendo tutto all'intorno il gran Masso formano la superfice esterna della Piramide. C Masso composto di scaglie di selce, calce, e pozzolana. D Altra Iscrizione similm.te incisa ne' detti marmi sotto la già mentovata dalla parte verso Levante. Dinota, che questo gran Sepolcro è stato condotta a fine dentro lo spazio di trecento e trenta giorni, tempo prescritto dal Defonto nel testamento, come usavasi in que' tempi. Nel qual termine se'breve per una mole si magnifica forse non sarà stato possibile concatenare insieme i pezzi di marmo, che compongono l'esterno della Piramide, e però sono stati soggetti a varie smosse in più parti, come appare dal ristauro fatto loro nel secolo passato da Papa Alessandro VII. Per lo contrario per essere bene concatenati non patirono simil difetto que' marmi, che vestono il Sepolcro di Cecilia Metella, detto volgam.te Capo di bove, e di altri antichi edificj, i quali in oggi ancora intatti si mantengono. E Iscrizione del detto Pontefice scolpita sotto l'altre due in ambe le parti di Lev.te e Po.te.",
+            "is_public": true,
+            "property_id": 427,
+            "property_label": "inscription1",
+            "type": "literal"
+        }
+    ],
+    "pi:inscription1_tr": [
+        {
+            "@value": "A ガイウス・ケスティウスの墓廟の碑文。オスティア街道に面したピラミッドの東側正面に位置し、巨大な大理石片に彫込まれている。これらの大理石片はピラミッドの表面を覆っており,その様をここに忠実に示した。同碑文は西に面した反対側にも繰り返し彫られているのが見える。B 巨大な大理石片の列。これらが巨大な岩塊を覆っており、ピラミッドの外部表面を形成している。C 敷石、ポゾラン〔多孔質の凝灰岩〕や石灰,あるいは燧石(すいせき)の破片でできた石積み。D 既に言及した東面の下の大理石に同じように彫り込まれている別の碑文。これは,この巨大な墓が330日以内に完成されたことを記している。この期間は,当時よく行われていたように,死者の遺言によって指定された。そのような短期間の期限では,ここまで巨大な建造物の外面を覆っている大理石片をつなぎ合わせることはおそらく不可能だったであろう。それゆえ、様々な場所でそれらは様々にずれてしまう傾向にあったが、そのことは前世紀に教皇アレクサンデル7世〔在1655年-1667年〕によってなされた修復からもわかる。反対に、俗にカーポ・ディ・ボヴェと呼ばれているカエキリア・メテッラの墓やその他の古代建築などで、大理石片が上手くつなぎ合わされたものはそのような欠損を被ることなく、現在でも無傷で残っている。E 前述の教皇の碑文。東面と西面の両方の碑文の下に彫り込まれている。",
+            "is_public": true,
+            "property_id": 428,
+            "property_label": "inscription1_tr",
+            "type": "literal"
+        }
+    ],
+    "pi:kamei_no": [
+        {
+            "@value": "153",
+            "is_public": true,
+            "property_id": 431,
+            "property_label": "Kamei_no",
+            "type": "literal"
+        }
+    ],
+    "pi:machida_no": [
+        {
+            "@value": "83",
+            "is_public": true,
+            "property_id": 436,
+            "property_label": "Machida_no",
+            "type": "literal"
+        }
+    ],
+    "pi:memo": [
+        {
+            "@value": "Tom.III",
+            "is_public": true,
+            "property_id": 438,
+            "property_label": "memo",
+            "type": "literal"
+        }
+    ],
+    "pi:nega_no": [
+        {
+            "@value": "3041",
+            "is_public": true,
+            "property_id": 439,
+            "property_label": "nega_no",
+            "type": "literal"
+        }
+    ],
+    "pi:opera": [
+        {
+            "@value": "LE ANTICHITÀ ROMANE",
+            "is_public": true,
+            "property_id": 440,
+            "property_label": "opera",
+            "type": "literal"
+        }
+    ],
+    "pi:opera_jp": [
+        {
+            "@value": "古代ローマの遺跡",
+            "is_public": true,
+            "property_id": 441,
+            "property_label": "opera_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:plate": [
+        {
+            "@value": "41",
+            "is_public": true,
+            "property_id": 445,
+            "property_label": "plate",
+            "type": "literal"
+        }
+    ],
+    "pi:plate_size": [
+        {
+            "@value": "399X601",
+            "is_public": true,
+            "property_id": 446,
+            "property_label": "plate_size",
+            "type": "literal"
+        }
+    ],
+    "pi:series": [
+        {
+            "@value": "GLI AVANZI DEI MONUMENTI SEPOLCRALI DI ROMA E DELL'AGRO ROMANO",
+            "is_public": true,
+            "property_id": 448,
+            "property_label": "series",
+            "type": "literal"
+        }
+    ],
+    "pi:series_jp": [
+        {
+            "@value": "ローマおよびその近郊における墓所の遺跡",
+            "is_public": true,
+            "property_id": 449,
+            "property_label": "series_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:subcategoria": [
+        {
+            "@value": "inscriptions",
+            "is_public": true,
+            "property_id": 473,
+            "property_label": "subcategoria",
+            "type": "literal"
+        }
+    ],
+    "pi:subject": [
+        {
+            "@value": "sito",
+            "is_public": true,
+            "property_id": 471,
+            "property_label": "subject",
+            "type": "literal"
+        }
+    ],
+    "pi:taschen_no": [
+        {
+            "@value": "313",
+            "is_public": true,
+            "property_id": 452,
+            "property_label": "Taschen_no",
+            "type": "literal"
+        }
+    ],
+    "pi:title": [
+        {
+            "@value": "Iscrizione del Mausoleo di Cajo Cestio.",
+            "is_public": true,
+            "property_id": 456,
+            "property_label": "title",
+            "type": "literal"
+        }
+    ],
+    "pi:title_jp": [
+        {
+            "@value": "ガイウス・ケスティウスのピラミッド型の墓の碑文",
+            "is_public": true,
+            "property_id": 458,
+            "property_label": "title_JP",
+            "type": "literal"
+        }
+    ],
+    "pi:tomo": [
+        {
+            "@value": "TERZO",
+            "is_public": true,
+            "property_id": 459,
+            "property_label": "tomo",
+            "type": "literal"
+        }
+    ],
+    "pi:volume": [
+        {
+            "@value": "3",
+            "is_public": true,
+            "property_id": 462,
+            "property_label": "volume",
+            "type": "literal"
+        }
+    ],
+    "pi:we_desc": [
+        {
+            "@value": "The Pyramid of Cestius. Fold-out plate.Signature,lower left.",
+            "is_public": true,
+            "property_id": 463,
+            "property_label": "WE_desc",
+            "type": "literal"
+        }
+    ],
+    "pi:we_no": [
+        {
+            "@value": "456",
+            "is_public": true,
+            "property_id": 464,
+            "property_label": "WE_no",
+            "type": "literal"
+        }
+    ],
+    "pi:we_title": [
+        {
+            "@value": "A. Inscription of the Mausoleum of Gaius Cestius...",
+            "is_public": true,
+            "property_id": 465,
+            "property_label": "WE_title",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/220090",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b846042e-159a-417b-bb4f-7a899612f0f3/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "0183",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/111213",
+    "@type": [
+        "o:Item",
+        "dctype:Image"
+    ],
+    "bibo:identifier": [
+        {
+            "@value": "7a6dd85f-b285-4791-8d37-4f0cfa7a3d33",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "bibo:uri": [
+        {
+            "@id": "http://dbpedia.org/resource/Japanese_minelayer_Yaeyama",
+            "is_public": true,
+            "o:label": "Japanese_minelayer_Yaeyama",
+            "property_id": 121,
+            "property_label": "uri",
+            "type": "uri"
+        },
+        {
+            "@id": "http://dbpedia.org/resource/Warship",
+            "is_public": true,
+            "o:label": "Warship",
+            "property_id": 121,
+            "property_label": "uri",
+            "type": "uri"
+        }
+    ],
+    "dcndl:holdingAgent": [
+        {
+            "@value": "東京大学柏図書館",
+            "is_public": true,
+            "property_id": 238,
+            "property_label": "Holding Agent",
+            "type": "literal"
+        }
+    ],
+    "dcndl:seriesTitle": [
+        {
+            "@value": "〔軍艦八重山救難工事関係〕",
+            "is_public": true,
+            "property_id": 201,
+            "property_label": "Series Title",
+            "type": "literal"
+        }
+    ],
+    "dcterms:created": [
+        {
+            "@value": "2007",
+            "is_public": true,
+            "property_id": 20,
+            "property_label": "Date Created",
+            "type": "literal"
+        }
+    ],
+    "dcterms:identifier": [
+        {
+            "@value": "50534501",
+            "is_public": true,
+            "property_id": 10,
+            "property_label": "Identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/7a6dd85f-b285-4791-8d37-4f0cfa7a3d33",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:subject": [
+        {
+            "@value": "その他4:その他軍艦",
+            "is_public": true,
+            "property_id": 3,
+            "property_label": "Subject",
+            "type": "literal"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "〔軍艦八重山破損個所見取図〕 8月12日",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c9913b91a8a006ab096f0ddeea01418ee020133c.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "foaf:topic": [
+        {
+            "@value": "text",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "design",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "paper",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "line",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "font",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "product",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "angle",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "diagram",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        },
+        {
+            "@value": "pattern",
+            "is_public": true,
+            "property_id": 170,
+            "property_label": "topic",
+            "type": "literal"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-07-14T17:16:35+00:00"
+    },
+    "o:id": 111213,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/107794",
+            "o:id": 107794
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/131396",
+            "o:id": 131396
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-12-06T10:54:50+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+        "o:id": 26
+    },
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/16",
+        "o:id": 16
+    },
+    "o:thumbnail": null,
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/111213",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "平賀譲デジタルアーカイブ",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/111213/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ]
+}
