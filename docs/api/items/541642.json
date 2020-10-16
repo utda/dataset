@@ -1,0 +1,244 @@
+{
+    "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541642",
+    "@type": "o:Item",
+    "bibo:identifier": [
+        {
+            "@value": "bc7a3593-9483-85cb-90d6-f0a9e11439d4",
+            "is_public": true,
+            "property_id": 98,
+            "property_label": "identifier",
+            "type": "literal"
+        }
+    ],
+    "dcterms:isPartOf": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit",
+            "is_public": true,
+            "property_id": 33,
+            "property_label": "Is Part Of",
+            "type": "uri"
+        }
+    ],
+    "dcterms:relation": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit/document/bc7a3593-9483-85cb-90d6-f0a9e11439d4",
+            "is_public": true,
+            "property_id": 13,
+            "property_label": "Relation",
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "@value": "PL.39 CHARPENTE No.3",
+            "is_public": true,
+            "property_id": 1,
+            "property_label": "Title",
+            "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/95a76bbc057040f50de66333295dec7bc14e3ad5.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
+        }
+    ],
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-10-02T07:48:13+00:00"
+    },
+    "o:id": 541642,
+    "o:is_public": true,
+    "o:item_set": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/541554",
+            "o:id": 541554
+        }
+    ],
+    "o:media": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/541719",
+            "o:id": 541719
+        }
+    ],
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-10-13T00:15:15+00:00"
+    },
+    "o:owner": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
+        "o:id": 3
+    },
+    "o:resource_class": null,
+    "o:resource_template": {
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/37",
+        "o:id": 37
+    },
+    "o:thumbnail": null,
+    "petit:class1": [
+        {
+            "@value": "CHARPENTE",
+            "is_public": true,
+            "property_id": 577,
+            "property_label": "分類1",
+            "type": "literal"
+        }
+    ],
+    "petit:class2": [
+        {
+            "@value": "No.3",
+            "is_public": true,
+            "property_id": 578,
+            "property_label": "分類2",
+            "type": "literal"
+        }
+    ],
+    "petit:comment1": [
+        {
+            "@value": "COMBLES",
+            "is_public": true,
+            "property_id": 583,
+            "property_label": "解説1",
+            "type": "literal"
+        }
+    ],
+    "petit:comment2": [
+        {
+            "@value": "DESSIN DU COMBLE DU MAGASIN MILITAIRE &Agrave; FOURRAGES CONSTRUIT SUR LE QUAI DE LA RAP&Eacute;E &Agrave; PARIS",
+            "is_public": true,
+            "property_id": 584,
+            "property_label": "解説2",
+            "type": "literal"
+        }
+    ],
+    "petit:daiichi": [
+        {
+            "@value": "○",
+            "is_public": true,
+            "property_id": 582,
+            "property_label": "第一中学本",
+            "type": "literal"
+        }
+    ],
+    "petit:figno": [
+        {
+            "@value": "PL.39",
+            "is_public": true,
+            "property_id": 579,
+            "property_label": "図版番号",
+            "type": "literal"
+        }
+    ],
+    "petit:kaisei": [
+        {
+            "@value": "―",
+            "is_public": true,
+            "property_id": 589,
+            "property_label": "開成学校本",
+            "type": "literal"
+        }
+    ],
+    "petit:keyword": [
+        {
+            "@value": "屋根組み",
+            "is_public": true,
+            "property_id": 574,
+            "property_label": "キーワード",
+            "type": "literal"
+        }
+    ],
+    "petit:size": [
+        {
+            "@value": "A3",
+            "is_public": true,
+            "property_id": 575,
+            "property_label": "サイズ",
+            "type": "literal"
+        }
+    ],
+    "petit:teikoku": [
+        {
+            "@value": "○",
+            "is_public": true,
+            "property_id": 580,
+            "property_label": "帝国大学本",
+            "type": "literal"
+        }
+    ],
+    "petit:title2": [
+        {
+            "@value": "DESSIN À L'USAGE DES CHANTIERS",
+            "is_public": true,
+            "property_id": 576,
+            "property_label": "タイトル2",
+            "type": "literal"
+        }
+    ],
+    "petit:todai": [
+        {
+            "@value": "―",
+            "is_public": true,
+            "property_id": 581,
+            "property_label": "東京大学本",
+            "type": "literal"
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541642",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
+    "sc:attributionLabel": [
+        {
+            "@value": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN",
+            "is_public": true,
+            "property_id": 190,
+            "property_label": "attributionLabel",
+            "type": "literal"
+        }
+    ],
+    "uterms:databaseLabel": [
+        {
+            "@value": "スタニスラス・プチ　『産業実務家』",
+            "is_public": true,
+            "property_id": 354,
+            "property_label": "Database Label",
+            "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bc7a3593-9483-85cb-90d6-f0a9e11439d4/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "039",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
+        }
+    ]
+}
