@@ -1,5 +1,6 @@
 import sys
 import urllib
+import utils
 import json
 import argparse
 import urllib.request
@@ -21,16 +22,14 @@ def parse_args(args=sys.argv[1:]):
         type=str,
         help='Site name. ex: hyakki')
 
-    parser.add_argument(
-        'item_set_id',
-        action='store',
-        type=str,
-        help='ID of itemSet. ex: 2')
-
     return parser.parse_args(args)
 
 
-def excel_generator(site_name, arg_item_set_id):
+def excel_generator(config):
+
+    site_name = config["site_name"]
+    arg_item_set_id = config["item_set_id"]
+    
     label_map = collections.OrderedDict()
     label_map["dcterms:title"] = "タイトル"
 
@@ -223,8 +222,6 @@ def excel_generator(site_name, arg_item_set_id):
 
 if __name__ == "__main__":
     args = parse_args()
-
-    site_name = args.site_name
-    arg_item_set_id = args.item_set_id
-
-    excel_generator(site_name, arg_item_set_id)
+    key = args.site_name
+    site_obj = utils.get_site_config(key)
+    excel_generator(site_obj)

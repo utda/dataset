@@ -1,5 +1,6 @@
 import sys
 import urllib
+import utils
 import json
 import argparse
 import urllib.request
@@ -15,12 +16,6 @@ def parse_args(args=sys.argv[1:]):
         action='store',
         type=str,
         help='Site name. ex: hyakki')
-
-    parser.add_argument(
-        'item_set_id',
-        action='store',
-        type=str,
-        help='ID of itemSet. ex: 2')
 
     return parser.parse_args(args)
 
@@ -69,13 +64,6 @@ def items_generator(config):
 
 if __name__ == "__main__":
     args = parse_args()
-
-    site_name = args.site_name
-    arg_item_set_id = args.item_set_id
-
-    config = {
-        "site_name" : site_name,
-        "item_set_id" : arg_item_set_id
-    }
-
-    collection_generator(config)
+    key = args.site_name
+    site_obj = utils.get_site_config(key)
+    items_generator(site_obj)

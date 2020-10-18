@@ -1,5 +1,6 @@
 import sys
 import urllib
+import utils
 import json
 import argparse
 import urllib.request
@@ -17,16 +18,13 @@ def parse_args(args=sys.argv[1:]):
         type=str,
         help='Site name. ex: hyakki')
 
-    parser.add_argument(
-        'item_set_id',
-        action='store',
-        type=str,
-        help='ID of itemSet. ex: 2')
-
     return parser.parse_args(args)
 
 
-def ld_generator(site_name, arg_item_set_id):
+def ld_generator(config):
+
+    site_name = config["site_name"]
+    arg_item_set_id = config["item_set_id"]
 
     output_path = "../docs/collections/" + site_name + "/metadata/data.json"
 
@@ -83,8 +81,6 @@ def ld_generator(site_name, arg_item_set_id):
 
 if __name__ == "__main__":
     args = parse_args()
-
-    site_name = args.site_name
-    arg_item_set_id = args.item_set_id
-
-    ld_generator(site_name, arg_item_set_id)
+    key = args.site_name
+    site_obj = utils.get_site_config(key)
+    ld_generator(site_obj)

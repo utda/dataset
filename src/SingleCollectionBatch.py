@@ -1,6 +1,7 @@
 import csv
 import os
 import argparse
+import utils
 import sys
 from CollectionGenerator import collection_generator
 from ItemsGenerator import items_generator
@@ -18,12 +19,6 @@ def parse_args(args=sys.argv[1:]):
         action='store',
         type=str,
         help='Site name. ex: hyakki')
-
-    parser.add_argument(
-        'item_set_id',
-        action='store',
-        type=str,
-        help='ID of itemSet. ex: 2')
 
     return parser.parse_args(args)
 
@@ -62,13 +57,6 @@ def single_collection_batch(config):
 
 if __name__ == "__main__":
     args = parse_args()
-
-    site_name = args.site_name
-    arg_item_set_id = args.item_set_id
-
-    config = {}
-
-    config["site_name"] = site_name
-    config["item_set_id"] = arg_item_set_id
-
-    single_collection_batch(config)
+    key = args.site_name
+    site_obj = utils.load(key)
+    single_collection_batch(site_obj)
