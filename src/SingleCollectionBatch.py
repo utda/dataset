@@ -28,7 +28,6 @@ def single_collection_batch(config):
     items_generator(config)
 
     site_name = config["site_name"]
-    item_set_id = config["item_set_id"]
 
     site_dir = "../docs/collections/" + site_name
 
@@ -49,10 +48,10 @@ def single_collection_batch(config):
         os.mkdir(metadata_dir)
 
     print("ld")
-    ld_generator(site_name, item_set_id)
+    ld_generator(config)
     
     print("excel")
-    excel_generator(site_name, item_set_id)
+    excel_generator(config)
 
 
 if __name__ == "__main__":
