@@ -76,7 +76,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2020-10-13T00:15:13+00:00"
+        "@value": "2020-10-23T07:51:51+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
@@ -108,7 +108,7 @@
     ],
     "petit:comment1": [
         {
-            "@value": "VOUTES CYLINDRIQUES. ___ BERCEAUX.",
+            "@value": "VOUTES CYLINDRIQUES.      BERCEAUX.",
             "is_public": true,
             "property_id": 583,
             "property_label": "解説1",
@@ -117,10 +117,19 @@
     ],
     "petit:comment2": [
         {
-            "@value": "EPURE D'UNE PORTE PRATIQUEE DANS UN MUR BIAIS. (Echelle de 8 centim&egrave;tres pour m&egrave;tre)",
+            "@value": "EPURE D'UNE PORTE PRATIQUEEDANS UN MUR BIAIS. (Echelle de 8 centimètres pour mètre)",
             "is_public": true,
             "property_id": 584,
             "property_label": "解説2",
+            "type": "literal"
+        }
+    ],
+    "petit:comment3": [
+        {
+            "@value": "Cette épuré a pour objet de déterminer les formes exactes des faces planes et courbes qui limitent les voussoirs de la partie cintrée de la porte.",
+            "is_public": true,
+            "property_id": 585,
+            "property_label": "解説3",
             "type": "literal"
         }
     ],
