@@ -57,5 +57,5 @@ def single_collection_batch(config):
 if __name__ == "__main__":
     args = parse_args()
     key = args.site_name
-    site_obj = utils.load(key)
+    site_obj = utils.get_site_config(key)
     single_collection_batch(site_obj)
