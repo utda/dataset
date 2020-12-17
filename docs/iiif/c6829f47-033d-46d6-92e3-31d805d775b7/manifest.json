@@ -1,0 +1,94 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c6829f47-033d-46d6-92e3-31d805d775b7/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN",
+    "label": "〔整理封筒:このID(4桁数字)の資料を一括して入れていたもの〕",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "〔整理封筒:このID(4桁数字)の資料を一括して入れていたもの〕"
+        },
+        {
+            "label": "ID",
+            "value": "40961401"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カード目録",
+            "value": "「伊号装甲巡洋艦『ベルトアーモーワ』組立方報告」他"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "報告:海外留学・出張・駐在"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "登録年",
+            "value": "2007"
+        },
+        {
+            "label": "軍艦",
+            "value": "http://dbpedia.org/resource/Cruiser"
+        },
+        {
+            "label": "identifier",
+            "value": "c6829f47-033d-46d6-92e3-31d805d775b7"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/110916/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c6829f47-033d-46d6-92e3-31d805d775b7/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

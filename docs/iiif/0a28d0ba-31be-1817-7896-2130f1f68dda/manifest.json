@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0a28d0ba-31be-1817-7896-2130f1f68dda/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "label": "PL.125",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "図版番号",
+            "value": "PL.125"
+        },
+        {
+            "label": "Title",
+            "value": "PL.125"
+        },
+        {
+            "label": "タイトル2",
+            "value": "(absent)"
+        },
+        {
+            "label": "解説1",
+            "value": "現存せず"
+        },
+        {
+            "label": "解説2",
+            "value": "情報をお寄せください"
+        },
+        {
+            "label": "解説3",
+            "value": "情報をお寄せください"
+        },
+        {
+            "label": "第一中学本",
+            "value": "―"
+        },
+        {
+            "label": "開成学校本",
+            "value": "―"
+        },
+        {
+            "label": "東京大学本",
+            "value": "―"
+        },
+        {
+            "label": "帝国大学本",
+            "value": "―"
+        },
+        {
+            "label": "identifier",
+            "value": "0a28d0ba-31be-1817-7896-2130f1f68dda"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "スタニスラス・プチ　『産業実務家』"
+        },
+        {
+            "label": "Sort",
+            "value": "119"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0a28d0ba-31be-1817-7896-2130f1f68dda/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko in the University of Tokyo, JAPAN",
+    "label": "[多年御愛顧の諸氏へ]",
+    "license": "http://www.meiji.j.u-tokyo.ac.jp/digitalarchive_reuse_meijibunko.html",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "[多年御愛顧の諸氏へ]"
+        },
+        {
+            "label": "請求記号",
+            "value": "GP150:Z12:04"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "雑誌発行宣伝広告集 明治大正昭和間"
+        },
+        {
+            "label": "コレクション名",
+            "value": "宮武外骨蒐集資料(外骨書函パンフレット類)"
+        },
+        {
+            "label": "サイズ",
+            "value": "3点/形態:パンフレット,封筒/12cm×8cm,21cm×8.5cm"
+        },
+        {
+            "label": "identifier",
+            "value": "be090766-9601-4b27-961a-914ee824d7a8"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "306"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/document/be090766-9601-4b27-961a-914ee824d7a8",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/72820",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4912,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be090766-9601-4b27-961a-914ee824d7a8/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/1ec53792f1b1359c43393f8bdc3cc874fc889b9d.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4912,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/86417",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7360
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/86417/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/86417",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7360
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1ec53792f1b1359c43393f8bdc3cc874fc889b9d.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/"
+}

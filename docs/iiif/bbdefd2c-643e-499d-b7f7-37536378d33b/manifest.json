@@ -1,0 +1,141 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdefd2c-643e-499d-b7f7-37536378d33b/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN",
+    "label": "比叡 発射時ニ於ケル砲塔内ノ震動調査装置",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "比叡 発射時ニ於ケル砲塔内ノ震動調査装置"
+        },
+        {
+            "label": "作成日",
+            "value": "1914-11-20"
+        },
+        {
+            "label": "ID",
+            "value": "21390301"
+        },
+        {
+            "label": "文書種類",
+            "value": "図面"
+        },
+        {
+            "label": "文書記述形式",
+            "value": "図面青焼き"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カード目録",
+            "value": "〔長門姿図綴り〕等"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "主力艦:長門型"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "登録年",
+            "value": "2007"
+        },
+        {
+            "label": "エンティティ（Google Cloud Vision）",
+            "value": [
+                "text",
+                "black and white",
+                "structure",
+                "design",
+                "product",
+                "pattern",
+                "technology",
+                "monochrome",
+                "font",
+                "square"
+            ]
+        },
+        {
+            "label": "軍艦",
+            "value": [
+                "http://dbpedia.org/resource/Japanese_battleship_Hiei",
+                "http://dbpedia.org/resource/Japanese_battleship_Nagato"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "bbdefd2c-643e-499d-b7f7-37536378d33b"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/109063/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/bbdefd2c-643e-499d-b7f7-37536378d33b",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/109063",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdefd2c-643e-499d-b7f7-37536378d33b/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdefd2c-643e-499d-b7f7-37536378d33b/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4928,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdefd2c-643e-499d-b7f7-37536378d33b/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdefd2c-643e-499d-b7f7-37536378d33b/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/21390301/21390301-001_001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4928,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/21390301/21390301-001_001.tif",
+                                    "height": 4928,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6944
+                                },
+                                "width": 6944
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/21390301/21390301-001_001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/21390301/21390301-001_001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6944
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c02a9ac147a273837fecc85a3dc2b09bd0b8ff2f.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/"
+}

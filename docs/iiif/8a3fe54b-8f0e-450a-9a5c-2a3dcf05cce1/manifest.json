@@ -1,0 +1,106 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8a3fe54b-8f0e-450a-9a5c-2a3dcf05cce1/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "description": "四より七，九より十七、十九より廿一を欠く",
+    "label": "俳優評判記",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "はいゆうひょうばんき"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒0963-0044"
+        },
+        {
+            "label": "題種・題名",
+            "value": [
+                "-初編　明治十一-十二序-二編　明治十一-十二狂言-三編　明治十二-三狂言-八編　明治十三-三狂言狂言-十八編　明治十六-一届-十八編　明治十六-一届-廿二編　明治十六-十一由",
+                "(初編から)１／イ、２／イ、３／イ、８／イ、１８／イ、１８／ロ、２２／イ"
+            ]
+        },
+        {
+            "label": "刊写",
+            "value": "刊"
+        },
+        {
+            "label": "体裁",
+            "value": "横本七"
+        },
+        {
+            "label": "大分類",
+            "value": "歌舞伎"
+        },
+        {
+            "label": "中分類",
+            "value": "評判記"
+        },
+        {
+            "label": "identifier",
+            "value": "8a3fe54b-8f0e-450a-9a5c-2a3dcf05cce1"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "2495"
+        },
+        {
+            "label": "Title",
+            "value": "俳優評判記"
+        },
+        {
+            "label": "月",
+            "value": "00"
+        },
+        {
+            "label": "日",
+            "value": "00"
+        },
+        {
+            "label": "Database Label",
+            "value": "黒木文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8a3fe54b-8f0e-450a-9a5c-2a3dcf05cce1/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

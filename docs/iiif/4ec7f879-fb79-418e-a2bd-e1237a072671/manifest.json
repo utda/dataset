@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4ec7f879-fb79-418e-a2bd-e1237a072671/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "好色ひゐながた",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "好色ひゐながた"
+        },
+        {
+            "label": "書名よみ",
+            "value": "こうしょくひいながた"
+        },
+        {
+            "label": "形態",
+            "value": "14丁 : 挿絵 ; 23cm"
+        },
+        {
+            "label": "他の書名",
+            "value": "好色ひゐなかた"
+        },
+        {
+            "label": "注記",
+            "value": [
+                "巻四のみ",
+                "刊記:京･西村市郎右衞門[ほか]",
+                "刊年:元禄三年"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "西鶴本以外"
+        },
+        {
+            "label": "請求記号",
+            "value": [
+                "E22:776:1113",
+                "A00:霞亭:1113"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "4ec7f879-fb79-418e-a2bd-e1237a072671"
+        },
+        {
+            "label": "Sort",
+            "value": "1113"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1113"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "元禄三年"
+        },
+        {
+            "label": "year",
+            "value": "1690"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4ec7f879-fb79-418e-a2bd-e1237a072671/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

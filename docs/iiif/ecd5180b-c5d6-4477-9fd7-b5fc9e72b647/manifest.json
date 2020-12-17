@@ -1,0 +1,272 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko in the University of Tokyo, JAPAN",
+    "label": "日月星三光",
+    "license": "http://www.meiji.j.u-tokyo.ac.jp/digitalarchive_reuse_meijibunko.html",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "日月星三光"
+        },
+        {
+            "label": "請求記号",
+            "value": "GP720:N71"
+        },
+        {
+            "label": "コレクション名",
+            "value": "宮武外骨蒐集資料(外骨書函パンフレット類)"
+        },
+        {
+            "label": "編著者",
+            "value": "歌川広重画"
+        },
+        {
+            "label": "サイズ",
+            "value": "3枚1組 28×35cm"
+        },
+        {
+            "label": "identifier",
+            "value": "ecd5180b-c5d6-4477-9fd7-b5fc9e72b647"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "632"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/document/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/73083",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4912,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/0cb1cc5268bbe115013634854fb1a52083e69bf1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4912,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90525",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7360
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90525/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90525",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7360
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 7250,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0002-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p2",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/626e40a1623b35b31b63249e082c1a3e4b9ca9ac.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 7250,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90526",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4839
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90526/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90526",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4839
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 4839,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0003-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p3",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/024d1eaa1994aadce55a261676925f5be5614151.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4839,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90527",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7251
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90527/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90527",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7251
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 4839,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0004-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p4",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/5f85a9dcf300b82f4370ba36815bccc86c0dfb27.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4839,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90528",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7251
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90528/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90528",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7251
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 4839,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0005-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p5",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/fde0f0ea7e54a49b9c68798d91fbbcafc61846bb.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4839,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90529",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7251
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90529/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90529",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7251
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 4839,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/annotation/p0006-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ecd5180b-c5d6-4477-9fd7-b5fc9e72b647/canvas/p6",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/069ac404a46922f64a28baf9d52202952d302d65.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4839,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90530",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 7251
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90530/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/90530",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7251
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0cb1cc5268bbe115013634854fb1a52083e69bf1.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/"
+}

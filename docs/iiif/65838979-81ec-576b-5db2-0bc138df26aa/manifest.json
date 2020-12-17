@@ -1,0 +1,115 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "中国第5番",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "中国第5番"
+        },
+        {
+            "label": "資料名",
+            "value": "測地原稿図"
+        },
+        {
+            "label": "その他の資料名",
+            "value": "伊能忠敬測地原図"
+        },
+        {
+            "label": "その他の資料名よみ",
+            "value": "いのうただたかそくちげんず"
+        },
+        {
+            "label": "著者",
+            "value": "伊能忠敬"
+        },
+        {
+            "label": "刊写の別",
+            "value": "写"
+        },
+        {
+            "label": "形態",
+            "value": "93枚"
+        },
+        {
+            "label": "請求記号",
+            "value": "A00:4549"
+        },
+        {
+            "label": "identifier",
+            "value": "65838979-81ec-576b-5db2-0bc138df26aa"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "測地原稿図"
+        },
+        {
+            "label": "Sort",
+            "value": "10000038"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/sokuchigenkozu/document/65838979-81ec-576b-5db2-0bc138df26aa",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/533796",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 7760,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/65838979-81ec-576b-5db2-0bc138df26aa/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A00_4549/A00_4549_0038.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 7760,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A00_4549/A00_4549_0038.tif",
+                                    "height": 7760,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 10328
+                                },
+                                "width": 10328
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A00_4549/A00_4549_0038.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/ogatasiryo/A00_4549/A00_4549_0038.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 10328
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c02e7257ee49d77ec43afc00827dce5bab537e9c.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/sokuchigenkozu/"
+}

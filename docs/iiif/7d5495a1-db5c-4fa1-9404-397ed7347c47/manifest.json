@@ -1,0 +1,123 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7d5495a1-db5c-4fa1-9404-397ed7347c47/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "好色むすび昆布 / 風短子鬼角作",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "好色むすび昆布 / 風短子鬼角作"
+        },
+        {
+            "label": "書名よみ",
+            "value": "こうしょくむすびこんぶ"
+        },
+        {
+            "label": "形態",
+            "value": "4冊 : 挿絵 ; 22cm"
+        },
+        {
+            "label": "他の書名",
+            "value": [
+                "好色結び昆布",
+                "好色結びこ婦",
+                "好色結ひこ婦"
+            ]
+        },
+        {
+            "label": "注記",
+            "value": [
+                "五巻五冊中､三巻を欠く",
+                "原題簽:｢好色結び昆布｣(巻一)， ｢好色結びこ婦｣(巻四)",
+                "書外題:｢好色結びこ婦｣(巻二)， ｢好色結ひこ婦｣(巻五)",
+                "改題本に｢好色たま子ざけ｣あり",
+                "刊記:寶永四年， 書林板"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "義太夫節"
+        },
+        {
+            "label": "請求記号",
+            "value": [
+                "E22:776:1118",
+                "A00:霞亭:1118"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "7d5495a1-db5c-4fa1-9404-397ed7347c47"
+        },
+        {
+            "label": "Sort",
+            "value": "1118"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1118"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "寶永四年"
+        },
+        {
+            "label": "year",
+            "value": "1707"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7d5495a1-db5c-4fa1-9404-397ed7347c47/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

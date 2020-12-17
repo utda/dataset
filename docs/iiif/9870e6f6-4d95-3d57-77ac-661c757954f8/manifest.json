@@ -1,0 +1,114 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9870e6f6-4d95-3d57-77ac-661c757954f8/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "学事願伺届達回答  明治九年中",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "学事願伺届達回答  明治九年中"
+        },
+        {
+            "label": "五十年史番号",
+            "value": "146-3"
+        },
+        {
+            "label": "目録番号",
+            "value": "166"
+        },
+        {
+            "label": "区分1",
+            "value": "Ⅰ史料"
+        },
+        {
+            "label": "区分2",
+            "value": "1.東京大学関係"
+        },
+        {
+            "label": "区分3",
+            "value": "1-1 東京大学前史"
+        },
+        {
+            "label": "正副",
+            "value": "副本"
+        },
+        {
+            "label": "標記年/刊行年",
+            "value": "明治9年1月～明治9年12月 (1876～1876)"
+        },
+        {
+            "label": "作成機関/出版者",
+            "value": "東京医学校"
+        },
+        {
+            "label": "大きさ",
+            "value": "263×293"
+        },
+        {
+            "label": "内容注記",
+            "value": "医学部関係書類"
+        },
+        {
+            "label": "画像注記",
+            "value": "画像なし"
+        },
+        {
+            "label": "備考",
+            "value": "重要文化財"
+        },
+        {
+            "label": "identifier",
+            "value": "9870e6f6-4d95-3d57-77ac-661c757954f8"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "五十年史史料"
+        },
+        {
+            "label": "Sort",
+            "value": "280"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9870e6f6-4d95-3d57-77ac-661c757954f8/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

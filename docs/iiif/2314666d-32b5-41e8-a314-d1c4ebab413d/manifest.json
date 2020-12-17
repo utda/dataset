@@ -1,0 +1,117 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2314666d-32b5-41e8-a314-d1c4ebab413d/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "寛濶色羽二重",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "寛濶色羽二重"
+        },
+        {
+            "label": "書名よみ",
+            "value": "かんかついろはぶたえ"
+        },
+        {
+            "label": "形態",
+            "value": "2冊 : 挿絵 ; 22cm"
+        },
+        {
+            "label": "他の書名",
+            "value": [
+                "新板寛濶色羽二重",
+                "新板寛濶色はふたえ"
+            ]
+        },
+        {
+            "label": "注記",
+            "value": [
+                "原題簽:｢新板寛濶色羽二重｣， ｢新板寛濶色はふたえ｣",
+                "巻一･二のみ",
+                "刊年:[宝永六年]"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "義太夫節"
+        },
+        {
+            "label": "請求記号",
+            "value": "E22:776:1119"
+        },
+        {
+            "label": "identifier",
+            "value": "2314666d-32b5-41e8-a314-d1c4ebab413d"
+        },
+        {
+            "label": "Sort",
+            "value": "1119"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1119"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "宝永六年"
+        },
+        {
+            "label": "year",
+            "value": "1709"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2314666d-32b5-41e8-a314-d1c4ebab413d/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

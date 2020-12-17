@@ -1,0 +1,136 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b99f9707-af1c-450b-9764-16578e8220d8/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN",
+    "label": "最上 船首部溶接歪ニヨル応力計算(進水直前)",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "最上 船首部溶接歪ニヨル応力計算(進水直前)"
+        },
+        {
+            "label": "作成日",
+            "value": "1935-12-13"
+        },
+        {
+            "label": "ID",
+            "value": "30090701"
+        },
+        {
+            "label": "文書種類",
+            "value": "曲線図"
+        },
+        {
+            "label": "文書記述形式",
+            "value": "手書き青焼き"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カード目録",
+            "value": "〔時雨・水雷艦F47B・蒼龍・最上 溶接関係〕"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "軍艦構造:溶接"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "備考",
+            "value": "最上 前部 進水直前 再 10-12-12"
+        },
+        {
+            "label": "登録年",
+            "value": "2007"
+        },
+        {
+            "label": "エンティティ（Google Cloud Vision）",
+            "value": [
+                "text",
+                "black and white",
+                "monochrome",
+                "font"
+            ]
+        },
+        {
+            "label": "軍艦",
+            "value": "http://dbpedia.org/resource/Japanese_cruiser_Mogami_(1934)"
+        },
+        {
+            "label": "identifier",
+            "value": "b99f9707-af1c-450b-9764-16578e8220d8"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/110402/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/b99f9707-af1c-450b-9764-16578e8220d8",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/110402",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b99f9707-af1c-450b-9764-16578e8220d8/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b99f9707-af1c-450b-9764-16578e8220d8/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4928,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b99f9707-af1c-450b-9764-16578e8220d8/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b99f9707-af1c-450b-9764-16578e8220d8/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/30090701/30090701-001_001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4928,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/30090701/30090701-001_001.tif",
+                                    "height": 4928,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6944
+                                },
+                                "width": 6944
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/30090701/30090701-001_001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/30090701/30090701-001_001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6944
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/df5524128d7ed35d74325bdda293367e8d9ca090.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/"
+}

@@ -1,0 +1,113 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "[富士八景図 清見寺晩鐘]",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "[富士八景図 清見寺晩鐘]"
+        },
+        {
+            "label": "資料番号",
+            "value": "I-10-010-005"
+        },
+        {
+            "label": "サブコレクション",
+            "value": "石本コレクションI"
+        },
+        {
+            "label": "内容分類",
+            "value": "名所案内"
+        },
+        {
+            "label": "資料分類",
+            "value": "錦絵"
+        },
+        {
+            "label": "印刷分類",
+            "value": "木版(多色)"
+        },
+        {
+            "label": "縦×横（cm）",
+            "value": "17×22.5"
+        },
+        {
+            "label": "備考",
+            "value": "8枚組の内"
+        },
+        {
+            "label": "identifier",
+            "value": "7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/manifest"
+        },
+        {
+            "label": "Sort",
+            "value": "0420"
+        },
+        {
+            "label": "Database Label",
+            "value": "石本コレクション"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/document/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/81968",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3328,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bdeda73-f23f-4e96-8fc7-9ba4a128f1a2/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/d5bbf02429d85d9a80afa08ae7360ad260f8721e.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3328,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88800",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4992
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88800/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88800",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4992
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d5bbf02429d85d9a80afa08ae7360ad260f8721e.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/"
+}

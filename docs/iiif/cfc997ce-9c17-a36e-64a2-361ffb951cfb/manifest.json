@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cfc997ce-9c17-a36e-64a2-361ffb951cfb/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "青山胤通",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "青山胤通"
+        },
+        {
+            "label": "五十年史番号",
+            "value": "5"
+        },
+        {
+            "label": "目録番号",
+            "value": "455"
+        },
+        {
+            "label": "区分1",
+            "value": "Ⅱ刊本"
+        },
+        {
+            "label": "区分2",
+            "value": "4.その他"
+        },
+        {
+            "label": "編著者",
+            "value": "鵜崎熊吉"
+        },
+        {
+            "label": "標記年/刊行年",
+            "value": "昭和5年5月8日 (1930)"
+        },
+        {
+            "label": "作成機関/出版者",
+            "value": "青山内科同窓会"
+        },
+        {
+            "label": "大きさ",
+            "value": "225×149"
+        },
+        {
+            "label": "画像注記",
+            "value": "画像なし"
+        },
+        {
+            "label": "identifier",
+            "value": "cfc997ce-9c17-a36e-64a2-361ffb951cfb"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "五十年史史料"
+        },
+        {
+            "label": "Sort",
+            "value": "8"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cfc997ce-9c17-a36e-64a2-361ffb951cfb/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

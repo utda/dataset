@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院法学政治学研究科附属近代日本法政史料センター明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko, Center for Modern Japanese Legal and Political Documents, The University of Tokyo Faculty of Law and Graduate Schools for Law and Politics, JAPAN",
+    "label": "[従来御県々より御預相成居候松平容保之家来云々〕",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "表題",
+            "value": "[従来御県々より御預相成居候松平容保之家来云々〕"
+        },
+        {
+            "label": "種別",
+            "value": "静止画資料"
+        },
+        {
+            "label": "コレクション名",
+            "value": "宮武外骨蒐集資料（府藩県制史関係）"
+        },
+        {
+            "label": "封筒",
+            "value": "青森県（一）"
+        },
+        {
+            "label": "請求記号",
+            "value": "GF:3:27"
+        },
+        {
+            "label": "差出",
+            "value": "青森県"
+        },
+        {
+            "label": "宛",
+            "value": "名古屋県、金沢県、佐倉県、古河県、飯野県、松川県"
+        },
+        {
+            "label": "年月日",
+            "value": "辛未10月18日"
+        },
+        {
+            "label": "数量・サイズ",
+            "value": "1点 25×34cm"
+        },
+        {
+            "label": "identifier",
+            "value": "ff1bfd2e-649d-5c37-a125-ca559d38384a"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院法学政治学研究科附属近代日本法政史料センター明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko, Center for Modern Japanese Legal and Political Documents, The University of Tokyo Faculty of Law and Graduate Schools for Law and Politics, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/document/ff1bfd2e-649d-5c37-a125-ca559d38384a",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/422366",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4912,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ff1bfd2e-649d-5c37-a125-ca559d38384a/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/fuhankensei/GF:003:027/GF:003:027_01-0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4912,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/fuhankensei/GF:003:027/GF:003:027_01-0001.tif",
+                                    "height": 4912,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 7360
+                                },
+                                "width": 7360
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/fuhankensei/GF:003:027/GF:003:027_01-0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/fuhankensei/GF:003:027/GF:003:027_01-0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7360
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6c1304dcc4d250c5546a764a3f78608e7f11cda7.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/"
+}

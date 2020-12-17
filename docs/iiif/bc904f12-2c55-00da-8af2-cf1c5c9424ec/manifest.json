@@ -1,0 +1,114 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bc904f12-2c55-00da-8af2-cf1c5c9424ec/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "解剖諸方往復  明治十年一月ヨリ同六月ニ至ル",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "解剖諸方往復  明治十年一月ヨリ同六月ニ至ル"
+        },
+        {
+            "label": "五十年史番号",
+            "value": "240-1"
+        },
+        {
+            "label": "目録番号",
+            "value": "255"
+        },
+        {
+            "label": "区分1",
+            "value": "Ⅰ史料"
+        },
+        {
+            "label": "区分2",
+            "value": "1.東京大学関係"
+        },
+        {
+            "label": "区分3",
+            "value": "1-2 東京大学時代（明治10年～明治19年）"
+        },
+        {
+            "label": "正副",
+            "value": "副本"
+        },
+        {
+            "label": "標記年/刊行年",
+            "value": "明治10年1月～明治10年6月 (1877～1877)"
+        },
+        {
+            "label": "作成機関/出版者",
+            "value": "東京大学医学部"
+        },
+        {
+            "label": "大きさ",
+            "value": "268×193"
+        },
+        {
+            "label": "内容注記",
+            "value": "医学部関係書類"
+        },
+        {
+            "label": "画像注記",
+            "value": "館内閲覧限定"
+        },
+        {
+            "label": "備考",
+            "value": "重要文化財"
+        },
+        {
+            "label": "identifier",
+            "value": "bc904f12-2c55-00da-8af2-cf1c5c9424ec"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "五十年史史料"
+        },
+        {
+            "label": "Sort",
+            "value": "430"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bc904f12-2c55-00da-8af2-cf1c5c9424ec/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

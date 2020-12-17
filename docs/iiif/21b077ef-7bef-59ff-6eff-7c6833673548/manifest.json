@@ -1,0 +1,108 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院法学政治学研究科附属近代日本法政史料センター明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko, Center for Modern Japanese Legal and Political Documents, The University of Tokyo Faculty of Law and Graduate Schools for Law and Politics, JAPAN",
+    "description": "貼付物「明治文庫に於ける最貴重の新聞紙」",
+    "label": "東洋自由新聞 見返し2",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "東洋自由新聞 見返し2"
+        },
+        {
+            "label": "種別",
+            "value": "新聞"
+        },
+        {
+            "label": "コレクション名",
+            "value": "宮武外骨蒐集資料（東洋自由新聞）"
+        },
+        {
+            "label": "請求記号",
+            "value": "K-28"
+        },
+        {
+            "label": "タイトルヨミ",
+            "value": "トウヨウジユウシンブン"
+        },
+        {
+            "label": "面",
+            "value": "1"
+        },
+        {
+            "label": "出版社",
+            "value": "東洋自由新聞社"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "identifier",
+            "value": "21b077ef-7bef-59ff-6eff-7c6833673548"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院法学政治学研究科附属近代日本法政史料センター明治新聞雑誌文庫 Meiji Shinbun Zasshi Bunko, Center for Modern Japanese Legal and Political Documents, The University of Tokyo Faculty of Law and Graduate Schools for Law and Politics, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/document/21b077ef-7bef-59ff-6eff-7c6833673548",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/415647",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 8810,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/21b077ef-7bef-59ff-6eff-7c6833673548/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/toyojiyu/Toyojiyu_0000-003.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 8810,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/toyojiyu/Toyojiyu_0000-003.tif",
+                                    "height": 8810,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 5873
+                                },
+                                "width": 5873
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/toyojiyu/Toyojiyu_0000-003.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/toyojiyu/Toyojiyu_0000-003.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5873
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1d298e291089c26554fa2f55c87ed26dfe3e98fd.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/gaikotsu/"
+}

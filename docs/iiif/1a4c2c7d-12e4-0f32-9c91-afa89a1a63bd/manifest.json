@@ -1,0 +1,86 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a4c2c7d-12e4-0f32-9c91-afa89a1a63bd/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN",
+    "label": "日語会話及漢文和訳点数表",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "日語会話及漢文和訳点数表"
+        },
+        {
+            "label": "資料名冒頭ヨミ",
+            "value": "ニチゴカイワ"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "トップフォルダ",
+            "value": "清国留学生関係文書"
+        },
+        {
+            "label": "階層記号",
+            "value": "留学生15"
+        },
+        {
+            "label": "階層名",
+            "value": "留学生学力試験（日本語）"
+        },
+        {
+            "label": "identifier",
+            "value": "1a4c2c7d-12e4-0f32-9c91-afa89a1a63bd"
+        },
+        {
+            "label": "Sort",
+            "value": "0237"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "狩野亨吉文書"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1a4c2c7d-12e4-0f32-9c91-afa89a1a63bd/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

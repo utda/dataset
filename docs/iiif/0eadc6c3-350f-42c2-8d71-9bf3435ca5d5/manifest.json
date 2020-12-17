@@ -1,0 +1,113 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "[伊予道後富屋引札]",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "[伊予道後富屋引札]"
+        },
+        {
+            "label": "資料番号",
+            "value": "I-09-011"
+        },
+        {
+            "label": "サブコレクション",
+            "value": "石本コレクションI"
+        },
+        {
+            "label": "内容分類",
+            "value": "温泉案内"
+        },
+        {
+            "label": "資料分類",
+            "value": "引札"
+        },
+        {
+            "label": "印刷分類",
+            "value": "木版(多色)"
+        },
+        {
+            "label": "出版事項等",
+            "value": "応需 半山直永画／神田寿栄堂製"
+        },
+        {
+            "label": "縦×横（cm）",
+            "value": "25×36"
+        },
+        {
+            "label": "identifier",
+            "value": "0eadc6c3-350f-42c2-8d71-9bf3435ca5d5"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/manifest"
+        },
+        {
+            "label": "Sort",
+            "value": "0379"
+        },
+        {
+            "label": "Database Label",
+            "value": "石本コレクション"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/document/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/81742",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1989,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0eadc6c3-350f-42c2-8d71-9bf3435ca5d5/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/25cd38d7fdd13d4ba434e2f1fe602d016ddaf8a7.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1989,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88759",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 3328
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88759/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88759",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3328
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/25cd38d7fdd13d4ba434e2f1fe602d016ddaf8a7.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/"
+}

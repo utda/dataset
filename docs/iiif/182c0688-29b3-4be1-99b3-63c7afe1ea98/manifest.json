@@ -1,0 +1,141 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "弘治元年解京備用本色馬匹暫且停解聽候行取",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "弘治元年解京備用本色馬匹暫且停解聽候行取"
+        },
+        {
+            "label": "年月日",
+            "value": "弘治1"
+        },
+        {
+            "label": "本文タイトル（原本）",
+            "value": "弘治元年解京備用本色馬匹暫且停解聽候行取"
+        },
+        {
+            "label": "巻頭目録タイトル（原本）",
+            "value": "弘治元年解京備用本色匹馬暫且停解聽候行取"
+        },
+        {
+            "label": "本文タイトル（標点本）",
+            "value": "弘治元年解京備用本色馬匹暫且停解聽候行取"
+        },
+        {
+            "label": "巻頭目録タイトル（標点本）",
+            "value": "弘治元年解京備用本色馬匹暫且停解聽候行取"
+        },
+        {
+            "label": "冊",
+            "value": "第6冊"
+        },
+        {
+            "label": "巻",
+            "value": "卷30"
+        },
+        {
+            "label": "類",
+            "value": "兵部類"
+        },
+        {
+            "label": "目",
+            "value": "牧養畜產不如法"
+        },
+        {
+            "label": "条",
+            "value": "第11條"
+        },
+        {
+            "label": "画像（開始コマ）",
+            "value": "0030-00030"
+        },
+        {
+            "label": "影印本",
+            "value": "上-741上裏"
+        },
+        {
+            "label": "標点本",
+            "value": "乙5-179(30-11)"
+        },
+        {
+            "label": "請求記号",
+            "value": "A00:6290:6"
+        },
+        {
+            "label": "identifier",
+            "value": "182c0688-29b3-4be1-99b3-63c7afe1ea98"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "皇明條法事類纂デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Date Created",
+            "value": "1488-000-99"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/182c0688-29b3-4be1-99b3-63c7afe1ea98",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100120",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/182c0688-29b3-4be1-99b3-63c7afe1ea98/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/319b5d3c2419cdcf572e535f5f465a7301b6b906.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/103155",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/103155/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/103155",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/319b5d3c2419cdcf572e535f5f465a7301b6b906.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin"
+}

@@ -1,0 +1,99 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "教草 十七 漆一覧",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトル",
+            "value": "教草 十七 漆一覧"
+        },
+        {
+            "label": "大きさ",
+            "value": "38×52cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "XB10:299"
+        },
+        {
+            "label": "画像数",
+            "value": "1"
+        },
+        {
+            "label": "identifier",
+            "value": "6a812c3b-7db1-2ac9-7f46-c57cb419306f"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "田中芳男・博物学コレクション"
+        },
+        {
+            "label": "Sort",
+            "value": "10000120"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/tanaka/document/6a812c3b-7db1-2ac9-7f46-c57cb419306f",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/534085",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 7032,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6a812c3b-7db1-2ac9-7f46-c57cb419306f/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tanaka_add/XB10_299/017/017_0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 7032,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tanaka_add/XB10_299/017/017_0001.tif",
+                                    "height": 7032,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 9226
+                                },
+                                "width": 9226
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tanaka_add/XB10_299/017/017_0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tanaka_add/XB10_299/017/017_0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 9226
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cd3ca1ee614009753e7b5f4efc894dd245219774.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/tanaka/"
+}

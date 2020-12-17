@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "label": "<江戸/三座>せりふ薄物",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "<えど/さんざ>せりふうすもの"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒4143-0024"
+        },
+        {
+            "label": "刊写",
+            "value": "刊"
+        },
+        {
+            "label": "体裁",
+            "value": "半紙本。1冊。25丁半"
+        },
+        {
+            "label": "大分類",
+            "value": "歌舞伎"
+        },
+        {
+            "label": "中分類",
+            "value": "せりふ本"
+        },
+        {
+            "label": "identifier",
+            "value": "2836fd27-9f66-4bb3-8706-b9b8d750370c"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Title",
+            "value": "<江戸/三座>せりふ薄物"
+        },
+        {
+            "label": "Sort",
+            "value": "2830"
+        },
+        {
+            "label": "月",
+            "value": "00"
+        },
+        {
+            "label": "日",
+            "value": "00"
+        },
+        {
+            "label": "Database Label",
+            "value": "黒木文庫"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kuroki/document/2836fd27-9f66-4bb3-8706-b9b8d750370c",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/280259",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2836fd27-9f66-4bb3-8706-b9b8d750370c/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/9611.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2048,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/9611.tif",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 3072
+                                },
+                                "width": 3072
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/9611.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kuroki/tiff/9611.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3072
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4d2e8ea613d1ba5a8b4710499a10bf201f1b7483.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kuroki"
+}

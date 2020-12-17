@@ -1,0 +1,104 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "description": "『三十六歌撰』絵巻\r\n  本『三十六歌撰』絵巻(一巻)は、藤原公任の『三十六人撰』に選ばれている歌人(三十六歌仙)の和歌から、一人一首ずつを選び、歌人名と和歌を大田南畝が染筆したものである。また、それぞれの和歌の内容を、狩野派の絵師である高田円乗が、淡彩で簡略な風景画で描いている。ただし、三十六歌仙のうち、斎宮女御と源重之が欠落しているので、合計三十四人分の和歌と絵からなる。\r\n\r\n  本絵巻は、三十六歌仙の肖像画ではなく、和歌の風景が描かれているのが特徴である。絵巻の制作年、および制作の動機・目的は未詳。絵師の円乗は、詳しい経歴は不明だが、孔子伝や兼好伝の挿絵も描いている。『大田南畝全集』によれば、円乗は南畝や朋誠堂喜三二と交友があった。本絵巻の末尾に、桐廼舎主人(岡野半牧)の考証で、円乗が「徒士組」だったと記されているのは、円乗の伝記に関する新資料か。だとすれば、南畝・喜三二・円乗の三人には、武家の出身という共通項があることになる。南畝と円乗による、珍しい合作絵巻の佳品である。南葵文庫旧蔵(請求記号A00:6251)。\r\n\r\n 放送大学教授 島内裕子",
+    "label": "『三十六歌撰』絵巻",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトル/Title",
+            "value": "『三十六歌撰』絵巻"
+        },
+        {
+            "label": "請求記号/Call Number",
+            "value": "A00:6251"
+        },
+        {
+            "label": "大きさ/Extent",
+            "value": "1軸"
+        },
+        {
+            "label": "一般注記/Note",
+            "value": "写本"
+        },
+        {
+            "label": "著者/Author",
+            "value": "高田圓乗畫 , 大田南畝書"
+        },
+        {
+            "label": "本文言語/Language",
+            "value": "日本語"
+        },
+        {
+            "label": "identifier",
+            "value": "42219787-59b5-4570-b811-c3d1ff7ad321"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "『三十六歌撰』絵巻"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/document/42219787-59b5-4570-b811-c3d1ff7ad321",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/9",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2696,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/42219787-59b5-4570-b811-c3d1ff7ad321/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2696,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif",
+                                    "height": 2696,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 106631
+                                },
+                                "width": 106631
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kasen/images/kasen.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 106631
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/60f65e31b3c111806de77eb003f35bd00e7f42a1.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/kasen/"
+}

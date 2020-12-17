@@ -1,0 +1,86 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ed847484-2bfa-90c8-8a72-be1974d66775/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN",
+    "label": "医学部生徒一同からの上申書",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "医学部生徒一同からの上申書"
+        },
+        {
+            "label": "資料名冒頭ヨミ",
+            "value": "イガクブ"
+        },
+        {
+            "label": "成立年次1",
+            "value": "1900.02.23"
+        },
+        {
+            "label": "トップフォルダ",
+            "value": "第一高等学校関係文書"
+        },
+        {
+            "label": "階層記号",
+            "value": "一高19"
+        },
+        {
+            "label": "階層名",
+            "value": "博士宛校務書簡"
+        },
+        {
+            "label": "identifier",
+            "value": "ed847484-2bfa-90c8-8a72-be1974d66775"
+        },
+        {
+            "label": "Sort",
+            "value": "0141"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学駒場図書館 Komaba Library, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "狩野亨吉文書"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ed847484-2bfa-90c8-8a72-be1974d66775/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

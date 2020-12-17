@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN",
+    "label": "軍艦加賀土佐天城赤城ト呉第参佐世保第四船渠戸当関係図 大正九年十二月二十四日",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "軍艦加賀土佐天城赤城ト呉第参佐世保第四船渠戸当関係図 大正九年十二月二十四日"
+        },
+        {
+            "label": "ID",
+            "value": "20880101"
+        },
+        {
+            "label": "文書種類",
+            "value": "ドック図面"
+        },
+        {
+            "label": "文書記述形式",
+            "value": "手書き青焼き"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カード目録",
+            "value": "〔八八艦隊用新設船渠〕"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "軍艦構造:設備"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "備考",
+            "value": "平賀印あり"
+        },
+        {
+            "label": "登録年",
+            "value": "2007"
+        },
+        {
+            "label": "エンティティ（Google Cloud Vision）",
+            "value": [
+                "text",
+                "black and white",
+                "monochrome",
+                "font",
+                "pattern",
+                "angle",
+                "monochrome photography"
+            ]
+        },
+        {
+            "label": "軍艦",
+            "value": [
+                "http://dbpedia.org/resource/Japanese_aircraft_carrier_Akagi",
+                "http://dbpedia.org/resource/Japanese_aircraft_carrier_Kaga",
+                "http://dbpedia.org/resource/Warship"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "f82c67c7-abe5-45bb-9332-4f340c53d226"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/f82c67c7-abe5-45bb-9332-4f340c53d226",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/108643",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4928,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f82c67c7-abe5-45bb-9332-4f340c53d226/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/20880101/20880101-001_001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4928,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/20880101/20880101-001_001.tif",
+                                    "height": 4928,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 6944
+                                },
+                                "width": 6944
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/20880101/20880101-001_001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/20880101/20880101-001_001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 6944
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/351a843f2451b1d9de555b4771fdde3a6082a38e.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/"
+}

@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/85f2f4d7-c1d9-495b-9af1-33833ff52c06/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "好色訓蒙図彙 / 無色軒三白居士作",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "好色訓蒙図彙 / 無色軒三白居士作"
+        },
+        {
+            "label": "書名よみ",
+            "value": "こうしょくきんもうずい"
+        },
+        {
+            "label": "形態",
+            "value": "3巻3冊 : 挿絵 ; 16cm"
+        },
+        {
+            "label": "他の書名",
+            "value": "好色訓蒙圖彙"
+        },
+        {
+            "label": "注記",
+            "value": [
+                "刊記:三郎兵衞[ほか]",
+                "刊年:貞享三年"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "合巻"
+        },
+        {
+            "label": "請求記号",
+            "value": [
+                "E22:776:1109",
+                "A00:霞亭:1109"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "85f2f4d7-c1d9-495b-9af1-33833ff52c06"
+        },
+        {
+            "label": "Sort",
+            "value": "1109"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1109"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "貞享三年"
+        },
+        {
+            "label": "year",
+            "value": "1686"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/85f2f4d7-c1d9-495b-9af1-33833ff52c06/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

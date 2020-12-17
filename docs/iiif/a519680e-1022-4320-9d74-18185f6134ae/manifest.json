@@ -1,0 +1,139 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a519680e-1022-4320-9d74-18185f6134ae/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "description": "題簽欠。奥書無。「北浜名物黒船噺」(黒4142-0346a)と合本",
+    "label": "<小いな/半兵衛>双紋筐巣籠",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "<こいな/はんべえ>ふたつもんかたみのすごもり"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒4142-0346b"
+        },
+        {
+            "label": "興行人",
+            "value": "座本:豊竹　此吉。"
+        },
+        {
+            "label": "題種・題名",
+            "value": "<小いな/半兵衛>双紋筐巣籠 (帙題)"
+        },
+        {
+            "label": "題種・題名よみ",
+            "value": "こいなはんべえ　ふたつもんかたみのすごもり"
+        },
+        {
+            "label": "刊写",
+            "value": "刊"
+        },
+        {
+            "label": "体裁",
+            "value": "半紙本。1冊。30丁。7行"
+        },
+        {
+            "label": "作者名",
+            "value": "作者:菅　専助。中邑　阿契"
+        },
+        {
+            "label": "作者名よみ",
+            "value": "すが　せんすけ。なかむら　あけい"
+        },
+        {
+            "label": "内題下",
+            "value": "座本:豊竹　此吉"
+        },
+        {
+            "label": "刊記",
+            "value": "明和六年巳丑七月廿八日／作者　菅専助　中邑阿契"
+        },
+        {
+            "label": "刊年",
+            "value": "明和6年7月28日"
+        },
+        {
+            "label": "板元",
+            "value": "??"
+        },
+        {
+            "label": "大分類",
+            "value": "浄瑠璃"
+        },
+        {
+            "label": "中分類",
+            "value": "義太夫節"
+        },
+        {
+            "label": "小分類",
+            "value": "院本"
+        },
+        {
+            "label": "identifier",
+            "value": "a519680e-1022-4320-9d74-18185f6134ae"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "0620"
+        },
+        {
+            "label": "Title",
+            "value": "<小いな/半兵衛>双紋筐巣籠"
+        },
+        {
+            "label": "月",
+            "value": "00"
+        },
+        {
+            "label": "日",
+            "value": "00"
+        },
+        {
+            "label": "Database Label",
+            "value": "黒木文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a519680e-1022-4320-9d74-18185f6134ae/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

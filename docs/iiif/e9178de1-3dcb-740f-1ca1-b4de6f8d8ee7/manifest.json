@@ -1,0 +1,110 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e9178de1-3dcb-740f-1ca1-b4de6f8d8ee7/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "医学校職員  明治四年",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "医学校職員  明治四年"
+        },
+        {
+            "label": "五十年史番号",
+            "value": "253"
+        },
+        {
+            "label": "目録番号",
+            "value": "109"
+        },
+        {
+            "label": "区分1",
+            "value": "Ⅰ史料"
+        },
+        {
+            "label": "区分2",
+            "value": "1.東京大学関係"
+        },
+        {
+            "label": "区分3",
+            "value": "1-1 東京大学前史"
+        },
+        {
+            "label": "正副",
+            "value": "副本"
+        },
+        {
+            "label": "標記年/刊行年",
+            "value": "明治2年～明治4年 (1869～1871)"
+        },
+        {
+            "label": "作成機関/出版者",
+            "value": "東校"
+        },
+        {
+            "label": "大きさ",
+            "value": "265×186"
+        },
+        {
+            "label": "画像注記",
+            "value": "画像なし"
+        },
+        {
+            "label": "備考",
+            "value": "重要文化財"
+        },
+        {
+            "label": "identifier",
+            "value": "e9178de1-3dcb-740f-1ca1-b4de6f8d8ee7"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "五十年史史料"
+        },
+        {
+            "label": "Sort",
+            "value": "454"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e9178de1-3dcb-740f-1ca1-b4de6f8d8ee7/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

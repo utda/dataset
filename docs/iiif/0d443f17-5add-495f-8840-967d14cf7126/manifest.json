@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN",
+    "label": "〔写真(進水したH. M. S. Dreadnought)〕",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "〔写真(進水したH. M. S. Dreadnought)〕"
+        },
+        {
+            "label": "ID",
+            "value": "100000010"
+        },
+        {
+            "label": "文書種類",
+            "value": "写真"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "その他資料:日記・書翰・写真・学位記など"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "所属",
+            "value": "英国留学"
+        },
+        {
+            "label": "備考",
+            "value": "189"
+        },
+        {
+            "label": "登録年",
+            "value": "2016"
+        },
+        {
+            "label": "エンティティ（Google Cloud Vision）",
+            "value": [
+                "ship",
+                "black and white",
+                "watercraft",
+                "sea",
+                "freight transport",
+                "motor ship",
+                "monochrome",
+                "monochrome photography",
+                "tank ship",
+                "torpedo boat"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "0d443f17-5add-495f-8840-967d14cf7126"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/0d443f17-5add-495f-8840-967d14cf7126",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/113184",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1269,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0d443f17-5add-495f-8840-967d14cf7126/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/100000010/100000010_0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1269,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/100000010/100000010_0001.tif",
+                                    "height": 1269,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 1819
+                                },
+                                "width": 1819
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/100000010/100000010_0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/100000010/100000010_0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 1819
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/df410ae1d3a1456eeaafb232668ca2099264b260.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/"
+}

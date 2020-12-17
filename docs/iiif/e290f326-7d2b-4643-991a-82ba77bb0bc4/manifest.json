@@ -1,0 +1,128 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN",
+    "label": "〔賞賜(明治三十七八年戦役ノ功ニ依リ勲五等双光旭日章及金六百円授賜)〕",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "〔賞賜(明治三十七八年戦役ノ功ニ依リ勲五等双光旭日章及金六百円授賜)〕"
+        },
+        {
+            "label": "作成日",
+            "value": "1906-04-01"
+        },
+        {
+            "label": "ID",
+            "value": "110430101"
+        },
+        {
+            "label": "文書種類",
+            "value": "賞賜"
+        },
+        {
+            "label": "枚数",
+            "value": "1枚"
+        },
+        {
+            "label": "カード目録",
+            "value": "賞勲局総裁大給恒"
+        },
+        {
+            "label": "カテゴリ",
+            "value": "その他資料:日記・書翰・写真・学位記など"
+        },
+        {
+            "label": "所蔵",
+            "value": "東京大学柏図書館"
+        },
+        {
+            "label": "所属",
+            "value": "海軍"
+        },
+        {
+            "label": "登録年",
+            "value": "2016"
+        },
+        {
+            "label": "エンティティ（Google Cloud Vision）",
+            "value": [
+                "text",
+                "font",
+                "calligraphy",
+                "paper"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "e290f326-7d2b-4643-991a-82ba77bb0bc4"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/manifest"
+        },
+        {
+            "label": "Database Label",
+            "value": "平賀譲デジタルアーカイブ"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学柏図書館 Kashiwa Library in The University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/document/e290f326-7d2b-4643-991a-82ba77bb0bc4",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/113153",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3350,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e290f326-7d2b-4643-991a-82ba77bb0bc4/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/110430101/110430101_0001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3350,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/110430101/110430101_0001.tif",
+                                    "height": 3350,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 3929
+                                },
+                                "width": 3929
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/110430101/110430101_0001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hiraga/110430101/110430101_0001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3929
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cc3bea854841e375041f1ad1892a5741ceff8f47.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hiraga/"
+}

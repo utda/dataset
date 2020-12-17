@@ -1,0 +1,120 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/afc9ae34-4474-4a32-9028-bdd86e087cd9/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "浮世祝言揃",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "浮世祝言揃"
+        },
+        {
+            "label": "書名よみ",
+            "value": "うきよしゅうげんぞろえ"
+        },
+        {
+            "label": "形態",
+            "value": "11丁 : 挿絵 ; 23cm"
+        },
+        {
+            "label": "他の書名",
+            "value": [
+                "好色咄浮世●言揃",
+                "好色咄浮世祝言揃",
+                "浮世祝言ぞろえ"
+            ]
+        },
+        {
+            "label": "注記",
+            "value": [
+                "巻五のみ",
+                "原題簽:｢好色咄浮世●言揃｣",
+                "刊年:元禄三年"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "狂言本"
+        },
+        {
+            "label": "請求記号",
+            "value": [
+                "E22:776:1114",
+                "A00:霞亭:1114"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "afc9ae34-4474-4a32-9028-bdd86e087cd9"
+        },
+        {
+            "label": "Sort",
+            "value": "1114"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1115"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "元禄三年"
+        },
+        {
+            "label": "year",
+            "value": "1690"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/afc9ae34-4474-4a32-9028-bdd86e087cd9/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

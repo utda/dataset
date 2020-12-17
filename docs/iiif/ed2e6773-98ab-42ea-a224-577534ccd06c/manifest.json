@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ed2e6773-98ab-42ea-a224-577534ccd06c/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "description": "瓜生寅自筆稿本",
+    "label": "尺八筆記",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "しゃくはちひっき"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒0953-0003"
+        },
+        {
+            "label": "刊写",
+            "value": "写"
+        },
+        {
+            "label": "体裁",
+            "value": "半紙本。1冊"
+        },
+        {
+            "label": "大分類",
+            "value": "音曲"
+        },
+        {
+            "label": "中分類",
+            "value": "総記"
+        },
+        {
+            "label": "identifier",
+            "value": "ed2e6773-98ab-42ea-a224-577534ccd06c"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "2386"
+        },
+        {
+            "label": "Title",
+            "value": "尺八筆記"
+        },
+        {
+            "label": "月",
+            "value": "00"
+        },
+        {
+            "label": "日",
+            "value": "00"
+        },
+        {
+            "label": "Database Label",
+            "value": "黒木文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ed2e6773-98ab-42ea-a224-577534ccd06c/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

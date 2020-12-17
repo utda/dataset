@@ -1,0 +1,428 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+    "label": "TomoV　序文",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "TomoV　序文"
+        },
+        {
+            "label": "Title",
+            "value": "Monumenti degli Scipioni pubblicati dal cavaliere Francesco Piranesi, architetto Romano nell'anno MDCCLXXXV.\r\nMonumenti degli Scipioni."
+        },
+        {
+            "label": "Series Title",
+            "value": "MONUMENTI DEGLI SCIPIONI"
+        },
+        {
+            "label": "シリーズタイトル [Series Title]",
+            "value": "スキピオ家の墓所"
+        },
+        {
+            "label": "identifier",
+            "value": "75d8b931-d0e4-45af-94da-603a110e6d1f"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "ピラネージ画像データベース Opere di Giovanni Battista Piranesi"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/document/75d8b931-d0e4-45af-94da-603a110e6d1f",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/408627",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_001.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_001.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_001.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0002-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p2",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_002.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_002.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_002.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_002.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0003-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p3",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_003.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_003.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_003.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_003.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0004-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p4",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_004.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_004.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_004.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_004.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0005-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p5",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_005.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_005.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_005.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_005.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0006-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p6",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_006.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_006.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_006.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_006.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0007-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p7",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_007.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_007.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[7]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_007.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_007.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0008-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p8",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_008.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_008.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_008.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_008.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0009-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p9",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_009.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_009.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_009.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_009.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 6851,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/annotation/p0010-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/75d8b931-d0e4-45af-94da-603a110e6d1f/canvas/p10",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_010.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6851,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_010.tif",
+                                    "height": 6851,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 4567
+                                },
+                                "width": 4567
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_010.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/piranesi/pdf/TomoV_010.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4567
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5c97cf4d1eaa408f329c64b71d641b602a0833a1.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/piranesi/"
+}

@@ -1,0 +1,139 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9d896c5-521c-4933-9ef5-f9ac8024b980/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "description": "複製。袋付。三蝶画。",
+    "label": "雪矯竹振袖源氏",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトルよみ",
+            "value": "ゆきもつたけふりそでげんじ"
+        },
+        {
+            "label": "請求番号",
+            "value": "黒0963-0008"
+        },
+        {
+            "label": "上演年（西暦）",
+            "value": "1785"
+        },
+        {
+            "label": "上演年（和暦）",
+            "value": "天明０５"
+        },
+        {
+            "label": "上演年月日",
+            "value": "11・"
+        },
+        {
+            "label": "上演地域",
+            "value": "江戸"
+        },
+        {
+            "label": "劇場",
+            "value": "中村座"
+        },
+        {
+            "label": "刊写",
+            "value": "刊"
+        },
+        {
+            "label": "体裁",
+            "value": "中本。１冊。8丁"
+        },
+        {
+            "label": "刊記",
+            "value": "板元長谷川町松本屋万吉他一軒"
+        },
+        {
+            "label": "板元",
+            "value": "松本屋万吉"
+        },
+        {
+            "label": "大分類",
+            "value": "歌舞伎"
+        },
+        {
+            "label": "中分類",
+            "value": "番付"
+        },
+        {
+            "label": "小分類",
+            "value": "絵本番付"
+        },
+        {
+            "label": "identifier",
+            "value": "d9d896c5-521c-4933-9ef5-f9ac8024b980"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部 Graduate School of Arts and Sciences / College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Sort",
+            "value": "2464"
+        },
+        {
+            "label": "Title",
+            "value": "雪矯竹振袖源氏"
+        },
+        {
+            "label": "元号",
+            "value": "天明"
+        },
+        {
+            "label": "月",
+            "value": "11"
+        },
+        {
+            "label": "日",
+            "value": "00"
+        },
+        {
+            "label": "統一劇場",
+            "value": "中村座"
+        },
+        {
+            "label": "Database Label",
+            "value": "黒木文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9d896c5-521c-4933-9ef5-f9ac8024b980/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

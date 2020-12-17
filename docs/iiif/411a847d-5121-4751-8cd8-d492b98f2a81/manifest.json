@@ -1,0 +1,129 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "都新聞付録",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "都新聞付録"
+        },
+        {
+            "label": "資料番号",
+            "value": "I-03-028"
+        },
+        {
+            "label": "サブコレクション",
+            "value": "石本コレクションI"
+        },
+        {
+            "label": "内容分類",
+            "value": "災害"
+        },
+        {
+            "label": "資料分類",
+            "value": "新聞"
+        },
+        {
+            "label": "年月日",
+            "value": "明治24年11月18日"
+        },
+        {
+            "label": "印刷分類",
+            "value": "石版"
+        },
+        {
+            "label": "出版事項等",
+            "value": "都新聞　明治24年11月18日, 2062号／東大本郷赤門前・木内誠古書店、金1円50銭の札有り"
+        },
+        {
+            "label": "縦×横（cm）",
+            "value": "39×51"
+        },
+        {
+            "label": "別タイトル",
+            "value": "[愛知岐阜県震災図]"
+        },
+        {
+            "label": "備考",
+            "value": "同資料：I-03-022（解説と翻刻テキストデータあり）, I-03-025"
+        },
+        {
+            "label": "identifier",
+            "value": "411a847d-5121-4751-8cd8-d492b98f2a81"
+        },
+        {
+            "label": "year",
+            "value": "1891"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/manifest"
+        },
+        {
+            "label": "Sort",
+            "value": "0209"
+        },
+        {
+            "label": "Database Label",
+            "value": "石本コレクション"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/document/411a847d-5121-4751-8cd8-d492b98f2a81",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/81664",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3328,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/411a847d-5121-4751-8cd8-d492b98f2a81/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/615c5f7c557d5df76b4e273fc7877db39daec8db.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3328,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88589",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4992
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88589/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88589",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4992
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/615c5f7c557d5df76b4e273fc7877db39daec8db.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/"
+}

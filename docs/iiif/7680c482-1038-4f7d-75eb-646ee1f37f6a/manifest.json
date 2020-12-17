@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7680c482-1038-4f7d-75eb-646ee1f37f6a/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "［工部大学校昔噺］",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "資料名",
+            "value": "［工部大学校昔噺］"
+        },
+        {
+            "label": "五十年史番号",
+            "value": "288"
+        },
+        {
+            "label": "目録番号",
+            "value": "307"
+        },
+        {
+            "label": "区分1",
+            "value": "Ⅰ史料"
+        },
+        {
+            "label": "区分2",
+            "value": "2.包摂校関係"
+        },
+        {
+            "label": "区分3",
+            "value": "2-1 工部省工学寮、農商務省駒場農学校"
+        },
+        {
+            "label": "標記年/刊行年",
+            "value": "1926年 (1926)"
+        },
+        {
+            "label": "作成機関/出版者",
+            "value": "丁友会"
+        },
+        {
+            "label": "画像注記",
+            "value": "画像なし"
+        },
+        {
+            "label": "備考",
+            "value": "目録のみ、現物なし"
+        },
+        {
+            "label": "identifier",
+            "value": "7680c482-1038-4f7d-75eb-646ee1f37f6a"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "五十年史史料"
+        },
+        {
+            "label": "Sort",
+            "value": "488"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7680c482-1038-4f7d-75eb-646ee1f37f6a/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

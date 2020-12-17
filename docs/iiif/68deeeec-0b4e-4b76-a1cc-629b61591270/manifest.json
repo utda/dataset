@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://wellcomelibrary.org/ld/ixif/0/context.json"
+    ],
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/68deeeec-0b4e-4b76-a1cc-629b61591270/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "label": "江戸名勝志 / 藤原之廉(南陽子)著",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "江戸名勝志 / 藤原之廉(南陽子)著"
+        },
+        {
+            "label": "書名よみ",
+            "value": "えどめいしょうし"
+        },
+        {
+            "label": "形態",
+            "value": "3巻3冊 : 挿絵 ; 16cm"
+        },
+        {
+            "label": "他の書名",
+            "value": [
+                "新板江戸名勝志",
+                "江府名勝志"
+            ]
+        },
+        {
+            "label": "注記",
+            "value": [
+                "原題簽:｢新板江戸名勝志｣",
+                "内題:｢江府名勝志｣",
+                "刊記:明和元， 東都書林･須原屋茂兵衞板"
+            ]
+        },
+        {
+            "label": "分類",
+            "value": "金平浄瑠璃"
+        },
+        {
+            "label": "請求記号",
+            "value": [
+                "E22:776:1155",
+                "A00:霞亭:1155"
+            ]
+        },
+        {
+            "label": "identifier",
+            "value": "68deeeec-0b4e-4b76-a1cc-629b61591270"
+        },
+        {
+            "label": "Sort",
+            "value": "1155"
+        },
+        {
+            "label": "Source Identifier",
+            "value": "東京大学総合図書館霞亭文庫目録1155"
+        },
+        {
+            "label": "Type",
+            "value": "影印版"
+        },
+        {
+            "label": "Publisher",
+            "value": "(:私製)"
+        },
+        {
+            "label": "Date",
+            "value": "明和元年"
+        },
+        {
+            "label": "year",
+            "value": "1764"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "霞亭文庫"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/68deeeec-0b4e-4b76-a1cc-629b61591270/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "/repo/iiif/ixif-message/canvas/c1",
+                    "@type": "sc:Canvas",
+                    "height": 200,
+                    "images": [
+                        {
+                            "@id": "/repo/iiif/ixif-message/imageanno/placeholder",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "/repo/iiif/ixif-message/canvas/c1",
+                            "resource": {
+                                "@id": "/repo/iiif/ixif-message-0/res/placeholder",
+                                "@type": "dctypes:Image",
+                                "height": 200,
+                                "width": 200
+                            }
+                        }
+                    ],
+                    "label": "Placeholder image",
+                    "thumbnail": "/repo/modules/IiifServer/asset/img/thumbnails/placeholder-image.png?v=3.5.9",
+                    "width": 200
+                }
+            ],
+            "compatibilityHint": "displayIfContentUnsupported",
+            "label": "Unsupported extension. This manifest is being used as a wrapper for non-IIIF content (e.g., audio, video) and is unfortunately incompatible with IIIF viewers."
+        }
+    ]
+}

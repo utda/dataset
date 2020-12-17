@@ -1,0 +1,143 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "label": "PL.32 MAÇONNERIE No.4",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "図版番号",
+            "value": "PL.32"
+        },
+        {
+            "label": "Title",
+            "value": "PL.32 MAÇONNERIE No.4"
+        },
+        {
+            "label": "タイトル2",
+            "value": "DESSIN À L'USAGE DES CHANTIERS"
+        },
+        {
+            "label": "分類1",
+            "value": "MAÇONNERIE"
+        },
+        {
+            "label": "分類2",
+            "value": "No.4"
+        },
+        {
+            "label": "キーワード",
+            "value": "石橋"
+        },
+        {
+            "label": "解説1",
+            "value": "PONTS"
+        },
+        {
+            "label": "解説2",
+            "value": "DESSIN D'EXÉCUTION D'UN PONCEAU AVEC MURS EN AILE"
+        },
+        {
+            "label": "解説3",
+            "value": "construit sur un ruisseau pour le passage d'un chemin en remblai de 8 mè tres de largeur en crê te."
+        },
+        {
+            "label": "解説4",
+            "value": "(Types de Ponceaux exécutés par l'Auteur.)"
+        },
+        {
+            "label": "サイズ",
+            "value": "A3"
+        },
+        {
+            "label": "第一中学本",
+            "value": "○"
+        },
+        {
+            "label": "開成学校本",
+            "value": "―"
+        },
+        {
+            "label": "東京大学本",
+            "value": "―"
+        },
+        {
+            "label": "帝国大学本",
+            "value": "○"
+        },
+        {
+            "label": "identifier",
+            "value": "08bb24d7-7581-7f42-0750-ee77a41e727b"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "スタニスラス・プチ　『産業実務家』"
+        },
+        {
+            "label": "Sort",
+            "value": "032"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit/document/08bb24d7-7581-7f42-0750-ee77a41e727b",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541649",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4780,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/08bb24d7-7581-7f42-0750-ee77a41e727b/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/032.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4780,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/032.tif",
+                                    "height": 4780,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 7033
+                                },
+                                "width": 7033
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/032.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/032.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7033
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/63aaf85c8188d1a19dc7e99d47df3cfa21132983.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit"
+}

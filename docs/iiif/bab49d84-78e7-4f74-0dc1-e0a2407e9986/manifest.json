@@ -1,0 +1,131 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN",
+    "label": "PL.2 MÉCANIQUE No.2",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "図版番号",
+            "value": "PL.2"
+        },
+        {
+            "label": "Title",
+            "value": "PL.2 MÉCANIQUE No.2"
+        },
+        {
+            "label": "タイトル2",
+            "value": "ÉTUDES DE DESSIN AU LAVIS."
+        },
+        {
+            "label": "分類1",
+            "value": "MÉCANIQUE"
+        },
+        {
+            "label": "分類2",
+            "value": "No.2"
+        },
+        {
+            "label": "キーワード",
+            "value": "機械部品"
+        },
+        {
+            "label": "解説1",
+            "value": "DÉTAILS D'UN GALET DE ROTATION de PONTS TOURNANTS ÉTABLIS sur desCANAUX (En grandeur d'exécution)"
+        },
+        {
+            "label": "サイズ",
+            "value": "A3"
+        },
+        {
+            "label": "第一中学本",
+            "value": "○"
+        },
+        {
+            "label": "開成学校本",
+            "value": "―"
+        },
+        {
+            "label": "東京大学本",
+            "value": "○"
+        },
+        {
+            "label": "帝国大学本",
+            "value": "―"
+        },
+        {
+            "label": "identifier",
+            "value": "bab49d84-78e7-4f74-0dc1-e0a2407e9986"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学大学院総合文化研究科・教養学部　駒場博物館 KOMABA MUSEUM, Graduate School of Arts and Sciences and College of Arts and Sciences, The University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "スタニスラス・プチ　『産業実務家』"
+        },
+        {
+            "label": "Sort",
+            "value": "002"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit/document/bab49d84-78e7-4f74-0dc1-e0a2407e9986",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/541679",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4780,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bab49d84-78e7-4f74-0dc1-e0a2407e9986/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/002.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4780,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/002.tif",
+                                    "height": 4780,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 7033
+                                },
+                                "width": 7033
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/002.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/PETIT/PETIT_01[001_035]/002.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 7033
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/83b1b822ea5e8a9f633720be7b6ce1f72ab21e3c.jpg",
+    "viewingDirection": "left-to-right",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/petit"
+}

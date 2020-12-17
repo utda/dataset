@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "description": "石本コレクションに数点ある磐梯山噴火の錦絵のひとつ。これらの錦絵はほとんどが七月中に東京で発行されている。作者は現地には行かず、新聞の情報などをもとに想像を駆使して描いた。噴火といえば溶岩や火が出るという理解で、実際とは異なる噴火の絵図が多いが、この錦絵は、噴火が水蒸気爆発によるものであることを承知して、解説を付している。【北原糸子】",
+    "label": "磐梯山噴火実況之図",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "磐梯山噴火実況之図"
+        },
+        {
+            "label": "資料番号",
+            "value": "I-08-006"
+        },
+        {
+            "label": "サブコレクション",
+            "value": "石本コレクションI"
+        },
+        {
+            "label": "内容分類",
+            "value": "災害"
+        },
+        {
+            "label": "資料分類",
+            "value": "錦絵"
+        },
+        {
+            "label": "年月日",
+            "value": "明治21年7月24日"
+        },
+        {
+            "label": "印刷分類",
+            "value": "木版(多色)"
+        },
+        {
+            "label": "出版事項等",
+            "value": "版元：岡田松之助"
+        },
+        {
+            "label": "縦×横（cm）",
+            "value": "37.5×51.5"
+        },
+        {
+            "label": "identifier",
+            "value": "f29937b6-bcf9-43c8-abfa-c9c55eac26d6"
+        },
+        {
+            "label": "year",
+            "value": "1888"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/manifest"
+        },
+        {
+            "label": "Sort",
+            "value": "0361"
+        },
+        {
+            "label": "Database Label",
+            "value": "石本コレクション"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/document/f29937b6-bcf9-43c8-abfa-c9c55eac26d6",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/81686",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3328,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f29937b6-bcf9-43c8-abfa-c9c55eac26d6/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/0380cd6d61f99e80b7e1e26e788d1ae8b8bb16d1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3328,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88741",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4992
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88741/full/200,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/88741",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 4992
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0380cd6d61f99e80b7e1e26e788d1ae8b8bb16d1.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ishimoto/"
+}

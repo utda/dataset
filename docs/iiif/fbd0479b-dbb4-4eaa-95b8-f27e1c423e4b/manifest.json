@@ -1,0 +1,84 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+    "description": "百鬼夜行図(ひやつきやぎうず) 蔭山源広迢写\r\n 百鬼夜行は今昔物語などの説話にでてくる言葉で、京の大路を夜な夜な化け物たちが練り歩く様子を表している。\r\n\r\n 室町時代(16世紀)になって、青鬼、赤鬼のほか琴や琵琶、鍋や釜などの器物、調度などが変化(へんげ)した付喪神(つくもがみ)と呼ばれる化け物を集めて連続的に描く「百鬼夜行絵巻」が登場し、数多くの絵巻が描かれた。\r\n\r\n なかでも京都・大徳寺真珠庵の絵巻は、「百鬼夜行絵巻」最古のものとされ、その源流といわれている。\r\n\r\n現在、現存しているもののほとんどは江戸時代に模写されたものであり、本絵巻もその一つである。\r\n\r\n 奥書によれば、室町時代の画家土佐行秀の画を蔭山源広迢が写したもので、真珠庵本に登場する妖怪に加え「ぬっぺっぽう」、「どうもこうも」など江戸時代の妖怪たちも紛れ込んでいる。\r\n\r\n 絵巻の巻末は「火の玉」と「朝日」で終わる2パターンあるが、本巻は「朝日」で終わっている。(請求記号A00:6275)",
+    "label": "百鬼夜行図",
+    "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+    "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+    "metadata": [
+        {
+            "label": "タイトル/Title",
+            "value": "百鬼夜行図"
+        },
+        {
+            "label": "identifier",
+            "value": "fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b"
+        },
+        {
+            "label": "Manifest Uri",
+            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/manifest"
+        },
+        {
+            "label": "attributionLabel",
+            "value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN"
+        },
+        {
+            "label": "Database Label",
+            "value": "百鬼夜行図"
+        }
+    ],
+    "related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/document/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b",
+    "seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/8",
+    "sequences": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3082,
+                    "images": [
+                        {
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fbd0479b-dbb4-4eaa-95b8-f27e1c423e4b/canvas/p1",
+                            "resource": {
+                                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3082,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif",
+                                    "height": 3082,
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "width": 79508
+                                },
+                                "width": 79508
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 79508
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56a892ab1b35d0271744dbcf684ac73b55e49f16.jpg",
+    "viewingDirection": "right-to-left",
+    "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/hyakki/"
+}
