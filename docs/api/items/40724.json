@@ -60,6 +60,13 @@
             "property_id": 239,
             "property_label": "Call Number",
             "type": "literal"
+        },
+        {
+            "@value": "A00:霞亭:1155",
+            "is_public": true,
+            "property_id": 239,
+            "property_label": "Call Number",
+            "type": "literal"
         }
     ],
     "dcndl:sourceIdentifier": [
@@ -176,7 +183,7 @@
     "o:media": [],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2020-12-14T03:35:35+00:00"
+        "@value": "2020-12-17T21:13:41+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -207,6 +214,15 @@
             "property_id": 190,
             "property_label": "attributionLabel",
             "type": "literal"
+        }
+    ],
+    "sc:viewingDirection": [
+        {
+            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
+            "is_public": true,
+            "property_id": 198,
+            "property_label": "viewingDirection",
+            "type": "uri"
         }
     ],
     "uterms:databaseLabel": [
