@@ -36,17 +36,6 @@ def parse_args(args=sys.argv[1:]):
     return parser.parse_args(args)
 
 
-def get_thumbnail(media_iri, key_identity, key_credential):
-    try:
-        response = urllib.request.urlopen(media_iri+"?key_identity="+key_identity+"&key_credential="+key_credential)
-        response_body = response.read().decode("utf-8")
-        data = json.loads(response_body)
-
-        return data["o:thumbnail_urls"]["medium"]
-    except:
-        return ""
-
-
 def main(output_path, item_set, key_identity, key_credential):
     flg = True
     page = 1
@@ -54,7 +43,7 @@ def main(output_path, item_set, key_identity, key_credential):
     fo = open(output_path, 'w')
     writer = csv.writer(fo, lineterminator='\n')
     writer.writerow(
-        ["bibo:identifier", "OmekaID", "uterms:manifestUri", "rdfs:seeAlso", "foaf:thumbnail"])
+        ["item_id", "media_id"])
 
     while flg:
         url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items?item_set_id=" + item_set + "&page=" + str(page)+"&key_identity="+key_identity+"&key_credential="+key_credential
@@ -70,24 +59,13 @@ def main(output_path, item_set, key_identity, key_credential):
             for i in range(len(data)):
                 obj = data[i]
 
-                id = ""
-                if "bibo:identifier" in obj:
-                    id = obj["bibo:identifier"][0]["@value"]
-
+                
                 omeka_id = obj["o:id"]
 
-                see_also = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/" + str(omeka_id)
+                writer.writerow([omeka_id, ""])
 
-                manifest_uri = ""
-                thumbnail_url = ""
-
-                tmp_id = (str(omeka_id) if id == "" else str(id))
-
-                if len(obj["o:media"]) > 0:
-                    manifest_uri = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/" + str(tmp_id) + "/manifest"
-                    thumbnail_url = get_thumbnail(obj["o:media"][0]["@id"], key_identity, key_credential)
-
-                writer.writerow([id, omeka_id, manifest_uri, see_also, thumbnail_url])
+                for m in obj["o:media"]:
+                    writer.writerow([omeka_id, m["o:id"]])
 
         else:
             flg = False
