@@ -1,0 +1,650 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/cpas-poster/image/collection.json",
+    "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "第二次世界大戦期（1941-1945）アメリカ合衆国のプロパガンダポスター90点。米スタンフォード大学に所蔵されていましたが、日本人関係者を介して、その一部をCPASが1983年に購入しました。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "CPAS第二次世界大戦期プロパガンダポスターコレクション"
+        }
+    ],
+    "manifests": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/62f02f10-4d06-2b30-7471-839605a48632/manifest",
+            "@type": "sc:Manifest",
+            "label": "Keep 'em flying",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c1969d2198b7b4d653251472b3b1fba9f7c2da60.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/83b9e2dc-9b3a-2f2d-4806-5eabdb8459a7/manifest",
+            "@type": "sc:Manifest",
+            "label": "Your country needs you now!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/311cebbff2f587340f5fb51b76b8e66370714523.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/54e505b2-93a4-3e8a-a43b-3996fce003c9/manifest",
+            "@type": "sc:Manifest",
+            "label": "Men of 18 and 19. Now you can choose your branch of service",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/66194377f66558e1baa9d6ce79ba17b16950fde9.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7bfc2e5c-72d8-4ccc-9533-4e3a620639f9/manifest",
+            "@type": "sc:Manifest",
+            "label": "Take your place in the ranks",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/45d8c413ceb19e7419ca8cca84656ceb65df243d.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d52ed117-975a-348a-8fb9-1f45bf462995/manifest",
+            "@type": "sc:Manifest",
+            "label": "Construction workers! Now you can volunteer for service in the Army or Navy",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ada2139f33edf3f65bfb2b1b080abb7b69981528.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7f747123-9ea4-727f-3bb4-e079cd8c6fc9/manifest",
+            "@type": "sc:Manifest",
+            "label": "Construction workers can volunteer now for service in Army or Navy",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b2002b90a680354547749f9256ef723cf890b1e8.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7135d085-9b2e-9fb4-1b52-67c014c35a25/manifest",
+            "@type": "sc:Manifest",
+            "label": "Just a minute—! I may have something for you!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2f6f3010a650826b4e2712ca2ea43c798db3c720.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/41268ade-8308-0c61-45d8-105c1c5e6ae9/manifest",
+            "@type": "sc:Manifest",
+            "label": "Teamed . . . for defense",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8f4030c357f82199b2dab08c005375231149f4d6.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/14c743a0-530f-9521-8c29-3e2c2e4f64bf/manifest",
+            "@type": "sc:Manifest",
+            "label": "Let's hit 'em with everything we've got!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db5167443ed3c6d4c70de9470b1041ec77aa83b7.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a3845b81-7b3a-5141-9f77-b122637c37c2/manifest",
+            "@type": "sc:Manifest",
+            "label": "Take it from me, brother. We've still got a big job to do!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bbb38ac6ac9c1b63714332510effc79ea292eb7a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/aeabb8f1-824c-48dd-7eaa-7cfa133f00b3/manifest",
+            "@type": "sc:Manifest",
+            "label": "Enlist your skill for victory. Keep the fleet in fighting trim with the Navy's Ship Repair Units",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/49a64c58396908a41f296c058c31291f52bd7781.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/95f97c6c-6770-787a-37e7-8292e75802b1/manifest",
+            "@type": "sc:Manifest",
+            "label": "Know your Navy",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cdcfbef0ee3234ea9784ef1971224efee312fe30.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3c6219d7-30a6-98cf-926a-7c0bd6682b47/manifest",
+            "@type": "sc:Manifest",
+            "label": "Young Americans of sound physique and good character are needed to fill stations created by the expansion of our first line of defense",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/24d9f581f6704afeae9670ddfcacf3654bc4ddf5.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/533d5f27-6335-3dac-4e06-85da5e1305c7/manifest",
+            "@type": "sc:Manifest",
+            "label": "Women 20 to 36. Earn a Navy rating. Join the WAVES",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/edd922562b77c0ef483453cd18fbc3d933c00df6.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/330322fd-475e-5c5b-2f90-e62a7fff3d33/manifest",
+            "@type": "sc:Manifest",
+            "label": "Become a nurse—Your country needs you",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/036d655f01f0eba18fa3479cda8a39f3397c821a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c3612580-53eb-400f-3765-3210f56d6568/manifest",
+            "@type": "sc:Manifest",
+            "label": "Enlist in a proud profession! Join the U.S. Cadet Nurse Corps",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ab8cb8cf18c45c0bea5f5051bb60107d342a3348.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cb149a3f-6cfb-13dc-4caf-1d779ea70ef6/manifest",
+            "@type": "sc:Manifest",
+            "label": "Attention, women! Join the WAAC",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7d67bd0df0f401624642eb8a7c7c6ce9261afcda.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4f35667e-a500-23fd-3a72-4aeb2c8e7645/manifest",
+            "@type": "sc:Manifest",
+            "label": "WAAC. This is my war too!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3cbe1011be7cd50a76bcccdb5ac8bd35cff3d173.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7308128d-7937-151e-8197-c97b70510713/manifest",
+            "@type": "sc:Manifest",
+            "label": "Do your part. Join the WAAC",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c282a16b03b583f6dc0b3185dfb953e8fd4a1baf.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/488411c1-969f-2e79-0f4c-9c0f67183cdd/manifest",
+            "@type": "sc:Manifest",
+            "label": "Serve with Women's Reserve—U.S. Coast Guard. SPARs",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b130b09df10a39b92bb00418c350caec12b11852.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f9806b74-159e-45f7-921b-eace815a871b/manifest",
+            "@type": "sc:Manifest",
+            "label": "Christmas mailing time",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/06e811e71820049fe7b0c2e270ab4b6611c21fed.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f4720425-51fc-53ee-14b5-3fadd6e1a405/manifest",
+            "@type": "sc:Manifest",
+            "label": "Next! 6th war loan.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f0bd730bd971976cc870a077a7c4ea828c98811a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bbdf7ab8-a0bc-1dcd-06db-153df9e450aa/manifest",
+            "@type": "sc:Manifest",
+            "label": "Time for action!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/55e4e7092b5b5c5029f1bfb28532aa0f77b4fa3c.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a2392feb-227f-5a1d-9f72-f5b68bf75007/manifest",
+            "@type": "sc:Manifest",
+            "label": "For victory at least 10 percent of your pay every pay day",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ac849d37fda3202da3d3e4de788df79add1826dc.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7514c987-4f3c-8be2-2858-da8faca67b84/manifest",
+            "@type": "sc:Manifest",
+            "label": "Attack Attack Attack. Buy war bonds",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/91f20eb4814fc63ba25ef5cf3765d0e1f333c4fd.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/05d2c8cb-8069-0790-1ec4-dfe767a179e8/manifest",
+            "@type": "sc:Manifest",
+            "label": "A bond grows with baby",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f857438d4dea890e46871947a7bbea10744822da.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/60b6c5b3-3cac-a07e-90a5-dc03f96f10fb/manifest",
+            "@type": "sc:Manifest",
+            "label": "United States saving bonds",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7740c202d30995080b8f82da480f681178dcf659.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/74e0341e-8378-7435-26eb-4f7da3e438a8/manifest",
+            "@type": "sc:Manifest",
+            "label": "Let's fly this flag. Everybody at least 10 percent in war bonds",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/984cca2d5e71ea924de4b6987d05a02772edb89f.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/729e47c7-3782-23e6-4b19-6860a7a73b65/manifest",
+            "@type": "sc:Manifest",
+            "label": "This world cannot exist half slave and half free. Buy war bonds",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0cfb6e18429e51a85a937a108855bca0668483ad.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e7178c54-25d4-64dd-95a3-1de5efb03fa3/manifest",
+            "@type": "sc:Manifest",
+            "label": "To have and to hold—Buy war bonds",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3406b6cfc852018bc70f81f9f49c585388149fdf.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d5fab1a1-6628-6afe-910b-ba0eba1813f3/manifest",
+            "@type": "sc:Manifest",
+            "label": "Buy a share in America. Defense savings bonds and stamps",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ef0fe1637c8ffe91a2f70414d3d9564c452601a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d9887641-a180-9095-2e6d-134255df1d19/manifest",
+            "@type": "sc:Manifest",
+            "label": "I'm out to lick runaway prices. Let's all follow the 7-key plan to hold prices down",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2fe7a86c9d1ebeb52c776004768c27e2e687efca.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fa1ea1f0-046d-64e2-48e0-496c97ac6ead/manifest",
+            "@type": "sc:Manifest",
+            "label": "Win with tin",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9dba720f44b77bd83c3c829f486df8f8e74c1614.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8432e09a-7e9e-68d8-a237-fa493e5842c3/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"Every man woman and child is a partner\" President Roosevelt",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/13e9df89f9d85681373ccb1b23595cc4e85674d0.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2a05ec3d-1897-469e-26e0-29f7a9879d24/manifest",
+            "@type": "sc:Manifest",
+            "label": "You make it right . . . They'll make it fight",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/064feda4c2ac4d8dd9349bc3809bf504d6e79042.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/22ae1f68-8946-4063-4f73-4aa55e12895a/manifest",
+            "@type": "sc:Manifest",
+            "label": "American labor . . . Producing for attack",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b5120915639727f5fe9386b9e59136ebe24e757a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c7ede317-97fa-78c1-8e4d-f3e95d1c3c69/manifest",
+            "@type": "sc:Manifest",
+            "label": "Keep America rolling!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ad21d6b5ee2ff740eb0b81819bfa2a4217ace46c.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b882ac5a-457a-0ce9-5680-ac5484148b53/manifest",
+            "@type": "sc:Manifest",
+            "label": "Drive slower in hot weather",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/72ec579830c6cb37c03bc13e40cce92331e630ec.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58eb7d97-6296-0514-696b-d9e47aa51265/manifest",
+            "@type": "sc:Manifest",
+            "label": "Americans all",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05f3d954e662c945c01d649083fcea52520f17b9.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187b1214-7cb5-694d-6d15-10a283db4390/manifest",
+            "@type": "sc:Manifest",
+            "label": "Oil and steel . . . Partners in defense",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b462d49cc39c082cf35229b8d3b0972af8759e01.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4d1d9651-0ef5-5c79-51ce-2c021b6b9a14/manifest",
+            "@type": "sc:Manifest",
+            "label": "Pete's parents were amazed",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b4c108ac01b8847e9eecdffd55494b08343aa73.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2e20e648-23d7-5c08-6c82-a658bd0548d2/manifest",
+            "@type": "sc:Manifest",
+            "label": "Old Joe said to young Joe . . .",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d0ed0fffe46d4b4c0ce0d28b39da062393d0692d.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ec728a89-11c2-999b-204c-511f321b7605/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"Now . . . if I was down there in Washington . . .\"",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ead585a875e0916ac81e5ad31de901a3b55d0883.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1f8adec9-6201-a478-4b1a-b73c3972096b/manifest",
+            "@type": "sc:Manifest",
+            "label": "Night attack on the home front",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9f35694ab0615700e960422559283bec18477b1b.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be62f09a-0951-66fc-6cf7-cb9558302437/manifest",
+            "@type": "sc:Manifest",
+            "label": "Peter, You can never be president . . .",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e3f55c7ae5e0ce254bc41b29b85b8d34b8034dfd.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3b9b9c2c-1baa-a127-2612-9f688d6d7f07/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"I wonder what Jim's doing now!\"",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c5ca6bead44b1204c32883a504ac2bc90b97062a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c43167cf-38df-6a95-0a11-91491ad26afc/manifest",
+            "@type": "sc:Manifest",
+            "label": ". . . Before it goes any farther",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d3ddb6329b797ba2754d24f0f3c7eede2501c353.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/052fd773-0007-0789-3a9a-696011d13dbc/manifest",
+            "@type": "sc:Manifest",
+            "label": "Capitalist . . . American style",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/28c3e014daecc91bf40fef3cba60020bfecddc4c.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e22b1c7a-0edd-6c30-2542-d10ce7319de9/manifest",
+            "@type": "sc:Manifest",
+            "label": "Beat the promised date! Let's keep 'em pulling for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5d8b9006c08a3d520536fa070ceaa9481875d8b3.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c84a66b3-0585-9d8a-9889-ef075e1418ea/manifest",
+            "@type": "sc:Manifest",
+            "label": "Transporting troops or war workers. Let's keep 'em pulling for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7045c87ffb9cafa671a4ddc7a70ff6613db18817.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/66792945-7c51-8e90-58f5-7259185c01ed/manifest",
+            "@type": "sc:Manifest",
+            "label": "On battle lines or transport lines—Let's keep 'em pulling for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f760446c62671c50f66c29c56db1b8c6efa37647.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bc364ee4-88e5-1eb9-8923-cbad8d9e4d68/manifest",
+            "@type": "sc:Manifest",
+            "label": "Hauling guns or goods. Let's keep 'em pulling for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2e42a52f38d0468c683fe650e3f293f010967bf9.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/55a4b582-66da-60df-0bb1-608d375aa0a6/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"Soldiers three\"—all GMC. Let's keep 'em pulling for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f5961ef8a56cc8a269e29f26cd9fa17ccfacfeab.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fca86240-7fdd-2a1d-02b7-a7770bc01643/manifest",
+            "@type": "sc:Manifest",
+            "label": "Let him always wake unharmed! Keep America free!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8a7b92101f9cbc32854e0101d7eb0808c3142bde.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d505ee0c-7acd-5510-6f1d-f897f32200d3/manifest",
+            "@type": "sc:Manifest",
+            "label": "It's a two fisted fight. Keep 'em fighting!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/566bfb22fefbb2e0404472642ed8d95a0ee15ed2.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b330eabf-85ec-4beb-942e-5a98de980079/manifest",
+            "@type": "sc:Manifest",
+            "label": "Thanks, buddy! Keep 'em firing!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/dda49833ff1abaa792ce479a1fb4179bf6714508.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7e1f3d9c-9031-821a-9319-54bccb992704/manifest",
+            "@type": "sc:Manifest",
+            "label": "Non-stop work will win!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c009a3c640d9f404023c238a7109b6bb63ae6cd0.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/753a7a75-3778-8d6c-900b-999ce1539d84/manifest",
+            "@type": "sc:Manifest",
+            "label": "O.K., General . . . We'll keep the fire power coming!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/802d7881ee43fb895d198342faf4d80ca07f0614.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/051b8de9-6a85-7262-81f3-2722aa2189d3/manifest",
+            "@type": "sc:Manifest",
+            "label": "We can't let up now",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/329537b9f09c191cab82b17cc0e99af3097aace8.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3caf7537-8ae3-4983-a655-d5212112265b/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"Fire-power . . . stands for destruction of our enemies and certain victory!\" Maj. Gen. L.H. Campbell, Jr.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c8b7f59caa6c60dffc254694dc7a9d673e4c774e.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2900b9f6-5fc2-7fd6-9d15-d9e4729d5892/manifest",
+            "@type": "sc:Manifest",
+            "label": "Back him up with more GE production",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0d30210ae724a3205ec67460ec40e72f943ea7f2.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/80e50e84-1b86-0047-5a93-f4386980687e/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"Pick out the biggest one and fire!\" Capt. Edward J. \"Mike\" Moran",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7cbdfc8675117eefcedf8023b18b69d0d032a510.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/adf82738-7eb2-8338-9848-611d20337868/manifest",
+            "@type": "sc:Manifest",
+            "label": "Because these are our sons . . and brothers . . and husbands",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a1c2da06bf4bd6f5a13ecfd4240de851af040ccd.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8887f2d3-4459-0061-903e-4ad36a169220/manifest",
+            "@type": "sc:Manifest",
+            "label": "Don't let this happen! Tool room closed due to tool shortage",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f1481d0e1634278f8ad101f29e500d9e6f942c64.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/aa6cc4d0-9977-7e88-281a-493835389830/manifest",
+            "@type": "sc:Manifest",
+            "label": "This bullet can stop a Zero!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/501b4b90ae1d9b097617cd810ddb85d1663e79bc.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/6c797cad-4304-1eea-9ad3-9fe0c49b35c9/manifest",
+            "@type": "sc:Manifest",
+            "label": "A republic picture",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f95b49f730b73a4c0eaf7da5564424c8a63aa71f.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9b5a6460-827c-55e4-6af4-370b4d10000f/manifest",
+            "@type": "sc:Manifest",
+            "label": "All harvester products are war products . . . either for offense or defense",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9304b241e5c54df8ee1bbc507eda46ff056d5948.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dd3373ef-5d30-43e2-3623-83155452043f/manifest",
+            "@type": "sc:Manifest",
+            "label": "Carelessness is sabotage! It will take 90 days to replace this end mill broken through carelessness!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5face10048fc4102b456f96e90ea507b6cf2b52f.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d31d981e-19d6-4c37-7828-3adf21d4912d/manifest",
+            "@type": "sc:Manifest",
+            "label": "Let's rock 'em and sock 'em",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f24a93d2cf8cab4e8d8fc271e0aea7591c9a7e5a.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f11c8e60-8ab0-1870-6c06-0a6e14b807a7/manifest",
+            "@type": "sc:Manifest",
+            "label": "He's in there pitching for us!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b4af50109b4a2f77ec45d486034f86b9f2bd5e16.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d704ba97-678b-3227-553e-14619346a036/manifest",
+            "@type": "sc:Manifest",
+            "label": "Thanks, buddy! These little parts for our big trucks are just what the general ordered",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/02e1125022ea3e488f557818ccff426a96142ea5.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/654a6665-458e-7c73-6f5b-db0cea295283/manifest",
+            "@type": "sc:Manifest",
+            "label": "Think as you work for victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/353ad22bfda26223140806e966c6f1bffe12e86b.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/63c7cc75-4d24-1307-6ca9-ead5406710ce/manifest",
+            "@type": "sc:Manifest",
+            "label": "Vital to high flying—These tiny parts made.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/56fe87100bd2200e96e93cfba54d18992794646d.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/90d2dacc-43ba-540a-9c35-4e4ce8cd00e0/manifest",
+            "@type": "sc:Manifest",
+            "label": "They can't miss if we beat our quota. More production with less scrap",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/cfefd20c8c9b992b17a1c902c99ff3e5e4d7219b.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/451918f3-6673-852b-68b6-f59e5c5aa2e9/manifest",
+            "@type": "sc:Manifest",
+            "label": "For your tomorrow!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/00dc85ff7a332dcfef7ffdce30444fa28c5ef409.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/79fb4543-8179-9dc7-2002-008655b89a3d/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"I'm fighting for an America where every man can build his own future, pick his own job, run his own business—free from dictatorship.\"",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a2c8dba573d43e4ec0ae2bdce7dcc414866f3709.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e1330816-6c15-0cd8-a734-ee3895190277/manifest",
+            "@type": "sc:Manifest",
+            "label": "\"For God's sake—keep on the job so we can get this war won quick!\"",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/690103284962a3746f64028eb1c9f1ccf4ca84d1.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7ffb54f1-1ad5-6444-9406-8cf2ef5020a0/manifest",
+            "@type": "sc:Manifest",
+            "label": "Don't hold him up! Keep on the job",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f8fab64735dfd00fa019a890f3c0e419a3d207f7.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/91fd2042-740b-4c6d-210c-9187f05f2bfa/manifest",
+            "@type": "sc:Manifest",
+            "label": "These Jap women slave 14, 16, 18 hours a day to make the stuff to kill our men",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/74b0635db817f18d46b83004fcfbb5626b8ee78c.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/197dd50f-8bb3-5843-5fd2-e80cd9549e2a/manifest",
+            "@type": "sc:Manifest",
+            "label": "Our private enterprise system. Let's preserve the only system that can provide real jobs after victory",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2b9c547120313010212a6bef398eddcfaea786ca.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5e7b7474-12e6-06f9-477b-f45b919a4193/manifest",
+            "@type": "sc:Manifest",
+            "label": "Your right to vote is your opportunity to protect, over here the freedoms for which Americans fight over there.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4e35152beecc6520f1c9293ce508604a22f15ed7.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7c953451-1d9e-1cc8-3dd5-2ddc0f3e0d40/manifest",
+            "@type": "sc:Manifest",
+            "label": "U.S.A. For a country where we are still masters of our own destinies",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ac8e0f2bd1715581d97443c368f5904390c3b891.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/23378570-95c3-659b-5915-43c2a1f80b47/manifest",
+            "@type": "sc:Manifest",
+            "label": "Could you look this wounded American straight in the eye and honestly say—\"I'm doing all I can for victory.\"",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/db9191843cbceb3c7b6b4c84d1cbb80991b8b388.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b37eee42-328a-37ab-1e93-ee4ecfbf1d6f/manifest",
+            "@type": "sc:Manifest",
+            "label": "Destroy free business and you destroy free labor. Europe proved that",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4638c1583a12dc1595d7f474f84831fb7f8a9552.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7adfee1c-3dcf-212b-6670-76d4926557e7/manifest",
+            "@type": "sc:Manifest",
+            "label": "Save the life of someone you love",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/89f81b976a24e6bb6591784c011bfe3bbbf28c0f.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9fa6c318-345f-794e-8aa0-5839d1be14c3/manifest",
+            "@type": "sc:Manifest",
+            "label": "Save your bullets for the Axis. Don't take time off!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8949a95335dc984c841673ebf2b426b740d2fe03.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be4a30fe-6704-6968-44dd-3e3d84047ca2/manifest",
+            "@type": "sc:Manifest",
+            "label": "Save them this fate. Don't stay home from work!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bc5fc77ffdf06429e4e4db22cb478999a979f2ea.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7617121a-5f03-2731-155e-619b0bb714cb/manifest",
+            "@type": "sc:Manifest",
+            "label": "You cut off his right arm . . . When you don't work.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29dd99a6fab67d2a76444d5fccd3cf6b48d6e583.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b074261b-2b74-9b73-a3ed-930c39d72a30/manifest",
+            "@type": "sc:Manifest",
+            "label": "Loose talk costs lives.",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/1f4bcb2beb1f718bd3b9c37d76b17aa633ffff50.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0329aba7-8553-8526-3540-45fe518d98ee/manifest",
+            "@type": "sc:Manifest",
+            "label": "Don't be a no-show on your job!",
+            "license": "http://www.cpas.c.u-tokyo.ac.jp/lib/archive_riyo1.html",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/29ccb7cd26b76f60fc53e21494e1e51cba4b3a99.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}
