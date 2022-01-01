@@ -31,7 +31,14 @@
     ],
     "dcndl:seriesAlternative": [
         {
-            "@value": "伊能忠敬測地原図",
+            "@value": "測地原稿図",
+            "is_public": true,
+            "property_id": 202,
+            "property_label": "Series Alternative",
+            "type": "literal"
+        },
+        {
+            "@value": "伊能図",
             "is_public": true,
             "property_id": 202,
             "property_label": "Series Alternative",
@@ -40,7 +47,14 @@
     ],
     "dcndl:seriesAlternativeTranscription": [
         {
-            "@value": "いのうただたかそくちげんず",
+            "@value": "そくちげんこうず",
+            "is_public": true,
+            "property_id": 249,
+            "property_label": "Series Alternative Transcription",
+            "type": "literal"
+        },
+        {
+            "@value": "いのうず",
             "is_public": true,
             "property_id": 249,
             "property_label": "Series Alternative Transcription",
@@ -49,10 +63,19 @@
     ],
     "dcndl:seriesTitle": [
         {
-            "@value": "測地原稿図",
+            "@value": "測地原圖",
             "is_public": true,
             "property_id": 201,
             "property_label": "Series Title",
+            "type": "literal"
+        }
+    ],
+    "dcndl:seriesTitleTranscription": [
+        {
+            "@value": "そくちげんず",
+            "is_public": true,
+            "property_id": 248,
+            "property_label": "Series Title Transcription",
             "type": "literal"
         }
     ],
@@ -139,7 +162,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2020-07-15T02:27:17+00:00"
+        "@value": "2021-12-27T05:35:54+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10",
