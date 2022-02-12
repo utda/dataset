@@ -2,10 +2,20 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/agrifarm/image/collection.json",
     "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "東京大学 大学院農学生命科学研究科 附属生態調和農学機構農場博物館の蔵書をデジタル化し公開しています。"
+        }
+    ],
     "label": [
         {
             "@language": "ja",
-            "@value": "農場博物館コレクション"
+            "@value": "農場博物館デジタルアーカイブ"
+        },
+        {
+            "@language": "en",
+            "@value": "Farm Museum Digital Archive"
         }
     ],
     "manifests": [
