@@ -5,6 +5,25 @@ import json
 import argparse
 import urllib.request
 import os
+import glob
+# from tqdm import tqdm
+
+def delete_items(output_dir, item_set_arr):
+    files = glob.glob(output_dir + "*.json")
+    for file in files: # tqdm()
+         with open(file) as f:
+            df = json.load(f)
+
+            # アイテムが属するアイテムセットを取得
+            item_item_sets = []
+            for item_item_set in df["o:item_set"]:
+                item_item_sets.append(item_item_set["o:id"])
+
+            # 今回対象とするアイテムセットが上記に含まれている場合は削除
+            for item_set_id in item_set_arr:
+                if int(item_set_id) in item_item_sets:
+                    os.remove(file)
+                    break
 
 def parse_args(args=sys.argv[1:]):
     """ Get the parsed arguments specified on this script.
@@ -30,6 +49,8 @@ def items_generator(config):
 
     item_set_arr = arg_item_set_id.split(",")
 
+    delete_items(output_dir, item_set_arr)
+
     for item_set_id in item_set_arr:
 
         loop_flg = True
@@ -38,7 +59,9 @@ def items_generator(config):
         while loop_flg:
             url = api_url + "/items?item_set_id=" + str(item_set_id) + "&page=" + str(
                 page) + "&sort_by=uterms%3Asort&sort_order=asc"
-            print(url)
+
+            if page % 10 == 0:
+                print("progress", url)
 
             page += 1
 
