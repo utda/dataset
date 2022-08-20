@@ -11,6 +11,15 @@
             "type": "literal"
         }
     ],
+    "dcndl:alternative": [
+        {
+            "@value": "Hieratische Paläographie. Die aegyptische Buchschrift in ihrer Entwicklung von der fünften Dynastie bis zur römischen Kaiserzeit",
+            "is_public": true,
+            "property_id": 200,
+            "property_label": "Alternative",
+            "type": "literal"
+        }
+    ],
     "dcndl:callNumber": [
         {
             "@value": "6 W:800 X:mol 1",
@@ -20,9 +29,27 @@
             "type": "literal"
         }
     ],
+    "dcndl:publicationPlace": [
+        {
+            "@value": "Leipzig",
+            "is_public": true,
+            "property_id": 216,
+            "property_label": "Publication Place",
+            "type": "literal"
+        }
+    ],
+    "dcndl:volumeTitle": [
+        {
+            "@value": "Erster Band. Bis zum Beginn der achtzehnten Dynastie. Mit Neuen Tafeln Schriftproben",
+            "is_public": true,
+            "property_id": 205,
+            "property_label": "Volume Title",
+            "type": "literal"
+        }
+    ],
     "dcterms:available": [
         {
-            "@value": "16, Jan. 2020",
+            "@value": "2020-01-16",
             "is_public": true,
             "property_id": 22,
             "property_label": "Date Available",
@@ -40,7 +67,7 @@
     ],
     "dcterms:creator": [
         {
-            "@value": "George Möller",
+            "@value": "Möller, George",
             "is_public": true,
             "property_id": 2,
             "property_label": "Creator",
@@ -49,7 +76,7 @@
     ],
     "dcterms:description": [
         {
-            "@value": "Hieratische Paläographie: Die aegyptische Buchschrift in ihrer Entwicklung von der fünften Dynastie bis zur römischen Kaiserzeit. \r\nErster Band. Bis zum Beginn der achtzehnten Dynastie.",
+            "@value": "古代エジプト神官文字（ヒエラティック）の字典．第１巻．第18王朝初頭まで．",
             "is_public": true,
             "property_id": 4,
             "property_label": "Description",
@@ -65,9 +92,27 @@
             "type": "uri"
         }
     ],
+    "dcterms:issued": [
+        {
+            "@value": "1909",
+            "is_public": true,
+            "property_id": 23,
+            "property_label": "Date Issued",
+            "type": "literal"
+        }
+    ],
+    "dcterms:language": [
+        {
+            "@value": "ger",
+            "is_public": true,
+            "property_id": 12,
+            "property_label": "Language",
+            "type": "literal"
+        }
+    ],
     "dcterms:publisher": [
         {
-            "@value": "Leipzig : J. C. Hinrich",
+            "@value": "J. C. Hinrich",
             "is_public": true,
             "property_id": 5,
             "property_label": "Publisher",
@@ -103,7 +148,7 @@
     ],
     "dcterms:subject": [
         {
-            "@value": "Ancient Egyptian Script, Hieratic, Ancient Egyptian Language",
+            "@value": "LCSH:Egyptian language -- Writing, Hieratic",
             "is_public": true,
             "property_id": 3,
             "property_label": "Subject",
@@ -138,6 +183,10 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/415095",
             "o:id": 415095
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1181235",
+            "o:id": 1181235
         }
     ],
     "o:media": [
@@ -608,7 +657,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2022-02-21T04:23:28+00:00"
+        "@value": "2022-08-08T01:53:06+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -643,7 +692,7 @@
     ],
     "uterms:databaseLabel": [
         {
-            "@value": "Digital Resources for Egyptian Studies",
+            "@value": "エジプト学研究のためのデジタル資源／Digital Resources for Egyptian Studies",
             "is_public": true,
             "property_id": 354,
             "property_label": "Database Label",
@@ -657,6 +706,15 @@
             "property_id": 353,
             "property_label": "Manifest Uri",
             "type": "uri"
+        }
+    ],
+    "uterms:sort": [
+        {
+            "@value": "1-1",
+            "is_public": true,
+            "property_id": 352,
+            "property_label": "Sort",
+            "type": "literal"
         }
     ],
     "uterms:year": [
