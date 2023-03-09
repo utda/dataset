@@ -1,0 +1,179 @@
+[
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1253761",
+        "@type": "o:Item",
+        "bibo:identifier": [
+            {
+                "@value": "546bbac1-6736-271d-8fcc-2abb10b95766",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A100:2070",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "@id": "https://nakamura196.github.io/goethe/viewer/",
+                "is_public": true,
+                "o:label": "テキストを見る",
+                "property_id": 4,
+                "property_label": "Description",
+                "type": "uri"
+            }
+        ],
+        "dcterms:extent": [
+            {
+                "@value": "1 leaf ; 25×21 cm. folded to 7×11 cm",
+                "is_public": true,
+                "property_id": 25,
+                "property_label": "Extent",
+                "type": "literal"
+            }
+        ],
+        "dcterms:isPartOf": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/goethe/",
+                "is_public": true,
+                "property_id": 33,
+                "property_label": "Is Part Of",
+                "type": "uri"
+            }
+        ],
+        "dcterms:issued": [
+            {
+                "@value": "1822",
+                "is_public": true,
+                "property_id": 23,
+                "property_label": "Date Issued",
+                "type": "literal"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/goethe/document/546bbac1-6736-271d-8fcc-2abb10b95766",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:rights": [
+            {
+                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "is_public": true,
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "ゲーテ自署付書簡[Letter] 1822 De[zem]ber 29, Weimar [to L. W. Cramer]（WA IV-36, S.249対応）",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/e2cc076448778ff93e37f3737f893f6ac700eede.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-03-08T09:12:30+00:00"
+        },
+        "o:id": 1253761,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253760",
+                "o:id": 1253760
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/1253762",
+                "o:id": 1253762
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/1253763",
+                "o:id": 1253763
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-03-09T04:23:22+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/11",
+            "o:id": 11
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/54",
+            "o:id": 54
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1253761",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library, The University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "sc:viewingDirection": [
+            {
+                "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
+                "is_public": true,
+                "property_id": 198,
+                "property_label": "viewingDirection",
+                "type": "uri"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "ゲーテ自署付書簡",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/546bbac1-6736-271d-8fcc-2abb10b95766/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    }
+]
