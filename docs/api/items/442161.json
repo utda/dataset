@@ -2,6 +2,15 @@
     "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/442161",
     "@type": "o:Item",
+    "archiveshub:item": [
+        {
+            "@value": "イギリス公使館より幕府及明治政府宛文書写",
+            "is_public": true,
+            "property_id": 349,
+            "property_label": "Item",
+            "type": "literal"
+        }
+    ],
     "bibo:identifier": [
         {
             "@value": "9a1e63fd-6d0e-4ca2-b4f9-0aa75d275a6c",
@@ -11,54 +20,45 @@
             "type": "literal"
         }
     ],
+    "dcndl:callNumber": [
+        {
+            "@value": "甲16-326",
+            "is_public": true,
+            "property_id": 239,
+            "property_label": "Call Number",
+            "type": "literal"
+        }
+    ],
     "dcterms:isPartOf": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:relation": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/9a1e63fd-6d0e-4ca2-b4f9-0aa75d275a6c",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/9a1e63fd-6d0e-4ca2-b4f9-0aa75d275a6c",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "uri"
-        }
-    ],
-    "dcterms:rights": [
-        {
-            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "is_public": true,
-            "property_id": 15,
-            "property_label": "Rights",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:title": [
         {
-            "@value": "條約書　全",
+            "@value": "條約書 全",
             "is_public": true,
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
         }
     ],
-    "foaf:thumbnail": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d44cfcf07811a96f782030116bb46b19e1ae1769.jpg",
-            "is_public": true,
-            "property_id": 157,
-            "property_label": "thumbnail",
-            "type": "uri"
-        }
-    ],
     "law:collection1": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "近代法制史料",
             "is_public": true,
             "property_id": 539,
             "property_label": "コレクション1",
@@ -67,7 +67,7 @@
     ],
     "law:collection2": [
         {
-            "@value": "英国大使館文書",
+            "@value": "外交関係史料",
             "is_public": true,
             "property_id": 540,
             "property_label": "コレクション2",
@@ -76,7 +76,7 @@
     ],
     "law:collection3": [
         {
-            "@value": "イギリス公使館より幕府及明治政府宛文書写",
+            "@value": "英国大使館文書",
             "is_public": true,
             "property_id": 541,
             "property_label": "コレクション3",
@@ -110,6 +110,14 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/441286",
             "o:id": 441286
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253820",
+            "o:id": 1253820
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253825",
+            "o:id": 1253825
         }
     ],
     "o:media": [
@@ -308,7 +316,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-11-16T06:58:42+00:00"
+        "@value": "2023-03-28T08:04:22+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -320,15 +328,6 @@
         "o:id": 31
     },
     "o:thumbnail": null,
-    "rdfs:seeAlso": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/442161",
-            "is_public": true,
-            "property_id": 282,
-            "property_label": "seeAlso",
-            "type": "uri"
-        }
-    ],
     "sc:attributionLabel": [
         {
             "@value": "東京大学法学部研究室図書室法制史資料室 Legal History Section, Faculty of Law Library, The University of Tokyo, JAPAN",
@@ -345,15 +344,6 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
-        }
-    ],
-    "uterms:manifestUri": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9a1e63fd-6d0e-4ca2-b4f9-0aa75d275a6c/manifest",
-            "is_public": true,
-            "property_id": 353,
-            "property_label": "Manifest Uri",
-            "type": "uri"
         }
     ],
     "uterms:sort": [

@@ -31,11 +31,11 @@
     ],
     "dcterms:isPartOf": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:language": [
@@ -49,43 +49,25 @@
     ],
     "dcterms:relation": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/e3359ac4-2acb-03b9-484e-cb49d1dc3aaa",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/e3359ac4-2acb-03b9-484e-cb49d1dc3aaa",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "uri"
-        }
-    ],
-    "dcterms:rights": [
-        {
-            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "is_public": true,
-            "property_id": 15,
-            "property_label": "Rights",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:title": [
         {
-            "@value": "遠山家記録残闕 十六　雜纂一",
+            "@value": "遠山家記録残闕 十六 雜纂一",
             "is_public": true,
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
         }
     ],
-    "foaf:thumbnail": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ff894b21be3d70dfe671774a9dcff52a0d8042fe.jpg",
-            "is_public": true,
-            "property_id": 157,
-            "property_label": "thumbnail",
-            "type": "uri"
-        }
-    ],
     "law:collection1": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "近世史料",
             "is_public": true,
             "property_id": 539,
             "property_label": "コレクション1",
@@ -115,6 +97,10 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/726500",
             "o:id": 726500
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253818",
+            "o:id": 1253818
         }
     ],
     "o:media": [
@@ -373,7 +359,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-11-16T07:13:33+00:00"
+        "@value": "2023-03-28T07:54:25+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10",
@@ -381,19 +367,10 @@
     },
     "o:resource_class": null,
     "o:resource_template": {
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/42",
-        "o:id": 42
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/31",
+        "o:id": 31
     },
     "o:thumbnail": null,
-    "rdfs:seeAlso": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/726585",
-            "is_public": true,
-            "property_id": 282,
-            "property_label": "seeAlso",
-            "type": "uri"
-        }
-    ],
     "sc:attributionLabel": [
         {
             "@value": "東京大学法学部研究室図書室法制史資料室 Legal History Section, Faculty of Law Library, The University of Tokyo, JAPAN",
@@ -403,15 +380,6 @@
             "type": "literal"
         }
     ],
-    "sc:viewingDirection": [
-        {
-            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
-            "is_public": true,
-            "property_id": 198,
-            "property_label": "viewingDirection",
-            "type": "uri"
-        }
-    ],
     "uterms:databaseLabel": [
         {
             "@value": "東京大学法学部法制史資料室所蔵コレクション",
@@ -419,15 +387,6 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
-        }
-    ],
-    "uterms:manifestUri": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3359ac4-2acb-03b9-484e-cb49d1dc3aaa/manifest",
-            "is_public": true,
-            "property_id": 353,
-            "property_label": "Manifest Uri",
-            "type": "uri"
         }
     ],
     "uterms:sort": [

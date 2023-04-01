@@ -49,11 +49,11 @@
     ],
     "dcterms:isPartOf": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:language": [
@@ -67,38 +67,20 @@
     ],
     "dcterms:relation": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/3fbde70e-187b-72a3-4623-6d7bde765363",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/3fbde70e-187b-72a3-4623-6d7bde765363",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "uri"
-        }
-    ],
-    "dcterms:rights": [
-        {
-            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "is_public": true,
-            "property_id": 15,
-            "property_label": "Rights",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:title": [
         {
-            "@value": "外地掛御用留　慶應元乙丑年",
+            "@value": "外地掛御用留 慶應元乙丑年",
             "is_public": true,
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
-        }
-    ],
-    "foaf:thumbnail": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/102a60155fbc48dc1b7ab02ae7e521e153acf137.jpg",
-            "is_public": true,
-            "property_id": 157,
-            "property_label": "thumbnail",
-            "type": "uri"
         }
     ],
     "law:ad": [
@@ -112,7 +94,7 @@
     ],
     "law:collection1": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "近代法制史料",
             "is_public": true,
             "property_id": 539,
             "property_label": "コレクション1",
@@ -121,7 +103,7 @@
     ],
     "law:collection2": [
         {
-            "@value": "外地掛御用留",
+            "@value": "外交関係史料",
             "is_public": true,
             "property_id": 540,
             "property_label": "コレクション2",
@@ -142,6 +124,14 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/726503",
             "o:id": 726503
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253820",
+            "o:id": 1253820
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253825",
+            "o:id": 1253825
         }
     ],
     "o:media": [
@@ -1452,7 +1442,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-11-16T07:13:38+00:00"
+        "@value": "2023-03-28T07:54:26+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10",
@@ -1460,17 +1450,17 @@
     },
     "o:resource_class": null,
     "o:resource_template": {
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/42",
-        "o:id": 42
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/31",
+        "o:id": 31
     },
     "o:thumbnail": null,
-    "rdfs:seeAlso": [
+    "rdfs:comment": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/726660",
+            "@value": "内題: 「慶應元乙丑年 御用畱 外地掛」",
             "is_public": true,
-            "property_id": 282,
-            "property_label": "seeAlso",
-            "type": "uri"
+            "property_id": 278,
+            "property_label": "comment",
+            "type": "literal"
         }
     ],
     "sc:attributionLabel": [
@@ -1482,15 +1472,6 @@
             "type": "literal"
         }
     ],
-    "sc:viewingDirection": [
-        {
-            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
-            "is_public": true,
-            "property_id": 198,
-            "property_label": "viewingDirection",
-            "type": "uri"
-        }
-    ],
     "uterms:databaseLabel": [
         {
             "@value": "東京大学法学部法制史資料室所蔵コレクション",
@@ -1498,15 +1479,6 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
-        }
-    ],
-    "uterms:manifestUri": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3fbde70e-187b-72a3-4623-6d7bde765363/manifest",
-            "is_public": true,
-            "property_id": 353,
-            "property_label": "Manifest Uri",
-            "type": "uri"
         }
     ],
     "uterms:sort": [

@@ -40,11 +40,11 @@
     ],
     "dcterms:isPartOf": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:language": [
@@ -58,43 +58,25 @@
     ],
     "dcterms:relation": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/eb5925f3-5dbf-9184-0e2a-72bfa24d65e6",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/eb5925f3-5dbf-9184-0e2a-72bfa24d65e6",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "uri"
-        }
-    ],
-    "dcterms:rights": [
-        {
-            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "is_public": true,
-            "property_id": 15,
-            "property_label": "Rights",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:title": [
         {
-            "@value": "法令集　十三",
+            "@value": "法令集 十三",
             "is_public": true,
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
         }
     ],
-    "foaf:thumbnail": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d2ac6f1921cb0c64475be93c683df9dd6df02df3.jpg",
-            "is_public": true,
-            "property_id": 157,
-            "property_label": "thumbnail",
-            "type": "uri"
-        }
-    ],
     "law:collection1": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "近世法制史料",
             "is_public": true,
             "property_id": 539,
             "property_label": "コレクション1",
@@ -103,10 +85,19 @@
     ],
     "law:collection2": [
         {
-            "@value": "法令集",
+            "@value": "江戸幕府法制史料",
             "is_public": true,
             "property_id": 540,
             "property_label": "コレクション2",
+            "type": "literal"
+        }
+    ],
+    "law:collection3": [
+        {
+            "@value": "法令集",
+            "is_public": true,
+            "property_id": 541,
+            "property_label": "コレクション3",
             "type": "literal"
         }
     ],
@@ -124,6 +115,14 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/726502",
             "o:id": 726502
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253819",
+            "o:id": 1253819
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253824",
+            "o:id": 1253824
         }
     ],
     "o:media": [
@@ -234,7 +233,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-11-16T07:12:56+00:00"
+        "@value": "2023-03-28T07:54:20+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10",
@@ -242,17 +241,17 @@
     },
     "o:resource_class": null,
     "o:resource_template": {
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/42",
-        "o:id": 42
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/31",
+        "o:id": 31
     },
     "o:thumbnail": null,
-    "rdfs:seeAlso": [
+    "rdfs:comment": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/726643",
+            "@value": "内題: 「法令集 巻之十三」",
             "is_public": true,
-            "property_id": 282,
-            "property_label": "seeAlso",
-            "type": "uri"
+            "property_id": 278,
+            "property_label": "comment",
+            "type": "literal"
         }
     ],
     "sc:attributionLabel": [
@@ -264,15 +263,6 @@
             "type": "literal"
         }
     ],
-    "sc:viewingDirection": [
-        {
-            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
-            "is_public": true,
-            "property_id": 198,
-            "property_label": "viewingDirection",
-            "type": "uri"
-        }
-    ],
     "uterms:databaseLabel": [
         {
             "@value": "東京大学法学部法制史資料室所蔵コレクション",
@@ -280,15 +270,6 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
-        }
-    ],
-    "uterms:manifestUri": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/eb5925f3-5dbf-9184-0e2a-72bfa24d65e6/manifest",
-            "is_public": true,
-            "property_id": 353,
-            "property_label": "Manifest Uri",
-            "type": "uri"
         }
     ],
     "uterms:sort": [

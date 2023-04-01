@@ -1,0 +1,34 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/lawlib/image/collection.json",
+    "@type": "sc:Collection",
+    "description": [
+        {
+            "@language": "ja",
+            "@value": "東京大学法学部研究室図書室で所蔵する貴重な資料群です。"
+        }
+    ],
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "東京大学法学部研究室図書室所蔵コレクション"
+        }
+    ],
+    "manifests": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a1a320db-682a-4846-b99f-9414f6a17a2c/manifest",
+            "@type": "sc:Manifest",
+            "label": "Auslandsrecht : Blätter für Industrie und Handel : Organ des Instituts für ausländisches Recht beim Reichsverband der deutschen Industrie",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/dced11b359a295c948d42c7ac5db74cb0a0ac167.jpg"
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/427554b3-6a83-44a5-a5eb-d611db3b5e67/manifest",
+            "@type": "sc:Manifest",
+            "label": "浪士姓名簿",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/69c784fec663d539755d7f1845f8046946190044.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

@@ -2,6 +2,15 @@
     "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/441408",
     "@type": "o:Item",
+    "archiveshub:item": [
+        {
+            "@value": "日本側より英国公使館宛公示文書抜粋",
+            "is_public": true,
+            "property_id": 349,
+            "property_label": "Item",
+            "type": "literal"
+        }
+    ],
     "bibo:identifier": [
         {
             "@value": "69a9074f-abaa-42e8-baae-40c6ac744d65",
@@ -11,49 +20,58 @@
             "type": "literal"
         }
     ],
+    "dcndl:callNumber": [
+        {
+            "@value": "甲16-327",
+            "is_public": true,
+            "property_id": 239,
+            "property_label": "Call Number",
+            "type": "literal"
+        }
+    ],
+    "dcterms:date": [
+        {
+            "@value": "安政6年7月18日-明治5年11月24日",
+            "is_public": true,
+            "property_id": 7,
+            "property_label": "Date",
+            "type": "literal"
+        }
+    ],
     "dcterms:isPartOf": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:relation": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/69a9074f-abaa-42e8-baae-40c6ac744d65",
+            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/69a9074f-abaa-42e8-baae-40c6ac744d65",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "uri"
-        }
-    ],
-    "dcterms:rights": [
-        {
-            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-            "is_public": true,
-            "property_id": 15,
-            "property_label": "Rights",
-            "type": "uri"
+            "type": "literal"
         }
     ],
     "dcterms:title": [
         {
-            "@value": "書翰抜萃　一",
+            "@value": "書翰抜萃 一",
             "is_public": true,
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
         }
     ],
-    "foaf:thumbnail": [
+    "law:ad": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bec3e8cc75be3502afaca0c4b1fc384b1e830848.jpg",
+            "@value": "[1859.8.16-1872.12.24]",
             "is_public": true,
-            "property_id": 157,
-            "property_label": "thumbnail",
-            "type": "uri"
+            "property_id": 560,
+            "property_label": "西暦/A.D.",
+            "type": "literal"
         }
     ],
     "law:biko": [
@@ -67,7 +85,7 @@
     ],
     "law:collection1": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "近代法制史料",
             "is_public": true,
             "property_id": 539,
             "property_label": "コレクション1",
@@ -76,7 +94,7 @@
     ],
     "law:collection2": [
         {
-            "@value": "英国大使館文書",
+            "@value": "外交関係史料",
             "is_public": true,
             "property_id": 540,
             "property_label": "コレクション2",
@@ -85,7 +103,7 @@
     ],
     "law:collection3": [
         {
-            "@value": "日本側より英国公使館宛公示文書抜粋",
+            "@value": "英国大使館文書",
             "is_public": true,
             "property_id": 541,
             "property_label": "コレクション3",
@@ -155,6 +173,14 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/441287",
             "o:id": 441287
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253820",
+            "o:id": 1253820
+        },
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/1253825",
+            "o:id": 1253825
         }
     ],
     "o:media": [
@@ -385,7 +411,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-11-16T06:57:10+00:00"
+        "@value": "2023-03-28T07:54:17+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -393,17 +419,17 @@
     },
     "o:resource_class": null,
     "o:resource_template": {
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/1",
-        "o:id": 1
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/31",
+        "o:id": 31
     },
     "o:thumbnail": null,
-    "rdfs:seeAlso": [
+    "rdfs:comment": [
         {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/441408",
+            "@value": "旧幕府外國事務掛及明治政府より英國公使館宛書翰写",
             "is_public": true,
-            "property_id": 282,
-            "property_label": "seeAlso",
-            "type": "uri"
+            "property_id": 278,
+            "property_label": "comment",
+            "type": "literal"
         }
     ],
     "sc:attributionLabel": [
@@ -422,15 +448,6 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
-        }
-    ],
-    "uterms:manifestUri": [
-        {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/69a9074f-abaa-42e8-baae-40c6ac744d65/manifest",
-            "is_public": true,
-            "property_id": 353,
-            "property_label": "Manifest Uri",
-            "type": "uri"
         }
     ],
     "uterms:sort": [
