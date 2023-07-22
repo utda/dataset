@@ -1,568 +1,6 @@
 [
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100562",
-        "@type": [
-            "o:Item",
-            "dctype:Image"
-        ],
-        "bibo:identifier": [
-            {
-                "@value": "be75565a-e44d-478d-b7b5-00a04de42e36",
-                "is_public": true,
-                "property_id": 98,
-                "property_label": "identifier",
-                "type": "literal"
-            }
-        ],
-        "bibo:numVolumes": [
-            {
-                "@value": "第10冊",
-                "is_public": true,
-                "property_id": 107,
-                "property_label": "number of volumes",
-                "type": "literal"
-            }
-        ],
-        "bibo:volume": [
-            {
-                "@value": "卷49",
-                "is_public": true,
-                "property_id": 122,
-                "property_label": "volume",
-                "type": "literal"
-            }
-        ],
-        "dcndl:callNumber": [
-            {
-                "@value": "A00:6290:10",
-                "is_public": true,
-                "property_id": 239,
-                "property_label": "Call Number",
-                "type": "literal"
-            }
-        ],
-        "dcterms:created": [
-            {
-                "@value": "1466-050-15",
-                "is_public": true,
-                "property_id": 20,
-                "property_label": "Date Created",
-                "type": "literal"
-            }
-        ],
-        "dcterms:date": [
-            {
-                "@value": "成化2.5.15",
-                "is_public": true,
-                "property_id": 7,
-                "property_label": "Date",
-                "type": "literal"
-            }
-        ],
-        "dcterms:identifier": [
-            {
-                "@value": "0049-00039",
-                "is_public": true,
-                "property_id": 10,
-                "property_label": "Identifier",
-                "type": "literal"
-            }
-        ],
-        "dcterms:isPartOf": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
-                "is_public": true,
-                "property_id": 33,
-                "property_label": "Is Part Of",
-                "type": "uri"
-            }
-        ],
-        "dcterms:relation": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/be75565a-e44d-478d-b7b5-00a04de42e36",
-                "is_public": true,
-                "property_id": 13,
-                "property_label": "Relation",
-                "type": "uri"
-            }
-        ],
-        "dcterms:rights": [
-            {
-                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "is_public": true,
-                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "property_id": 15,
-                "property_label": "Rights",
-                "type": "uri"
-            }
-        ],
-        "dcterms:title": [
-            {
-                "@value": "査盤軍器例",
-                "is_public": true,
-                "property_id": 1,
-                "property_label": "Title",
-                "type": "literal"
-            }
-        ],
-        "foaf:thumbnail": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bb25a1c57ae92e34f4239c333dd2dd4536da5b0a.jpg",
-                "is_public": true,
-                "property_id": 157,
-                "property_label": "thumbnail",
-                "type": "uri"
-            }
-        ],
-        "koumin:facsimile": [
-            {
-                "@value": "下-399上表",
-                "is_public": true,
-                "property_id": 361,
-                "property_label": "影印本",
-                "type": "literal"
-            }
-        ],
-        "koumin:jyo": [
-            {
-                "@value": "第2條",
-                "is_public": true,
-                "property_id": 363,
-                "property_label": "條",
-                "type": "literal"
-            }
-        ],
-        "koumin:mark": [
-            {
-                "@value": "乙5-959(49-18)",
-                "is_public": true,
-                "property_id": 362,
-                "property_label": "標点本",
-                "type": "literal"
-            }
-        ],
-        "koumin:moku": [
-            {
-                "@value": "造作不如法",
-                "is_public": true,
-                "property_id": 364,
-                "property_label": "目",
-                "type": "literal"
-            }
-        ],
-        "koumin:rui": [
-            {
-                "@value": "工部類",
-                "is_public": true,
-                "property_id": 365,
-                "property_label": "類",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleA": [
-            {
-                "@value": "査(驗)[盤]軍器例",
-                "is_public": true,
-                "property_id": 357,
-                "property_label": "Title A",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleB": [
-            {
-                "@value": "査驗軍器例",
-                "is_public": true,
-                "property_id": 358,
-                "property_label": "Title B",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleC": [
-            {
-                "@value": "査盤軍器例",
-                "is_public": true,
-                "property_id": 359,
-                "property_label": "Title C",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleD": [
-            {
-                "@value": "査盤軍器例",
-                "is_public": true,
-                "property_id": 360,
-                "property_label": "Title D",
-                "type": "literal"
-            }
-        ],
-        "o:created": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:14:47+00:00"
-        },
-        "o:id": 100562,
-        "o:is_public": true,
-        "o:item_set": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
-                "o:id": 99285
-            }
-        ],
-        "o:media": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104184",
-                "o:id": 104184
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104185",
-                "o:id": 104185
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104186",
-                "o:id": 104186
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104187",
-                "o:id": 104187
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104188",
-                "o:id": 104188
-            }
-        ],
-        "o:modified": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T16:04:08+00:00"
-        },
-        "o:owner": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
-            "o:id": 1
-        },
-        "o:resource_class": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
-            "o:id": 26
-        },
-        "o:resource_template": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
-            "o:id": 15
-        },
-        "o:thumbnail": null,
-        "rdfs:seeAlso": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100562",
-                "is_public": true,
-                "property_id": 282,
-                "property_label": "seeAlso",
-                "type": "uri"
-            }
-        ],
-        "sc:attributionLabel": [
-            {
-                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
-                "is_public": true,
-                "property_id": 190,
-                "property_label": "attributionLabel",
-                "type": "literal"
-            }
-        ],
-        "uterms:databaseLabel": [
-            {
-                "@value": "皇明條法事類纂デジタルアーカイブ",
-                "is_public": true,
-                "property_id": 354,
-                "property_label": "Database Label",
-                "type": "literal"
-            }
-        ],
-        "uterms:manifestUri": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be75565a-e44d-478d-b7b5-00a04de42e36/manifest",
-                "is_public": true,
-                "property_id": 353,
-                "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ]
-    },
-    {
-        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100563",
-        "@type": [
-            "o:Item",
-            "dctype:Image"
-        ],
-        "bibo:identifier": [
-            {
-                "@value": "4df6fae5-489a-435e-8de1-a7775c167d76",
-                "is_public": true,
-                "property_id": 98,
-                "property_label": "identifier",
-                "type": "literal"
-            }
-        ],
-        "bibo:numVolumes": [
-            {
-                "@value": "第10冊",
-                "is_public": true,
-                "property_id": 107,
-                "property_label": "number of volumes",
-                "type": "literal"
-            }
-        ],
-        "bibo:volume": [
-            {
-                "@value": "卷49",
-                "is_public": true,
-                "property_id": 122,
-                "property_label": "volume",
-                "type": "literal"
-            }
-        ],
-        "dcndl:callNumber": [
-            {
-                "@value": "A00:6290:10",
-                "is_public": true,
-                "property_id": 239,
-                "property_label": "Call Number",
-                "type": "literal"
-            }
-        ],
-        "dcterms:created": [
-            {
-                "@value": "1467-120-19",
-                "is_public": true,
-                "property_id": 20,
-                "property_label": "Date Created",
-                "type": "literal"
-            }
-        ],
-        "dcterms:date": [
-            {
-                "@value": "成化3.12.19",
-                "is_public": true,
-                "property_id": 7,
-                "property_label": "Date",
-                "type": "literal"
-            }
-        ],
-        "dcterms:identifier": [
-            {
-                "@value": "0049-00043",
-                "is_public": true,
-                "property_id": 10,
-                "property_label": "Identifier",
-                "type": "literal"
-            }
-        ],
-        "dcterms:isPartOf": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
-                "is_public": true,
-                "property_id": 33,
-                "property_label": "Is Part Of",
-                "type": "uri"
-            }
-        ],
-        "dcterms:relation": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/4df6fae5-489a-435e-8de1-a7775c167d76",
-                "is_public": true,
-                "property_id": 13,
-                "property_label": "Relation",
-                "type": "uri"
-            }
-        ],
-        "dcterms:rights": [
-            {
-                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "is_public": true,
-                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "property_id": 15,
-                "property_label": "Rights",
-                "type": "uri"
-            }
-        ],
-        "dcterms:title": [
-            {
-                "@value": "成造軍器不堪拏問經該官旗追陪例",
-                "is_public": true,
-                "property_id": 1,
-                "property_label": "Title",
-                "type": "literal"
-            }
-        ],
-        "foaf:thumbnail": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eb4eea0508972bbd88830e89ea4d719016f2f488.jpg",
-                "is_public": true,
-                "property_id": 157,
-                "property_label": "thumbnail",
-                "type": "uri"
-            }
-        ],
-        "koumin:facsimile": [
-            {
-                "@value": "下-401上表",
-                "is_public": true,
-                "property_id": 361,
-                "property_label": "影印本",
-                "type": "literal"
-            }
-        ],
-        "koumin:jyo": [
-            {
-                "@value": "第3條",
-                "is_public": true,
-                "property_id": 363,
-                "property_label": "條",
-                "type": "literal"
-            }
-        ],
-        "koumin:mark": [
-            {
-                "@value": "乙5-962(49-19)",
-                "is_public": true,
-                "property_id": 362,
-                "property_label": "標点本",
-                "type": "literal"
-            }
-        ],
-        "koumin:moku": [
-            {
-                "@value": "造作不如法",
-                "is_public": true,
-                "property_id": 364,
-                "property_label": "目",
-                "type": "literal"
-            }
-        ],
-        "koumin:rui": [
-            {
-                "@value": "工部類",
-                "is_public": true,
-                "property_id": 365,
-                "property_label": "類",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleA": [
-            {
-                "@value": "成造軍器不堪拏問經該官旗追賠例",
-                "is_public": true,
-                "property_id": 357,
-                "property_label": "Title A",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleB": [
-            {
-                "@value": "成造軍器不堪拏問經該官旗追陪例",
-                "is_public": true,
-                "property_id": 358,
-                "property_label": "Title B",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleC": [
-            {
-                "@value": "成造軍器不堪拏問經該官旗追賠例",
-                "is_public": true,
-                "property_id": 359,
-                "property_label": "Title C",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleD": [
-            {
-                "@value": "成造軍器不堪拏問經該官旗追陪例",
-                "is_public": true,
-                "property_id": 360,
-                "property_label": "Title D",
-                "type": "literal"
-            }
-        ],
-        "o:created": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:14:48+00:00"
-        },
-        "o:id": 100563,
-        "o:is_public": true,
-        "o:item_set": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
-                "o:id": 99285
-            }
-        ],
-        "o:media": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100591",
-                "o:id": 100591
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100592",
-                "o:id": 100592
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100593",
-                "o:id": 100593
-            }
-        ],
-        "o:modified": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T16:04:08+00:00"
-        },
-        "o:owner": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
-            "o:id": 1
-        },
-        "o:resource_class": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
-            "o:id": 26
-        },
-        "o:resource_template": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
-            "o:id": 15
-        },
-        "o:thumbnail": null,
-        "rdfs:seeAlso": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100563",
-                "is_public": true,
-                "property_id": 282,
-                "property_label": "seeAlso",
-                "type": "uri"
-            }
-        ],
-        "sc:attributionLabel": [
-            {
-                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
-                "is_public": true,
-                "property_id": 190,
-                "property_label": "attributionLabel",
-                "type": "literal"
-            }
-        ],
-        "uterms:databaseLabel": [
-            {
-                "@value": "皇明條法事類纂デジタルアーカイブ",
-                "is_public": true,
-                "property_id": 354,
-                "property_label": "Database Label",
-                "type": "literal"
-            }
-        ],
-        "uterms:manifestUri": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4df6fae5-489a-435e-8de1-a7775c167d76/manifest",
-                "is_public": true,
-                "property_id": 353,
-                "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ]
-    },
-    {
-        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100564",
         "@type": [
             "o:Item",
@@ -5998,283 +5436,6 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100551",
-        "@type": [
-            "o:Item",
-            "dctype:Image"
-        ],
-        "bibo:identifier": [
-            {
-                "@value": "3f755b42-f1b0-4ec6-a2ca-c1a7073bc779",
-                "is_public": true,
-                "property_id": 98,
-                "property_label": "identifier",
-                "type": "literal"
-            }
-        ],
-        "bibo:numVolumes": [
-            {
-                "@value": "第10冊",
-                "is_public": true,
-                "property_id": 107,
-                "property_label": "number of volumes",
-                "type": "literal"
-            }
-        ],
-        "bibo:volume": [
-            {
-                "@value": "卷49",
-                "is_public": true,
-                "property_id": 122,
-                "property_label": "volume",
-                "type": "literal"
-            }
-        ],
-        "dcndl:callNumber": [
-            {
-                "@value": "A00:6290:10",
-                "is_public": true,
-                "property_id": 239,
-                "property_label": "Call Number",
-                "type": "literal"
-            }
-        ],
-        "dcterms:created": [
-            {
-                "@value": "1467-110-18",
-                "is_public": true,
-                "property_id": 20,
-                "property_label": "Date Created",
-                "type": "literal"
-            }
-        ],
-        "dcterms:date": [
-            {
-                "@value": "成化3.11.18",
-                "is_public": true,
-                "property_id": 7,
-                "property_label": "Date",
-                "type": "literal"
-            }
-        ],
-        "dcterms:identifier": [
-            {
-                "@value": "0049-00016",
-                "is_public": true,
-                "property_id": 10,
-                "property_label": "Identifier",
-                "type": "literal"
-            }
-        ],
-        "dcterms:isPartOf": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
-                "is_public": true,
-                "property_id": 33,
-                "property_label": "Is Part Of",
-                "type": "uri"
-            }
-        ],
-        "dcterms:relation": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/3f755b42-f1b0-4ec6-a2ca-c1a7073bc779",
-                "is_public": true,
-                "property_id": 13,
-                "property_label": "Relation",
-                "type": "uri"
-            }
-        ],
-        "dcterms:rights": [
-            {
-                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "is_public": true,
-                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-                "property_id": 15,
-                "property_label": "Rights",
-                "type": "uri"
-            }
-        ],
-        "dcterms:title": [
-            {
-                "@value": "申明採燒柴炭夫甲包攬刁撥之徒告管工官送該廠査勘例",
-                "is_public": true,
-                "property_id": 1,
-                "property_label": "Title",
-                "type": "literal"
-            }
-        ],
-        "foaf:thumbnail": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/549183db805c5469db3a614912b258ce88f87823.jpg",
-                "is_public": true,
-                "property_id": 157,
-                "property_label": "thumbnail",
-                "type": "uri"
-            }
-        ],
-        "koumin:facsimile": [
-            {
-                "@value": "下-387下表",
-                "is_public": true,
-                "property_id": 361,
-                "property_label": "影印本",
-                "type": "literal"
-            }
-        ],
-        "koumin:jyo": [
-            {
-                "@value": "第2條",
-                "is_public": true,
-                "property_id": 363,
-                "property_label": "條",
-                "type": "literal"
-            }
-        ],
-        "koumin:mark": [
-            {
-                "@value": "乙5-944(49-7)",
-                "is_public": true,
-                "property_id": 362,
-                "property_label": "標点本",
-                "type": "literal"
-            }
-        ],
-        "koumin:moku": [
-            {
-                "@value": "費虛工力採取不堪用",
-                "is_public": true,
-                "property_id": 364,
-                "property_label": "目",
-                "type": "literal"
-            }
-        ],
-        "koumin:rui": [
-            {
-                "@value": "工部類",
-                "is_public": true,
-                "property_id": 365,
-                "property_label": "類",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleA": [
-            {
-                "@value": "申明採燒柴炭夫甲包攬刁潑之徒告管工官吏送該廠査勘例",
-                "is_public": true,
-                "property_id": 357,
-                "property_label": "Title A",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleB": [
-            {
-                "@value": "申明採燒柴炭夫甲包攬刁潑之徒告管工官吏送該廠査勘例",
-                "is_public": true,
-                "property_id": 358,
-                "property_label": "Title B",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleC": [
-            {
-                "@value": "申明探燒柴炭夫甲包攬刁(撥)[潑]之徒告管工官[吏]送該廠査勘例",
-                "is_public": true,
-                "property_id": 359,
-                "property_label": "Title C",
-                "type": "literal"
-            }
-        ],
-        "koumin:titleD": [
-            {
-                "@value": "申明採燒柴炭夫甲包攬刁撥之徒告管工官送該廠査勘例",
-                "is_public": true,
-                "property_id": 360,
-                "property_label": "Title D",
-                "type": "literal"
-            }
-        ],
-        "o:created": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:14:29+00:00"
-        },
-        "o:id": 100551,
-        "o:is_public": true,
-        "o:item_set": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
-                "o:id": 99285
-            }
-        ],
-        "o:media": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103413",
-                "o:id": 103413
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103414",
-                "o:id": 103414
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103415",
-                "o:id": 103415
-            }
-        ],
-        "o:modified": {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T16:04:08+00:00"
-        },
-        "o:owner": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
-            "o:id": 1
-        },
-        "o:resource_class": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
-            "o:id": 26
-        },
-        "o:resource_template": {
-            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
-            "o:id": 15
-        },
-        "o:thumbnail": null,
-        "rdfs:seeAlso": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100551",
-                "is_public": true,
-                "property_id": 282,
-                "property_label": "seeAlso",
-                "type": "uri"
-            }
-        ],
-        "sc:attributionLabel": [
-            {
-                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
-                "is_public": true,
-                "property_id": 190,
-                "property_label": "attributionLabel",
-                "type": "literal"
-            }
-        ],
-        "uterms:databaseLabel": [
-            {
-                "@value": "皇明條法事類纂デジタルアーカイブ",
-                "is_public": true,
-                "property_id": 354,
-                "property_label": "Database Label",
-                "type": "literal"
-            }
-        ],
-        "uterms:manifestUri": [
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3f755b42-f1b0-4ec6-a2ca-c1a7073bc779/manifest",
-                "is_public": true,
-                "property_id": 353,
-                "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ]
-    },
-    {
-        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100552",
         "@type": [
             "o:Item",
@@ -9029,14 +8190,14 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100384",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100562",
         "@type": [
             "o:Item",
             "dctype:Image"
         ],
         "bibo:identifier": [
             {
-                "@value": "34f42a6f-542f-443a-aaba-3d086075591b",
+                "@value": "be75565a-e44d-478d-b7b5-00a04de42e36",
                 "is_public": true,
                 "property_id": 98,
                 "property_label": "identifier",
@@ -9045,7 +8206,7 @@
         ],
         "bibo:numVolumes": [
             {
-                "@value": "第9冊",
+                "@value": "第10冊",
                 "is_public": true,
                 "property_id": 107,
                 "property_label": "number of volumes",
@@ -9054,7 +8215,7 @@
         ],
         "bibo:volume": [
             {
-                "@value": "卷41",
+                "@value": "卷49",
                 "is_public": true,
                 "property_id": 122,
                 "property_label": "volume",
@@ -9063,7 +8224,7 @@
         ],
         "dcndl:callNumber": [
             {
-                "@value": "A00:6290:9",
+                "@value": "A00:6290:10",
                 "is_public": true,
                 "property_id": 239,
                 "property_label": "Call Number",
@@ -9072,7 +8233,7 @@
         ],
         "dcterms:created": [
             {
-                "@value": "1475-110-26",
+                "@value": "1466-050-15",
                 "is_public": true,
                 "property_id": 20,
                 "property_label": "Date Created",
@@ -9081,7 +8242,7 @@
         ],
         "dcterms:date": [
             {
-                "@value": "成化11.11.26",
+                "@value": "成化2.5.15",
                 "is_public": true,
                 "property_id": 7,
                 "property_label": "Date",
@@ -9090,7 +8251,7 @@
         ],
         "dcterms:identifier": [
             {
-                "@value": "0041-00025",
+                "@value": "0049-00039",
                 "is_public": true,
                 "property_id": 10,
                 "property_label": "Identifier",
@@ -9108,7 +8269,7 @@
         ],
         "dcterms:relation": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/34f42a6f-542f-443a-aaba-3d086075591b",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/be75565a-e44d-478d-b7b5-00a04de42e36",
                 "is_public": true,
                 "property_id": 13,
                 "property_label": "Relation",
@@ -9127,7 +8288,7 @@
         ],
         "dcterms:title": [
             {
-                "@value": "通行在外大小衙門不許勸借出粟賑濟",
+                "@value": "査盤軍器例",
                 "is_public": true,
                 "property_id": 1,
                 "property_label": "Title",
@@ -9136,7 +8297,7 @@
         ],
         "foaf:thumbnail": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/12fb94cec72753c8a96aa8b2bfc2149db9852f6a.jpg",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/bb25a1c57ae92e34f4239c333dd2dd4536da5b0a.jpg",
                 "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
@@ -9145,7 +8306,7 @@
         ],
         "koumin:facsimile": [
             {
-                "@value": "下-225上表",
+                "@value": "下-399上表",
                 "is_public": true,
                 "property_id": 361,
                 "property_label": "影印本",
@@ -9154,7 +8315,7 @@
         ],
         "koumin:jyo": [
             {
-                "@value": "第4條",
+                "@value": "第2條",
                 "is_public": true,
                 "property_id": 363,
                 "property_label": "條",
@@ -9163,7 +8324,7 @@
         ],
         "koumin:mark": [
             {
-                "@value": "乙5-658(41-13)",
+                "@value": "乙5-959(49-18)",
                 "is_public": true,
                 "property_id": 362,
                 "property_label": "標点本",
@@ -9172,7 +8333,7 @@
         ],
         "koumin:moku": [
             {
-                "@value": "因公擅入科斂(因八科斂)",
+                "@value": "造作不如法",
                 "is_public": true,
                 "property_id": 364,
                 "property_label": "目",
@@ -9181,7 +8342,7 @@
         ],
         "koumin:rui": [
             {
-                "@value": "刑部類",
+                "@value": "工部類",
                 "is_public": true,
                 "property_id": 365,
                 "property_label": "類",
@@ -9190,7 +8351,7 @@
         ],
         "koumin:titleA": [
             {
-                "@value": "通行在外大小衙門不許勸借出粟賑濟/前件成化十一年十一月二十六日陳言事",
+                "@value": "査(驗)[盤]軍器例",
                 "is_public": true,
                 "property_id": 357,
                 "property_label": "Title A",
@@ -9199,7 +8360,7 @@
         ],
         "koumin:titleB": [
             {
-                "@value": "通行在外大小衙門不許勸借出粟賑濟/前件成化十一年十一月二十六日陳言事",
+                "@value": "査驗軍器例",
                 "is_public": true,
                 "property_id": 358,
                 "property_label": "Title B",
@@ -9208,7 +8369,7 @@
         ],
         "koumin:titleC": [
             {
-                "@value": "通行在外大小衙門不許勸借出粟賑濟",
+                "@value": "査盤軍器例",
                 "is_public": true,
                 "property_id": 359,
                 "property_label": "Title C",
@@ -9217,7 +8378,7 @@
         ],
         "koumin:titleD": [
             {
-                "@value": "通行在外大小衙門不許勸借出粟賑濟",
+                "@value": "査盤軍器例",
                 "is_public": true,
                 "property_id": 360,
                 "property_label": "Title D",
@@ -9226,9 +8387,9 @@
         ],
         "o:created": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:10:26+00:00"
+            "@value": "2018-07-10T06:14:47+00:00"
         },
-        "o:id": 100384,
+        "o:id": 100562,
         "o:is_public": true,
         "o:item_set": [
             {
@@ -9238,37 +8399,29 @@
         ],
         "o:media": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100923",
-                "o:id": 100923
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104184",
+                "o:id": 104184
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100924",
-                "o:id": 100924
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104185",
+                "o:id": 104185
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100925",
-                "o:id": 100925
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104186",
+                "o:id": 104186
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100926",
-                "o:id": 100926
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104187",
+                "o:id": 104187
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100927",
-                "o:id": 100927
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100928",
-                "o:id": 100928
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100929",
-                "o:id": 100929
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/104188",
+                "o:id": 104188
             }
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T15:58:57+00:00"
+            "@value": "2019-03-04T16:04:08+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -9285,7 +8438,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100384",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100562",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -9312,7 +8465,284 @@
         ],
         "uterms:manifestUri": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/34f42a6f-542f-443a-aaba-3d086075591b/manifest",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/be75565a-e44d-478d-b7b5-00a04de42e36/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    },
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100563",
+        "@type": [
+            "o:Item",
+            "dctype:Image"
+        ],
+        "bibo:identifier": [
+            {
+                "@value": "4df6fae5-489a-435e-8de1-a7775c167d76",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "bibo:numVolumes": [
+            {
+                "@value": "第10冊",
+                "is_public": true,
+                "property_id": 107,
+                "property_label": "number of volumes",
+                "type": "literal"
+            }
+        ],
+        "bibo:volume": [
+            {
+                "@value": "卷49",
+                "is_public": true,
+                "property_id": 122,
+                "property_label": "volume",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A00:6290:10",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:created": [
+            {
+                "@value": "1467-120-19",
+                "is_public": true,
+                "property_id": 20,
+                "property_label": "Date Created",
+                "type": "literal"
+            }
+        ],
+        "dcterms:date": [
+            {
+                "@value": "成化3.12.19",
+                "is_public": true,
+                "property_id": 7,
+                "property_label": "Date",
+                "type": "literal"
+            }
+        ],
+        "dcterms:identifier": [
+            {
+                "@value": "0049-00043",
+                "is_public": true,
+                "property_id": 10,
+                "property_label": "Identifier",
+                "type": "literal"
+            }
+        ],
+        "dcterms:isPartOf": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
+                "is_public": true,
+                "property_id": 33,
+                "property_label": "Is Part Of",
+                "type": "uri"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/4df6fae5-489a-435e-8de1-a7775c167d76",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:rights": [
+            {
+                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "is_public": true,
+                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "成造軍器不堪拏問經該官旗追陪例",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eb4eea0508972bbd88830e89ea4d719016f2f488.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "koumin:facsimile": [
+            {
+                "@value": "下-401上表",
+                "is_public": true,
+                "property_id": 361,
+                "property_label": "影印本",
+                "type": "literal"
+            }
+        ],
+        "koumin:jyo": [
+            {
+                "@value": "第3條",
+                "is_public": true,
+                "property_id": 363,
+                "property_label": "條",
+                "type": "literal"
+            }
+        ],
+        "koumin:mark": [
+            {
+                "@value": "乙5-962(49-19)",
+                "is_public": true,
+                "property_id": 362,
+                "property_label": "標点本",
+                "type": "literal"
+            }
+        ],
+        "koumin:moku": [
+            {
+                "@value": "造作不如法",
+                "is_public": true,
+                "property_id": 364,
+                "property_label": "目",
+                "type": "literal"
+            }
+        ],
+        "koumin:rui": [
+            {
+                "@value": "工部類",
+                "is_public": true,
+                "property_id": 365,
+                "property_label": "類",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleA": [
+            {
+                "@value": "成造軍器不堪拏問經該官旗追賠例",
+                "is_public": true,
+                "property_id": 357,
+                "property_label": "Title A",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleB": [
+            {
+                "@value": "成造軍器不堪拏問經該官旗追陪例",
+                "is_public": true,
+                "property_id": 358,
+                "property_label": "Title B",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleC": [
+            {
+                "@value": "成造軍器不堪拏問經該官旗追賠例",
+                "is_public": true,
+                "property_id": 359,
+                "property_label": "Title C",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleD": [
+            {
+                "@value": "成造軍器不堪拏問經該官旗追陪例",
+                "is_public": true,
+                "property_id": 360,
+                "property_label": "Title D",
+                "type": "literal"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2018-07-10T06:14:48+00:00"
+        },
+        "o:id": 100563,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
+                "o:id": 99285
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100591",
+                "o:id": 100591
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100592",
+                "o:id": 100592
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100593",
+                "o:id": 100593
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2019-03-04T16:04:08+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+            "o:id": 26
+        },
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
+            "o:id": 15
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100563",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "皇明條法事類纂デジタルアーカイブ",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4df6fae5-489a-435e-8de1-a7775c167d76/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
@@ -55135,14 +54565,14 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100217",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100551",
         "@type": [
             "o:Item",
             "dctype:Image"
         ],
         "bibo:identifier": [
             {
-                "@value": "27391eae-8323-4e7c-b0d5-13485b7c2da9",
+                "@value": "3f755b42-f1b0-4ec6-a2ca-c1a7073bc779",
                 "is_public": true,
                 "property_id": 98,
                 "property_label": "identifier",
@@ -55151,7 +54581,7 @@
         ],
         "bibo:numVolumes": [
             {
-                "@value": "第7冊",
+                "@value": "第10冊",
                 "is_public": true,
                 "property_id": 107,
                 "property_label": "number of volumes",
@@ -55160,7 +54590,7 @@
         ],
         "bibo:volume": [
             {
-                "@value": "卷34",
+                "@value": "卷49",
                 "is_public": true,
                 "property_id": 122,
                 "property_label": "volume",
@@ -55169,7 +54599,7 @@
         ],
         "dcndl:callNumber": [
             {
-                "@value": "A00:6290:7",
+                "@value": "A00:6290:10",
                 "is_public": true,
                 "property_id": 239,
                 "property_label": "Call Number",
@@ -55178,7 +54608,7 @@
         ],
         "dcterms:created": [
             {
-                "@value": "1490-010-99",
+                "@value": "1467-110-18",
                 "is_public": true,
                 "property_id": 20,
                 "property_label": "Date Created",
@@ -55187,7 +54617,7 @@
         ],
         "dcterms:date": [
             {
-                "@value": "弘治3.10",
+                "@value": "成化3.11.18",
                 "is_public": true,
                 "property_id": 7,
                 "property_label": "Date",
@@ -55196,7 +54626,7 @@
         ],
         "dcterms:identifier": [
             {
-                "@value": "0034-00039",
+                "@value": "0049-00016",
                 "is_public": true,
                 "property_id": 10,
                 "property_label": "Identifier",
@@ -55214,7 +54644,7 @@
         ],
         "dcterms:relation": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/27391eae-8323-4e7c-b0d5-13485b7c2da9",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/3f755b42-f1b0-4ec6-a2ca-c1a7073bc779",
                 "is_public": true,
                 "property_id": 13,
                 "property_label": "Relation",
@@ -55233,7 +54663,7 @@
         ],
         "dcterms:title": [
             {
-                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號奏請定奪",
+                "@value": "申明採燒柴炭夫甲包攬刁撥之徒告管工官送該廠査勘例",
                 "is_public": true,
                 "property_id": 1,
                 "property_label": "Title",
@@ -55242,7 +54672,7 @@
         ],
         "foaf:thumbnail": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3334d3b88aad2d8fb717741461157b9a93ac46d5.jpg",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/549183db805c5469db3a614912b258ce88f87823.jpg",
                 "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
@@ -55251,7 +54681,7 @@
         ],
         "koumin:facsimile": [
             {
-                "@value": "下-51下表",
+                "@value": "下-387下表",
                 "is_public": true,
                 "property_id": 361,
                 "property_label": "影印本",
@@ -55260,7 +54690,7 @@
         ],
         "koumin:jyo": [
             {
-                "@value": "第14條",
+                "@value": "第2條",
                 "is_public": true,
                 "property_id": 363,
                 "property_label": "條",
@@ -55269,7 +54699,7 @@
         ],
         "koumin:mark": [
             {
-                "@value": "乙5-363(34-14)",
+                "@value": "乙5-944(49-7)",
                 "is_public": true,
                 "property_id": 362,
                 "property_label": "標点本",
@@ -55278,7 +54708,7 @@
         ],
         "koumin:moku": [
             {
-                "@value": "白晝搶奪",
+                "@value": "費虛工力採取不堪用",
                 "is_public": true,
                 "property_id": 364,
                 "property_label": "目",
@@ -55287,7 +54717,7 @@
         ],
         "koumin:rui": [
             {
-                "@value": "刑部類",
+                "@value": "工部類",
                 "is_public": true,
                 "property_id": 365,
                 "property_label": "類",
@@ -55296,7 +54726,7 @@
         ],
         "koumin:titleA": [
             {
-                "@value": "各處喇虎照兩京喇虎事[例]問發充軍爲民守哨枷號及奏請定奪/前件弘治三年十月內陳言革弊事",
+                "@value": "申明採燒柴炭夫甲包攬刁潑之徒告管工官吏送該廠査勘例",
                 "is_public": true,
                 "property_id": 357,
                 "property_label": "Title A",
@@ -55305,7 +54735,7 @@
         ],
         "koumin:titleB": [
             {
-                "@value": "各處喇虎照兩京喇虎事問發充軍爲民守哨枷號及奏請定奪/前件弘治三年十月內陳言革弊事",
+                "@value": "申明採燒柴炭夫甲包攬刁潑之徒告管工官吏送該廠査勘例",
                 "is_public": true,
                 "property_id": 358,
                 "property_label": "Title B",
@@ -55314,7 +54744,7 @@
         ],
         "koumin:titleC": [
             {
-                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號[及]奏請定奪",
+                "@value": "申明探燒柴炭夫甲包攬刁(撥)[潑]之徒告管工官[吏]送該廠査勘例",
                 "is_public": true,
                 "property_id": 359,
                 "property_label": "Title C",
@@ -55323,7 +54753,7 @@
         ],
         "koumin:titleD": [
             {
-                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號奏請定奪",
+                "@value": "申明採燒柴炭夫甲包攬刁撥之徒告管工官送該廠査勘例",
                 "is_public": true,
                 "property_id": 360,
                 "property_label": "Title D",
@@ -55332,9 +54762,9 @@
         ],
         "o:created": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:07:02+00:00"
+            "@value": "2018-07-10T06:14:29+00:00"
         },
-        "o:id": 100217,
+        "o:id": 100551,
         "o:is_public": true,
         "o:item_set": [
             {
@@ -55344,17 +54774,21 @@
         ],
         "o:media": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/102138",
-                "o:id": 102138
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103413",
+                "o:id": 103413
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/102139",
-                "o:id": 102139
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103414",
+                "o:id": 103414
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/103415",
+                "o:id": 103415
             }
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T15:55:39+00:00"
+            "@value": "2019-03-04T16:04:08+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -55371,7 +54805,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100217",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100551",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -55398,7 +54832,7 @@
         ],
         "uterms:manifestUri": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/27391eae-8323-4e7c-b0d5-13485b7c2da9/manifest",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3f755b42-f1b0-4ec6-a2ca-c1a7073bc779/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
@@ -101410,14 +100844,14 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100050",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100384",
         "@type": [
             "o:Item",
             "dctype:Image"
         ],
         "bibo:identifier": [
             {
-                "@value": "800a3512-3143-44a2-a984-ed98f707dfca",
+                "@value": "34f42a6f-542f-443a-aaba-3d086075591b",
                 "is_public": true,
                 "property_id": 98,
                 "property_label": "identifier",
@@ -101426,7 +100860,7 @@
         ],
         "bibo:numVolumes": [
             {
-                "@value": "第12冊(不分巻-6)",
+                "@value": "第9冊",
                 "is_public": true,
                 "property_id": 107,
                 "property_label": "number of volumes",
@@ -101435,7 +100869,7 @@
         ],
         "bibo:volume": [
             {
-                "@value": "卷27",
+                "@value": "卷41",
                 "is_public": true,
                 "property_id": 122,
                 "property_label": "volume",
@@ -101444,7 +100878,7 @@
         ],
         "dcndl:callNumber": [
             {
-                "@value": "A00:6290:12",
+                "@value": "A00:6290:9",
                 "is_public": true,
                 "property_id": 239,
                 "property_label": "Call Number",
@@ -101453,7 +100887,7 @@
         ],
         "dcterms:created": [
             {
-                "@value": "1490-070-01",
+                "@value": "1475-110-26",
                 "is_public": true,
                 "property_id": 20,
                 "property_label": "Date Created",
@@ -101462,7 +100896,7 @@
         ],
         "dcterms:date": [
             {
-                "@value": "弘治3.7.1",
+                "@value": "成化11.11.26",
                 "is_public": true,
                 "property_id": 7,
                 "property_label": "Date",
@@ -101471,7 +100905,7 @@
         ],
         "dcterms:identifier": [
             {
-                "@value": "9906-00041",
+                "@value": "0041-00025",
                 "is_public": true,
                 "property_id": 10,
                 "property_label": "Identifier",
@@ -101489,7 +100923,7 @@
         ],
         "dcterms:relation": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/800a3512-3143-44a2-a984-ed98f707dfca",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/34f42a6f-542f-443a-aaba-3d086075591b",
                 "is_public": true,
                 "property_id": 13,
                 "property_label": "Relation",
@@ -101508,7 +100942,7 @@
         ],
         "dcterms:title": [
             {
-                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "@value": "通行在外大小衙門不許勸借出粟賑濟",
                 "is_public": true,
                 "property_id": 1,
                 "property_label": "Title",
@@ -101517,7 +100951,7 @@
         ],
         "foaf:thumbnail": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22c2451648e94090b08e10858a4bcea5b0ef946b.jpg",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/12fb94cec72753c8a96aa8b2bfc2149db9852f6a.jpg",
                 "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
@@ -101526,7 +100960,7 @@
         ],
         "koumin:facsimile": [
             {
-                "@value": "下-557上表",
+                "@value": "下-225上表",
                 "is_public": true,
                 "property_id": 361,
                 "property_label": "影印本",
@@ -101535,7 +100969,7 @@
         ],
         "koumin:jyo": [
             {
-                "@value": "第30條",
+                "@value": "第4條",
                 "is_public": true,
                 "property_id": 363,
                 "property_label": "條",
@@ -101544,7 +100978,7 @@
         ],
         "koumin:mark": [
             {
-                "@value": "乙6-187(附-103)",
+                "@value": "乙5-658(41-13)",
                 "is_public": true,
                 "property_id": 362,
                 "property_label": "標点本",
@@ -101553,7 +100987,7 @@
         ],
         "koumin:moku": [
             {
-                "@value": "從征守禦官軍逃",
+                "@value": "因公擅入科斂(因八科斂)",
                 "is_public": true,
                 "property_id": 364,
                 "property_label": "目",
@@ -101562,7 +100996,7 @@
         ],
         "koumin:rui": [
             {
-                "@value": "兵部類",
+                "@value": "刑部類",
                 "is_public": true,
                 "property_id": 365,
                 "property_label": "類",
@@ -101571,7 +101005,7 @@
         ],
         "koumin:titleA": [
             {
-                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號/前件弘治三年七月初一日傅(傳)報夷情事",
+                "@value": "通行在外大小衙門不許勸借出粟賑濟/前件成化十一年十一月二十六日陳言事",
                 "is_public": true,
                 "property_id": 357,
                 "property_label": "Title A",
@@ -101580,7 +101014,7 @@
         ],
         "koumin:titleB": [
             {
-                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號/前件弘治三年七月初一日愽報夷情事",
+                "@value": "通行在外大小衙門不許勸借出粟賑濟/前件成化十一年十一月二十六日陳言事",
                 "is_public": true,
                 "property_id": 358,
                 "property_label": "Title B",
@@ -101589,7 +101023,7 @@
         ],
         "koumin:titleC": [
             {
-                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "@value": "通行在外大小衙門不許勸借出粟賑濟",
                 "is_public": true,
                 "property_id": 359,
                 "property_label": "Title C",
@@ -101598,7 +101032,7 @@
         ],
         "koumin:titleD": [
             {
-                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "@value": "通行在外大小衙門不許勸借出粟賑濟",
                 "is_public": true,
                 "property_id": 360,
                 "property_label": "Title D",
@@ -101607,9 +101041,9 @@
         ],
         "o:created": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:04:22+00:00"
+            "@value": "2018-07-10T06:10:26+00:00"
         },
-        "o:id": 100050,
+        "o:id": 100384,
         "o:is_public": true,
         "o:item_set": [
             {
@@ -101619,53 +101053,37 @@
         ],
         "o:media": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101558",
-                "o:id": 101558
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100923",
+                "o:id": 100923
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101559",
-                "o:id": 101559
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100924",
+                "o:id": 100924
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101560",
-                "o:id": 101560
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100925",
+                "o:id": 100925
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101561",
-                "o:id": 101561
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100926",
+                "o:id": 100926
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101562",
-                "o:id": 101562
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100927",
+                "o:id": 100927
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101563",
-                "o:id": 101563
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100928",
+                "o:id": 100928
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101564",
-                "o:id": 101564
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101565",
-                "o:id": 101565
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101566",
-                "o:id": 101566
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101567",
-                "o:id": 101567
-            },
-            {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101568",
-                "o:id": 101568
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100929",
+                "o:id": 100929
             }
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T15:52:23+00:00"
+            "@value": "2019-03-04T15:58:57+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -101682,7 +101100,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100050",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100384",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -101709,7 +101127,7 @@
         ],
         "uterms:manifestUri": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/800a3512-3143-44a2-a984-ed98f707dfca/manifest",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/34f42a6f-542f-443a-aaba-3d086075591b/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
@@ -147260,14 +146678,14 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99883",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100217",
         "@type": [
             "o:Item",
             "dctype:Image"
         ],
         "bibo:identifier": [
             {
-                "@value": "32dc5407-6979-4d82-83eb-91fc3d8d11a6",
+                "@value": "27391eae-8323-4e7c-b0d5-13485b7c2da9",
                 "is_public": true,
                 "property_id": 98,
                 "property_label": "identifier",
@@ -147276,7 +146694,7 @@
         ],
         "bibo:numVolumes": [
             {
-                "@value": "第5冊",
+                "@value": "第7冊",
                 "is_public": true,
                 "property_id": 107,
                 "property_label": "number of volumes",
@@ -147285,7 +146703,7 @@
         ],
         "bibo:volume": [
             {
-                "@value": "卷21",
+                "@value": "卷34",
                 "is_public": true,
                 "property_id": 122,
                 "property_label": "volume",
@@ -147294,7 +146712,7 @@
         ],
         "dcndl:callNumber": [
             {
-                "@value": "A00:6290:5",
+                "@value": "A00:6290:7",
                 "is_public": true,
                 "property_id": 239,
                 "property_label": "Call Number",
@@ -147303,7 +146721,7 @@
         ],
         "dcterms:created": [
             {
-                "@value": "1482-020-16",
+                "@value": "1490-010-99",
                 "is_public": true,
                 "property_id": 20,
                 "property_label": "Date Created",
@@ -147312,7 +146730,7 @@
         ],
         "dcterms:date": [
             {
-                "@value": "成化18.2.16",
+                "@value": "弘治3.10",
                 "is_public": true,
                 "property_id": 7,
                 "property_label": "Date",
@@ -147321,7 +146739,7 @@
         ],
         "dcterms:identifier": [
             {
-                "@value": "0021-00025",
+                "@value": "0034-00039",
                 "is_public": true,
                 "property_id": 10,
                 "property_label": "Identifier",
@@ -147339,16 +146757,26 @@
         ],
         "dcterms:relation": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/32dc5407-6979-4d82-83eb-91fc3d8d11a6",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/27391eae-8323-4e7c-b0d5-13485b7c2da9",
                 "is_public": true,
                 "property_id": 13,
                 "property_label": "Relation",
                 "type": "uri"
             }
         ],
+        "dcterms:rights": [
+            {
+                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "is_public": true,
+                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
         "dcterms:title": [
             {
-                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號奏請定奪",
                 "is_public": true,
                 "property_id": 1,
                 "property_label": "Title",
@@ -147357,7 +146785,7 @@
         ],
         "foaf:thumbnail": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5f8d43c98c5b572968ec18acc235eb14a8e3bd4e.jpg",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3334d3b88aad2d8fb717741461157b9a93ac46d5.jpg",
                 "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
@@ -147366,7 +146794,7 @@
         ],
         "koumin:facsimile": [
             {
-                "@value": "上-534上表",
+                "@value": "下-51下表",
                 "is_public": true,
                 "property_id": 361,
                 "property_label": "影印本",
@@ -147375,7 +146803,7 @@
         ],
         "koumin:jyo": [
             {
-                "@value": "第11條",
+                "@value": "第14條",
                 "is_public": true,
                 "property_id": 363,
                 "property_label": "條",
@@ -147384,7 +146812,7 @@
         ],
         "koumin:mark": [
             {
-                "@value": "乙4-936(21-12)",
+                "@value": "乙5-363(34-14)",
                 "is_public": true,
                 "property_id": 362,
                 "property_label": "標点本",
@@ -147393,7 +146821,7 @@
         ],
         "koumin:moku": [
             {
-                "@value": "失儀",
+                "@value": "白晝搶奪",
                 "is_public": true,
                 "property_id": 364,
                 "property_label": "目",
@@ -147402,7 +146830,7 @@
         ],
         "koumin:rui": [
             {
-                "@value": "禮部類",
+                "@value": "刑部類",
                 "is_public": true,
                 "property_id": 365,
                 "property_label": "類",
@@ -147411,7 +146839,7 @@
         ],
         "koumin:titleA": [
             {
-                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺[序]座例",
+                "@value": "各處喇虎照兩京喇虎事[例]問發充軍爲民守哨枷號及奏請定奪/前件弘治三年十月內陳言革弊事",
                 "is_public": true,
                 "property_id": 357,
                 "property_label": "Title A",
@@ -147420,7 +146848,7 @@
         ],
         "koumin:titleB": [
             {
-                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺座例",
+                "@value": "各處喇虎照兩京喇虎事問發充軍爲民守哨枷號及奏請定奪/前件弘治三年十月內陳言革弊事",
                 "is_public": true,
                 "property_id": 358,
                 "property_label": "Title B",
@@ -147429,7 +146857,7 @@
         ],
         "koumin:titleC": [
             {
-                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號[及]奏請定奪",
                 "is_public": true,
                 "property_id": 359,
                 "property_label": "Title C",
@@ -147438,7 +146866,7 @@
         ],
         "koumin:titleD": [
             {
-                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "@value": "各處喇虎照兩京喇虎事例問發充軍爲民守哨枷號奏請定奪",
                 "is_public": true,
                 "property_id": 360,
                 "property_label": "Title D",
@@ -147447,9 +146875,9 @@
         ],
         "o:created": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2018-07-10T06:02:16+00:00"
+            "@value": "2018-07-10T06:07:02+00:00"
         },
-        "o:id": 99883,
+        "o:id": 100217,
         "o:is_public": true,
         "o:item_set": [
             {
@@ -147459,17 +146887,17 @@
         ],
         "o:media": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100879",
-                "o:id": 100879
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/102138",
+                "o:id": 102138
             },
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100880",
-                "o:id": 100880
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/102139",
+                "o:id": 102139
             }
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2019-03-04T15:43:06+00:00"
+            "@value": "2019-03-04T15:55:39+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -147486,7 +146914,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99883",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100217",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -147513,7 +146941,7 @@
         ],
         "uterms:manifestUri": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/32dc5407-6979-4d82-83eb-91fc3d8d11a6/manifest",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/27391eae-8323-4e7c-b0d5-13485b7c2da9/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
@@ -192830,6 +192258,315 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100050",
+        "@type": [
+            "o:Item",
+            "dctype:Image"
+        ],
+        "bibo:identifier": [
+            {
+                "@value": "800a3512-3143-44a2-a984-ed98f707dfca",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "bibo:numVolumes": [
+            {
+                "@value": "第12冊(不分巻-6)",
+                "is_public": true,
+                "property_id": 107,
+                "property_label": "number of volumes",
+                "type": "literal"
+            }
+        ],
+        "bibo:volume": [
+            {
+                "@value": "卷27",
+                "is_public": true,
+                "property_id": 122,
+                "property_label": "volume",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A00:6290:12",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:created": [
+            {
+                "@value": "1490-070-01",
+                "is_public": true,
+                "property_id": 20,
+                "property_label": "Date Created",
+                "type": "literal"
+            }
+        ],
+        "dcterms:date": [
+            {
+                "@value": "弘治3.7.1",
+                "is_public": true,
+                "property_id": 7,
+                "property_label": "Date",
+                "type": "literal"
+            }
+        ],
+        "dcterms:identifier": [
+            {
+                "@value": "9906-00041",
+                "is_public": true,
+                "property_id": 10,
+                "property_label": "Identifier",
+                "type": "literal"
+            }
+        ],
+        "dcterms:isPartOf": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
+                "is_public": true,
+                "property_id": 33,
+                "property_label": "Is Part Of",
+                "type": "uri"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/800a3512-3143-44a2-a984-ed98f707dfca",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:rights": [
+            {
+                "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "is_public": true,
+                "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+                "property_id": 15,
+                "property_label": "Rights",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/22c2451648e94090b08e10858a4bcea5b0ef946b.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "koumin:facsimile": [
+            {
+                "@value": "下-557上表",
+                "is_public": true,
+                "property_id": 361,
+                "property_label": "影印本",
+                "type": "literal"
+            }
+        ],
+        "koumin:jyo": [
+            {
+                "@value": "第30條",
+                "is_public": true,
+                "property_id": 363,
+                "property_label": "條",
+                "type": "literal"
+            }
+        ],
+        "koumin:mark": [
+            {
+                "@value": "乙6-187(附-103)",
+                "is_public": true,
+                "property_id": 362,
+                "property_label": "標点本",
+                "type": "literal"
+            }
+        ],
+        "koumin:moku": [
+            {
+                "@value": "從征守禦官軍逃",
+                "is_public": true,
+                "property_id": 364,
+                "property_label": "目",
+                "type": "literal"
+            }
+        ],
+        "koumin:rui": [
+            {
+                "@value": "兵部類",
+                "is_public": true,
+                "property_id": 365,
+                "property_label": "類",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleA": [
+            {
+                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號/前件弘治三年七月初一日傅(傳)報夷情事",
+                "is_public": true,
+                "property_id": 357,
+                "property_label": "Title A",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleB": [
+            {
+                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號/前件弘治三年七月初一日愽報夷情事",
+                "is_public": true,
+                "property_id": 358,
+                "property_label": "Title B",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleC": [
+            {
+                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "is_public": true,
+                "property_id": 359,
+                "property_label": "Title C",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleD": [
+            {
+                "@value": "輪操官軍匠役在逃三次調衞窩主問罪枷號",
+                "is_public": true,
+                "property_id": 360,
+                "property_label": "Title D",
+                "type": "literal"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2018-07-10T06:04:22+00:00"
+        },
+        "o:id": 100050,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
+                "o:id": 99285
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101558",
+                "o:id": 101558
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101559",
+                "o:id": 101559
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101560",
+                "o:id": 101560
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101561",
+                "o:id": 101561
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101562",
+                "o:id": 101562
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101563",
+                "o:id": 101563
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101564",
+                "o:id": 101564
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101565",
+                "o:id": 101565
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101566",
+                "o:id": 101566
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101567",
+                "o:id": 101567
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/101568",
+                "o:id": 101568
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2019-03-04T15:52:23+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+            "o:id": 26
+        },
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
+            "o:id": 15
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/100050",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "皇明條法事類纂デジタルアーカイブ",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/800a3512-3143-44a2-a984-ed98f707dfca/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    },
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99869",
         "@type": [
             "o:Item",
@@ -196543,6 +196280,269 @@
         "uterms:manifestUri": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/3137b2fa-35f3-424e-9a6c-c4982eb6e3ad/manifest",
+                "is_public": true,
+                "property_id": 353,
+                "property_label": "Manifest Uri",
+                "type": "uri"
+            }
+        ]
+    },
+    {
+        "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99883",
+        "@type": [
+            "o:Item",
+            "dctype:Image"
+        ],
+        "bibo:identifier": [
+            {
+                "@value": "32dc5407-6979-4d82-83eb-91fc3d8d11a6",
+                "is_public": true,
+                "property_id": 98,
+                "property_label": "identifier",
+                "type": "literal"
+            }
+        ],
+        "bibo:numVolumes": [
+            {
+                "@value": "第5冊",
+                "is_public": true,
+                "property_id": 107,
+                "property_label": "number of volumes",
+                "type": "literal"
+            }
+        ],
+        "bibo:volume": [
+            {
+                "@value": "卷21",
+                "is_public": true,
+                "property_id": 122,
+                "property_label": "volume",
+                "type": "literal"
+            }
+        ],
+        "dcndl:callNumber": [
+            {
+                "@value": "A00:6290:5",
+                "is_public": true,
+                "property_id": 239,
+                "property_label": "Call Number",
+                "type": "literal"
+            }
+        ],
+        "dcterms:created": [
+            {
+                "@value": "1482-020-16",
+                "is_public": true,
+                "property_id": 20,
+                "property_label": "Date Created",
+                "type": "literal"
+            }
+        ],
+        "dcterms:date": [
+            {
+                "@value": "成化18.2.16",
+                "is_public": true,
+                "property_id": 7,
+                "property_label": "Date",
+                "type": "literal"
+            }
+        ],
+        "dcterms:identifier": [
+            {
+                "@value": "0021-00025",
+                "is_public": true,
+                "property_id": 10,
+                "property_label": "Identifier",
+                "type": "literal"
+            }
+        ],
+        "dcterms:isPartOf": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin",
+                "is_public": true,
+                "property_id": 33,
+                "property_label": "Is Part Of",
+                "type": "uri"
+            }
+        ],
+        "dcterms:relation": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/koumin/document/32dc5407-6979-4d82-83eb-91fc3d8d11a6",
+                "is_public": true,
+                "property_id": 13,
+                "property_label": "Relation",
+                "type": "uri"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "is_public": true,
+                "property_id": 1,
+                "property_label": "Title",
+                "type": "literal"
+            }
+        ],
+        "foaf:thumbnail": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5f8d43c98c5b572968ec18acc235eb14a8e3bd4e.jpg",
+                "is_public": true,
+                "property_id": 157,
+                "property_label": "thumbnail",
+                "type": "uri"
+            }
+        ],
+        "koumin:facsimile": [
+            {
+                "@value": "上-534上表",
+                "is_public": true,
+                "property_id": 361,
+                "property_label": "影印本",
+                "type": "literal"
+            }
+        ],
+        "koumin:jyo": [
+            {
+                "@value": "第11條",
+                "is_public": true,
+                "property_id": 363,
+                "property_label": "條",
+                "type": "literal"
+            }
+        ],
+        "koumin:mark": [
+            {
+                "@value": "乙4-936(21-12)",
+                "is_public": true,
+                "property_id": 362,
+                "property_label": "標点本",
+                "type": "literal"
+            }
+        ],
+        "koumin:moku": [
+            {
+                "@value": "失儀",
+                "is_public": true,
+                "property_id": 364,
+                "property_label": "目",
+                "type": "literal"
+            }
+        ],
+        "koumin:rui": [
+            {
+                "@value": "禮部類",
+                "is_public": true,
+                "property_id": 365,
+                "property_label": "類",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleA": [
+            {
+                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺[序]座例",
+                "is_public": true,
+                "property_id": 357,
+                "property_label": "Title A",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleB": [
+            {
+                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺座例",
+                "is_public": true,
+                "property_id": 358,
+                "property_label": "Title B",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleC": [
+            {
+                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "is_public": true,
+                "property_id": 359,
+                "property_label": "Title C",
+                "type": "literal"
+            }
+        ],
+        "koumin:titleD": [
+            {
+                "@value": "佐貳官品級相等者不分額設添設俱照歷任深淺序座例",
+                "is_public": true,
+                "property_id": 360,
+                "property_label": "Title D",
+                "type": "literal"
+            }
+        ],
+        "o:created": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2018-07-10T06:02:16+00:00"
+        },
+        "o:id": 99883,
+        "o:is_public": true,
+        "o:item_set": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/item_sets/99285",
+                "o:id": 99285
+            }
+        ],
+        "o:media": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100879",
+                "o:id": 100879
+            },
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/100880",
+                "o:id": 100880
+            }
+        ],
+        "o:modified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2019-03-04T15:43:06+00:00"
+        },
+        "o:owner": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_classes/26",
+            "o:id": 26
+        },
+        "o:resource_template": {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/resource_templates/15",
+            "o:id": 15
+        },
+        "o:thumbnail": null,
+        "rdfs:seeAlso": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/99883",
+                "is_public": true,
+                "property_id": 282,
+                "property_label": "seeAlso",
+                "type": "uri"
+            }
+        ],
+        "sc:attributionLabel": [
+            {
+                "@value": "東京大学総合図書館 General Library in the University of Tokyo, JAPAN",
+                "is_public": true,
+                "property_id": 190,
+                "property_label": "attributionLabel",
+                "type": "literal"
+            }
+        ],
+        "uterms:databaseLabel": [
+            {
+                "@value": "皇明條法事類纂デジタルアーカイブ",
+                "is_public": true,
+                "property_id": 354,
+                "property_label": "Database Label",
+                "type": "literal"
+            }
+        ],
+        "uterms:manifestUri": [
+            {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/32dc5407-6979-4d82-83eb-91fc3d8d11a6/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
