@@ -19379,7 +19379,7 @@
     },
     {
         "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1380118",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1380272",
         "@type": "o:Item",
         "bibo:identifier": [
             {
@@ -19433,9 +19433,18 @@
                 "type": "literal"
             }
         ],
+        "dcterms:date": [
+            {
+                "@value": "1926年以前",
+                "is_public": true,
+                "property_id": 7,
+                "property_label": "Date",
+                "type": "literal"
+            }
+        ],
         "dcterms:description": [
             {
-                "@value": "解説: 掲載:  シーボルト先生が帰国の時、高良齋に與へし薬厨（高壯吉君藏）--『シーボルト先生 : 其生涯及功業』 第百九十九図",
+                "@value": "解説: 掲載: シーボルト先生が帰国の時、高良齋に與へし薬厨（高壯吉君藏）--『シーボルト先生 : 其生涯及功業』 第百九十九図",
                 "is_public": true,
                 "property_id": 4,
                 "property_label": "Description",
@@ -19481,15 +19490,6 @@
                 "type": "uri"
             }
         ],
-        "dcterms:issued": [
-            {
-                "@value": "1926年以前",
-                "is_public": true,
-                "property_id": 23,
-                "property_label": "Date Issued",
-                "type": "literal"
-            }
-        ],
         "dcterms:relation": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/medlib/document/4d96e467-9f7f-48fc-510e-34ebc4e33d9b",
@@ -19519,7 +19519,7 @@
         ],
         "foaf:thumbnail": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/19c851d97555999d7e0bd0be22b621bfd1d657d0.jpg",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a72d5843e862d1ae6141735255e5a84595c1aac9.jpg",
                 "is_public": true,
                 "property_id": 157,
                 "property_label": "thumbnail",
@@ -19528,9 +19528,9 @@
         ],
         "o:created": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-09-21T04:34:36+00:00"
+            "@value": "2023-09-28T02:41:08+00:00"
         },
-        "o:id": 1380118,
+        "o:id": 1380272,
         "o:is_public": true,
         "o:item_set": [
             {
@@ -19540,13 +19540,13 @@
         ],
         "o:media": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/1380271",
-                "o:id": 1380271
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/media/1380273",
+                "o:id": 1380273
             }
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-09-22T04:22:54+00:00"
+            "@value": "2023-09-28T02:55:30+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/14",
@@ -19560,7 +19560,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1380118",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1380272",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -19574,15 +19574,6 @@
                 "property_id": 190,
                 "property_label": "attributionLabel",
                 "type": "literal"
-            }
-        ],
-        "sc:viewingDirection": [
-            {
-                "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
-                "is_public": true,
-                "property_id": 198,
-                "property_label": "viewingDirection",
-                "type": "uri"
             }
         ],
         "uterms:databaseLabel": [
