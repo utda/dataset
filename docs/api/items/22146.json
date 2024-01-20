@@ -67,11 +67,11 @@
     ],
     "dcterms:isPartOf": [
         {
-            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/lawlib/",
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "literal"
+            "type": "uri"
         }
     ],
     "dcterms:language": [
@@ -94,18 +94,17 @@
     ],
     "dcterms:relation": [
         {
-            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/lawlib/document/a1a320db-682a-4846-b99f-9414f6a17a2c",
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/a1a320db-682a-4846-b99f-9414f6a17a2c",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "literal"
+            "type": "uri"
         }
     ],
     "dcterms:rights": [
         {
             "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
             "is_public": true,
-            "o:label": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
             "property_id": 15,
             "property_label": "Rights",
             "type": "uri"
@@ -404,7 +403,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-03-31T10:00:05+00:00"
+        "@value": "2024-01-15T01:30:13+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
@@ -420,7 +419,6 @@
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22146",
             "is_public": true,
-            "o:label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22146",
             "property_id": 282,
             "property_label": "seeAlso",
             "type": "uri"
@@ -428,16 +426,25 @@
     ],
     "sc:attributionLabel": [
         {
-            "@value": "東京大学法学部研究室図書室 Graduate Schools for Law and Politics / Faculty of Law Library, The University of Tokyo, JAPAN",
+            "@value": "東京大学法学部研究室図書室法制史資料室 Legal History Section, Faculty of Law Library, The University of Tokyo, JAPAN",
             "is_public": true,
             "property_id": 190,
             "property_label": "attributionLabel",
             "type": "literal"
         }
     ],
+    "sc:viewingDirection": [
+        {
+            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
+            "is_public": true,
+            "property_id": 198,
+            "property_label": "viewingDirection",
+            "type": "uri"
+        }
+    ],
     "uterms:databaseLabel": [
         {
-            "@value": "東京大学法学部研究室図書室所蔵コレクション",
+            "@value": "東京大学法学部法制史資料室所蔵コレクション",
             "is_public": true,
             "property_id": 354,
             "property_label": "Database Label",

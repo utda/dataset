@@ -49,11 +49,11 @@
     ],
     "dcterms:isPartOf": [
         {
-            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/",
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law",
             "is_public": true,
             "property_id": 33,
             "property_label": "Is Part Of",
-            "type": "literal"
+            "type": "uri"
         }
     ],
     "dcterms:language": [
@@ -67,11 +67,20 @@
     ],
     "dcterms:relation": [
         {
-            "@value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/39bca437-878a-a2ae-a1ed-4ca04a8c8852",
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law/document/39bca437-878a-a2ae-a1ed-4ca04a8c8852",
             "is_public": true,
             "property_id": 13,
             "property_label": "Relation",
-            "type": "literal"
+            "type": "uri"
+        }
+    ],
+    "dcterms:rights": [
+        {
+            "@id": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "is_public": true,
+            "property_id": 15,
+            "property_label": "Rights",
+            "type": "uri"
         }
     ],
     "dcterms:title": [
@@ -81,6 +90,15 @@
             "property_id": 1,
             "property_label": "Title",
             "type": "literal"
+        }
+    ],
+    "foaf:thumbnail": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fb7c7f8a2a2c384babf150bc08ce660af64e37fa.jpg",
+            "is_public": true,
+            "property_id": 157,
+            "property_label": "thumbnail",
+            "type": "uri"
         }
     ],
     "law:ad": [
@@ -678,7 +696,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-27T04:17:51+00:00"
+        "@value": "2024-01-15T01:35:51+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/10",
@@ -699,6 +717,15 @@
             "type": "literal"
         }
     ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/726657",
+            "is_public": true,
+            "property_id": 282,
+            "property_label": "seeAlso",
+            "type": "uri"
+        }
+    ],
     "sc:attributionLabel": [
         {
             "@value": "東京大学法学部研究室図書室法制史資料室 Legal History Section, Faculty of Law Library, The University of Tokyo, JAPAN",
@@ -708,6 +735,15 @@
             "type": "literal"
         }
     ],
+    "sc:viewingDirection": [
+        {
+            "@id": "http://iiif.io/api/presentation/2#rightToLeftDirection",
+            "is_public": true,
+            "property_id": 198,
+            "property_label": "viewingDirection",
+            "type": "uri"
+        }
+    ],
     "uterms:databaseLabel": [
         {
             "@value": "東京大学法学部法制史資料室所蔵コレクション",
@@ -715,6 +751,15 @@
             "property_id": 354,
             "property_label": "Database Label",
             "type": "literal"
+        }
+    ],
+    "uterms:manifestUri": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/39bca437-878a-a2ae-a1ed-4ca04a8c8852/manifest",
+            "is_public": true,
+            "property_id": 353,
+            "property_label": "Manifest Uri",
+            "type": "uri"
         }
     ],
     "uterms:sort": [
