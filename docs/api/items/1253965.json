@@ -2,6 +2,15 @@
     "@context": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api-context",
     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/1253965",
     "@type": "o:Item",
+    "archiveshub:item": [
+        {
+            "@value": "中世沽券状など貼り交ぜ",
+            "is_public": true,
+            "property_id": 349,
+            "property_label": "Item",
+            "type": "literal"
+        }
+    ],
     "bibo:identifier": [
         {
             "@value": "acc4ce14-2a52-365b-4ab5-b26e69a8452f",
@@ -13,7 +22,7 @@
     ],
     "dcndl:callNumber": [
         {
-            "@value": "法制史-12",
+            "@value": "法制史::12",
             "is_public": true,
             "property_id": 239,
             "property_label": "Call Number",
@@ -26,6 +35,15 @@
             "is_public": true,
             "property_id": 219,
             "property_label": "Material Type",
+            "type": "literal"
+        }
+    ],
+    "dcndl:titleTranscription": [
+        {
+            "@value": "ウクフウジュノコト",
+            "is_public": true,
+            "property_id": 246,
+            "property_label": "Title Transcription",
             "type": "literal"
         }
     ],
@@ -130,7 +148,7 @@
     ],
     "law:collection3": [
         {
-            "@value": "中世沽券状など貼り交ぜ",
+            "@value": "売券類",
             "is_public": true,
             "property_id": 541,
             "property_label": "コレクション3",
@@ -152,6 +170,15 @@
             "is_public": true,
             "property_id": 567,
             "property_label": "地域/Region",
+            "type": "literal"
+        }
+    ],
+    "law:sashidashinin1": [
+        {
+            "@value": "弟子大僧正某（判読できず）",
+            "is_public": true,
+            "property_id": 528,
+            "property_label": "差出人1",
             "type": "literal"
         }
     ],
@@ -183,7 +210,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-27T03:14:30+00:00"
+        "@value": "2024-01-25T04:01:10+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
@@ -233,7 +260,7 @@
     ],
     "uterms:databaseLabel": [
         {
-            "@value": "東京大学法学部法制史資料室所蔵コレクション",
+            "@value": "東京大学法学部研究室図書室法制史資料室所蔵コレクション",
             "is_public": true,
             "property_id": 354,
             "property_label": "Database Label",
