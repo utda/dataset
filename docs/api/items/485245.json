@@ -29,6 +29,24 @@
             "type": "literal"
         }
     ],
+    "dcndl:materialType": [
+        {
+            "@value": "和古書",
+            "is_public": true,
+            "property_id": 219,
+            "property_label": "Material Type",
+            "type": "literal"
+        }
+    ],
+    "dcndl:titleTranscription": [
+        {
+            "@value": "ダイ90チョウ KO16-325-90",
+            "is_public": true,
+            "property_id": 246,
+            "property_label": "Title Transcription",
+            "type": "literal"
+        }
+    ],
     "dcterms:isPartOf": [
         {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/law",
@@ -36,6 +54,15 @@
             "property_id": 33,
             "property_label": "Is Part Of",
             "type": "uri"
+        }
+    ],
+    "dcterms:language": [
+        {
+            "@value": "日本語",
+            "is_public": true,
+            "property_id": 12,
+            "property_label": "Language",
+            "type": "literal"
         }
     ],
     "dcterms:relation": [
@@ -116,6 +143,15 @@
             "is_public": true,
             "property_id": 571,
             "property_label": "年次",
+            "type": "literal"
+        }
+    ],
+    "law:region": [
+        {
+            "@value": "日本",
+            "is_public": true,
+            "property_id": 567,
+            "property_label": "地域/Region",
             "type": "literal"
         }
     ],
@@ -233,7 +269,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-25T05:53:00+00:00"
+        "@value": "2024-01-30T08:03:32+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",

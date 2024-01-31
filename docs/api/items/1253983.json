@@ -49,14 +49,14 @@
     ],
     "dcterms:date": [
         {
-            "@value": "発給年月（和暦）:[慶応4年]3月",
+            "@value": "発給年月(和暦):[慶応4年]3月",
             "is_public": true,
             "property_id": 7,
             "property_label": "Date",
             "type": "literal"
         },
         {
-            "@value": "掲示年月（和暦）:明治元年9月",
+            "@value": "掲示年月(和暦):明治元年9月",
             "is_public": true,
             "property_id": 7,
             "property_label": "Date",
@@ -87,6 +87,15 @@
             "is_public": true,
             "property_id": 12,
             "property_label": "Language",
+            "type": "literal"
+        }
+    ],
+    "dcterms:provenance": [
+        {
+            "@value": "昭和5年6月10日. 納本者: 三ツ橋",
+            "is_public": true,
+            "property_id": 51,
+            "property_label": "Provenance",
             "type": "literal"
         }
     ],
@@ -144,14 +153,14 @@
     ],
     "law:ad": [
         {
-            "@value": "発給年月（和暦）:[1868.4]",
+            "@value": "発給年月(和暦):[1868.4]",
             "is_public": true,
             "property_id": 560,
             "property_label": "西暦/A.D.",
             "type": "literal"
         },
         {
-            "@value": "掲示年月\r\n（西暦）:[1868.10]",
+            "@value": "掲示年月(西暦):[1868.10]",
             "is_public": true,
             "property_id": 560,
             "property_label": "西暦/A.D.",
@@ -213,7 +222,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-25T05:53:01+00:00"
+        "@value": "2024-01-30T08:02:40+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
@@ -227,7 +236,7 @@
     "o:thumbnail": null,
     "rdfs:comment": [
         {
-            "@value": "昭和5年6月10日. 納本者: 三ツ橋. 一色村は同地名複数あり、国郡未詳",
+            "@value": "備考: 一色村は同地名複数あり、国郡未詳",
             "is_public": true,
             "property_id": 278,
             "property_label": "comment",

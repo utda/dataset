@@ -49,7 +49,7 @@
     ],
     "dcterms:date": [
         {
-            "@value": "発給年月（和暦）:[慶応4年]3月",
+            "@value": "発給年月(和暦):[慶応4年]3月",
             "is_public": true,
             "property_id": 7,
             "property_label": "Date",
@@ -80,6 +80,15 @@
             "is_public": true,
             "property_id": 12,
             "property_label": "Language",
+            "type": "literal"
+        }
+    ],
+    "dcterms:provenance": [
+        {
+            "@value": "昭和4年6月5日. 納本者: 三ツ橋.",
+            "is_public": true,
+            "property_id": 51,
+            "property_label": "Provenance",
             "type": "literal"
         }
     ],
@@ -130,7 +139,7 @@
     ],
     "law:ad": [
         {
-            "@value": "発給年月（和暦）:[1868.4]",
+            "@value": "発給年月(和暦):[1868.4]",
             "is_public": true,
             "property_id": 560,
             "property_label": "西暦/A.D.",
@@ -192,7 +201,7 @@
     ],
     "o:modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-25T05:53:01+00:00"
+        "@value": "2024-01-30T08:02:39+00:00"
     },
     "o:owner": {
         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/3",
@@ -206,7 +215,7 @@
     "o:thumbnail": null,
     "rdfs:comment": [
         {
-            "@value": "昭和4年6月5日. 納本者: 三ツ橋.高札上部に「三ツ橋納 十枚」の括り付けあり",
+            "@value": "高札上部に「三ツ橋納 十枚」の括り付けあり",
             "is_public": true,
             "property_id": 278,
             "property_label": "comment",
