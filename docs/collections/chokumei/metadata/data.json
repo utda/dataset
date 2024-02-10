@@ -223,7 +223,7 @@
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2020-03-26T05:47:22+00:00"
+            "@value": "2024-02-04T23:26:20+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -240,7 +240,7 @@
         "o:thumbnail": null,
         "rdfs:seeAlso": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/459",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/7",
                 "is_public": true,
                 "property_id": 282,
                 "property_label": "seeAlso",
@@ -274,12 +274,13 @@
                 "type": "uri"
             }
         ],
-        "uterms:annotedManifest": [
+        "scripto:transcription": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/1/manifest.json",
+                "@id": "https://utda.github.io/tei-viewer/?v=true&u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/chokumei/text/xml/43f80fa0-cc5d-45fe-9dee-152196995b92.xml",
                 "is_public": true,
-                "property_id": 289,
-                "property_label": "Annotated Manifest",
+                "o:label": "TEIビューアで見る / Open in TEI Viewer",
+                "property_id": 402,
+                "property_label": "transcription",
                 "type": "uri"
             }
         ],
@@ -307,15 +308,6 @@
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ],
-        "uterms:searchApiUri": [
-            {
-                "@id": "https://w3id.org/dhj/i3sa/https://archdataset.dl.itc.u-tokyo.ac.jp/collections/chokumei/text/xml/43f80fa0-cc5d-45fe-9dee-152196995b92.xml",
-                "is_public": true,
-                "property_id": 397,
-                "property_label": "Search Api Uri",
                 "type": "uri"
             }
         ]

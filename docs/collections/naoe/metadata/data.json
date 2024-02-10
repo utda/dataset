@@ -210,7 +210,7 @@
         ],
         "o:modified": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2020-03-26T05:47:22+00:00"
+            "@value": "2024-02-04T23:27:12+00:00"
         },
         "o:owner": {
             "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/users/1",
@@ -252,12 +252,13 @@
                 "type": "uri"
             }
         ],
-        "uterms:annotedManifest": [
+        "scripto:transcription": [
             {
-                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/omekac/oa/collections/8/manifest.json",
+                "@id": "https://utda.github.io/tei-viewer/?v=true&u=https://archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/text/xml/daaf81b0-f1a7-435c-9216-a8fb56390887.xml",
                 "is_public": true,
-                "property_id": 289,
-                "property_label": "Annotated Manifest",
+                "o:label": "TEIビューアで見る / Open in TEI Viewer",
+                "property_id": 402,
+                "property_label": "transcription",
                 "type": "uri"
             }
         ],
@@ -270,30 +271,12 @@
                 "type": "literal"
             }
         ],
-        "uterms:linkToTapas": [
-            {
-                "@id": "http://tapasproject.org/tapas-commons/files/直江状",
-                "is_public": true,
-                "property_id": 355,
-                "property_label": "Link to TAPAS Project",
-                "type": "uri"
-            }
-        ],
         "uterms:manifestUri": [
             {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/daaf81b0-f1a7-435c-9216-a8fb56390887/manifest",
                 "is_public": true,
                 "property_id": 353,
                 "property_label": "Manifest Uri",
-                "type": "uri"
-            }
-        ],
-        "uterms:searchApiUri": [
-            {
-                "@id": "https://w3id.org/dhj/i3sa/https://archdataset.dl.itc.u-tokyo.ac.jp/collections/naoe/text/xml/daaf81b0-f1a7-435c-9216-a8fb56390887.xml",
-                "is_public": true,
-                "property_id": 397,
-                "property_label": "Search Api Uri",
                 "type": "uri"
             }
         ]
