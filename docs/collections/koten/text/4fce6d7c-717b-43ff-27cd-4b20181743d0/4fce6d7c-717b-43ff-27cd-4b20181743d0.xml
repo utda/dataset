@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>龍湫和尚語録　東</title>
+                <title>龍湫録,七會録</title>
+                <author>(釋) 龍湫 [述] ; (釋) 玄中 [ほか] 校</author>
+                <respStmt>
+                    <resp>翻刻</resp>
+                    <name>中世禅籍史料研究プロジェクト</name>
+                </respStmt>
+                <respStmt>
+                    <resp>TEIエンコーディング</resp>
+                    <name>東京大学学術資産アーカイブ化推進室</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>中世禅籍史料研究プロジェクト</publisher>
+                <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+                <availability>
+                    <licence>CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>東京大学総合図書館所蔵『龍湫和尚語録』</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="jpn">日本語</language>
+            </langUsage>
+            <creation>
+                <date when="1707">寳永4 跋</date>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>本テキストの翻刻は、中世禅籍史料研究プロジェクトの成果である。</p>
+                <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/koten/text/4fce6d7c-717b-43ff-27cd-4b20181743d0/4fce6d7c-717b-43ff-27cd-4b20181743d0.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>本文XMLは、翻刻テキストをもとにTEIGarageを使って作成した。</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/manifest" xml:id="龍湫和尚語録東">
+        <surface xml:id="t000" ulx="0" uly="0" lrx="6563" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p1">
+            <label>[1]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_001.tif"/>
+        </surface>
+        <surface xml:id="t001" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p2">
+            <label>[2]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_002.tif"/>
+        </surface>
+        <surface xml:id="t002" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p3">
+            <label>[3]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_003.tif"/>
+        </surface>
+        <surface xml:id="t003" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p4">
+            <label>[4]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_004.tif"/>
+        </surface>
+        <surface xml:id="t004" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p5">
+            <label>[5]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_005.tif"/>
+        </surface>
+        <surface xml:id="t005" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p6">
+            <label>[6]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_006.tif"/>
+        </surface>
+        <surface xml:id="t006" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p7">
+            <label>[7]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_007.tif"/>
+        </surface>
+        <surface xml:id="t007" ulx="0" uly="0" lrx="6582" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p8">
+            <label>[8]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_008.tif"/>
+        </surface>
+        <surface xml:id="t008" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p9">
+            <label>[9]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_009.tif"/>
+        </surface>
+        <surface xml:id="t009" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p10">
+            <label>[10]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_010.tif"/>
+        </surface>
+        <surface xml:id="t010" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p11">
+            <label>[11]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_011.tif"/>
+        </surface>
+        <surface xml:id="t011" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p12">
+            <label>[12]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_012.tif"/>
+        </surface>
+        <surface xml:id="t012" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p13">
+            <label>[13]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_013.tif"/>
+        </surface>
+        <surface xml:id="t013" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p14">
+            <label>[14]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_014.tif"/>
+        </surface>
+        <surface xml:id="t014" ulx="0" uly="0" lrx="6604" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p15">
+            <label>[15]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_015.tif"/>
+        </surface>
+        <surface xml:id="t015" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p16">
+            <label>[16]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_016.tif"/>
+        </surface>
+        <surface xml:id="t016" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p17">
+            <label>[17]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_017.tif"/>
+        </surface>
+        <surface xml:id="t017" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p18">
+            <label>[18]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_018.tif"/>
+        </surface>
+        <surface xml:id="t018" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p19">
+            <label>[19]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_019.tif"/>
+        </surface>
+        <surface xml:id="t019" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p20">
+            <label>[20]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_020.tif"/>
+        </surface>
+        <surface xml:id="t020" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p21">
+            <label>[21]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_021.tif"/>
+        </surface>
+        <surface xml:id="t021" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p22">
+            <label>[22]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_022.tif"/>
+        </surface>
+        <surface xml:id="t022" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p23">
+            <label>[23]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_023.tif"/>
+        </surface>
+        <surface xml:id="t023" ulx="0" uly="0" lrx="6601" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p24">
+            <label>[24]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_024.tif"/>
+        </surface>
+        <surface xml:id="t024" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p25">
+            <label>[25]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_025.tif"/>
+        </surface>
+        <surface xml:id="t025" ulx="0" uly="0" lrx="6601" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p26">
+            <label>[26]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_026.tif"/>
+        </surface>
+        <surface xml:id="t026" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p27">
+            <label>[27]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_027.tif"/>
+        </surface>
+        <surface xml:id="t027" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p28">
+            <label>[28]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_028.tif"/>
+        </surface>
+        <surface xml:id="t028" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p29">
+            <label>[29]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_029.tif"/>
+        </surface>
+        <surface xml:id="t029" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p30">
+            <label>[30]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_030.tif"/>
+        </surface>
+        <surface xml:id="t030" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p31">
+            <label>[31]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_031.tif"/>
+        </surface>
+        <surface xml:id="t031" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p32">
+            <label>[32]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_032.tif"/>
+        </surface>
+        <surface xml:id="t032" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p33">
+            <label>[33]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_033.tif"/>
+        </surface>
+        <surface xml:id="t033" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p34">
+            <label>[34]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_034.tif"/>
+        </surface>
+        <surface xml:id="t034" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p35">
+            <label>[35]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_035.tif"/>
+        </surface>
+        <surface xml:id="t035" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p36">
+            <label>[36]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_036.tif"/>
+        </surface>
+        <surface xml:id="t036" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p37">
+            <label>[37]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_037.tif"/>
+        </surface>
+        <surface xml:id="t037" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p38">
+            <label>[38]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_038.tif"/>
+        </surface>
+        <surface xml:id="t038" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p39">
+            <label>[39]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_039.tif"/>
+        </surface>
+        <surface xml:id="t039" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p40">
+            <label>[40]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_040.tif"/>
+        </surface>
+        <surface xml:id="t040" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p41">
+            <label>[41]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_041.tif"/>
+        </surface>
+        <surface xml:id="t041" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p42">
+            <label>[42]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_042.tif"/>
+        </surface>
+        <surface xml:id="t042" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p43">
+            <label>[43]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_043.tif"/>
+        </surface>
+        <surface xml:id="t043" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p44">
+            <label>[44]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_044.tif"/>
+        </surface>
+        <surface xml:id="t044" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p45">
+            <label>[45]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_045.tif"/>
+        </surface>
+        <surface xml:id="t045" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p46">
+            <label>[46]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_046.tif"/>
+        </surface>
+        <surface xml:id="t046" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p47">
+            <label>[47]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_047.tif"/>
+        </surface>
+        <surface xml:id="t047" ulx="0" uly="0" lrx="6585" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p48">
+            <label>[48]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_048.tif"/>
+        </surface>
+        <surface xml:id="t048" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p49">
+            <label>[49]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_049.tif"/>
+        </surface>
+        <surface xml:id="t049" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p50">
+            <label>[50]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_050.tif"/>
+        </surface>
+        <surface xml:id="t050" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p51">
+            <label>[51]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_051.tif"/>
+        </surface>
+        <surface xml:id="t051" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p52">
+            <label>[52]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_052.tif"/>
+        </surface>
+        <surface xml:id="t052" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p53">
+            <label>[53]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_053.tif"/>
+        </surface>
+        <surface xml:id="t053" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p54">
+            <label>[54]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_054.tif"/>
+        </surface>
+        <surface xml:id="t054" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p55">
+            <label>[55]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_055.tif"/>
+        </surface>
+        <surface xml:id="t055" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p56">
+            <label>[56]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_056.tif"/>
+        </surface>
+        <surface xml:id="t056" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p57">
+            <label>[57]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_057.tif"/>
+        </surface>
+        <surface xml:id="t057" ulx="0" uly="0" lrx="6590" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p58">
+            <label>[58]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_058.tif"/>
+        </surface>
+        <surface xml:id="t058" ulx="0" uly="0" lrx="6582" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p59">
+            <label>[59]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_059.tif"/>
+        </surface>
+        <surface xml:id="t059" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p60">
+            <label>[60]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_060.tif"/>
+        </surface>
+        <surface xml:id="t060" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p61">
+            <label>[61]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_061.tif"/>
+        </surface>
+        <surface xml:id="t061" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p62">
+            <label>[62]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_062.tif"/>
+        </surface>
+        <surface xml:id="t062" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p63">
+            <label>[63]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_063.tif"/>
+        </surface>
+        <surface xml:id="t063" ulx="0" uly="0" lrx="6601" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p64">
+            <label>[64]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_064.tif"/>
+        </surface>
+        <surface xml:id="t064" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p65">
+            <label>[65]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_065.tif"/>
+        </surface>
+        <surface xml:id="t065" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p66">
+            <label>[66]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_066.tif"/>
+        </surface>
+        <surface xml:id="t066" ulx="0" uly="0" lrx="6601" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p67">
+            <label>[67]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_067.tif"/>
+        </surface>
+        <surface xml:id="t067" ulx="0" uly="0" lrx="6593" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p68">
+            <label>[68]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_068.tif"/>
+        </surface>
+        <surface xml:id="t068" ulx="0" uly="0" lrx="6582" lry="4677" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4fce6d7c-717b-43ff-27cd-4b20181743d0/canvas/p69">
+            <label>[69]</label>
+            <graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/soto_collection_202203_01/0014907992/0014907992_069.tif"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <p>仏仏授手、祖祖相伝、角立門庭、応機説法、随時闡化、惟務学者、死盡偸心、袪除邪解、趍于実際理地、直造乎甚深之奥域也、若秘魔（常遇）擎杈
+                、倶胝竪指、徳山（宣鑑）逢人便棒、臨済（義玄）入門即喝、紫胡〔子湖〕（利蹤）看狗、趙州（従諗）喫茶去、如吹毛釼、如大火聚、議擬則喪身失命、有甚湊泊処、其他或曲施方便、不得巳〔已〕開第二門、令初学之易入者、嘿而説、説而嘿、非同非異、無彼無此、如水之行乎澗壑、或因土石之所留礙、其水性曷嘗不流、如日月麗于天、縦被雲霧之所障蔽、其日月之明、亦未始有虧矣、</p>
+            <p>扶桑南禅龍湫澤禅師、六坐道場、七会説法、宗風盛揚、不虚聘、不仮借、惟一真実方便門中、能死学者偸心、深造于奥域也、与諸従上烈祖用処、何間焉、固不忝為径山無準老漢（師範）五世的骨孫也、句中有句、名為死句、句中無句、名為活句、然此編非死句耶、非活句那、具択法眼者看、</p>
+            <p>正統元年春正月初吉、阿育王山広利禅寺住持頥菴釈宗體原序、</p>
+            <p>龍湫和尚住甲州乾徳山恵林禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　侍者　　　　編</p>
+            <p>山門、元亨利貞乾徳、岦岌諸仏妙門、＜弾指云、＞従這裏入、</p>
+            <p>仏殿、世尊拈花、迦葉微笑、＜咄、＞漏逗不少、</p>
+            <p>土地堂、土地土地、聡明正直、護法護人、莫忘仏勅、</p>
+            <p>祖師堂、四七二三、好坐這裏、何也官事、定乎衆誼、</p>
+            <p>拠室、摩竭行令、毘耶杜詞、不堕旧轍、如何提持、＜拈主丈、卓一下云、＞鉢羅花綻一枝枝、</p>
+            <p>拈箚、一別二千余年、不忘霊山付囑、以何為験、＜度箚云、＞維那宜読、</p>
+            <p>山門疏、四六文章、仏祖心腸、山門朝仏殿、庫院対僧堂、</p>
+            <p>諸山疏、宗師巴鼻、向上玄旨、＜挙疏云、＞当陽顕示法眷疏、同声相応、同気相求、且道、成得什麼辺事我宗伝流、</p>
+            <p>拈衣、＜提起衣云、＞此是文殊師利、尽神力而提不起底為甚麼、却在沢上坐手中、風従虎雲従竜、</p>
+            <p>指法座云、借座燈王恁麼敷設、還見灯王如来麼、＜喝一喝云、＞莫将伝説為伝説、＜便陞座、＞</p>
+            <p>拈香云、此一弁香、爇向炉中、恭為祝延</p>
+            <p>今上皇帝聖躬、万歳万歳万万歳、恭願　皇帝陛下、等文明於日月、大開堯天、斉睿算於乾坤、高践舜祚、</p>
+            <p>此一弁香、奉為　亜相大人征夷大将軍（足利尊氏）洎羽林相公副将軍（足利義詮）、資厳福寿、伏願、乃忠乃孝、以佐聖君之政治、克武克文、而護覚皇之法宝、</p>
+            <p>此香、奉為本寺大檀那奥州太守（武田信武）及令子令孫、伏願、起家以威武、田単之奇謀日新、修檀以誠心、給孤之遺風無堕、</p>
+            <p>此香、無明種子菩提樹王、在草木則与草木同臭味、在脳麝則与脳麝同馨香、爇向炉中、供養前住南禅後住円覚及浄智当山初祖天龍開山特賜夢窓正覚心宗国師大和尚、用酬法乳之恩、</p>
+            <p>垂語、一二三四五、為君開線路、百尺竿頭、急須進歩、＜問答不録、＞乃曰、富士峯之陰、乾徳山之陽、中間有箇一神呪、其名曰大吉祥、一句句弥綸三際、一宇宇通貫十方、雖然三世諸仏未曾宣説、歴代祖師亦未宣揚、若能持此呪者、処処建立法刹、時時端坐道場、而振宗風於巳〔已〕墜、以祝聖寿於無彊、便見五風十雨、地久天長、九州四海、家富民康、還信得及麼、其或未然、試向三世諸仏歴代祖師、説不到処宣説、＜卓主丈云、＞苟猶未信、重為翻訳、＜又卓主丈云、＞皇風兼祖風永扇、君日与仏日重光、</p>
+            <p>復挙、報恩護禅師（清護）開堂日、僧問、諸仏出世、天花乱墜、和尚出世、有何祥瑞、護云、昨夜新雷発、今朝細雨飛、拈云、新徳山則不然、有問、諸仏出世天花乱墜、和尚出世有何祥瑞、向他道孟夏漸熱、</p>
+            <p>当晩小参、垂語云、作家相見、鑑有機先、纔渉擬議、此土西天、莫有不渉擬議底麼、＜問答罷、＞乃云、老矣帰来古甲州、可漸郷念未全休、我無一法為人説、山自高兮水自流、＜拈主丈云、＞忽有同行木上座出来云、汝久侍天龍三代国師（夢窓疎石）、参禅学道、又首南禅五百聖衆、説妙談玄、為甚麼及乎入此保社、領此清衆、却道、我無一法為人説、且如山是非山、水是非水、消息子又作麼生、便向他道、清平世界、切忌乱統、＜卓一下、＞</p>
+            <p>復挙、汾陽昭禅師（善昭）、因北地厳寒僧衆難立、乃云、且住小参候春暖、不経旬日忽有一僧、両耳帯環、手持金錫、来方丈云、和尚何得住却小参、衆中自有不憚寒暑為仏法者、堂中見有六人、是法器、言訖而退、不知処所、師却小参乃成一頌、胡僧金錫光、請法照汾陽、六人成大器、今我為提綱、拈云、可謂汾陽見小利、新徳山今夜小参、直教尽大地人、一時成大法器去、＜以払子打円相云、＞慧鏡忽生光、光明奪大陽、塵塵成法器、刹刹振宗綱、下座、</p>
+            <p>龍湫和尚住霊亀山臨川禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　侍者　　　編</p>
+            <p>山門、門門一切門、皆従此門入、＜召大衆云、＞莫謂山高水急、＜喝一喝、＞</p>
+            <p>仏殿、問十答百、問百答千、＜提起坐具云、＞這箇如何、＜作聴勢云、＞如是普賢、</p>
+            <p>土地堂、賞善罰悪、不無山僧、只要天神護祐、我宗継継繩繩、 </p>
+            <p>祖師堂、二三四七、同拠一室、作麼生是直指単伝、＜挿香云、＞多虛不如少実、</p>
+            <p>拠室、＜拈主丈曰、＞我此丈室門開、一任胡来漢来、何故、＜卓主丈云、＞明鏡当臺、</p>
+            <p>拈帖、護法深意、不墮常情、軽軽動著、電巻雷轟、</p>
+            <p>拈衣、黄梅夜半、駕足峯頭、守此争此、累未曾会休、山僧𠰚、＜披衣曰、＞有意気時添意気、不風流処也風流、</p>
+            <p>陞座拈香云、此一瓣香、爇向爐中、恭為</p>
+            <p>今上皇帝（後円融天皇）祝延　聖寿無疆、恭願　皇帝陛下、徳斉帝堯之法天、功過大禹之治水、 </p>
+            <p>此香、奉為　亜相大人〔夫を消去〕征夷将軍（足利義満）固福寿基、伏願、塞外帰仁、武徳嘉声弥大、天下無敵、太平気象日新、</p>
+            <p>此香、殺無明父底刀子、收在匣中多年矣、如今不免対衆拈出、奉為</p>
+            <p>本寺開山楊岐（方会）十二世特賜夢窓正覚心宗普済国師（疎石）、用復不共戴天之讎、</p>
+            <p>龍湫和尚再住臨川禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　侍者　　　編</p>
+            <p>山門、地霊人傑、山朝水朝、入此門者、<anchor type="bookmark-start" xml:id="id__Hlk110815616"/>風翮九霄<ptr
+                    type="bookmark-end" target="#id__Hlk110815616"/>、＜便入、〔喝一喝を消去〕＞</p>
+            <p>仏殿、如来長子、普賢大士、会麼、還我一坐具地、＜便礼拝、＞</p>
+            <p>土地、神受仏勅後、二千三百秋、霊光不昧、万古徽猷、</p>
+            <p>祖師、玉葉聯芳、春満祖堂、休言密相付、遍界不曾蔵、</p>
+            <p>拠室、＜按主丈云、＞爐鞴之所、鈍鉄転多、＜卓一下云、＞一鎚之下、莫干太阿、</p>
+            <p>府帖、龍得水時添意気、虎逢山色長威獰、＜挙帖云、＞看看仏日増光、</p>
+            <p>五山帖、是法住法位、世間相常住、苟或未委、一二三四五、</p>
+            <p>山門疏、毘盧心印、文彩全彰、言言屋裏話、字字道情香、</p>
+            <p>諸山疏、半幅全封、隣好相通、谿山雖異、雲月是同、</p>
+            <p>指法座云、陞此獅子座者、不可作野干鳴、無畏説作麼生、便登座、</p>
+            <p>拈香云、此一瓣香、恭為</p>
+            <p>今上皇帝（後円融天皇）祝延聖寿、万歳万歳万万歳、恭願　皇帝陛下、四海帰仁、徳大乎唐堯之徳、万民楽業、功高似大禹之功、</p>
+            <p>此香、奉為征夷将軍（足利義満）及諸官僚資陪禄算、伏冀武徳弥昌、皇天時降嘉瑞、狼烟永息、后土長楽昇平、</p>
+            <p>此香、非衆香国出産、又非栴檀林妙材、直従自巳〔己カ〕襟懐、信手拈出将来、挿向爐中、供養</p>
+            <p>本寺開山天龍鼻祖特賜夢窓正覚心宗国師大和尚（疎石）、用酬法乳恩、</p>
+            <p>垂語、普恵菩薩、二百問頭、普賢大士、二千応酬、若約宗門下、猶是第二籌、臨川老漢、別求俊流、有麼、＜問答不録、＞乃云、吾有一著子、逈出二儀先、真機密運、物物上顕露、妙用普応、頭頭上現前、雖然千眼不能覩、五智不能縁、所以道、我法妙難思、不可以言宣、更説甚、世尊密語、達磨単伝、乃至天下老和尚、説妙談玄、＜以払打円相云、＞向這裏薦得去、堪紹仏位、普化人天、苟渉躊躇、懸隔天淵、此事且置、只如今日、欽承鈞命、大開法筵、不免拈出一著子、以祝聖人寿、＜拈主丈、卓一下云、＞聖寿椿齢共八千、</p>
+            <p>復挙、保寿開堂、三聖（慧然）推出一僧、寿便打聖云、与麼為人、非但瞎却這僧眼、亦瞎却鎮州一城人眼去在、寿便帰方丈、師拈曰、這箇公案、叢林千載、未有人能断得、山僧今日開堂試断之、保寿開堂打一僧、頂門正眼在烏藤、烏藤擲下帰方丈、夜半新羅海日昇、</p>
+            <p>当晩小参、垂語、宮商互奏、古曲重新、木人歌白雪、玉女唱陽春、莫有相共唱拍底麼、＜問答不録、＞乃云、再入華厳海会寛、円融場裏改聴観、門前嗽玉長川水、屋後磨金大覚山、有時大中現小、有時小中現大、一多無礙、大小自在、故云、一有多種、二無両般、又云、十世古今、始終不離当念、無辺刹境、自他不隔毫端、恁麼会去、猶滞法界之限量、縦遊法界外、未透祖師之関、透祖師之関底、又作麼生、手把少林無孔笛、等閑吹起万年歓、</p>
+            <p>復挙、報恩護（清護）禅師、因節度陳晦〔誨カ〕、創報恩禅苑、堅請住持、開堂日、僧問、諸仏出世、天花乱墜、和尚出世、有何祥瑞、恩云、昨夜新雷発、今朝細雨飛、此僧問、句裏呈機劈面来、報恩答、婆迦羅眼点繊埃、今夜有人問山僧、諸仏出世、天花乱墜、和尚出世、有何祥瑞、便対他道、松風自度曲、我琴不須弾、</p>
+            <p>重陽上堂、夢裏重陽雨未晴、暁楼鐘動一声声、汾州（善昭）面目無人見、菊在東籬鴈打更、</p>
+            <p>冬至小参、問在答処、答在問処、機先一句子、崑崙無縫罅、莫有会底麼、＜問答不録、＞乃云、臨川新得成家句、今夜分冬敢隠蔵、莫謂詩瓢空索索、曾将天地作吟嚢、所以徳山（宣鑑）小参不答話、不可謗沉無香、趙州（従諗）小参要答話、恰是増金以黄、直得、輝今輝古、一陰一陽、且道、作麼生是臨川成家句、嘉瑞満山堂、</p>
+            <p>龍湫和尚住濃州雲龍山大興禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　侍者　　　編</p>
+            <p>応安元年六月三日入院、</p>
+            <p>指山門云、雲龍山高峙、資福門新開、＜顧視左右云、＞来来、</p>
+            <p>仏殿、世尊伝迦葉、迦葉伝阿難、伝箇什麼、門前剎竿、便礼拜、</p>
+            <p>拠室、＜横主丈云、＞作家爐鞴、內外円成、大地一條鉄、＜卓丈云、＞鎚下百鍊精、</p>
+            <p>勅黄、仏運大興、須憑此力、何也、＜奉勅云、＞太平天子勅、 </p>
+            <p>釣帖、我法外護、功勝賢于、片言隻字、趙璧隋珠、</p>
+            <p>拈香云、此一瓣香、<anchor type="bookmark-start" xml:id="id__Hlk110897728"/>爇<ptr
+                    type="bookmark-end" target="#id__Hlk110897728"/>向爐中、恭為</p>
+            <p>今上皇帝（後光厳天皇）祝延聖寿、万歲万歲万万歲、恭願　皇帝陛下、舜日騰輝、九天雲静、堯風永扇、四海浪平、</p>
+            <p>此香、皮膚脱盡、唯有中心、遇賤賤於泥土、遇貴貴於黄金、爇向爐中、供養</p>
+            <p>天龍初祖特賜夢窓正覚心宗普済国師（疎石）、以酬法乳之恩、</p>
+            <p>上堂、作家相見、両鏡当台、才動唇吻、満面塵埃、不動唇吻、措一問来、有麼、＜問答不録、＞乃云、人人赤肉団上、有一無位真人、二儀之外、浄躶々兮不受一塵、万象之中、赤洒々兮独露全身、亘今亘古、絶比絶倫、為祥為瑞、如龍如麟、隨縁赴感則無偏無党、猶如印衆水之月輪、応物現形則或大或小、恰似入群卉之芳春、山僧恁麼提唱去、未免妄指陳、且道、作麼生是無位真人、＜拈主丈云、＞八絃開寿域、＜卓一下云、＞一気転洪鈞、</p>
+            <p>龍湫和尚住東山建仁禅寺語録</p>
+            <p>侍者　一鶚　編</p>
+            <p>貞治六年三月五日入院、</p>
+            <p>召大衆指山門云、此是十方諸仏、福徳智慧海門、倘能信入去、何処不称尊、 </p>
+            <p>仏殿、同一紫金躯、同一広長舌、希有希有、三人証亀成鱉、 </p>
+            <p>土地堂、善哉霊神、神徳日新、更須摧邪顕正、助転如来法輪、 </p>
+            <p>祖師堂、四七之際、二三之中、何人為主、良久云、漏泄家風、便礼拜、</p>
+            <p>拠室、＜拈主丈云、＞旧是千光祖師（栄西）所居、乃勝金粟如来方丈、何也、＜卓丈云、＞此地無金二両、</p>
+            <p>拈<anchor type="bookmark-start" xml:id="id__Hlk110901844"/>箚<ptr type="bookmark-end"
+                    target="#id__Hlk110901844"/>、百醜千拙、投老林皐、何由今主茲宝剎、＜提起箚云、＞清水明鏡、不可以形逃、</p>
+            <p>山門疏、四六八六、玉転珠回、意在那裏、三台須是大家催、</p>
+            <p>諸山疏、其富与貧、俱勝遠親、匡衡鑿壁、季雅買隣、</p>
+            <p>江湖疏、苦瓠未必苦、甘草未必甘、当風句子、江西湖南、</p>
+            <p>故旧疏、平生膠漆、今日金蘭、一句句一字字、吐出胸中鰲山、 </p>
+            <p>道旧疏、自其異者視之、肝膽楚越、自其同者視之、楚越肝膽、別別君子之交秋水淡、</p>
+            <p>同門疏、紾臂禦侮、総不相同、龍華三会春消息、別自雲居天上通、 </p>
+            <p>指法座云、既著如来衣、宜坐如来座、須弥燈王、且在下風坐、＜便登座、＞</p>
+            <p>拈香云、此一瓣香、恭為</p>
+            <p>今上皇帝（後光厳天皇）祝厳　聖寿、万歲万歲万万歲、伏願皇帝陛下、高踐宝祚、而兼三五徳益尊、宏啓　皇基、以歴億万年弥固、</p>
+            <p>此一瓣香、奉為　特進亜相征夷将軍（足利義詮）資厳寿算、伏顧文芸文術、長佐朝政於九重、武徳武威、永掃烟塵乎四遠、</p>
+            <p>此香、元非脳麝沈檀類、只是多年片爛柴、今在拈華堂上爇、薰天薰地正三回、供養</p>
+            <p>楊岐十二世天龍開山特賜夢窓正覚心宗普済国師（疎石）、用酬法乳之恩、遂跌座、＜問答不録、＞乃云、我有心印、印文未彰、功資三有、徳充十方、暗昏昏地、其明如日、明歴歴処、其黒似漆、常在千聖頂𩕳上、放百宝光、又於諸人脚跟下、現八吉祥、四智莫能知、五眼亦難窺、今日幸遇祝</p>
+            <p>聖開堂、人天衆前明顕示去、＜挙払子云、＞印文縦橫、古篆分明、還見麼、海晏河清、</p>
+            <p>復挙、僧問投子、如何是一大事因緣、投子云、尹司空請老僧開堂、公案拈云、投子古仏雖有済世之智、而無佐国之才、今日忽有人問新建仁、如何是一大事因緣、即対它道、寰中天子勅、
+                塞外將軍令、</p>
+            <p>当晚小參、神光不昧、万古徽猷、騰今輝古、破暗照幽、人人具足兮本無欠、箇箇円成兮不假修、而人未得自在、但以無悟由也、豈不見、臨済大師（義玄）到高安（大愚）後、宗振喝下、徳山和尚（宣鑑）見龍潭（崇信）来、眼明棒頭、趙州（従諗）三喫茶、雲門（文偃）六不収、乃至天下諸大宗匠、或鉢盂裏走馬、或陸地上行舟、無不脱洒、無不風流、雖然明眼看來也、是万里崖州、作麼生真正挙揚去、＜卓主丈云、＞来年更有新條在、悩乱春風卒未休、</p>
+            <p>復云、外息諸縁內洗心、林間快活白頭吟、豈知今日将頑礦、入此東山群玉林、＜咄、＞</p>
+            <p>翌日就開山入定塔拈香、蔵身処無蹤跡、白雲中常寂寂、無蹤跡處不蔵身、即是那伽定裏人、我今焼香託法庇、祖意明明難指陳、庭前有箇長松樹、花吐黃龍池上春、</p>
+            <p>三月旦、謝新旧首座都寺維那上堂、東山僧宝、趙璧魯璠、或表率多衆、或荷担山門、進退以其道、左右逢其源、就中悦可衆心句、洞裏碧桃花更繁、</p>
+            <p>四月旦、謝都寺上堂、楊岐（方会）千載後、無人吞栗蓬、将謂春帰去也、今朝転入此中、</p>
+            <p>仏生日上堂、万象之中、妙體独露、眨上眉毛、刁刀魚魯、莫有見得分明底麼、＜問答罷、拈主丈云、＞竪窮三際、＜横主丈云、＞横亘十方、歴代祖師、以此立宗旨、従上諸聖、以此建法幢、＜卓一下云、＞既建法幢、又立宗旨、作麼生応機応時去、＜又卓丈云、＞暁来満架薔薇露、香沐紫磨金色身、</p>
+            <p>復挙、世尊纔下生、錯、一手指天、一手指地、錯、天上天下、唯我独尊、錯、将此深心奉塵刹、則是名為報仏恩、</p>
+            <p>結夏小参、有問有答、落二落三、東山老漢、今夜小参、莫有向未挙巳〔已〕前領旨底麼、＜問答罷、＞乃云、孟夏今宵将過半、明朝法歳又迎新、超然有箇不遷物、万象之中独露身、古往今来、能為一気之母、色後声前、逈為万物之祖、恁麼恁麼、西晋東魯、不恁麼不恁麼、西天東土、直下休去、<anchor
+                    type="bookmark-start" xml:id="id__Hlk110988706"/>蘇嚕<ptr type="bookmark-end"
+                    target="#id__Hlk110988706"/>蘇嚕、</p>
+            <p>復挙、雲門大師（文偃）示衆云、乾坤之内、宇宙之間、中有一宝、秘在形山、諸人還要見此一宝麼、＜良久云、＞幾箇錯将魚目作明珠、</p>
+            <p>結夏上堂、人人迎法歳、箇箇逢良時、且要同入神通大光明蔵、三昧正受、主伴同会、光厳住持、若有不肯者、出来相見、＜問答罷、＞乃云、東山法窟、古仏精盧、我我我、渠渠渠、於此禁足、於此安居、心心無不妙智、物物無不真如、何妨、朝往第五橋上聞水澎湃、暮帰三層塔下見雲靉靆、折旋俯仰、無非解脱自在、挙足下足、無非游戯三昧、且道承誰恩力、＜良久云、＞功業蓋代、</p>
+            <p>復挙、僧問趙州（従諗）、如何是祖師西来意、州云、庭前柏樹子、東山有此一柄鈆刀子、裂破越〔趙〕州漫天網羅去、古仏趙州禅、元来在口辺、無人能会得、庭柏翠参天、</p>
+            <p>謝秉払上堂、五人宣正法、恰似伯牙琴、月下弾新曲、風前奏雅音、高山雲外秀、流水澗中深、妙指古猶少、何為伝到今、</p>
+            <p>応台命転般若上堂、還有当処証明直下解脱底麼、出来通箇消息看、＜問答罷、＞廼云、我此一衆、伏承鈞命、読誦大般若経一部六百巻、便見、以法力扶危、以聖綆汲古、般若之光兮輝皇天、柢林之春兮満后土、所冀、天子長居九五之尊、府君永為四七之主、文以施道之仁、武以受天之祐、山僧更有諸仏未曾宣説底大般若経、試為府君宣説去、＜拈主丈、卓一下云、＞分明聴取、</p>
+            <p>六月望上堂、東山一衆、同此坐夏、烏騅千里、駑馬十駕、＜拈主丈云、＞木上座𠰚休休、六月買松風、人間恐無価、＜靠主丈下座、＞</p>
+            <p>上堂、＜拈主丈云、＞雲門大師（文偃）来也、僧問、如何是諸仏出身処、東山水上行、＜召大衆云、＞知雲門舌頭麼、頌曰、諸仏出身処、東山水上行、睡余無一事、日午打三更、＜卓主丈三下、便下坐、＞</p>
+            <p>七月旦上堂、葉落帰根人悉知、栽梧意在鳳凰枝、鳳凰枝老秋風至、三世如来口似槌、</p>
+            <p>解夏小参、鏡分金殿燭、山答月楼鐘、此夕是何夕、明明挙我宗、吾人猶未会得、不妨問西問東、有麼、＜問答罷、＞乃云、東山一夏、俯循旧軌、恢張九旬禁網、牢籠半千衲子、鉄弾子破無明之重障、蠟人氷証円覚之了義、今夜小参、明朝自恣、向炎凉改変処、示生仏未興事、会則途中受用、主丈有觜、不会則世諦流布、草鞋無耳、其会与不会、同在<anchor
+                    type="bookmark-start" xml:id="id__Hlk111162916"/>蘧<ptr type="bookmark-end"
+                    target="#id__Hlk111162916"/>廬裏、要得到家句麼、有智無智較三十里、</p>
+            <p>復挙、僧問九峯虔禅師（道<anchor type="bookmark-start" xml:id="id__Hlk111163856"/>虔<ptr
+                    type="bookmark-end" target="#id__Hlk111163856"
+                />）、西天夏末有人得道、此間夏末還有人得道麼、虔云、有、僧云、何者是、虔云、頭帯午夜月、脚踏黄金地、東山則不然、有人問此間夏末有人得道麼、即答道無、云為甚麼無、向道獅子窟中無異獣、</p>
+            <p>解夏上堂、緇白交接、事理円融、重重無盡、無盡重重、衆中還有問話者麼、＜問答罷、＞廼云、当此休夏日、解開布袋頭、天地秋風冷、八紘金気浮、去者任其去、留者任其留、初無拘束、寧不自由、雖然如是、還我九十日、飯銭始得、其或未然、一夏万機休未休、可怜獵懸復遊州、明中絶倒寒山子、暗裏憨眠水牯牛、＜以払子撃床、＞</p>
+            <p>謝新旧両班上堂、進者随宜、退者以時、両序進退、叢林常規、此中非当道、仏祖也不知、＜拈主丈云、＞左右逢源、＜卓一下、＞</p>
+            <p>上堂、天地不仁、以万物為芻狗、聖人不仁、以百姓為芻拘、忽有人道、衲僧以何為芻拘、即向他道、衲僧以天地聖人為芻拘、何故也、面南看北斗、</p>
+            <p>九月旦上堂、握覆載於掌内、掛居諸於胸中、若約祖宗門下、未出生死樊籠、莫有出得底麼、＜問答罷、＞乃云、臨済（義玄）嘘雲門（文偃）普、出匣吹毛釼、当軒塗毒皷、休休、四海九州、五風十雨、＜卓主丈、一下云、＞物帰有主、＜卓一下、＞</p>
+            <p>新建東司幷謝都寺上堂、向上関通天路、若人透得、清風随歩、有麼、＜問答罷、＞乃云、揀才択地建西溷、要免諸人汚菜園、若向未屙先明得、弾指円成八万門、雖然如是、更須為衆竭力始得、其或未然、重下註脚、有漏無漏、笟籬木杓、</p>
+            <p>謝書記蔵主監寺上堂、文章為載道器、還他北澗〔礀カ〕（居簡）橘州〔洲カ〕（宝曇）、一気転全蔵、還他老虎丘（紹隆）、畢竟如何、六耳不同謀、不同謀添得、楊岐暗点頭、</p>
+            <p>上堂、人間八月十五、天上月円当午、一念纔生、九天雲霧、一念不生、全體顕露、正眼看来、猶是転句、欲得全提、＜竪起払子云、＞恁麼進取、〔このあたり順番要検討〕</p>
+            <p>仲秋上堂、霊山話也曹谿指、光顕須超物外人、恒憶江西月明夜、為駒産出玉麒麟、</p>
+            <p>仲冬旦上堂、記得、古徳云、有物先天地、無形本寂寥、能為万象主、不遂四時凋、且道是何物、喝一喝、＜下座、＞</p>
+            <p>冬夜小参、鳳毛麟角、坐立儼然、今夜亜歳、要公案円、有麼、＜問答罷、＞乃云、神光不昧、妙性円明、平呑万象、触破八紘、上無諸仏、下無衆生、無禅可学、無道可成、今夜全身放下、共忘謂情、焼榾柮火、煮野菜羮、歌続白雪、曲和太平、忽然有箇漢、機如掣電、眼佀流星、説玄説妙、行棒行喝底、出来又作麼生、＜良久云、＞月当松頂夜三更、</p>
+            <p>復挙、洞山（良价）冬夜云、有一物、上拄天下拄地、即今問大衆、畢竟是何物、＜喝一喝、下坐、＞</p>
+            <p>冬至上堂、陸地駕釣舟、空手把竿頭、不貪香餌、誰上直鈎、有麼、＜問答罷、＞乃云、迎長仏日至、亜歳祖天晴、物物上呈露菩薩面孔、頭頭上突出金剛眼睛、山僧恁麼説、話未出常情、縦使不恁麼、也是野干鳴、作麼生是象王遊戯、獅子嚬呻底、＜竪起払子云、＞手把金鞭賀太平、</p>
+            <p>除夜小参、黄龍（慧南）三関、雲門（文偃）三句、八字打開、両手分付、莫有不肯底麼、＜問答罷、＞乃云、諸仏未出世、上是天下是地、祖師未西来、山自山水自水、諸仏既出世、増金以黄、祖師既西来、謗沈無香、不論出未出来不来、別有通天路向上機、若有人識得、不妨猛虎口裏横身、毒蛇頭上揩痒、縦使恁麼去、未足称衲僧、直須向天地未分仏祖未興之前、透得過見得徹把得住作得主始得、有麼有麼、如無則東山試向年窮歳盡処、略露箇消息去、＜良久云、＞今歳今宵去、明年明日来、</p>
+            <p>復挙、北禅（智賢）除夜示衆云、年窮歳盡、無可与諸人分歳、且烹箇露地白牛、炊黍米飯、煮野菜羹、向榾柮火、唱村田楽、何故、免見諸人倚他門戸、被時人喚作郎、北禅恁麼垂訓、実有以也、東山不曾過半食、雖然今夕且要与諸人分歳去、白牛烹得味尤濃、亦堕諸方施設中、今夜東山分歳別、鉢盂安柄酌春風、＜以払作酌勢、下座、＞</p>
+            <p>元旦上堂、元正啓祚、謹焚宝香、恭為</p>
+            <p>今上皇帝祝厳聖寿、万歳万歳万万歳、伏願　皇帝陛下、永固皇基、而居九五之位、能保椿寿、以逢八千之春、</p>
+            <p>遂就座垂語云、新年頭仏法、万象斉宣揚、別有一著、文彩未彰、衆中若有箇漢、出来共話伝芳、有麼、＜問答不録、乃拈主丈、卓一下云、＞行摩竭未行之令、＜又卓一下云、＞回崧少未回之春、便見九天之下、万物咸新、人人歌舜徳、箇箇楽堯仁、且道正恁麼時、作麼生祝一人寿、＜又卓一下云、＞八荒開寿域、一気転洪鈞、</p>
+            <p>復挙、鏡清（道怤）因僧問、<anchor type="bookmark-start" xml:id="id__Hlk111421030"/>新年頭還有仏法也無、<ptr
+                    type="bookmark-end" target="#id__Hlk111421030"
+                />鏡清云有、智門（光祚カ）〔仏日契嵩カ〕僧問、新年頭還有仏法也無、智門云無、拈云、二尊宿、一人曰有、一人曰無、孰優孰劣、長安紙貴、一状領過、</p>
+            <p>上堂、一大蔵教、拭瘡故紙、是是不是不是、麤言及細語、皆帰第一義、如何第一義、＜挙起払子云、＞利動君子、</p>
+            <p>上堂、神通遊戯、凡聖同源、呼杖虚壁、訪梅寒村、同辞処士宅、携入古皇門、＜横主丈云、＞疎影横斜水清浅、暗香浮動月黄昏、</p>
+            <p>二月旦上堂、慈視閣上、每廓聴観、無辺勝境、悉入胸間、＜挙起払子云、＞一把柳糸收不得、和風搭在玉欄干、 </p>
+            <p>退院上堂、去年来入此精舍、今日帰居彼草廬、＜拈主丈云、＞七尺杖頭何所有、四禅天楽可無余、＜担主丈、下坐、＞</p>
+            <p>龍湫和尚住山城州瑞龍山太平興国南禅禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　侍者　　　　　　編</p>
+            <p>応安四年三月二十一日入院、 </p>
+            <p>師到三門頭、指空云、指法界為妙門、出出入入、電激電奔、 </p>
+            <p>仏殿、世尊有密語、迦葉不覆蔵、＜提起座具云、＞也是家私向外揚、</p>
+            <p>土地堂、法不孤起、護持属神、曹谿鏡上、莫教生塵、＜挿香、＞ </p>
+            <p>祖師堂、二三四七、燈照祖室、＜咄、＞青天白日、 </p>
+            <p>拠室、＜拈主丈、画一画云、＞開此爐鞴、要鋳人天、以何云爾、孔子鋳顏淵、＜卓主丈一下、＞</p>
+            <p>勅黄、鳳啣入雲、詔書半幅、隻字片言、宗乗鈞軸、</p>
+            <p>拈帖、不犯之令、仏亦難遮、不如歓喜忍受、挹犁拽把去也、 </p>
+            <p>山門疏、山門境致、西来祖意、老栢老松、盡情垂示、 </p>
+            <p>諸山疏、言言金瑣碎、句句玉琮琤、隣好勝膠漆、永言固宗盟、 </p>
+            <p>江湖疏、魚忘江湖、人忘道術、既然故禿董狐之筆也、 </p>
+            <p>指法座云、陞此座者、替仏揚化万福、須弥燈王如來、男児膝下金、肯<anchor type="bookmark-start"
+                    xml:id="id__Hlk111466207"/>与土同<ptr type="bookmark-end"
+                    target="#id__Hlk111466207"/>価、 </p>
+            <p>拈香云、此一瓣香、恭為</p>
+            <p>今上皇帝（後光厳天皇）祝延　聖寿、万歲万歲万万歲、伏願皇帝陛下、握乾坤於掌內、聖徳斉堯、掛日月於胸中、文明等舜、 </p>
+            <p>此香、奉為枢府君、以厳福寿洪基、伏冀安民安国、永息四海狼烟、為雨為霖、長陪九天龍御、 </p>
+            <p>此香、龍華樹之老幹、多謗無香、木犀花之孫枝、幾得知価、挿向爐中、供養</p>
+            <p>前住当山天龍開山楊岐十二世扶桑五帝師特賜夢窓正覚心宗普済玄猷国師大和尚（疎石）、用酬法乳之恩、 </p>
+            <p>垂語云、未挙先知、巳〔已〕墮第二、才有語言、直是西天十万八千、莫有生知禅底麼、＜問答不録、＞乃云、
+                乾坤之內、宇宙之間、中有一宝、秘在形山、巳〔已〕得此一宝者、開衆妙門於一念、現大宝刹乎毫端、一念劫波永、毫端天地寬、実是嘉会也、豈非好観乎、未知此一宝者、求美玉乎玄圃之外、探明珠於赤水之瀾、或将瓦礫為美玉、或認魚目作明珠、実是癡漢也、豈非愚夫乎、山僧今日斎此至宝、直入如来地、巨闢祖師関、与汝諸人同居住、以康以安、宜用此一宝、祝聖人寿、＜横払子云、＞一宝拈為無孔笛、声声吹出万年歓、 </p>
+            <p>自敘、＜某、＞拙而不学、老矣益愚、忝奉　詔命、濫登此座、挙揚祖宗、毗讃　皇道、言詞粗陋、有塵聴司、伏乞照亮、 </p>
+            <p>両官使、伏惟羽林尊官、幕府專使、文武同道、輪蹄入山、草木生光、雲林改観、不任感激、伏望尊照、 </p>
+            <p>白槌謝、祝聖之次、伏惟建仁堂頭和尚（仁球）、天池（心月）之仍孫、本源（道生）之長子、其道徳也、麝脳輸馨香、其文章也、星斗遜光焰、蓋是人天宝鑒、仏祖権衡者也、座側為證、不勝懂抃、伏乞道照、</p>
+            <p>復挙、閩王請永興禄禅師（神禄）開堂、僧問、国王請師出世未委、今日一会何似霊山、永興云、徹古伝今、拈云、閩王不忘霊山付囑、永興亦有真正挙揚、奈何此話未円、即今有人問新瑞龍、国王請師出世未委、今日一会何似霊山、即対他道、　皇風永扇、仏日増輝、久立衆慈、伏惟珍重、</p>
+            <p>当晚小参、垂語、鏡分金殿燭、山答月楼鐘、貫穿衲僧耳朶、漏泄古仏家風、衆中未委悉底、出来請問、有麼、＜問答罷、＞乃云、七百高僧百鍊金、金金渾是旧知音、今宵若要伝新曲、
+                聴我瑞龍山月吟、吟成山月夜堂静、千古分明古仏心、人人具足、円同太虚、箇箇円成、無欠
+                無余、所以道、処凡愚而不減、在聖賢而不増、雖然如是、一回親到這箇田地、田地穏密契眷入手始得、苟或未然、＜横主丈云、＞看看一切従依旧中得、＜卓一下、＞</p>
+            <p>復挙、黄龍明禅師、僧問世尊出世、魔界傾頹、和尚出世、有何祥瑞、黄龍云、<anchor type="bookmark-start"
+                    xml:id="id__Hlk111503081"/>一夜落花雨、満城流水香<ptr type="bookmark-end"
+                    target="#id__Hlk111503081"
+                />、拈云、此公案未有人能断得、新瑞龍今夜試対衆断去、遥憶騷人才智長、乾坤清気入詩腸、因吟一夜落花雨、直至而今字字香、 </p>
+            <p>次日就于亀山覚皇聖廟■拈香、此香、一瓣薰力最大、摠摂五分法身、以開金剛寿域、以転般
+                若洪鈞、天地爐中焼不盡、一番拈出一番新、＜挿香云、＞願乘一炷真薰力、助転如来正法輪、</p>
+            <p>仏誕生上堂、慶雲満堂、薫風入座、悉達下生、誰敢称賀、有麼、＜問答不録、＞乃云、吹毛剣出<anchor type="bookmark-start"
+                    xml:id="id__Hlk111505257"/>匣<ptr type="bookmark-end" target="#id__Hlk111505257"
+                />兮裂破魔網、不犯鋒鋩、如意珠在掌兮相随天色、互照五方、菩薩因此開七覚之路、凡流由是出諸暗之郷、便見徳山（宣鑑）棒頭朗宗眼、臨済（義玄）喝下定玄綱、祖天増瑞気、仏日吐祥光、且道、釼未出匣、珠未在掌巳〔已〕前、還有這箇消息麼、＜良久云、＞水晶簏動微風起、満架薔薇一院香、</p>
+            <p>復挙、世尊纔生下、一手指天、一手指地、周行七歩、目顧四方云、天上天下、唯我独尊、瑞龍当時若見、即向他道、更進一歩、</p>
+            <p>結夏小参、問在答処、答在問処、纔動口唇皮、都是閑言語、閉却咽喉唇吻、置一問来有麼、＜問答不録、＞乃云、竺乾厳制蠟人氷、従此伝来照世燈、仏滅二千三百載、祖天明朗月孤稜、於斯薦得、替仏祖揚化、為人天作師、豈不快乎、苟或未然、且以<anchor
+                    type="bookmark-start" xml:id="id__Hlk111586370"/>一念不生前後際断<ptr
+                    type="bookmark-end" target="#id__Hlk111586370"
+                />為期、休去歇去、自然時節到来、見得本来面目、発越本地風光、縦使一到恁麼田地、若是功用未泯、所得未忘、猶是客作漢、作麼生是帰家穏坐底一著、＜挙払子云、＞看看、</p>
+            <p>復挙、雲門（文偃）云、今月十五入夏也、寒山子作麼生、自代云、和尚問寒山、学人答拾得、瑞龍不然、敢問諸人、今夜小参、明朝入夏也、入夏一句作麼生、試自代云、来日結制、且道、与雲門是同是別、請五頭首、来夜為衆剖判、</p>
+            <p>結夏上堂、雄機妙辯、電巻電馳、若論此事、転見乖離、莫有不恁麼来底麼、＜問答罷、＞乃云、従上来事、遍界不蔵、橫亘十方、竪窮三際、大之則包裹十虚、小之則摂入繊芥、瑞龍結夏、別立封彊、我道場即是浮幢王刹、浮幢王刹即是我道場、所以謂、無辺刹境、自他不隔於毫端、十世古今、始終不離於当念、如是修証、如是護生、則日日三秋、時時九夏、究竟成得什麼辺事、＜良久云、＞薫風自南来、殿閣生微凉、</p>
+            <p>復挙、仏眼遠禅師（清遠）結夏上堂云、揮戈仏日不西流、照徹人間洞九幽、従此安居無一事、休将玄妙掛心頭、拈云、仏眼唱高和稀、且聴瑞龍吟、禅林草木也風流、豈止鵝珠光照幽、芍薬花開菩薩面、椶櫚葉散夜叉頭、</p>
+            <p>五月旦上堂、事不過三、月不過五、預報君知、節近重午、不応門兮釘桃符、不応戸兮懸艾虎、未喫地皮餅、先飲天甘露、不審因什麼如此、＜良久云、＞建成清浄伽藍、坐断太平寰宇、</p>
+            <p>解夏小参、言前的旨、向上提持、千人万人裏、独許作者知、有麼、＜問答不録、＞乃云、南禅一夏九旬裏、自牧潙山（霊祐）水牯牛、試挙鉄鞭趍不去、臥雲眠月飽齁々、恁麼恁麼、黄頤碧眼不知端由、不恁麼不恁麼、金剛菩薩暗裏点頭、畢竟作麼生、小参不免老跛脚、特地令人憶趙州（従諗）、</p>
+            <p>上堂、一二三四五、分明為君挙、苟或未会、不妨進語、有麼、＜問答罷、＞乃云、祖師心印、黄金鋳鉄牛、衲僧真機、法身蔵北斗、蠟人氷鵝護雪、剋期修証禁足安居、雖然九十日際、二六時中、大用現前、霊光独耀、全提半提、捩転達磨祖師鼻孔、挙足下足、遊戯釈迦如来道場、畢竟成得恁麼辺事、＜挙払云、＞此亀毛払重千鈞、</p>
+            <p>復挙、葉県省禅師（帰省）因僧問、夏終此日、師意如何、葉県云、今年夏末去年秋、東京西洛任意遊、葉県唯事逍遥、全無賞労之心、南禅忽有人問、夏終此日、師意如何、即与三十棒、何故、重賞之下必有勇夫、</p>
+            <p>八月旦上堂、四十九年天上人間、三百余会顕演密説、玉偈金章、経論戒律、跋迦世尊、未免弄巧成拙、雖然別有好処、誰敢委悉、苟未委悉、山僧試向黒豆未生芽先検出去、＜竪起払云、＞秤槌元是鉄、</p>
+            <p>中秋上堂、憶著南泉（普願）嘗翫月、不知劫外幾秋風、広寒宮裏設機穽、生陥長沙（景岑）岑大虫、</p>
+            <p>上堂、十語九中、転見差互、百了千当、未免莽鹵、若是俊流、<anchor type="bookmark-start" xml:id="id__Hlk111655093"
+                    />直下休去、<ptr type="bookmark-end" target="#id__Hlk111655093"
+                />直下休去、＜擲下払子云、＞谿辺玉女、驚抛機杼、</p>
+            <p>謝蔵主書記首座上堂、瑞龍門下、逈絶雷同、菩薩金剛、喜気相通、白兎毫上、忽現大空、黄龍洞裏、再見桃紅、小釈迦文続残夢、巾瓶放下上天宮、</p>
+            <p>謝西堂幷首座上堂、乗大人境、入円融門、一動一静、道高義敦、箇々胸中懸日月、人々掌内握乾坤、別有新奇句、欲弁巳〔已〕忘言、煩箇木上座弁去、＜卓丈云、＞両堂同一喝、各雷四海奔、</p>
+            <p>重陽上堂、重陽九日菊花新、両箇高人別是春、担却山門斉著力、笑他北斗裏蔵身、</p>
+            <p>九月旦武州大守（細川頼之）請上堂、一千七百、公案現成、倘能会得、出来証明、有麼、＜問答罷、乃竪起払子云、＞見見麼、＜又撃床云、＞聞聞麼、見性聞性清浄、声塵色塵全真、然則各各人中金獅子、箇箇天上玉麒麟、其或未信得及、東坡居士明道偈云、谿声便是広長舌、山色豈非清浄身、大哉見聞清浄功徳、歴劫不応緇磷、仏祖<anchor
+                    type="bookmark-start" xml:id="id__Hlk111675980"/>用此功徳力、<ptr type="bookmark-end"
+                    target="#id__Hlk111675980"
+                />坐微塵裏転大法輪、宗師用此功徳力、説玄説妙替仏度人、王臣憑茲功徳力、以文以武治国安民、只如百姓、日用不知、又作麼生折合、真玉泥中異、不受万機塵、</p>
+            <p>伏惟武州太守、内鐘男山之神秀、外挺武林之奇英、不戦以屈人兵、無為而讃聖化、勤行孝道、酬乎雙親罔極之恩、信入宗門、会乎列祖単伝之旨、此日命駕入山、台旆臨席、便見山川増瑞気、草木生光輝、下情懽抃之誠、万倍恒品、伏乞昭察、</p>
+            <p>復挙、閩帥問寿山禅師（師解）、寿山年多少、山云、与虚空斉年、虚空年多少、山云、与寿山斉年、且道、閩帥肯他、寿山也否、須問他虚空始得、</p>
+            <p>九月望、亀山上皇聖忌拈香、年年九月、詣聖龕瀝丹心而告、日日六時、坐道場把金文以読、報酬鴻恩、増崇聖福、不動那伽、豁開金剛之眼目、永為苾蒭、牢秉般若之鈞軸、＜挿香云、＞一片兜楼、清香馥郁、</p>
+            <p>達磨忌日拈香、東土鼻祖、南天英傑、自称単伝、誰受妙訣、不契梁王渡江、九年蔵拙、却賺神光（慧可）断臂、千里流血、今晨龍嶠現身、昔日熊峯示滅、面具猶不全、当門版歯缺、莫怪焚此香、伊尹五就桀、</p>
+            <p>冬夜小参、四溟風浪息、千尺老龍眠、頷珠匪龍惜、無人下九淵、有麼、＜問答罷、＞乃云、向上一路、千聖不伝、其平如砥、厥直似絃、纔擬趣向、懸隔天淵、縦使不擬、早是留連、徳山（宣鑑）小参不答話、鼻孔失半辺、趙州（従諗）小参要答話、蹄角不完全、別有施設何也、雲晴碧嶂、月上青天、</p>
+            <p>上堂、中原一宝、凡流未伝、曇華堂上、光影現前、莫有見得分明底麼、＜問答罷、＞廼云、劫初一片閑田、坦然在此山前、是名無陰陽地、曾不与寒暑遷、幾度自売自買、契券知属誰辺、＜竪起払子云、＞印文分暁、字義炳然、三世如来、得此菩提妙果満、十方菩薩、得此般若種知円、咄、今年柑子熟、一顆一文銭、</p>
+            <p>謝秉払上堂、五員頭首、四海聞人、昨逢冬節、同転法輪、兎角兮挑起曹谿月、亀毛兮挽回嵩少春、＜良久云、＞雖是陳年間暦日、一番拈出一番新、</p>
+            <p>十一月望上堂、玄中妙旨、教外宗綱、住持事繁、未遑宣揚、也要為人拈出、＜良久云、＞今朝仲冬月望、</p>
+            <p>臘八上堂、二千年後我逢遭、悔望西天目力労、昨夜中庭松月下、梅花吹出雪山高、</p>
+            <p>除夜小参、臘雪連天白、春風逼戸寒、為君重施設、莫作等閑看、有麼、＜問答罷、召大衆云、＞仏性義叵思議、小之則小於毫釐、大之則大於天地、欲知仏性義、当<hi
+                    rend="color(#222222) background-color(#ffffff)"
+                    >観時節因縁、観得観不得、臘残画角東風裏、春到梅花北雪辺、</hi></p>
+            <p><hi rend="color(#222222) background-color(#ffffff)"
+                    >復挙、冬夜法昌遇禅師（倚遇）与感首座喫菓子、遇拈起橘子云、這箇滋味何似黄龍、感云、須待嘗過始得、遇云、験人端的処、開口便知音、拈云、法昌認賊為子、感首座抱贓叫屈、南禅今夜也要与它雪屈、翻案去、＜良久云、＞潭州紙貴、一状領過、</hi></p>
+            <p><hi rend="color(#222222) background-color(#ffffff)"
+                    >元旦上堂、当此三元、一宝自至、娑伽世尊、是名如意、得之者堪紹仏位、収之者普賑含歯、其功大哉、其徳至矣、＜召大衆云、＞要得之麼、収在如来蔵裏、</hi></p>
+            <p><hi rend="color(#222222) background-color(#ffffff)"
+                    >涅槃上堂、南斗北北斗南、涅槃後有誰諳、喚作法身辺事、早巳〔已〕落二落三、莫有具透関眼底麼、真相本非三十二、涅槃之後</hi>太分明、世間微妙鑪鎚手、把紫磨金鋳不成、</p>
+            <p>三月旦謝首座上堂、小釈迦文時並出、為余提示破沙盆、瑞峯夢勝天宮夢、桃李春風花不言、</p>
+            <p>四月旦上堂、麦秋既至、梅雨弄晴、羊角嶺頭雲冉々、合澗橋下水冷々、騎声蓋色、無滞観聴、応時随節、不昧巳〔已〕霊、＜拈主丈、一画云、＞飛蝗不入境、＜卓一下云、＞馴雉或窺庭、</p>
+            <p>仏誕生上堂、三通技罷、四衆臨筵、天垂宝蓋、地湧金蓮、下坡不走、快便難逢、悉達降誕行七歩云、天上天下、唯我独尊、＜拈主丈云、＞雲門来也、＜卓一下云、＞一棒一条痕、＜良久云、＞将此深心奉塵刹、是則名為報仏恩、</p>
+            <p>結夏小参、瑞龍山橫碧漢、五鳳楼聳蒼穹、塵々解脱、法々円融、通玄一路、向誰開通、有麼、＜問答罷、＞乃云、古来小参、謂之家訓、錯、挙古明今、錯、談玄談妙、錯、盡閻浮界鉄、亦難鋳此三錯、衲僧家、上無攀仰、下絶巳〔已〕躬、肘後帯符、頂門具眼、終日著衣、未嘗掛一縷糸、終日喫飯、未嘗費一粒米、行住坐臥、不在陰界、喜怒哀楽、不離真智、雖然瑞龍門下、未足為上士、何故、大海若知足、百川応倒流、</p>
+            <p>謝頭首上堂、尊宿為余分座時、天宮説法入玄微、黄龍意気雲遮日、四六文章新出奇、両虎威獰風偃草、五千貝葉益騰輝、譬如来現五方色、吾道従来一貫之、作麼生是一、＜拈主丈云、＞南嶽万年枝、</p>
+            <p>五月旦上堂、臨済（義玄）四賓四主、雲門（文偃）三関三句、八字打開、両手分付、若有不肯底漢、出来一一問取、有麼、＜問答罷、＞乃云、摩竭掩室、巳〔已〕過十有五日、毘耶杜詞、是同恁麼時節、澗水潺々、松風瑟々、豈謂杜詞乎、豈謂掩室乎、＜拈主丈、卓一下云、＞驚起釈迦文、<anchor
+                    type="bookmark-start" xml:id="id__Hlk111986400"/>靠倒<ptr type="bookmark-end"
+                    target="#id__Hlk111986400"/>維摩詰、畢竟如何、文章始唐隋、進取帰一律、</p>
+            <p>上堂、池凉無盾日、松老有秦封、神神兮護法、祖祖兮弘宗、壮観絶致今誰主、妙大雲中老臥龍、＜時霊嶽西堂為大雲塔主、＞</p>
+            <p>解夏小参、龍天衛護、清浄伽藍、多少聖衆、前三後三、此中還有出格衲僧麼、＜問答罷、＞廼云、月吐清輝照夜堂、半千衲子坐秋凉、剋期修証無余事、大殿新成既上梁、便見、三世如来坐此道場、示六殊勝、現八吉祥、左囲右遶、龍天八部衆、前引後随、梵釈二天王、因甚如此、＜卓丈一下云、＞諸人還見麼、</p>
+            <p>解夏上堂、句中玄言外旨、天下是地、莫有参得徹底麼、＜問答罷、＞乃云、二千年前摩竭掩</p>
+            <p>室、九十日中虚空打橛、巳〔已〕満聖制之期、正逢自恣之日、当頭解開布袋、従汝擔楖標、恢開封彊、新建梵刹、不犯斧斤、別有奇術、何也、摩訶般若波羅蜜、＜咄、＞</p>
+            <p>復挙、翠巌（令参）夏末示衆云、一夏巳〔已〕来、為兄弟東語西話、看翠巌眉毛在麼、南禅今夏、終無一語為兄弟、只得為土木被役去、与他翠岩優劣如何、君子可八、</p>
+            <p>謝首座上堂、夢裏曾昇知足天、覚来又伴老龍眠、慇懃擬問摩訶衍、大仰山高横面前、峭崚之機誰進取、世尊光射阿難肩、</p>
+            <p>八月望上堂、五千余軸外、一句鉄崑崙、龍門上客、孰堪持論、有麼、＜問答不録、＞乃云、聖恩如海若何酬、看遍竺墳空両眸、万古釈天明朗外、月円当戸正中秋、</p>
+            <p>八月十六日聖忌（後醍醐天皇）拈香、自是一瓣兜楼、能含万徳道韻、沈檀徒仰清芬、脳麝寧侔令聞、香厳二七日中霊場、気似牛糞、薫開三百余会法筵、力回仏運、上味醍醐、普洒兮雰々、正法雷音、大振兮殷々、功高古今、徳被遠近、不知此香、因甚如斯奇特、如斯霊妙耶、＜挿香云、＞戒薀定薀恵薀解脱薀解脱知見薀、</p>
+            <p>重陽謝都寺上堂、不信龍門無宿客、方知庫院有良人、満堂衲子坐禅悦、三世如来転法輪、以何為験、重陽九日菊花新、</p>
+            <p>九月望上堂、一大蔵教外、別有斯経王、法音微妙舌広長、爰値亀山聖忌、高提鷲嶺玄綱、巾車覚路、薦駕先皇、要見斯経王麼、遍界不曾蔵、</p>
+            <p>九月十五日、就南禅院拈香、此香、諸香王中最尊、是名無比解脱、離地而不倒、無根以得活、無等等兮主張五千貝多羅、無上上兮絶勝一朶優曇鉢、信手拈来、菩提種便薫発、挿爐焚去、無明本為焼殺、＜挿香云、＞香界新開、山遥海濶、</p>
+            <p>開爐上堂、白雲深処撥寒夜、少室春従爐底回、大智堂中緘口坐、曇華<anchor type="bookmark-start"
+                    xml:id="id__Hlk112027225"/>紅綻<ptr type="bookmark-end" target="#id__Hlk112027225"
+                />爛枯柴、若問箇無賓主話、此時傍有趙州老（従諗）、鼻孔遼天笑満腮、＜咄、＞</p>
+            <p>冬夜小参、徳山（宣鑑）与趙州、倶是不喞𠺕、南禅今夜小参、只要別定宗猷、莫有具頂門眼底麼、＜問答罷、＞廼云、竺土大仙心、日照月臨、東西密相付、葛藤露布、臨済（義玄）之喝、雲門（文偃）之露、以至天下老和尚、互提綱宗、各開門戸、是則田単火牛、非則李広射虎、南禅老漢、今夜与諸人截断去也、＜以主丈画一画云、＞冬至寒食一百五、</p>
+            <p>復挙、潙山（霊祐）示衆云、仲冬厳寒年年事、<anchor type="bookmark-start" xml:id="id__Hlk112067658"/>晷運<ptr
+                    type="bookmark-end" target="#id__Hlk112067658"
+                />推移事若何、仰山（慧寂）近前叉手立、師云、我也知你答這話不得、拈主丈云、問既一般、答亦相似、為甚麼有肯与不肯、具眼者辨取、</p>
+            <p>上堂、一堂風冷淡、千古意分明、未到此宝所、切忌滞化城、出来相見、有麼、＜問答罷、＞乃云、今朝冬至、慶無不利、飛瀑融氷凌、寒巌回暖気、此間有物逈先天地、何也、大悲千眼亦不能視、＜挙起払子云、＞我無隠乎爾、</p>
+            <p>復挙、慈明円禅師（石霜楚円）冬節上堂云、一冬復一冬、一日復一日、五湖参禅人、佳景休拈出、喝一喝、拈云、慈明為慈悲故有落草談、南禅不然、各自有佳景、不妨拈出来、吾廬梅老大、昨夜一枝開、</p>
+            <p>謝五頭首秉払上堂、第一義諦、第二義門、黄河九曲、水出崑崙、文章豈小技、寔是載道器、大蔵与小蔵、未曾説一字、雖然五馬渡江、一馬為龍、不知孰龍孰馬、＜良久云、＞径路雖異、骨相是同、</p>
+            <p>上堂、現成公案、向上宗綱、燈籠露柱、互相挙揚、若問如何万里崖州、莫有不問而明底麼、＜問答罷、＞乃云、迦葉破顔、神光（慧可カ）得髄、臨済三玄、曹洞五位、乃至百千法門、無量妙義、＜拈主丈云、＞瑞龍分付此拄杖子、便見此拄杖子、化成三十二菩薩、而対維摩大士、各各説不二、維摩只銷一黙、以酬文殊師利、諸人還観聴麼、＜卓一下云、＞震雷不及掩耳、</p>
+            <p>謝詞、伏惟武州太守（細川頼之）、起家乎神武、不蔑太公（呂尚）張良之奇謀、受業乎天龍、高踏無盡参政之芳躅、内持仏戒、外佐皇猷、一張之弓、三尺之剣、以助府君之鈞軸、以致国人之昇平、豈扶桑翹楚乎、今日入山、為法致誠、下情不勝、感激之至、伏乞昭亮、</p>
+            <p>復挙、臨済（義玄）同王常侍入僧堂、王常侍問云、這一堂僧還看経也無、臨済云、不看経、王常侍云、習禅也無、臨済云、不習禅、王常侍云、経又不看、禅又不習、究竟作甚麼、臨済云、総教他成仏作祖去、王常侍云、金屑雖貴落眼成翳、又作麼生、臨済云、将謂你是箇俗漢、拈云、臨済宗門良匠、常侍儒門君子、千載之下未有過之者、祗如今日、武州太守与諸官同入山、与山僧相見、未入僧堂、先到法堂、便得出他王常侍一頭地、以何為験、＜顧視云、＞祗林草木生光輝、</p>
+            <p>上堂、＜因種梅、＞昨接此清客、為開甘露門、不道氷霜苦、唯論気義敦、此中有真趣、欲辨已忘言、忽然記得也、＜横主丈云、＞疎影橫斜水清浅、暗香将動月黄昏、＜卓一下、＞</p>
+            <p>臘月旦上堂、少室峯前、瑞龍山下、風飄六花、天走万馬、人有古今、境無真仮、苟要安心雪団打、＜乃撃床、＞</p>
+            <p>新建三門上堂、＜拈主丈云、＞樹功須箇漢、生鉄鋳崑崙、大明法相、深達心源、胸中掛日月、掌内握乾坤、＜卓一下云、＞刹那滅却阿鼻業、弾指円成八万門、＜又卓一下、＞</p>
+            <p>病起上堂、月月是好月、日日是好日、禅坐文殊堂、端居維摩室、可怜与諸人、同此染時疾、日面仏換骨霊方、月面仏頤神妙術、報平安一句又作麼生、依前北斗裏蔵身、上下四維無等匹、＜咄、＞</p>
+            <p>除夜小参、曇華堂上、法会儼然、臘月三十夜、誰知主丈辺、有麼、＜問答罷、＞乃云、金烏飛玉兎馳、既到迎新送旧時、東土西天何所付、祖師心印鉄牛機、那咤八臂不能摸、摩醘三目誰得窺、従上諸聖、天下宗師、得此挙揚綱宗、謂之向上提持、用此鍛錬衲子、謂之本分鉗鎚、或全體作用、或当面乖離、乖離作用、付与夜胡児、瑞龍今夜、只要与諸人分歳、＜拈主丈、卓一下云、＞莫嫌冷淡無滋味、一飽能消万劫飢、</p>
+            <p>復挙、円悟禅師（克勤）因僧問、年窮歳盡時如何、円悟云、忙者自忙閑者閑、即今有人問、年窮歳盡時如何、便向他道、東方甲乙木、</p>
+            <p>歳旦上堂、太平時至、雪花呈瑞、祖域開三元、宜説第一義、莫有有耳孔底麼、＜問答罷、＞乃云、新年仏法、全無固必、鏡清（道怤）智門（光祚）、金口木舌、我瑞龍門中、有五百賢哲、徳馨黒沈千斤、声価黄金百鎰、応須汲古於曹谿、回春於少室、更有護身奇術、試為諸人拈出、＜挙払子云、＞歳旦把筆、万事皆吉、</p>
+            <p>復挙、投子同禅師（大同）僧問、故歳<anchor type="bookmark-start" xml:id="id__Hlk112162677"
+                    />巳〔已〕去、新歳到来<ptr type="bookmark-end" target="#id__Hlk112162677"/>、<anchor
+                    type="bookmark-start" xml:id="id__Hlk112162714"/>還有不渉二途者也無<ptr
+                    type="bookmark-end" target="#id__Hlk112162714"
+                />、投子云、有、僧云、如何是不渉二途者、投子云、元正啓祚、万物咸新、拈云、此僧問頭、斬新日月、投子答話、特地乾坤、苟或有問瑞龍、故歳巳〔已〕去、新歳到来、還有不渉二途者也無、答云、城上巳〔已〕吹新歳角、窓前猶点旧年燈、＜以払子撃床一下、＞</p>
+            <p>謝新旧両班上堂、老矣身貧道亦貧、自慚漫作住山人、旧新両序皆英傑、塊視諸方席上珍、</p>
+            <p>龍湫和尚住山城州霊亀山天龍資聖禅寺語録</p>
+            <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　侍者　　中序　　編</p>
+            <p>永和二年八月十八日入院、</p>
+            <p>指山門云、亀龍呈瑞、左右逢原、＜弾指一下云、＞弾指円成八万門、＜便入、＞</p>
+            <p>仏殿、巍巍天人師、化身千百億、阿那箇是本身、＜揖云、＞瞿曇万福、</p>
+            <p>土地堂、七里結界、金剛宝宅、神霊莫違、仏勅明白、</p>
+            <p>祖師堂、震旦扶桑、教外封疆、韶光不老、五葉聯芳、</p>
+            <p>拠室、＜拈主丈云、＞這箇是当山鼻祖正覚国師（夢窓疎石）、陶鋳仙陀底本分鉗鎚也、為什麼入拙夫手、看看功不浪施、＜卓一下、＞　　</p>
+            <p>勅黄、欽承　天子勅、則自知因由、霊山勝会猶如昨、一別二千三百秋、</p>
+            <p>府帖、太平之基在此中、法城之固在此中、至竟如何、柳営無日不春風、</p>
+            <p>山門疏、一以貫之、儷六駢四、誠哉文章、載道之器也、</p>
+            <p>法座、＜著法衣云、＞世尊金襴、一肩担荷、須弥燈王仏、借我說法座、＜便登、＞</p>
+            <p>拈香云、此一瓣香、恭為</p>
+            <p>今上皇帝（後円融天皇）祝延　聖寿、万歲万歲万万歲、伏願皇帝陛下、百億妙高山為寿山、仁風永扇、十重香水海作福海、徳沢普霑、</p>
+            <p>此香、奉為征夷将軍（足利義満）資倍寿福洪基、伏冀、紫界宮中佐政、致君於堯舜、碧油幢下修徳、伏国之虎狼、 </p>
+            <p>此香、前際不可得、後際不可得、中際不可得、不可得中只麼得、挿向爐中、供養</p>
+            <p>本寺開山特賜夢窓正覚心宗普済玄猷国師、用酬法乳之恩、</p>
+            <p>垂語、多福之竹為釣竿、潙山（霊祐）之牛為香餌、千尺糸綸、拋不疑地、莫有不貪餌底麼、＜問答罷、以払子打円相云、＞不是荆璧、亦非藍瑛、一顆至宝、全體現成、大矣哉其功兮上蓋太清、至矣哉其徳兮下満太寧、釈迦老漢、以此四十九年、道樹敷栄、達磨大師、以此十万里外、来救迷情、天下禅将、以此慈風內暖、祖令外行、君王、以此高踐宝祚、大生文明、将軍、以此<anchor
+                    type="bookmark-start" xml:id="id__Hlk112192963"/>不施寸刃、坐見太平<ptr
+                    type="bookmark-end" target="#id__Hlk112192963"
+                />、士庶人、以此各楽其業、各遂其生、天龍如斯提唱猶属化城、穏坐宝所、仰祝聖人一句、又作麼生道、蓬瀛誰謂唐天遠、又聴嵩呼万歲声、</p>
+            <p>復挙、如来以無上正法、付囑国王大臣宰相及四部衆、拈云、正法久住世、直至于今日者、豈非国王大臣外護之力乎、試述一偈云、正法何由得久存、霊山付囑鉄崑崙、黄金縦満閻浮界、難鋳王臣外護恩、</p>
+            <p>当晚小參、垂語云、金生麗水、玉出崑崗、我此法窟裏、何人最是良、有麼、＜問答罷、拈主丈云、＞這木上座、三世如来使者化龍、曾捧扶桑暾、通身黒粼皴地、<anchor
+                    type="bookmark-start" xml:id="id__Hlk112195369"/>挙體<ptr type="bookmark-end"
+                    target="#id__Hlk112195369"
+                />無刀斧痕、擒縦与奪、恢開仏祖玄門、横拈倒用、摧伏内外魔冤、加之有時伴到清風塢、有時携游明月村、用助無為之化、以報不報之恩、便見繁茂宗枝宗葉、出生令子令孫、鳳翔鸞舞、龍蟠虎蹲、且道、木上座為甚如斯最貴最尊、＜卓一下、＞列聖叢中托本根、</p>
+            <p>復挙、徳山（宣鑑）小参不答話、趙州（従諗）小参却答話、拈云、二大老、風流雖異、敗闕是同、那裏是他敗闕処、林下好商量、</p>
+            <p>上堂、恰是中秋三日後、我来初欲整頽綱、拈花嶺上看雲起、度月橋辺覚水香、何用将珠弾燕雀、臾須種栢致鸞凰、為君略挙先師意、要発那伽定眼光、</p>
+            <p>重陽上堂、借問汾陽安在哉、冥鴻時自遠方來、三玄戈甲棄如土、一寸丹心冷似灰、入万松雲迎菊節、湘曹源水把茶杯、青山白髮南軒下、独自憐兮独自咍、</p>
+            <p>開爐上堂、昨宵九秋末、今日三冬初、有一句子、包含太虚、要会麼、衲子圍爐、＜下座、＞</p>
+            <p>十月望上堂、為君挙古、臨済（義玄）之嘘、雲門（文偃）之普、雪峯（義存）輥毯、禾山（無殷）打鼓、休休、此道今人棄如土、＜以払擊床、下座、＞</p>
+            <p>十一月旦上堂、形山一宝、明如十日、在聖在凡、無得無失、自是諸人、不肯委悉、天龍不惜眉毛、要為諸人拈出、＜良久云、＞今朝十一月初一、</p>
+            <p>冬夜小参、堂中鼓響、楼上鐘鳴、清浄教體、一一分明、莫有證円通底麼、＜問答罷、＞乃云、三玄三要、一陰一陽、脚下孤迥々、面前露堂々、会則那陀擎鉄柱、不会則山月照屋梁、要会麼、洎乎増金以黄、</p>
+            <p>復挙、僧問古徳、如何是冬来事、徳云、京師出大黄、拈云、応病施薬、還他古徳、只是未在、今夜有人問、如何是冬来事、答云、一陽纔啓、天地咸知、</p>
+            <p>冬至上堂、今日冬至、叢林鼎沸、只知慶賀書雲、不会西来祖意、還有会底麼、＜問答罷、＞乃云、今日書雲節、隨分有施設、衲僧膝下、百鍊精金、金剛脳後、三斤生鉄、人有揀擇、物無優劣、舜若多神笑点頭、矯梵波提驚吐舌、別別別有新奇不須説、何故金色頭陀曾漏泄、</p>
+            <p>復挙、慶雲和尚因僧問、如何是極則処、雲云、冬後一陽生、天龍不然、若問極則処、便向他道、含元殿裏覓長安、</p>
+            <p>謝四頭首上堂、冬至秉拂、玄辯無窮、却後一冬二冬、乃至百千万冬、十方智者、同讃此宗、何由云爾、呈祥呈瑞、麟鳳亀龍、乃説偈云、問蔵聖箭答神鋒、普慧普賢応譲雄、奏凱帰来四禅将、衝天意気絶雷同、 </p>
+            <p>謝都寺進退上堂、天龍庫堂裏、比有好主人、其退者仍旧、其進者知新、暁看亀山面、喜色転津津、且道、喜是什麼、転食輪時転法輪、</p>
+            <p>臘月旦病起上堂、良哉季冬月旦、祖域復還旧観、新建山門十八楹、日面月面脱病患、次上大梁三四條、雌虹雄虹偃霄漢、居此竺土大仙家、宜把娘生凡骨換、換凡骨兮居仙家、宿雨乍晴宿霧散、左有白虎勢走過、右有青龍回做案、因什麼如是奇特、＜拈主丈云、＞看看、</p>
+            <p>臘八上堂、大覚世尊、二千年前、丁明星現方成道、三転法輪於大千、敢問諸人、作麼生是他成底道、若不同床睡、争知被底穿、</p>
+            <p>除夜小參、今歲今宵去、明年明日来、有物無来去、堂々面目開、苟或未覷著、鉄鋸舞三台、莫有覷著底麼、＜問答罷、＞乃云、庭前老栢将加歲、屋後寒梅巳〔已〕報春、突出毗盧清浄體、休言北斗裏蔵身、以世諦観之、法身即是老柏寒梅、以道眼観之、老栢梅寒梅即是法身、諸人若開得道眼、脱得根塵、天龍今夜分歲不妨、特地抜貧相共分歲去、曹源池氷如鉄、三級厳雪似銀、莫嫌冷淡無滋味、知味還他達道人、阿轆々飽齁々、更説甚麼、洞山（良价）菓子、北禅（智賢）白牛、＜以払擊禅床云、＞莫教白却少年頭、</p>
+            <p>復挙、僧問円悟禅師（克勤）、年窮歲盡時如何、円悟云、忙者自忙、閑者自閑、山僧有箇頌子、挙似諸人、忙者自忙間者間、瑤琴弾罷又重弾、此声不在常人指、付与松風倚曲欄、</p>
+            <p>歳旦上堂、龍門天暁、亀嶠春回、故抉禹穴、欲得黄能、有麼、＜問答罷、＞乃云、新年仏法、大蔵小蔵、霞【糸+慆のつくり】未展前、如何為提唱、山色清浄法身、谿声広長舌相、恒以<anchor
+                    type="bookmark-start" xml:id="id__Hlk112247452"/>無礙妙辯才<ptr type="bookmark-end"
+                    target="#id__Hlk112247452"/>、長<anchor type="bookmark-start"
+                    xml:id="id__Hlk112247432"/>伸真法供養<ptr type="bookmark-end"
+                    target="#id__Hlk112247432"/>、諸仁者向這裏認得経王去、不妨為人天瞻仰、＜拈主丈云、＞彷彿揚〔楊〕彪延年杖、</p>
+            <p>復挙、承天崧禅師（智崧）因賀新歳安太保問、新歳巳〔已〕臨、旧歳何在、承天云、今日釘桃符、太保無語、承天乃有頌云、今日釘桃符、摧邪道自如、誰人相委悉、除是碧眼胡、天龍向他承天説不到処、説一偈、不必釘桃符、妖邪一箇無、諸天承仏勅、相与護龍雛、</p>
+            <p>退院上堂、五百叢中亀嶠巓、破沙盆話挙難全、東山元有寒梅樹、行問吾家拄杖辺、</p>
+            <p>龍湫和尚再住南禅禅寺語録</p>
+            <p>至徳三年丙寅八月四日入院、</p>
+            <p>山門、＜弾指云、＞五山之上、三脱門開、＜傾視左右云、＞諸菩薩子、随我入来、＜便入、＞</p>
+            <p>仏殿、紫金躯、広長舌、八音四辯才、三世一時説、一一点検将来、悉是随他意説、随自意説、作麼生、<anchor type="bookmark-start"
+                    xml:id="id__Hlk112255977"/>止止不須説<ptr type="bookmark-end"
+                    target="#id__Hlk112255977"/>、物物上現成、頭頭上漏泄、</p>
+            <p>土地、土地土地、寧無威徳、顕正摧邪、莫違大集経中仏勅、</p>
+            <p>祖師、心印心印、仏祖不伝、若謂密付、<anchor type="bookmark-start" xml:id="id__Hlk112277338"
+                    />此去西天十万八千<ptr type="bookmark-end" target="#id__Hlk112277338"/>、</p>
+            <p>拠室、万丈深淵、老龍将眠、＜拈主丈云、＞善友太子来也、又与耳中宝珠、価直三千大千、＜卓一下、＞</p>
+            <p>拈綸旨幷府帖、大哉　皇恩、至矣　君徳、三転法輪、両封文墨、</p>
+            <p>山門疏、東班両序、贈此嘉音、片言隻字、美玉精金、</p>
+            <p>諸山疏、鑿壁買隣、々好如春、文章載道、祖天奎辰、</p>
+            <p>法座、＜立拝席、挙袈裟角云、＞披此獅子皮、宜拠獅子座、須弥燈王仏、且在那辺坐、</p>
+            <p>此一瓣香、爇向爐中、恭為</p>
+            <p>今上皇帝（後小松天皇）祝延　聖寿、万歳万歳万万歳、恭願、塊雨条風、新開乎三五之宇宙、金枝玉葉、共保於八千之春秋、</p>
+            <p>此香、為　准三后征夷大将軍従一位行左大臣（足利義満）、伏願、輔弼王道、<anchor type="bookmark-start"
+                    xml:id="id__Hlk112281155"/>虎韜<ptr type="bookmark-end" target="#id__Hlk112281155"
+                />豹略弥奇、衛護仏門、亀齢鶴寿増久、</p>
+            <p>此香、奉為　五帝尊師天龍鼻祖特賜夢窓正覚心宗普済玄猷国師大和尚（疎石）、用酬法乳之恩、</p>
+            <p>就座、＜問答不録、以払子打円相云、＞此是一宝、百瑞千祥、徳充三際、光照十方、天子得之、以為中原宝、富自鳳闕、晋賑群臣、相将得之、以為三尺剣、坐平六国、永安万民、士庶人得之、以為忠孝之本、極忠乎君、極孝於親、諸仏諸祖乃至天下老和尚得之、以為船筏、踰越苦海、救済迷津、新南禅得之、以為拄杖子、仏来也打、祖来也打、究竟功帰何処、＜卓主丈両下云、＞野老不知堯舜力、鼕々撾皷祭江神、＜又卓一下、謝詞不録、＞</p>
+            <p>復挙、<anchor type="bookmark-start" xml:id="id__Hlk112369199"/>裴<ptr type="bookmark-end"
+                    target="#id__Hlk112369199"
+                />相国（裴休）到石霜（楚円）、石霜拈提相国笏而問、在天子手中為圭、在相国手中為笏、在老僧手中喚作甚麼、相国無対、石霜乃留下笏子、裴相国無酧対、貪看天上月、石霜留下笏子、失却掌中珠、今日　源相公入山、手中笏子、山僧不敢拈起、且道、喚作笏子則触、不喚作笏子則背、喚作甚麼、且緩緩、</p>
+            <p>当晩小参、＜問答不録、＞残生七十六年間、業債難逃再住山、別有金剛王宝釼、従教鈯斧鉄尤頑、敢報諸仁者、我宗無語句、又無一法与人、要須与衆俱折旋、与衆俱俯仰、諸仁者若謂師者、人之模範也、模而不模、範而不範、即向他道、大夫自有丈夫作、不向時人行処行、＜以払子撃床角云、＞有意気時添意気、不風流処也風流、＜謝語不録、＞</p>
+            <p>復挙、龍牙遁（居遁）云、木食草衣心似月、一生無念又無涯、時人若問居何処、緑水青山是我家、老夫（周沢）依韻供養大衆、近得栖遅丘壑楽、麻衣紙帳即生涯、朝来居此毘盧頂、凡聖含霊共一家、</p>
+            <p>翌日就于南禅院、対　亀山覚皇真拈香、無上法王開法城、山鍾神秀転<anchor type="bookmark-start"
+                    xml:id="id__Hlk112373089"/>崢嶸<ptr type="bookmark-end" target="#id__Hlk112373089"
+                />、＜挙起香云、＞此香借我真薫力、再覲尊顔謝聖明、</p>
+            <p>中秋上堂、＜竪払子云、＞微塵裡出大経巻、斯経乃在法王宮、四十九年促為一七日中、三百余会移置此瑞龍峯、箇箇看経、眼根清浄、人人誦呪、舌本玲瓏、終而復始、始而復終、且道、</p>
+            <p>醍醐天帝、憑茲殊勲、堪紹仏祖也否、＜以払子打円相云、＞尋常一様天辺月、纔値中秋便不同、</p>
+            <p>八月十六日　後醍醐天皇御諱拈香、貝多羅葉種子、菩提樹王霊根、含畜無量妙果、功徳充塞乾坤、恭惟、一統天下、重鎮日辺、仁風蕩蕩、王道平平、高居北闕、益崇南禅、将安多衆、重施良田、睿願転大、信力弥堅、便見、寺為五山之上、僧居群峯絶巓、焚修纔是七日、報恩安得十全、報恩十全一句作麼生、＜挿香云、＞一片兜楼一縷煙、</p>
+        </body>
+    </text>
+</TEI>
