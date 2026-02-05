@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>五榜の掲示 第四札</title>
+        <respStmt>
+          <resp>TEIエンコーディング</resp>
+          <name>東京大学学術資産アーカイブ化推進室</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>東京大学法学部法制史資料室所蔵『五榜の掲示 第四札』</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1868">発給年月(和暦):[慶応4年]3月|掲示年月(和暦):明治元年9月|発給年月(西暦):[1868.4]|掲示年月(西暦):[1868.10]</date>
+      </creation>
+      <langUsage>
+        <language ident="jpn">日本語</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/law/text/cd1d69d1-03b8-4217-40c6-a8a7128f4200/cd1d69d1-03b8-4217-40c6-a8a7128f4200.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>本文XMLは、翻刻テキストをもとにTEIGarageを使用して作成した。</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile sameAs="https://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/cd1d69d1-03b8-4217-40c6-a8a7128f4200/manifest">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="16300" lry="9571" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd1d69d1-03b8-4217-40c6-a8a7128f4200/canvas/p1">
+			<label>[1]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-16_TIFF/HYOHEI-16-1_TIFF/HYOHEI-16-1.tif"/>
+		</surface>
+    <surface xml:id="f001" ulx="0" uly="0" lrx="16300" lry="9571" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/cd1d69d1-03b8-4217-40c6-a8a7128f4200/canvas/p2">
+			<label>[2]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-16_TIFF/HYOHEI-16-1_TIFF/HYOHEI-16-1-r.tif"/>
+		</surface>
+  </facsimile>
+  <text>
+        <body>
+            <p> 覚</p>
+            <p>今般</p>
+            <p>王政御一新ニ付</p>
+            <p>朝廷之御條理を追ひ外国御交際</p>
+            <p>之義被仰出諸事於</p>
+            <p>朝廷直チニ御取扱被為成万国公法</p>
+            <p>を以条約御履行被為在候ニ付テ者</p>
+            <p>全国之人民</p>
+            <p>叡旨を奉戴し心得違無之様被</p>
+            <p>仰付候自今以後猥りニ外国人を殺害し</p>
+            <p>或不心得之所業等たし候もの者</p>
+            <p>朝命ニ悖り御国難を醸成候而已な</p>
+            <p>らず一旦御交際被 [[[UNTRANSLATED text:ruby: [[[UNTRANSLATED text:ruby-base: 仰]]]
+                [[[UNTRANSLATED text:ruby-text: そもそも]]] ]]] 出候各国ニ対し</p>
+            <p>皇国之御威信も不相立次第甚以</p>
+            <p>不屈至極之儀ニ付其罪之軽重ニ随ひ士列の</p>
+            <p>ものといへとも削士籍至当之典刑候条慶</p>
+            <p>候条銘之奉</p>
+            <p>朝命猥リニ暴行之所業を無之様被</p>
+            <p>仰出御事</p>
+            <p> 三月 太政官</p>
+            <p>右被仰御之堅可相守者也</p>
+            <p> 明治元年辰年九月</p>
+        </body>
+      </text>
+</TEI>
