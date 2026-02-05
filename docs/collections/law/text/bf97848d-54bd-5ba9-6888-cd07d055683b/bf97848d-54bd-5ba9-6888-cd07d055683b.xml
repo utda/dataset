@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>徒党札</title>
+        <respStmt>
+          <resp>TEIエンコーディング</resp>
+          <name>東京大学学術資産アーカイブ化推進室</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>東京大学法学部法制史資料室所蔵『徒党札』</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1770-05">発給年月(和暦):明和7年4月|発給年月(西暦):[1770.5]</date>
+      </creation>
+      <langUsage>
+        <language ident="jpn">日本語</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/law/text/bf97848d-54bd-5ba9-6888-cd07d055683b/bf97848d-54bd-5ba9-6888-cd07d055683b.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>本文XMLは、翻刻テキストをもとにTEIGarageを使用して作成した。</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile sameAs="https://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/bf97848d-54bd-5ba9-6888-cd07d055683b/manifest">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="19224" lry="9488" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bf97848d-54bd-5ba9-6888-cd07d055683b/canvas/p1">
+			<label>[1]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-7_TIFF/HYOHEI-7.tif"/>
+		</surface>
+    <surface xml:id="f001" ulx="0" uly="0" lrx="19224" lry="9488" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bf97848d-54bd-5ba9-6888-cd07d055683b/canvas/p2">
+			<label>[2]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-7_TIFF/HYOHEI-7-r.tif"/>
+		</surface>
+    <surface xml:id="f002" ulx="0" uly="0" lrx="8417" lry="3880" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/bf97848d-54bd-5ba9-6888-cd07d055683b/canvas/p3">
+			<label>[3]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-7_TIFF/HYOHEI-7-s.tif"/>
+		</surface>
+    </facsimile>
+  <text>
+        <body>
+            <p>
+                <hi rend="color(#000000)"> </hi>
+                <hi rend="color(#000000)">定</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">何事によらずよろしからざる事に百姓</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">大勢申合せ候をととうととなへととうして</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">志ゐて祢かひ事 くわたつるをこうそと</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">いひあるひハ申合村方たちのき候をてう</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">さんと申前々より御法度候條右類の儀<lb/>これあらハ 居むら他村にかきらず</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">早々そのすじの役所へ申出べし御ほうび</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">として<lb/> ととうの訴人 銀百枚<lb/> こうその訴人 同断<lb/> てうさんの訴人 同断<lb/>
+                    右之通下されその品により帯刀苗字も</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">御免あるべき間たとへ一旦同類に成とも</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">発言いたし候ものゝ名前申出るにおゐてハ</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">その科をゆるされ御ほうび下さるべし<lb/>右類訴人いたすものなく村方</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">騒立候節村内のものをさ押へ<lb/>ととうにくわゝらせず一人も</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">さしいたさゞる村方これあらハ村役人にても</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">百姓にても重にとり志つめ候ものハ</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">御褒美銀被下され帯刀苗字御免さし</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">つき志つめ候ものともこれあらハそれそれ</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">御ほうび下しおかるべき者也<lb/>明和七年四月</hi>
+                <hi rend="color(#000000)">奉行</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">右之通状 仰出候ゆえ相守無？者也</hi>
+            </p>
+        </body>
+      </text>
+</TEI>

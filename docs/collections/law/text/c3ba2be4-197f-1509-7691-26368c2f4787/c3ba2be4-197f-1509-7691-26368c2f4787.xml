@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>五榜の掲示 第五札</title>
+        <respStmt>
+          <resp>TEIエンコーディング</resp>
+          <name>東京大学学術資産アーカイブ化推進室</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>東京大学法学部法制史資料室所蔵『五榜の掲示 第五札』</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1868-04">発給年月(和暦):[慶応4年]3月|発給年月(西暦):[1868.4]</date>
+      </creation>
+      <langUsage>
+        <language ident="jpn">日本語</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/law/text/c3ba2be4-197f-1509-7691-26368c2f4787/c3ba2be4-197f-1509-7691-26368c2f4787.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>本文XMLは、翻刻テキストをもとにTEIGarageを使用して作成した。</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile sameAs="https://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/c3ba2be4-197f-1509-7691-26368c2f4787/manifest">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="19169" lry="9643" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c3ba2be4-197f-1509-7691-26368c2f4787/canvas/p1">
+			<label>[1]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-9_TIFF/HYOHEI-9.tif"/>
+		</surface>
+    <surface xml:id="f001" ulx="0" uly="0" lrx="19169" lry="9643" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c3ba2be4-197f-1509-7691-26368c2f4787/canvas/p2">
+			<label>[2]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-9_TIFF/HYOHEI-9-r.tif"/>
+		</surface>
+  </facsimile>
+  <text>
+        <body>
+            <p> 覚</p>
+            <p>王政御一新<hi rend="sup">ニ</hi>付而者速<hi rend="sup">ニ</hi>天下</p>
+            <p>御平定萬民安堵<hi rend="sup">ニ</hi>至<hi rend="sup">り</hi>諸民</p>
+            <p>其所を得候様</p>
+            <p>御煩慮被為 在候<hi rend="sup">ニ</hi>付此折柄</p>
+            <p>天下浮浪之もの有之候様<hi rend="sup">ニ</hi>而者</p>
+            <p>不相濟候自然今日之形勢を窺<hi rend="sup">ヒ</hi></p>
+            <p>猥<hi rend="sup">りニ</hi>士民共本國を脱走致し候儀</p>
+            <p>堅く被差留候萬一脱國之もの有之</p>
+            <p>不埒之所業いたし候節者主宰</p>
+            <p>のもの落度たるへく候尤此御時</p>
+            <p>節<hi rend="sup">ニ</hi>付無上下</p>
+            <p>皇國之御為又者主家之為筋等</p>
+            <p> 存込走建言致候もの者言路<hi rend="sup">ヲ</hi>開公正之</p>
+            <p> 心を以其旨趣を尽させ依願太政官</p>
+            <p>代<hi rend="sup">えも</hi>可申出被 仰出候事</p>
+            <p> 但今後総て士奉公人者不及申農商</p>
+            <p> 奉公人<hi rend="sup">ニ</hi>いたるまて相抱候節者出所篤<hi rend="sup">と</hi></p>
+            <p> 相糺可申自然脱走之もの相抱へ不埒出来御厄害</p>
+            <p> 立至り候節者其主人之可為落度候事</p>
+            <p> </p>
+            <p> 三月 太政官</p>
+        </body>
+      </text>
+</TEI>

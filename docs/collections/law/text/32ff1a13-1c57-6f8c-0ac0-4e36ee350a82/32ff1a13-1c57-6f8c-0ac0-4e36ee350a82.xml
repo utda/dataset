@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>五榜の掲示 第二札</title>
+        <respStmt>
+          <resp>TEIエンコーディング</resp>
+          <name>東京大学学術資産アーカイブ化推進室</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>東京大学法学部法制史資料室所蔵『五榜の掲示 第二札』</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1868-04">発給年月(和暦):慶応4年3月|発給年月(西暦):[1868.4]</date>
+      </creation>
+      <langUsage>
+        <language ident="jpn">日本語</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/law/text/32ff1a13-1c57-6f8c-0ac0-4e36ee350a82/32ff1a13-1c57-6f8c-0ac0-4e36ee350a82.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>本文XMLは、翻刻テキストをもとにTEIGarageを使用して作成した。</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile sameAs="https://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/32ff1a13-1c57-6f8c-0ac0-4e36ee350a82/manifest">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="14204" lry="10652" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/32ff1a13-1c57-6f8c-0ac0-4e36ee350a82/canvas/p1">
+			<label>[1]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-27_TIFF/HYOHEI-27.tif"/>
+		</surface>
+    <surface xml:id="f001" ulx="0" uly="0" lrx="14204" lry="10652" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/32ff1a13-1c57-6f8c-0ac0-4e36ee350a82/canvas/p2">
+			<label>[2]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HYOHEI-27_TIFF/HYOHEI-27-r.tif"/>
+		</surface>
+  </facsimile>
+  <text>
+        <body>
+            <p rend="start">
+                <hi rend="color(#222222) background-color(#ffffff)"> 定</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">何事によらつよろしから</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">さる事に大勢申合候をととうと</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">となへととうしてしゐてねかひ事</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">くわたつるを</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">こ？うそといひあるひハ申合せ</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">居町居村をたちのき候を</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">てうさんと申す堅く</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">御法度たり？若右類之儀</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">これあらハ早々其筋の</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">役所へ申出へし御ほふひ</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">下さるへく事</hi>
+            </p>
+            <p rend="start">
+                <hi rend="color(#222222)">慶應四年三月</hi>
+                <hi rend="color(#222222)">太政官</hi>
+            </p>
+        </body>
+      </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>五榜の掲示 第四札</title>
+        <respStmt>
+          <resp>TEIエンコーディング</resp>
+          <name>東京大学学術資産アーカイブ化推進室</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>東京大学学術資産アーカイブ化推進室</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>東京大学法学部法制史資料室所蔵『五榜の掲示 第四札』</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1868-04">発給年月(和暦):[慶応4年]3月|発給年月(西暦):[1868.4]</date>
+      </creation>
+      <langUsage>
+        <language ident="jpn">日本語</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>このTEI/XMLファイルは、<ref target="https://github.com/utda/dataset/blob/master/docs/collections/law/text/22b409ba-4940-4403-3da6-0ed30396904c/22b409ba-4940-4403-3da6-0ed30396904c.rtf">翻刻テキスト</ref>をもとに東京大学学術資産アーカイブ化推進室が作成した。</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>本文XMLは、翻刻テキストをもとにTEIGarageを使用して作成した。</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile sameAs="https://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/22b409ba-4940-4403-3da6-0ed30396904c/manifest">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="21687" lry="9227" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/22b409ba-4940-4403-3da6-0ed30396904c/canvas/p1">
+			<label>[1]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HOSEISHI-20_TIFF/HOSEISHI-20.tif"/>
+		</surface>
+    <surface xml:id="f001" ulx="0" uly="0" lrx="22945" lry="9515" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/22b409ba-4940-4403-3da6-0ed30396904c/canvas/p2">
+			<label>[2]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HOSEISHI-20_TIFF/HOSEISHI-20-r.tif"/>
+		</surface>
+    <surface xml:id="f002" ulx="0" uly="0" lrx="21687" lry="9227" sameAs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/22b409ba-4940-4403-3da6-0ed30396904c/canvas/p3">
+			<label>[3]</label>
+			<graphic mimeType="application/json" url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/houken2022/TIFF_HD3/HOSEISHI-20_TIFF/HOSEISHI-20-c.tif"/>
+		</surface>
+  </facsimile>
+  <text>
+        <body>
+            <p> 覚</p>
+            <p>今般</p>
+            <p>王政御一新ニ付</p>
+            <p>朝廷之御條理ニ選？ひ外国御交際</p>
+            <p> 之儀被仰出諸事於</p>
+            <p>朝廷直ち御取扱法為成美国公法を以</p>
+            <p> 条約御履行被？為在候ニ而？者全国の人民</p>
+            <p>叡旨を奉戴候心得違無之様御仰付候</p>
+            <p> 自今以後猥りニ外国人を殺害し或ゐ？ハ</p>
+            <p> 不心得之所業いたし候もの者</p>
+            <p>朝命ニ悖り？御国難を醸成し候 [[[UNTRANSLATED text:ruby: [[[UNTRANSLATED text:ruby-base: 已]]]
+                [[[UNTRANSLATED text:ruby-text: ノミ]]] ]]] </p>
+            <p> なら候？一旦御交際被仰出候各国ニ対し</p>
+            <p>皇国之御威信も不相立次第甚以不屈</p>
+            <p>・至極之儀ニ付其罪之軽重ニ随い士列之</p>
+            <p> もの与雖も削士籍至当之典刑候</p>
+            <p> 条慶候条銘之奉</p>
+            <p>朝命猥ニ暴行之所業を無之様被</p>
+            <p> 仰出御事</p>
+            <p> 三月 太政官</p>
+            <p> </p>
+        </body>
+      </text>
+</TEI>
